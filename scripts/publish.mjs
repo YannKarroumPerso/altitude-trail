@@ -94,13 +94,14 @@ function commitAndPush(count) {
     console.log("[publish] aucun changement à committer.");
     return;
   }
-  execSync("git add content/articles src/lib/data.ts", { stdio: "inherit" });
+  execSync("git add content/articles public/articles src/lib/data.ts", { stdio: "inherit" });
   const msg = `chore(veille): publication de ${count} article(s) [skip ci]`;
   execSync(`git commit -m ${JSON.stringify(msg)}`, { stdio: "inherit" });
   execSync("git push", { stdio: "inherit" });
 }
 
 async function main() {
+  await fs.mkdir(path.resolve("public/articles"), { recursive: true });
   const articles = await loadArticles();
   console.log(`[publish] ${articles.length} article(s) dans content/articles/`);
   const updated = await updateDataFile(articles);

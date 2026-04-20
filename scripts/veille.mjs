@@ -24,10 +24,21 @@ const SOURCES = [
 ];
 
 const CONTENT_DIR = path.resolve("content/articles");
+const PUBLIC_IMAGES_DIR = path.resolve("public/articles");
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-opus-4-7";
 const MAX_PER_SOURCE = parseInt(process.env.MAX_ARTICLES_PER_SOURCE || "2", 10);
 const MIN_SOURCE_LENGTH = 400;
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80";
+
+const BFL_BASE_URL = process.env.BFL_BASE_URL || "https://api.bfl.ai/v1";
+const FLUX_MODEL = process.env.FLUX_MODEL || "flux-pro-1.1";
+const FLUX_STYLE_SUFFIX = ", cinematic photography, trail running athlete, alpine mountain landscape, dramatic natural lighting, shallow depth of field, 35mm film, ultra realistic, editorial magazine style";
+const FLUX_WIDTH = 1344;
+const FLUX_HEIGHT = 768;
+const FLUX_POLL_INTERVAL_MS = 2000;
+const FLUX_MAX_POLLS = 90;
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const TRAIL_KEYWORD_GROUPS = [
   ["trail", "trailrunning", "trail running", "ultra-trail", "ultratrail", "trail-running"],
@@ -119,7 +130,10 @@ Contraintes strictes :
 - Ne mets AUCUN fence de code (pas de triple backticks). Commence directement par "---".
 - categorySlug doit être exactement l'une de ces valeurs : actualites, debuter, courses-recits, nutrition, entrainement, blessures.
 - readTime au format "X min" (ex: "7 min"), estimé à 230 mots/minute.
-- 3 à 5 tags pertinents, en français, chaînes simples.`;
+- 3 à 5 tags pertinents, en français, chaînes simples.
+- imagePrompt1 : prompt ANGLAIS pour générer une image qui illustre l'introduction de l'article (le contexte, le décor, l'ambiance d'ouverture). Très descriptif et visuel : sujet concret (coureur, montagne, équipement), action, décor, éclairage, palette. 40 à 60 mots. UNE SEULE LIGNE, pas de retour à la ligne, entre guillemets.
+- imagePrompt2 : prompt ANGLAIS pour une image qui illustre un moment-clé ou un thème central de la partie médiane de l'article. Même niveau de détail visuel et de spécificité que imagePrompt1 mais sur une scène différente. 40 à 60 mots. UNE SEULE LIGNE, entre guillemets.
+- N'inclus PAS le style photo/cinéma dans les prompts images (un suffixe est ajouté automatiquement). Concentre-toi sur le sujet et la scène.`;
 
 function userPrompt({ title, sourceUrl, text }) {
   return `Voici l'article source à réécrire en français magazine pour Altitude Trail.
@@ -138,6 +152,8 @@ excerpt: "Chapô accrocheur en 1 à 2 phrases."
 categorySlug: actualites
 tags: ["tag1", "tag2", "tag3"]
 readTime: "7 min"
+imagePrompt1: "A solo trail runner cresting a rocky alpine ridge at dawn, wearing a red running vest and trail shoes, snow-dusted peaks behind, golden side light, low angle heroic composition"
+imagePrompt2: "Close-up of a muddy trail winding through a misty pine forest, autumn leaves scattered on the ground, a runner's silhouette in the distance, soft diffused morning light filtering between trunks"
 ---
 
 # Titre principal
@@ -236,6 +252,112 @@ function buildMarkdownFile({ meta, body, sourceItem, pubDate, image }) {
   return front;
 }
 
+async function generateFluxImage(prompt) {
+  const apiKey = process.env.BFL_API_KEY;
+  if (!apiKey) throw new Error("BFL_API_KEY manquante");
+  const fullPrompt = `${prompt.trim()}${FLUX_STYLE_SUFFIX}`;
+  const submitRes = await fetch(`${BFL_BASE_URL}/${FLUX_MODEL}`, {
+    method: "POST",
+    headers: {
+      "x-key": apiKey,
+      "Content-Type": "application/json",
+      accept: "application/json",
+    },
+    body: JSON.stringify({
+      prompt: fullPrompt,
+      width: FLUX_WIDTH,
+      height: FLUX_HEIGHT,
+      prompt_upsampling: false,
+      safety_tolerance: 2,
+      output_format: "jpeg",
+    }),
+  });
+  if (!submitRes.ok) {
+    const text = await submitRes.text().catch(() => "");
+    throw new Error(`BFL submit ${submitRes.status}: ${text.slice(0, 200)}`);
+  }
+  const { id, polling_url: pollingUrl } = await submitRes.json();
+  const pollUrl = pollingUrl || `${BFL_BASE_URL}/get_result?id=${encodeURIComponent(id)}`;
+  for (let i = 0; i < FLUX_MAX_POLLS; i++) {
+    await sleep(FLUX_POLL_INTERVAL_MS);
+    const pollRes = await fetch(pollUrl, { headers: { "x-key": apiKey, accept: "application/json" } });
+    if (!pollRes.ok) throw new Error(`BFL poll ${pollRes.status}`);
+    const data = await pollRes.json();
+    if (data.status === "Ready") return data.result?.sample;
+    if (["Error", "Request Moderated", "Content Moderated", "Task not found", "TaskNotFound"].includes(data.status)) {
+      throw new Error(`BFL status: ${data.status}`);
+    }
+  }
+  throw new Error("BFL timeout");
+}
+
+async function downloadImage(url, destPath) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`image download ${res.status}`);
+  const buf = Buffer.from(await res.arrayBuffer());
+  await fs.writeFile(destPath, buf);
+}
+
+async function generateAndDownloadImages(slug, prompts) {
+  if (!process.env.BFL_API_KEY) {
+    console.warn("[veille]   skipping FLUX images: BFL_API_KEY manquante");
+    return [];
+  }
+  await fs.mkdir(PUBLIC_IMAGES_DIR, { recursive: true });
+  const refs = [];
+  for (let i = 0; i < prompts.length; i++) {
+    const prompt = (prompts[i] || "").trim();
+    if (!prompt) {
+      refs.push(null);
+      continue;
+    }
+    const filename = `${slug}-${i + 1}.jpg`;
+    const destPath = path.join(PUBLIC_IMAGES_DIR, filename);
+    try {
+      console.log(`[veille]   flux#${i + 1}: ${prompt.slice(0, 80)}${prompt.length > 80 ? "…" : ""}`);
+      const imageUrl = await generateFluxImage(prompt);
+      if (!imageUrl) throw new Error("pas d'URL d'image dans la réponse");
+      await downloadImage(imageUrl, destPath);
+      refs.push({ url: `/articles/${filename}`, alt: prompt.slice(0, 120) });
+      console.log(`[veille]     saved ${destPath}`);
+    } catch (e) {
+      console.error(`[veille]     flux error: ${e.message}`);
+      refs.push(null);
+    }
+  }
+  return refs;
+}
+
+function countWords(s) {
+  return s.split(/\s+/).filter(Boolean).length;
+}
+
+function insertImagesInBody(body, imageRefs) {
+  const refs = imageRefs.filter(Boolean);
+  if (!refs.length) return body;
+  const paragraphs = body.split(/\n{2,}/);
+  const totalWords = countWords(body);
+  const targets = [200, Math.max(Math.floor(totalWords / 2), 450)];
+  const out = [];
+  let cumWords = 0;
+  let insertedCount = 0;
+  for (const p of paragraphs) {
+    out.push(p);
+    cumWords += countWords(p);
+    while (insertedCount < refs.length && cumWords >= targets[insertedCount] && cumWords < totalWords) {
+      const { url, alt } = refs[insertedCount];
+      out.push(`![${alt.replace(/[\[\]]/g, "")}](${url})`);
+      insertedCount++;
+    }
+  }
+  while (insertedCount < refs.length) {
+    const { url, alt } = refs[insertedCount];
+    out.push(`![${alt.replace(/[\[\]]/g, "")}](${url})`);
+    insertedCount++;
+  }
+  return out.join("\n\n");
+}
+
 async function processFeed(client, url) {
   const parser = new Parser({ timeout: 20000, headers: { "User-Agent": "AltitudeTrail-Veille/1.0" } });
   let feed;
@@ -279,16 +401,21 @@ async function processFeed(client, url) {
       console.error(`[veille]   validation failed: ${e.message}`);
       continue;
     }
+    const imageRefs = await generateAndDownloadImages(baseSlug, [
+      validated.meta.imagePrompt1,
+      validated.meta.imagePrompt2,
+    ]);
+    const bodyWithImages = insertImagesInBody(validated.body, imageRefs);
     const md = buildMarkdownFile({
       meta: validated.meta,
-      body: validated.body,
+      body: bodyWithImages,
       sourceItem: item,
       pubDate: item.isoDate || item.pubDate || new Date(),
       image: extractImage(item),
     });
     await fs.writeFile(outPath, md, "utf8");
     created++;
-    console.log(`[veille]   saved ${outPath} (${validated.words} mots)`);
+    console.log(`[veille]   saved ${outPath} (${validated.words} mots, ${imageRefs.filter(Boolean).length} image(s))`);
   }
   return created;
 }
