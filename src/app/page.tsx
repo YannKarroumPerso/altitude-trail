@@ -1,0 +1,124 @@
+import Link from "next/link";
+import Image from "next/image";
+import { articles, mostRead } from "@/lib/data";
+import ArticleCard from "@/components/ui/ArticleCard";
+
+const featuredArticle = articles[0];
+const secondaryArticles = articles.slice(1, 3);
+const sidebarArticles = articles.slice(3, 6);
+const coursesRecits = articles.filter(a => a.categorySlug === "courses-recits").slice(0, 4);
+const scienceArticles = articles.filter(a => a.categorySlug === "entrainement" || a.categorySlug === "nutrition").slice(0, 4);
+
+export default function Home() {
+  return (
+    <div className="bg-surface">
+      <div className="max-w-[1440px] mx-auto px-4 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+        {/* Left Sidebar */}
+        <aside className="lg:col-span-3 space-y-6">
+          <div className="bg-navy text-white py-2 px-4 font-headline font-bold uppercase text-sm inline-block">
+            LES PLUS CONSULTÉS
+          </div>
+          <div className="space-y-6">
+            {mostRead.map((article, i) => (
+              <Link key={article.slug} href={"/articles/" + article.slug} className="flex gap-4 group cursor-pointer">
+                <div className="text-4xl font-headline font-black text-slate-300 group-hover:text-primary transition-colors leading-none shrink-0">
+                  {i + 1}
+                </div>
+                <div className="space-y-1">
+                  {i % 2 === 0 && (
+                    <Image src={article.image} alt={article.title} width={96} height={64}
+                      className="w-24 h-16 object-cover rounded shadow-sm grayscale group-hover:grayscale-0 transition-all mb-1" />
+                  )}
+                  <h3 className="font-headline font-bold text-sm leading-snug group-hover:underline">{article.title}</h3>
+                  <p className="text-[10px] text-slate-500 uppercase font-bold tracking-wider">{article.category} — {article.readTime}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </aside>
+
+        {/* Central Column */}
+        <section className="lg:col-span-6 space-y-8">
+          <ArticleCard article={featuredArticle} variant="large" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 border-t-2 border-surface-container pt-8">
+            {secondaryArticles.map((article) => (
+              <ArticleCard key={article.slug} article={article} variant="default" />
+            ))}
+          </div>
+        </section>
+
+        {/* Right Rail */}
+        <aside className="lg:col-span-3 space-y-8">
+          <div className="bg-navy text-white p-6 flex flex-col items-center justify-center text-center space-y-4">
+            <span className="text-[10px] text-slate-400 font-bold tracking-widest uppercase">AGENDA</span>
+            <div className="space-y-2">
+              <p className="font-headline font-black text-2xl uppercase tracking-tight">Prochaines courses</p>
+              <p className="text-xs text-slate-300">Toutes les courses trail en France</p>
+            </div>
+            <Link href="/courses" className="bg-primary text-white px-6 py-2 text-xs font-headline font-bold hover:opacity-80 transition-opacity uppercase tracking-widest">
+              VOIR LE CALENDRIER
+            </Link>
+          </div>
+          <div className="space-y-6">
+            <div className="bg-navy text-white py-2 px-4 font-headline font-bold uppercase text-sm inline-block">À LA UNE</div>
+            <div className="space-y-4">
+              {sidebarArticles.map((article, i) => (
+                <div key={article.slug} className={i < sidebarArticles.length - 1 ? "border-b border-surface-container pb-4" : ""}>
+                  <Link href={"/articles/" + article.slug} className="flex gap-3 group cursor-pointer">
+                    <Image src={article.image} alt={article.title} width={64} height={64}
+                      className="w-16 h-16 object-cover rounded-sm shrink-0" />
+                    <div className="space-y-1">
+                      <h5 className="text-xs font-bold leading-tight group-hover:text-primary transition-colors">{article.title}</h5>
+                      <span className="text-[10px] text-primary font-bold uppercase">{article.category}</span>
+                    </div>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      {/* Courses & Récits */}
+      <section className="max-w-[1440px] mx-auto px-4 lg:px-8 pb-12">
+        <div className="newspaper-divider"><span>COURSES &amp; RÉCITS</span></div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+          {coursesRecits.map((article) => (
+            <Link key={article.slug} href={"/articles/" + article.slug} className="space-y-4 group cursor-pointer block">
+              <Image src={article.image} alt={article.title} width={400} height={300}
+                className="w-full aspect-[4/3] object-cover grayscale group-hover:grayscale-0 transition-all duration-300" />
+              <h3 className="font-headline font-bold text-lg leading-tight group-hover:underline">{article.title}</h3>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Science & Entraînement */}
+      <section className="max-w-[1440px] mx-auto px-4 lg:px-8 pb-20">
+        <div className="newspaper-divider"><span>SCIENCE &amp; ENTRAÎNEMENT</span></div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-12">
+          <div className="col-span-1 lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
+            {scienceArticles.map((article) => (
+              <Link key={article.slug} href={"/articles/" + article.slug} className="flex gap-4 group">
+                <div className="shrink-0 w-24 h-24 bg-surface-container-high flex items-center justify-center text-3xl">🏃</div>
+                <div className="space-y-2">
+                  <h4 className="font-headline font-bold text-xl group-hover:text-primary transition-colors">{article.title}</h4>
+                  <p className="text-sm text-slate-600 line-clamp-2">{article.excerpt}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="bg-white p-6 border-l-2 border-primary shadow-sm space-y-6">
+            <h3 className="font-headline font-black text-2xl tracking-tighter italic uppercase">Altitude Trail</h3>
+            <p className="text-sm leading-relaxed text-slate-600">Recevez chaque vendredi le "Briefing des Cimes" : l'essentiel de l'actu trail dans votre boîte mail.</p>
+            <input className="w-full border border-slate-200 text-xs px-4 py-3 focus:outline-none focus:ring-1 focus:ring-primary" placeholder="votre@email.com" type="email" />
+            <button className="w-full bg-primary text-white py-3 font-headline font-bold text-xs uppercase tracking-widest hover:bg-primary-dark transition-colors">
+              S'ABONNER À LA NEWSLETTER
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

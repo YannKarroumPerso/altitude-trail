@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ff4500;
+  --color-primary-dark: #d83900;
+  --color-navy: #0b1c30;
+  --color-navy-light: #1a2f47;
+  --color-surface: #f8f9ff;
+  --color-surface-container: #e5eeff;
+  --color-surface-container-high: #dce9ff;
+  --color-on-surface: #0b1c30;
+  --color-outline: #926f66;
+  --color-outline-variant: #e7bdb2;
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+    font-family: var(--font-body);
+  }
+}
+
+@layer components {
+  .newspaper-divider {
+    position: relative;
+    border-bottom: 2px solid var(--color-navy);
+    margin: 3rem 0 2.5rem 0;
+    text-align: center;
+  }
+  .newspaper-divider span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--color-navy);
+    color: white;
+    padding: 0.25rem 1.5rem;
+    font-family: var(--font-headline);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+  .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: var(--font-headline);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .nav-link:hover {
+    color: white;
+  }
+}
