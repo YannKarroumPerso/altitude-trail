@@ -15,7 +15,9 @@ import {
 } from "@/lib/seo";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-THC9PSGZ14";
-const GOOGLE_SITE_VERIFICATION = process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION;
+const GOOGLE_SITE_VERIFICATION =
+  process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION ||
+  "yxW25KZGmXLzlnfxImJlUXpjFwgvoyBLBfVhbwMd2yk";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
