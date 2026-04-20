@@ -1,63 +1,73 @@
 ---
-slug: "steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur"
-title: "Steady Love : ce que Zach Miller retiendra vraiment de sa vie de coureur"
-excerpt: "Entre deux sessions d'acclimatation à la chaleur dans son micro-bus aménagé, l'ultra-traileur américain s'interroge : et si l'essentiel du running ne résidait pas dans les podiums, mais dans la répétition silencieuse d'un amour constant ?"
-category: "Actualités"
+slug: steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur
+title: 'Steady Love : ce que Zach Miller retiendra vraiment de sa vie de coureur'
+excerpt: >-
+  Entre deux sessions d'acclimatation à la chaleur dans son micro-bus aménagé,
+  l'ultra-traileur américain s'interroge : et si l'essentiel du running ne
+  résidait pas dans les podiums, mais dans la répétition silencieuse d'un amour
+  constant ?
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "17 avril 2026"
-readTime: "5 min"
-image: "/articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-hero.jpg"
-tags: ["Zach Miller", "ultra-trail", "philosophie", "préparation", "acclimatation chaleur"]
-sourceUrl: "https://www.irunfar.com/steady-love"
+author: Rédaction Altitude
+date: 17 avril 2026
+readTime: 5 min
+image: >-
+  /articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-hero.jpg
+tags:
+  - Zach Miller
+  - ultra-trail
+  - philosophie
+  - préparation
+  - acclimatation chaleur
+sourceUrl: 'https://www.irunfar.com/steady-love'
+rewrittenAt: '2026-04-20'
 ---
+Zach Miller, un des coureurs les plus intenses de sa génération, publie un texte qui ressemble à un aveu. Pas un palmarès, pas un bilan de saison. Une confession sur ce qu'il retiendra vraiment, et ce n'est pas ce que l'on croit.
 
-# Steady Love : ce que Zach Miller retiendra vraiment de sa vie de coureur
+L'Américain, deuxième de la Transgrancanaria 2024, figure de The North Face et habitant d'un bus de cinq mètres carrés perché sur Pikes Peak, a signé sur iRunFar une chronique intitulée *Steady Love*. Un texte introspectif écrit après une séance nocturne de home-trainer en combinaison thermique, version DIY de l'acclimatation à la chaleur. Le déclencheur : une chanson de Ben Rector qui tourne sur Spotify, et la question que se pose soudain un ultra-traileur de 35 ans. Que restera-t-il, vraiment, quand les chaussures seront rangées ?
 
-Il est tard. La journée a été longue — entraînement le matin, chantier de construction l'après-midi. Zach Miller pourrait raisonnablement couper court, filer sous la couette et remettre la séance au lendemain. Pourtant, le voilà qui grimpe dans son bus aménagé, enfile une veste et un pantalon réfléchissants, pousse le chauffage à fond et se hisse sur son home-trainer. Drôle de rituel : pédaler dans une cabine surchauffée, la sueur dégoulinant des manches, casque sur les oreilles. C'est sa version de l'acclimatation à la chaleur — et, cette nuit-là, un déclencheur d'introspection inattendu.
+## Une chronique qui sonne faux dans le paysage éditorial actuel
 
-## Une chanson, un miroir
+Posons le décor. Le trail traverse une séquence de surenchère permanente. Courses plus longues, plateaux plus denses, sponsoring plus agressif, athlètes transformés en marques personnelles sur Strava et YouTube. Dans ce climat, un coureur de la stature de Miller qui prend la plume pour expliquer que les victoires ne seront pas le sommet émotionnel de sa carrière, c'est un signal faible qui mérite qu'on s'y arrête.
 
-Dès les premières minutes, une chanson s'invite dans la playlist Spotify qui défile : *Steady Love*, de Ben Rector. Pas du rock survitaminé pour abattre les watts, non. Un morceau mélancolique, posé, presque contemplatif. Le genre de titre qui, au lieu de vous pousser à écraser la pédale, vous ramène au centre de vous-même.
+![Illustration Actualités](/articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-1.jpg)
 
-Rector y chante quelque chose de simple et de grave à la fois : on ne reste pas jeune éternellement, on ne peut pas empêcher de grandir. Et quand le cœur se fatigue à force de courir après tout, il faut bien, un jour, trouver un amour stable, constant. *Steady love*. L'image est belle — et, pour un coureur d'ultra, étrangement troublante.
+Le texte publié par iRunFar n'est pas un manifeste. C'est presque l'inverse : une rumination nocturne, pédalée entre une cuisine miniature et un lit escamotable, chauffage à fond. Miller y décrit l'absurdité de la scène — « pédaler dans une cabine surchauffée, la sueur dégoulinant des manches » — et le glissement mental qu'elle provoque. La chanson *Steady Love* de Ben Rector entre en jeu. Son propos : on ne reste pas jeune éternellement, et quand le cœur se fatigue à force de courir après tout, il faut trouver un amour stable. L'image est banale en folk américain. Elle devient troublante appliquée à une vie d'ultra.
 
-![Image illustrative trail running](/articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-1.jpg)
+## Le chasseur d'objectifs se regarde dans le miroir
 
-Miller l'avoue : il est de ceux qui poussent toujours un cran plus loin. Plus grand, plus vite, plus fort. Un chasseur d'objectifs pur jus, allergique à l'idée de se poser. Et pourtant, en pédalant ce soir-là dans son sauna roulant, il sent le paradoxe le traverser. Parce que cette idée de « steady love », d'attachement profond et tranquille, il la comprend aussi. Et peut-être même qu'il la cherche, à sa manière.
+Miller s'identifie lui-même comme un coureur qui pousse toujours un cran plus loin. Plus grand, plus vite, plus fort. C'est le profil type du haut niveau contemporain, et il ne le renie pas. Son ascension forcenée de Pikes Peak en 2018, ses courses engagées à UTMB — septième en 2016, abandon spectaculaire en 2017 après avoir mené la course — ont construit une légende d'homme qui brûle tout, tout le temps.
 
-## Le piège du palmarès
+Mais dans la chronique iRunFar, il pose une question frontale : si l'on réduit le trail à une liste d'accomplissements, ne passe-t-on pas à côté de l'essentiel ? Il se projette dans vingt ans. Les grandes courses reviendront en mémoire. La deuxième place à Transgrancanaria 2024, les duels, les lignes d'arrivée arrachées à l'épuisement. Une certaine fierté, oui. Le sommet émotionnel de sa vie de coureur ? Il en doute.
 
-Courir après les podiums, les victoires, les records, les qualifications : rien de condamnable là-dedans. C'est même le moteur d'une grande partie du haut niveau, et Miller ne reniera jamais cette flamme-là. Mais il pose une question qui mérite d'être entendue, y compris par le coureur lambda : si l'on réduit le trail à une liste d'accomplissements, ne passe-t-on pas à côté de l'essentiel ?
+Le contraste est saisissant avec la communication habituelle des athlètes sous contrat. Pas de récit héroïque. Pas de leçon de résilience transformable en post LinkedIn. Juste un coureur qui admet que son moteur principal pourrait bien ne pas être celui qu'il affiche.
 
-La question n'est pas théorique. Avant de grimper sur son vélo, il s'est surpris à se projeter des années plus tard. Que restera-t-il de tout ça ? Les grandes victoires, bien sûr. Il se rappellera d'une deuxième place à la Transgrancanaria 2024, des courses emblématiques, des duels, des lignes d'arrivée arrachées à l'épuisement. Mais est-ce vraiment *ça* qui lui arrachera un sourire nostalgique quand il aura raccroché les chaussures ?
+## Ce qu'il énumère, et pourquoi c'est précieux
 
-Il en doute. Une certaine fierté, oui. La satisfaction du travail accompli, évidemment. Mais le sommet émotionnel de sa vie de coureur ? Probablement pas.
+Le cœur du texte tient dans une énumération. Miller liste ce qu'il retiendra vraiment, et la liste est d'une banalité revendiquée.
 
-## Ce qui reste
+Les sorties matinales lancées dans le noir. Le privilège, écrit-il, d'assister au réveil d'une forêt, aux premiers rayons qui filtrent entre les troncs. Le moment où la foulée devient fluide, où l'on croit pouvoir courir indéfiniment. La brûlure lente des montées, et la délivrance quand la pente bascule. La sensation d'un corps fort, affûté. La boule au ventre avant une grosse séance. Le grand soupir de soulagement une fois la ligne franchie. Et même, dit-il dans iRunFar, des soirées comme celle-là : coincé dans son short bus, pédalant en combinaison thermique, attrapant une barre sur le comptoir sans descendre du vélo.
 
-Alors, que restera-t-il vraiment ? Miller prend le temps d'énumérer. Et la liste a de quoi parler à tout passionné de trail, du débutant au confirmé.
+![Illustration Actualités](/articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-2.jpg)
 
-Il retiendra la sensation que la course lui procurait — cette chose à poursuivre jour après jour, cette discipline silencieuse qui consiste à devenir, lentement, une meilleure version de soi-même. Il retiendra les sorties matinales lancées dans le noir, le privilège presque indécent d'assister au réveil d'une forêt, aux premiers rayons qui filtrent entre les troncs.
+C'est là que la chronique bascule. Un athlète parrainé par une marque majeure qui désigne comme souvenir potentiellement central une séance solitaire de home-trainer dans un bus surchauffé, c'est une inversion complète de la hiérarchie narrative habituelle du trail professionnel. Les sponsors paient pour des images de finish line. Miller parle de 22 heures dans un véhicule de camping.
 
-![Image illustrative trail running](/articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-2.jpg)
+## Le coût caché de la culture de la performance
 
-Il retiendra ce moment magique où l'on trouve son rythme, où la foulée devient fluide, où l'on a l'impression de pouvoir courir indéfiniment. L'excitation des singletracks inconnus, surtout lors de ses premières années, quand chaque virage promettait une découverte. La brûlure lente des montées, et cette délivrance presque sucrée quand la pente bascule enfin vers le bas.
+La lecture la plus intéressante de ce texte est celle qui prend de la hauteur. Depuis cinq ou six ans, le trail vit une mutation économique et médiatique qui ressemble à celle du cyclisme professionnel dans les années 2000 : structuration des équipes, calendrier UTMB World Series, money prizes, intégration Ironman, plateformes de streaming. Les athlètes produisent désormais autant de contenu qu'ils ne courent.
 
-Il se souviendra de la sensation d'un corps fort, affûté, capable d'enchaîner les ascensions et de tenir un tempo solide sur les terrains vallonnés. Il se souviendra du plaisir de courir avec des amis, de la boule au ventre avant une grosse séance ou une course, et du grand soupir de soulagement — presque euphorique — une fois la ligne franchie.
+Dans ce modèle, le processus disparaît sous le résultat. Seules les lignes d'arrivée existent médiatiquement. Ce que dit Miller — et iRunFar en creux, en lui laissant l'espace de le dire — c'est qu'il existe un coût psychique à cette compression. Quand tout devient objectif, le plaisir du simple mouvement se raréfie. Les podiums se multiplient, la gratitude s'atrophie.
 
-Et il se souviendra aussi, dit-il, de soirées comme celle-là : coincé dans son short bus de cinq mètres carrés, pédalant en combinaison thermique entre son lit, sa cuisine et sa salle de bain miniatures, capable d'attraper une barre sur le comptoir ou de remplir ses bidons au robinet sans descendre du vélo. Une image presque absurde — et pourtant, c'est peut-être précisément ce genre d'image qui, à terme, composera la trame de sa mémoire de coureur.
+Comparer avec d'autres figures éclaire le propos. Kilian Jornet a passé une partie de ces dernières années à expliquer qu'il courait d'abord pour le mouvement en montagne. François D'Haene cultive depuis longtemps un discours de lenteur, de domaine viticole et de saison longue. Courtney Dauwalter parle rarement de victoire, beaucoup de curiosité. Il existe une tradition, chez les meilleurs, d'un refus discret de la tyrannie du résultat. Miller s'y inscrit, à sa manière américaine, directe et un peu naïve.
 
-## Rêver fort, aimer doucement
+## Un déplacement du centre de gravité, pas un renoncement
 
-Miller ne renie rien. Il continuera à fixer de grands objectifs, à cibler les courses majeures, à vouloir gagner. Mais la prise de conscience est là : il espère que, quand il regardera en arrière, la question du « but atteint ou manqué » pèsera moins lourd que tout ce qui aura été vécu pour y parvenir.
+Attention à ne pas mal lire le texte. Miller ne prêche pas la décroissance sportive. Il le précise dans iRunFar : il continuera à fixer de grands objectifs, à cibler les courses majeures, à vouloir gagner. La prise de conscience est ailleurs. Quand il regardera en arrière, la question du « but atteint ou manqué » pèsera moins lourd que tout ce qui aura été vécu pour y parvenir.
 
-C'est peut-être là que l'idée de *steady love* prend tout son sens pour un athlète. Ce n'est pas un renoncement à la performance. C'est un déplacement du centre de gravité. Aimer le processus autant, sinon plus, que le résultat. Chérir les séances ingrates, les levers de soleil ordinaires, les sorties sans chrono, les discussions entre amis à mi-pente, autant que les trophées.
+C'est un déplacement du centre de gravité. Aimer le processus autant que le résultat. Chérir les séances ingrates, les levers de soleil ordinaires, les discussions entre amis à mi-pente. L'intuition finale, paradoxale, mérite d'être soulignée : Miller pressent qu'en cultivant cet attachement tranquille, il chassera ses objectifs avec plus de détermination encore, parce qu'il saura que leur valeur réelle se niche dans le chemin parcouru.
 
-Et paradoxalement, Miller pressent qu'en cultivant cet amour tranquille, il pourrait bien chasser ses objectifs avec encore plus de détermination. Non pas parce qu'il aurait *besoin* de ces objectifs pour exister, mais parce qu'il saurait, enfin, que leur vraie valeur se niche dans le chemin parcouru.
+## Ce que révèle le fait que ce texte existe
 
-## Et vous ?
+Une chronique introspective d'un athlète pro, publiée sur iRunFar, qui fait dix mille signes et ne vend rien, c'est un petit événement éditorial. Le trail francophone n'en produit plus beaucoup. On y préfère les formats course, les interviews d'après-ligne, les analyses tactiques.
 
-L'invitation de Miller s'adresse à chacun d'entre nous, quelle que soit notre vitesse de croisière. Dans quelles parcelles de votre pratique trouvez-vous, vous aussi, cette forme d'attachement constant ? Les montées d'échauffement dans la brume ? Les retours de sortie longue, jambes lourdes et tête légère ? Les discussions d'après-course, chaussures boueuses et assiette fumante ?
-
-Le trail n'est peut-être pas, au fond, l'art de franchir des lignes d'arrivée. C'est l'art de revenir, encore et encore, à ce qui nous fait du bien. Un amour stable. Un *steady love*. Et pour beaucoup d'entre nous, c'est déjà, sans le savoir, la plus belle victoire.
+Ce texte dit quelque chose d'un malaise diffus dans le milieu : la course aux objectifs a fini par bouffer la raison d'être qui avait fait venir la plupart d'entre nous sur les sentiers. Lever de soleil, foulée qui glisse, jambes lourdes et tête légère. Le retour explicite de Miller à ces fondamentaux est moins nostalgique qu'il n'y paraît. C'est une hygiène mentale. Et peut-être, pour un sport qui s'industrialise à vive allure, un rappel salutaire que la performance, sans le plaisir nu du mouvement, finit par tourner à vide.

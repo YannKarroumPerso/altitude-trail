@@ -1,63 +1,69 @@
 ---
-slug: "ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno"
-title: "Ski-alpinisme aux JO : Cortina 2026, le grand saut olympique et les espoirs espagnols"
-excerpt: "Le skimo entre dans l'histoire olympique à Cortina 2026. Tour d'horizon des formats, des favoris et des chances espagnoles sur une discipline cousine du trail."
-category: "Actualités"
+slug: >-
+  ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno
+title: >-
+  Ski-alpinisme aux JO : Cortina 2026, le grand saut olympique et les espoirs
+  espagnols
+excerpt: >-
+  Le skimo entre dans l'histoire olympique à Cortina 2026. Tour d'horizon des
+  formats, des favoris et des chances espagnoles sur une discipline cousine du
+  trail.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "18 février 2026"
-readTime: "6 min"
-image: "/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-hero.jpg"
-tags: ["ski-alpinisme", "JO 2026", "Cortina", "Espagne", "compétition"]
-sourceUrl: "https://trailrunningspain.com/2026/02/18/skimo-olympics-mayayo/"
+author: Rédaction Altitude
+date: 18 février 2026
+readTime: 6 min
+image: >-
+  /articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-hero.jpg
+tags:
+  - ski-alpinisme
+  - JO 2026
+  - Cortina
+  - Espagne
+  - compétition
+sourceUrl: 'https://trailrunningspain.com/2026/02/18/skimo-olympics-mayayo/'
+rewrittenAt: '2026-04-20'
 ---
+Le ski-alpinisme entre aux Jeux par la grande porte, et il y entre par l'Italie. À Cortina d'Ampezzo, en février 2026, une discipline née de la nécessité montagnarde va devoir prouver qu'elle tient debout sous les projecteurs du CIO. Ce n'est pas qu'un symbole. C'est un test.
 
-# Ski-alpinisme aux JO de Cortina 2026 : une première historique et des Espagnols en embuscade
+Trois formats au programme — sprint, individuel, relais mixte —, une semaine de compétition calée sur la seconde partie des Jeux, et un plateau international déjà balisé par les circuits ISMF. Le Suisse Rémi Bonnet arrive en favori de l'individuel, auréolé, rappelle *Trail Running Spain*, d'un titre européen récent en vertical race décroché à Flaine. L'Autrichienne Sarah Dreier s'impose comme l'une des prétendantes les plus solides côté féminin. L'Espagne, elle, mise sur un collectif jeune et sur sa pépite Laia Selles, triple championne d'Europe U18, trop juste pour viser l'or mais déjà cotée.
 
-Ce sera l'un des grands rendez-vous de l'hiver olympique 2026 : pour la première fois de son histoire, le ski-alpinisme — ou skimo, pour les intimes — fera son entrée officielle au programme des Jeux Olympiques d'hiver, à Cortina d'Ampezzo. Une consécration attendue de longue date pour une discipline née dans les Alpes, popularisée par des générations de montagnards pressés et, depuis une quinzaine d'années, transformée en sport chronométré, millimétré, cousin direct du trail running vertical.
+## La reconnaissance d'une discipline longtemps tenue en marge
 
-Pour la communauté trail, ce passage sous les projecteurs olympiques n'a rien d'anecdotique. Les skieurs-alpinistes de haut niveau sont, pour beaucoup, d'anciens ou de futurs traileurs : même rapport à la montée sèche, même culture de l'effort long, mêmes physiologies taillées pour la verticale. On retrouvera ainsi à Cortina quelques visages bien connus des amateurs de courses estivales, et quelques-uns des noms les plus glorieux du circuit ISMF.
+Le ski-alpinisme n'est pas un sport nouveau. Il précède même, historiquement, la plupart des disciplines de neige reconnues aujourd'hui : avant d'être chronométré, il était un mode de déplacement, une façon pragmatique de franchir les cols. Ce qui change à Cortina, c'est le statut. Le skimo passe du circuit initié — Pierra Menta, Patrouille des Glaciers, Mezzalama — à la vitrine mondiale absolue. Le CIO a fini par céder face à un argument imparable : il fallait un sport d'endurance verticale dans un programme olympique saturé de glisse pure.
 
-## Trois formats, trois philosophies
+![Illustration Actualités](/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-1.jpg)
 
-Le programme olympique a été calibré pour offrir un concentré de la discipline, sans s'étaler sur l'ensemble des épreuves du calendrier international. Trois formats seront au menu, chacun taillé pour un profil de coureur bien spécifique.
+Cette entrée est aussi une respiration pour la grande famille montagne. Le trail running, lui, attend toujours son moment. L'ISF et l'ITRA négocient, les critères d'éligibilité olympique se durcissent. Voir le skimo franchir la ligne avant le trail n'est pas qu'une curiosité administrative. C'est la démonstration qu'une discipline verticale peut convaincre Lausanne — et un signal envoyé aux fédérations de trail sur ce qu'il reste à structurer.
 
-![Image illustrative trail running](/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-1.jpg)
+## Trois formats, trois économies sportives distinctes
 
-Le **sprint**, d'abord, qui se disputera sur un parcours ultra-court, mêlant montée peaux aux skis, portage, transition éclair et descente technique. Moins de trois minutes d'effort total pour les meilleurs, mais une intensité proche de l'apnée, où la moindre erreur de manipulation se paie cash. C'est l'épreuve la plus télégénique, la plus explosive, et probablement celle qui parlera le plus au grand public.
+Le sprint est l'épreuve télé. Moins de trois minutes d'effort total au plus haut niveau, un parcours compact mêlant montée peaux aux skis, portage, transition éclair, descente technique. *Trail Running Spain* souligne qu'il s'agit du format le plus accessible au public néophyte — formulation prudente pour dire : c'est celui qui passera à 20 h sur les chaînes généralistes. La moindre erreur de manipulation de peau s'y paie cash. À cette échelle de temps, le skimo ressemble davantage à un 400 m haies qu'à un effort de montagne.
 
-Le **individuel**, ensuite, qui se rapproche le plus de la philosophie trail. Plusieurs montées, plusieurs descentes, un itinéraire varié intégrant des sections à ski, à pied et en crampons, et un effort qui se joue généralement entre 1 h 20 et 1 h 40 pour les meilleurs hommes. C'est la discipline reine, celle qui sacre les puristes capables de tenir un rythme élevé dans des conditions souvent hostiles.
+L'individuel, lui, est la discipline reine. Plusieurs montées, plusieurs descentes, crampons, portage, effort calibré entre 1 h 20 et 1 h 40 pour les meilleurs hommes. C'est le format qui parle aux traileurs : gestion d'allure, lecture du parcours, capacité à encaisser des transitions violentes. Pour donner une échelle, un individuel de haut niveau représente environ la durée d'un semi-marathon élite — sauf que la dépense énergétique par minute y est sans commune mesure, et que la concentration technique sur les descentes ne laisse aucune marge.
 
-Enfin, le **relais mixte** viendra compléter le tableau : deux hommes, deux femmes par nation, passages de témoin chronométrés, drame garanti. Une épreuve stratégique où la composition de l'équipe pèsera presque autant que les jambes.
+Le relais mixte complète le triptyque : deux hommes, deux femmes par nation, passages de témoin chronométrés. Format stratégique, format à surprises, format où une erreur humaine pèse plus que l'écart physiologique.
 
-## Les favoris du plateau mondial
+## Rémi Bonnet, favori logique d'un plateau étroit
 
-Impossible d'évoquer Cortina sans citer **Rémi Bonnet**. Le Suisse, ogre polyvalent qui règne autant sur les vertical kilomètres estivaux que sur les vertical races hivernales, arrive en patron. Son récent titre européen en vertical race à Flaine, décroché face à une concurrence affûtée, confirme qu'il reste la référence absolue dans l'exercice de la pure montée. Sur l'individuel olympique, il fait partie du très court cercle des prétendants au titre.
+Il y a un problème, pour les concurrents de Rémi Bonnet. Le Suisse n'a pas de saison morte. L'été, il trône sur les vertical kilomètres. L'hiver, il domine la vertical race. Son titre européen de Flaine, mentionné par *Trail Running Spain*, n'a fait que confirmer ce que le circuit ISMF observait : Bonnet arrive à Cortina avec une forme de plénitude athlétique. Sur l'individuel, il est dans le cercle très étroit des prétendants au titre. Sur le sprint, la donne change : la technicité pure de la transition donne un avantage aux spécialistes.
 
-Côté féminin, les forces en présence sont plus disputées. L'Autrichienne **Sarah Dreier**, auréolée elle aussi d'un récent titre continental en vertical race, s'est imposée comme une candidate sérieuse. Les Italiennes, portées par leur public et par une tradition solidement ancrée, joueront gros à domicile. Les Françaises, les Suisses et les Suédoises complèteront un plateau particulièrement dense.
+![Illustration Actualités](/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-2.jpg)
 
-Dans les catégories jeunes, déjà dominées par quelques nouveaux noms — la Norvégienne **Ida Waldal** chez les U20, par exemple —, on devine l'avenir de la discipline qui se dessine. Mais à Cortina, ce sont bien les seniors qui occuperont le devant de la scène.
+Côté féminin, le plateau est plus ouvert. Sarah Dreier a posé ses cartes en remportant, elle aussi, un titre continental récent en vertical race, rapporte *Trail Running Spain*. Les Italiennes joueront gros à domicile, portées par une tradition qui remonte aux années 1980. Les Françaises, les Suisses, les Suédoises complèteront un plateau dense. À ce niveau, l'écart entre la cinquième et la vingtième mondiale se mesure parfois en secondes.
 
-![Image illustrative trail running](/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-2.jpg)
+Un mot sur la relève : *Trail Running Spain* mentionne notamment la Norvégienne Ida Waldal, déjà dominante chez les U20. Cortina 2026 sera pour les seniors, mais Milano-Cortina aura ouvert la porte à une génération dont Pékin 2030 ou les Jeux suivants verront les sommets.
 
-## Les chances espagnoles
+## L'Espagne : une fédération qui joue gros
 
-L'Espagne, nation de montagne par excellence, arrive avec une équipe jeune mais crédible. La pépite s'appelle **Laia Selles**, triple championne d'Europe chez les U18 et annoncée comme l'une des plus grandes promesses du skimo mondial. Trop jeune encore pour figurer parmi les favorites olympiques, elle fera néanmoins figure d'apprentie sérieuse, capable de se mêler aux meilleures d'ici quelques saisons.
+L'Espagne n'arrive pas en outsider naïve. Le pays compte une génération de montagnards formés aux Pyrénées, rompus au circuit ISMF, et une fédération qui, selon *Trail Running Spain*, a clairement affiché son ambition : ne pas seulement exister à Cortina, mais marquer les esprits.
 
-Chez les seniors, la Roja s'appuiera sur un collectif rompu aux circuits ISMF, avec des athlètes capables de viser le top 10, voire davantage selon la forme du jour. Le sprint et le relais mixte, où le moindre grain de sable peut rebattre les cartes, constituent les terrains de jeu les plus propices à un exploit. Sur l'individuel, la concurrence des nations alpines sera plus rude, mais les Espagnols y ont historiquement brillé, notamment grâce à une génération de montagnards élevés dans les Pyrénées.
+Le calcul espagnol est lisible. Le sprint et le relais mixte, où un grain de sable rebat les cartes, offrent les meilleures fenêtres de tir pour un exploit ponctuel. Sur l'individuel, la concurrence des nations alpines — Suisse, Italie, France, Autriche — est autrement plus dense. La Roja vise le top 10 à plusieurs reprises, avec des échappées possibles vers le podium sur les formats courts.
 
-La Fédération espagnole a clairement affiché son ambition : ne pas seulement exister à Cortina, mais marquer les esprits. Un bon résultat olympique aurait un effet d'entraînement immédiat sur la pratique, les sponsors et, in fine, sur tout l'écosystème montagne — y compris le trail running, où les passerelles avec le skimo sont déjà nombreuses.
+Le véritable enjeu n'est pas la médaille. Il est industriel. Un bon résultat olympique, c'est un appel d'air sur les licences, les sponsors, les budgets fédéraux, les collectivités pyrénéennes qui financent les pistes et les compétitions. La Fédération espagnole sait que l'effet Jeux se mesure moins sur le podium que dans les inscriptions de clubs douze mois plus tard. Pour Laia Selles, trop jeune pour être favorite, Cortina est une rampe de lancement calibrée pour 2030.
 
-## Quand et comment suivre les épreuves ?
+## Ce que Cortina dit de l'écosystème montagne
 
-Les épreuves de ski-alpinisme s'étaleront sur la seconde semaine des Jeux, avec des départs programmés en matinée et en début d'après-midi pour tenir compte des conditions de neige et de la sécurité des athlètes. La retransmission sera assurée par les diffuseurs olympiques habituels, avec une couverture spécifique annoncée pour le sprint, format jugé le plus accessible au public néophyte.
+Voici ce qui dérange, ou plutôt ce qui devrait interroger. Le trail running, discipline qui pèse aujourd'hui économiquement — UTMB Group, circuits mondiaux, dossards à 400 euros — reste hors du périmètre olympique. Le skimo, lui, entre avec une communauté plus restreinte mais mieux structurée autour de sa fédération internationale. La leçon est simple : le CIO préfère les sports dont la gouvernance est centralisée et lisible. Le trail, éclaté entre plusieurs labels concurrents, n'a pas encore trouvé cette cohérence.
 
-Pour les amateurs de trail désireux de découvrir la discipline, le sprint constitue sans doute la meilleure porte d'entrée : format court, parcours visible, suspense garanti. L'individuel, plus long, parlera davantage aux puristes de l'effort en montagne, habitués à lire une course sur la durée. Le relais mixte, enfin, offrira ce petit supplément d'âme qu'on ne trouve que dans les épreuves par équipes olympiques.
-
-## Un tremplin pour la montagne tout entière
-
-Au-delà du simple résultat sportif, cette première olympique représente une opportunité historique pour le ski-alpinisme et, par ricochet, pour l'ensemble des disciplines de montagne. Le skyrunning, le trail vertical, les courses de montée sèche partagent avec le skimo une culture commune, des athlètes communs, parfois même des calendriers entremêlés. Une exposition massive aux JO, c'est autant de jeunes potentiellement attirés vers les sentiers et les peaux de phoque, autant de collectivités incitées à investir dans leurs terrains de jeu verticaux.
-
-Cortina 2026 ne sera pas qu'un championnat de plus. Ce sera le moment où la montagne aérobie, celle qui monte vite et s'exprime dans la verticalité pure, entrera enfin dans la grande famille olympique. Avec ses champions, ses drames, ses pépites espagnoles en devenir — et, on l'espère, quelques médailles à la clé.
-
-Rendez-vous à Cortina.
+Reste l'essentiel. Le skimo et le trail partagent des athlètes, des physiologies, des terrains, parfois des calendriers. Les passerelles existent : Kilian Jornet, Rémi Bonnet, Nadir Maguet, tant d'autres sont passés d'un univers à l'autre sans transition culturelle. Cortina 2026 exposera la montagne aérobie à une audience qui, jusqu'ici, n'avait vu en elle qu'un décor de carte postale. Chaque jeune spectateur captivé par un sprint skimo est un traileur potentiel. Chaque médaille change la conversation dans les mairies de vallée qui décident, ou pas, de financer leurs parcours verticaux. L'entrée olympique du ski-alpinisme n'est pas un point d'arrivée. C'est un levier, et il faudra vérifier, dans cinq ans, si la famille montagne a su le manœuvrer.

@@ -1,59 +1,74 @@
 ---
-slug: "week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit"
-title: "Week-end ultra au Royaume-Uni et en Irlande : 10 rendez-vous pour tous les gabarits"
-excerpt: "Du 5 au 7 juillet 2025, le trail britannique déploie un programme vertigineux : 50 km côtiers, backyard implacable, 170 miles écossais... Tour d'horizon d'un week-end de feu outre-Manche."
-category: "Actualités"
+slug: >-
+  week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit
+title: >-
+  Week-end ultra au Royaume-Uni et en Irlande : 10 rendez-vous pour tous les
+  gabarits
+excerpt: >-
+  Du 5 au 7 juillet 2025, le trail britannique déploie un programme vertigineux
+  : 50 km côtiers, backyard implacable, 170 miles écossais... Tour d'horizon
+  d'un week-end de feu outre-Manche.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "2 juillet 2025"
-readTime: "6 min"
-image: "/articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-hero.jpg"
-tags: ["ultra-trail", "Royaume-Uni", "courses", "calendrier", "Écosse"]
-sourceUrl: "https://ultrarunningworld.co.uk/this-weekend-in-ultrarunning-july-5-7-2025-uk-ireland/"
+author: Rédaction Altitude
+date: 2 juillet 2025
+readTime: 6 min
+image: >-
+  /articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-hero.jpg
+tags:
+  - ultra-trail
+  - Royaume-Uni
+  - courses
+  - calendrier
+  - Écosse
+sourceUrl: >-
+  https://ultrarunningworld.co.uk/this-weekend-in-ultrarunning-july-5-7-2025-uk-ireland/
+rewrittenAt: '2026-04-20'
 ---
+Dix départs en cinq jours, trois nations, une boucle horaire côtoyant une traversée de 270 kilomètres. Le premier week-end de juillet 2025 dit tout de ce que l'ultra britannique est devenu : un écosystème mature, diversifié, qui n'a plus rien à envier aux grandes vitrines alpines.
 
-# Week-end ultra au Royaume-Uni et en Irlande : 10 rendez-vous pour tous les gabarits
+Du 3 au 7 juillet, les îles britanniques alignent dix épreuves recensées par *Ultrarunning World*, depuis le Serpent Trail Ultra de 100 km dans les South Downs jusqu'aux 170 miles écossais de By Way of The Glen, en passant par les 115 miles des North York Moors et un backyard ultra dans le Hampshire. Les distances vont de 30 miles à près de 270 km. Les profils oscillent entre les vallons crayeux du Yorkshire et les tourbières des Highlands. Le calendrier, lui, ne laisse aucun trou : le trail outre-Manche a basculé dans la production industrielle, sans renoncer à son ADN local.
 
-Les îles britanniques ne dorment jamais lorsqu'il s'agit d'ultra. Le premier week-end de juillet 2025 en offre une nouvelle preuve avec un calendrier dense, éclectique, où le randonneur de 50 km côtoie le forçat lancé sur 170 miles à travers les Highlands. De la côte galloise aux North York Moors, en passant par les collines du Staffordshire et les grands horizons des South Downs, dix épreuves majeures vont animer les sentiers entre le 3 et le 7 juillet. Panorama.
+## Un calendrier qui pulvérise la saisonnalité
 
-## Le grand Sud anglais : panoramas et distances rondes
+La première leçon de ce week-end, c'est la densité. Dix courses de plus de 50 km sur cinq jours, dans trois pays, c'est l'équivalent d'une micro-saison UTMB World Series compressée. À titre de comparaison, le circuit français propose rarement plus de quatre ou cinq ultras d'envergure sur un même week-end hors pic estival. Le Royaume-Uni, lui, fabrique du volume toute l'année.
 
-C'est sans doute la course la plus scénique du sud de l'Angleterre. Le **Serpent Trail Ultra**, qui s'élance de Haslemere le 5 juillet, déroule ses 100 km le long de la colonne vertébrale sinueuse des South Downs. Son nom dit tout : un tracé qui serpente entre landes, forêts de pins et crêtes gréseuses, offrant une immersion totale dans l'un des parcs nationaux les plus contemplatifs d'Angleterre. Distance ronde, technicité mesurée, ambiance soignée : une valeur sûre pour celles et ceux qui cherchent un 100 km accessible sans sacrifier la beauté du terrain.
+![Illustration Actualités](/articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-1.jpg)
 
-Plus à l'est, le **Full Essex Way Ultra** propose une expérience radicalement différente. Sur 82 miles (environ 132 km), la course relie Epping à Harwich du 4 au 5 juillet. Un point-à-point au long cours qui emprunte d'anciens chemins ruraux, traverse des terres agricoles et raconte, au fil des kilomètres, une Angleterre rurale parfois oubliée des radars du trail. Le format, volontairement patrimonial, séduit les amateurs d'aventure lente et de paysages domestiqués.
+Ce n'est pas un hasard. La scène britannique s'est structurée autour d'organisateurs indépendants — Beyond Marathon, Ultra Running Limited, SilverBackTrails — qui multiplient les formats sans chercher la labellisation internationale. Résultat : une offre qui va du backyard au 170 miles, et qui absorbe à peu près tous les profils de coureurs. *Ultrarunning World* recense dix rendez-vous sur ce seul premier week-end de juillet. C'est plus qu'un calendrier : c'est un indicateur de maturité.
 
-![Image illustrative trail running](/articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-1.jpg)
+## Le monument silencieux : 270 km à travers l'Écosse
 
-## Faccombe et le supplice circulaire
+Si une épreuve résume l'ambition britannique hors radar médiatique, c'est By Way of The Glen. Organisée autour de Milngavie du 3 au 5 juillet, la course décline trois formats — 42, 72 et 170 miles — selon *Ultrarunning World*. Le plus long enchaîne la West Highland Way et la quasi-totalité de la Great Glen Way, soit près de 270 kilomètres d'une seule traite.
 
-Le **Faccombe Backyard Ultra**, le 4 juillet, applique à la lettre le principe imaginé par Lazarus Lake : une boucle de 4,17 miles (6,7 km) à boucler chaque heure, jusqu'à ce qu'il ne reste qu'un seul coureur debout. Aucune distance annoncée, aucune ligne d'arrivée prédéfinie. Juste la répétition, la gestion du sommeil, la bataille mentale. Un format devenu culte, où la victoire se mérite parfois après 24, 48 heures ou davantage, et où la tactique compte autant que la forme.
+Pour prendre la mesure : c'est 100 km de plus que l'UTMB, sur un terrain certes moins vertical mais bien plus exposé au vent, à la pluie, à l'isolement. La Diagonale des Fous, référence française du format long, culmine à 165 km. By Way of The Glen, avec ses 170 miles, joue dans une catégorie supérieure en distance pure. L'épreuve ne fait pas parler d'elle dans les médias continentaux. Elle cultive une sobriété presque monacale. Ceux qui la terminent en parlent comme d'une traversée intérieure. C'est exactement ce que la plupart des grands ultras ont cessé d'être.
 
-## Écosse : l'odyssée des 170 miles
+## Faccombe, ou la mécanique de Lazarus Lake
 
-Impossible de parler de ce week-end sans évoquer le monument écossais. **By Way of The Glen**, organisé autour de Milngavie du 3 au 5 juillet, propose trois formats : 42, 72 et 170 miles. Le plus long aligne la West Highland Way à la quasi-totalité de la Great Glen Way, soit près de 270 km à travers les terrains les plus reculés d'Écosse. Lochs silencieux, tourbières, passages forestiers interminables : l'épreuve reste discrète dans les médias, mais elle jouit d'un respect profond au sein de la communauté des ultras britanniques. Ceux qui l'ont terminée évoquent une aventure intérieure plus qu'une course.
+À l'autre bout du spectre, le Faccombe Backyard Ultra du 4 juillet applique à la lettre le protocole inventé par Lazarus Lake : une boucle de 4,17 miles (6,7 km) toutes les heures, jusqu'au dernier homme ou dernière femme debout. Pas de ligne d'arrivée. Pas de distance affichée. Juste la répétition qui broie.
 
-## Galles : entre péninsule et montagnes
+Le format s'est imposé en quelques années comme un laboratoire de l'endurance mentale. Les meilleurs mondiaux dépassent désormais 100 yards (plus de 670 km). Faccombe n'ambitionne pas ce niveau, mais la mécanique est identique : gestion du sommeil, nutrition millimétrée, discipline tactique. Le backyard a réinventé la manière dont on pense la durée en ultra. Voir cette discipline intégrée à un calendrier britannique ordinaire en dit long sur son installation dans le paysage.
 
-Le pays de Galles place deux épreuves majeures sur la carte. Le **Pen Llyn Ultra** (Wales Ultra Trail), au départ de Pwllheli les 4 et 5 juillet, se décline en 50 et 100 miles. Le tracé épouse la péninsule de Llŷn, alternant falaises, criques et sentiers côtiers parfois techniques. Les coureurs y affrontent des surfaces changeantes — herbe rase, rochers, passages boueux — et bénéficient d'un terrain de jeu encore préservé, loin des autoroutes à trail. Et bien sûr, comme aiment à le rappeler les initiés, il y aura Huw Williams, figure locale incontournable.
+![Illustration Actualités](/articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-2.jpg)
 
-![Image illustrative trail running](/articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-2.jpg)
+## Pays de Galles : le relief reprend ses droits
 
-Plus au sud, **The Pigum** s'élance d'Abergavenny le 5 juillet sur 30 miles (environ 48 km). À la porte des montagnes galloises, la course cumule plus de 1 500 mètres de dénivelé positif, enchaîne les sommets rugueux et réclame une franche solidité en montée comme en descente. Un format court à l'échelle de l'ultra, mais intense, que beaucoup utilisent comme test grandeur nature avant des objectifs plus longs dans l'été.
+Deux rendez-vous gallois encadrent le week-end. Le Pen Llyn Ultra, au départ de Pwllheli les 4 et 5 juillet, propose 50 et 100 miles sur la péninsule de Llŷn — falaises, criques, singletrack côtier. *Ultrarunning World* signale la présence attendue de Huw Williams, figure locale récurrente de l'épreuve.
 
-## Angleterre du Nord : Yorkshire, Lune et North York Moors
+Plus au sud, The Pigum s'élance d'Abergavenny le 5 juillet sur 30 miles, avec plus de 1 500 mètres de dénivelé positif. Ratio D+/distance d'environ 31 mètres par kilomètre : on est dans les clous d'un trail montagnard sérieux, loin de l'ultra plat de plaine. Pour mesurer : un Sierre-Zinal affiche 2 200 m de D+ sur 31 km, soit 71 m/km. The Pigum n'est pas alpin, mais il impose un vrai travail vertical — et sert de test grandeur nature pour des objectifs plus longs en août.
 
-Les **Hardwolds 40**, courus sur 47 miles entre Beverley et l'Est du Yorkshire les 5 et 6 juillet, proposent un point-à-point élégant à travers les Yorkshire Wolds. Paysages crayeux, villages anciens, vallons discrets : le terroir est typiquement anglais, la course, généreuse sans être démesurée.
+## Nord de l'Angleterre : là où ça durcit
 
-Les adeptes de dénivelé se tourneront vers l'**Ultra Beyond the Lune Skyline**, au départ de Kirkby Lonsdale le 5 juillet. Une boucle de 65 km avec 2 000 m de D+ qui enchaîne sept sommets, ponctuée d'une arrivée dans un cadre inattendu : The Royal Barn. Le genre d'ultra qui condense en une journée l'esprit skyrunning à la britannique.
+Le gros bloc technique du week-end se niche dans les landes du nord-est. SilverBackTrails: Summits of The North York Moors, disputé les 5 et 6 juillet au départ de Goathland, aligne 115 miles (185 km) pour environ 14 000 pieds de dénivelé, soit près de 4 300 mètres selon les données reprises par *Ultrarunning World*. C'est moins que l'UTMB (10 000 m de D+) mais sur une distance plus longue et un terrain autrement plus ingrat : tourbières, visibilité capricieuse, navigation indispensable.
 
-Le bloc dur du week-end se niche toutefois dans les landes du nord-est. **SilverBackTrails: Summits of The North York Moors**, les 5 et 6 juillet au départ de Goathland, propose 115 miles (185 km) et environ 14 000 pieds de dénivelé — soit près de 4 300 mètres. Une traversée ininterrompue des plus hauts reliefs des North York Moors, terrain sauvage, exposé, capricieux côté météo. L'épreuve s'adresse à des coureurs aguerris, capables de naviguer et de tenir sur deux jours complets.
+L'Ultra Beyond the Lune Skyline, 65 km et 2 000 m de D+ au départ de Kirkby Lonsdale, enchaîne sept sommets dans une logique skyrunning adaptée au gabarit britannique. Les Hardwolds 40, sur 47 miles dans le Yorkshire les 5 et 6 juillet, proposent un format plus roulant — paysages crayeux, villages anciens, pas de piège majeur. Trois épreuves, trois philosophies dans un rayon de 200 kilomètres.
 
-## Formats courts et intenses
+## Les formats d'entrée et les laboratoires de pacing
 
-Le week-end propose aussi deux rendez-vous plus cadrés dans le temps et l'espace. L'**ATW Odyssey 12-hour Run**, à St. Neots le 5 juillet, mise sur une boucle trail en format 12 heures, ouverte en solo comme en équipe — un excellent terrain pour expérimenter le pacing et la nutrition sans les contraintes logistiques d'un point-à-point.
+Le week-end recense aussi deux rendez-vous plus calibrés. L'ATW Odyssey 12-hour Run, à St. Neots le 5 juillet, propose une boucle trail en solo ou équipe sur douze heures — terrain idéal pour tester nutrition et gestion de rythme sans la contrainte logistique du point-à-point. Le Tittesworth 50k Ultra, disputé à Leek le 6 juillet, boucle 49 km dans les Staffordshire Peaks avec 1 485 m de D+, dans l'univers minéral des Roaches.
 
-Enfin, le **Tittesworth 50k Ultra**, disputé à Leek le 6 juillet, boucle 49 km à travers les Staffordshire peaks et le massif des Roaches, pour un dénivelé cumulé d'environ 1 485 m. Paysages de landes, rochers sculptés par l'érosion, singletracks vivants : le profil idéal pour un premier ultra ou une séance spécifique de milieu d'été.
+Ajoutez le Full Essex Way Ultra — 82 miles d'Epping à Harwich les 4 et 5 juillet, une Angleterre rurale reliée par chemins patrimoniaux — et le Serpent Trail Ultra, 100 km depuis Haslemere le 5 juillet le long des South Downs, et vous obtenez une grille qui couvre tous les besoins d'un coureur : premier ultra, spécifique d'été, ou objectif majeur.
 
-## Un été britannique décidément bien rempli
+## Ce que ce week-end dit de l'ultra en 2025
 
-Ce week-end confirme, s'il en était besoin, la vitalité de la scène ultra outre-Manche. Trois nations, dix épreuves, des formats allant de la boucle horaire aux 270 km écossais : il y en a pour toutes les ambitions et tous les niveaux. À retenir aussi, la diversité des philosophies — courses communautaires confidentielles, événements patrimoniaux, épreuves à forte identité régionale. Pensez à vérifier les sites officiels pour les dernières modalités, et si vous courez ou donnez un coup de main en tant que bénévole, vos récits ont toute leur place dans nos colonnes. Bonnes foulées.
+Dix courses sur un week-end ordinaire. Pas un festival. Pas une vitrine labellisée. Juste le rythme hebdomadaire d'un écosystème qui a cessé de réclamer sa place dans la hiérarchie mondiale pour l'occuper, tranquillement, en produisant du volume et de la diversité. La leçon britannique mérite d'être entendue sur le continent : on peut faire vivre l'ultra sans surenchère de marques, sans dossards à 400 euros, sans tirage au sort humiliant. Avec des courses à taille humaine, des organisateurs enracinés, et une culture qui n'a pas oublié que le long, au fond, se pratique souvent mieux dans l'ombre. *Ultrarunning World* fait le travail d'archive. À la presse continentale d'arrêter de regarder cette scène comme un cousin excentrique. Elle produit, elle innove, et elle le fait à une cadence que peu de pays tiennent.

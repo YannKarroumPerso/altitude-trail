@@ -1,53 +1,71 @@
 ---
-slug: "deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e"
-title: "Deuil dans le monde du trail : deux coureurs emportés sur le Marathon des Sables et le Cape Wrath Trail"
-excerpt: "En l'espace d'une semaine, la communauté internationale du trail a perdu deux des siens : Grégory, engagé sur la Legendary du Marathon des Sables au Maroc, et David Parrish, ancien Royal Marine parti à l'assaut d'un FKT sur les Highlands écossaises."
-category: "Actualités"
+slug: >-
+  deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e
+title: >-
+  Deuil dans le monde du trail : deux coureurs emportés sur le Marathon des
+  Sables et le Cape Wrath Trail
+excerpt: >-
+  En l'espace d'une semaine, la communauté internationale du trail a perdu deux
+  des siens : Grégory, engagé sur la Legendary du Marathon des Sables au Maroc,
+  et David Parrish, ancien Royal Marine parti à l'assaut d'un FKT sur les
+  Highlands écossaises.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "16 avril 2026"
-readTime: "6 min"
-image: "/articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e-hero.jpg"
-tags: ["Marathon des Sables", "Cape Wrath Trail", "FKT", "Écosse", "hommage"]
-sourceUrl: "https://www.irunfar.com/deaths-2026-gregory-marathon-des-sables-legendary-david-parrish-cape-wrath-trail"
+author: Rédaction Altitude
+date: 16 avril 2026
+readTime: 6 min
+image: >-
+  /articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e-hero.jpg
+tags:
+  - Marathon des Sables
+  - Cape Wrath Trail
+  - FKT
+  - Écosse
+  - hommage
+sourceUrl: >-
+  https://www.irunfar.com/deaths-2026-gregory-marathon-des-sables-legendary-david-parrish-cape-wrath-trail
+rewrittenAt: '2026-04-20'
 ---
+Deux décès, deux continents, la même semaine. Dans le Sahara marocain et dans les Highlands écossais, le trail d'endurance a perdu deux des siens à quelques jours d'intervalle. Les circonstances diffèrent, la leçon est identique : l'expérience ne protège de rien.
 
-# Deuil dans le monde du trail : deux coureurs emportés sur le Marathon des Sables et le Cape Wrath Trail
+Entre le 8 et le 11 avril, la presse spécialisée a documenté deux drames distincts. Selon iRunFar, un concurrent identifié par son seul prénom, Grégory, est mort lors de la quatrième étape du Marathon des Sables Legendary, après un malaise survenu vers 4 heures du matin et une évacuation vers l'hôpital d'Errachidia. Trois jours plus tard, le Britannique David Parrish, 35 ans, ancien Royal Marine, a été retrouvé sans vie à Kintail, alors qu'il tentait un FKT en autonomie totale sur le Cape Wrath Trail, 386 kilomètres à travers l'Écosse sauvage.
 
-En l'espace de quelques jours, la communauté internationale du trail a été frappée par deux drames. Le mercredi 8 avril, un concurrent identifié sous le seul prénom de Grégory est décédé lors de la quatrième étape du Marathon des Sables Legendary, dans le désert marocain. Le samedi 11 avril, de l'autre côté de la Méditerranée, le Britannique David Parrish perdait la vie dans les Highlands écossais, alors qu'il tentait d'établir un nouveau FKT sur le mythique Cape Wrath Trail. Deux disparitions, deux décors opposés, mais une même onde de choc qui traverse les bivouacs et les sentiers.
+## Le Sahara, théâtre d'une tragédie au petit matin
 
-## Grégory, fauché dans les sables du Maroc
+Le Marathon des Sables, dans sa déclinaison Legendary, reste l'un des laboratoires les plus anciens de l'ultra en semi-autonomie. Six étapes, un sac qui contient toute la nourriture de la semaine, des bivouacs collectifs fournis par l'organisation, de l'eau rationnée. Le protocole médical d'entrée est strict, la logistique de secours calibrée depuis près de quarante ans. Et pourtant.
 
-Le Marathon des Sables Legendary n'est pas une course comme les autres. Six étapes à traverser le Sahara, sac au dos, avec l'obligation pour chaque concurrent de transporter la totalité de sa nourriture et de son matériel pour toute la semaine. L'organisation, elle, se charge de l'eau et des bivouacs collectifs dressés chaque soir sous les étoiles. Avant même de pouvoir prendre le départ, les coureurs passent par une vérification médicale stricte, gage minimal dans une épreuve où la chaleur, la déshydratation et l'isolement pèsent sur chaque décision.
+Selon le communiqué relayé par iRunFar, Grégory s'est effondré avant même le départ de la quatrième étape, autour de 4 heures du matin. Les équipes médicales présentes sur le bivouac ont pris le relais immédiatement. Évacuation vers Errachidia, la ville marocaine la plus proche du parcours. Décès quelques jours plus tard, malgré les soins hospitaliers. L'organisation a demandé le respect de l'intimité familiale, ce qui explique la communication a minima — un prénom, pas davantage.
 
-![Image illustrative trail running](/articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e-1.jpg)
+![Illustration Actualités](/articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e-1.jpg)
 
-C'est dans ce cadre exigeant que Grégory, dont seul le prénom a été communiqué par respect pour sa famille, a été victime d'un malaise aux alentours de 4 heures du matin, juste avant le départ de la quatrième étape. Selon le communiqué diffusé par l'organisation, le coureur a immédiatement bénéficié d'une prise en charge médicale sur place, avant d'être évacué en urgence vers l'hôpital d'Errachidia, ville voisine du parcours. Malgré les efforts des équipes soignantes, il est décédé quelques jours plus tard.
+« Cet événement a profondément touché toute la communauté du Marathon des Sables, ainsi que tous ceux qui ont partagé cette aventure à ses côtés », a écrit l'organisation dans le message cité par iRunFar. La formule est convenue ; la réalité des bivouacs, elle, ne l'est jamais. Sept jours à partager une tente berbère avec six inconnus soude des liens que peu d'épreuves sportives produisent. La nouvelle, au milieu de l'étape suivante, a dû frapper le camp comme un coup de tonnerre.
 
-Dans un message empreint de gravité, l'organisation du Marathon des Sables a salué la mémoire du coureur : « Cet événement a profondément touché toute la communauté du Marathon des Sables, ainsi que tous ceux qui ont partagé cette aventure à ses côtés. » L'équipe a également appelé au respect de l'intimité des proches, dans un moment où le deuil se mêle à l'émotion collective d'un bivouac soudé par sept jours d'effort commun.
+## Ce que l'histoire du MDS dit du risque résiduel
 
-Ce drame rappelle, s'il le fallait, la part irréductible d'incertitude qui accompagne les épreuves d'endurance extrême. Même avec un contrôle médical préalable, une logistique rodée depuis des décennies et des équipes de secours mobilisées en permanence, le désert garde sa part de mystère. Grégory en aura payé le prix.
+Le Marathon des Sables n'est pas une course sans précédent tragique. Mohamad Ahansal, Rachid El Morabity, Jornal Mousseb : les grandes figures du MDS racontent depuis longtemps des éditions où la chaleur a fait plier des organismes pourtant aguerris. Mais le format Legendary se distingue par son exigence logistique : 250 kilomètres cumulés, des températures qui peuvent dépasser 50 °C au sol, et ce paradoxe fondamental — on y meurt rarement pendant l'effort visible, mais dans les marges, la nuit, le petit matin, pendant la digestion, pendant le sommeil. Le moment du drame, 4 heures avant un départ d'étape, en dit assez.
 
-## David Parrish, le Royal Marine des Highlands
+Aucun contrôle médical préalable, si rigoureux soit-il, ne prédit une décompensation cardiaque à 4 heures du matin au milieu du désert. Cette limite-là, le MDS la connaît depuis toujours. Elle fait partie du contrat tacite signé au moment de l'inscription.
 
-À plus de 3 000 kilomètres de là, dans une géographie radicalement différente, c'est un autre visage du trail qui s'est éteint. David Parrish, 35 ans, ancien Royal Marine britannique, tentait d'établir un FKT en autonomie totale sur le Cape Wrath Trail, l'un des itinéraires les plus sauvages du Royaume-Uni : 386 kilomètres à travers les Highlands écossaises, de Fort William, au sud, jusqu'au phare isolé de Cape Wrath, à l'extrême nord-ouest du pays.
+## Un FKT qui n'avait rien d'une fanfaronnade
 
-David a été retrouvé sans vie à Kintail, région reculée et montagneuse située à une cinquantaine de kilomètres au nord-est de Fort William. Porté disparu dans la journée du samedi, il a été localisé dans la soirée grâce aux recherches coordonnées par les bénévoles du Kintail Mountain Rescue Team, membre de la structure nationale Scottish Mountain Rescue.
+Le cas de David Parrish, documenté dans le même article d'iRunFar, appartient à une autre catégorie. Le Cape Wrath Trail n'est pas une course organisée, c'est un itinéraire sauvage qui relie Fort William, dans les Highlands du sud, au phare isolé de Cape Wrath, à l'extrême nord-ouest de l'Écosse. 386 kilomètres sans balisage, sans ravitaillement, sans sécurité active. Un terrain où la météo change en une heure, où les tourbières avalent les chevilles, où les rivières en crue se franchissent ou se contournent.
 
-![Image illustrative trail running](/articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e-2.jpg)
+![Illustration Actualités](/articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e-2.jpg)
 
-Le choix de cet FKT n'avait rien d'anodin. David courait pour lever des fonds au profit précisément de Scottish Mountain Rescue, en hommage à son ami et camarade de régiment Luke Ireland, lui-même décédé d'hypothermie en 2014 lors d'une sortie en montagne. Sur sa page de collecte, l'ancien Marine rendait un vibrant hommage aux secouristes bénévoles, soulignant le rôle essentiel qu'ils jouent dans la communauté montagnarde écossaise. Au moment où nous écrivons ces lignes, la cagnotte, toujours ouverte, a dépassé les 23 000 livres sterling. Chaque don est désormais doublé d'une signification nouvelle.
+Parrish connaissait le terrain par cœur. En 2023, il avait remporté la Cape Wrath Ultra, la version encadrée du même tracé, courue en huit étapes. En 2025, il s'était imposé sur la Dragon's Back Race, 385 kilomètres le long de la colonne vertébrale galloise, l'un des ultras multi-étapes les plus exigeants d'Europe. Deux victoires majeures en trois ans sur les deux parcours les plus engagés des îles britanniques. Ajouter à cela une formation militaire chez les Royal Marines — réputée pour être l'une des plus dures de l'armée britannique — donne la mesure du coureur : pas un amateur enthousiaste, un professionnel du terrain exposé.
 
-## Un coureur d'exception sur un terrain qu'il connaissait
+Selon iRunFar, il a été porté disparu dans la journée du samedi 11 avril, puis retrouvé dans la soirée par le Kintail Mountain Rescue Team, antenne locale de Scottish Mountain Rescue, dans un secteur situé à une cinquantaine de kilomètres au nord-est de Fort William.
 
-David Parrish n'était pas un novice. Le Cape Wrath Trail, il l'avait parcouru, éprouvé, domestiqué. En 2023, il avait remporté la Cape Wrath Ultra, la course à étapes de huit jours qui suit ce même itinéraire, s'imposant dans l'une des épreuves les plus engagées des îles britanniques. Deux ans plus tard, en 2025, il ajoutait à son palmarès la victoire sur la Dragon's Back Race, 385 kilomètres le long de l'épine dorsale montagneuse du Pays de Galles. Deux triomphes sur deux des ultras multi-étapes les plus rugueux d'Europe, qui disaient assez son niveau technique, sa lucidité et son aisance dans les terrains hostiles.
+## Une tentative chargée de mémoire
 
-Son passé militaire — les Royal Marines sont réputés pour l'une des formations les plus dures de l'armée britannique — lui conférait aussi une expérience rare de l'engagement physique en environnement exposé. C'est toute l'amertume de ce drame : il n'a pas été le fait d'un manque de préparation ou d'une erreur de débutant, mais bien la rencontre d'un homme aguerri avec la brutalité objective d'une montagne imprévisible.
+Le FKT avait une charge symbolique que les lecteurs étrangers au contexte britannique ne saisissent pas toujours. Parrish courait pour lever des fonds au profit de Scottish Mountain Rescue, structure bénévole qui assure l'essentiel des secours en montagne au Royaume-Uni. L'hommage était personnel : son ami et camarade de régiment Luke Ireland était mort d'hypothermie en 2014 lors d'une sortie en montagne. Onze ans plus tard, Parrish voulait faire parler cette mémoire à travers un tracé qu'il maîtrisait.
 
-Le communiqué publié par le Kintail Mountain Rescue Team reflète cette réalité : « Nos pensées accompagnent la famille et les amis de David en ce moment d'une difficulté immense. David était un montagnard et un traileur expérimenté, qui est tragiquement décédé en faisant ce qu'il aimait. » Une formule devenue rituelle, mais qui prend ici une densité particulière, tant l'homme avait fait du trail un véritable projet de vie, chargé de sens, de mémoire et d'engagement.
+La cagnotte, toujours active selon les informations rapportées par iRunFar, avait dépassé les 23 000 livres sterling au moment de l'article. Chaque don pris dans la logique du projet prend désormais un autre poids.
 
-## Deux rappels, une même communauté
+Le communiqué du Kintail Mountain Rescue Team cité par iRunFar résume l'incompréhension : « Nos pensées accompagnent la famille et les amis de David en ce moment d'une difficulté immense. David était un montagnard et un traileur expérimenté, qui est tragiquement décédé en faisant ce qu'il aimait. » La formule revient systématiquement dans ces circonstances. Elle ne console personne. Elle dit simplement que la montagne ne fait pas de distinction entre débutants et champions.
 
-Le désert et les Highlands. Un bivouac collectif et une tentative solitaire. Un prénom seul et un palmarès tout entier. Les circonstances sont différentes, les profils aussi, mais ces deux disparitions dessinent en creux une même réalité : les terrains que nous aimons, ceux qui nous offrent ces sensations d'espace et de liberté, ne consentent jamais à être totalement apprivoisés. Ils demandent humilité, vigilance, et parfois — cruellement — nous rappellent leur part d'indomptable.
+## Ce que révèle cette semaine noire
 
-À la famille et aux proches de Grégory, à ceux de David Parrish, aux bivouacs du Marathon des Sables et à la communauté écossaise du trail, la rédaction d'Altitude Trail adresse ses condoléances les plus sincères.
+Deux décès en quelques jours, c'est statistiquement peu à l'échelle de la pratique mondiale — des milliers de coureurs se sont alignés sur le MDS et sur des FKT ces dernières semaines. Mais le télescopage de ces deux drames, sur des formats diamétralement opposés, pose une question que la communauté trail évite régulièrement : la banalisation de l'extrême. L'inflation des distances, la démocratisation des FKT via les réseaux sociaux, la transformation de courses longtemps jugées confidentielles en rendez-vous grand public — tout cela crée l'illusion d'un terrain domestiqué. Il ne l'est pas.
+
+Le MDS existe depuis 1986. La Dragon's Back Race, les FKT écossais, le Cape Wrath : ces formats n'ont pas attendu l'ère Strava pour exister. Ce qui a changé, c'est la visibilité et le nombre de pratiquants. Le risque de base, lui, reste le même. Un malaise cardiaque dans le désert. Une tempête atlantique dans les Highlands. Les secouristes bénévoles de Kintail, la logistique médicale du MDS : ces filets de sécurité fonctionnent. Mais ils ne sont pas des garanties. À Grégory, à David Parrish, à leurs proches, la rédaction d'Altitude Trail adresse ses condoléances.

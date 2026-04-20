@@ -1,64 +1,68 @@
 ---
-slug: "montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de"
-title: "Montane Winter Spine Challenger South : Allen et Kershaw dominent les 108 miles de l'hiver anglais"
-excerpt: "Dans le froid mordant et la neige des Pennines, James Allen et Alice Kershaw ont dompté les 174 kilomètres du Challenger South. Récit d'une édition 2025 impitoyable."
-category: "Courses & Récits"
+slug: >-
+  montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de
+title: >-
+  Montane Winter Spine Challenger South : Allen et Kershaw dominent les 108
+  miles de l'hiver anglais
+excerpt: >-
+  Dans le froid mordant et la neige des Pennines, James Allen et Alice Kershaw
+  ont dompté les 174 kilomètres du Challenger South. Récit d'une édition 2025
+  impitoyable.
+category: Courses & Récits
 categorySlug: courses-recits
-author: "Rédaction Altitude"
-date: "13 janvier 2025"
-readTime: "5 min"
-image: "/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de-hero.jpg"
-tags: ["Spine Race", "ultra-trail", "Royaume-Uni", "hiver", "Pennine Way"]
-sourceUrl: "https://www.ultrarunnermagazine.co.uk/allen-and-kershaw-win-108-mile-montane-winter-spine-challenger-south/"
+author: Rédaction Altitude
+date: 13 janvier 2025
+readTime: 5 min
+image: >-
+  /articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de-hero.jpg
+tags:
+  - Spine Race
+  - ultra-trail
+  - Royaume-Uni
+  - hiver
+  - Pennine Way
+sourceUrl: >-
+  https://www.ultrarunnermagazine.co.uk/allen-and-kershaw-win-108-mile-montane-winter-spine-challenger-south/
+rewrittenAt: '2026-04-20'
 ---
+174 kilomètres, 57 heures de barrière horaire, un départ le 11 janvier à l'aube britannique. Le Montane Winter Spine Challenger South n'est pas un ultra, c'est un audit de caractère. Et l'édition 2025 a sévèrement trié.
 
-# Montane Winter Spine Challenger South : Allen et Kershaw dominent les 108 miles de l'hiver anglais
+Sur la portion sud du Pennine Way, d'Edale dans le Derbyshire à Hardraw dans le North Yorkshire, James Allen s'est imposé chez les hommes en 34 heures et 39 minutes, avec Mark Potts à 45 minutes et Sam Tansley troisième en 37 h 44, selon les chiffres publiés par Ultra Runner Magazine. Chez les femmes, Alice Kershaw a bouclé la distance en 43 h 14. Dans la catégorie Mountain Rescue Teams, Kevin Robinson l'emporte en 38 h 49. Tout s'est joué dans la neige, le vent et la nuit — la vraie nuit anglaise de janvier, celle qui tombe à 16 heures.
 
-Il y a des courses où l'on ne court pas contre les autres, mais contre soi-même, contre la nuit, contre le froid. Le Montane Winter Spine Challenger South, édition janvier 2025, appartient à cette catégorie rare d'épreuves où chaque kilomètre se paie cash. Sur les 108 miles (174 km) reliant Edale, dans le Derbyshire, à Hardraw, au cœur du North Yorkshire, James Allen et Alice Kershaw ont écrit leur nom au palmarès d'une édition marquée par la neige, la solitude et des conditions dignes des grandes aventures polaires.
+## Un objet couru qui ne ressemble à rien d'autre
 
-## Une traversée hivernale du Pennine Way
+Le Spine est souvent présenté outre-Manche comme "the most brutal race in Britain". La formule est galvaudée, sauf ici. Le Challenger South, version réduite du Spine Race intégral (431 km jusqu'à la frontière écossaise), se court en autonomie quasi totale, avec un unique point d'assistance majeur à Hebden Bridge. Le reste, c'est une trace à suivre le long de la Pennine Way, ce sentier historique qui traverse les tourbières du nord de l'Angleterre comme une colonne vertébrale de pierre.
 
-Pour ceux qui ne connaîtraient pas la bête : le Spine Race suit la fameuse Pennine Way, cette colonne vertébrale rocheuse qui remonte l'Angleterre du sud vers l'Écosse. Le Challenger South, version "courte" du mythique Spine, n'a pourtant rien d'une promenade. Départ donné le 11 janvier, barrière horaire fixée au lundi 13 janvier à 20 heures : les concurrents disposent d'à peine plus de 57 heures pour boucler la distance, en autonomie quasi totale, avec un seul point d'assistance majeur à Hebden Bridge.
+![Illustration Courses & Récits](/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de-1.jpg)
 
-Cette édition 2025 aura tenu toutes ses promesses de brutalité. La neige s'est invitée sur les plateaux exposés, transformant des sections déjà techniques en pièges à chevilles et en labyrinthes de navigation. Dans l'obscurité polaire qui tombe vers 16 heures sur le nord de l'Angleterre en janvier, les traileurs ont dû composer avec la fatigue, le brouillard et l'isolement. Un cocktail que seuls les initiés comprennent vraiment.
+Pour donner une idée : 174 km, c'est plus de quatre marathons enchaînés. Mais cette comparaison ne veut rien dire. Sur le Spine, la vitesse moyenne des meilleurs tourne autour de 5 km/h. Navigation obligatoire, bivouac possible, conditions météo érigées en co-organisateur. On est plus proche de l'esprit Barkley — la partie orientation s'entend — que d'un UTMB balisé au chalk spray.
 
-![Image illustrative trail running](/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de-1.jpg)
+## James Allen, une échappée dans le blanc
 
-## James Allen, la résistance solitaire
+Le récit de la victoire masculine, tel que rapporté par Ultra Runner Magazine, tient en une image : un coureur seul, boussole et GPS à la main, qui avale les Pennines enneigées après Hebden Bridge sans plus aucun rival dans le champ de vision. Allen, basé à Manchester, a pris le large sur la deuxième moitié quand le groupe de tête s'est délité.
 
-Chez les hommes, la victoire revient à James Allen, coureur basé à Manchester, qui a franchi la ligne d'arrivée de Hawes en **34 heures et 39 minutes**. Son scénario de course ressemble à ces récits d'aventure qu'on lit au coin du feu : une longue échappée en solitaire depuis Hebden Bridge, avalée dans le silence glacé des Pennines, sans repère humain, sans rival visible.
+C'est là que le Spine se distingue des ultras continentaux. Sur une course française classique, celui qui prend 20 minutes d'avance la nuit les conserve rarement longtemps. Ici, 20 minutes d'avance dans un plateau balayé par la neige, c'est une éternité — parce que les suiveurs perdent du temps à la moindre hésitation de navigation, au moindre bivouac mal anticipé. Allen a joué cette partition-là.
 
-Quand les hommes de tête qui l'accompagnaient ont lâché prise, Allen s'est retrouvé seul face à la carte, à la boussole et à sa trace GPS. Dans ce genre de situation, la navigation devient aussi cruciale que les jambes. Un bivouac mal anticipé, une erreur de bearing, et c'est la course qui bascule. Mais le Mancunien n'a rien lâché, puisant dans ses réserves pour traverser des zones où le vent couche la neige en congères et efface les sentiers. Son arrivée à Hawes, saluée par les volontaires massés sur la ligne, avait des airs de délivrance.
+Son chrono final de 34 h 39 ne dit pas grand-chose hors contexte. Mais rapporté aux conditions décrites par Ultra Runner Magazine — neige sur les plateaux exposés, sections techniques transformées en pièges, brouillard — il se lit comme une performance d'exception. Mark Potts, deuxième en 35 h 24, a signé un finish qu'il a lui-même découvert à l'arrivée : la publication britannique souligne sa "joie mêlée d'incrédulité" en franchissant la ligne. Sam Tansley, troisième en 37 h 44, revendique lui son avantage d'initié. Yorkshireman, il connaît chaque mur de pierre sèche, chaque passage tourbeux du tracé. Sur un Spine, cette cartographie mentale pèse autant qu'un VMA supérieur.
 
-Derrière lui, **Mark Potts** a terminé deuxième en 35 heures et 24 minutes, soit à environ 45 minutes du vainqueur — un écart minuscule au regard de l'effort fourni. Potts a découvert son podium à l'arrivée, la joie se mêlant à l'incrédulité après 108 miles de neige traîtresse. Son finish puissant illustre cette vérité du trail hivernal : ceux qui savent rester lucides sur le tard sont presque toujours récompensés.
+## Alice Kershaw, la leçon de tempo
 
-La troisième marche revient à **Sam Tansley**, modeste Yorkshireman au chronomètre solide (37 h 44). Tansley n'a pas caché que sa connaissance intime du Pennine Way avait fait la différence. Dans ces conditions où chaque mur de pierre sèche, chaque passage de tourbière se ressemblent, l'expérience du terrain vaut tous les entraînements.
+![Illustration Courses & Récits](/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de-2.jpg)
 
-![Image illustrative trail running](/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de-2.jpg)
+La lecture féminine de l'édition 2025 est plus intéressante encore. Alice Kershaw boucle en 43 h 14, soit environ 8 h 35 de plus que le vainqueur. L'écart paraît conséquent — il ne l'est pas. Sur un format hivernal en autonomie, où la gestion du froid et du sommeil dicte plus que la capacité aérobie, les écarts hommes-femmes se compressent. On l'a vu sur la Montane Spine Race intégrale ces dernières années, où Jasmin Paris avait marqué les esprits en 2019.
 
-## Alice Kershaw, fraîcheur déconcertante
+Ultra Runner Magazine décrit une Kershaw "étonnamment fraîche, presque sereine" sur la ligne d'arrivée, après avoir traversé les sections les plus exposées de nuit. C'est la signature des grandes performances sur ce type de course : non pas finir écroulé, mais finir encore stratège. La publication britannique y voit une "démonstration de maîtrise". Le terme est juste. Sur un Spine, l'erreur débutante consiste à courir le parcours comme un ultra de montagne classique ; l'approche experte consiste à le gérer comme une expédition de trois jours où chaque ravitaillement, chaque couche enfilée, chaque minute d'arrêt compte.
 
-Chez les femmes, la course a pris une autre dimension grâce à **Alice Kershaw**, arrivée en **43 heures et 14 minutes** sur la ligne de Hardraw. Le chiffre impressionne, mais ce qui frappe davantage, ce sont les témoignages de ceux qui l'ont vue franchir la ligne : une coureuse étonnamment fraîche, presque sereine, après avoir traversé les sections les plus redoutables du parcours dans le noir complet.
+## Le classement MRT, angle mort des médias français
 
-Courir seule, de nuit, dans la neige, sur une Pennine Way balayée par le vent : peu d'athlètes peuvent s'en sortir sans y laisser une partie d'eux-mêmes. Kershaw, elle, a transformé cette épreuve en démonstration de maîtrise. Gestion de l'allure, rigueur dans le ravitaillement, contrôle mental : sa performance coche toutes les cases du manuel idéal de l'ultra hivernal. Une victoire qui s'annonce comme une référence.
+Le Spine se distingue aussi par une catégorie absente de l'imaginaire trail continental : celle réservée aux membres des Mountain Rescue Teams, ces bénévoles qui sillonnent les massifs britanniques pour porter secours aux randonneurs. Kevin Robinson s'y impose en 38 h 49, selon Ultra Runner Magazine.
 
-## Le classement MRT : Kevin Robinson en tête
+Derrière lui, la publication rapporte un geste qui mérite d'être relevé : Charlotte Black et Alison Love ont rallié l'arrivée ensemble en 44 h 19, se partageant la deuxième place. Deux coureuses qui choisissent de ne pas se départager après 174 km, ce n'est pas anecdotique. Dans une discipline où la moindre seconde fait l'objet de reclassements algorithmiques sur les performance trackers, c'est un geste qui rappelle la nature profondément différente de l'ultra hivernal britannique : on n'y court pas pour battre l'autre, on y court pour rentrer.
 
-Le Spine propose également une catégorie spécifique pour les membres des Mountain Rescue Teams (MRT), ces bénévoles qui sillonnent les massifs britanniques pour porter secours aux randonneurs en détresse. Cette année, c'est **Kevin Robinson** qui s'impose dans cette catégorie prestigieuse, bouclant le parcours en **38 heures et 49 minutes**.
+## Ce que le Spine dit de l'ultra d'aujourd'hui
 
-Derrière lui, belle histoire : **Charlotte Black** et **Alison Love** ont choisi de rallier l'arrivée ensemble, main dans la main pourrait-on presque dire, après un périple partagé à travers la neige. Les deux coureuses ont coupé la ligne de Hardraw en **44 heures et 19 minutes**, se partageant la deuxième place du MRT Challenger South. Dans un sport où la performance brute prend souvent le dessus, ce finish duo rappelle que l'ultra est aussi une aventure humaine, parfois collective.
+Zoom arrière. Pendant que l'industrie du trail se polarise autour des grands labels — UTMB World Series d'un côté, Golden Trail de l'autre —, des formats comme le Spine continuent leur trajectoire parallèle, sans chercher à rentrer dans le moule. Pas de drone au-dessus du peloton. Pas de village d'arrivée sponsorisé. Pas de qualification à accumuler via un système de pierres virtuelles.
 
-## Ce que dit cette édition du trail hivernal
+Ce que l'édition 2025 confirme, au vu des récits publiés par Ultra Runner Magazine, c'est que ce contre-modèle trouve son public. Une génération de coureurs britanniques — Allen, Potts, Kershaw, Tansley — cultive une polyvalence qui manque cruellement au peloton français : navigation réelle, gestion d'autonomie longue, adaptation météo extrême. Ce sont des compétences qu'on n'apprend ni sur un semi-marathon ni sur un 80 km balisé.
 
-L'édition 2025 du Challenger South confirme plusieurs tendances qui traversent la discipline. D'abord, la montée en puissance d'une génération de traileurs britanniques à l'aise dans l'autonomie, capables de naviguer dans des conditions où le GPS seul ne suffit plus. Ensuite, la place croissante des femmes sur ces formats extrêmes : le chrono d'Alice Kershaw rivalise avec ceux des hommes sur une course où l'endurance mentale compte autant que la vitesse pure.
-
-Enfin, cette édition rappelle que le trail hivernal n'est pas une fantaisie marketing. À l'heure où les circuits estivaux saturent et où de nouveaux labels cherchent à imposer leur modèle, le Spine et son petit frère Challenger offrent quelque chose d'irremplaçable : une confrontation brute avec les éléments, un retour aux fondamentaux de la discipline. Pas de drone tournoyant au-dessus du peloton, pas de village d'arrivée clinquant — juste un coureur, une trace à suivre, et la neige qui tombe.
-
-**Récapitulatif de la course**
-- **Départ :** Edale, Derbyshire
-- **Arrivée :** Hardraw, North Yorkshire
-- **Distance :** 108 miles (174 km)
-- **Date de départ :** 11 janvier 2025
-- **Barrière horaire :** lundi 13 janvier, 20 h
-
-Rendez-vous est pris pour l'édition 2026, qui verra sans doute une nouvelle génération de candidats venir défier les Pennines en plein hiver. En attendant, James Allen et Alice Kershaw peuvent savourer : leurs noms rejoignent une liste très select de traileurs ayant dompté le Challenger South dans ses pires conditions.
+La question qui se pose à l'échelle du continent : combien de temps encore avant qu'un organisateur français, scandinave ou alpin propose un équivalent crédible ? La Diagonale des Fous offre la distance mais pas l'autonomie. La TDS se rapproche des conditions mais reste un écosystème UTMB. Le Spine, lui, n'a pas de clone en Europe continentale. C'est peut-être précisément ce qui en fait, chaque mois de janvier, le rendez-vous le plus honnête du calendrier ultra.

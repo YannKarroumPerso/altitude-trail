@@ -1,55 +1,73 @@
 ---
-slug: "courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029"
-title: "Courtney Dauwalter et Salomon : un mariage prolongé jusqu'en 2029"
-excerpt: "La reine de l'ultra-trail et la marque annécienne scellent cinq années de plus. Au programme : courses au sommet, nouvelle collection Shortney, puis un rôle de mentor au sein de Salomon."
-category: "Actualités"
+slug: courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029
+title: 'Courtney Dauwalter et Salomon : un mariage prolongé jusqu''en 2029'
+excerpt: >-
+  La reine de l'ultra-trail et la marque annécienne scellent cinq années de
+  plus. Au programme : courses au sommet, nouvelle collection Shortney, puis un
+  rôle de mentor au sein de Salomon.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "20 décembre 2024"
-readTime: "6 min"
-image: "/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-hero.jpg"
-tags: ["Courtney Dauwalter", "Salomon", "ultra-trail", "sponsoring", "Shortney"]
-sourceUrl: "https://www.ultrarunnermagazine.co.uk/courtney-dauwalter-salomon-continue-their-partnership-until-2029/"
+author: Rédaction Altitude
+date: 20 décembre 2024
+readTime: 6 min
+image: >-
+  /articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-hero.jpg
+tags:
+  - Courtney Dauwalter
+  - Salomon
+  - ultra-trail
+  - sponsoring
+  - Shortney
+sourceUrl: >-
+  https://www.ultrarunnermagazine.co.uk/courtney-dauwalter-salomon-continue-their-partnership-until-2029/
+rewrittenAt: '2026-04-20'
 ---
+Prolonger un contrat d'ambassadrice jusqu'en 2029, puis intégrer l'athlète au capital humain de la marque : Salomon ne renouvelle pas Courtney Dauwalter, la marque la transforme en actif long terme. Un signal pour toute l'industrie.
 
-# Courtney Dauwalter et Salomon : un mariage prolongé jusqu'en 2029
+**Annoncée cette semaine et relayée par Ultra Runner Magazine, la prolongation du partenariat entre Courtney Dauwalter et Salomon couvre cinq saisons supplémentaires. Au-delà du contrat sportif, la coureuse américaine basculera ensuite du côté salarié de l'entreprise haut-savoyarde, dans un rôle mêlant mentorat, développement produit et marketing running. Septennat déjà derrière eux, depuis 2017 et un carton de chaussures envoyé à une quasi-inconnue du Minnesota. Entre temps : un record féminin à Western States, un Triple Crown inédit en 2023 (Western States, Hardrock, UTMB la même année), une collection capsule baptisée « Shortney » et une silhouette devenue l'une des plus identifiables du trail mondial.**
 
-Sept ans après leurs premiers pas ensemble, Courtney Dauwalter et Salomon annoncent la prolongation de leur collaboration pour cinq années supplémentaires. Jusqu'en 2029, la reine américaine de l'ultra-trail continuera de courir sous les couleurs de la marque haut-savoyarde avant de basculer, à terme, de l'autre côté du miroir : au sein même de l'entreprise, dans un rôle taillé sur mesure autour du mentorat, du développement produit et du marketing.
+## Un renouvellement qui n'en est pas un
 
-## Sept ans de complicité, et ce n'est pas fini
+La formule mérite qu'on s'y arrête. D'ordinaire, un renouvellement de contrat dans le trail professionnel s'étale sur deux ou trois saisons, indexé sur les résultats et la visibilité médiatique. Cinq ans, c'est une durée quasiment inconnue dans l'écosystème — à l'exception de quelques figures historiques du running sur route. Mais Salomon pousse plus loin : une fois Dauwalter retirée de la compétition, elle intégrera l'entreprise comme salariée à temps plein.
 
-Tout a commencé en 2017. À l'époque, la native du Minnesota est encore une outsider. L'équipe Salomon US lui tend la main, glisse dans un carton quelques paires de chaussures et deux tenues de course, avant de lui affirmer qu'elle est, tout simplement, faite pour briller. Détail savoureux : Courtney demande d'emblée que ses shorts lui viennent du rayon homme. Pas de problème, lui répond-on. L'identité visuelle la plus reconnaissable de l'ultra-trail mondial venait de naître.
+![Illustration Actualités](/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-1.jpg)
 
-« En 2017, Salomon US a parié sur moi et m'a intégrée comme ambassadrice », raconte-t-elle dans le communiqué officiel. « Ils croyaient en moi, et n'ont pas tiqué quand j'ai demandé des shorts homme. J'étais aux anges. » Quelques mois plus tard, la même année, elle alignait la Moab 240 et en sortait avec une victoire au scratch. Le ton était donné. « Qui aurait cru que ce serait le début d'une relation aussi particulière ? Un partenariat. Une équipe. Je suis tellement reconnaissante que ce que nous avons lancé il y a sept ans continue de grandir. »
+Le cas est rare. Dans le communiqué repris par Ultra Runner Magazine, le périmètre du futur poste est précisé : mentorat des athlètes running de la marque, contribution au développement produit, promotion des gammes running. Autrement dit, Salomon ne signe pas seulement une coureuse en activité, la marque sécurise son capital d'expertise pour la décennie suivante. Dans un sport où les carrières d'élite tiennent rarement plus de dix ans au sommet, c'est une clause de continuité.
 
-![Image illustrative trail running](/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-1.jpg)
+## Comment tout a commencé, et pourquoi ça compte
 
-## Un palmarès qui a redéfini la discipline
+Retour en 2017. Dauwalter n'a alors ni palmarès international ni visibilité médiatique. Elle vient de la piste et du ski de fond, a quitté l'enseignement pour courir à plein temps. L'équipe Salomon US lui envoie quelques paires de chaussures et deux tenues. Dans le communiqué cité par Ultra Runner Magazine, elle rembobine : « En 2017, Salomon US a parié sur moi et m'a intégrée comme ambassadrice. Ils croyaient en moi, et n'ont pas tiqué quand j'ai demandé des shorts homme. J'étais aux anges. »
 
-Ancienne coureuse sur piste et fondeuse reconvertie dans l'ultra, Courtney Dauwalter a fait bien davantage que gagner des courses : elle a redessiné le périmètre du possible. Son tableau de chasse donne le vertige : Hardrock 100, Mount Fuji 100, Western States 100 — dont elle détient le record féminin du parcours —, UTMB®, Grand Raid de la Réunion, Transgrancanaria, Ultra-Trail Cape Town® ou encore Tahoe 200. Sur nombre de ces épreuves, elle a également signé des tops 10 au scratch, toutes catégories confondues.
+L'anecdote des shorts n'est pas un détail. C'est l'embryon d'une identité visuelle et, sept ans plus tard, d'une ligne produit. Cette même année 2017, Dauwalter gagne la Moab 240 au scratch — devant tous les hommes. La trajectoire était posée. « Qui aurait cru que ce serait le début d'une relation aussi particulière ? », ajoute-t-elle dans les propos rapportés par Ultra Runner Magazine.
 
-Mais c'est en 2023 qu'elle entre définitivement dans la légende. En une seule saison, elle remporte coup sur coup Western States, Hardrock et UTMB®. Personne — ni homme, ni femme — n'avait jamais réalisé ce triplé sur une même année. Une « Triple Crown » qui a fait basculer le regard du monde sportif sur l'ultra-trail féminin.
+## 2023, l'année qui change la grille de lecture
 
-L'année 2024 confirme sa régularité impériale : 3e au scratch à la Mount Fuji 100, 4e à Hardrock, 2e à l'Ultra Trail Metropole Nice Côte d'Azur 100 — et, à chaque fois, victorieuse chez les femmes. Pour 2025, trois rendez-vous sont déjà au calendrier : la Cocodona 250 en mai, la Lavaredo 120K en juin et, bien sûr, l'UTMB® en août.
+Le palmarès accumulé est connu : Hardrock 100, Mount Fuji 100, Western States 100 avec le record féminin du parcours, UTMB, Grand Raid de la Réunion, Transgrancanaria, Ultra-Trail Cape Town, Tahoe 200. Plusieurs top 10 scratch, toutes catégories confondues. Mais c'est l'été 2023 qui fait bifurquer le récit.
 
-## Shortneys et S/LAB Genesis : l'ADN d'une collaboration
+Remporter Western States fin juin, Hardrock trois semaines plus tard, puis l'UTMB fin août, aucun coureur — hommes et femmes confondus — ne l'avait jamais fait sur une même saison. Trois finales mondiales, trois géographies radicalement différentes (Sierra Nevada, San Juan du Colorado, massif du Mont-Blanc), trois formats d'ultra. Le Triple Crown version Dauwalter a fonctionné comme un accélérateur : il a délogé l'ultra-trail féminin du sous-chapitre où la presse généraliste le cantonnait.
 
-Au-delà des chronos et des trophées, Courtney Dauwalter a imposé un style. En 2022, Salomon lance la collection « Shortney », un clin d'œil assumé à sa passion pour les shorts larges et flottants, à mille lieues des cuissards moulants en vogue sur les circuits. Dans la foulée, la marque dévoile des éditions limitées de la S/LAB Genesis, la chaussure de trail qu'elle privilégie pour la compétition depuis son lancement.
+2024 a confirmé la régularité : 3e scratch à la Mount Fuji 100, 4e à Hardrock, 2e à l'Ultra Trail Metropole Nice Côte d'Azur 100 — et victoire féminine à chaque fois. Pour 2025, Ultra Runner Magazine liste trois rendez-vous : Cocodona 250 en mai, Lavaredo 120K en juin, UTMB en août. Un enchaînement qui laisse peu de place à l'improvisation.
 
-![Image illustrative trail running](/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-2.jpg)
+![Illustration Actualités](/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-2.jpg)
 
-En 2025, une nouvelle déclinaison de la collection « Shortney » verra le jour, accompagnée d'une édition limitée inédite de la S/LAB Genesis. Au-delà du marketing, l'axe créatif nourrit une véritable réflexion produit. « Courtney est une source d'inspiration constante pour nos équipes produit et marketing », souligne Scott Mellin, directeur global de la marque Salomon. « Elle a contribué à des collaborations uniques, tant sur l'apparel que sur la chaussure. »
+## La marque comme laboratoire, l'athlète comme co-autrice
 
-## Une athlète, un modèle… bientôt une collègue
+En 2022, Salomon a lancé la collection « Shortney », clin d'œil à ses shorts flottants coupe homme. Dans la foulée, plusieurs éditions limitées de la S/LAB Genesis, sa chaussure de compétition. En 2025, une nouvelle déclinaison est prévue, accompagnée d'une édition limitée inédite de la Genesis, selon le communiqué relayé par Ultra Runner Magazine.
 
-Ce qui distingue cette prolongation d'un simple renouvellement de contrat, c'est la feuille de route à long terme qui l'accompagne. Courtney Dauwalter ne l'ignore pas : l'ultra-trail est impitoyable pour le corps. Elle annonce donc vouloir courir « encore quelques années », puis rejoindre Salomon comme salariée à temps plein. Son futur poste sera centré sur le mentorat des athlètes running de la marque, ainsi que sur le développement et la promotion des produits dédiés au running.
+Derrière l'exercice marketing, un mouvement plus structurel. « Courtney est une source d'inspiration constante pour nos équipes produit et marketing », commente Scott Mellin, directeur global de la marque Salomon, dans les propos rapportés par le magazine britannique. « Elle a contribué à des collaborations uniques, tant sur l'apparel que sur la chaussure. » Ce n'est pas de la prose corporate : la Genesis, chaussure hybride entre course et long ultra, est devenue l'une des pièces les plus vendues du catalogue trail de la marque. Son alignement quasi total sur les préférences de Dauwalter en dit long sur le rôle joué par l'athlète dans le développement.
 
-La transition entre carrière d'athlète professionnelle et intégration dans la structure d'un équipementier n'a rien d'évident. Rares sont les coureurs qui franchissent le pas de manière aussi formalisée. Le choix en dit long : Salomon mise autant sur l'aura actuelle de la championne que sur son expertise de terrain, son discernement et sa capacité à transmettre.
+Cette logique rapproche Salomon de modèles bien rodés ailleurs dans le sport — pensons au lien entre Nike et quelques-uns de ses athlètes signature sur la route, où la co-conception est devenue un argument de vente assumé. Dans le trail, encore balkanisé entre petites marques techniques et géants généralistes, l'approche reste rare.
 
-« Les sept dernières années passées avec Courtney ont été extrêmement riches pour Salomon », prolonge Scott Mellin. « Elle possède l'un des plus beaux palmarès de l'histoire du trail, avec ce fameux Triple Crown jamais réalisé auparavant et plusieurs records de parcours. Elle est aussi un modèle pour nos coureurs, qui admirent autant ses résultats que sa persévérance et sa gentillesse. Nous sommes impatients de voir ce qu'elle apportera encore à la marque, et comment elle s'épanouira dans cette nouvelle phase de vie au sein de Salomon. »
+## La sortie de carrière, angle mort du trail professionnel
 
-## « Stay tuned »
+C'est sans doute là que l'annonce compte le plus. Le trail d'élite a grandi si vite ces dix dernières années qu'il n'a pas encore produit de modèle pour l'après-carrière de ses stars. Kilian Jornet a bâti sa propre marque, NNormal. François D'Haene exploite un domaine viticole. Mais la majorité des athlètes professionnels, une fois les jambes rendues, se rabattent sur le coaching indépendant, l'entrepreneuriat artisanal ou les conférences.
 
-Courtney Dauwalter, elle, conclut dans un registre plus léger, fidèle à son sourire démesuré et à son ton désarmant : « Je suis impatiente de poursuivre la fête, restez à l'affût, on prépare des choses sympas ensemble. Shortneys et au-delà ! » Derrière la formule, un programme limpide : plus de courses, plus d'heures passées dans la fameuse « pain cave » qu'elle a popularisée — cet espace mental où elle va puiser quand les jambes lâchent —, plus de collaborations produit, et, à terme, le début d'un second chapitre dans les bureaux d'Annecy.
+Dauwalter, elle, annonce selon Ultra Runner Magazine vouloir courir « encore quelques années » avant d'intégrer Salomon comme salariée. Le cadre est posé, la trajectoire sécurisée. « Les sept dernières années passées avec Courtney ont été extrêmement riches pour Salomon », explique Scott Mellin cité par le magazine. « Elle possède l'un des plus beaux palmarès de l'histoire du trail, avec ce fameux Triple Crown jamais réalisé auparavant et plusieurs records de parcours. »
 
-Pour Salomon, qui rappelle son ADN de marque lifestyle née dans les Alpes françaises et dont le Design Center réunit ingénieurs, designers et athlètes, garder Courtney Dauwalter dans la famille jusqu'en 2029 et au-delà relève presque de l'évidence. Dans un sport où les carrières au plus haut niveau s'étirent parfois sur une décennie et où la transmission devient un enjeu majeur, la manœuvre a tout d'un investissement stratégique. Et pour les fans de trail, elle garantit surtout que l'on verra encore, pendant plusieurs saisons, cette silhouette aux shorts trop grands danser sur les sentiers les plus exigeants de la planète.
+La manœuvre institutionnalise une transition qui, jusqu'ici, se négociait au cas par cas. Pour les athlètes d'élite encore en activité, elle envoie un message : il est possible de passer de la pain cave — cet espace mental de souffrance que Dauwalter a popularisé — au siège d'Annecy.
+
+## Ce que l'épisode dit de l'état du trail
+
+Il y a sept ans, Salomon US glissait deux tenues dans un carton pour une outsider. Aujourd'hui, la marque verrouille cinq saisons supplémentaires et esquisse l'après. Cette verticalité — du sponsoring à l'intégration salariale — est la marque d'un sport en cours de professionnalisation accélérée. Le trail n'est plus le cousin baroudeur du running sur route : il produit ses propres carrières, ses propres modèles économiques, ses propres formes de loyauté.
+
+Reste une ambiguïté. En s'attachant Dauwalter aussi profondément et aussi longtemps, Salomon capitalise sur une singularité — shorts flottants, sourire désarmant, franchise revendiquée — qui, par définition, ne se reproduit pas. Le risque est là : confondre une athlète et une formule. La prochaine génération n'aura ni le même parcours ni la même aura. Ce que l'industrie trail cherche, au fond, derrière cette annonce, c'est peut-être moins un mentor qu'un prototype de carrière longue. Et ça, c'est une autre course.

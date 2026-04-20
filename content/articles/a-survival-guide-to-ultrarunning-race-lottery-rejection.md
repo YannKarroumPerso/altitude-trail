@@ -1,63 +1,71 @@
 ---
-slug: "recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu"
-title: "Recalé aux loteries d'ultra : le guide de survie du traileur déçu"
-excerpt: "Western States, Hardrock, UTMB… Chaque année, des milliers de coureurs encaissent le verdict des tirages au sort. Voici comment transformer la frustration en carburant."
-category: "Actualités"
+slug: recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu
+title: 'Recalé aux loteries d''ultra : le guide de survie du traileur déçu'
+excerpt: >-
+  Western States, Hardrock, UTMB… Chaque année, des milliers de coureurs
+  encaissent le verdict des tirages au sort. Voici comment transformer la
+  frustration en carburant.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "13 décembre 2024"
-readTime: "6 min"
-image: "/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu-hero.jpg"
-tags: ["ultra-trail", "UTMB", "Western States", "Hardrock", "motivation"]
-sourceUrl: "https://www.trailrunnermag.com/races/ultrarunning-race-lottery-season-survival-guide/"
+author: Rédaction Altitude
+date: 13 décembre 2024
+readTime: 6 min
+image: >-
+  /articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu-hero.jpg
+tags:
+  - ultra-trail
+  - UTMB
+  - Western States
+  - Hardrock
+  - motivation
+sourceUrl: >-
+  https://www.trailrunnermag.com/races/ultrarunning-race-lottery-season-survival-guide/
+rewrittenAt: '2026-04-20'
 ---
+9 993 candidatures pour 260 dossards. 0,4 % de chances pour un postulant débutant. La Western States 100 n'est plus une course, c'est un concours d'entrée dont personne ne sort admis.
 
-# Recalé aux loteries d'ultra : le guide de survie du traileur déçu
+**La saison des loteries d'ultra vient de rendre son verdict, et les chiffres compilés par Trail Runner Mag ont de quoi faire ravaler leur enthousiasme aux candidats du tirage 2025. Western States et Hardrock ont livré leurs heureux élus le week-end dernier. High Lonesome, Zegama, Cascade Crest, Vermont 100, UTMB : les autres scrutins s'enchaînent jusqu'en janvier. Entre-temps, des dizaines de milliers de coureurs encaissent le mail de refus. Le signal est clair : l'ultra-trail est devenu un sport d'accès rationné, et la pénurie de dossards redessine les stratégies de saison, les trajectoires sportives, peut-être même le rapport que l'on entretient à la pratique.**
 
-C'est un peu comme attendre les résultats d'un concours d'entrée en prépa. Certains sèchent leur sortie longue pour fixer leur écran, d'autres fuient sur les sentiers en laissant leur téléphone à la maison. Dans les deux cas, le même mail finit par tomber : « Merci de l'intérêt que vous portez à notre épreuve, nous avons le regret de vous annoncer… » Bienvenue dans la saison des loteries de trail et d'ultra-trail.
+## Quand entrer à Harvard devient statistiquement plus simple qu'à Squaw Valley
 
-Le week-end dernier, les tirages au sort de la Western States 100 et de la Hardrock 100 ont livré leurs heureux élus pour 2025. D'autres suivent : High Lonesome, Zegama, UTMB. Et puis il y a les oukases absolus, à la Barkley Marathons, où il faut carrément rédiger une lettre de candidature. Comme pour les admissions dans les universités les plus sélectives, la probabilité de voir son nom sortir du chapeau s'effondre d'année en année.
+Le papier publié par Trail Runner Mag met côte à côte deux chiffres qui suffisent à camper le décor. Un postulant first-timer à la Western States avait cette année 0,4 % de chances d'être tiré. Harvard, dans le même temps, affiche un taux d'admission autour de 3 %. Huit fois plus facile d'entrer dans l'université la plus sélective du monde que de décrocher un dossard sur les sentiers de Californie.
 
-## Des probabilités dignes d'une piqûre d'abeille
+![Illustration Actualités](/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu-1.jpg)
 
-Les chiffres donnent le vertige. La Western States a reçu cette année 9 993 candidatures pour 260 places. Grâce au système de loterie pondérée, un postulant inscrit pour la première fois avait 0,4 % de chances d'être retenu. À titre de comparaison, cela vous situe quelque part entre le risque de mourir piqué par des abeilles (0,0016 %) et celui d'être admis à Harvard (3 %).
+La trajectoire est vertigineuse. En 2014, la course recevait 2 704 candidatures. Dix ans plus tard, elles sont 9 993. Trois fois plus de prétendants, pour un quota de places à peine mouvant. Et si l'on remonte à l'an 2000, année de naissance de la loterie, ils n'étaient que 583. L'inflation n'est pas linéaire, elle est exponentielle. Ce que Trail Runner Mag pointe en filigrane, c'est un paradoxe structurel : plus une course devient emblématique, plus elle s'éloigne de la masse qu'elle inspire.
 
-![Image illustrative trail running](/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu-1.jpg)
+## L'ultra-trail à l'ère de la concentration industrielle
 
-Il y a dix ans à peine, la course ne comptabilisait que 2 704 candidatures. Autrement dit, vos chances sont aujourd'hui trois fois moindres qu'en 2014. Et n'évoquons même pas l'an 2000, année de création de la loterie, quand 583 hurluberlus avaient osé s'inscrire. Pendant que vous ravalez vos larmes — votre course de rêve, votre objectif ultime, votre raison de vivre, qui vous file encore entre les doigts — des connaissances s'auto-congratulent sur Strava et Instagram : « Mon rêve depuis cinq ans, Hardrock, je le cours cette année trois semaines après la Western et six avant l'UTMB ! » Cinq ans ? Vous, ça fait cinq décennies. Vous cliquez sur « ne plus suivre ». Ou pire, vous lâchez un commentaire faussement bienveillant : « Bravo, tu es vraiment courageux ! »
+Derrière la frustration individuelle, il y a un mouvement de fond. Trail Runner Mag parle sans détour d'une « révolution industrielle » du trail. Des épreuves qui faisaient leur renommée en toute indépendance — Miwok, Leadville, Way Too Cool sont citées — glissent dans l'orbite des grands circuits : UTMB World Series, Golden Trail World Series, ou se voient reléguées au rôle de qualificative pour les mastodontes.
 
-Avant de sombrer dans les stouts artisanales ou de faire quelque chose d'inavouable comme vous inscrire à un Hyrox juste pour vous inscrire à quelque chose, voici quelques pistes pour s'en sortir la tête haute.
+Le bilan est ambivalent. Côté positif, la densité de la tête de course progresse : les élites convergent vers un nombre réduit de rendez-vous majeurs, le niveau monte, la médiatisation suit. Côté négatif, l'écosystème intermédiaire s'étiole. Les courses locales, celles qui portaient la culture communautaire du sport, peinent à exister hors d'un label. Le dossard ne se mérite plus par la ligne de départ — il se gagne par la loterie, ou par l'accumulation de « stones » UTMB, un système de qualification que Trail Runner Mag juge lui-même « si tortueux qu'il mériterait un guide à lui seul ».
 
-## Option 1 : tout arrêter
+Rappel de contexte pour qui découvre la mécanique : le calendrier des tirages s'étale de décembre à janvier. UTMB du 19 décembre au 9 janvier, Cascade Crest 100 du 9 décembre au 5 janvier, Vermont 100 du 1er au 10 janvier, Zegama du 13 au 24 janvier. Toute une saison de course se joue sur quatre semaines de clics et d'attente.
 
-Soyons lucides : l'ultra-trail est, au mieux, une perte de temps, au pire un danger mortel. C'est ruineux. Ces paires de chaussures à 250 euros à peine utilisées qui s'entassent à l'entrée parce qu'elles blessent le tendon d'Achille mais qu'on n'arrive pas à s'en séparer. Ces gels énergétiques infâmes que vous avalez religieusement « pour travailler la nutrition ». Ces séances d'ostéopathie que personne ne vous rembourse.
+## Le recalé, nouveau personnage central du trail mondial
 
-Et puis, c'est inutilement extrême. On ne court pas 160 kilomètres pour être « en bonne santé », ressentir le fameux « runner's high » ou « se faire des amis ». Comme me l'a rappelé en riant le kinésithérapeute Mark Plaatjes, champion du monde de marathon 1993, il n'est nul besoin de cramer son salaire en soins d'une déchirure au mollet quand on court « pour le plaisir ». « On se sent bien mieux en courant moins », m'a-t-il balancé pendant que j'étais allongé sur sa table.
+Le refus est devenu l'expérience statistiquement dominante. Sur 9 993 candidats à la Western States, 9 733 ont reçu le mauvais mail. C'est une cohorte dix fois plus nombreuse que le plateau de départ. Le traileur 2024 n'est plus celui qui court la course de ses rêves, c'est celui qui ne la court pas. Et qui doit inventer sa saison autour de ce vide.
 
-Sauf que l'ultra, ce n'est justement pas fun. Combien de fois avez-vous vomi tripes et boyaux, franchi la ligne en clopinant, dormi sur un sentier ? Voilà. Mais c'est peut-être précisément ce qui rend la chose addictive. Ce « type II fun », voire « type III », c'est votre langue maternelle. Là où d'autres voient dans les canyons surchauffés de la Western States un aller simple aux urgences, vous y voyez l'occasion de prouver votre trempe. Là où certains considèrent l'UTMB comme le Disneyland surpeuplé du trail, vous y voyez les vacances européennes les plus instagrammables de votre vie.
+![Illustration Actualités](/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu-2.jpg)
 
-Alors si l'idée d'effacer « ultra-traileur » de votre bio Instagram vous liquéfie, lisez la suite.
+Trail Runner Mag propose une cartographie lucide des options qui s'offrent au recalé. Première voie, cynique et réaliste : tout arrêter. Le papier cite Mark Plaatjes, kinésithérapeute et champion du monde de marathon 1993, lâchant pendant une séance : « On se sent bien mieux en courant moins. » Une phrase qui sonne comme un rappel hygiéniste dans un sport qui confond volontiers endurance et abnégation.
 
-![Image illustrative trail running](/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu-2.jpg)
+Deuxième voie, la plus empruntée : le plan B immédiat. Plusieurs qualificatives pour Western States et Hardrock affichaient encore des places au moment de la publication — Bighorn, Hellbender, Cruel Jewel, Swiss Alps Trail. La logique est implacable : on paie d'abord, on rationalise ensuite. Trail Runner Mag parle de « désir de l'inatteignable », concept psychologique qui colle à merveille à la mécanique addictive de l'ultra.
 
-## Option 2 : se trouver un plan B (ou trois)
+## Le pari du retour au local
 
-Vous ne juriez que par Hardrock. Ou la Western. Peu importe, toutes aussi pénibles à leur façon. Mais vous venez de vous faire recaler, et il faut de toute façon renouveler votre course qualificative. Après une sortie longue ou deux consacrées au déni et à la colère, place à l'acceptation : sortez la carte bleue et inscrivez-vous ailleurs.
+Troisième voie, et c'est sans doute la plus intéressante pour qui s'intéresse à l'évolution du sport : rejouer la carte du local. Trail Runner Mag assume son pari éditorial — la course de terroir va revenir, comme sont revenues les marques indépendantes face aux géants. Deux exemples sont cités côté américain : Gnar Runners dans le Colorado, 603 Endurance dans le New Hampshire. Des organisateurs qui misent sur la logistique soignée, le barbecue d'arrivée, la bière partagée, et l'absence totale de logo de circuit mondial.
 
-Il reste des places sur plusieurs qualificatives pour la Western ou Hardrock. Un coup d'œil rapide le confirme : Bighorn, Hellbender, Cruel Jewel, Swiss Alps Trail, toutes ont encore du dispo au moment d'écrire ces lignes. Inscrivez-vous maintenant, vous remettrez vos choix de vie en question plus tard. Il existe même un terme psychologique pour cela : le désir de l'inatteignable.
+La thèse vaut d'être transposée. Le trail français connaît la même dynamique : d'un côté, la massification UTMB et ses séries labellisées ; de l'autre, une multitude d'épreuves associatives, ancrées dans un massif, qui ne demandent ni stones ni tirage au sort. La Diagonale des Fous reste une loterie d'un autre genre — celle des 3 000 inscriptions vendues en quelques heures —, mais le tissu des courses locales du Mercantour, des Cévennes ou du Jura continue d'offrir ce que les grands circuits ne donnent plus : l'inscription comme acte simple.
 
-Pour les incorrigibles, d'autres loteries restent ouvertes. Celle de l'UTMB, pour qui possède assez de « stones » — le processus de qualification étant si tortueux qu'il mériterait un guide à lui seul —, tourne du 19 décembre au 9 janvier. La Cascade Crest 100 attend les candidats du 9 décembre au 5 janvier. La Vermont 100, du 1er au 10 janvier. Et si vous lâchez les cent milles, la loterie Zegama s'ouvre du 13 au 24 janvier. La liste est loin d'être exhaustive.
+## L'invention de son propre terrain de jeu
 
-## Option 3 : revenir au local
+Quatrième voie, la plus radicale : sortir du cadre « course » tout court. Trail Runner Mag évoque les FKT, les projets personnels, les backyard ultras, les fat-ass — ces épreuves sans dossard ni balisage, dont un 160 kilomètres officieux dans les White Mountains est donné en exemple. La pratique de l'ultra contourne alors son propre marché.
 
-L'ultra-trail traverse une étrange phase de concentration. Appelons ça sa révolution industrielle. Là où des courses indépendantes rayonnaient par elles-mêmes — Miwok, Leadville, Way Too Cool —, on voit désormais tout se fondre dans des circuits comme l'UTMB World Series ou les Golden Trail, ou se réduire au statut de qualificative. Cette quasi-monopolisation a ses mérites, dont un meilleur niveau de compétition en tête de course. Elle a aussi un coût : la lente agonie des courses locales.
+L'auteur du papier va plus loin en racontant son bifurcation personnelle : retour au marathon sur route, premier semi, pointes ressorties pour la piste après huit ans d'absence. « Comme Lucy passant par l'armoire dans Narnia, j'ai redécouvert un monde juste sous mes yeux », écrit-il. L'image dit quelque chose de juste : l'ultra-dépendance enferme autant qu'elle libère.
 
-Eh bien, il est temps de remettre le local à la mode. Je prends le pari, enfoui au milieu de cet article vaguement sérieux : à l'image des marques indépendantes, la course de terroir fera son retour. Dans le Colorado, Gnar Runners organise une série d'épreuves toutes distances confondues, parfaitement tenues, avec cette ambiance conviviale où l'on rigole de ses déboires autour d'une bière et d'un hot-dog à l'arrivée. Dans le New Hampshire, 603 Endurance propose la même chose. Rendons au barbecue d'après-course sa place centrale.
+## Ce que la loterie révèle vraiment
 
-## Option 4 : inventer son propre défi
+Il y a une lecture moins confortable de cette saison des tirages. L'ultra-trail a gagné sa bataille culturelle — il attire, il fascine, il draine des candidats par dizaines de milliers — et il est en train de perdre sa bataille démocratique. La Western States à 0,4 % de chances d'admission n'est plus un sport, c'est une aspiration collective dont 99,6 % des participants repartent frustrés. Le risque n'est pas la déception d'une saison, c'est l'épuisement d'une génération de pratiquants qui réduit l'ultra à un jeu de hasard.
 
-Le souci avec les courses, c'est qu'il faut réellement vouloir y être pour s'y donner. Si aucune n'allume plus la flamme, regardez ailleurs. Attaquez ce FKT que vous repoussez depuis des années. Montez un projet personnel. Inscrivez-vous à un backyard ultra ou à un « fat-ass » — ces épreuves sans dossard, sans balisage, sans rien, comme ce non-officiel de 160 kilomètres dans les White Mountains.
-
-Ou, tenez, entraînez-vous pour un marathon sur route. C'est le choix que j'ai fait récemment, saisi par la peur du temps qui file. Après des années à patauger sur les sentiers, il me faudra un an pour retrouver un semblant de vitesse. J'ai couru mon tout premier semi sur route, remis les pointes sur piste pour la première fois en huit ans, retrouvé d'anciens coéquipiers de fac. Comme Lucy passant par l'armoire dans Narnia, j'ai redécouvert un monde juste sous mes yeux.
-
-Alors posez-vous la question : qu'est-ce que je cherche réellement en engloutissant tout mon temps libre dans ce sport ? La réponse, souvent, tient dans l'envie de se dépasser autrement. Bonne nouvelle : cela fonctionne aussi bien sur un mile chronométré que sur 300 kilomètres de sentiers. Varier les stimuli libère des endorphines d'un genre nouveau — et ça, franchement, c'est une sacrée drogue. Peut-être qu'en relevant un défi inédit, vous changerez suffisamment pour que cette loterie n'ait plus autant d'importance. Ou alors, inscrivez-vous à ce Hyrox. Au moins, vous aurez une bonne excuse pour soulever des trucs lourds trois fois par semaine.
+Le vrai scénario à surveiller n'est pas celui des vainqueurs 2025 à Squaw Valley ou à Silverton. C'est celui des organisateurs indépendants qui, dans les deux ans qui viennent, vont tenter de reconstruire un ultra-trail de proximité, débarrassé des stones et des tirages. Trail Runner Mag parie dessus. On a envie de parier avec.

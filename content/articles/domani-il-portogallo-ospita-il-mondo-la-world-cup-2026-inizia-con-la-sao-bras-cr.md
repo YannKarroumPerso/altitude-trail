@@ -1,55 +1,74 @@
 ---
-slug: "coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av"
-title: "Coup d'envoi au Portugal : la Coupe du monde de course en montagne 2026 s'ouvre avec la São Brás Cross"
-excerpt: "Dimanche, la Serra de Montemuro donne le la d'une saison historique. Seize courses, dix pays, quatre continents : la WMRA Mountain Running World Cup 2026 s'annonce comme la plus dense jamais organisée."
-category: "Actualités"
+slug: >-
+  coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av
+title: >-
+  Coup d'envoi au Portugal : la Coupe du monde de course en montagne 2026
+  s'ouvre avec la São Brás Cross
+excerpt: >-
+  Dimanche, la Serra de Montemuro donne le la d'une saison historique. Seize
+  courses, dix pays, quatre continents : la WMRA Mountain Running World Cup 2026
+  s'annonce comme la plus dense jamais organisée.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "18 avril 2026"
-readTime: "6 min"
-image: "/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-hero.jpg"
-tags: ["course en montagne", "Coupe du monde", "WMRA", "Portugal", "São Brás Cross"]
-sourceUrl: "https://www.corsainmontagna.it/2026/04/18/domani-il-portogallo-ospita-il-mondo-la-world-cup-2026-inizia-con-la-sao-bras-cross/"
+author: Rédaction Altitude
+date: 18 avril 2026
+readTime: 6 min
+image: >-
+  /articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-hero.jpg
+tags:
+  - course en montagne
+  - Coupe du monde
+  - WMRA
+  - Portugal
+  - São Brás Cross
+sourceUrl: >-
+  https://www.corsainmontagna.it/2026/04/18/domani-il-portogallo-ospita-il-mondo-la-world-cup-2026-inizia-con-la-sao-bras-cross/
+rewrittenAt: '2026-04-20'
 ---
+Seize courses, dix pays, quatre continents. La Coupe du monde de course en montagne 2026 s'annonce comme la saison la plus dense jamais alignée par la WMRA, et c'est un village du centre du Portugal qui va l'ouvrir dimanche. Pas Chamonix, pas Innsbruck, pas Sierre. Castro Daire.
 
-# Coup d'envoi au Portugal : la Coupe du monde de course en montagne 2026 s'ouvre avec la São Brás Cross
+La São Brás Cross, 19ᵉ édition, donne le coup d'envoi de la Mountain Running World Cup dimanche depuis le village de Granja, dans la Serra de Montemuro. Un tracé Classic Up & Down de 10,9 km pour 628 mètres de dénivelé positif, selon les données rapportées par Corsa in Montagna. Chez les femmes, la Britannique Scout Adkin remet son titre en jeu face à un peloton européen et kényan resserré. Chez les hommes, le Kényan Michael Selelo Saoli fait figure de favori. Première des cinq manches Classic Up & Down du calendrier, la course sert de baromètre à une saison qui ira jusqu'en Chine.
 
-L'attente touche à sa fin. Ce week-end, la WMRA Mountain Running World Cup 2026 entre en scène avec la promesse, sur le papier, de la saison la plus spectaculaire en vingt-sept ans d'histoire. Seize courses, dix pays, quatre continents, des mois de confrontations au sommet : le circuit mondial de course en montagne n'a jamais vu aussi grand. Et c'est le Portugal, terre d'accueil, qui aura le privilège d'allumer la mèche, dimanche, avec la **São Brás Cross**, dans la région de Castro Daire.
+## Une Coupe du monde qui change d'échelle
 
-## Un calendrier global, trois disciplines, une exigence commune
+La WMRA affiche ses ambitions : seize rendez-vous répartis sur quatre continents, du Portugal à la Chine en passant par l'Autriche, la Suisse, l'Italie, la Pologne, l'Espagne, l'Amérique du Nord et le Canada. Corsa in Montagna parle de la saison la plus spectaculaire en vingt-sept ans d'histoire du circuit. Le mot n'est pas galvaudé.
 
-Des reliefs du Portugal central aux cimes autrichiennes et suisses, la Coupe du monde promène ses meilleurs grimpeurs à travers certains des paysages les plus saisissants de la planète. Chine, Espagne, Amérique du Nord, Italie, Pologne, Canada : le calendrier 2026 a l'ambition d'un tour du monde, pensé pour mettre en valeur toute la diversité d'une discipline en pleine expansion.
+![Illustration Actualités](/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-1.jpg)
 
-La philosophie du circuit repose sur une structure en trois catégories, chacune incarnant une manière particulière de courir la montagne :
+Trois formats coexistent dans un même classement général : Uphill (3 à 9 km), Classic Up & Down (10 à 21 km), Long Mountain (22 à 50 km). Chaque épreuve pèse du même poids au général, et un titre spécialisé récompense le meilleur de chaque catégorie. La WMRA, mandatée par World Athletics, impose des contrôles antidopage systématiques sur chaque manche. Une rigueur qui manque cruellement à une partie du trail longue distance, et qui rappelle que la course en montagne reste, administrativement, un sport adossé à la fédération internationale d'athlétisme.
 
-- **Uphill** (3 à 9 km) : la montée sèche, un sprint vers le ciel.
-- **Classic Up & Down** (10 à 21 km) : l'équilibre entre ascensions et descentes techniques.
-- **Long Mountain** (22 à 50 km) : la course d'endurance, proche du trail pur.
+La juxtaposition des formats pose une question éditoriale rarement formulée : la course en montagne doit-elle encore se penser comme une discipline unifiée ? Un spécialiste de la montée sèche de 5 km et un coureur de 45 km vallonnés ne partagent plus grand-chose, sinon le sigle WMRA. En gardant les trois familles sous le même classement, la fédération parie sur la polyvalence. C'est un pari.
 
-![Image illustrative trail running](/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-1.jpg)
+## Pourquoi le Portugal, et pourquoi maintenant
 
-Chaque épreuve pèse d'un poids identique au classement général : ce sont les meilleurs résultats de la saison qui décident du vainqueur final. Les athlètes s'affrontent également au sein de leur catégorie, avec à la clé un titre spécialisé en plus du classement global. Gérée par la WMRA pour le compte de World Athletics, la Coupe du monde soutient les compétitions off-road avec un cadre strict : contrôles antidopage systématiques sur chaque course, garantie d'équité sportive. Dans ce format, aucune épreuve n'est un tour de chauffe. Chaque place compte, chaque podium vaut de l'or.
+Castro Daire n'a rien d'un choix neutre. La São Brás Cross fête sa 19ᵉ édition. Un événement porté localement, ancré dans la Serra de Montemuro, et jusqu'ici connu des seuls initiés de la scène ibérique. Son intronisation dans le calendrier mondial n'est pas un accident : Corsa in Montagna souligne que la Turismo Centro de Portugal devient, via son programme « Move Centro de Portugal – The Sports Region », sponsor officiel de la catégorie Classic Up & Down pour 2026.
 
-## São Brás Cross : dix-neuf ans de passion, un terrain devenu mondial
+Autrement dit, une région touristique investit pour placer son terrain sur la carte internationale du running. Le schéma est désormais connu — Innsbruck, Zermatt, Chamonix l'ont écrit avant — mais sa répétition sur un terrain portugais, loin de l'axe alpin historique, dit quelque chose de la géographie du sport. La course en montagne quitte les Alpes pour aller chercher du granite atlantique, des landes balayées par le vent, des vallées boisées peu familières du grand public. Décentralisation assumée.
 
-La São Brás Cross n'a rien d'un événement parachuté. Ancrée profondément dans la vie locale de Castro Daire, elle fête cette année sa **19ᵉ édition**, portée par une communauté de bénévoles et le soutien des institutions régionales. Son tracé respecte le format Classic Up & Down sur un terrain exigeant de la **Serra de Montemuro** : crêtes granitiques, vallées boisées, vastes landes balayées par le vent. Considérée depuis longtemps comme une classique nationale de la course en montagne portugaise, la voici propulsée sous les projecteurs du plus haut niveau international.
+Comparaison utile : l'UTMB Group, avec son World Series, a quadrillé le globe en moins de dix ans. La WMRA suit une logique parallèle avec des moyens moindres, mais une légitimité sportive plus ancienne. Le rapport de forces entre les deux écosystèmes, dans les prochaines saisons, sera l'un des feuilletons de fond du trail international.
 
-L'intégration à la Coupe du monde envoie aussi un message : un petit village passionné, perché dans un décor montagnard spectaculaire, peut abriter un rendez-vous d'envergure planétaire. Avec **10,9 km et 628 mètres de dénivelé positif**, le parcours n'a rien d'une mise en jambes. Trois raidillons plus courts ponctuent le tracé, avant une montée majeure aux alentours du 3ᵉ kilomètre — un secteur qui pourrait déjà opérer la sélection. Mais l'ascension n'est qu'une part de l'équation. La **longue descente entre le 4ᵉ et le 6ᵉ kilomètre** risque de faire autant de dégâts, demandant aux coureurs de l'aplomb et une vélocité absolue sur terrain technique. Et pour clore l'affaire, un final en montée qui testera à la fois l'état de forme et la capacité à encaisser. Sur ce genre de profil, il n'existe aucune cachette. Pour des athlètes de ce calibre, c'est un révélateur parfait de début de saison.
+![Illustration Actualités](/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-2.jpg)
 
-![Image illustrative trail running](/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-2.jpg)
+## Un tracé qui ne pardonne rien
 
-Notons que la Turismo Centro de Portugal, à travers son programme « Move Centro de Portugal – The Sports Region », devient le sponsor officiel de la catégorie Classic Up & Down de la Coupe du monde 2026. Un engagement qui inscrit la São Brás Cross dans une dynamique à long terme.
+10,9 km et 628 m D+, sur le papier, c'est une distance accessible. Dans les faits, c'est un exercice de vérité. Corsa in Montagna décrit un parcours ponctué de trois raidillons courts, d'une ascension majeure vers le 3ᵉ kilomètre, puis d'une longue descente entre le 4ᵉ et le 6ᵉ kilomètre, avant un final en montée.
 
-## Un plateau mondial pour ouvrir les hostilités
+Pour situer : 628 m D+ sur un peu moins de 11 km, c'est une pente moyenne cumulée proche de 6 %, avec des rampes nettement plus raides sur les secteurs clés. On est loin d'un kilomètre vertical, très loin d'un format long, pile dans la zone où la puissance aérobie pure et la maîtrise technique en descente décident tout. La descente du milieu, sur granite, va probablement faire plus de dégâts que la montée centrale. Classique du format Up & Down : celui qui gagne en montée et perd en descente ne gagne pas grand-chose.
 
-La start-list du dimanche, au départ du village de Granja, ressemble déjà à une finale. Chez les femmes, tous les regards se tournent vers **Scout Adkin** (Grande-Bretagne), tenante du titre de la Coupe du monde et favorite logique. Mais la Britannique n'aura aucun répit : la Française **Nélie Clément**, la Kényane **Ruth Mwihaki Gitonga**, les Italiennes **Benedetta Broggi** et **Camilla Magliano**, la Française **Marie Nivet** ou encore la Britannique **Elle Twentyman** constituent un peloton de poursuite redoutable, capable de transformer chaque relance en piège.
+Pour un début de saison, le profil est redoutable. Personne ne se cache sur 10 km. L'hiver se lit immédiatement dans les jambes.
 
-Chez les hommes, le favori porte le maillot du Kenya : **Michael Selelo Saoli**, dont la pointe de vitesse pourrait faire la différence sur les sections roulantes. Face à lui, l'Italien **Alberto Vender**, le Nord-Irlandais **Zak Hanna**, le Français **Théodore Klein**, les Britanniques **Matthew Knowles**, **Thomas Hilton** et **Andrew Douglas**, sans oublier le Portugais **Marcelo Gonçalves** qui courra devant son public : autant de prétendants capables de retourner la hiérarchie dès le 3ᵉ kilomètre. La course de dimanche n'est pas seulement une ouverture : c'est un baromètre, un premier rendez-vous auquel personne ne voudra manquer.
+## Scout Adkin, Saoli et un plateau en mode finale
 
-## Ce que dit ce coup d'envoi de la saison à venir
+La start-list rapportée par Corsa in Montagna a déjà un parfum d'épreuve majeure. Chez les femmes, Scout Adkin, tenante du titre de la Coupe du monde, part favorite logique. Derrière, un peloton international : la Française Nélie Clément, la Kényane Ruth Mwihaki Gitonga, les Italiennes Benedetta Broggi et Camilla Magliano, la Française Marie Nivet, la Britannique Elle Twentyman. Trois nations se partagent les outsiders sérieuses — un plateau rare pour une ouverture de saison.
 
-La São Brás Cross est la **première des cinq épreuves Classic Up & Down** inscrites au calendrier 2026. À ce titre, elle donnera immanquablement le ton pour les semaines à venir. Première vraie confrontation pour beaucoup d'athlètes, elle installera des hiérarchies, révélera les formes du printemps, dessinera les premières failles et les premières certitudes. Pour d'autres, ce sera simplement l'occasion de tester un corps sorti de l'hiver sur un parcours qui ne pardonne pas.
+Chez les hommes, Michael Selelo Saoli incarne l'école kényane qui s'est peu à peu imposée sur ce type de format, où la vitesse de base fait la différence sur les sections roulantes. Face à lui, la vieille Europe aligne l'Italien Alberto Vender, le Nord-Irlandais Zak Hanna, le Français Théodore Klein, les Britanniques Matthew Knowles, Thomas Hilton et Andrew Douglas. Le Portugais Marcelo Gonçalves courra devant son public — un avantage émotionnel rarement négligeable sur des tracés aussi courts, où une minute d'hésitation ne se rattrape pas.
 
-Au-delà du sport, l'image envoyée par le Portugal est forte. Accueillir la première manche d'une Coupe du monde globalisée, sur un terrain historique mais encore méconnu du grand public international, c'est affirmer que la course en montagne n'est plus l'apanage des grandes Alpes. La discipline s'étend, se décentralise, trouve de nouveaux théâtres. Et quand le décor se nomme Serra de Montemuro, avec ses blocs granitiques qui dominent la vallée et ses chemins battus par la lumière atlantique, difficile d'imaginer meilleure entrée en matière.
+Ce que cette liste raconte : la course en montagne reste un sport dominé par une triangulation Grande-Bretagne, Italie, Kenya, avec une France qui a enfin cessé d'être une nation de second rideau sur les formats courts.
 
-Reste à voir qui, dimanche, saura imposer son rythme au milieu des landes portugaises. Car derrière cette course d'ouverture, c'est déjà tout un été de confrontations qui se profile : Autriche, Suisse, Italie, Pologne, Espagne, Amérique du Nord, Chine, Canada… La saison 2026 s'annonce longue, dense, globale. Elle commence ici.
+## Ce que la saison 2026 va vraiment raconter
+
+Dimanche ne règle rien. Sur seize manches, la São Brás Cross vaut une ouverture : elle installera des hiérarchies, révélera les formes du printemps, mais ne sacrera personne. Les coureurs intelligents le savent — il faut finir dans le top, pas nécessairement gagner.
+
+Ce qui se joue derrière est plus large. La WMRA tente une chose difficile : exister médiatiquement dans un écosystème dominé par l'UTMB et ses séries privées. Son atout, c'est le cadre réglementaire — antidopage systématique, affiliation World Athletics, équité sportive. Son handicap, c'est la lisibilité : trois formats, seize courses, un classement mixte, ça demande un effort de lecture que peu de médias généralistes fourniront.
+
+L'enjeu éditorial de la saison est là. Si la World Cup 2026 réussit à imposer un récit continu, de Castro Daire à la manche chinoise, la discipline aura fait un bond. Si elle reste une juxtaposition de rendez-vous disputés par les mêmes quarante coureurs, elle restera dans sa niche. Le granite portugais, dimanche, servira à mesurer cette ambition. Rien d'autre, mais déjà beaucoup.

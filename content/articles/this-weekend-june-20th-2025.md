@@ -1,61 +1,74 @@
 ---
-slug: "week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra"
-title: "Week-end du 21 juin 2025 : le solstice britannique sous le signe de l'ultra"
-excerpt: "De Milngavie à Fort William, des Cornouailles aux Scilly, le plus long week-end de l'année transforme les îles Britanniques en un immense terrain de jeu pour ultra-traileurs. Tour d'horizon."
-category: "Actualités"
+slug: week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra
+title: 'Week-end du 21 juin 2025 : le solstice britannique sous le signe de l''ultra'
+excerpt: >-
+  De Milngavie à Fort William, des Cornouailles aux Scilly, le plus long
+  week-end de l'année transforme les îles Britanniques en un immense terrain de
+  jeu pour ultra-traileurs. Tour d'horizon.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "19 juin 2025"
-readTime: "5 min"
-image: "/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-hero.jpg"
-tags: ["ultra-trail", "West Highland Way", "Royaume-Uni", "calendrier courses", "backyard ultra"]
-sourceUrl: "https://ultrarunningworld.co.uk/this-weekend-june-20th-2025/"
+author: Rédaction Altitude
+date: 19 juin 2025
+readTime: 5 min
+image: >-
+  /articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-hero.jpg
+tags:
+  - ultra-trail
+  - West Highland Way
+  - Royaume-Uni
+  - calendrier courses
+  - backyard ultra
+sourceUrl: 'https://ultrarunningworld.co.uk/this-weekend-june-20th-2025/'
+rewrittenAt: '2026-04-20'
 ---
+La nuit la plus courte de l'année est, pour certains, la plus longue à courir. Le week-end du 20 au 22 juin 2025 a transformé les îles Britanniques en un laboratoire grandeur nature de l'ultra-endurance, avec près d'une vingtaine d'épreuves recensées par Ultrarunning World. Rien de comparable, à la même date, sur le continent.
 
-# Week-end du 21 juin 2025 : le solstice britannique sous le signe de l'ultra
+Au programme selon le calendrier publié par Ultrarunning World : la 39e édition de la West Highland Way Race et ses 153 kilomètres écossais, deux cent milles jumeaux sur la Jurassic Coast, des ultras gallois dans le Snowdonia, deux backyard ultras, plusieurs formats chronométriques de 6 à 24 heures, et jusqu'à un 60 km sur l'archipel des Scilly avec transferts en bateau. Soit un éventail de distances allant du 50 km au 100 milles, et des formats ouverts en backyard pouvant dépasser les 200 km théoriques. Cartographie éditoriale d'un week-end qui révèle beaucoup de ce qu'est devenu l'ultra britannique.
 
-Le solstice d'été est, dans l'imaginaire ultra, un rendez-vous à part. Les nuits y sont si courtes qu'on peut courir cent milles en ne sortant presque jamais la frontale. Les organisateurs britanniques l'ont compris depuis longtemps : le week-end du 20 au 22 juin 2025 condense à lui seul une vingtaine d'épreuves, des 50 km paisibles aux 153 km mythiques, en passant par plusieurs backyard ultras et quelques formats temporels. De l'Écosse profonde aux îles Scilly, tour d'horizon d'un week-end où les îles Britanniques se muent en terrain de jeu géant.
+## Milngavie-Fort William, la matriarche
 
-## L'Écosse en majesté : la West Highland Way Race fête ses 39 ans
+Tout commence à 1h du matin, samedi 21 juin, dans une banlieue nord de Glasgow. Les concurrents de la West Highland Way Race s'élancent pour 153 kilomètres vers Fort William, le long du plus célèbre sentier de grande randonnée d'Écosse. Loch Lomond d'abord, puis le Rannoch Moor — ce plateau désolé où le vent ne trouve jamais d'obstacle —, et enfin le Devil's Staircase, ultime morsure avant la descente sur Kinlochleven.
 
-Impossible de parler de ce week-end sans commencer par elle. Samedi 21 juin, à 1h du matin, les concurrents de la **39e West Highland Way Race** s'élancent de Milngavie, banlieue nord de Glasgow, pour rallier Fort William. Au programme : 153 kilomètres le long du plus célèbre sentier de grande randonnée d'Écosse, avec en ligne de mire Loch Lomond, le plateau désolé du Rannoch Moor et, en apothéose, le Devil's Staircase, cette montée diabolique qui brise les jambes avant le dernier plongeon sur Kinlochleven et Fort William.
+![Illustration Actualités](/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-1.jpg)
 
-![Image illustrative trail running](/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-1.jpg)
+L'épreuve a été créée en 1985. Ce qui en fait, comme le rappelle Ultrarunning World, l'une des plus anciennes courses de cent milles au monde. Pour mettre l'échelle en perspective : Western States, la référence américaine, date de 1977 ; la Diagonale des Fous, de 1989. La West Highland Way Race précède donc d'une génération l'explosion globale de l'ultra. Elle en a aussi gardé les codes : pacers autorisés sur la seconde moitié, équipes d'assistance mobiles qui relient les points routiers à la voiture, finishers accueillis par la foule jusqu'à 35 heures d'effort. Une culture de village qui s'est préservée alors que les grandes machines de la FKT et du label mondial s'en sont éloignées.
 
-L'épreuve, créée en 1985, reste l'une des plus anciennes courses de cent milles au monde. Son folklore, ses pacers autorisés sur la seconde moitié, ses équipes d'assistance dévouées qui enchaînent les points de ravitaillement routiers, en font un objet à part dans le paysage européen. Les meilleurs bouclent la distance en une vingtaine d'heures ; les derniers finishers franchissent l'arche de Fort William au bout de 35 heures d'effort, souvent sous les applaudissements d'une foule restée fidèle jusqu'au bout.
+Pour les amateurs de format court, Ultrarunning World signale également le Saltire 6/12/24 hour à Strachan, dans l'Aberdeenshire. Même solstice, même latitude, autre logique.
 
-Pour ceux qui préfèrent un format plus court mais tout aussi escarpé, l'Écosse propose aussi le **Saltire 6/12/24 hour** à Strachan, dans l'Aberdeenshire, où les coureurs enchaînent une boucle pendant 6, 12 ou 24 heures selon leur format choisi.
+## Le Pays de Galles, la province qui ne baisse pas les yeux
 
-## Au pays de Galles : collines, lacs et cent milles
+Trois rendez-vous gallois figurent sur le calendrier publié par Ultrarunning World, et aucun n'est cosmétique. L'Epona 100 quitte Abergavenny pour 160 kilomètres à travers les Black Mountains et les Brecon Beacons. L'Ultra Wales 50 part de Dolgellau et grimpe vers le Cadair Idris — 893 mètres, un sommet modeste sur la carte, mythique dans l'imaginaire gallois. Le 14 Peaks Ultra, lui, propose 53 kilomètres techniques dans le nord du parc national du Snowdonia avec l'ambition d'enchaîner plusieurs sommets dans la journée.
 
-Les Gallois, eux, n'ont rien à envier à leurs voisins du Nord. Trois rendez-vous d'envergure se disputent l'attention des amateurs de dénivelé.
+Le massif gallois joue, à l'échelle britannique, un rôle comparable à celui des Pyrénées face aux Alpes : moins haut, plus brut, plus humide, et doté d'une communauté de coureurs qui revendique sa rudesse comme un marqueur identitaire. Le solstice y est un test de capacité à gérer la météo plus que le dénivelé pur.
 
-L'**Epona 100** s'élance d'Abergavenny pour un parcours de 100 milles (160 km) à travers les Black Mountains et les Brecon Beacons, une région réputée pour ses crêtes herbeuses et sa météo capricieuse. L'**Ultra Wales 50** (80 km), au départ de Dolgellau, emmène les participants dans les massifs du Snowdonia méridional, autour du Cadair Idris, sommet emblématique dont la légende veut qu'y dormir vous fasse reviens fou ou poète.
+## Jurassic Coast : deux 100 milles le même week-end, et personne ne trouve ça étrange
 
-Enfin, le **14 Peaks Ultra** à Abergwyngregyn propose 33 milles (53 km) techniques dans le nord du parc national du Snowdonia, avec l'ambition d'enchaîner plusieurs sommets dans la journée — une promesse de crêtes rocheuses et de panoramas aériens sur la mer d'Irlande.
+C'est sans doute le marqueur le plus parlant du week-end. Ultrarunning World liste côte à côte la Jurassic Extinction 105m Ultra (départ Weymouth/Poole) et la Jurassic Coast 100m Ultra (départ Poole) : deux cent milles sur exactement le même terrain, organisés par deux structures différentes, le même week-end. Ajoutez la Jurassic Coast 50km Ultra au départ de Lyme Regis avec ses déclinaisons 33, 50, 70 et 100 km le dimanche, et vous avez un micro-écosystème concurrentiel qui n'existe nulle part en France.
 
-## L'Angleterre du Sud : la côte jurassique en vedette
+La côte jurassique, classée au patrimoine mondial pour ses falaises fossilifères, concentre à elle seule ce que l'offre britannique sait faire : multiplier les formats sur un même terroir, sans souci cannibale, en pariant sur une demande suffisamment profonde pour absorber deux épreuves doublons. Comparaison utile : imaginez deux 100 milles sur les sentiers du Queyras le même samedi. Impensable. Ici, normal.
 
-Le sud de l'Angleterre n'est pas en reste, bien au contraire. La **Jurassic Coast**, classée au patrimoine mondial pour ses falaises fossilifères, accueille ce week-end deux épreuves quasi jumelles mais distinctes : la **Jurassic Extinction 105m Ultra** au départ de Weymouth/Poole, et la **Jurassic Coast 100m Ultra** au départ de Poole. Même terrain de jeu, entre galets, falaises crayeuses et escaliers interminables, mais deux formats pour 105 et 100 milles respectivement. Le dimanche, la **Jurassic Coast 50km Ultra** au départ de Lyme Regis offre, en plus de son format court, des déclinaisons 33, 50, 70 et 100 km.
+![Illustration Actualités](/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-2.jpg)
 
-![Image illustrative trail running](/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-2.jpg)
+## La Race to the King et les North Downs : l'ultra de masse
 
-Autre institution du sud : la **Race to the King**, qui reliera Goodwood à Winchester via les South Downs sur 49, 52 ou 100 km selon les options choisies. Avec ses milliers de participants, l'épreuve est l'une des plus massives du calendrier britannique.
+Autre pièce du dispositif signalée par Ultrarunning World : la Race to the King, qui relie Goodwood à Winchester via les South Downs sur 49, 52 ou 100 km. Épreuve de masse, avec des milliers de participants, elle incarne le versant grand public de l'ultra britannique — plus proche du marathon urbain dans son modèle logistique que de la course de montagne confidentielle.
 
-Non loin de là, les **Minotaur/Hydra/Centaur Ultras** à Dorking, dans le Surrey, proposent trois formats mythologiques — 50, 75 ou 100 milles — sur les fameux North Downs. Et pour les amateurs de variété, le **Beyond London 55km** part de Woolwich pour une traversée urbano-rurale de la capitale, tandis que le **Three Shires Way Ultra** (50 milles) sillonne la campagne au départ de Milton Keynes.
+À Dorking, dans le Surrey, les Minotaur/Hydra/Centaur Ultras déclinent 50, 75 et 100 milles sur les North Downs. Nommage mythologique, catalogue modulaire : le coureur choisit sa dose. Plus à l'est, le Beyond London 55km part de Woolwich pour une traversée urbano-rurale de la capitale, et le Three Shires Way Ultra (50 milles) sillonne la campagne depuis Milton Keynes. Chaque week-end estival britannique offre cette géographie : un tissu dense, à tous les niveaux d'engagement.
 
-## Formats chronométriques et backyard : la psychologie avant les jambes
+## Backyard et formats temporels : le temps plutôt que la distance
 
-Ce week-end met également à l'honneur les formats où le compteur ne s'arrête que lorsque le coureur cède. Deux backyard ultras figurent au programme : le **Longbridge 100 Backyard Ultra** à Litlington (jusqu'à 31 heures annoncées, soit environ 207 km théoriques) et le **Breakheart Backyard Ultra** à Dursley (26 heures). Dans ce format popularisé par Lazarus Lake, il faut boucler 6,706 km en moins d'une heure, puis recommencer… jusqu'à ce qu'il ne reste qu'un seul finisher. Guerre d'usure pure.
+Deux backyard ultras figurent au programme. Le Longbridge 100 Backyard Ultra à Litlington, annoncé jusqu'à 31 heures selon Ultrarunning World, soit environ 207 km théoriques si un concurrent tient la distance. Le Breakheart Backyard Ultra à Dursley, 26 heures. Dans ce format popularisé par Lazarus Lake — le même homme qui orchestre la Barkley Marathons —, il faut boucler 6,706 km en moins d'une heure, puis recommencer. Jusqu'à ce qu'il ne reste qu'un seul finisher. La course finit forcément par un abandon.
 
-Les formats temporels, eux, gardent leurs adeptes : le **MK24 Midsummer Run** à Milton Keynes offre 24 heures d'une boucle plane idéale pour tenter sa distance maximale, tandis que le **Hopper 6 & 12 hr** à Wolsingham propose le même principe sur sentier, dans le nord-est de l'Angleterre.
+Les formats chronométriques complètent l'offre : MK24 Midsummer Run à Milton Keynes (24 heures sur boucle plane), Hopper 6 & 12 hr à Wolsingham (sentier). Le coureur britannique a intégré depuis longtemps ce que le coureur français peine encore à reconnaître : le temps comme unité de mesure est aussi légitime que la distance.
 
-## Les pépites : Exmoor, NoMad et l'archipel des Scilly
+## Les pépites : Exmoor, Yorkshire et l'Atlantique
 
-Au milieu de ces mastodontes, quelques courses plus confidentielles valent le détour. L'**Exmoor Perambulation** (30 milles, environ 48 km) au départ de Minehead explore le parc national d'Exmoor, ses landes à poneys sauvages et son littoral accidenté. Le **NoMad 50km Ultra** à Breaston, dans le Derbyshire, joue la carte d'un 50 km ou 50 milles accessible. Les **Two Roses Ultras**, depuis Hebden Bridge, proposent 50 ou 100 km dans le Yorkshire, clin d'œil à la guerre des Deux-Roses entre Lancastre et York.
+Au milieu des mastodontes, quelques épreuves plus confidentielles relevées par Ultrarunning World méritent le détour. L'Exmoor Perambulation (30 milles, environ 48 km) explore le parc national éponyme et ses landes à poneys sauvages. Les Two Roses Ultras depuis Hebden Bridge déclinent 50 ou 100 km dans le Yorkshire, clin d'œil à la guerre des Deux-Roses.
 
-Mais la course la plus dépaysante se tient sans doute le dimanche 22 juin : le **Scilly 60**, soit 60 km sur l'archipel des Scilly, au large des Cornouailles. Les coureurs enchaînent plusieurs îles, avec transferts en bateau entre chaque portion. Une ambiance unique, mi-course mi-voyage, qui tranche radicalement avec l'intensité brute d'une West Highland Way Race.
+Mais la plus singulière reste sans doute le Scilly 60, dimanche 22 juin : 60 km sur l'archipel des Scilly, au large des Cornouailles, avec transferts en bateau entre les îles. Mi-course, mi-voyage. L'exact opposé, sur le spectre de l'ultra britannique, d'une West Highland Way Race.
 
-## Un solstice à l'image de l'ultra britannique
+## Ce que ce solstice dit du trail français
 
-Ce panorama le dit mieux que tout discours : le trail britannique n'a rien à envier à ses voisins continentaux. Densité des formats, diversité des terrains — de la lande écossaise aux falaises crayeuses du Dorset, des sommets gallois aux îles atlantiques —, culture d'assistance et de pacers, goût affirmé pour les formats chronométriques et les backyards : tout y est. Alors que le calendrier français se concentre souvent sur quelques grands rendez-vous estivaux, outre-Manche, chaque week-end ressemble à un festival. Et ce solstice 2025, plus qu'un autre, aura rappelé que la nuit la plus courte de l'année est, pour beaucoup, la plus longue à courir.
+Un week-end, vingt épreuves, six formats différents, du 50 km au 200 km théorique, sur des terrains allant de la lande écossaise aux falaises crétacées du Dorset. La France, à la même date, propose une poignée de courses dignes de ce nom, toutes concentrées autour de trois ou quatre grands labels. Le modèle britannique repose sur une densité d'organisateurs indépendants, une culture d'assistance familiale, et une acceptation décomplexée des formats non-montagnards — côte, canal, boucle, temps imparti.
+
+L'UTMB et sa galaxie ont imposé, sur le continent, une norme esthétique : la montagne, la technicité, le dénivelé comme juge ultime. Le solstice britannique rappelle qu'il existe une autre voie. Moins spectaculaire sur Instagram, peut-être. Mais plus profonde dans la culture populaire. Quand un pays organise deux cent milles sur la même côte le même week-end sans que personne ne s'en émeuve, c'est que l'ultra y est devenu ordinaire. Et c'est peut-être ça, la vraie maturité.

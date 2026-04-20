@@ -1,63 +1,73 @@
 ---
-slug: "this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026"
-title: "This Week In Running : le tour du monde du trail, 20 avril 2026"
-excerpt: "Du Penyagolosa à Puerto Vallarta, en passant par le Portugal et un record du monde sur tapis à Boston : panorama d'un week-end de trail éclectique."
-category: "Actualités"
+slug: this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026
+title: 'This Week In Running : le tour du monde du trail, 20 avril 2026'
+excerpt: >-
+  Du Penyagolosa à Puerto Vallarta, en passant par le Portugal et un record du
+  monde sur tapis à Boston : panorama d'un week-end de trail éclectique.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "20 avril 2026"
-readTime: "6 min"
-image: "/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-hero.jpg"
-tags: ["compétition", "ultra-trail", "coupe du monde", "résultats", "international"]
-sourceUrl: "https://www.irunfar.com/this-week-in-running-april-20-2026"
+author: Rédaction Altitude
+date: 20 avril 2026
+readTime: 6 min
+image: >-
+  /articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-hero.jpg
+tags:
+  - compétition
+  - ultra-trail
+  - coupe du monde
+  - résultats
+  - international
+sourceUrl: 'https://www.irunfar.com/this-week-in-running-april-20-2026'
+rewrittenAt: '2026-04-20'
 ---
+Un record mondial sur tapis de course à Boston, 42 secondes d'écart après dix heures d'effort dans la sierra espagnole, et une Kényane qui débranche une descente portugaise pour détrôner la championne en titre. Le 20 avril 2026 ne restera pas dans les annales comme un week-end charnière. Mais il dit beaucoup de l'état de forme actuel du trail mondial.
 
-# This Week In Running : le tour du monde du trail, 20 avril 2026
+Les données relayées par iRunFar dans son compte-rendu hebdomadaire dessinent un paysage morcelé : le Penyagolosa en Espagne a livré deux sprints d'ultra, la Mountain Running World Cup a lancé sa saison à São Brás au Portugal, l'étape UTMB de Puerto Vallarta a vu le Mexique rafler ses propres courses, et Ashley Paulson a pulvérisé à Boston un record qui dormait depuis 2004. Le tout dans une semaine que iRunFar qualifie explicitement de "moins chargée qu'à l'accoutumée". On verra que l'adjectif masque une série d'indices plus parlants qu'il n'y paraît.
 
-Week-end contrasté pour la planète trail. Entre les grands rendez-vous ibériques du Penyagolosa, l'ouverture de la Coupe du monde de course en montagne au Portugal, l'étape mexicaine du circuit UTMB à Puerto Vallarta et un record du monde signé Ashley Paulson sur tapis de course à Boston, les chronos ont parlé sur tous les terrains. Tour d'horizon des temps forts d'une semaine moins chargée qu'à l'accoutumée, mais riche en enseignements.
+## Penyagolosa : quand l'ultra se joue à la photo-finish
 
-## Penyagolosa Trails : duels serrés en Espagne
+106 kilomètres. 5 600 mètres de dénivelé positif. Un peu plus de dix heures et demie d'effort dans les reliefs abrupts de Castellón. Et 42 secondes d'écart à la ligne. Raul Butaci, Roumain, a coiffé l'Espagnol Julen Calvó au poteau sur le CSP, les deux hommes bouclant l'épreuve en 10 h 41 selon iRunFar. L'Équatorien Joaquin Lopez ferme le podium en 10 h 46.
 
-Dans la province de Castellón, le CSP — format phare du Penyagolosa avec 106 kilomètres et 5 600 mètres de dénivelé positif — a tenu ses promesses côté suspense. Chez les hommes, le Roumain Raul Butaci a devancé l'Espagnol Julen Calvó d'à peine 42 secondes, tous deux bouclant la course en 10 h 41. Un duel au couteau pour 3 000 euros de prime, à quelques minutes seulement du record de l'épreuve détenu par Ben Dhiman (10 h 35 en 2023). L'Équatorien Joaquin Lopez a complété le podium en 10 h 46.
+![Illustration Actualités](/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-1.jpg)
 
-Côté féminin, l'histoire a pris une tournure radicalement différente : Gemma Arenas a imposé son tempo sans partage. L'Espagnole l'a emporté en 13 h 43, reléguant la Britannique Emily Dixon (14 h 07) et sa compatriote Yasmina Castro Chacón (14 h 39) à distance respectable.
+Pour situer : sur la même course en 2023, Ben Dhiman avait posé la référence en 10 h 35. Butaci échoue à six minutes du record — sur un format où, à la Diagonale des Fous par exemple, les écarts entre podiums se comptent en dizaines de minutes. Un indice du niveau d'homogénéité actuel dans l'ultra continental.
 
-![Image illustrative trail running](/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-1.jpg)
+Chez les femmes, basculement complet de scénario. Gemma Arenas a écrasé la course en 13 h 43, reléguant la Britannique Emily Dixon à 24 minutes, et sa compatriote Yasmina Castro Chacón à près d'une heure. Démonstration à sens unique, sans la moindre contestation.
 
-Sur le format MiM (60 km), scénario similaire chez les hommes avec un nouveau sprint final à l'échelle d'un ultra : José Fernández s'est imposé en 5 h 15, deux minutes devant l'Américain Dakota Jones (5 h 17), tandis que Mario Olmedo complétait la razzia ibérique en 5 h 23. Chez les femmes, la Norvégienne Sara-Rebekka Færø Linde a fait cavalier seul en 6 h 23, avec Inés Astrain et Anna Comet — dix secondes d'écart seulement — à 6 h 36.
+Le MiM (60 km) a rejoué la même partition : José Fernández 5 h 15, l'Américain Dakota Jones 5 h 17, Mario Olmedo 5 h 23. Triplé à la minute près. Côté féminin, la Norvégienne Sara-Rebekka Færø Linde s'impose en 6 h 23, Inés Astrain et Anna Comet la suivant à treize minutes — et dix secondes d'écart entre elles. Les ultras européens se jouent désormais au sprint. La préparation a changé, les pelotons se sont densifiés.
 
-## São Brás : la Coupe du monde de course en montagne lance sa saison
+## São Brás : Gitonga change les règles de la descente
 
-Direction le centre du Portugal, où le Classic Up and Down a servi d'ouverture officielle à la Mountain Running World Cup 2026. Un tracé nerveux : 10,9 kilomètres, 628 mètres de dénivelé, pas de place pour l'erreur.
+La Mountain Running World Cup 2026 s'est ouverte au centre du Portugal sur un format court et violent : 10,9 kilomètres, 628 mètres de dénivelé. Le Kényan Michael Selelo Saoli a fait exploser la course dès la première bosse pour s'imposer en 42:22. Le Britannique Andrew Douglas termine à 1:15, suivi d'Oscar Subuh-Symons (44:07) et du Français Théodore Klein (44:39), selon iRunFar.
 
-Chez les hommes, le Kényan Michael Selelo Saoli a fait la différence dès que la pente s'est cabrée. Auteur d'une attaque tranchante sur la première bosse, il a creusé un écart que personne n'a pu combler jusqu'à la ligne, franchie en 42:22. Le Britannique Andrew Douglas s'est accroché à la montée avant de céder dans la descente, conservant tout de même la deuxième place en 43:37. Son compatriote Oscar Subuh-Symons complète le podium en 44:07, devant le Français Théodore Klein (44:39), cinquième Matthew Knowles.
+C'est surtout la course féminine qui mérite l'attention. La tenante du titre de la Coupe du monde, Scout Adkin, avait bouclé la montée en tête. Jusqu'à ce que Ruth Gitonga transforme la descente en accélérateur de particules. 49:12 pour la Kényane, 50:13 pour l'Écossaise. La Française Nélie Clément, révélation de 2025, confirme à la troisième place en 51:20.
 
-La course féminine a basculé dans la seconde moitié. La tenante du titre de la Coupe du monde Scout Adkin avait pris les commandes au sommet, mais la Kényane Ruth Gitonga a littéralement pulvérisé la descente pour l'emporter en 49:12. Adkin s'incline en 50:13, et la Française Nélie Clément, révélation 2025, confirme sa progression avec une belle troisième place en 51:20. Elle Twentyman et Marie Nivet complètent le top 5.
+Les Kényans débarquent sur le court montagnard avec la même signature qu'en piste : régime sec, pas d'états d'âme. Adkin reste la patronne de la saison 2025, mais la dynamique a tourné en un après-midi.
 
-## Puerto Vallarta by UTMB : le Mexique truste les podiums
+## Puerto Vallarta : l'UTMB s'enracine, le Mexique s'impose chez lui
 
-Sur la côte pacifique mexicaine, les courses de l'étape Puerto Vallarta Mexico by UTMB empruntent leurs noms à la langue indigène locale : Hikuri (peyotl), Nakawé (mère de l'eau), Haramara (déesse de l'océan). Et le pays hôte a soigné sa mainmise.
+Sur la côte pacifique, l'étape Puerto Vallarta Mexico by UTMB a livré un verdict sans bavure : six podiums, six courses, le Mexique en tête sur cinq. Juan Belman Ortiz sur le Hikuri (81 km, 8 h 45), Miguel Pérez et Josefina Perez sur le Nakawé (53 km), Abraham Hernández et Nayeli De La Torre sur le Haramara (37 km). Seule la Canadienne Mandie Currie (12 h 01 sur le Hikuri) sauve l'honneur étranger.
 
-Sur le Hikuri, long format de 81 kilomètres, Juan Belman Ortiz s'impose chez les hommes en 8 h 45 ; la Canadienne Mandie Currie sauve l'honneur étranger en 12 h 01. Sur le Nakawé (53 km), doublé mexicain avec Miguel Pérez (5 h 21) et Josefina Perez (6 h 35). Même scénario sur l'Haramara (37 km) où Abraham Hernández (3 h 18) et Nayeli De La Torre (4 h 36) concluent la razzia.
+![Illustration Actualités](/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-2.jpg)
 
-![Image illustrative trail running](/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-2.jpg)
+L'UTMB continue donc son essaimage planétaire. L'enseigne annexe des paysages, appose sa signature sur un peyotl (Hikuri), une déesse de l'océan (Haramara), et engrange les coureurs locaux. Entre critique légitime sur l'hégémonie du circuit et constat factuel — le maillage est désormais assumé de Chiang Mai à Puerto Vallarta — le trail s'industrialise à marche forcée.
 
-## Autour du globe : un week-end dense, malgré tout
+## Paulson à Boston : 7'40" au mile pendant 12 h 47
 
-En Suisse, les Courses du Mont-Terrible ont couronné Fabrice Fauser (10 h 03) et Denise Zimmerman (12 h 42) sur leur 106 km. Aux États-Unis, la carte s'est étirée d'un océan à l'autre : Storm the Park 50K dans le Minnesota (Michael Borst en 5 h 05, Andrea Louwagie en 6 h 05), Outlands en Californie avec les victoires de Tyler Andree et Elise Gregoire sur 50 miles, Whiskey Basin en Arizona où Michael Versteeg et Kate Taylor ont signé le 91 km, Cedro Peak 50K au Nouveau-Mexique, Rattler 50K dans le Colorado, Squak Mountain 50K dans l'État de Washington.
+Le moment fort du week-end s'est joué sous néons. Au Boston Marathon Expo, départ à 3 h 46 du matin, Ashley Paulson a couru 100 miles sur tapis en 12:47:10. iRunFar précise le détail qui compte : 7'40" au mile. Pendant plus de douze heures. Un marathon bouclé en 3 h 20, trois fois de suite, sans relâche.
 
-Au Texas, la Go One More — épreuve au format backyard — a rendu son verdict : Mark Dowdle a totalisé 73 tours, soit 306,6 miles en 73 heures. Le coureur, déjà double vainqueur de backyards en 2025, avait également remporté l'Arrowhead 135 plus tôt cette année. Une dynamique difficile à freiner.
+Le record précédent, 14:15:08, tenait depuis 2004. Signé Edit Bérces, Hongroise. Paulson vient de l'effacer d'une heure et demie. Et iRunFar rappelle qu'en février dernier, la même coureuse avait bouclé 100 miles en 12:19:34 à Jackpot Ultras, dans le Nevada — record du monde féminin sur la distance, route ou trail confondus.
 
-## L'exploit tapis d'Ashley Paulson
+iRunFar mentionne aussi, dans un souci de complétude, la suspension de six mois purgée par Paulson en 2015-2016 à la suite d'un contrôle positif à l'ostarine en triathlon, imputé à un complément alimentaire contaminé. Information factuelle, dossier clos, mais que le journalisme sérieux ne tait pas.
 
-Mais le record du week-end s'est joué à l'intérieur. Au Boston Marathon Expo, départ donné à 3 h 46 du matin, Ashley Paulson a bouclé 100 miles sur tapis de course en 12:47:10. Soit 7'40" au mile — un rythme d'horloge pour un nouveau record du monde féminin sur tapis. L'ancienne référence, 14:15:08, tenait depuis 2004, signée de la Hongroise Edit Bérces. Paulson, qui avait déjà établi en février le record du monde féminin sur 100 miles (12:19:34 à Jackpot Ultras, Nevada), confirme son statut d'exception sur longue distance. À noter : l'Américaine a purgé en 2015-2016 une suspension de six mois à la suite d'un contrôle positif à l'ostarine en triathlon, imputé à un complément alimentaire contaminé.
+## Backyard et 50K : le maillage américain continue
 
-## Hyner View et autres américaines
+Au Texas, Mark Dowdle a remporté la Go One More avec 73 tours, soit 306,6 miles en 73 heures, selon iRunFar. Le coureur avait déjà gagné deux backyards en 2025 et l'Arrowhead 135 plus tôt cette année. La régularité du format backyard a trouvé son spécialiste.
 
-Sur la côte Est, le Hyner View Trail Challenge — 50 km avalant 6 500 pieds de dénivelé en Pennsylvanie — a vu Ben Quatromoni (4 h 24) et Deanna Doane (4 h 54) triompher. Doane a effacé au passage le record de Kassandra Spitler (5 h 09 en 2024). Dans le Connecticut, Matt Pacheco (4 h 45) et Kehr Davis (5 h 41) ont signé le Traprock 50K.
+Et sur les circuits américains plus classiques, moisson habituelle : Hyner View en Pennsylvanie (Ben Quatromoni en 4 h 24, Deanna Doane en 4 h 54 avec record à la clé), Whiskey Basin en Arizona, Outlands en Californie, Storm the Park dans le Minnesota. En Suisse, les Courses du Mont-Terrible ont couronné Fabrice Fauser et Denise Zimmerman sur leur 106 km. La carte s'étire, les chronos tombent, le milieu tourne.
 
-## Le week-end prochain : Canyons et Mont Fuji
+## Ce que cette semaine "calme" raconte vraiment
 
-Le calendrier passe à la vitesse supérieure. En Californie, les Canyons Endurance Runs by UTMB proposeront un 100 km au statut de Golden Ticket — trois qualifications automatiques pour la Western States 100 chez les hommes comme chez les femmes. Plateau XXL côté masculin avec Hayden Hawks, Cade Michael, Zach Miller, Will Murray, Adam Peterman et Canyon Woodward. Chez les femmes : Careth Arnold, Riley Brady (non-binaire, concourant en catégorie féminine), Anne Flower, Ellaney Matarese, la Polonaise Martyna Młynarczyk et l'Espagnole Claudia Tremps. Le 50 km réunira notamment Matt Daniels, Eli Hemming, Molly Seidel et Lauren Gregory.
+Le week-end prochain promet Canyons et Mont Fuji : Golden Ticket en Californie pour Western States avec Hayden Hawks, Adam Peterman, Zach Miller, Riley Brady, Molly Seidel, et quatrième étape des World Trail Majors au Japon avec Kaytlyn Gerbin, Ruy Ueda, Guo-Min Deng. Le bruit reviendra.
 
-Au Japon, le Mt. Fuji 100 Mile, quatrième étape des World Trail Majors, alignera Chris Myers, Guo-Min Deng (vainqueur 2024), Jia-Ju Zhao chez les hommes, et Alyssa Clark, Arika Ito, Kaytlyn Gerbin côté féminin. Sur le 40 km Short Series, Ruy Ueda, Ru-Qin Wang et Brittany Charboneau animeront les débats. Rideau sur un week-end déjà bien rempli — le prochain s'annonce électrique.
+Reste que cette semaine en demi-teinte, précisément, est révélatrice. L'ultra européen se joue désormais à la seconde. La Coupe du monde de montagne voit émerger un axe est-africain qui bouscule la hiérarchie britannique. L'UTMB colonise proprement ses nouveaux territoires. Et sur un tapis du Massachusetts, une femme vient de courir 100 miles à 7'40" au mile — une allure que la plupart des marathoniens amateurs tiennent difficilement sur un semi. Le trail et l'ultra ne vivent pas en ce moment leur plus grand week-end. Ils traversent simplement une phase où chaque dimanche redéfinit, un peu, le plafond. On finira par s'y habituer. C'est peut-être le vrai problème.

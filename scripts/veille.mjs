@@ -4,6 +4,7 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import Parser from "rss-parser";
 import Anthropic from "@anthropic-ai/sdk";
+import { EDITORIAL_STYLE } from "./lib/editorial-style.mjs";
 
 const SOURCES = [
   "https://www.lepape-info.com/feed/",
@@ -120,49 +121,33 @@ function extractImage(item) {
   return match?.[1] || FALLBACK_IMAGE;
 }
 
-const SYSTEM_PROMPT = `Tu es un rédacteur senior pour Altitude Trail, un magazine français spécialisé dans le trail running et l'ultra-trail.
+const FORMAT_INSTRUCTIONS = `FORMAT DE SORTIE (INITIAL — article créé depuis une source de presse)
 
-Ta mission : réécrire entièrement, en français, un article de trail running — jamais plagier. Tu reformules avec tes propres mots en conservant les faits, noms propres, résultats et chiffres. Tu adoptes un ton journalistique magazine : précis, vivant, engagé, sans lourdeur.
+Réponds UNIQUEMENT avec un fichier Markdown complet, ouvert par un frontmatter YAML. Rien avant ni après. Aucun fence de code.
 
-Contraintes strictes :
-- Longueur du corps : entre 1000 et 1200 mots.
-- Format de sortie : un fichier Markdown avec frontmatter YAML EN TÊTE, rien d'autre avant ou après.
-- Ne mets AUCUN fence de code (pas de triple backticks). Commence directement par "---".
-- categorySlug doit être exactement l'une de ces valeurs : actualites, debuter, courses-recits, nutrition, entrainement, blessures.
-- readTime au format "X min" (ex: "7 min"), estimé à 230 mots/minute.
-- 3 à 5 tags pertinents, en français, chaînes simples.
-- imagePrompt1 : prompt ANGLAIS pour générer une image qui illustre l'introduction de l'article (le contexte, le décor, l'ambiance d'ouverture). Très descriptif et visuel : sujet concret (coureur, montagne, équipement), action, décor, éclairage, palette. 40 à 60 mots. UNE SEULE LIGNE, pas de retour à la ligne, entre guillemets.
-- imagePrompt2 : prompt ANGLAIS pour une image qui illustre un moment-clé ou un thème central de la partie médiane de l'article. Même niveau de détail visuel et de spécificité que imagePrompt1 mais sur une scène différente. 40 à 60 mots. UNE SEULE LIGNE, entre guillemets.
-- N'inclus PAS le style photo/cinéma dans les prompts images (un suffixe est ajouté automatiquement). Concentre-toi sur le sujet et la scène.`;
+Frontmatter obligatoire :
+- title : titre français percutant, pas un résumé plat
+- excerpt : chapeau accrocheur 1-2 phrases
+- categorySlug : une de ces valeurs exactement — actualites, debuter, courses-recits, nutrition, entrainement, blessures
+- tags : 3 à 5 tags français, chaînes simples
+- readTime : format "X min", calculé sur 230 mots/minute
+- imagePrompt1 : prompt ANGLAIS pour flux-pro-1.1 illustrant le décor ou le contexte d'ouverture. 40-60 mots, une seule ligne, entre guillemets, ultra-spécifique (sujet, action, lieu nommé, lumière, équipement). N'inclus pas le style photo (un suffixe cinéma est ajouté automatiquement).
+- imagePrompt2 : prompt ANGLAIS pour une scène différente liée à un moment-clé du milieu de l'article. Mêmes exigences que imagePrompt1.`;
+
+const SYSTEM_PROMPT = `${EDITORIAL_STYLE}\n\n${FORMAT_INSTRUCTIONS}`;
 
 function userPrompt({ title, sourceUrl, text }) {
-  return `Voici l'article source à réécrire en français magazine pour Altitude Trail.
+  return `Source à analyser pour Altitude Trail.
 
-Titre original : ${title}
+Titre original de la source : ${title}
 URL source : ${sourceUrl}
 
-Contenu source :
+Identifie dans l'URL ou la structure du titre le média d'origine (lepape-info, u-trail, iRunFar, Trail Runner Mag, Ultrarunning, etc.) et cite-le nommément dans ton article à chaque reprise d'une information spécifique.
+
+Contenu intégral de la source :
 ${text}
 
-Réponds UNIQUEMENT avec le fichier markdown complet, au format exact suivant (sans rien d'autre, sans fences) :
-
----
-title: "Titre français attrayant"
-excerpt: "Chapô accrocheur en 1 à 2 phrases."
-categorySlug: actualites
-tags: ["tag1", "tag2", "tag3"]
-readTime: "7 min"
-imagePrompt1: "A solo trail runner cresting a rocky alpine ridge at dawn, wearing a red running vest and trail shoes, snow-dusted peaks behind, golden side light, low angle heroic composition"
-imagePrompt2: "Close-up of a muddy trail winding through a misty pine forest, autumn leaves scattered on the ground, a runner's silhouette in the distance, soft diffused morning light filtering between trunks"
----
-
-# Titre principal
-
-Paragraphe d'ouverture...
-
-## Sous-titre
-
-Corps de l'article avec sous-sections, entre 1000 et 1200 mots au total.`;
+Réponds UNIQUEMENT avec le fichier markdown complet (frontmatter + corps de 1000-1200 mots), sans prose avant ni après, sans fence de code. Commence directement par "---".`;
 }
 
 async function rewriteArticle(client, { title, sourceUrl, text }) {

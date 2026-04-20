@@ -1,63 +1,75 @@
 ---
-slug: "kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures"
-title: "Kim Collison, roi de la Spine Race : la rédemption au bout de 82 heures"
-excerpt: "Quatre ans après ses tentatives contrariées, le Britannique s'impose sur la Montane Winter Spine Race en 82h46, signant le troisième meilleur temps de l'histoire de cette épreuve hivernale mythique."
-category: "Courses & Récits"
+slug: kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures
+title: 'Kim Collison, roi de la Spine Race : la rédemption au bout de 82 heures'
+excerpt: >-
+  Quatre ans après ses tentatives contrariées, le Britannique s'impose sur la
+  Montane Winter Spine Race en 82h46, signant le troisième meilleur temps de
+  l'histoire de cette épreuve hivernale mythique.
+category: Courses & Récits
 categorySlug: courses-recits
-author: "Rédaction Altitude"
-date: "15 janvier 2025"
-readTime: "5 min"
-image: "/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures-hero.jpg"
-tags: ["Spine Race", "ultra-trail", "Kim Collison", "hiver", "Royaume-Uni"]
-sourceUrl: "https://www.ultrarunnermagazine.co.uk/kim-collison-wins-the-mens-montane-winter-spine-race/"
+author: Rédaction Altitude
+date: 15 janvier 2025
+readTime: 5 min
+image: >-
+  /articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures-hero.jpg
+tags:
+  - Spine Race
+  - ultra-trail
+  - Kim Collison
+  - hiver
+  - Royaume-Uni
+sourceUrl: >-
+  https://www.ultrarunnermagazine.co.uk/kim-collison-wins-the-mens-montane-winter-spine-race/
+rewrittenAt: '2026-04-20'
 ---
+Quatre hivers de défaites, une victoire. Kim Collison a franchi la ligne de Kirk Yetholm en 82 heures et 46 minutes, et cette performance dit quelque chose de plus profond qu'un simple chrono : elle raconte comment on domestique une course qui, pendant des années, vous a refusé l'entrée.
 
-# Kim Collison, roi de la Spine Race : la rédemption au bout de 82 heures
+Le Britannique a remporté l'édition 2025 de la Montane Winter Spine Race, selon Ultra Runner Magazine, en signant le troisième meilleur temps jamais enregistré sur cette traversée hivernale de 268 miles — environ 431 kilomètres — le long de la Pennine Way, d'Edale dans le Derbyshire jusqu'à la frontière écossaise. Une course réputée comme l'une des plus brutales de la planète, où les concurrents portent leur matériel sur le dos et progressent pendant des jours dans le froid, la nuit, la tourbe gelée. Collison s'y était cassé les dents quatre fois.
 
-Il y a des lignes d'arrivée qui valent plus qu'un chrono. Celle franchie par Kim Collison à Kirk Yetholm, au cœur des Scottish Borders, en janvier 2025, appartient à cette catégorie-là. Après 82 heures et 46 minutes d'un effort monstrueux le long de la Pennine Way balayée par l'hiver, le Britannique a remporté la Montane Winter Spine Race, réalisant au passage le troisième meilleur temps jamais enregistré sur cette épreuve réputée pour être l'une des plus exigeantes de la planète. Une victoire qui a tout d'une revanche sur les années, sur le mental, sur soi-même.
+## Une course qui ne ressemble à aucune autre
 
-## Une épreuve qui ne pardonne rien
+Il faut d'abord dire ce que la Spine n'est pas. Ce n'est pas l'UTMB et ses 2 700 coureurs en file indienne sous les projecteurs. Ce n'est pas Hardrock et ses altitudes sèches du Colorado. Ce n'est pas non plus une classique estivale où l'on court léger, ravitaillé tous les dix kilomètres.
 
-Pour comprendre ce que représente ce succès, il faut d'abord mesurer ce qu'est la Spine Race hivernale. Lancés de Edale dans le Derbyshire jusqu'à Kirk Yetholm, à la frontière écossaise, les concurrents parcourent 268 miles, soit environ 431 kilomètres, le long de la célèbre Pennine Way, ce sentier de randonnée qui serpente sur l'épine dorsale de l'Angleterre. En plein cœur du mois de janvier.
+![Illustration Courses & Récits](/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures-1.jpg)
 
-Les conditions y sont connues pour leur brutalité : tourbières gelées, vents glaciaux, sommets enneigés, traversées de moors plongés dans le brouillard, nuits interminables où les températures flirtent avec le négatif et où la neige peut transformer le moindre passage en piège. Les coureurs portent tout leur matériel sur le dos, bivouaquent quand ils peuvent, dorment peu, très peu, et avancent pendant des jours d'affilée dans un état de fatigue que l'on ne rencontre sur aucune autre course.
+La Spine, c'est janvier. C'est la colonne vertébrale de l'Angleterre parcourue sur près de 431 kilomètres alors que les jours sont les plus courts de l'année. Les tourbières sont gorgées d'eau glacée ou prises dans le gel, le vent balaye les moors, la neige transforme les Cheviot Hills finales en piège. On bivouaque peu, on dort encore moins, on avance pendant trois, quatre, parfois cinq jours dans un état de privation sensorielle et physique que très peu d'épreuves au monde imposent.
 
-![Image illustrative trail running](/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures-1.jpg)
+Pour fixer l'échelle : 431 kilomètres, c'est plus de dix marathons d'affilée. En plein hiver britannique. Avec son sac à dos. Voilà le décor.
 
-C'est dans ce décor austère, presque hostile, que Kim Collison a livré l'une des plus belles performances de sa carrière. Mais ce résultat, il ne le doit pas au hasard, ni même uniquement à son immense talent d'ultra-traileur. Il le doit à quatre années de travail, de retours en arrière, de déceptions digérées.
+## Le sillon creusé par les abandons
 
-## Quatre ans pour revenir, quatre ans pour y croire
+Collison n'est pas un découvreur. Ultra Runner Magazine rappelle son statut de référence du fell running, cette discipline insulaire où l'on grimpe et descend les reliefs escarpés du Lake District avec une économie de mouvement qui frise la transe. Son Lakeland 24-Hour Record, posé en 2020 — plus de 125 kilomètres et 12 500 mètres de dénivelé positif en une seule rotation horaire —, suffirait à asseoir une carrière.
 
-Kim Collison n'est pas un inconnu du circuit britannique. Depuis plusieurs saisons, il figure parmi les meilleurs fondeurs de fell running, cette discipline typiquement anglaise qui consiste à avaler des reliefs escarpés dans les Lake District et les massifs alentour. Détenteur de records prestigieux, notamment sur le Lakeland 24-Hour Record, où il avait avalé plus de 125 kilomètres et 12 500 mètres de dénivelé en une seule journée en 2020, il s'est imposé comme une référence.
+12 500 mètres de D+ en 24 heures, pour se donner une idée, c'est l'équivalent cumulé d'environ un Everest et demi depuis le niveau de la mer. En une journée. Sur ses jambes.
 
-Mais la Spine, c'était autre chose. Un sommet inaccessible. Une course qui le hantait, qu'il avait tentée, préparée, rêvée, sans parvenir à faire coïncider la forme, la météo et la chance le jour J. Quatre ans de travail consistant, pour reprendre les mots utilisés autour de sa victoire. Quatre ans de patience, de reconstruction mentale, de recalibrage. Parce que sur une épreuve comme celle-ci, la tête compte autant que les jambes. Peut-être plus.
+Mais la Spine, c'est un autre exercice. Un exercice de durée, de nuit, de solitude, de lucidité dégradée. Collison l'avait tentée, préparée, rêvée. Quatre fois, sans parvenir à faire converger forme, météo et chance. Chaque abandon creuse un sillon : la Spine, d'objectif sportif, devient obsession intime. Revenir au départ d'Edale une cinquième fois suppose d'accepter que l'échec précédent ne vous définisse pas.
 
-Chaque tentative ratée creuse un sillon particulier dans l'esprit d'un ultra-traileur. L'abandon n'est jamais une simple défaite : c'est une graine d'insécurité qui germe à chaque départ suivant, qui murmure à l'oreille dans les moments difficiles. Revenir, c'est accepter de se replonger dans ces zones d'ombre.
+## 82h46 : la hiérarchie d'une épreuve rare
 
-## 82h46 : la signature d'un patron
+Troisième chrono all-time. L'information, rapportée par Ultra Runner Magazine, place Collison dans un club verrouillé. Le record absolu de l'épreuve appartient à l'Américain John Kelly, qui avait abaissé la barre autour de 72 heures en 2022 lors d'une édition particulièrement favorable. Peu de coureurs approchent cette marque. Descendre sous 83 heures, c'est déjà entrer dans une aristocratie de la Pennine.
 
-Boucler la Montane Winter Spine Race en moins de 83 heures, c'est entrer dans un club très fermé. Le record absolu de l'épreuve, établi par John Kelly en 2022, tourne autour des 72 heures, et seuls quelques noms approchent de cette marque. En signant le troisième meilleur temps de l'histoire, Collison se hisse dans ce panthéon.
+Ce qui distingue un vainqueur de la Spine d'un finisher rapide, ce sont les micro-décisions. Combien de temps dormir à la base de vie de Hawes ? Faut-il s'arrêter pour soigner les pieds à Middleton, ou tenir jusqu'à Alston au risque de la blessure ? Quand manger alors que l'estomac refuse tout ? Une course de ce format se joue sur une centaine d'arbitrages minuscules, exécutés dans un brouillard neurologique que seule l'ultra-endurance produit. Collison, visiblement, a arbitré juste.
 
-![Image illustrative trail running](/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures-2.jpg)
+![Illustration Courses & Récits](/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures-2.jpg)
 
-Sur une course de cette durée, chaque heure gagnée se paie en micro-décisions : bien choisir ses arrêts, refuser la tentation du sommeil prolongé dans les bases de vie, alterner les allures avec intelligence, gérer l'alimentation alors que l'estomac refuse, soigner ses pieds avant qu'ils ne deviennent des plaies ouvertes. Une Spine réussie, c'est une succession d'arbitrages exécutés dans un état de fatigue que personne ne souhaite à son pire ennemi.
+## La Spine comme laboratoire mental
 
-Kim Collison a visiblement maîtrisé cet art-là. Les images captées sur le parcours montrent un coureur lucide, économe dans ses gestes, capable de maintenir un rythme élevé jusque dans les dernières étapes, alors même que les Cheviot Hills, gardiennes finales de la course, ont pour habitude de briser les ambitions des concurrents épuisés.
+Il y a, dans cette victoire, une dimension que la course de 100 kilomètres estivale ne permet presque plus de voir. L'ultra moderne s'est industrialisé : plans d'entraînement optimisés, coachs en nutrition, lactate tests, pacers, ravitaillements pléthoriques. La Spine résiste. Elle reste une épreuve où la préparation logistique et matérielle ne compense pas le déficit mental. On peut arriver en pleine forme et abandonner à 80 kilomètres parce que la tête a lâché dans la nuit de Bleaklow.
 
-## La dimension psychologique de la victoire
+Quatre tentatives, c'est long. Il faut, entre chaque édition, reconstruire une confiance ébréchée, retourner s'entraîner sur les fells en plein hiver, accepter que le risque du cinquième échec est bien réel. Beaucoup de coureurs d'excellent niveau n'ont pas cette endurance-là. Ils pivotent vers des objectifs plus rentables, des courses où l'on gagne une médaille plus sûrement.
 
-Il y a quelque chose de profondément humain dans cette histoire. Dans un sport où l'on célèbre à juste titre les exploits chronométriques, les sommets avalés et les records tombés, la victoire de Collison rappelle que l'ultra-trail est d'abord une affaire d'âme.
+Collison a choisi l'inverse. Il a fait de la Spine sa colonne vertébrale saisonnière, au sens propre. Et c'est cette cohérence obstinée, plutôt que le talent brut, qui signe sa victoire 2025.
 
-Persévérer pendant quatre ans sur une même course, accepter d'y laisser ses doutes, revenir encore et encore au départ d'Edale sans savoir si cette fois sera la bonne, cela demande une résilience mentale hors norme. Beaucoup auraient tourné la page, se seraient tournés vers d'autres objectifs plus accessibles. Lui a choisi de faire de la Spine son obsession constructive, cette flamme qui oriente l'entraînement, structure les saisons, donne du sens aux longues sorties solitaires sur les fells du Lake District en plein hiver.
+## Une génération britannique qui s'assume sur l'ultra long
 
-La leçon dépasse largement le cadre de la performance sportive. Elle rejoint ce que tout pratiquant d'ultra sait confusément : nos plus grandes victoires naissent souvent de nos plus belles défaites, à condition d'accepter d'y retourner.
+Le contexte compte. Depuis cinq ou six ans, le Royaume-Uni a cessé d'être un fournisseur de fell runners spécialisés pour devenir une vraie puissance de l'ultra-endurance longue. John Kelly, Damian Hall, Jasmin Paris — première femme à remporter la Spine en scratch en 2019, première finisher de la Barkley en 2024 — ont ouvert un chemin. Collison s'y inscrit.
 
-## Un palmarès qui s'épaissit
+Ce n'est pas anodin. La scène ultra internationale reste souvent lue à travers le prisme alpin (UTMB) ou nord-américain (Western States, Hardrock). La Spine, elle, propose un autre paradigme : l'autonomie, le long, l'hiver, l'intérieur. Une école différente, plus proche dans l'esprit de la Barkley que de CCC. Et cette école produit des champions.
 
-Avec cette victoire, Kim Collison ajoute une nouvelle pierre à un édifice déjà solide. Le Britannique s'affirme comme l'un des grands coureurs d'ultra de sa génération outre-Manche, dans la lignée des John Kelly, Damian Hall et autres figures qui ont porté haut les couleurs du trail long britannique ces dernières années.
+Ultra Runner Magazine insiste sur la transition de Collison, du fell running pur vers l'ultra-endurance de très longue durée. C'est la trajectoire logique d'un coureur qui a épuisé ce que la distance courte mais intense pouvait lui offrir, et qui cherche désormais à éprouver ses limites sur des fenêtres temporelles que la physiologie seule ne suffit plus à expliquer.
 
-Sa victoire sur la Spine n'est pas une surprise au sens pur du terme : son potentiel était connu, son sérieux reconnu. Mais elle valide définitivement sa transition du fell running pur vers l'ultra-endurance de très longue durée, ouvrant peut-être la porte à d'autres projets ambitieux sur la scène internationale.
+## Ce que l'hiver 2025 vient de rappeler
 
-En attendant, du côté de Kirk Yetholm, dans ce petit village écossais où la Pennine Way rend son verdict chaque hiver depuis 2012, une silhouette a franchi la ligne après 82 heures et 46 minutes d'un voyage intérieur et extérieur dont seuls quelques initiés mesurent la profondeur. Une silhouette qui, pendant quatre ans, avait rêvé de ce moment précis. Et qui, enfin, a pu relever la tête sous les applaudissements.
+La victoire de Kim Collison tombe à un moment où le trail mondial s'interroge sur sa propre trajectoire : spectacularisation, professionnalisation, contrats d'équipementiers, plateaux élites toujours plus denses. La Spine Race, elle, continue de proposer quelque chose que le circuit UTMB World Series ne peut structurellement pas offrir : une épreuve où le coureur est seul avec son matériel, sa nuit, sa fatigue, sans storytelling en direct ni GPS tracker transformé en téléréalité.
 
-Dans l'univers exigeant des ultras hivernaux, une nouvelle référence vient d'être inscrite. Kim Collison peut maintenant respirer.
+Que le vainqueur 2025 soit un homme qui a échoué quatre fois avant de réussir n'est pas un détail. C'est un rappel. L'ultra-endurance reste, quand on gratte le vernis médiatique, une discipline où le temps long — celui des saisons qui s'accumulent, des apprentissages qui décantent, des défaites qui nourrissent — prime sur le talent pur. Collison l'a démontré à 82h46 près. Le message mérite d'être entendu au-delà de la Pennine Way.

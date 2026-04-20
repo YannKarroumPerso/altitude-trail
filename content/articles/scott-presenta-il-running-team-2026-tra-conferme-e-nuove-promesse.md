@@ -1,59 +1,69 @@
 ---
-slug: "scott-running-team-2026-la-releve-frappe-a-la-porte"
-title: "SCOTT Running Team 2026 : la relève frappe à la porte"
-excerpt: "À Bergame, la marque suisse a dévoilé son équipe de trail et skyrunning 2026, un mélange assumé de cadres confirmés et de jeunes pousses issues du programme Future Pro."
-category: "Actualités"
+slug: scott-running-team-2026-la-releve-frappe-a-la-porte
+title: 'SCOTT Running Team 2026 : la relève frappe à la porte'
+excerpt: >-
+  À Bergame, la marque suisse a dévoilé son équipe de trail et skyrunning 2026,
+  un mélange assumé de cadres confirmés et de jeunes pousses issues du programme
+  Future Pro.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "20 avril 2026"
-readTime: "5 min"
-image: "/articles/scott-running-team-2026-la-releve-frappe-a-la-porte-hero.jpg"
-tags: ["SCOTT Running", "team 2026", "skyrunning", "trail italien"]
-sourceUrl: "https://www.corsainmontagna.it/2026/04/20/scott-presenta-il-running-team-2026-tra-conferme-e-nuove-promesse/"
+author: Rédaction Altitude
+date: 20 avril 2026
+readTime: 5 min
+image: /articles/scott-running-team-2026-la-releve-frappe-a-la-porte-hero.jpg
+tags:
+  - SCOTT Running
+  - team 2026
+  - skyrunning
+  - trail italien
+sourceUrl: >-
+  https://www.corsainmontagna.it/2026/04/20/scott-presenta-il-running-team-2026-tra-conferme-e-nuove-promesse/
+rewrittenAt: '2026-04-20'
 ---
+Six noms, une philosophie. SCOTT Running a dévoilé sa roster 2026 et le message est limpide : on ne recrute pas pour briller sur un communiqué, on construit sur la durée. Dans un marché trail saturé de transferts spectaculaires, la marque helvétique assume une ligne à contre-courant.
 
-# SCOTT Running Team 2026 : la relève frappe à la porte
+L'équipe présentée mi-avril depuis Bergame, telle que détaillée par Corsa in Montagna, mêle quatre cadres — Mattia Tanara, Mattia Gianola, Daniela Rota, Roberta Jacquin — et deux arrivées fortes : Marcello Ugazio, recrue de l'année spécialiste du kilomètre vertical, et Francesco Gianola, né en 2008, promu depuis le programme interne Future Pro. Le team manager italien Mario Poletti résume la feuille de route : « Nous ne construisons pas seulement une équipe, nous construisons un parcours. » Le positionnement est clair : skyrunning, vertical, course en montagne.
 
-Avril 2026, Bergame. Dans les bureaux italiens de SCOTT Running, l'annonce de l'effectif 2026 a des airs de passage de témoin. La marque helvétique a officialisé la composition de son équipe trail et skyrunning pour la nouvelle saison, et la lecture de la liste en dit long sur la stratégie maison : consolider les acquis, injecter du sang neuf, et continuer à défendre une identité construite patiemment depuis plusieurs saisons. Entre cadres confirmés et jeunes talents tout juste promus du vivier Future Pro, le Team SCOTT Running 2026 ressemble à un projet sportif mûri davantage qu'à un simple roster.
+## La fabrique interne comme argument stratégique
 
-## Un projet sportif, pas une vitrine
+L'info la plus parlante de cette annonce n'est pas une signature clinquante. C'est le fait que deux des coureurs présents dans le roster élite 2026 viennent du Future Pro, le dispositif de formation maison de SCOTT Italia. Autrement dit, la marque fait remonter ses propres talents plutôt que d'aller piocher dans l'écurie d'à côté.
 
-Le discours tenu par Mario Poletti, team manager de SCOTT Running Italia, fixe le cap. « Nous ne construisons pas seulement une équipe, nous construisons un parcours. Nous voulons être une référence pour ces jeunes, dans les courses comme en dehors. » La phrase pourrait sonner comme une formule marketing ; elle prend pourtant tout son sens quand on observe la trajectoire des nouveaux arrivants. Deux d'entre eux sont directement issus du programme Future Pro, ce laboratoire interne pensé pour accompagner les jeunes coureurs avant qu'ils ne basculent dans l'élite professionnelle. Le passage du Future Pro au Team Pro n'a donc rien d'anecdotique : c'est la validation d'un modèle de formation, une manière pour SCOTT de revendiquer un investissement sur les personnes avant même sur les athlètes.
+Le contraste est saisissant avec la tendance dominante de l'écosystème. Depuis trois ou quatre saisons, les grandes maisons du trail — on pense aux mouvements autour de Nike Trail, aux recompositions fréquentes chez HOKA ou Adidas Terrex — jouent la surenchère sur quelques têtes d'affiche. SCOTT choisit la voie inverse : un pipeline interne, des passages gradués, une validation par étapes. Dans l'industrie, c'est une forme de pari. Si Francesco Gianola ou un autre sortant du Future Pro perce au plus haut niveau, la marque tient un récit sportif infiniment plus fort qu'un transfert à six chiffres.
 
-![Image illustrative trail running](/articles/scott-running-team-2026-la-releve-frappe-a-la-porte-1.jpg)
+![Illustration Actualités](/articles/scott-running-team-2026-la-releve-frappe-a-la-porte-1.jpg)
 
-Dans un écosystème du trail où les marques multiplient les recrutements tape-à-l'œil, cette approche détonne. Elle rappelle que derrière chaque podium, il y a des années de construction, de gestion de charge, de confiance partagée entre un staff et un coureur. SCOTT a choisi d'en faire un récit.
+Poletti, cité par Corsa in Montagna, assume la dimension éducative : « Nous voulons être une référence pour ces jeunes, dans les courses comme en dehors. » Formule à double tranchant. Soit elle tient, et c'est un modèle. Soit elle reste slogan, et l'équipe finira par se diluer dans le peloton du circuit transalpin.
 
-## Les cadres, colonne vertébrale de l'équipe
+## Ugazio, la signature qui dit tout du créneau
 
-Côté confirmés, la marque peut s'appuyer sur une base solide. **Mattia Tanara**, intégré au Team SCOTT International, s'impose comme l'une des figures les plus prometteuses du skyrunning italien. Le jeune coureur continue de se frotter aux courses les plus techniques du circuit international, et son évolution en fait l'un des noms à surveiller de près sur les parcours verticaux et alpins les plus exigeants.
+Des six noms, Marcello Ugazio est celui qui attire immédiatement l'œil. Présenté par Corsa in Montagna comme l'une des meilleures références italiennes du kilomètre vertical, il rejoint SCOTT en tant que recrue phare de la saison. Et ce choix n'est pas anodin.
 
-À ses côtés, **Mattia Gianola** incarne la régularité. Présent sur les classiques transalpines, toujours en tête sur les formats techniques du skyrunning, il offre à l'équipe cette garantie qui ne se mesure pas seulement aux résultats bruts : la capacité à être là, saison après saison, sur les rendez-vous qui comptent.
+Le KV, c'est l'antithèse du trail mainstream. Une trentaine de minutes d'effort, 1 000 mètres de dénivelé positif à encaisser dans les jambes, un format où la VO2max et la tolérance à la douleur font loi. C'est aussi le terrain historique de SCOTT, né sur des pentes italiennes et suisses où la vitesse ascensionnelle prime sur l'endurance pure. En recrutant Ugazio, la marque n'élargit pas son spectre : elle densifie son créneau.
 
-Chez les femmes, **Daniela Rota** reste une valeur sûre du trail italien. Sa continuité et sa détermination lui ont construit un statut de référence sur les courses au long cours. **Roberta Jacquin**, la Valdôtaine, apporte une palette plus instinctive : technicité, sens du terrain, progression régulière. Dans l'écrin de ses vallées natales comme sur les sentiers plus lointains, elle figure parmi les interprètes les plus complètes du circuit trail.
+Stratégiquement, c'est cohérent. Quand la quasi-totalité des sponsors se ruent sur l'ultra-distance — UTMB, Western States, Hardrock comme vitrines absolues — SCOTT se positionne là où personne ne se bat à armes égales. Le skyrunning reste un marché de niche, mais c'est un marché où une marque peut encore imposer sa voix.
 
-## Les nouveaux visages
+## Les cadres, garantie sans éclat et sans faille
 
-La vraie actualité de ce Team 2026, ce sont bien les arrivées. **Marcello Ugazio** rejoint la structure en tant que recrue de l'année. Considéré comme l'un des meilleurs spécialistes italiens du kilomètre vertical, il vient densifier la composante sky de l'équipe et apporter son expertise des formats courts et explosifs. Une signature qui colle parfaitement à l'ADN de SCOTT, historiquement investi sur ces disciplines où chaque seconde compte et où la tenue du dossard se joue autant dans la tête que dans les jambes.
+![Illustration Actualités](/articles/scott-running-team-2026-la-releve-frappe-a-la-porte-2.jpg)
 
-![Image illustrative trail running](/articles/scott-running-team-2026-la-releve-frappe-a-la-porte-2.jpg)
+Sur le papier, les confirmations sont moins spectaculaires. Mattia Tanara, intégré au Team SCOTT International, est décrit par Corsa in Montagna comme une des figures montantes du skyrunning italien, performant sur les parcours techniques et alpins les plus exigeants. Mattia Gianola, lui, incarne la constance : présent sur les classiques transalpines, régulier sur les formats techniques.
 
-L'autre arrivée, plus symbolique encore, est celle de **Francesco Gianola**. Né en 2008, le jeune homme a gravi les échelons au sein du Team Future Pro avant de basculer officiellement dans l'équipe élite. Spécialisé en course en montagne, il affiche déjà une progression solide et des résultats probants pour son âge. Surtout, il incarne cette philosophie de long terme : construire un athlète en respectant son rythme, sans brûler les étapes.
+Côté féminin, Daniela Rota reste le pilier longue distance de l'équipe, avec ce statut de référence qui se construit par la durée plus que par les coups d'éclat. Roberta Jacquin, la Valdôtaine, apporte une signature technique — lecture du terrain, instinct de la pente — qui colle particulièrement aux terrains de jeu privilégiés de la marque.
 
-## Des créneaux techniques assumés
+Aucun de ces quatre profils ne provoque de frisson médiatique. Mais c'est précisément l'idée : une colonne vertébrale qui tient, des résultats récurrents, pas de saison blanche. Dans une équipe pro trail, c'est souvent ce qui fait la différence entre un projet qui dure et un projet qui s'effondre à la première contre-performance.
 
-En filigrane, la composition du team dessine un positionnement clair. SCOTT Running ne cherche pas à cocher toutes les cases du trail mondial. La marque privilégie les disciplines techniques — skyrunning, vertical, courses en montagne, trails alpins — où son identité s'exprime pleinement. Pas d'empilement d'ultra-finishers, mais une sélection resserrée d'athlètes capables de performer sur des terrains exigeants, où la lecture du terrain et la vitesse ascensionnelle priment.
+## Ce que dit la gamme RC sur l'équipement en 2026
 
-Ce choix a une cohérence : il correspond à l'histoire de la marque, à sa géographie (les Alpes italiennes comme terrain d'expression privilégié) et à ses produits.
+Le volet matériel mérite d'être lu avec la même grille. Pour 2026, Corsa in Montagna indique que les athlètes seront équipés de la gamme SCOTT RC Running — performance, légèreté, respirabilité — pour la compétition, et de la nouvelle collection Kinabalu pour les volumes d'entraînement et les sorties longues.
 
-## Une saison sous le signe de la RC
+Là encore, la segmentation est typée. Le RC, c'est l'arme de course sur terrain sec et technique, pensée pour la réactivité. Le Kinabalu, c'est la chaussure qui encaisse les blocs de 20 heures hebdomadaires, l'amorti et la durabilité. Ce couple produit dessine en creux le profil type du coureur SCOTT : volumes élevés en montagne, courses courtes à moyennes, verticalité marquée. On est loin de la plateforme ultra à énorme drop et semelle carbone qui domine le récit Western States ou UTMB.
 
-Parlons justement de matériel. Pour 2026, les athlètes du Team SCOTT Running seront équipés des dernières évolutions issues du centre R&D de la marque. Le fer de lance de l'équipement reste la gamme **SCOTT RC Running**, pensée autour de trois piliers : performance, légèreté, respirabilité. En course, chaussures et textiles RC seront au programme, avec une promesse affichée de précision, de réactivité et de fiabilité sur les terrains les plus cassants. Équilibre entre adhérence, protection et sensibilité : la formule est connue, mais c'est précisément ce dosage que les athlètes testeront et affineront tout au long de la saison.
+Autrement dit, la cohérence entre le roster et le catalogue est totale. Pas de grand écart, pas de rattrapage tardif sur l'ultra-carbone. Une ligne, tenue.
 
-Pour l'entraînement et les sorties longues, place à la nouvelle collection **Kinabalu**. Conçue pour encaisser le volume, elle met l'accent sur le confort, l'amorti et la durabilité. Un choix logique pour des coureurs qui enchaînent les blocs d'entraînement exigeants et les sessions prolongées sur des terrains variés.
+## Le vrai test arrive maintenant
 
-## Des crêtes alpines aux scènes internationales
+Tout cela reste sur le papier. Une équipe pro se juge sur un circuit, des podiums, un cumul de points ITRA, une présence dans les Golden Trail Series ou les Skyrunner World Series selon le cap visé. Corsa in Montagna mentionne un programme ambitieux mêlant classiques du skyrunning italien et rendez-vous internationaux, sans détailler les dossards visés.
 
-Reste à voir ce que cette équipe produira sur le terrain. Le programme s'annonce chargé : des classiques du skyrunning italien aux rendez-vous internationaux les plus relevés, le Team SCOTT Running compte bien être de la fête sur les principaux circuits trail et sky de la saison. Entre les crêtes acérées des Alpes transalpines et les grands plateaux mondiaux, les six athlètes retenus auront l'occasion de porter les couleurs de la marque — et de confirmer, ou non, les ambitions affichées.
+C'est là que la promesse de Poletti sera jaugée. Faire éclore Francesco Gianola à 18 ans sans le cramer, c'est un art. Capitaliser sur Ugazio pour décrocher un titre de KV international, c'est une autre partition. Maintenir Rota et Jacquin au sommet sur l'ultra alpin, encore une autre.
 
-Mais au-delà des résultats, c'est peut-être la dynamique collective qui sera la vraie jauge du projet. Faire grandir des jeunes, accompagner des cadres, construire un groupe soudé autour de valeurs partagées : voilà l'ambition assumée par Mario Poletti et son staff. Pas de raccourcis, promettent-ils. Juste de l'engagement et de la passion. En trail, c'est souvent là que tout commence.
+Le trail européen de 2026 n'offre aucune garantie. La concurrence s'est professionnalisée à toute vitesse : structures médicales, préparateurs physiques dédiés, analyses de puissance — le jeu est devenu plus scientifique en cinq ans qu'en vingt. Dans ce contexte, SCOTT mise sur un triptyque presque démodé : patience, identité, fidélité. Si le pari tient, la marque aura démontré qu'on peut encore construire sans racheter. Si le groupe s'étiole, on reviendra à la case signature-coup-de-com'. L'industrie regarde. Et, franchement, elle ferait bien d'espérer que ça marche.

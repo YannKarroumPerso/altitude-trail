@@ -1,61 +1,72 @@
 ---
-slug: "colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno"
-title: "Colmen Trail 2026 : Gaggi et Rota Martir dominent la montagne magique de Morbegno"
-excerpt: "Plus de 500 coureurs ont pris d'assaut les sentiers de la Colmen pour la 13e édition. Alice Gaggi et Lorenzo Rota Martir s'imposent sur la CT22, tandis que la jeunesse rayonne sur le format court."
-category: "Courses & Récits"
+slug: >-
+  colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno
+title: >-
+  Colmen Trail 2026 : Gaggi et Rota Martir dominent la montagne magique de
+  Morbegno
+excerpt: >-
+  Plus de 500 coureurs ont pris d'assaut les sentiers de la Colmen pour la 13e
+  édition. Alice Gaggi et Lorenzo Rota Martir s'imposent sur la CT22, tandis que
+  la jeunesse rayonne sur le format court.
+category: Courses & Récits
 categorySlug: courses-recits
-author: "Rédaction Altitude"
-date: "19 avril 2026"
-readTime: "5 min"
-image: "/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno-hero.jpg"
-tags: ["Colmen Trail", "Morbegno", "course en montagne", "Italie", "Alice Gaggi"]
-sourceUrl: "https://www.corsainmontagna.it/2026/04/19/colmen-trail-2026-la-montagna-magica-che-domina-morbegno-regala-sempre-grandi-emozioni/"
+author: Rédaction Altitude
+date: 19 avril 2026
+readTime: 5 min
+image: >-
+  /articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno-hero.jpg
+tags:
+  - Colmen Trail
+  - Morbegno
+  - course en montagne
+  - Italie
+  - Alice Gaggi
+sourceUrl: >-
+  https://www.corsainmontagna.it/2026/04/19/colmen-trail-2026-la-montagna-magica-che-domina-morbegno-regala-sempre-grandi-emozioni/
+rewrittenAt: '2026-04-20'
 ---
+Treize éditions, et la même équation qui se vérifie : quand Alice Gaggi court chez elle, le reste du plateau féminin joue pour la deuxième place. Quand Lorenzo Rota Martir trouve ses marques dès les premiers hectomètres, la CT22 se transforme en contre-la-montre à un coureur. La Colmen Trail 2026 n'a pas dérogé à sa grammaire.
 
-# Colmen Trail 2026 : la montagne magique offre encore son grand spectacle
+Orchestrée par le Team Valtellina au-dessus de Morbegno, la treizième édition de la Colmen Trail a réuni plus de 500 coureurs sur deux formats, 22 km et 1 320 m D+ pour la CT22, 12 km et 600 m D+ pour la CT12. Comme le rapporte Corsa in Montagna, Lorenzo Rota Martir (US Malonno – La Sportiva) s'est imposé en 1h50'58", Alice Gaggi (Recastello – Brooks) en 2h15'46". Travaux à la Colonia Fluviale obligent, départ et arrivée ont été déplacés au Polo Fieristico. La montagne, elle, n'a pas bougé. Les hiérarchies non plus.
 
-Il y a des rendez-vous qui, saison après saison, ne trahissent jamais la promesse. La Colmen Trail, épreuve phare orchestrée par le Team Valtellina au cœur de la Valteline, fait indiscutablement partie de ceux-là. Pour sa treizième édition, la course a une nouvelle fois transformé les sentiers surplombant Morbegno en théâtre d'un bel affrontement sportif, réunissant plus de 500 athlètes venus de toute la Lombardie et des régions voisines. Un soleil printanier, des tracés parfaitement préparés et une organisation millimétrée : tous les ingrédients étaient réunis pour confirmer, s'il le fallait encore, le statut de Morbegno comme l'une des capitales italiennes de la course en montagne.
+## Rota Martir, la victoire annoncée qui s'exécute
 
-## La Colmen, cette « montagne magique » qui aimante les coureurs
+Il y a deux façons de gagner une course quand on part favori. La première consiste à laisser venir, à répondre aux attaques, à placer le coup décisif dans le dernier tiers. La seconde, bien plus rare, revient à tuer le suspense dès la sortie du sas. Lorenzo Rota Martir a choisi la seconde.
 
-Elle domine la ville comme une sentinelle verte, grignotant le ciel au-dessus des toits de Morbegno. Surnommée la « montagna magica » par les habitants, la Colmen exerce sur les traileurs une fascination qui ne se dément pas. Sentiers techniques, vue plongeante sur la vallée, dénivelé exigeant mais accessible : le cocktail fonctionne, édition après édition.
+![Illustration Courses & Récits](/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno-1.jpg)
 
-Cette année, quelques ajustements logistiques s'étaient imposés. Les travaux en cours à la Colonia Fluviale ont contraint l'organisation à déplacer le départ et l'arrivée vers le Polo Fieristico, qui a également accueilli les récompenses et le repas convivial de clôture. Sous le patronage de la commune de Morbegno et porté par un solide réseau de partenaires locaux, l'événement a prouvé sa résilience et sa capacité à s'adapter sans rien perdre de son âme.
+D'après Corsa in Montagna, le coureur de l'US Malonno a imposé son tempo dès les premiers hectomètres de la CT22 et n'a plus jamais été inquiété. Son chrono final, 1h50'58" sur 22 km et 1 320 m de D+, traduit une moyenne d'environ 60 mètres de dénivelé avalés par kilomètre à plus de 12 km/h projetée — un rythme qui situe l'épreuve quelque part entre le trail court et la course en montagne pure, registre où Rota Martir s'exprime sans rival à l'échelle régionale.
 
-![Image illustrative trail running](/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno-1.jpg)
+Derrière, la vraie course s'est jouée pour les accessits. Matteo Porro (GSA Cometa) a basculé deuxième au sommet, fidèle à son style d'attaquant en montée. Mais Mattia Gianola (Lab4You – Scott), excellent descendeur, a patiemment recousu l'écart avant de le doubler dans le retour sur Morbegno. Verdict : Gianola 1h56'29", Porro 1h56'34". Cinq secondes. L'équivalent d'un virage mal négocié, d'un appui hésitant, d'une trajectoire pas optimale dans les derniers lacets.
 
-## CT22 : Lorenzo Rota Martir impose son tempo
+## Alice Gaggi, prophète en son pays
 
-Sur le format long, véritable vitrine de l'épreuve avec ses 22 kilomètres et ses 1 320 mètres de dénivelé positif, les pronostics désignaient un favori : Lorenzo Rota Martir, porte-drapeau de l'US Malonno – Team La Sportiva. Le coureur n'a pas laissé durer le suspense. Dès les premiers hectomètres, il a imposé son rythme, creusant progressivement un écart impossible à combler.
+Gagner à domicile est un classique du récit sportif. Gagner avec autant de marge dans le département d'à côté de celui où l'on vit et où l'on s'entraîne en est un autre. Alice Gaggi a réglé l'affaire selon les standards qu'on lui connaît : dès la première ascension, celle des Torchi Bianchi, elle était devant. Au sommet de la Colmen, l'écart était déjà tel que la course se jouait sans elle.
 
-Derrière lui, la bataille pour les places d'honneur a offert l'un des moments les plus intenses de la matinée. Matteo Porro (GSA Cometa) a tenté de forcer la décision dans les montées, cherchant à prendre de court l'excellent descendeur Mattia Gianola (Lab4You – Scott). Le pari fut payant au sommet : Porro a basculé au col en deuxième position. Mais la descente est le terrain de prédilection de Gianola, qui a patiemment remonté le déficit avant de porter un coup décisif pour lui ravir la place.
+Son 2h15'46" relégue sa coéquipière de Recastello, Sveva Della Pedrina, à 11'21" (2h27'07"). Sara Pini (CSI Tirano) complète le podium en 2h30'17". Onze minutes sur 22 kilomètres, c'est l'écart qu'on trouve habituellement entre la gagnante d'un UTMB et la dixième de la générale, pas entre une favorite et sa dauphine sur une course régionale de deux heures. La donnée est brute et parle seule : Gaggi a couru à un niveau qui n'était pas celui du reste du plateau.
 
-Sur la ligne d'arrivée de Morbegno, c'est donc Lorenzo Rota Martir qui l'emporte en 1h50'58", devant Mattia Gianola (1h56'29") et Matteo Porro (1h56'34"), tous deux séparés par cinq petites secondes au terme d'une course haletante. Gabriele Gaggero (GSA Cometa) et Jacopo Perico (GP Santi) complètent le top 5.
+Corsa in Montagna souligne l'ancrage particulier de cette victoire, obtenue sur des sentiers que la Lombarde connaît par cœur. On y lit, en creux, la différence entre un palmarès construit sur des terrains anonymes et une victoire-signature sur un monument local. Pour Gaggi, la Colmen appartient à la seconde catégorie.
 
-## Alice Gaggi, la reine chez elle
+![Illustration Courses & Récits](/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno-2.jpg)
 
-Chez les féminines, l'enfant du pays était annoncée comme l'archi-favorite. Alice Gaggi, sous les couleurs du Recastello – Brooks, n'a pas failli. La spécialiste lombarde a immédiatement imposé un tempo prohibitif dès la première ascension, celle des Torchi Bianchi, passant en tête au sommet de la Colmen et verrouillant définitivement la course dans les premiers kilomètres.
+## La CT12, laboratoire des relèves
 
-![Image illustrative trail running](/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno-2.jpg)
+Si la CT22 a confirmé les favoris, la CT12 a raconté autre chose. Ici, 12 km et 600 m de D+ : un format court, nerveux, qui récompense la puissance spécifique plutôt que la gestion. Et trois noms jeunes qui ont pris la lumière.
 
-Sa cavalcade solitaire s'est achevée en 2h15'46", un temps qui témoigne de sa maîtrise totale du parcours. Derrière elle, sa coéquipière Sveva Della Pedrina (Recastello) a signé une belle deuxième place en 2h27'07", devançant Sara Pini (CSI Tirano) qui boucle le podium en 2h30'17". Arianna Oregioni (GP Santi) et Lara Pizzati (Castelraider) s'octroient les places restantes du top 5.
+Elia Mattio (Pod. Valle Varaita) a attaqué d'entrée dans la montée vers Porcido, décrochant Francesco Bongio et Paolo Gianola dans la seule section qui comptait vraiment, selon le récit de Corsa in Montagna. Les positions ont ensuite été gelées jusqu'à l'arrivée : Mattio en 54'28", Bongio (GS Orobie – Nnormal) en 55'00", Gianola (US Malonno – Team Scarpa Youth) en 55'46". Trente-deux secondes entre les deux premiers, un peu plus d'une minute et demie entre le premier et le troisième. Des écarts qui disent l'âpreté de la lutte sur un format qui ne laisse aucune place à l'erreur tactique.
 
-Pour Gaggi, cette victoire a la saveur particulière des succès à domicile : une victoire validée par les siens, sur les sentiers qu'elle connaît par cœur.
+La présence de sponsors techniques — Nnormal, Scott, Scarpa Youth, La Sportiva, Brooks, Salomon — sur presque tous les podiums de la journée en dit long sur la profondeur du vivier italien de la course en montagne. Ce n'est pas un hasard si l'Italie truste les podiums Skyrunner World Series depuis une décennie : le maillage d'épreuves régionales comme la Colmen constitue la base de la pyramide.
 
-## CT12 : la jeunesse prend le pouvoir
+## Bianchi, la démonstration dans la démonstration
 
-Le format court, 12 kilomètres pour 600 mètres de dénivelé positif, a offert une magnifique vitrine à la nouvelle génération italienne de la course en montagne. Trois jeunes talents se sont disputé la victoire chez les hommes, transformant la course en laboratoire pour les étoiles montantes du skyrunning transalpin.
+Chez les femmes de la CT12, le scénario a basculé dans la caricature. Beatrice Bianchi (Recastello – Salomon) a pris la tête sur la portion plate initiale et n'a plus été vue. Son chrono : 1h03'12". Celui de sa dauphine Monica Vagni (Angolo Mountain Running) : 1h10'58". Près de huit minutes d'écart sur 12 kilomètres. En pourcentage, Bianchi a couru environ 12 % plus vite que sa première poursuivante — une marge qui, transposée sur un marathon, équivaudrait à une heure de différence.
 
-Elia Mattio (Pod. Valle Varaita) a tenté de faire la différence d'entrée, dans la montée vers Porcido. Le pari s'est révélé gagnant : il est parvenu à décrocher Francesco Bongio et Paolo Gianola dans cette section décisive. Les positions n'ont plus bougé jusqu'à l'arrivée, et Mattio a franchi la ligne en 54'28", devançant de peu Francesco Bongio (GS Orobie – Nnormal) en 55'00" et Paolo Gianola (US Malonno – Team Scarpa Youth) en 55'46". Diego Rossi (GS CSI Morbegno) et Fabio Sassella (GP Talamona) complètent un top 5 aux accents jeunes et prometteurs.
+Chiara Finzi (Polisportiva Albosaggia, 1h15'05") boucle le podium. Que deux coureuses Recastello raflent la victoire sur les deux formats — Gaggi sur la CT22, Bianchi sur la CT12 — confirme que le club lombard est, à l'échelle italienne, l'une des structures qui comptent sur la course en montagne féminine.
 
-## Beatrice Bianchi écrase la concurrence
+## Ce que la Colmen dit du trail italien
 
-Chez les femmes de la CT12, la démonstration fut encore plus nette. Beatrice Bianchi (Recastello – Salomon), annoncée en favorite, a pris les rênes dès la portion plate d'ouverture. À partir de là, la course s'est résumée à un long solo, maîtrisé de bout en bout.
+Les grandes messes internationales du trail — UTMB, Hardrock, Western States — absorbent l'essentiel de l'attention médiatique. Elles cachent parfois l'arbre qui pousse : un tissu d'épreuves régionales de deux heures, cinq cents dossards, budget modeste, bénévoles motivés, qui constitue le véritable écosystème de la pratique.
 
-Bianchi a bouclé l'épreuve en 1h03'12", infligeant près de huit minutes à sa première poursuivante, Monica Vagni (Angolo Mountain Running, 1h10'58"). Chiara Finzi (Polisportiva Albosaggia, 1h15'05") complète le podium, tandis qu'Enrica Falcinella (GP Valchiavenna) et Sara Asparini (GS CSI Morbegno) ferment le top 5.
+La Colmen Trail en est un exemple presque manuel. Tracés techniques et lisibles, ancrage territorial revendiqué, patronage municipal, réseau de sponsors locaux, format double qui accueille aussi bien les élites que les pratiquants du dimanche. Corsa in Montagna insiste sur la capacité de l'organisation à s'adapter — déplacement du départ, repas convivial au Polo Fieristico — sans rien perdre de son identité.
 
-## Un modèle d'organisation qui inspire
-
-Au-delà des chronos et des podiums, la Colmen Trail 2026 aura une nouvelle fois illustré ce qui fait la force des grands rendez-vous de la course en montagne italienne : une équipe d'organisation rodée, un parcours pensé pour mettre en valeur le territoire, un ancrage local fort et un véritable esprit de communauté.
-
-La belle saison printanière, la qualité des tracés, la convivialité du repas partagé au Polo Fieristico au terme des épreuves : tout contribue à faire de la Colmen bien plus qu'une simple compétition. C'est un instantané de ce que la corsa in montagna a de meilleur à offrir. À Morbegno, la montagne magique a encore tenu son rang. Et gageant que la 14e édition rallumera, dans un an, la même flamme chez les 500 passionnés qui reviendront inlassablement défier ses pentes.
+C'est là, peut-être, que se joue la vraie résilience du trail. Pas dans les gigantismes médiatiques de fin d'été chamoniards, mais dans ces treizièmes éditions qui tiennent la corde, saison après saison, parce qu'une communauté décide qu'elles doivent tenir. La Colmen 2026 n'a rien révolutionné. Elle a fait mieux : elle a duré. Dans un paysage où les épreuves naissent et meurent au rythme des cycles de financement, c'est la performance la plus sous-cotée du week-end.
