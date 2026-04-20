@@ -35,8 +35,8 @@ export default function Home() {
     <div className="bg-surface">
       <div className="max-w-[1440px] mx-auto px-4 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
 
-        {/* Left Sidebar */}
-        <aside className="lg:col-span-3 space-y-6">
+        {/* Left Sidebar — desktop col 1-3 ; on mobile pushed last */}
+        <aside className="lg:col-span-3 space-y-6 order-3 lg:order-none">
           <div className="bg-navy text-white py-2 px-4 font-headline font-bold uppercase text-sm inline-block">
             LES PLUS CONSULTÉS
           </div>
@@ -59,8 +59,8 @@ export default function Home() {
           </div>
         </aside>
 
-        {/* Central Column */}
-        <section className="lg:col-span-6 space-y-8">
+        {/* Central Column — desktop middle ; on mobile rendered first */}
+        <section className="lg:col-span-6 space-y-8 order-1 lg:order-none">
           <ArticleCard article={featuredArticle} variant="large" priority />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 border-t-2 border-surface-container pt-8">
             {secondaryArticles.map((article) => (
@@ -69,8 +69,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Right Rail */}
-        <aside className="lg:col-span-3 space-y-8">
+        {/* Right Rail (AGENDA + À LA UNE) — desktop col 10-12 ; on mobile rendered second, before the most-read list */}
+        <aside className="lg:col-span-3 space-y-8 order-2 lg:order-none">
           <div className="bg-navy text-white p-6 flex flex-col items-center justify-center text-center space-y-4">
             <span className="text-[10px] text-slate-400 font-bold tracking-widest uppercase">AGENDA</span>
             <div className="space-y-2">
