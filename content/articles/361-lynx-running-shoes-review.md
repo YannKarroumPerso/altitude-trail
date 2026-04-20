@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "12 janvier 2025"
 readTime: "6 min"
-image: "https://www.ultrarunnermagazine.co.uk/wp-content/uploads/2025/01/Screenshot-2025-01-09-165122-300x229.png"
+image: "/articles/361-lynx-la-chaussure-de-trail-qui-monte-discretement-en-puissance-hero.jpg"
 tags: ["test matériel", "chaussures trail", "361 degrés", "équipement", "Vibram"]
 sourceUrl: "https://www.ultrarunnermagazine.co.uk/361-lynx-running-shoes-review/"
 ---
@@ -22,6 +22,8 @@ Mon cahier des charges, forgé par les années et les ampoules, tient en quelque
 
 C'est dans cette quête permanente que j'ai croisé la route de 361°. La marque — dont le nom, "One Degree Beyond", revendique ce degré supplémentaire qui fait la différence — a son siège en Chine mais déploie désormais ses collections sur l'ensemble du marché européen. En trail, son modèle phare s'appelle Lynx. Le discours marketing promet une chaussure haute performance capable d'avaler les terrains les plus rugueux tout en préservant confort et maintien. Sur le papier, exactement ce que je recherche.
 
+![Image illustrative trail running](/articles/361-lynx-la-chaussure-de-trail-qui-monte-discretement-en-puissance-1.jpg)
+
 Pour me faire une opinion solide, je l'ai portée pendant deux mois, sur des sorties lentes et rapides, courtes et longues, sur sentiers roulants, single techniques de montagne et chemins forestiers. J'ai aussi eu l'occasion de la malmener sur neige et plaques de glace. Bilan au compteur : environ 320 kilomètres. Largement de quoi dépasser le stade des premières impressions.
 
 ## Un ADN hybride, entre Hoka et Saucony
@@ -33,6 +35,8 @@ Deux coloris sont proposés au Royaume-Uni : un Magma Orange/Deep Ocean étiquet
 Le toe box, large et bien dessiné, associé à un avant-pied généreux, s'est révélé parfaitement adapté à ma morphologie. Une nuance cependant : la Lynx taille juste. Les coureurs aux pieds larges, dont je fais partie, auront tout intérêt à prendre une demi-pointure au-dessus. C'est ce que j'ai fait, et le résultat est nickel.
 
 ## Le confort, marque de fabrique
+
+![Image illustrative trail running](/articles/361-lynx-la-chaussure-de-trail-qui-monte-discretement-en-puissance-2.jpg)
 
 Si je devais retenir un seul point fort, ce serait celui-ci. La Lynx est d'un confort remarquable, et elle le doit en grande partie à sa mousse maison, la 361° PRIMO, logée dans la midsole. Cet amorti avale les impacts avec une efficacité qui se remarque surtout sur les longues distances : la fatigue musculaire s'invite plus tard, et les derniers kilomètres ne virent pas au chemin de croix.
 

@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "20 avril 2026"
 readTime: "6 min"
-image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
+image: "/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb-hero.jpg"
 tags: ["UTMB", "pacers", "réglementation", "ultra-trail", "François d'Haene"]
 sourceUrl: "https://www2.u-trail.com/republication-itw-de-julien-chorier-pacers/"
 imagePrompt1: "A lone ultra trail runner at night on the Col du Bonhomme near Chamonix, headlamp beam cutting through mist, alpine silhouettes of Mont Blanc massif behind, carrying a full running vest with poles, cold blue ambient light mixed with warm headlamp glow, atmospheric and solitary mood"
@@ -22,6 +22,8 @@ La rumeur est partie d'une pente italienne et a embrasé les réseaux en quelque
 
 Tout est parti d'un malentendu. Sur les sentiers vertigineux du Tor, certains observateurs ont cru voir François d'Haene accompagné de coureurs venus l'épauler sur les sections difficiles. Vérification faite, il s'agissait simplement d'autres concurrents en course partageant son rythme à ce moment-là. Le quadruple vainqueur de l'UTMB n'avait enfreint aucune règle. Mais la question de fond, elle, était lancée : puisque le pacing est autorisé sur la plupart des grands 100 miles américains, et qu'il est toléré voire encouragé sur le Tor lui-même à partir d'une certaine portion, pourquoi l'UTMB continue-t-il à l'interdire ?
 
+![Image illustrative trail running](/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb-1.jpg)
+
 Le règlement est effectivement sans équivoque. Sur l'ensemble des épreuves du festival chamoniard, l'accompagnement d'un coureur par une personne extérieure à la course, à pied ou à vélo, est strictement prohibé. L'assistance n'est autorisée que dans des zones précisément balisées, avec un nombre limité d'accompagnateurs. En cas d'infraction avérée, les sanctions tombent : pénalité de temps, voire disqualification.
 
 ## La position ferme du directeur sportif
@@ -33,6 +35,8 @@ Ouvrir la porte aux relayeurs d'allure, selon le directeur sportif, modifierait 
 ## L'argument de l'équité entre coureurs
 
 Un autre point revient souvent dans l'argumentaire : l'équité. Autoriser les pacers créerait mécaniquement une inégalité entre les coureurs capables de mobiliser une équipe — souvent les athlètes élites entourés d'un staff professionnel — et les milliers d'amateurs qui partent seuls, parfois avec une simple compagne ou un compagnon présent à quelques ravitaillements. Julien Chorier insiste sur cette dimension : l'UTMB, malgré son gigantisme, reste une course où le champion et l'amateur partagent la même ligne de départ, le même règlement et, dans les grandes lignes, la même expérience de la souffrance nocturne sur les crêtes.
+
+![Image illustrative trail running](/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb-2.jpg)
 
 Instaurer le pacing pour tous, administrativement, serait par ailleurs un casse-tête. Comment gérer le flux supplémentaire d'accompagnateurs sur des sentiers déjà saturés ? Comment sécuriser leur passage la nuit, en altitude, quand les services de secours sont déjà fortement sollicités ? Le directeur sportif rappelle que chaque règle de l'UTMB est pensée en fonction du terrain, de la capacité d'accueil des refuges et du dispositif de sécurité déployé sur le parcours. Le modèle américain, avec ses pistes larges et ses aid stations accessibles en voiture, n'est tout simplement pas transposable aux sentes techniques du massif du Mont-Blanc.
 

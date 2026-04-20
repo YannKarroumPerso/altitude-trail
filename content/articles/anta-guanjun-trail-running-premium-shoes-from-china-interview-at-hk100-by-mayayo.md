@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "23 janvier 2026"
 readTime: "5 min"
-image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
+image: "/articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc-hero.jpg"
 tags: ["Anta", "Hong Kong 100", "matériel", "chaussures", "industrie"]
 sourceUrl: "https://trailrunningspain.com/2026/01/23/anta-guanjun-interview-by-mayayo/"
 ---
@@ -20,6 +20,8 @@ Sur la ligne de départ du Hong Kong 100, l'ambiance est à la fois tropicale et
 
 Anta ne fait pas partie du vocabulaire courant des traileurs européens. Pourtant, le groupe basé à Xiamen, dans le Fujian, est l'un des plus puissants conglomérats d'équipement sportif au monde. Propriétaire de marques comme Arc'teryx, Salomon ou Wilson via sa prise de contrôle d'Amer Sports, Anta pèse désormais lourd sur l'échiquier industriel global du sport outdoor. Mais la marque éponyme, longtemps cantonnée au marché domestique et à un positionnement grand public, cherche aujourd'hui à exister par elle-même sur le segment premium.
 
+![Image illustrative trail running](/articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc-1.jpg)
+
 C'est dans ce contexte que naît la gamme **Guanjun** — littéralement « champion » en mandarin — pensée comme la vitrine technologique de la maison. Les chaussures, les textiles et les accessoires qui la composent visent explicitement la performance, avec un niveau de finition et un prix public qui tranchent avec l'ADN historique de la marque. Et en toile de fond, un objectif à peine masqué : séduire les coureurs étrangers autant que la classe moyenne supérieure chinoise, de plus en plus friande d'ultra-distance.
 
 ## HK100, vitrine stratégique
@@ -31,6 +33,8 @@ Lors de la présentation officielle, les responsables de la marque ont insisté 
 ## La Saker 3RC dans le détail
 
 Sans entrer dans la fiche technique exhaustive, la Saker 3RC coche toutes les cases du cahier des charges d'une compétition moderne. Construction allégée, tige respirante et renforcée au niveau des zones d'abrasion, semelle intermédiaire à haut rebond associée à une plaque destinée à améliorer la propulsion, et accroche travaillée pour les sols rocheux et boueux typiques de l'Asie de l'Est.
+
+![Image illustrative trail running](/articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc-2.jpg)
 
 Le modèle s'inscrit dans la tendance actuelle des chaussures dites « super-trail », héritières directes des super-shoes de la route, avec leur combinaison mousse réactive + élément rigide. Une voie dans laquelle Salomon, Nike, The North Face ou Hoka investissent massivement depuis deux saisons. Qu'Anta se positionne frontalement sur ce créneau, avec un produit qu'elle présente comme son vaisseau amiral, témoigne de la maturité atteinte par son département R&D.
 

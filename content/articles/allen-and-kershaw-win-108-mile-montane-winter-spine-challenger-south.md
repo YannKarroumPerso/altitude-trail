@@ -7,7 +7,7 @@ categorySlug: courses-recits
 author: "Rédaction Altitude"
 date: "13 janvier 2025"
 readTime: "5 min"
-image: "https://www.ultrarunnermagazine.co.uk/wp-content/uploads/2025/01/Dave-Wood-Mens-first-place-c-south-300x200.jpeg"
+image: "/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de-hero.jpg"
 tags: ["Spine Race", "ultra-trail", "Royaume-Uni", "hiver", "Pennine Way"]
 sourceUrl: "https://www.ultrarunnermagazine.co.uk/allen-and-kershaw-win-108-mile-montane-winter-spine-challenger-south/"
 ---
@@ -22,6 +22,8 @@ Pour ceux qui ne connaîtraient pas la bête : le Spine Race suit la fameuse Pen
 
 Cette édition 2025 aura tenu toutes ses promesses de brutalité. La neige s'est invitée sur les plateaux exposés, transformant des sections déjà techniques en pièges à chevilles et en labyrinthes de navigation. Dans l'obscurité polaire qui tombe vers 16 heures sur le nord de l'Angleterre en janvier, les traileurs ont dû composer avec la fatigue, le brouillard et l'isolement. Un cocktail que seuls les initiés comprennent vraiment.
 
+![Image illustrative trail running](/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de-1.jpg)
+
 ## James Allen, la résistance solitaire
 
 Chez les hommes, la victoire revient à James Allen, coureur basé à Manchester, qui a franchi la ligne d'arrivée de Hawes en **34 heures et 39 minutes**. Son scénario de course ressemble à ces récits d'aventure qu'on lit au coin du feu : une longue échappée en solitaire depuis Hebden Bridge, avalée dans le silence glacé des Pennines, sans repère humain, sans rival visible.
@@ -31,6 +33,8 @@ Quand les hommes de tête qui l'accompagnaient ont lâché prise, Allen s'est re
 Derrière lui, **Mark Potts** a terminé deuxième en 35 heures et 24 minutes, soit à environ 45 minutes du vainqueur — un écart minuscule au regard de l'effort fourni. Potts a découvert son podium à l'arrivée, la joie se mêlant à l'incrédulité après 108 miles de neige traîtresse. Son finish puissant illustre cette vérité du trail hivernal : ceux qui savent rester lucides sur le tard sont presque toujours récompensés.
 
 La troisième marche revient à **Sam Tansley**, modeste Yorkshireman au chronomètre solide (37 h 44). Tansley n'a pas caché que sa connaissance intime du Pennine Way avait fait la différence. Dans ces conditions où chaque mur de pierre sèche, chaque passage de tourbière se ressemblent, l'expérience du terrain vaut tous les entraînements.
+
+![Image illustrative trail running](/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de-2.jpg)
 
 ## Alice Kershaw, fraîcheur déconcertante
 

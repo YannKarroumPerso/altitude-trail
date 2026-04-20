@@ -7,7 +7,7 @@ categorySlug: courses-recits
 author: "Rédaction Altitude"
 date: "15 janvier 2025"
 readTime: "5 min"
-image: "https://www.ultrarunnermagazine.co.uk/wp-content/uploads/2025/01/@willbaldlygo_DSC06567-300x200.jpg"
+image: "/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures-hero.jpg"
 tags: ["Spine Race", "ultra-trail", "Kim Collison", "hiver", "Royaume-Uni"]
 sourceUrl: "https://www.ultrarunnermagazine.co.uk/kim-collison-wins-the-mens-montane-winter-spine-race/"
 ---
@@ -22,6 +22,8 @@ Pour comprendre ce que représente ce succès, il faut d'abord mesurer ce qu'est
 
 Les conditions y sont connues pour leur brutalité : tourbières gelées, vents glaciaux, sommets enneigés, traversées de moors plongés dans le brouillard, nuits interminables où les températures flirtent avec le négatif et où la neige peut transformer le moindre passage en piège. Les coureurs portent tout leur matériel sur le dos, bivouaquent quand ils peuvent, dorment peu, très peu, et avancent pendant des jours d'affilée dans un état de fatigue que l'on ne rencontre sur aucune autre course.
 
+![Image illustrative trail running](/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures-1.jpg)
+
 C'est dans ce décor austère, presque hostile, que Kim Collison a livré l'une des plus belles performances de sa carrière. Mais ce résultat, il ne le doit pas au hasard, ni même uniquement à son immense talent d'ultra-traileur. Il le doit à quatre années de travail, de retours en arrière, de déceptions digérées.
 
 ## Quatre ans pour revenir, quatre ans pour y croire
@@ -35,6 +37,8 @@ Chaque tentative ratée creuse un sillon particulier dans l'esprit d'un ultra-tr
 ## 82h46 : la signature d'un patron
 
 Boucler la Montane Winter Spine Race en moins de 83 heures, c'est entrer dans un club très fermé. Le record absolu de l'épreuve, établi par John Kelly en 2022, tourne autour des 72 heures, et seuls quelques noms approchent de cette marque. En signant le troisième meilleur temps de l'histoire, Collison se hisse dans ce panthéon.
+
+![Image illustrative trail running](/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures-2.jpg)
 
 Sur une course de cette durée, chaque heure gagnée se paie en micro-décisions : bien choisir ses arrêts, refuser la tentation du sommeil prolongé dans les bases de vie, alterner les allures avec intelligence, gérer l'alimentation alors que l'estomac refuse, soigner ses pieds avant qu'ils ne deviennent des plaies ouvertes. Une Spine réussie, c'est une succession d'arbitrages exécutés dans un état de fatigue que personne ne souhaite à son pire ennemi.
 

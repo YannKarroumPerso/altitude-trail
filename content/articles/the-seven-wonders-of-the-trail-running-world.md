@@ -7,7 +7,7 @@ categorySlug: courses-recits
 author: "Rédaction Altitude"
 date: "10 avril 2026"
 readTime: "6 min"
-image: "https://cdn.trailrunnermag.com/wp-content/uploads/2026/04/Speedgoat_featured_h.jpg?width=1200"
+image: "/articles/les-sept-merveilles-du-trail-mondial-l-ultime-bucket-list-hero.jpg"
 tags: ["bucket list", "voyage trail", "ultra-trail", "itinéraires mythiques", "montagne"]
 sourceUrl: "https://www.trailrunnermag.com/people/culture-people/the-seven-wonders-of-the-trail-running-world/"
 ---
@@ -21,6 +21,8 @@ Si n'importe quelle sortie peut offrir ce frisson, certains itinéraires jouent 
 ## Le Tour du Mont-Blanc – France, Italie, Suisse
 
 Si vous ne deviez faire qu'une seule grande boucle dans les Alpes, ce serait celle-ci. 170 kilomètres autour du massif du Mont-Blanc, trois pays traversés, et un décor de haute montagne qui n'a d'équivalent nulle part ailleurs. Chaque mois d'août, les meilleurs ultra-traileurs de la planète s'y affrontent sur l'UTMB, mais le commun des mortels peut fractionner l'aventure en étapes de 25 à 50 kilomètres, en logeant chaque soir en refuge ou à l'hôtel. Des agences spécialisées prennent en charge la logistique et le transport des bagages.
+
+![Image illustrative trail running](/articles/les-sept-merveilles-du-trail-mondial-l-ultime-bucket-list-1.jpg)
 
 Pas le temps de boucler l'intégralité ? Concentrez-vous sur la section reine entre Courmayeur (Italie) et Champex-Lac (Suisse), 45 kilomètres d'anthologie. Dans tous les cas, vous repartirez avec des images plein les yeux — et sans doute quelques kilos de pâtes, raclette et tiramisu en prime.
 
@@ -39,6 +41,8 @@ Le tableau, lui, est irréel : contraste entre la terre ocre, la roche volcaniqu
 ## Le Timberline Trail – Oregon
 
 Le cercle parfait ? Ces 67 kilomètres de boucle autour du Mont Hood s'en approchent dangereusement. Le départ se donne traditionnellement au Timberline Lodge, monument historique niché à 1 800 mètres d'altitude. Le sentier serpente ensuite à travers forêts denses, prairies alpines, torrents glaciaires et moraines, alternant passages au-dessus et en dessous de la limite des arbres, tout autour du volcan endormi qui culmine à 3 426 mètres.
+
+![Image illustrative trail running](/articles/les-sept-merveilles-du-trail-mondial-l-ultime-bucket-list-2.jpg)
 
 Trois campements aménagés jalonnent le parcours, avec sanitaires sommaires et un unique point d'eau au Cloud Cap Saddle. Un permis est requis, mais on l'obtient facilement au départ des sentiers, sans quota. L'une des plus belles boucles volcaniques du continent.
 

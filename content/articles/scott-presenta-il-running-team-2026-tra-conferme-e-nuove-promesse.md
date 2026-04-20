@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "20 avril 2026"
 readTime: "5 min"
-image: "https://www.corsainmontagna.it/wp-content/uploads/2026/04/DSC2706-236x354.jpg"
+image: "/articles/scott-running-team-2026-la-releve-frappe-a-la-porte-hero.jpg"
 tags: ["SCOTT Running", "team 2026", "skyrunning", "trail italien"]
 sourceUrl: "https://www.corsainmontagna.it/2026/04/20/scott-presenta-il-running-team-2026-tra-conferme-e-nuove-promesse/"
 ---
@@ -19,6 +19,8 @@ Avril 2026, Bergame. Dans les bureaux italiens de SCOTT Running, l'annonce de l'
 ## Un projet sportif, pas une vitrine
 
 Le discours tenu par Mario Poletti, team manager de SCOTT Running Italia, fixe le cap. « Nous ne construisons pas seulement une équipe, nous construisons un parcours. Nous voulons être une référence pour ces jeunes, dans les courses comme en dehors. » La phrase pourrait sonner comme une formule marketing ; elle prend pourtant tout son sens quand on observe la trajectoire des nouveaux arrivants. Deux d'entre eux sont directement issus du programme Future Pro, ce laboratoire interne pensé pour accompagner les jeunes coureurs avant qu'ils ne basculent dans l'élite professionnelle. Le passage du Future Pro au Team Pro n'a donc rien d'anecdotique : c'est la validation d'un modèle de formation, une manière pour SCOTT de revendiquer un investissement sur les personnes avant même sur les athlètes.
+
+![Image illustrative trail running](/articles/scott-running-team-2026-la-releve-frappe-a-la-porte-1.jpg)
 
 Dans un écosystème du trail où les marques multiplient les recrutements tape-à-l'œil, cette approche détonne. Elle rappelle que derrière chaque podium, il y a des années de construction, de gestion de charge, de confiance partagée entre un staff et un coureur. SCOTT a choisi d'en faire un récit.
 
@@ -33,6 +35,8 @@ Chez les femmes, **Daniela Rota** reste une valeur sûre du trail italien. Sa co
 ## Les nouveaux visages
 
 La vraie actualité de ce Team 2026, ce sont bien les arrivées. **Marcello Ugazio** rejoint la structure en tant que recrue de l'année. Considéré comme l'un des meilleurs spécialistes italiens du kilomètre vertical, il vient densifier la composante sky de l'équipe et apporter son expertise des formats courts et explosifs. Une signature qui colle parfaitement à l'ADN de SCOTT, historiquement investi sur ces disciplines où chaque seconde compte et où la tenue du dossard se joue autant dans la tête que dans les jambes.
+
+![Image illustrative trail running](/articles/scott-running-team-2026-la-releve-frappe-a-la-porte-2.jpg)
 
 L'autre arrivée, plus symbolique encore, est celle de **Francesco Gianola**. Né en 2008, le jeune homme a gravi les échelons au sein du Team Future Pro avant de basculer officiellement dans l'équipe élite. Spécialisé en course en montagne, il affiche déjà une progression solide et des résultats probants pour son âge. Surtout, il incarne cette philosophie de long terme : construire un athlète en respectant son rythme, sans brûler les étapes.
 

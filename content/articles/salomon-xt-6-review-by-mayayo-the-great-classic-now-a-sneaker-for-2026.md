@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "5 février 2026"
 readTime: "5 min"
-image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
+image: "/articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe-hero.jpg"
 tags: ["Salomon", "XT-6", "matériel", "sneakers", "lifestyle"]
 sourceUrl: "https://trailrunningspain.com/2026/02/05/salomon-xt-6-review-by-mayayo/"
 ---
@@ -22,6 +22,8 @@ Remettons les choses en perspective. Lancée à l'origine comme chaussure de tra
 
 Puis le destin de la chaussure a basculé. Son design brut, ses lignes agressives, sa construction complexe mêlant mesh technique, renforts TPU et système de laçage Quicklace ont séduit un public qui n'avait jamais mis les pieds sur un sentier. Tokyo, Paris, Séoul, New York : la XT-6 s'est imposée comme l'un des symboles du **gorpcore**, cette tendance mode qui puise dans l'équipement outdoor pour en faire un vestiaire urbain. Les collaborations se sont multipliées, les rééditions en éditions limitées ont enflammé les plateformes de revente, et la chaussure est devenue un objet de désir bien au-delà de sa vocation première.
 
+![Image illustrative trail running](/articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe-1.jpg)
+
 ## Une gamme qui se structure autour du modèle culte
 
 Ce que confirme l'exercice 2026, c'est que Salomon assume désormais pleinement cette double identité. La famille XT ne se limite plus au tandem historique formé par la XT-6 classique et sa version Gore-Tex. Elle s'élargit avec **deux déclinaisons exclusivement lifestyle**, clairement positionnées comme des produits de mode, sans vocation technique affichée.
@@ -31,6 +33,8 @@ C'est une étape symbolique. Pendant longtemps, la marque avait maintenu un cert
 ## Ce que change le statut de « sneaker unisexe »
 
 Le choix du terme n'est pas anodin. En basculant officiellement la XT-6 dans la catégorie sneaker, Salomon envoie plusieurs signaux. D'abord celui de l'**universalité des tailles et des usages** : la chaussure est pensée pour être portée par tout le monde, sans distinction homme/femme. Ensuite celui du **cycle produit** : une sneaker vit au rythme des saisons mode, des drops, des collaborations. Elle peut se réinventer en permanence, loin des cycles plus longs et techniques du trail running.
+
+![Image illustrative trail running](/articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe-2.jpg)
 
 Cela ne signifie pas pour autant que la version performance disparaît. Au contraire : la cohabitation entre les deux univers est désormais clarifiée. Les traileurs continueront de trouver leur XT-6 dans sa version originelle, avec notamment la déclinaison Gore-Tex qui reste une référence pour les sorties humides et les conditions dégradées. Les amateurs de mode, eux, auront accès à une offre dédiée, avec des matériaux, des coloris et parfois des constructions pensées pour l'asphalte et le café du coin plutôt que pour les crêtes pyrénéennes.
 

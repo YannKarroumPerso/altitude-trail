@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "2 juillet 2025"
 readTime: "6 min"
-image: "https://ultrarunningworld.co.uk/wp-content/uploads/2025/07/North-York-Moors-Ultra-1024x489.jpg"
+image: "/articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-hero.jpg"
 tags: ["ultra-trail", "Royaume-Uni", "courses", "calendrier", "Écosse"]
 sourceUrl: "https://ultrarunningworld.co.uk/this-weekend-in-ultrarunning-july-5-7-2025-uk-ireland/"
 ---
@@ -22,6 +22,8 @@ C'est sans doute la course la plus scénique du sud de l'Angleterre. Le **Serpen
 
 Plus à l'est, le **Full Essex Way Ultra** propose une expérience radicalement différente. Sur 82 miles (environ 132 km), la course relie Epping à Harwich du 4 au 5 juillet. Un point-à-point au long cours qui emprunte d'anciens chemins ruraux, traverse des terres agricoles et raconte, au fil des kilomètres, une Angleterre rurale parfois oubliée des radars du trail. Le format, volontairement patrimonial, séduit les amateurs d'aventure lente et de paysages domestiqués.
 
+![Image illustrative trail running](/articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-1.jpg)
+
 ## Faccombe et le supplice circulaire
 
 Le **Faccombe Backyard Ultra**, le 4 juillet, applique à la lettre le principe imaginé par Lazarus Lake : une boucle de 4,17 miles (6,7 km) à boucler chaque heure, jusqu'à ce qu'il ne reste qu'un seul coureur debout. Aucune distance annoncée, aucune ligne d'arrivée prédéfinie. Juste la répétition, la gestion du sommeil, la bataille mentale. Un format devenu culte, où la victoire se mérite parfois après 24, 48 heures ou davantage, et où la tactique compte autant que la forme.
@@ -33,6 +35,8 @@ Impossible de parler de ce week-end sans évoquer le monument écossais. **By Wa
 ## Galles : entre péninsule et montagnes
 
 Le pays de Galles place deux épreuves majeures sur la carte. Le **Pen Llyn Ultra** (Wales Ultra Trail), au départ de Pwllheli les 4 et 5 juillet, se décline en 50 et 100 miles. Le tracé épouse la péninsule de Llŷn, alternant falaises, criques et sentiers côtiers parfois techniques. Les coureurs y affrontent des surfaces changeantes — herbe rase, rochers, passages boueux — et bénéficient d'un terrain de jeu encore préservé, loin des autoroutes à trail. Et bien sûr, comme aiment à le rappeler les initiés, il y aura Huw Williams, figure locale incontournable.
+
+![Image illustrative trail running](/articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-2.jpg)
 
 Plus au sud, **The Pigum** s'élance d'Abergavenny le 5 juillet sur 30 miles (environ 48 km). À la porte des montagnes galloises, la course cumule plus de 1 500 mètres de dénivelé positif, enchaîne les sommets rugueux et réclame une franche solidité en montée comme en descente. Un format court à l'échelle de l'ultra, mais intense, que beaucoup utilisent comme test grandeur nature avant des objectifs plus longs dans l'été.
 

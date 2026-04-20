@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "17 avril 2026"
 readTime: "5 min"
-image: "https://s3.amazonaws.com/www.irunfar.com/wp-content/uploads/2026/04/16101134/Zach-Miller-on-bike-trainer-560x373.jpg"
+image: "/articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-hero.jpg"
 tags: ["Zach Miller", "ultra-trail", "philosophie", "préparation", "acclimatation chaleur"]
 sourceUrl: "https://www.irunfar.com/steady-love"
 ---
@@ -21,6 +21,8 @@ Il est tard. La journée a été longue — entraînement le matin, chantier de 
 Dès les premières minutes, une chanson s'invite dans la playlist Spotify qui défile : *Steady Love*, de Ben Rector. Pas du rock survitaminé pour abattre les watts, non. Un morceau mélancolique, posé, presque contemplatif. Le genre de titre qui, au lieu de vous pousser à écraser la pédale, vous ramène au centre de vous-même.
 
 Rector y chante quelque chose de simple et de grave à la fois : on ne reste pas jeune éternellement, on ne peut pas empêcher de grandir. Et quand le cœur se fatigue à force de courir après tout, il faut bien, un jour, trouver un amour stable, constant. *Steady love*. L'image est belle — et, pour un coureur d'ultra, étrangement troublante.
+
+![Image illustrative trail running](/articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-1.jpg)
 
 Miller l'avoue : il est de ceux qui poussent toujours un cran plus loin. Plus grand, plus vite, plus fort. Un chasseur d'objectifs pur jus, allergique à l'idée de se poser. Et pourtant, en pédalant ce soir-là dans son sauna roulant, il sent le paradoxe le traverser. Parce que cette idée de « steady love », d'attachement profond et tranquille, il la comprend aussi. Et peut-être même qu'il la cherche, à sa manière.
 
@@ -37,6 +39,8 @@ Il en doute. Une certaine fierté, oui. La satisfaction du travail accompli, év
 Alors, que restera-t-il vraiment ? Miller prend le temps d'énumérer. Et la liste a de quoi parler à tout passionné de trail, du débutant au confirmé.
 
 Il retiendra la sensation que la course lui procurait — cette chose à poursuivre jour après jour, cette discipline silencieuse qui consiste à devenir, lentement, une meilleure version de soi-même. Il retiendra les sorties matinales lancées dans le noir, le privilège presque indécent d'assister au réveil d'une forêt, aux premiers rayons qui filtrent entre les troncs.
+
+![Image illustrative trail running](/articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-2.jpg)
 
 Il retiendra ce moment magique où l'on trouve son rythme, où la foulée devient fluide, où l'on a l'impression de pouvoir courir indéfiniment. L'excitation des singletracks inconnus, surtout lors de ses premières années, quand chaque virage promettait une découverte. La brûlure lente des montées, et cette délivrance presque sucrée quand la pente bascule enfin vers le bas.
 

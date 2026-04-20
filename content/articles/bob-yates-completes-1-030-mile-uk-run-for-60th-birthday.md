@@ -7,7 +7,7 @@ categorySlug: courses-recits
 author: "Rédaction Altitude"
 date: "7 juillet 2025"
 readTime: "6 min"
-image: "https://ultrarunningworld.co.uk/wp-content/uploads/2025/07/Bob_Yates_1-300x225.jpg"
+image: "/articles/bob-yates-1-030-miles-a-travers-le-royaume-uni-pour-feter-ses-60-ans-hero.jpg"
 tags: ["ultra-trail", "Royaume-Uni", "défi solidaire", "endurance", "JOGLE"]
 sourceUrl: "https://ultrarunningworld.co.uk/bob-yates-completes-1030-mile-uk-run-for-60th-birthday/"
 ---
@@ -19,6 +19,8 @@ Un verre de whisky tendu au bout de la route, quelques applaudissements portés 
 ## Traverser une île du bout au bout
 
 Le parcours emprunté par le Britannique, connu outre-Manche sous l'acronyme LEJOG (Land's End to John O'Groats), est une ligne imaginaire que beaucoup rêvent de tracer, et que bien peu parcourent à la seule force de leurs jambes. Bob Yates, lui, l'a suivie mètre après mètre. D'abord le long de la côte déchiquetée du sud-ouest anglais, ces falaises de Cornouailles battues par l'Atlantique qui ont déjà usé tant de marcheurs. Puis la traversée du parc national d'Exmoor, ses landes rases, ses montées sèches et ses descentes qui cisaillent les quadriceps.
+
+![Image illustrative trail running](/articles/bob-yates-1-030-miles-a-travers-le-royaume-uni-pour-feter-ses-60-ans-1.jpg)
 
 Vint ensuite le Pays de Galles, avec son relief exigeant et ses vallées encaissées, avant le retour sur les grands axes anglais par Preston, au nord-ouest. Restait alors la partie la plus longue, la plus silencieuse aussi : la remontée écossaise, la traversée des Highlands, puis l'ultime ligne droite vers la pointe nord de l'île. Cinq semaines de course, d'averses et de soleil de plomb, sur un itinéraire qui aligne à peu près tous les visages du territoire britannique.
 
@@ -33,6 +35,8 @@ Bob Yates n'a pas été épargné. Dès les premiers jours, une cheville récalc
 ## Du bureau à l'ultra : six ans de métamorphose
 
 L'histoire de Bob Yates est d'autant plus marquante qu'il n'a rien du pur produit de l'ultra. Il y a six ans, l'homme menait une vie sédentaire, rythmée par les journées au bureau. Pas de passé sportif flamboyant, pas d'étiquette d'athlète accrochée à son nom. Puis, lentement, la course s'est invitée dans son quotidien, jusqu'à devenir une discipline à part entière.
+
+![Image illustrative trail running](/articles/bob-yates-1-030-miles-a-travers-le-royaume-uni-pour-feter-ses-60-ans-2.jpg)
 
 Ces trois dernières années et demie ont été décisives : entraînements structurés, marathons enchaînés, premiers ultras pour calibrer la machine. Les six derniers mois avant le départ de Land's End ont pris des allures de préparation militaire, avec des volumes hebdomadaires conséquents et une planification minutieuse destinée à préparer le corps à encaisser un ultra par jour pendant plus d'un mois. Une trajectoire qui rappelle à quel point l'ultra-endurance reste, avant tout, une affaire de patience et de constance. On ne devient pas finisher d'un LEJOG en quelques mois ; on le devient en années de kilomètres silencieux, de sorties matinales avant le travail, de week-ends consacrés à apprendre à souffrir intelligemment.
 

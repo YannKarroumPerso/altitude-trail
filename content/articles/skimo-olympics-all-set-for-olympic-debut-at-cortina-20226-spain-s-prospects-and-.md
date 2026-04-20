@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "18 février 2026"
 readTime: "6 min"
-image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
+image: "/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-hero.jpg"
 tags: ["ski-alpinisme", "JO 2026", "Cortina", "Espagne", "compétition"]
 sourceUrl: "https://trailrunningspain.com/2026/02/18/skimo-olympics-mayayo/"
 ---
@@ -22,6 +22,8 @@ Pour la communauté trail, ce passage sous les projecteurs olympiques n'a rien d
 
 Le programme olympique a été calibré pour offrir un concentré de la discipline, sans s'étaler sur l'ensemble des épreuves du calendrier international. Trois formats seront au menu, chacun taillé pour un profil de coureur bien spécifique.
 
+![Image illustrative trail running](/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-1.jpg)
+
 Le **sprint**, d'abord, qui se disputera sur un parcours ultra-court, mêlant montée peaux aux skis, portage, transition éclair et descente technique. Moins de trois minutes d'effort total pour les meilleurs, mais une intensité proche de l'apnée, où la moindre erreur de manipulation se paie cash. C'est l'épreuve la plus télégénique, la plus explosive, et probablement celle qui parlera le plus au grand public.
 
 Le **individuel**, ensuite, qui se rapproche le plus de la philosophie trail. Plusieurs montées, plusieurs descentes, un itinéraire varié intégrant des sections à ski, à pied et en crampons, et un effort qui se joue généralement entre 1 h 20 et 1 h 40 pour les meilleurs hommes. C'est la discipline reine, celle qui sacre les puristes capables de tenir un rythme élevé dans des conditions souvent hostiles.
@@ -35,6 +37,8 @@ Impossible d'évoquer Cortina sans citer **Rémi Bonnet**. Le Suisse, ogre polyv
 Côté féminin, les forces en présence sont plus disputées. L'Autrichienne **Sarah Dreier**, auréolée elle aussi d'un récent titre continental en vertical race, s'est imposée comme une candidate sérieuse. Les Italiennes, portées par leur public et par une tradition solidement ancrée, joueront gros à domicile. Les Françaises, les Suisses et les Suédoises complèteront un plateau particulièrement dense.
 
 Dans les catégories jeunes, déjà dominées par quelques nouveaux noms — la Norvégienne **Ida Waldal** chez les U20, par exemple —, on devine l'avenir de la discipline qui se dessine. Mais à Cortina, ce sont bien les seniors qui occuperont le devant de la scène.
+
+![Image illustrative trail running](/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-2.jpg)
 
 ## Les chances espagnoles
 

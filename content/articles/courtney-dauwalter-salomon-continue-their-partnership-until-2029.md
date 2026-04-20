@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "20 décembre 2024"
 readTime: "6 min"
-image: "https://www.ultrarunnermagazine.co.uk/wp-content/uploads/2024/12/Courtney_Dauwalter_2024©AlexisBerg-4136-200x300.jpg"
+image: "/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-hero.jpg"
 tags: ["Courtney Dauwalter", "Salomon", "ultra-trail", "sponsoring", "Shortney"]
 sourceUrl: "https://www.ultrarunnermagazine.co.uk/courtney-dauwalter-salomon-continue-their-partnership-until-2029/"
 ---
@@ -22,6 +22,8 @@ Tout a commencé en 2017. À l'époque, la native du Minnesota est encore une ou
 
 « En 2017, Salomon US a parié sur moi et m'a intégrée comme ambassadrice », raconte-t-elle dans le communiqué officiel. « Ils croyaient en moi, et n'ont pas tiqué quand j'ai demandé des shorts homme. J'étais aux anges. » Quelques mois plus tard, la même année, elle alignait la Moab 240 et en sortait avec une victoire au scratch. Le ton était donné. « Qui aurait cru que ce serait le début d'une relation aussi particulière ? Un partenariat. Une équipe. Je suis tellement reconnaissante que ce que nous avons lancé il y a sept ans continue de grandir. »
 
+![Image illustrative trail running](/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-1.jpg)
+
 ## Un palmarès qui a redéfini la discipline
 
 Ancienne coureuse sur piste et fondeuse reconvertie dans l'ultra, Courtney Dauwalter a fait bien davantage que gagner des courses : elle a redessiné le périmètre du possible. Son tableau de chasse donne le vertige : Hardrock 100, Mount Fuji 100, Western States 100 — dont elle détient le record féminin du parcours —, UTMB®, Grand Raid de la Réunion, Transgrancanaria, Ultra-Trail Cape Town® ou encore Tahoe 200. Sur nombre de ces épreuves, elle a également signé des tops 10 au scratch, toutes catégories confondues.
@@ -33,6 +35,8 @@ L'année 2024 confirme sa régularité impériale : 3e au scratch à la Mount Fu
 ## Shortneys et S/LAB Genesis : l'ADN d'une collaboration
 
 Au-delà des chronos et des trophées, Courtney Dauwalter a imposé un style. En 2022, Salomon lance la collection « Shortney », un clin d'œil assumé à sa passion pour les shorts larges et flottants, à mille lieues des cuissards moulants en vogue sur les circuits. Dans la foulée, la marque dévoile des éditions limitées de la S/LAB Genesis, la chaussure de trail qu'elle privilégie pour la compétition depuis son lancement.
+
+![Image illustrative trail running](/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-2.jpg)
 
 En 2025, une nouvelle déclinaison de la collection « Shortney » verra le jour, accompagnée d'une édition limitée inédite de la S/LAB Genesis. Au-delà du marketing, l'axe créatif nourrit une véritable réflexion produit. « Courtney est une source d'inspiration constante pour nos équipes produit et marketing », souligne Scott Mellin, directeur global de la marque Salomon. « Elle a contribué à des collaborations uniques, tant sur l'apparel que sur la chaussure. »
 

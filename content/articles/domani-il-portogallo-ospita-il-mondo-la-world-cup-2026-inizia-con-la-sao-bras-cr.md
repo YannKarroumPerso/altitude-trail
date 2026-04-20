@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "18 avril 2026"
 readTime: "6 min"
-image: "https://www.corsainmontagna.it/wp-content/uploads/2026/04/Post-Atleta-Scout-Adkin_Sao-Bras-Cross-2026_1080x1350-283x354.jpg"
+image: "/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-hero.jpg"
 tags: ["course en montagne", "Coupe du monde", "WMRA", "Portugal", "São Brás Cross"]
 sourceUrl: "https://www.corsainmontagna.it/2026/04/18/domani-il-portogallo-ospita-il-mondo-la-world-cup-2026-inizia-con-la-sao-bras-cross/"
 ---
@@ -26,6 +26,8 @@ La philosophie du circuit repose sur une structure en trois catégories, chacune
 - **Classic Up & Down** (10 à 21 km) : l'équilibre entre ascensions et descentes techniques.
 - **Long Mountain** (22 à 50 km) : la course d'endurance, proche du trail pur.
 
+![Image illustrative trail running](/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-1.jpg)
+
 Chaque épreuve pèse d'un poids identique au classement général : ce sont les meilleurs résultats de la saison qui décident du vainqueur final. Les athlètes s'affrontent également au sein de leur catégorie, avec à la clé un titre spécialisé en plus du classement global. Gérée par la WMRA pour le compte de World Athletics, la Coupe du monde soutient les compétitions off-road avec un cadre strict : contrôles antidopage systématiques sur chaque course, garantie d'équité sportive. Dans ce format, aucune épreuve n'est un tour de chauffe. Chaque place compte, chaque podium vaut de l'or.
 
 ## São Brás Cross : dix-neuf ans de passion, un terrain devenu mondial
@@ -33,6 +35,8 @@ Chaque épreuve pèse d'un poids identique au classement général : ce sont les
 La São Brás Cross n'a rien d'un événement parachuté. Ancrée profondément dans la vie locale de Castro Daire, elle fête cette année sa **19ᵉ édition**, portée par une communauté de bénévoles et le soutien des institutions régionales. Son tracé respecte le format Classic Up & Down sur un terrain exigeant de la **Serra de Montemuro** : crêtes granitiques, vallées boisées, vastes landes balayées par le vent. Considérée depuis longtemps comme une classique nationale de la course en montagne portugaise, la voici propulsée sous les projecteurs du plus haut niveau international.
 
 L'intégration à la Coupe du monde envoie aussi un message : un petit village passionné, perché dans un décor montagnard spectaculaire, peut abriter un rendez-vous d'envergure planétaire. Avec **10,9 km et 628 mètres de dénivelé positif**, le parcours n'a rien d'une mise en jambes. Trois raidillons plus courts ponctuent le tracé, avant une montée majeure aux alentours du 3ᵉ kilomètre — un secteur qui pourrait déjà opérer la sélection. Mais l'ascension n'est qu'une part de l'équation. La **longue descente entre le 4ᵉ et le 6ᵉ kilomètre** risque de faire autant de dégâts, demandant aux coureurs de l'aplomb et une vélocité absolue sur terrain technique. Et pour clore l'affaire, un final en montée qui testera à la fois l'état de forme et la capacité à encaisser. Sur ce genre de profil, il n'existe aucune cachette. Pour des athlètes de ce calibre, c'est un révélateur parfait de début de saison.
+
+![Image illustrative trail running](/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-2.jpg)
 
 Notons que la Turismo Centro de Portugal, à travers son programme « Move Centro de Portugal – The Sports Region », devient le sponsor officiel de la catégorie Classic Up & Down de la Coupe du monde 2026. Un engagement qui inscrit la São Brás Cross dans une dynamique à long terme.
 

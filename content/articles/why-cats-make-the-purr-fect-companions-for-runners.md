@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "17 décembre 2024"
 readTime: "6 min"
-image: "https://cdn.trailrunnermag.com/wp-content/uploads/2024/12/Simon-4.jpg?width=1200"
+image: "/articles/le-chat-compagnon-insoupconne-du-traileur-hero.jpg"
 tags: ["lifestyle", "récupération", "trail", "bien-être"]
 sourceUrl: "https://www.trailrunnermag.com/people/culture-people/why-cats-make-the-purr-fect-companions-for-runners/"
 ---
@@ -19,6 +19,8 @@ Dimanche matin, 26 kilomètres dans les jambes. Je rentre trempée, à bout de s
 J'ai grandi entourée de chiens, persuadée qu'à l'âge adulte, j'en aurais un à mes côtés sur les sentiers. Difficile de contester leur statut de partenaires d'entraînement idéaux : infatigables, fidèles, toujours partants. Puis j'ai adopté ma première chatte, Ari. Et ma définition du compagnon parfait s'est brusquement déplacée. J'en ai aujourd'hui trois — sans doute un de trop, mais quand on aime, on collectionne les coloris — et même s'ils ne courent pas à mes côtés, je ne les échangerais contre aucun chien du monde, aussi athlétique soit-il.
 
 Précisons-le : j'aime les deux espèces. J'accueillerais volontiers un chiot un jour. Mais les chats sont des animaux injustement sous-estimés par la communauté du trail. Avant de siffler, laissez-moi plaider leur cause.
+
+![Image illustrative trail running](/articles/le-chat-compagnon-insoupconne-du-traileur-1.jpg)
 
 ## Des félins sur les sentiers
 
@@ -33,6 +35,8 @@ Vivant en pleine nature, Yosh ne pouvait laisser Simon divaguer librement — co
 « Il est toujours solidement attaché », précise-t-il. « Mais dès qu'on atteint le sommet, il insiste pour explorer — comme s'il savait qu'il a mérité la vue ! » Le duo a même bivouaqué dans la neige de l'Indian Peaks Wilderness. « Le froid ne l'a pas impressionné. Il s'est pelotonné dans son équipement et a savouré chaque seconde. »
 
 Sully, l'autre vedette du genre, a fait parler de lui grâce aux vidéos de sa propriétaire Katie Chen, qui le filme trottant sur les sentiers à une cadence bluffante. Chen nuance pourtant : Sully est un sprinter, pas un ultra-traileur. « Chaque matin, on part pour 20 à 30 minutes de marche en laisse. Je bois mon café, il explore, fixe les oiseaux, grignote de l'herbe, se met parfois dans un accès de folie. C'est apaisant, un beau rituel pour commencer la journée dans la nature. »
+
+![Image illustrative trail running](/articles/le-chat-compagnon-insoupconne-du-traileur-2.jpg)
 
 ## Comment embarquer son chat dehors
 

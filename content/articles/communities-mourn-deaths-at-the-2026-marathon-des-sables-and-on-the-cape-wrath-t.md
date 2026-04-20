@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "16 avril 2026"
 readTime: "6 min"
-image: "https://s3.amazonaws.com/www.irunfar.com/wp-content/uploads/2026/04/05144639/2026-Marathon-des-Sables-stage-1-start-560x373.jpg"
+image: "/articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e-hero.jpg"
 tags: ["Marathon des Sables", "Cape Wrath Trail", "FKT", "Écosse", "hommage"]
 sourceUrl: "https://www.irunfar.com/deaths-2026-gregory-marathon-des-sables-legendary-david-parrish-cape-wrath-trail"
 ---
@@ -20,6 +20,8 @@ En l'espace de quelques jours, la communauté internationale du trail a été fr
 
 Le Marathon des Sables Legendary n'est pas une course comme les autres. Six étapes à traverser le Sahara, sac au dos, avec l'obligation pour chaque concurrent de transporter la totalité de sa nourriture et de son matériel pour toute la semaine. L'organisation, elle, se charge de l'eau et des bivouacs collectifs dressés chaque soir sous les étoiles. Avant même de pouvoir prendre le départ, les coureurs passent par une vérification médicale stricte, gage minimal dans une épreuve où la chaleur, la déshydratation et l'isolement pèsent sur chaque décision.
 
+![Image illustrative trail running](/articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e-1.jpg)
+
 C'est dans ce cadre exigeant que Grégory, dont seul le prénom a été communiqué par respect pour sa famille, a été victime d'un malaise aux alentours de 4 heures du matin, juste avant le départ de la quatrième étape. Selon le communiqué diffusé par l'organisation, le coureur a immédiatement bénéficié d'une prise en charge médicale sur place, avant d'être évacué en urgence vers l'hôpital d'Errachidia, ville voisine du parcours. Malgré les efforts des équipes soignantes, il est décédé quelques jours plus tard.
 
 Dans un message empreint de gravité, l'organisation du Marathon des Sables a salué la mémoire du coureur : « Cet événement a profondément touché toute la communauté du Marathon des Sables, ainsi que tous ceux qui ont partagé cette aventure à ses côtés. » L'équipe a également appelé au respect de l'intimité des proches, dans un moment où le deuil se mêle à l'émotion collective d'un bivouac soudé par sept jours d'effort commun.
@@ -31,6 +33,8 @@ Ce drame rappelle, s'il le fallait, la part irréductible d'incertitude qui acco
 À plus de 3 000 kilomètres de là, dans une géographie radicalement différente, c'est un autre visage du trail qui s'est éteint. David Parrish, 35 ans, ancien Royal Marine britannique, tentait d'établir un FKT en autonomie totale sur le Cape Wrath Trail, l'un des itinéraires les plus sauvages du Royaume-Uni : 386 kilomètres à travers les Highlands écossaises, de Fort William, au sud, jusqu'au phare isolé de Cape Wrath, à l'extrême nord-ouest du pays.
 
 David a été retrouvé sans vie à Kintail, région reculée et montagneuse située à une cinquantaine de kilomètres au nord-est de Fort William. Porté disparu dans la journée du samedi, il a été localisé dans la soirée grâce aux recherches coordonnées par les bénévoles du Kintail Mountain Rescue Team, membre de la structure nationale Scottish Mountain Rescue.
+
+![Image illustrative trail running](/articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e-2.jpg)
 
 Le choix de cet FKT n'avait rien d'anodin. David courait pour lever des fonds au profit précisément de Scottish Mountain Rescue, en hommage à son ami et camarade de régiment Luke Ireland, lui-même décédé d'hypothermie en 2014 lors d'une sortie en montagne. Sur sa page de collecte, l'ancien Marine rendait un vibrant hommage aux secouristes bénévoles, soulignant le rôle essentiel qu'ils jouent dans la communauté montagnarde écossaise. Au moment où nous écrivons ces lignes, la cagnotte, toujours ouverte, a dépassé les 23 000 livres sterling. Chaque don est désormais doublé d'une signification nouvelle.
 

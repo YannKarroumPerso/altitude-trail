@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "20 avril 2026"
 readTime: "6 min"
-image: "https://s3.amazonaws.com/www.irunfar.com/wp-content/uploads/2015/01/16142916/This-Week-in-Running-Justin-Mock-TWIR-e1632701750447.jpg"
+image: "/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-hero.jpg"
 tags: ["compétition", "ultra-trail", "coupe du monde", "résultats", "international"]
 sourceUrl: "https://www.irunfar.com/this-week-in-running-april-20-2026"
 ---
@@ -21,6 +21,8 @@ Week-end contrasté pour la planète trail. Entre les grands rendez-vous ibériq
 Dans la province de Castellón, le CSP — format phare du Penyagolosa avec 106 kilomètres et 5 600 mètres de dénivelé positif — a tenu ses promesses côté suspense. Chez les hommes, le Roumain Raul Butaci a devancé l'Espagnol Julen Calvó d'à peine 42 secondes, tous deux bouclant la course en 10 h 41. Un duel au couteau pour 3 000 euros de prime, à quelques minutes seulement du record de l'épreuve détenu par Ben Dhiman (10 h 35 en 2023). L'Équatorien Joaquin Lopez a complété le podium en 10 h 46.
 
 Côté féminin, l'histoire a pris une tournure radicalement différente : Gemma Arenas a imposé son tempo sans partage. L'Espagnole l'a emporté en 13 h 43, reléguant la Britannique Emily Dixon (14 h 07) et sa compatriote Yasmina Castro Chacón (14 h 39) à distance respectable.
+
+![Image illustrative trail running](/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-1.jpg)
 
 Sur le format MiM (60 km), scénario similaire chez les hommes avec un nouveau sprint final à l'échelle d'un ultra : José Fernández s'est imposé en 5 h 15, deux minutes devant l'Américain Dakota Jones (5 h 17), tandis que Mario Olmedo complétait la razzia ibérique en 5 h 23. Chez les femmes, la Norvégienne Sara-Rebekka Færø Linde a fait cavalier seul en 6 h 23, avec Inés Astrain et Anna Comet — dix secondes d'écart seulement — à 6 h 36.
 
@@ -37,6 +39,8 @@ La course féminine a basculé dans la seconde moitié. La tenante du titre de l
 Sur la côte pacifique mexicaine, les courses de l'étape Puerto Vallarta Mexico by UTMB empruntent leurs noms à la langue indigène locale : Hikuri (peyotl), Nakawé (mère de l'eau), Haramara (déesse de l'océan). Et le pays hôte a soigné sa mainmise.
 
 Sur le Hikuri, long format de 81 kilomètres, Juan Belman Ortiz s'impose chez les hommes en 8 h 45 ; la Canadienne Mandie Currie sauve l'honneur étranger en 12 h 01. Sur le Nakawé (53 km), doublé mexicain avec Miguel Pérez (5 h 21) et Josefina Perez (6 h 35). Même scénario sur l'Haramara (37 km) où Abraham Hernández (3 h 18) et Nayeli De La Torre (4 h 36) concluent la razzia.
+
+![Image illustrative trail running](/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-2.jpg)
 
 ## Autour du globe : un week-end dense, malgré tout
 

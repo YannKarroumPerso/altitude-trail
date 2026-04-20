@@ -7,7 +7,7 @@ categorySlug: courses-recits
 author: "Rédaction Altitude"
 date: "20 avril 2026"
 readTime: "5 min"
-image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
+image: "/articles/les-heures-barbares-quand-le-trail-s-invite-sur-un-circuit-de-moto-cross-hero.jpg"
 tags: ["Heures barbares", "course originale", "format relais", "trail insolite"]
 sourceUrl: "https://www2.u-trail.com/le-principe-de-cette-course-etait-original/"
 ---
@@ -22,6 +22,8 @@ Le trail, dans son imaginaire le plus répandu, c'est d'abord une forme d'évasi
 
 Alors, quand une organisation décide de prendre ce modèle et de le retourner comme un gant, il y a forcément matière à débat. Les Heures barbares ne s'inscrivent pas dans la tradition des grandes épreuves montagnardes ni dans celle, plus modeste, des courses nature locales. Le concept est ailleurs : transformer un circuit pensé pour les motos tout-terrain en un terrain de jeu pour coureurs. Un choix qui peut sembler anecdotique sur le papier, mais qui change radicalement l'expérience proposée.
 
+![Image illustrative trail running](/articles/les-heures-barbares-quand-le-trail-s-invite-sur-un-circuit-de-moto-cross-1.jpg)
+
 ## Le circuit de moto-cross comme terrain de jeu
 
 Imaginez le décor. Un anneau fermé, visible du début à la fin, sans mystère géographique ni bifurcation incertaine. Des montées sèches, courtes mais raides, taillées pour le décollage des deux-roues motorisées. Des descentes rapides, techniques, où la terre meuble aspire les appuis. Des bosses, des virages relevés, parfois de véritables obstacles qu'il faut négocier à l'instinct. Le tout sur une distance compacte, que l'on répète en boucle.
@@ -33,6 +35,8 @@ Et puis, il y a la dimension visuelle. Sur un tel circuit, tout se voit. Les cou
 ## Le relais, arme secrète de l'intensité
 
 L'autre ingrédient majeur du format, c'est le relais. Les Heures barbares misent sur une mécanique d'équipe, où les coureurs se passent le témoin au fil des heures. Là encore, on s'éloigne du trail tel qu'on le pratique habituellement — sport profondément individuel, où l'on s'affronte autant qu'on affronte soi-même.
+
+![Image illustrative trail running](/articles/les-heures-barbares-quand-le-trail-s-invite-sur-un-circuit-de-moto-cross-2.jpg)
 
 Le relais introduit une dynamique radicalement différente. On ne court plus pour durer, on court pour donner. Chaque boucle se fait au taquet, sachant qu'un coéquipier attend dans la zone de transition. L'économie de course, cette science patiente du dosage qui structure tant l'ultra, passe au second plan. Place à l'engagement total, à la gestion courte, à l'explosivité.
 

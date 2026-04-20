@@ -7,7 +7,7 @@ categorySlug: courses-recits
 author: "Rédaction Altitude"
 date: "25 juin 2025"
 readTime: "7 min"
-image: "https://ultrarunningworld.co.uk/wp-content/uploads/2025/06/Sparkie-Whippet-2025-1024x768.jpg"
+image: "/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu-hero.jpg"
 tags: ["ultra-trail", "Royaume-Uni", "Spine Race", "West Highland Way", "backyard ultra"]
 sourceUrl: "https://ultrarunningworld.co.uk/weekend-race-results-23-6-25/"
 ---
@@ -22,6 +22,8 @@ L'événement qui a dominé le week-end s'est achevé le 21 juin avec l'arrivée
 
 Cette année, c'est une femme qui signe la performance la plus marquante. **Anna Troup** boucle l'intégralité du tracé en **84h56'37"**, décrochant non seulement la victoire féminine mais aussi la victoire scratch toutes catégories confondues. Une démonstration de régularité et de lucidité sur un terrain où la météo, les tourbières et la privation de sommeil brisent régulièrement les favoris. Chez les hommes, **Shane Morgan** s'impose en **91h45'56"**.
 
+![Image illustrative trail running](/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu-1.jpg)
+
 Sur les formats plus courts, les Challengers et Sprints ont également livré leur lot de belles histoires. **James Hargreaves** remporte le Challenger North (160 miles) en 42h17'44", tandis qu'**Allie Bailey** s'impose côté femmes en 53h11'07". Le Challenger South voit **Chris Andrade** triompher en 28h33'12" et **Eleanor Walker** en 31h44'55". Mention spéciale pour le Sprint South : **Chris Cope** (6h36'41") et **Victoria Thompson** (7h49'44") y signent tous deux de nouveaux records du parcours.
 
 ## West Highland Way : Gus Irvine maître des Highlands
@@ -35,6 +37,8 @@ Direction l'Écosse pour la 39ᵉ édition de la **West Highland Way Race**, 92 
 Sur la côte du Dorset, classée au patrimoine mondial, la **Jurassic Extinction** a envoyé ses concurrents sur 105 miles, de Poole à Exmouth. **Justin Montague** s'y impose en **22h30**, avec plus de trois heures d'avance sur Colin Clarke. Performance remarquable chez les femmes : **Michelle Claydon** termine 5ᵉ au scratch en 27h41'57", devant Joanna Morrissey (33h39'07") et Melissa Montague (35h28'21").
 
 Plus à l'est, la **Race to the King** déroulait ses deux boucles de 50 km autour de West Dean Gardens, à Chichester : une section côtière autour de Chichester Harbour, puis un parcours plus vallonné sur les South Downs. **Sergio Torija**, seulement 61ᵉ au kilomètre 27, a remonté tout le peloton pour s'imposer en **9h45'50"**, 25 minutes devant Robert Burbridge. Côté féminin, **Linda Goodchild** a mené de bout en bout pour conclure en 10h43'50". Sur 269 partants, 233 ont rallié l'arrivée.
+
+![Image illustrative trail running](/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu-2.jpg)
 
 ## Le Pays de Galles s'illumine : records et débuts réussis
 

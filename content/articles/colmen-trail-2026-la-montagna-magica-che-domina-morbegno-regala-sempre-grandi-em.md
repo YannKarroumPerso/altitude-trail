@@ -7,7 +7,7 @@ categorySlug: courses-recits
 author: "Rédaction Altitude"
 date: "19 avril 2026"
 readTime: "5 min"
-image: "https://www.corsainmontagna.it/wp-content/uploads/2026/04/OBY9122-1024x683.jpg"
+image: "/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno-hero.jpg"
 tags: ["Colmen Trail", "Morbegno", "course en montagne", "Italie", "Alice Gaggi"]
 sourceUrl: "https://www.corsainmontagna.it/2026/04/19/colmen-trail-2026-la-montagna-magica-che-domina-morbegno-regala-sempre-grandi-emozioni/"
 ---
@@ -22,6 +22,8 @@ Elle domine la ville comme une sentinelle verte, grignotant le ciel au-dessus de
 
 Cette année, quelques ajustements logistiques s'étaient imposés. Les travaux en cours à la Colonia Fluviale ont contraint l'organisation à déplacer le départ et l'arrivée vers le Polo Fieristico, qui a également accueilli les récompenses et le repas convivial de clôture. Sous le patronage de la commune de Morbegno et porté par un solide réseau de partenaires locaux, l'événement a prouvé sa résilience et sa capacité à s'adapter sans rien perdre de son âme.
 
+![Image illustrative trail running](/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno-1.jpg)
+
 ## CT22 : Lorenzo Rota Martir impose son tempo
 
 Sur le format long, véritable vitrine de l'épreuve avec ses 22 kilomètres et ses 1 320 mètres de dénivelé positif, les pronostics désignaient un favori : Lorenzo Rota Martir, porte-drapeau de l'US Malonno – Team La Sportiva. Le coureur n'a pas laissé durer le suspense. Dès les premiers hectomètres, il a imposé son rythme, creusant progressivement un écart impossible à combler.
@@ -33,6 +35,8 @@ Sur la ligne d'arrivée de Morbegno, c'est donc Lorenzo Rota Martir qui l'emport
 ## Alice Gaggi, la reine chez elle
 
 Chez les féminines, l'enfant du pays était annoncée comme l'archi-favorite. Alice Gaggi, sous les couleurs du Recastello – Brooks, n'a pas failli. La spécialiste lombarde a immédiatement imposé un tempo prohibitif dès la première ascension, celle des Torchi Bianchi, passant en tête au sommet de la Colmen et verrouillant définitivement la course dans les premiers kilomètres.
+
+![Image illustrative trail running](/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno-2.jpg)
 
 Sa cavalcade solitaire s'est achevée en 2h15'46", un temps qui témoigne de sa maîtrise totale du parcours. Derrière elle, sa coéquipière Sveva Della Pedrina (Recastello) a signé une belle deuxième place en 2h27'07", devançant Sara Pini (CSI Tirano) qui boucle le podium en 2h30'17". Arianna Oregioni (GP Santi) et Lara Pizzati (Castelraider) s'octroient les places restantes du top 5.
 

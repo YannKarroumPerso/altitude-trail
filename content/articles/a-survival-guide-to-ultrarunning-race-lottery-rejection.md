@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "13 décembre 2024"
 readTime: "6 min"
-image: "https://cdn.trailrunnermag.com/wp-content/uploads/2024/12/1-2.png?width=1200"
+image: "/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu-hero.jpg"
 tags: ["ultra-trail", "UTMB", "Western States", "Hardrock", "motivation"]
 sourceUrl: "https://www.trailrunnermag.com/races/ultrarunning-race-lottery-season-survival-guide/"
 ---
@@ -22,6 +22,8 @@ Le week-end dernier, les tirages au sort de la Western States 100 et de la Hardr
 
 Les chiffres donnent le vertige. La Western States a reçu cette année 9 993 candidatures pour 260 places. Grâce au système de loterie pondérée, un postulant inscrit pour la première fois avait 0,4 % de chances d'être retenu. À titre de comparaison, cela vous situe quelque part entre le risque de mourir piqué par des abeilles (0,0016 %) et celui d'être admis à Harvard (3 %).
 
+![Image illustrative trail running](/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu-1.jpg)
+
 Il y a dix ans à peine, la course ne comptabilisait que 2 704 candidatures. Autrement dit, vos chances sont aujourd'hui trois fois moindres qu'en 2014. Et n'évoquons même pas l'an 2000, année de création de la loterie, quand 583 hurluberlus avaient osé s'inscrire. Pendant que vous ravalez vos larmes — votre course de rêve, votre objectif ultime, votre raison de vivre, qui vous file encore entre les doigts — des connaissances s'auto-congratulent sur Strava et Instagram : « Mon rêve depuis cinq ans, Hardrock, je le cours cette année trois semaines après la Western et six avant l'UTMB ! » Cinq ans ? Vous, ça fait cinq décennies. Vous cliquez sur « ne plus suivre ». Ou pire, vous lâchez un commentaire faussement bienveillant : « Bravo, tu es vraiment courageux ! »
 
 Avant de sombrer dans les stouts artisanales ou de faire quelque chose d'inavouable comme vous inscrire à un Hyrox juste pour vous inscrire à quelque chose, voici quelques pistes pour s'en sortir la tête haute.
@@ -35,6 +37,8 @@ Et puis, c'est inutilement extrême. On ne court pas 160 kilomètres pour être 
 Sauf que l'ultra, ce n'est justement pas fun. Combien de fois avez-vous vomi tripes et boyaux, franchi la ligne en clopinant, dormi sur un sentier ? Voilà. Mais c'est peut-être précisément ce qui rend la chose addictive. Ce « type II fun », voire « type III », c'est votre langue maternelle. Là où d'autres voient dans les canyons surchauffés de la Western States un aller simple aux urgences, vous y voyez l'occasion de prouver votre trempe. Là où certains considèrent l'UTMB comme le Disneyland surpeuplé du trail, vous y voyez les vacances européennes les plus instagrammables de votre vie.
 
 Alors si l'idée d'effacer « ultra-traileur » de votre bio Instagram vous liquéfie, lisez la suite.
+
+![Image illustrative trail running](/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu-2.jpg)
 
 ## Option 2 : se trouver un plan B (ou trois)
 

@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "19 juin 2025"
 readTime: "5 min"
-image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
+image: "/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-hero.jpg"
 tags: ["ultra-trail", "West Highland Way", "Royaume-Uni", "calendrier courses", "backyard ultra"]
 sourceUrl: "https://ultrarunningworld.co.uk/this-weekend-june-20th-2025/"
 ---
@@ -19,6 +19,8 @@ Le solstice d'été est, dans l'imaginaire ultra, un rendez-vous à part. Les nu
 ## L'Écosse en majesté : la West Highland Way Race fête ses 39 ans
 
 Impossible de parler de ce week-end sans commencer par elle. Samedi 21 juin, à 1h du matin, les concurrents de la **39e West Highland Way Race** s'élancent de Milngavie, banlieue nord de Glasgow, pour rallier Fort William. Au programme : 153 kilomètres le long du plus célèbre sentier de grande randonnée d'Écosse, avec en ligne de mire Loch Lomond, le plateau désolé du Rannoch Moor et, en apothéose, le Devil's Staircase, cette montée diabolique qui brise les jambes avant le dernier plongeon sur Kinlochleven et Fort William.
+
+![Image illustrative trail running](/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-1.jpg)
 
 L'épreuve, créée en 1985, reste l'une des plus anciennes courses de cent milles au monde. Son folklore, ses pacers autorisés sur la seconde moitié, ses équipes d'assistance dévouées qui enchaînent les points de ravitaillement routiers, en font un objet à part dans le paysage européen. Les meilleurs bouclent la distance en une vingtaine d'heures ; les derniers finishers franchissent l'arche de Fort William au bout de 35 heures d'effort, souvent sous les applaudissements d'une foule restée fidèle jusqu'au bout.
 
@@ -35,6 +37,8 @@ Enfin, le **14 Peaks Ultra** à Abergwyngregyn propose 33 milles (53 km) techniq
 ## L'Angleterre du Sud : la côte jurassique en vedette
 
 Le sud de l'Angleterre n'est pas en reste, bien au contraire. La **Jurassic Coast**, classée au patrimoine mondial pour ses falaises fossilifères, accueille ce week-end deux épreuves quasi jumelles mais distinctes : la **Jurassic Extinction 105m Ultra** au départ de Weymouth/Poole, et la **Jurassic Coast 100m Ultra** au départ de Poole. Même terrain de jeu, entre galets, falaises crayeuses et escaliers interminables, mais deux formats pour 105 et 100 milles respectivement. Le dimanche, la **Jurassic Coast 50km Ultra** au départ de Lyme Regis offre, en plus de son format court, des déclinaisons 33, 50, 70 et 100 km.
+
+![Image illustrative trail running](/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-2.jpg)
 
 Autre institution du sud : la **Race to the King**, qui reliera Goodwood à Winchester via les South Downs sur 49, 52 ou 100 km selon les options choisies. Avec ses milliers de participants, l'épreuve est l'une des plus massives du calendrier britannique.
 

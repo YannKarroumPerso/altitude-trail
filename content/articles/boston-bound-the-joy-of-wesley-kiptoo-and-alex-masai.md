@@ -7,7 +7,7 @@ categorySlug: courses-recits
 author: "Rédaction Altitude"
 date: "17 avril 2026"
 readTime: "7 min"
-image: "https://s3.amazonaws.com/www.irunfar.com/wp-content/uploads/2026/04/15125631/Alex-Masai-Wesley-Kiptoo-post-workout-560x373.jpg"
+image: "/articles/wesley-kiptoo-et-alex-masai-deux-kenyans-un-reve-de-boston-hero.jpg"
 tags: ["marathon", "Boston", "Kenya", "HOKA NAZ Elite", "entraînement"]
 sourceUrl: "https://www.irunfar.com/boston-bound-the-joy-of-wesley-kiptoo-and-alex-masai"
 ---
@@ -22,6 +22,8 @@ HOKA sponsorise l'équipe NAZ Elite depuis 2015, un an après sa création. Bas�
 
 En ce matin de fin mars, ciel gris et vent coupant, on peine pourtant à croire que Masai et Kiptoo se préparent à l'une des plus belles lignes d'arrivée du marathon mondial. Garé au Mile 0 de Lake Mary Road, Masai a ouvert les portières de sa discrète voiture noire, basses à fond. Kiptoo rebondit, sourit sans discontinuer, version humaine de Tigrou. Les deux hommes passent sans transition de l'anglais au kiswahili et à leurs dialectes respectifs, pendant qu'ils chauffent leurs muscles au pistolet de massage. Masai porte un collier de perles orné d'un pendentif en forme d'Afrique ; Kiptoo, impossible à manquer dans son long-sleeve orange.
 
+![Image illustrative trail running](/articles/wesley-kiptoo-et-alex-masai-deux-kenyans-un-reve-de-boston-1.jpg)
+
 Leurs coéquipiers Adrian Wildschutt, Sud-Africain et 10ᵉ du 10 000 m aux Jeux de Paris 2024, et l'Américaine Paige Wood, championne nationale du marathon en 2022, sont là aussi. Au milieu de ce joyeux désordre, le coach Jack Mullaney observe, calme et posé, avant de lancer la troupe sur un échauffement en forêt. On les entend discuter longtemps après les avoir perdus de vue.
 
 ## Deux tempéraments, un même niveau
@@ -35,6 +37,8 @@ Mullaney dirige l'entraînement de Masai et Kiptoo depuis l'automne 2023. Il con
 De retour de l'échauffement, tout le monde change de chaussures. Kiptoo enfile la HOKA Cielo X1 2.0, Wildschutt la Rocket X 3, Masai la toute nouvelle Cielo X1 3.0. Étirements, lignes droites, discussions sur la pertinence du modèle pour Boston. Selon Mullaney, la mousse PEBA de la Cielo X1 3.0 offre une absorption idéale pour les fameuses Newton Hills, entre les miles 16 et 21. « Réussir Boston, c'est conserver ses jambes sur ces côtes et finir fort. » La chaussure à plaque carbone, allégée par rapport à la précédente, a convaincu les deux Kényans par sa réactivité sans compromis sur l'amorti.
 
 La séance du jour : un fartlek de 25 répétitions d'une minute rapide / une minute lente, sur la portion vallonnée de Lake Mary Road. Un exercice à l'effort, pas au chrono, mais Mullaney garde ses stopwatches en main. Dès que le panneau du mile de départ apparaît, la rigolade se dissipe. Masai, Kiptoo et Wildschutt s'alignent, foulées synchrones ; Wood démarre sa propre séance juste derrière.
+
+![Image illustrative trail running](/articles/wesley-kiptoo-et-alex-masai-deux-kenyans-un-reve-de-boston-2.jpg)
 
 Les treize premières minutes rapides se courent vent dans le dos, en direction sud. Les allures oscillent entre 4:13 et 4:56 au mile selon le relief et les rafales. À mi-séance, à 4,5 miles du départ, demi-tour face au vent : ils alternent les relais. Mullaney les retrouve à chaque mile avec eau et encouragements. Sur la dernière accélération, Kiptoo et Wildschutt haussent brusquement le ton et creusent un léger écart sur Masai. « Classique, sourit le coach. Je dois faire attention quand je mets ces deux-là ensemble, ils finissent toujours par se tirer la bourre. » Et tout aussi classiquement, Masai les laisse filer.
 

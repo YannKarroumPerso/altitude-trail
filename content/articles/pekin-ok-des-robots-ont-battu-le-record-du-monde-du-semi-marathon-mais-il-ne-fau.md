@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "20 avril 2026"
 readTime: "6 min"
-image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
+image: "/articles/quand-un-robot-humanoide-bat-le-record-du-semi-marathon-le-vrai-du-faux-d-une-pr-hero.jpg"
 tags: ["technologie", "semi-marathon", "Chine", "innovation", "running"]
 sourceUrl: "https://www2.u-trail.com/pekin-ok-des-robots-ont-battu-le-record-du-monde-du-semi-marathon-mais-il-ne-faut-pas-en-faire-un-drame/"
 ---
@@ -22,6 +22,8 @@ On le sait, la Chine investit massivement dans la robotique humanoïde, un secte
 
 Sauf que la course en question n'avait rien d'un duel frontal entre l'homme et la machine. Les robots – plusieurs modèles étaient engagés, issus de différents constructeurs – disposaient de leur propre couloir, séparé du peloton humain. Ils pouvaient bénéficier d'une assistance technique en cours de route, avec remplacement de batteries, interventions mécaniques, voire relais par un autre exemplaire identique en cas de défaillance. Autant dire qu'on est très loin des règles qui régissent un record du monde homologué par World Athletics.
 
+![Image illustrative trail running](/articles/quand-un-robot-humanoide-bat-le-record-du-semi-marathon-le-vrai-du-faux-d-une-pr-1.jpg)
+
 ## 21,1 km en un peu plus de 50 minutes : et alors ?
 
 Le chrono annoncé, supérieur à celui de l'humain le plus rapide sur la distance, a évidemment fait tiquer. Rappelons que le record du monde masculin du semi-marathon, détenu par l'Ougandais Jacob Kiplimo, tutoie désormais les 56 minutes. Un robot qui ferait mieux ? Sur le principe, cela ressemble à un coup de tonnerre. Dans la réalité, c'est plus flou.
@@ -33,6 +35,8 @@ D'abord, les conditions de course n'ont rien de comparable. Le parcours, les ass
 Cela ne veut pas dire que l'événement soit anecdotique. Loin de là. Voir un humanoïde tenir debout, marcher et courir pendant près d'une heure, sur un revêtement urbain, en gérant virages, montées, changements de rythme et foule environnante, reste une sacrée prouesse d'ingénierie. Il y a seulement quelques années, les mêmes machines peinaient à franchir une porte ou à monter un escalier sans trébucher.
 
 La vraie information est donc technologique, pas sportive. Les progrès concernent l'autonomie énergétique, la robustesse des articulations, la précision des capteurs, la stabilité en mouvement continu. Pour les constructeurs, un semi-marathon urbain est un banc d'essai grandeur nature, bien plus probant qu'une démo en laboratoire. C'est aussi une vitrine marketing imbattable, comme peuvent l'être les courses de Formule 1 pour l'industrie automobile : un show où l'on fait tourner la mécanique à la limite pour en tirer, plus tard, des applications quotidiennes.
+
+![Image illustrative trail running](/articles/quand-un-robot-humanoide-bat-le-record-du-semi-marathon-le-vrai-du-faux-d-une-pr-2.jpg)
 
 ## Les trailers et les coureurs peuvent dormir tranquilles
 
