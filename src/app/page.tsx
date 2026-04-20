@@ -35,8 +35,8 @@ export default function Home() {
     <div className="bg-surface">
       <div className="max-w-[1440px] mx-auto px-4 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
 
-        {/* Left Sidebar — desktop col 1-3 ; on mobile pushed last */}
-        <aside className="lg:col-span-3 space-y-6 order-3 lg:order-none">
+        {/* Left Sidebar — desktop col 1-3 ; hidden sur mobile pour feed pleine largeur */}
+        <aside className="lg:col-span-3 space-y-6 order-3 lg:order-none hidden lg:block">
           <div className="bg-navy text-white py-2 px-4 font-headline font-bold uppercase text-sm inline-block">
             LES PLUS CONSULTÉS
           </div>
@@ -69,8 +69,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Right Rail (AGENDA + À LA UNE) — desktop col 10-12 ; on mobile rendered second, before the most-read list */}
-        <aside className="lg:col-span-3 space-y-8 order-2 lg:order-none">
+        {/* Right Rail (AGENDA + À LA UNE) — desktop col 10-12 ; hidden sur mobile */}
+        <aside className="lg:col-span-3 space-y-8 order-2 lg:order-none hidden lg:block">
           <div className="bg-navy text-white p-6 flex flex-col items-center justify-center text-center space-y-4">
             <span className="text-[10px] text-slate-400 font-bold tracking-widest uppercase">AGENDA</span>
             <div className="space-y-2">
@@ -104,13 +104,9 @@ export default function Home() {
       {/* Courses & Récits */}
       <section className="max-w-[1440px] mx-auto px-4 lg:px-8 pb-12">
         <div className="newspaper-divider"><span>COURSES &amp; RÉCITS</span></div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-0 md:gap-y-8 mt-12">
           {coursesRecits.map((article) => (
-            <Link key={article.slug} href={"/articles/" + article.slug} className="space-y-4 group cursor-pointer block">
-              <Image src={article.image} alt={article.title} width={400} height={300}
-                className="w-full aspect-[4/3] object-cover lg:grayscale lg:group-hover:grayscale-0 transition-all duration-300" />
-              <h3 className="font-headline font-bold text-lg leading-tight group-hover:underline">{article.title}</h3>
-            </Link>
+            <ArticleCard key={article.slug} article={article} variant="default" />
           ))}
         </div>
       </section>
@@ -121,18 +117,22 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-12">
           <div className="col-span-1 lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
             {scienceArticles.map((article) => (
-              <Link key={article.slug} href={"/articles/" + article.slug} className="flex gap-4 group">
+              <Link
+                key={article.slug}
+                href={"/articles/" + article.slug}
+                className="group flex flex-col md:flex-row gap-3 md:gap-4 pb-6 border-b border-surface-container md:pb-0 md:border-b-0"
+              >
                 <Image
                   src={article.image}
                   alt={article.title}
-                  width={96}
-                  height={96}
-                  sizes="96px"
-                  className="shrink-0 w-24 h-24 object-cover lg:grayscale lg:group-hover:grayscale-0 transition-all duration-300"
+                  width={800}
+                  height={450}
+                  sizes="(max-width: 768px) 100vw, 96px"
+                  className="w-full aspect-video md:w-24 md:h-24 md:aspect-auto md:shrink-0 object-cover lg:grayscale lg:group-hover:grayscale-0 transition-all duration-300"
                 />
                 <div className="space-y-2">
-                  <h4 className="font-headline font-bold text-xl group-hover:text-primary transition-colors">{article.title}</h4>
-                  <p className="text-sm text-slate-600 line-clamp-2">{article.excerpt}</p>
+                  <h4 className="font-headline font-black md:font-bold text-2xl md:text-xl leading-tight group-hover:text-primary transition-colors">{article.title}</h4>
+                  <p className="text-base md:text-sm text-slate-600 leading-relaxed line-clamp-3 md:line-clamp-2">{article.excerpt}</p>
                 </div>
               </Link>
             ))}

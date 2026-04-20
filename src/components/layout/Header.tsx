@@ -10,8 +10,8 @@ export default function Header() {
     <header className="sticky top-0 z-50">
       {/* Top Navy Bar */}
       <div className="bg-navy flex justify-between items-center w-full px-6 py-3 border-b border-white/10 relative">
-        <div className="flex gap-4 items-center">
-          <a href="#" className="text-slate-300 hover:text-white transition-colors text-sm">RSS</a>
+        <div className="flex gap-4 items-center hidden md:flex">
+          <a href="/sitemap.xml" className="text-slate-300 hover:text-white transition-colors text-sm">RSS</a>
         </div>
         <div className="absolute left-1/2 -translate-x-1/2">
           <Link href="/">
@@ -28,8 +28,10 @@ export default function Header() {
             CONTACT
           </Link>
           <button
-            className="md:hidden text-white"
+            className="md:hidden text-white p-2 -mr-2"
             onClick={() => setMenuOpen(!menuOpen)}
+            aria-label={menuOpen ? "Fermer le menu" : "Ouvrir le menu"}
+            aria-expanded={menuOpen}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {menuOpen ? (
