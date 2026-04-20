@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "veille": "node scripts/veille.mjs",
-    "publish": "node scripts/publish.mjs"
+    "veille": "node --env-file-if-exists=.env.local scripts/veille.mjs",
+    "publish": "node --env-file-if-exists=.env.local scripts/publish.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0",

@@ -29,15 +29,19 @@ const MAX_PER_SOURCE = parseInt(process.env.MAX_ARTICLES_PER_SOURCE || "2", 10);
 const MIN_SOURCE_LENGTH = 400;
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80";
 
-const TRAIL_KEYWORDS = [
-  "trail", "ultra", "ultramarathon", "ultra-marathon", "ultra-trail",
-  "skyrunning", "sky race", "fell running", "mountain running",
-  "utmb", "ccc", "otc", "ttl", "ttc", "tds",
-  "fkt", "kilometer vertical", "km vertical", "vertical kilometer",
-  "sentier", "montagne", "montagna", "montaña", "mountain",
-  "randonnée course", "course à pied nature", "course en montagne",
-  "dénivelé", "dénivelée", "d+",
+const TRAIL_KEYWORD_GROUPS = [
+  ["trail", "trailrunning", "trail running", "ultra-trail", "ultratrail", "trail-running"],
+  ["ultramarathon", "ultra-marathon", "ultrarunning", "ultra distance"],
+  ["skyrunning", "skyrunner", "sky race", "skyrace", "fell running", "fell-running", "mountain running"],
+  ["utmb", "ccc", "tds", "otc", "diagonale des fous", "hardrock", "western states", "templiers", "maxi-race"],
+  ["fkt", "fastest known time"],
+  ["sentier", "mountain trail", "singletrack", "off-road running"],
+  ["montagne", "montagna", "montaña", "course en montagne", "corsa in montagna"],
+  ["randonnée course", "course à pied nature"],
+  ["dénivelé", "dénivelée", "d+", "elevation gain", "vertical gain"],
+  ["km vertical", "kilometer vertical", "vertical kilometer", "vertical km", "kv race"],
 ];
+const MIN_KEYWORD_GROUPS = 2;
 
 const CATEGORY_SLUGS = new Set([
   "actualites", "debuter", "courses-recits", "nutrition", "entrainement", "blessures",
@@ -86,7 +90,14 @@ function stripHtml(html) {
 
 function isTrailArticle(title, text) {
   const haystack = `${title} ${text}`.toLowerCase();
-  return TRAIL_KEYWORDS.some((k) => haystack.includes(k));
+  let matched = 0;
+  for (const group of TRAIL_KEYWORD_GROUPS) {
+    if (group.some((k) => haystack.includes(k))) {
+      matched++;
+      if (matched >= MIN_KEYWORD_GROUPS) return true;
+    }
+  }
+  return false;
 }
 
 function extractImage(item) {
