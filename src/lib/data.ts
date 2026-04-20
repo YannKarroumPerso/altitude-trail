@@ -1,5 +1,9 @@
 import { Article, Race, Category } from "@/types";
 
+// AUTO-ARTICLES:START (généré par scripts/publish.mjs — ne pas éditer à la main)
+const generatedArticles: Article[] = [];
+// AUTO-ARTICLES:END
+
 export const categories: Category[] = [
   { slug: "actualites", label: "Actualités", description: "Les dernières nouvelles du monde du trail running" },
   { slug: "debuter", label: "Débuter", description: "Tous les conseils pour se lancer dans le trail" },
@@ -10,6 +14,7 @@ export const categories: Category[] = [
 ];
 
 export const articles: Article[] = [
+  ...generatedArticles,
   {
     slug: "diagonale-des-fous-2024",
     title: "DIAGONALE DES FOUS : LE MYTHE RÉINVENTÉ.",
