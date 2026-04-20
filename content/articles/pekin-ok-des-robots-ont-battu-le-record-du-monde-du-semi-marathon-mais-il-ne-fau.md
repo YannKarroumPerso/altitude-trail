@@ -1,8 +1,7 @@
 ---
 slug: >-
   quand-un-robot-humanoide-bat-le-record-du-semi-marathon-le-vrai-du-faux-d-une-pr
-title: Quand un robot humanoïde \
-bat\\" le record du semi-marathon: le vrai du faux d'une prouesse chinoise"
+title: 'Quand un robot humanoïde "bat" le record du semi-marathon : le vrai du faux d''une prouesse chinoise'
 excerpt: >-
   Un humanoïde a bouclé 21,1 km en une cinquantaine de minutes à Pékin.
   Performance affolante ou écran de fumée technologique ? Décryptage sans
