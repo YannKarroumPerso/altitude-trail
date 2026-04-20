@@ -49,7 +49,7 @@ export default function ArticleCard({ article, variant = "default", priority = f
     <Link href={"/articles/" + article.slug} className="space-y-3 group cursor-pointer block">
       <div className="overflow-hidden">
         <Image src={article.image} alt={article.title} width={400} height={400}
-          className="w-full aspect-square object-cover grayscale group-hover:grayscale-0 transition-all duration-300" />
+          className="w-full aspect-square object-cover lg:grayscale lg:group-hover:grayscale-0 transition-all duration-300" />
       </div>
       <div className="flex items-center gap-2">
         <span className="text-[10px] text-primary font-bold uppercase tracking-wider font-headline">{article.category}</span>

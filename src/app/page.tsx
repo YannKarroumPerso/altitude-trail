@@ -49,7 +49,7 @@ export default function Home() {
                 <div className="space-y-1">
                   {i % 2 === 0 && (
                     <Image src={article.image} alt={article.title} width={96} height={64}
-                      className="w-24 h-16 object-cover rounded shadow-sm grayscale group-hover:grayscale-0 transition-all mb-1" />
+                      className="w-24 h-16 object-cover rounded shadow-sm lg:grayscale lg:group-hover:grayscale-0 transition-all mb-1" />
                   )}
                   <h3 className="font-headline font-bold text-sm leading-snug group-hover:underline">{article.title}</h3>
                   <p className="text-[10px] text-slate-500 uppercase font-bold tracking-wider">{article.category} — {article.readTime}</p>
@@ -108,7 +108,7 @@ export default function Home() {
           {coursesRecits.map((article) => (
             <Link key={article.slug} href={"/articles/" + article.slug} className="space-y-4 group cursor-pointer block">
               <Image src={article.image} alt={article.title} width={400} height={300}
-                className="w-full aspect-[4/3] object-cover grayscale group-hover:grayscale-0 transition-all duration-300" />
+                className="w-full aspect-[4/3] object-cover lg:grayscale lg:group-hover:grayscale-0 transition-all duration-300" />
               <h3 className="font-headline font-bold text-lg leading-tight group-hover:underline">{article.title}</h3>
             </Link>
           ))}
