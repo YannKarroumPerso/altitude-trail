@@ -82,6 +82,10 @@ export default function Header() {
         </div>
       )}
 
+      {/* Tagline Banner */}
+      <div className="bg-primary text-white py-2 px-8 text-center text-xs font-bold uppercase tracking-widest">
+        Le média trail de référence
+      </div>
     </header>
   );
 }
