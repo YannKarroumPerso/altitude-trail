@@ -3,6 +3,7 @@ import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
+import { EDITORIAL_STYLE_ORIGINAL } from "./lib/editorial-style.mjs";
 
 const CONTENT_DIR = path.resolve("content/articles");
 const PUBLIC_IMAGES_DIR = path.resolve("public/articles");
@@ -230,32 +231,221 @@ const ARTICLES = [
     topic:
       "charge d'entraînement et récupération en trail : concept de charge aiguë sur chronique (ratio ACWR, zone rouge au-delà de 1,5), fatigue physiologique vs fatigue psychologique, indicateurs simples à tenir soi-même (FC de repos au réveil, HRV mesurée chaque matin avec une montre ou app, qualité du sommeil, humeur, sensation sur une séance repère hebdomadaire), test de Ruffier-Dickson ou saut vertical pour vérifier la fraîcheur physique, signes de surentraînement (baisse de performance prolongée, FC repos anormalement élevée, irritabilité, perte d'appétit ou de poids), outils grand public (montres GPS avec HRV comme Garmin ou Polar, application Elite HRV, Strava score de forme), programmation d'une semaine de décharge tous les 3-4 semaines, périodes critiques à surveiller (avant une course, retour de course), importance capitale du sommeil et de l'alimentation post-séance",
   },
+
+  // ===== ACTUALITÉS =====
+  {
+    slug: "ffa-certification-epreuves-trail-nouveau-cadre-2026",
+    title: "FFA et certification des épreuves trail : le nouveau cadre 2026 décrypté",
+    excerpt:
+      "La Fédération française d'athlétisme revoit son dispositif d'agrément des courses nature pour la saison 2026. Ce que ça change pour les organisateurs et les coureurs.",
+    category: "Actualités",
+    categorySlug: "actualites",
+    tags: ["FFA", "Certification", "Réglementation", "Organisation"],
+    readTime: "8 min",
+    date: "25 mars 2026",
+    topic:
+      "réforme 2026 du cadre FFA de certification des épreuves trail : critères (kilométrage, dénivelé, assurances, ETU, médicalisation, ravitaillements), distinction épreuves officielles / non-officielles, impact organisateurs (coûts, logistique), bénéfices coureurs (résultats homologués, cotation ITRA, qualifications), calendrier d'application, positions des principaux organisateurs français, analyse : tournant pour la professionnalisation du trail français ?",
+  },
+  {
+    slug: "stations-montagne-ete-vtt-trail-modele-economique",
+    title: "Stations de montagne : la bataille de l'été entre VTT et trail",
+    excerpt:
+      "Les stations françaises cherchent leur nouveau modèle économique hors saison hivernale. Le trail et le VTT se partagent — ou s'affrontent — sur les mêmes versants.",
+    category: "Actualités",
+    categorySlug: "actualites",
+    tags: ["Stations", "Économie", "Aménagement", "Tendance"],
+    readTime: "9 min",
+    date: "15 avril 2026",
+    topic:
+      "positionnement stratégique des stations alpines françaises sur l'été : VTT enduro-DH vs trail running, investissements (remontées piétonnes, balisage, labels, Label'Trail FFA), concurrence ou complémentarité (cas La Clusaz pro-trail, Les 2 Alpes pro-VTT, Serre Chevalier hybride), influence des grands événements (UTMB World Series, Crankworx, EWS), économie (nuitées, retombées locales), tensions entre pratiques sur les mêmes sentiers, analyse : spécialisation ou co-existence ?",
+  },
+  {
+    slug: "chaussures-carbone-trail-itra-reglementation-limite",
+    title: "Chaussures carbone en trail : la limite réglementaire ITRA enfin posée",
+    excerpt:
+      "Après des années de flou, l'International Trail Running Association tranche sur les plaques carbone et les épaisseurs de semelles. Nouvelle règle, nouvelle industrie.",
+    category: "Actualités",
+    categorySlug: "actualites",
+    tags: ["ITRA", "Chaussures", "Carbone", "Industrie"],
+    readTime: "8 min",
+    date: "10 avril 2026",
+    topic:
+      "réglementation ITRA 2026 sur les chaussures de trail : précédents World Athletics pour la route (40 mm stack, plaque unique), transposition discutée au trail (limites en débat, spécificités terrain), positions des marques (Nike Vaporfly-Trail, Hoka, adidas Adizero Prime X, Salomon S/Lab), impact sur les records et économie de course, dimension éthique (sport vs industrie), calendrier d'application, positions publiques d'athlètes élites, analyse : fin de l'ère sans règle du matériel trail ?",
+  },
+  {
+    slug: "utmb-wildcards-elites-protestation-systeme",
+    title: "UTMB et les wildcards : le mouvement de protestation des élites",
+    excerpt:
+      "Invitations personnelles, tirages au sort, critères opaques : le système d'accès à l'UTMB est remis en cause par une partie des meilleurs coureurs mondiaux.",
+    category: "Actualités",
+    categorySlug: "actualites",
+    tags: ["UTMB", "Élites", "Wildcards", "Gouvernance"],
+    readTime: "9 min",
+    date: "5 avril 2026",
+    topic:
+      "controverse autour du système UTMB : fonctionnement (pierres de qualification ITRA, tirage au sort, wildcards organisateurs), critiques d'élites (manque de transparence des critères, questions de parité genre, dépendance sponsors Hoka-UTMB), tribunes collectives récentes, réponse UTMB Group, parallèle avec d'autres modèles (Hardrock lottery, Western States, Barkley), analyse : l'UTMB peut-il rester légitime sans réforme profonde de son modèle d'accès ?",
+  },
+  {
+    slug: "kilian-jornet-nnormal-modele-marque-durable",
+    title: "Kilian Jornet et NNormal : les coulisses d'un modèle vertical",
+    excerpt:
+      "Trois ans après le lancement, la marque du Catalan s'impose dans le trail avec un modèle de production et de distribution qui rompt avec l'industrie classique.",
+    category: "Actualités",
+    categorySlug: "actualites",
+    tags: ["NNormal", "Kilian Jornet", "Industrie", "Durabilité"],
+    readTime: "9 min",
+    date: "30 mars 2026",
+    topic:
+      "état des lieux NNormal après trois saisons : modèle d'entreprise (co-fondation Camper, production locale, gamme volontairement réduite), succès Kjerag et Tomir, positionnement durable (matériaux bio-sourcés, réparabilité, empreinte), place dans l'écosystème sponsoring (équipe NNormal vs écurie classique), comparaison avec On Running et Saucony, analyse : modèle reproductible ou niche militante ?",
+  },
+
+  // ===== COURSES & RÉCITS =====
+  {
+    slug: "grand-raid-pyrenees-portraits-vainqueurs-strategies",
+    title: "Grand Raid des Pyrénées : quatre vainqueurs, quatre stratégies gagnantes",
+    excerpt:
+      "Depuis sa création en 2011, le GRP a sacré des profils très différents. Portrait croisé de quatre coureurs qui racontent leurs 160 kilomètres.",
+    category: "Courses & Récits",
+    categorySlug: "courses-recits",
+    tags: ["GRP", "Pyrénées", "Portraits", "Ultra"],
+    readTime: "10 min",
+    date: "20 mars 2026",
+    topic:
+      "histoires croisées de vainqueurs récents du Grand Raid des Pyrénées (160 km, +10000 m) : quatre approches tactiques distinctes (fort départ puis gestion, crescendo, nocturne optimale, pari nutrition audacieux), profils de coureurs (âge, expérience, pays), passages-clés (port de Bielsa, col de Madamète, brèche de Roland), moments critiques, analyse éditoriale : qu'est-ce qui fait un bon ultratraileur sur cette course techniquement exigeante ?",
+  },
+  {
+    slug: "tds-2024-meteo-course-bouleversee-recit",
+    title: "TDS 2024 : le jour où la météo a tout rebattu",
+    excerpt:
+      "Orage cévenol, brouillard épais, boue jusqu'aux chevilles : le 28 août 2024, la TDS a basculé. Retour sur une édition qui a redéfini les standards de gestion du risque.",
+    category: "Courses & Récits",
+    categorySlug: "courses-recits",
+    tags: ["TDS", "UTMB", "Météo", "Récit"],
+    readTime: "10 min",
+    date: "1 avril 2026",
+    topic:
+      "récit chronologique de la TDS 2024 bouleversée par la météo : contexte amont (prévisions dégradées, maintien contesté), décisions d'organisation (déroutage à la Gittaz, arrêts), gestion du matériel obligatoire, abandon massif au col de la Seigne, positions des élites (Pommeret, Chaverot, Kyburz), enseignements UTMB Group (protocole météo durci pour 2025), parallèle Diagonale des Fous 2019, analyse : le trail peut-il rester ouvert aux conditions extrêmes ?",
+  },
+  {
+    slug: "occitane-by-utmb-sud-ouest-ariege-ascension",
+    title: "L'Occitane by UTMB : comment le sud-ouest s'est imposé en deux saisons",
+    excerpt:
+      "Née en 2022 dans les Pyrénées ariégeoises, l'Occitane by UTMB est devenue une étape incontournable du calendrier mondial. Anatomie d'une ascension éclair.",
+    category: "Courses & Récits",
+    categorySlug: "courses-recits",
+    tags: ["Occitane", "UTMB World Series", "Ariège", "Croissance"],
+    readTime: "9 min",
+    date: "25 mars 2026",
+    topic:
+      "ascension de l'Occitane by UTMB (Ax-les-Thermes, Ariège) : lancement 2022, intégration World Series, évolution de la participation (passage de 2 000 à plus de 8 000 dossards en trois saisons), parcours-phare 155 km et 8 700 m D+, vainqueurs marquants, positionnement géographique stratégique (sud-ouest moins saturé), retombées économiques locales, modèle partenarial UTMB Group / collectivités / station, analyse : quel rôle cette course joue-t-elle dans la cartographie française du trail ?",
+  },
+  {
+    slug: "restonica-trail-corse-ultra-confidentiel-reference",
+    title: "Restonica Trail : le confidentiel corse devenu référence",
+    excerpt:
+      "110 km dans les aiguilles de Bavella et le massif du Rotondo, sur le sentier du GR 20. L'ultra le plus dur de France a longtemps vécu à l'écart. Plus maintenant.",
+    category: "Courses & Récits",
+    categorySlug: "courses-recits",
+    tags: ["Restonica", "Corse", "GR 20", "Ultra"],
+    readTime: "9 min",
+    date: "10 avril 2026",
+    topic:
+      "histoire du Restonica Trail : création 2010 à l'initiative de coureurs locaux, longue phase confidentielle (moins de 200 dossards), parcours unique (GR 20, aiguilles de Bavella, massif du Rotondo, 110 km et +7500 m), difficultés propres (pierriers, câbles, exposition), vainqueurs historiques, médiatisation depuis 2022 (docu Salomon TV, retour de Thierry Breuil), positionnement calendrier (juin, pré-saison alpine), analyse : l'ultra le plus dur de France et pourquoi ça compte.",
+  },
+  {
+    slug: "diagonale-fous-2023-duel-grangier-dhaene",
+    title: "Diagonale des Fous 2023 : le duel Grangier-D'Haene, minute par minute",
+    excerpt:
+      "Deux jours, deux nuits, 165 km à moins de cinq minutes d'écart. Retour sur le duel qui a animé l'édition 2023 du Grand Raid réunionnais.",
+    category: "Courses & Récits",
+    categorySlug: "courses-recits",
+    tags: ["Diagonale des Fous", "François D'Haene", "Réunion", "Récit"],
+    readTime: "10 min",
+    date: "28 mars 2026",
+    topic:
+      "récit détaillé du duel François D'Haene / Mathieu Grangier sur la Diagonale des Fous 2023 : timeline chronologique (Saint-Pierre départ, Cilaos, Marla, Mafate, Roche-Écrite, Saint-Denis), écarts par grand point de passage, moments clés (coup dur de D'Haene à Dos d'Âne, remontée de Grangier puis contre-remontée nocturne), conditions météo et ambiance, ressources publiques des deux coureurs post-course, analyse : qu'est-ce qui a fait basculer la course ?",
+  },
+
+  // ===== BLESSURES (cinq sujets nouveaux) =====
+  {
+    slug: "syndrome-piriforme-traileur-douleur-fessiere",
+    title: "Syndrome du piriforme : la douleur fessière qui mime une sciatique",
+    excerpt:
+      "Une douleur profonde au milieu de la fesse qui irradie dans la jambe en descente. Rare, mais capable de briser une saison entière si elle est mal prise en charge.",
+    category: "Blessures & Préventions",
+    categorySlug: "blessures",
+    tags: ["Syndrome du piriforme", "Fessier", "Sciatique", "Kiné"],
+    readTime: "9 min",
+    date: "12 avril 2026",
+    topic:
+      "syndrome du piriforme chez le traileur : anatomie (muscle piriforme, rapport anatomique avec le nerf sciatique, variante anatomique 10-15 % où le nerf traverse le muscle), mécanismes déclenchants (surcharge en descente technique, gainage insuffisant, sédentarité prolongée), diagnostic différentiel avec la sciatique radiculaire (test de FAIR, place de l'IRM), traitement (étirements spécifiques, massages profonds, infiltration en seconde intention), prévention (renforcement moyen fessier, assouplissement rotateurs externes), protocole de reprise",
+  },
+  {
+    slug: "ampoules-frottements-ultra-prevention-gestion",
+    title: "Ampoules et frottements en ultra : l'ennemi sous-estimé",
+    excerpt:
+      "Un détail qui sabote des courses entières. La gestion des frottements relève autant de la préparation que du plan d'attaque aux ravitaillements.",
+    category: "Blessures & Préventions",
+    categorySlug: "blessures",
+    tags: ["Ampoules", "Ultra", "Pieds", "Équipement"],
+    readTime: "8 min",
+    date: "8 avril 2026",
+    topic:
+      "prévention et gestion des ampoules en ultra-trail : mécanisme (chaleur, humidité, friction combinées), facteurs aggravants (chaussettes inadaptées, chaussures mouillées, hyper-pronation, ongles longs), préparation sur 2-3 semaines (tannage à l'alcool camphré, callotage au nubuck, taping des zones à risque), équipement (chaussettes techniques double épaisseur type Injinji, coque talon bien adaptée, pointure), kit ampoules (aiguille stérile, compeed, tape micropore), intervention aux ravitos (séchage, changement complet de chaussettes, percer ou non), retour d'expérience Diagonale des Fous, UTMB, Grand Raid Pyrénées",
+  },
+  {
+    slug: "lombalgie-traileur-sac-hydratation-gestion-charge",
+    title: "Lombalgie du traileur : quand le sac d'hydratation devient le problème",
+    excerpt:
+      "Douleur bas du dos qui s'installe sur les longues sorties, s'efface au repos, revient en course. Souvent le signe d'un réglage de matériel à revoir.",
+    category: "Blessures & Préventions",
+    categorySlug: "blessures",
+    tags: ["Lombalgie", "Dos", "Équipement", "Gainage"],
+    readTime: "8 min",
+    date: "18 avril 2026",
+    topic:
+      "lombalgie mécanique du traileur liée au sac d'hydratation : anatomie (paravertébraux, disques L4-L5, L5-S1), mécanisme (charge déséquilibrée, posture en hyperextension sur montée raide, vibrations répétées en descente), facteurs matériel (taille de sac inadaptée, surcharge au-delà de 3-4 kg, positions poches avant mal calibrées), facteurs physiologiques (gainage insuffisant, déficit ischio-jambiers, raideur fléchisseurs de hanche), traitement (massages, étirements, kiné), rééducation (programmes Williams et McKenzie selon profil), choix matériel corrigé (taille de torse mesurée, ajustement ceinture, contenance minimale)",
+  },
+  {
+    slug: "fracture-fatigue-trail-signaux-alerte",
+    title: "Fracture de fatigue : lire les signaux avant la rupture",
+    excerpt:
+      "Une douleur qui monte en intensité à chaque sortie, un point précis qui brûle la nuit. Le piège classique du coureur qui repousse la consultation.",
+    category: "Blessures & Préventions",
+    categorySlug: "blessures",
+    tags: ["Fracture de fatigue", "Tibia", "Diagnostic", "Os"],
+    readTime: "9 min",
+    date: "15 avril 2026",
+    topic:
+      "fracture de fatigue chez le traileur : mécanismes biomécaniques (microtraumatismes répétés, défaut d'adaptation osseuse), sites fréquents (tibia antérieur, col fémoral, métatarses), facteurs de risque (augmentation brutale du volume, déficit énergétique relatif RED-S, carence vitamine D, cycle menstruel irrégulier), symptômes évolutifs (gêne en fin de sortie → douleur en cours d'effort → douleur au repos), diagnostic (radiographie souvent négative à J+15, IRM de référence, scintigraphie), traitement (6-8 semaines de décharge selon siège), retour progressif avec règle des 10 %, rôle de la nutrition (vitamine D, calcium, apport énergétique suffisant)",
+  },
+  {
+    slug: "ongles-noirs-onychomycose-pied-coureur-soins",
+    title: "Ongles noirs et onychomycose : les petites misères du pied du coureur",
+    excerpt:
+      "Décollement, noircissement, démangeaisons : le pied du traileur cumule les traumatismes. Décryptage des pathologies les plus fréquentes et des soins adaptés.",
+    category: "Blessures & Préventions",
+    categorySlug: "blessures",
+    tags: ["Ongles", "Pieds", "Dermatologie", "Soins"],
+    readTime: "8 min",
+    date: "22 avril 2026",
+    topic:
+      "pathologies de l'ongle chez le coureur de trail : hématome sous-unguéal (ongle noir par traumatisme répété, prévention par pointure adaptée, ponction si gêne), onycholyse (décollement partiel ou total, repousse 6-12 mois), ongle incarné (causes, prise en charge podologique), onychomycose (infection fongique, facteurs favorisants humidité-macération-immunité, diagnostic par prélèvement, traitement topique ou systémique selon étendue, durée 3 à 6 mois), hygiène post-sortie, choix chaussettes, massage quotidien, quand consulter un dermatologue ou un podologue",
+  },
 ];
 
-const SYSTEM_PROMPT = `Tu es un rédacteur senior pour Altitude Trail, magazine français de trail running.
+const FORMAT_INSTRUCTIONS = `FORMAT DE SORTIE (ARTICLE ORIGINAL)
 
-Mission : rédiger un article long format en français sur un sujet précis en lien avec la pratique du trail. Ton angle est journalistique et pédagogique, aligné sur les bonnes pratiques actuelles (médecine du sport, sciences de l'entraînement, nutrition sportive). Tu peux citer des références sans inventer de chiffres non vérifiables — utilise des fourchettes ("six à huit semaines", "la majorité des coureurs"), jamais un pourcentage chiffré au dixième.
-
-Structure attendue :
-- Ouverture (150-220 mots), sans sous-titre : scène concrète, anecdote ou mise en situation, puis problématisation
-- 4 sections avec sous-titres ## : développement logique selon le sujet (mécanisme → facteurs → méthode → prévention ; ou bases → planification → exécution → erreurs à éviter ; etc.)
-- Conclusion (80-120 mots) sans sous-titre
-
-Contraintes strictes :
-- 1000 à 1200 mots au total
-- Pas de H1 dans ta sortie (le titre est rendu séparément par la page)
-- Markdown pur, aucun fence de code
-- Tu peux citer des noms propres plausibles de coureur, coach, kinésithérapeute, médecin du sport ou diététicien pour nourrir un propos, mais pas de citation fictive attribuée à une personnalité réelle
-- Pour les sujets médicaux / nutritionnels : renvoyer systématiquement vers un professionnel de santé pour un avis personnalisé
-
-Prompts image (EN anglais, pour flux-pro-1.1) :
+Prompts image à produire en anglais pour flux-pro-1.1 :
 - heroPrompt : scène iconique 16:9 évoquant le sujet principal — 40-60 mots
 - body1Prompt : scène contextuelle (terrain, équipement, moment illustratif) — 40-60 mots
-- body2Prompt : scène d'un moment clé différent du hero et de body1 — 40-60 mots
-Chaque prompt ultra-spécifique : sujet, action, décor, lumière, équipement. Pas de style photographique (ajouté automatiquement). Une seule ligne chacun.
+- body2Prompt : scène d'un moment clé, différente de heroPrompt et body1Prompt — 40-60 mots
+Chaque prompt ultra-spécifique : sujet, action, décor, lumière, équipement. Pas de style photographique (suffixe cinéma ajouté automatiquement). Une seule ligne chacun.
 
-Réponds STRICTEMENT au format JSON brut (pas de code fence, pas de prose), schéma :
-{"content":"...","heroPrompt":"...","body1Prompt":"...","body2Prompt":"..."}`;
+Réponds STRICTEMENT au format JSON brut (pas de code fence, pas de prose avant ni après), schéma :
+{"content":"<corps markdown 1000-1200 mots, sans frontmatter, sans H1>","heroPrompt":"...","body1Prompt":"...","body2Prompt":"..."}`;
+
+const SYSTEM_PROMPT = `${EDITORIAL_STYLE_ORIGINAL}\n\n${FORMAT_INSTRUCTIONS}`;
 
 function userPrompt(spec) {
   return `Rédige l'article pour Altitude Trail à partir de ces éléments :
