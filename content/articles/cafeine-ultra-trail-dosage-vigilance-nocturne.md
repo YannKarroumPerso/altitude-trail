@@ -53,7 +53,7 @@ Quant à l'effet diurétique souvent invoqué pour déconseiller la caféine en 
 
 La dernière pièce du puzzle est contre-intuitive. Un consommateur quotidien de trois à quatre cafés voit ses récepteurs à l'adénosine s'adapter. Résultat : le jour de la course, la caféine agit moins. Un sevrage progressif de sept à dix jours avant l'objectif permet de restaurer la sensibilité des récepteurs et de maximiser l'effet ergogène.
 
-Le protocole est simple, la discipline l'est moins. Diminuer d'une tasse tous les deux jours, passer au décaféiné, accepter deux à trois jours de maux de tête. Beaucoup de coureurs élites le pratiquent, peu en parlent publiquement. C'est probablement l'une des stratégies les plus rentables de la préparation nutritionnelle, et l'une des moins respectées.
+Le protocole est simple, la discipline l'est moins. Diminuer d'une tasse tous les deux jours, passer au décaféiné, accepter deux à trois jours de maux de tête. Beaucoup de coureurs élites le pratiquent, peu en parlent publiquement. C'est probablement l'une des stratégies les plus rentables de la préparation nutritionnelle et l'une des moins respectées.
 
 ## Le verdict : un outil, pas une béquille
 

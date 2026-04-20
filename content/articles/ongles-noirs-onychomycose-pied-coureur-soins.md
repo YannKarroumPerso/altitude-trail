@@ -23,7 +23,7 @@ La douleur, quand elle existe, est pulsatile, parfois violente dans les heures q
 
 ![Illustration Blessures & Préventions](/articles/ongles-noirs-onychomycose-pied-coureur-soins-1.jpg)
 
-La prévention relève surtout du chaussant. Les recommandations convergentes des podologues du sport pointent une pointure trop juste comme cause principale : il faut compter au moins un centimètre de marge devant le plus long orteil, et davantage pour les formats longs où le pied gonfle. Laçage trapézoïdal pour verrouiller le cou-de-pied, ongles coupés courts et droits la veille, chaussettes techniques sans couture frontale. Les coureurs comme François D'Haene ou Kilian Jornet insistent depuis longtemps sur ce point : sur cent bornes, un demi-centimètre de trop ou de moins change tout.
+La prévention relève surtout du chaussant. Les recommandations convergentes des podologues du sport pointent une pointure trop juste comme cause principale : il faut compter au moins un centimètre de marge devant le plus long orteil et davantage pour les formats longs où le pied gonfle. Laçage trapézoïdal pour verrouiller le cou-de-pied, ongles coupés courts et droits la veille, chaussettes techniques sans couture frontale. Les coureurs comme François D'Haene ou Kilian Jornet insistent depuis longtemps sur ce point : sur cent bornes, un demi-centimètre de trop ou de moins change tout.
 
 ## Quand l'ongle se décolle : l'onycholyse et sa patience forcée
 
@@ -37,7 +37,7 @@ Point crucial : une repousse anarchique, épaissie, déformée ou double doit al
 
 L'ongle incarné — onychocryptose pour les puristes — survient lorsque le bord latéral de l'ongle pénètre le sillon cutané. Inflammation, douleur à la pression, parfois surinfection avec bourgeon charnu suintant. Sur un coureur, c'est rédhibitoire : chaque appui devient un calvaire.
 
-Trois causes reviennent systématiquement : coupe trop courte ou trop arrondie des bords, chaussures compressives, et prédisposition anatomique (ongle en volute, gros orteil égyptien). Les recommandations de la Haute Autorité de Santé pour les formes non compliquées privilégient d'abord les soins conservateurs : bains d'antiseptique dilué, méchage du sillon par un podologue, orthonyxie (agrafe ou fil pour redresser la courbure). La chirurgie — phénolisation de la matrice — reste réservée aux récidives.
+Trois causes reviennent systématiquement : coupe trop courte ou trop arrondie des bords, chaussures compressives et prédisposition anatomique (ongle en volute, gros orteil égyptien). Les recommandations de la Haute Autorité de Santé pour les formes non compliquées privilégient d'abord les soins conservateurs : bains d'antiseptique dilué, méchage du sillon par un podologue, orthonyxie (agrafe ou fil pour redresser la courbure). La chirurgie — phénolisation de la matrice — reste réservée aux récidives.
 
 ![Illustration Blessures & Préventions](/articles/ongles-noirs-onychomycose-pied-coureur-soins-2.jpg)
 

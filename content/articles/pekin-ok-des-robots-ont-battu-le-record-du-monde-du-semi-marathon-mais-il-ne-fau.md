@@ -25,21 +25,21 @@ rewrittenAt: '2026-04-20'
 ---
 Un robot humanoïde aurait bouclé un semi-marathon plus vite que Jacob Kiplimo. Sur le papier, le genre d'info qui affole un fil Twitter un lundi matin. Dans les faits, l'histoire dit tout autre chose — et ce n'est pas celle qu'on a vendue.
 
-À Pékin, plusieurs machines bipèdes issues de différents constructeurs chinois ont franchi la ligne d'arrivée d'un semi-marathon en un peu plus de cinquante minutes, couloir séparé, assistance technique autorisée, batteries interchangeables en cours d'épreuve. L'annonce, relayée comme un "record du monde battu", a été remise à sa place par U-Trail, qui rappelle la réalité du protocole : rien à voir avec les standards World Athletics, rien à voir avec la course de Kiplimo, et encore moins avec une confrontation homme-machine. Une prouesse d'ingénierie, oui. Une performance sportive, non.
+À Pékin, plusieurs machines bipèdes issues de différents constructeurs chinois ont franchi la ligne d'arrivée d'un semi-marathon en un peu plus de cinquante minutes, couloir séparé, assistance technique autorisée, batteries interchangeables en cours d'épreuve. L'annonce, relayée comme un "record du monde battu", a été remise à sa place par U-Trail, qui rappelle la réalité du protocole : rien à voir avec les standards World Athletics, rien à voir avec la course de Kiplimo et encore moins avec une confrontation homme-machine. Une prouesse d'ingénierie, oui. Une performance sportive, non.
 
 ## Le storytelling avant le chrono
 
-La mise en scène est trop parfaite pour être innocente. Un automate bipède, dossard virtuel au torse, franchissant une ligne d'arrivée au milieu d'un peloton humain à Pékin : l'image coche toutes les cases du soft power technologique chinois. La robotique humanoïde est devenue un secteur aussi stratégique que l'IA ou le véhicule autonome, et Pékin veut prendre de vitesse Boston Dynamics ou Tesla avec Optimus.
+La mise en scène est trop parfaite pour être innocente. Un automate bipède, dossard virtuel au torse, franchissant une ligne d'arrivée au milieu d'un peloton humain à Pékin : l'image coche toutes les cases du soft power technologique chinois. La robotique humanoïde est devenue un secteur aussi stratégique que l'IA ou le véhicule autonome et Pékin veut prendre de vitesse Boston Dynamics ou Tesla avec Optimus.
 
 ![Illustration Actualités](/articles/quand-un-robot-humanoide-bat-le-record-du-semi-marathon-le-vrai-du-faux-d-une-pr-1.jpg)
 
 Un semi-marathon en conditions urbaines, c'est la version asiatique du test grandeur nature. Plus photogénique qu'une démonstration en laboratoire, plus viral qu'un white paper d'ingénierie. Le chrono n'est qu'un prétexte — le message, c'est "regardez ce que nos machines savent faire". Et accessoirement : "nous sommes dans la course".
 
-## Ce que le protocole autorise, et ce qu'il retire au record
+## Ce que le protocole autorise et ce qu'il retire au record
 
 U-Trail détaille ce qui, dans le règlement de la course, disqualifie d'emblée toute comparaison avec un record homologué. Les robots disposaient de leur propre couloir, distinct du peloton humain. Les équipes techniques pouvaient intervenir en course. Remplacer une batterie. Corriger un défaut mécanique. Et, détail qui change tout, substituer un exemplaire défaillant par une machine identique.
 
-Transposons au cyclisme : c'est un relais d'équipe présenté comme un contre-la-montre individuel. Transposons à l'athlétisme : c'est comme si un coureur pouvait être remplacé au 15e kilomètre par son jumeau frais, et revendiquer ensuite le temps cumulé. World Athletics ne validerait pas. La question n'est même pas sportive, elle est logique.
+Transposons au cyclisme : c'est un relais d'équipe présenté comme un contre-la-montre individuel. Transposons à l'athlétisme : c'est comme si un coureur pouvait être remplacé au 15e kilomètre par son jumeau frais et revendiquer ensuite le temps cumulé. World Athletics ne validerait pas. La question n'est même pas sportive, elle est logique.
 
 Kiplimo, pour rappel, a descendu le record du monde du semi sous les 57 minutes cette année. Un humain. Un seul. Sans escale batterie.
 
@@ -67,6 +67,6 @@ L'exploit de Pékin, tel que le présente U-Trail, ne dit rien de l'athlétisme.
 
 ## Ce que ça dit de notre époque plus que de la course
 
-Reste le symbole, et il est lourd. Ces robots trottinant au milieu des dossards parlent d'un temps où la course à pied, activité ancestrale et universelle, est devenue un terrain de jeu géopolitique. Un marqueur de puissance industrielle. Un support publicitaire pour constructeurs en lutte avec la Silicon Valley. On court encore, à Pékin, pour ses raisons à soi. Mais on y envoie aussi, désormais, des machines pour y gagner autre chose qu'un chrono.
+Reste le symbole et il est lourd. Ces robots trottinant au milieu des dossards parlent d'un temps où la course à pied, activité ancestrale et universelle, est devenue un terrain de jeu géopolitique. Un marqueur de puissance industrielle. Un support publicitaire pour constructeurs en lutte avec la Silicon Valley. On court encore, à Pékin, pour ses raisons à soi. Mais on y envoie aussi, désormais, des machines pour y gagner autre chose qu'un chrono.
 
 Et c'est peut-être là l'enseignement éditorial du moment. Le trail, par sa pratique même, échappe pour longtemps à cette récupération. Pas par vertu, par géométrie. Il n'y a pas de banc d'essai industriel dans une montée à 25 % sous l'orage. Il n'y a pas de démo marketing qui tienne quarante heures sans recharge. Le running de route est déjà un produit ; le trail, lui, reste un territoire. Qu'un robot boucle un semi en cinquante minutes ne change rien à la seule chose qui compte dans nos montagnes : une paire de jambes, vivante, qui ne se branche pas sur secteur.

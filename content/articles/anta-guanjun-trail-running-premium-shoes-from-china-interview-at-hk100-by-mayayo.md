@@ -35,7 +35,7 @@ La manœuvre Guanjun vise précisément à corriger cette dissymétrie. Il ne s'
 
 ## HK100, coup de projecteur chiadé
 
-Le choix de Hong Kong n'est pas anodin. L'épreuve aligne 100 kilomètres pour 4 500 mètres de dénivelé positif à travers les New Territories, et concentre chaque hiver l'élite mondiale sur un calendrier habituellement creux. Pour un lancement produit qui vise la presse internationale et les coureurs élites en même temps, c'est le meilleur ratio visibilité/crédibilité qu'offre le circuit asiatique.
+Le choix de Hong Kong n'est pas anodin. L'épreuve aligne 100 kilomètres pour 4 500 mètres de dénivelé positif à travers les New Territories et concentre chaque hiver l'élite mondiale sur un calendrier habituellement creux. Pour un lancement produit qui vise la presse internationale et les coureurs élites en même temps, c'est le meilleur ratio visibilité/crédibilité qu'offre le circuit asiatique.
 
 Anta joue la double partition : sponsor titre de l'épreuve, lanceur d'une chaussure présentée selon Trail Running Spain comme co-développée avec les athlètes du team maison, dont plusieurs figures montantes du trail chinois engagées sur les Skyrunner World Series et les UTMB World Series. Le message est limpide : ce n'est pas un produit d'image, c'est une arme de course. À mille lieues du positionnement lifestyle/entrée de gamme qui colle encore à la peau des équipementiers chinois en Occident.
 
@@ -57,7 +57,7 @@ La stratégie Anta intègre cette contrainte. D'où le choix d'attaquer par l'As
 
 L'affaire dépasse largement une sortie de chaussure. Elle acte un basculement que les acteurs historiques du secteur refusent encore de nommer à voix haute : le trail running n'est plus un sport européen avec une excroissance américaine. C'est un marché mondial où l'Asie — Chine, Japon, Corée du Sud, Hong Kong, Thaïlande — produit désormais à la fois les coureurs, les épreuves, les audiences et, maintenant, les équipementiers premium.
 
-La Chine en particulier concentre une demande explosive. Des centaines d'épreuves d'ultra lancées ces cinq dernières années, une classe moyenne supérieure friande de dossards sur la Diagonale des Fous ou l'UTMB, et un écosystème industriel capable d'aligner la R&D, la production et le marketing sur un modèle intégré que peu de marques occidentales peuvent répliquer. Trail Running Spain pointe à juste titre que la Guanjun Saker 3RC n'existerait pas sans cette demande intérieure capable de financer le développement d'un produit haut de gamme avant même qu'il ne trouve son public à l'étranger.
+La Chine en particulier concentre une demande explosive. Des centaines d'épreuves d'ultra lancées ces cinq dernières années, une classe moyenne supérieure friande de dossards sur la Diagonale des Fous ou l'UTMB et un écosystème industriel capable d'aligner la R&D, la production et le marketing sur un modèle intégré que peu de marques occidentales peuvent répliquer. Trail Running Spain pointe à juste titre que la Guanjun Saker 3RC n'existerait pas sans cette demande intérieure capable de financer le développement d'un produit haut de gamme avant même qu'il ne trouve son public à l'étranger.
 
 ## L'avertissement sous-jacent aux marques historiques
 

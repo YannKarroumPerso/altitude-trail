@@ -51,7 +51,7 @@ Mains sur les cuisses, buste légèrement penché en avant, pas courts et puissa
 
 ## Le renforcement qui fait la différence
 
-C'est le chapitre que les coureurs route négligent le plus, et celui qui décide pourtant de la transition. Les chaînes à travailler en priorité sont connues des kinésithérapeutes du sport : ischio-jambiers pour encaisser les relances et protéger l'Achille, mollets (soléaire surtout) pour les montées et la propulsion, moyen fessier pour la stabilité latérale du bassin sur appuis instables, chevilles pour la proprioception.
+C'est le chapitre que les coureurs route négligent le plus et celui qui décide pourtant de la transition. Les chaînes à travailler en priorité sont connues des kinésithérapeutes du sport : ischio-jambiers pour encaisser les relances et protéger l'Achille, mollets (soléaire surtout) pour les montées et la propulsion, moyen fessier pour la stabilité latérale du bassin sur appuis instables, chevilles pour la proprioception.
 
 Deux séances par semaine de 20 à 30 minutes suffisent pendant la phase de transition. Fentes bulgares, soulevés de terre roumains, mollets lourds en excentrique, travail unipodal sur coussin ou demi-sphère. Rien de spectaculaire. Juste régulier.
 
@@ -61,4 +61,4 @@ En cas de douleur persistante, notamment tendineuse, la consultation d'un profes
 
 La vraie leçon d'une transition route-trail réussie, c'est qu'elle oblige à désapprendre. Désapprendre la foulée unique, désapprendre le chrono comme seul juge, désapprendre la linéarité. Le trail récompense la lecture du terrain, la patience tissulaire, l'humilité de marcher quand il faut marcher.
 
-Beaucoup de coureurs route arrivent sur sentier en pensant qu'ils sont déjà prêts. Leur VO2max dit oui, leurs tendons disent non. Les six premiers mois sont un dialogue entre ces deux voix, et c'est le tendon qui a toujours raison. Accepter de régresser en volume pour progresser en qualité, c'est le contrat initial. Ceux qui le signent deviennent des traileurs. Les autres retournent sur route, parfois avec une tendinopathie en prime. Mieux vaut l'investissement patient que la facture médicale.
+Beaucoup de coureurs route arrivent sur sentier en pensant qu'ils sont déjà prêts. Leur VO2max dit oui, leurs tendons disent non. Les six premiers mois sont un dialogue entre ces deux voix et c'est le tendon qui a toujours raison. Accepter de régresser en volume pour progresser en qualité, c'est le contrat initial. Ceux qui le signent deviennent des traileurs. Les autres retournent sur route, parfois avec une tendinopathie en prime. Mieux vaut l'investissement patient que la facture médicale.

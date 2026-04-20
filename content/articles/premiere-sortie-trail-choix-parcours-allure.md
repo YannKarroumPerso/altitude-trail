@@ -11,9 +11,9 @@ image: "/articles/premiere-sortie-trail-choix-parcours-allure-hero.jpg"
 tags: ["Débuter", "Parcours", "Allure", "Progression"]
 ---
 
-Le trail n'est pas une version pentue de la course sur route. C'est un autre sport, avec ses propres règles, et la première sortie le fait comprendre en quelques centaines de mètres.
+Le trail n'est pas une version pentue de la course sur route. C'est un autre sport, avec ses propres règles et la première sortie le fait comprendre en quelques centaines de mètres.
 
-**Passer du bitume au sentier, c'est accepter un décalage immédiat : l'allure chute, le cœur grimpe, les appuis travaillent autrement. Pour un coureur route qui envisage son baptême en sentier, la bonne recette tient en quelques paramètres simples. Un parcours de 5 à 8 kilomètres, 150 à 300 mètres de dénivelé positif, un tracé balisé en forêt plutôt qu'une arête alpine, et une allure pilotée par la conversation plutôt que par la montre. Le reste, surtout l'envie de durer, découle de cette première discipline.**
+**Passer du bitume au sentier, c'est accepter un décalage immédiat : l'allure chute, le cœur grimpe, les appuis travaillent autrement. Pour un coureur route qui envisage son baptême en sentier, la bonne recette tient en quelques paramètres simples. Un parcours de 5 à 8 kilomètres, 150 à 300 mètres de dénivelé positif, un tracé balisé en forêt plutôt qu'une arête alpine et une allure pilotée par la conversation plutôt que par la montre. Le reste, surtout l'envie de durer, découle de cette première discipline.**
 
 ## Un premier parcours se choisit sur le terrain, pas sur la performance
 
@@ -23,11 +23,11 @@ Le bon terrain de début ressemble à ceci : une forêt proche de chez soi, des 
 
 ![Illustration Débuter](/articles/premiere-sortie-trail-choix-parcours-allure-1.jpg)
 
-Le dénivelé mérite une attention particulière. 150 à 300 mètres sur 6 à 8 kilomètres, c'est une pente moyenne digeste. Au-delà, la proportion de marche explose, et l'objectif initial — trouver un rythme, prendre du plaisir — s'effrite. On pourra doubler le D+ trois sorties plus tard, sans précipitation.
+Le dénivelé mérite une attention particulière. 150 à 300 mètres sur 6 à 8 kilomètres, c'est une pente moyenne digeste. Au-delà, la proportion de marche explose et l'objectif initial — trouver un rythme, prendre du plaisir — s'effrite. On pourra doubler le D+ trois sorties plus tard, sans précipitation.
 
 ## L'endurance fondamentale n'est pas une option, c'est le mode par défaut
 
-Le piège mental du coureur route en sentier, c'est la montre. On regarde le rythme au kilomètre, on voit 6'30, 7'00, parfois 8'00 en montée, et on accélère. C'est la porte d'entrée du cramage express, puis de l'abandon au tiers du parcours.
+Le piège mental du coureur route en sentier, c'est la montre. On regarde le rythme au kilomètre, on voit 6'30, 7'00, parfois 8'00 en montée et on accélère. C'est la porte d'entrée du cramage express, puis de l'abandon au tiers du parcours.
 
 La règle est simple et validée par la physiologie de l'endurance : en sortie découverte, on reste en zone 1-2, ce que les entraîneurs appellent endurance fondamentale. Le repère de terrain le plus fiable reste le test de la conversation. Si vous pouvez parler par phrases complètes sans halèter, vous êtes au bon endroit. Si vous répondez par monosyllabes, vous êtes déjà trop haut.
 
@@ -65,4 +65,4 @@ Concrètement, après trois ou quatre sorties à 6-8 kilomètres et 200 mètres 
 
 Le trail, contrairement à une idée tenace, n'est pas un sport d'exigence brute. C'est un sport d'humilité mesurable. La montre, le dénivelé, le terrain imposent une franchise que la route autorise à contourner. Courir en sentier sans accepter cette vérité, c'est se condamner à deux saisons d'enthousiasme suivies d'une blessure chronique.
 
-Le paradoxe assumé par Kilian Jornet depuis quinze ans, et repris par la nouvelle vague française autour de Ludovic Pommeret ou Clément Molliet, c'est que la performance en trail vient d'une gestion patiente bien plus que d'un moteur pur. Le débutant qui intègre cette logique dès sa première sortie de 7 kilomètres en forêt gagne plusieurs années de pratique sereine. Celui qui la refuse découvre le kinésithérapeute avant la deuxième course. Le baptême ne se joue pas sur le chrono. Il se joue sur la volonté de revenir.
+Le paradoxe assumé par Kilian Jornet depuis quinze ans et repris par la nouvelle vague française autour de Ludovic Pommeret ou Clément Molliet, c'est que la performance en trail vient d'une gestion patiente bien plus que d'un moteur pur. Le débutant qui intègre cette logique dès sa première sortie de 7 kilomètres en forêt gagne plusieurs années de pratique sereine. Celui qui la refuse découvre le kinésithérapeute avant la deuxième course. Le baptême ne se joue pas sur le chrono. Il se joue sur la volonté de revenir.

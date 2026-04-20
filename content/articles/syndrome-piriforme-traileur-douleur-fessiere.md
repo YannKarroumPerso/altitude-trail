@@ -35,9 +35,9 @@ Troisième facteur, le plus sournois : la sédentarité entre deux sorties. Huit
 
 ## Piriforme ou sciatique vraie : le diagnostic différentiel qui change tout
 
-C'est le nœud du problème. La sciatique radiculaire, liée à une hernie discale lombaire, et le syndrome du piriforme produisent des tableaux très proches : douleur fessière, irradiation dans la cuisse, parfois jusqu'au mollet. Les traitements, en revanche, divergent radicalement.
+C'est le nœud du problème. La sciatique radiculaire, liée à une hernie discale lombaire et le syndrome du piriforme produisent des tableaux très proches : douleur fessière, irradiation dans la cuisse, parfois jusqu'au mollet. Les traitements, en revanche, divergent radicalement.
 
-Quelques repères cliniques orientent. La douleur du piriforme est typiquement fessière profonde, centrée sur un point précis à mi-chemin entre le sacrum et le trochanter. Elle s'aggrave en position assise prolongée, notamment sur surface dure, et se réveille en descente. Elle ne dépasse que rarement le genou, et les troubles neurologiques objectifs (déficit moteur, abolition des réflexes) sont absents.
+Quelques repères cliniques orientent. La douleur du piriforme est typiquement fessière profonde, centrée sur un point précis à mi-chemin entre le sacrum et le trochanter. Elle s'aggrave en position assise prolongée, notamment sur surface dure et se réveille en descente. Elle ne dépasse que rarement le genou et les troubles neurologiques objectifs (déficit moteur, abolition des réflexes) sont absents.
 
 Le test de FAIR (Flexion, Adduction, Internal Rotation), décrit dans la littérature orthopédique depuis les années 1990, reproduit la douleur en mettant le piriforme en tension maximale : patient allongé sur le côté sain, hanche fléchie à 60°, adduction et rotation interne forcées. Une étude de référence publiée dans le domaine de la médecine physique a établi sa sensibilité autour de 0,8 lorsqu'il est couplé à un test d'électromyographie avec mesure du réflexe H.
 
@@ -51,7 +51,7 @@ Dans tous les cas, ce travail diagnostique relève du médecin du sport ou du ne
 
 La prise en charge de première intention est conservatrice et obtient de bons résultats dans trois cas sur quatre, selon les revues systématiques parues ces dernières années en médecine physique.
 
-Le trépied de base : étirements ciblés du piriforme (figure-4, variante pigeon du yoga, étirement en décubitus dorsal), massages profonds transverses au niveau du point gâchette par un kinésithérapeute expérimenté, et rééducation active du moyen fessier. L'automassage à la balle de tennis, très utilisé par les traileurs, fonctionne en complément mais ne remplace pas une main experte.
+Le trépied de base : étirements ciblés du piriforme (figure-4, variante pigeon du yoga, étirement en décubitus dorsal), massages profonds transverses au niveau du point gâchette par un kinésithérapeute expérimenté et rééducation active du moyen fessier. L'automassage à la balle de tennis, très utilisé par les traileurs, fonctionne en complément mais ne remplace pas une main experte.
 
 Les anti-inflammatoires non stéroïdiens peuvent être prescrits sur des phases courtes par un médecin. L'infiltration écho-guidée de corticoïdes ou de toxine botulique intervient en seconde intention, après échec d'au moins six à huit semaines de traitement conservateur bien conduit. La chirurgie de libération du piriforme reste exceptionnelle.
 

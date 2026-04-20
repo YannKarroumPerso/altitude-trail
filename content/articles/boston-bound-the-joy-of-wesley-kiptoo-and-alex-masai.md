@@ -22,7 +22,7 @@ rewrittenAt: '2026-04-20'
 ---
 Deux Kényans, une équipe américaine, une ligne de départ à Hopkinton. L'histoire paraît balisée. Elle ne l'est pas.
 
-Alex Masai et Wesley Kiptoo ne sont pas frères, mais partagent une foulée, une équipe et une cible : le marathon de Boston 2026. Tous deux coureurs de la HOKA Northern Arizona Elite, basés à Flagstaff, à 2 100 mètres d'altitude, ils préparent l'épreuve sous la houlette du coach Jack Mullaney. Leurs trajectoires, racontées par iRunFar dans un long reportage publié sur place fin mars, disent autre chose qu'une success story kényane standard. Elles parlent d'un modèle d'entraînement, d'une industrie de la chaussure qui cible Boston comme un laboratoire, et d'une amitié qui tient l'ensemble debout.
+Alex Masai et Wesley Kiptoo ne sont pas frères, mais partagent une foulée, une équipe et une cible : le marathon de Boston 2026. Tous deux coureurs de la HOKA Northern Arizona Elite, basés à Flagstaff, à 2 100 mètres d'altitude, ils préparent l'épreuve sous la houlette du coach Jack Mullaney. Leurs trajectoires, racontées par iRunFar dans un long reportage publié sur place fin mars, disent autre chose qu'une success story kényane standard. Elles parlent d'un modèle d'entraînement, d'une industrie de la chaussure qui cible Boston comme un laboratoire et d'une amitié qui tient l'ensemble debout.
 
 ## Lake Mary Road, répétition générale pour Boston
 
@@ -30,7 +30,7 @@ Fin mars, ciel gris, vent coupant. iRunFar retrouve la troupe de NAZ Elite au Mi
 
 ![Illustration Courses & Récits](/articles/wesley-kiptoo-et-alex-masai-deux-kenyans-un-reve-de-boston-1.jpg)
 
-Autour d'eux : le Sud-Africain Adrian Wildschutt, dixième du 10 000 m à Paris 2024, et l'Américaine Paige Wood, championne nationale du marathon 2022. La densité du groupe dit beaucoup du statut actuel de NAZ Elite, sponsorisée par HOKA depuis 2015, un an après sa création. L'équipe est devenue une référence du running américain : titres nationaux en série, top 10 sur les Majors.
+Autour d'eux : le Sud-Africain Adrian Wildschutt, dixième du 10 000 m à Paris 2024 et l'Américaine Paige Wood, championne nationale du marathon 2022. La densité du groupe dit beaucoup du statut actuel de NAZ Elite, sponsorisée par HOKA depuis 2015, un an après sa création. L'équipe est devenue une référence du running américain : titres nationaux en série, top 10 sur les Majors.
 
 ## Le fartlek qui en dit long
 
@@ -42,7 +42,7 @@ La phrase résume la méthode. Là où beaucoup d'élites kényans s'entraînent
 
 ## Deux personnalités, une méthode individualisée
 
-Mullaney entraîne les deux Kényans depuis l'automne 2023. À iRunFar, il décrit Masai comme un introverti qui vit pour courir, manger, récupérer, dormir — un athlète qui comprend la logique globale de la préparation et tient ses allures à la seconde près. Kiptoo est son inverse : un extraverti qui se nourrit du contact humain, équilibré par ses deux enfants de quatre et cinq ans, et qui transforme volontiers une séance en course. « Kiptoo est un grand enfant, dit Mullaney au média américain. Et je le dis avec tendresse. »
+Mullaney entraîne les deux Kényans depuis l'automne 2023. À iRunFar, il décrit Masai comme un introverti qui vit pour courir, manger, récupérer, dormir — un athlète qui comprend la logique globale de la préparation et tient ses allures à la seconde près. Kiptoo est son inverse : un extraverti qui se nourrit du contact humain, équilibré par ses deux enfants de quatre et cinq ans et qui transforme volontiers une séance en course. « Kiptoo est un grand enfant, dit Mullaney au média américain. Et je le dis avec tendresse. »
 
 Ce binôme dissymétrique est devenu un atout. Les deux s'élèvent mutuellement sans se copier. Pour préparer un marathon comme Boston, où la gestion du profil — départ en descente, Newton Hills entre les miles 16 et 21, descente finale vers Boylston Street — exige autant de sang-froid que de jambes, avoir dans le même groupe un tempérament calculateur et un compétiteur instinctif change la mécanique d'entraînement.
 

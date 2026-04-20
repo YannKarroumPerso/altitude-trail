@@ -24,7 +24,7 @@ rewrittenAt: '2026-04-20'
 ---
 9 993 candidatures pour 260 dossards. 0,4 % de chances pour un postulant débutant. La Western States 100 n'est plus une course, c'est un concours d'entrée dont personne ne sort admis.
 
-**La saison des loteries d'ultra vient de rendre son verdict, et les chiffres compilés par Trail Runner Mag ont de quoi faire ravaler leur enthousiasme aux candidats du tirage 2025. Western States et Hardrock ont livré leurs heureux élus le week-end dernier. High Lonesome, Zegama, Cascade Crest, Vermont 100, UTMB : les autres scrutins s'enchaînent jusqu'en janvier. Entre-temps, des dizaines de milliers de coureurs encaissent le mail de refus. Le signal est clair : l'ultra-trail est devenu un sport d'accès rationné, et la pénurie de dossards redessine les stratégies de saison, les trajectoires sportives, peut-être même le rapport que l'on entretient à la pratique.**
+**La saison des loteries d'ultra vient de rendre son verdict et les chiffres compilés par Trail Runner Mag ont de quoi faire ravaler leur enthousiasme aux candidats du tirage 2025. Western States et Hardrock ont livré leurs heureux élus le week-end dernier. High Lonesome, Zegama, Cascade Crest, Vermont 100, UTMB : les autres scrutins s'enchaînent jusqu'en janvier. Entre-temps, des dizaines de milliers de coureurs encaissent le mail de refus. Le signal est clair : l'ultra-trail est devenu un sport d'accès rationné et la pénurie de dossards redessine les stratégies de saison, les trajectoires sportives, peut-être même le rapport que l'on entretient à la pratique.**
 
 ## Quand entrer à Harvard devient statistiquement plus simple qu'à Squaw Valley
 
@@ -54,7 +54,7 @@ Deuxième voie, la plus empruntée : le plan B immédiat. Plusieurs qualificativ
 
 ## Le pari du retour au local
 
-Troisième voie, et c'est sans doute la plus intéressante pour qui s'intéresse à l'évolution du sport : rejouer la carte du local. Trail Runner Mag assume son pari éditorial — la course de terroir va revenir, comme sont revenues les marques indépendantes face aux géants. Deux exemples sont cités côté américain : Gnar Runners dans le Colorado, 603 Endurance dans le New Hampshire. Des organisateurs qui misent sur la logistique soignée, le barbecue d'arrivée, la bière partagée, et l'absence totale de logo de circuit mondial.
+Troisième voie et c'est sans doute la plus intéressante pour qui s'intéresse à l'évolution du sport : rejouer la carte du local. Trail Runner Mag assume son pari éditorial — la course de terroir va revenir, comme sont revenues les marques indépendantes face aux géants. Deux exemples sont cités côté américain : Gnar Runners dans le Colorado, 603 Endurance dans le New Hampshire. Des organisateurs qui misent sur la logistique soignée, le barbecue d'arrivée, la bière partagée et l'absence totale de logo de circuit mondial.
 
 La thèse vaut d'être transposée. Le trail français connaît la même dynamique : d'un côté, la massification UTMB et ses séries labellisées ; de l'autre, une multitude d'épreuves associatives, ancrées dans un massif, qui ne demandent ni stones ni tirage au sort. La Diagonale des Fous reste une loterie d'un autre genre — celle des 3 000 inscriptions vendues en quelques heures —, mais le tissu des courses locales du Mercantour, des Cévennes ou du Jura continue d'offrir ce que les grands circuits ne donnent plus : l'inscription comme acte simple.
 

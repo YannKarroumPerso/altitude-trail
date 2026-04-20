@@ -6,7 +6,7 @@ title: >-
   Sables et le Cape Wrath Trail
 excerpt: >-
   En l'espace d'une semaine, la communauté internationale du trail a perdu deux
-  des siens : Grégory, engagé sur la Legendary du Marathon des Sables au Maroc,
+  des siens : Grégory, engagé sur la Legendary du Marathon des Sables au Maroc
   et David Parrish, ancien Royal Marine parti à l'assaut d'un FKT sur les
   Highlands écossaises.
 category: Actualités
@@ -42,7 +42,7 @@ Selon le communiqué relayé par iRunFar, Grégory s'est effondré avant même l
 
 ## Ce que l'histoire du MDS dit du risque résiduel
 
-Le Marathon des Sables n'est pas une course sans précédent tragique. Mohamad Ahansal, Rachid El Morabity, Jornal Mousseb : les grandes figures du MDS racontent depuis longtemps des éditions où la chaleur a fait plier des organismes pourtant aguerris. Mais le format Legendary se distingue par son exigence logistique : 250 kilomètres cumulés, des températures qui peuvent dépasser 50 °C au sol, et ce paradoxe fondamental — on y meurt rarement pendant l'effort visible, mais dans les marges, la nuit, le petit matin, pendant la digestion, pendant le sommeil. Le moment du drame, 4 heures avant un départ d'étape, en dit assez.
+Le Marathon des Sables n'est pas une course sans précédent tragique. Mohamad Ahansal, Rachid El Morabity, Jornal Mousseb : les grandes figures du MDS racontent depuis longtemps des éditions où la chaleur a fait plier des organismes pourtant aguerris. Mais le format Legendary se distingue par son exigence logistique : 250 kilomètres cumulés, des températures qui peuvent dépasser 50 °C au sol et ce paradoxe fondamental — on y meurt rarement pendant l'effort visible, mais dans les marges, la nuit, le petit matin, pendant la digestion, pendant le sommeil. Le moment du drame, 4 heures avant un départ d'étape, en dit assez.
 
 Aucun contrôle médical préalable, si rigoureux soit-il, ne prédit une décompensation cardiaque à 4 heures du matin au milieu du désert. Cette limite-là, le MDS la connaît depuis toujours. Elle fait partie du contrat tacite signé au moment de l'inscription.
 

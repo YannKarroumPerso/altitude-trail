@@ -31,7 +31,7 @@ Se présenter déshydraté sur un ultra est une faute. S'hyperhydrater dans les 
 
 La règle raisonnable : boire à sa soif, viser une urine jaune pâle (pas transparente), saler normalement son alimentation. Les protocoles de pré-charge sodée, populaires dans le triathlon longue distance, peuvent avoir un intérêt pour les gros sueurs ou les courses en forte chaleur, mais ils relèvent d'un accompagnement individualisé par un professionnel de santé ou un nutritionniste du sport. Pas d'improvisation la veille sur la base d'un post Instagram.
 
-L'erreur miroir, tout aussi répandue, consiste à restreindre les apports hydriques par crainte d'avoir à s'arrêter en course. Stratégie perdante : on arrive sur la ligne en déficit, et le corps met plusieurs heures à compenser.
+L'erreur miroir, tout aussi répandue, consiste à restreindre les apports hydriques par crainte d'avoir à s'arrêter en course. Stratégie perdante : on arrive sur la ligne en déficit et le corps met plusieurs heures à compenser.
 
 ## Alléger la digestion sans affamer le moteur
 
@@ -41,7 +41,7 @@ L'alcool mérite un paragraphe à lui seul. Au-delà de la déshydratation qu'il
 
 ![Illustration Nutrition](/articles/nutrition-avant-course-semaine-qui-precede-ultra-2.jpg)
 
-À la même échéance, on ne teste rien. Aucun nouvel aliment, aucun complément découvert sur le salon de la course, aucune marque de gel jamais essayée. La règle d'or des nutritionnistes du sport, relayée dans le manuel *Brukner and Khan* comme dans les formations fédérales : *nothing new on race day*, et même rien de nouveau la semaine qui précède.
+À la même échéance, on ne teste rien. Aucun nouvel aliment, aucun complément découvert sur le salon de la course, aucune marque de gel jamais essayée. La règle d'or des nutritionnistes du sport, relayée dans le manuel *Brukner and Khan* comme dans les formations fédérales : *nothing new on race day* et même rien de nouveau la semaine qui précède.
 
 ## Le dîner d'avant-course et le petit-déjeuner du jour J
 

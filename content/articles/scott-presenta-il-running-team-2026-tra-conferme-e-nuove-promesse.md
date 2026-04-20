@@ -22,7 +22,7 @@ rewrittenAt: '2026-04-20'
 ---
 Six noms, une philosophie. SCOTT Running a dévoilé sa roster 2026 et le message est limpide : on ne recrute pas pour briller sur un communiqué, on construit sur la durée. Dans un marché trail saturé de transferts spectaculaires, la marque helvétique assume une ligne à contre-courant.
 
-L'équipe présentée mi-avril depuis Bergame, telle que détaillée par Corsa in Montagna, mêle quatre cadres — Mattia Tanara, Mattia Gianola, Daniela Rota, Roberta Jacquin — et deux arrivées fortes : Marcello Ugazio, recrue de l'année spécialiste du kilomètre vertical, et Francesco Gianola, né en 2008, promu depuis le programme interne Future Pro. Le team manager italien Mario Poletti résume la feuille de route : « Nous ne construisons pas seulement une équipe, nous construisons un parcours. » Le positionnement est clair : skyrunning, vertical, course en montagne.
+L'équipe présentée mi-avril depuis Bergame, telle que détaillée par Corsa in Montagna, mêle quatre cadres — Mattia Tanara, Mattia Gianola, Daniela Rota, Roberta Jacquin — et deux arrivées fortes : Marcello Ugazio, recrue de l'année spécialiste du kilomètre vertical et Francesco Gianola, né en 2008, promu depuis le programme interne Future Pro. Le team manager italien Mario Poletti résume la feuille de route : « Nous ne construisons pas seulement une équipe, nous construisons un parcours. » Le positionnement est clair : skyrunning, vertical, course en montagne.
 
 ## La fabrique interne comme argument stratégique
 
@@ -32,7 +32,7 @@ Le contraste est saisissant avec la tendance dominante de l'écosystème. Depuis
 
 ![Illustration Actualités](/articles/scott-running-team-2026-la-releve-frappe-a-la-porte-1.jpg)
 
-Poletti, cité par Corsa in Montagna, assume la dimension éducative : « Nous voulons être une référence pour ces jeunes, dans les courses comme en dehors. » Formule à double tranchant. Soit elle tient, et c'est un modèle. Soit elle reste slogan, et l'équipe finira par se diluer dans le peloton du circuit transalpin.
+Poletti, cité par Corsa in Montagna, assume la dimension éducative : « Nous voulons être une référence pour ces jeunes, dans les courses comme en dehors. » Formule à double tranchant. Soit elle tient et c'est un modèle. Soit elle reste slogan et l'équipe finira par se diluer dans le peloton du circuit transalpin.
 
 ## Ugazio, la signature qui dit tout du créneau
 
@@ -54,7 +54,7 @@ Aucun de ces quatre profils ne provoque de frisson médiatique. Mais c'est préc
 
 ## Ce que dit la gamme RC sur l'équipement en 2026
 
-Le volet matériel mérite d'être lu avec la même grille. Pour 2026, Corsa in Montagna indique que les athlètes seront équipés de la gamme SCOTT RC Running — performance, légèreté, respirabilité — pour la compétition, et de la nouvelle collection Kinabalu pour les volumes d'entraînement et les sorties longues.
+Le volet matériel mérite d'être lu avec la même grille. Pour 2026, Corsa in Montagna indique que les athlètes seront équipés de la gamme SCOTT RC Running — performance, légèreté, respirabilité — pour la compétition et de la nouvelle collection Kinabalu pour les volumes d'entraînement et les sorties longues.
 
 Là encore, la segmentation est typée. Le RC, c'est l'arme de course sur terrain sec et technique, pensée pour la réactivité. Le Kinabalu, c'est la chaussure qui encaisse les blocs de 20 heures hebdomadaires, l'amorti et la durabilité. Ce couple produit dessine en creux le profil type du coureur SCOTT : volumes élevés en montagne, courses courtes à moyennes, verticalité marquée. On est loin de la plateforme ultra à énorme drop et semelle carbone qui domine le récit Western States ou UTMB.
 

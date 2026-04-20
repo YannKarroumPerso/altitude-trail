@@ -13,7 +13,7 @@ tags: ["Électrolytes", "Sodium", "Chaleur", "Hydratation"]
 
 Un ultra perdu à la ligne d'arrivée ne l'est presque jamais sur les glucides. C'est le sel, discrètement, qui fait basculer les fins de course par forte chaleur.
 
-Entre 1 et 1,5 litre de sueur par heure, 0,5 à 1,5 gramme de sodium perdu par litre, et un organisme qui tolère mal à la fois la déshydratation et son contraire : la gestion électrolytique reste l'angle mort de beaucoup de plans nutritionnels en trail. Les recommandations convergent vers 500 à 1000 mg de sodium par heure sur effort long et chaud, mais le dosage individuel dépend d'un profil sudoral rarement mesuré. Tour d'horizon analytique de trois minéraux — sodium, potassium, magnésium — et des erreurs qui coûtent cher après huit heures de course.
+Entre 1 et 1,5 litre de sueur par heure, 0,5 à 1,5 gramme de sodium perdu par litre et un organisme qui tolère mal à la fois la déshydratation et son contraire : la gestion électrolytique reste l'angle mort de beaucoup de plans nutritionnels en trail. Les recommandations convergent vers 500 à 1000 mg de sodium par heure sur effort long et chaud, mais le dosage individuel dépend d'un profil sudoral rarement mesuré. Tour d'horizon analytique de trois minéraux — sodium, potassium, magnésium — et des erreurs qui coûtent cher après huit heures de course.
 
 ## Pourquoi le sodium décide de la fin de course
 
@@ -21,7 +21,7 @@ Le sodium n'est pas un simple additif gustatif. C'est le cation extracellulaire 
 
 ![Illustration Nutrition](/articles/sels-electrolytes-trail-dosage-chaleur-effort-long-1.jpg)
 
-La mécanique est contre-intuitive. Ce n'est pas le coureur qui boit peu qui s'effondre en premier, mais souvent celui qui boit beaucoup sans apport salin suffisant. L'eau dilue le milieu intérieur, les cellules gonflent, et le cerveau paie la facture : nausées, confusion, désorientation, parfois pire.
+La mécanique est contre-intuitive. Ce n'est pas le coureur qui boit peu qui s'effondre en premier, mais souvent celui qui boit beaucoup sans apport salin suffisant. L'eau dilue le milieu intérieur, les cellules gonflent et le cerveau paie la facture : nausées, confusion, désorientation, parfois pire.
 
 À l'inverse, un déficit sodé modéré — sans surhydratation — se traduit par des crampes tardives, une baisse de puissance et cette impression de jambes mortes sur les derniers kilomètres. Deux pathologies, une seule molécule en cause.
 

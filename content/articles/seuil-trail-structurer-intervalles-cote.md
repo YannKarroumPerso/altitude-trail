@@ -15,7 +15,7 @@ Le seuil, en trail, n'est pas une allure. C'est une zone physiologique qu'il fau
 
 **Le seuil structure la performance en endurance depuis quarante ans de recherche en physiologie. Travail autour du deuxième seuil lactique (SL2) ou du deuxième seuil ventilatoire (SV2), c'est la pierre angulaire des plans d'entraînement en course sur route, en cyclisme, en aviron. En trail, le principe tient. Mais il doit s'adapter à une variable massive : le dénivelé. Fréquence cardiaque décalée, recrutement musculaire différent, descentes à gérer comme une récupération active. Voici comment structurer intelligemment ses séances de seuil en côte, à raison d'une par semaine, sans empiler les erreurs classiques.**
 
-## Ce que recouvre vraiment le seuil, et pourquoi la montée change la donne
+## Ce que recouvre vraiment le seuil et pourquoi la montée change la donne
 
 Le terme "seuil" masque deux réalités distinctes. Le seuil lactique 2 (SL2), parfois appelé MLSS dans la littérature, correspond à la puissance maximale soutenable sans dérive progressive de la lactatémie, en général autour de 4 mmol/L selon les manuels de référence type Brukner and Khan. Le seuil ventilatoire 2 (SV2), lui, se détecte par l'inflexion de la ventilation lors d'un test d'effort. Les deux sont proches, souvent confondus à l'usage, mais ils ne sont pas interchangeables.
 
@@ -31,9 +31,9 @@ La fréquence cardiaque sert de garde-fou, pas de juge. Si vous connaissez votre
 
 ## Choisir la pente selon l'objectif de la séance
 
-Toutes les côtes ne produisent pas le même travail. Entre 5 et 10 %, la pente reste courable, la foulée garde une logique de course, et le système cardio-respiratoire est le facteur limitant dominant. C'est le terrain idéal des formats type fractionné long : 6 × 3 minutes, 4 × 5 minutes, 3 × 8 minutes. La récupération se fait en descente active, jogging souple, même durée ou un poil plus court.
+Toutes les côtes ne produisent pas le même travail. Entre 5 et 10 %, la pente reste courable, la foulée garde une logique de course et le système cardio-respiratoire est le facteur limitant dominant. C'est le terrain idéal des formats type fractionné long : 6 × 3 minutes, 4 × 5 minutes, 3 × 8 minutes. La récupération se fait en descente active, jogging souple, même durée ou un poil plus court.
 
-Au-delà de 10-12 %, la biomécanique bascule. La foulée raccourcit, le travail devient musculaire avant d'être cardiaque, et la séance glisse naturellement vers la force-endurance ou la force-vitesse. Ces pentes-là ne sont pas la bonne adresse pour du vrai seuil continu : elles produisent un effort plus segmentaire, utile mais différent. Les formats courts, 30/30 ou 1 minute / 1 minute, y trouvent leur place pour travailler la VMA ascensionnelle, distincte du seuil.
+Au-delà de 10-12 %, la biomécanique bascule. La foulée raccourcit, le travail devient musculaire avant d'être cardiaque et la séance glisse naturellement vers la force-endurance ou la force-vitesse. Ces pentes-là ne sont pas la bonne adresse pour du vrai seuil continu : elles produisent un effort plus segmentaire, utile mais différent. Les formats courts, 30/30 ou 1 minute / 1 minute, y trouvent leur place pour travailler la VMA ascensionnelle, distincte du seuil.
 
 ![Illustration Entraînement & Performances](/articles/seuil-trail-structurer-intervalles-cote-2.jpg)
 
@@ -49,7 +49,7 @@ Le 3 × 8 minutes demande une maturité d'entraînement supérieure. Mentalement
 
 ## Les erreurs qui plombent la séance
 
-Partir trop vite sur les deux premières répétitions reste l'écueil numéro un. La physiologie du seuil punit immédiatement l'excès : les dernières reps deviennent ingérables, la qualité totale s'effondre, et l'adaptation visée n'a pas lieu. Règle simple : la rep 1 doit sembler trop facile pendant les 90 premières secondes.
+Partir trop vite sur les deux premières répétitions reste l'écueil numéro un. La physiologie du seuil punit immédiatement l'excès : les dernières reps deviennent ingérables, la qualité totale s'effondre et l'adaptation visée n'a pas lieu. Règle simple : la rep 1 doit sembler trop facile pendant les 90 premières secondes.
 
 Second piège : négliger la descente. Beaucoup la courent trop vite, transformant la récupération en séance de traumatisme excentrique. La descente active doit être un jogging souple, sur les bons appuis, fréquence cardiaque en chute nette. Si vous arrivez en bas plus essoufflé qu'en haut, vous cassez la séance suivante.
 

@@ -25,7 +25,7 @@ sourceUrl: >-
   https://www.corsainmontagna.it/2026/04/19/colmen-trail-2026-la-montagna-magica-che-domina-morbegno-regala-sempre-grandi-emozioni/
 rewrittenAt: '2026-04-20'
 ---
-Treize éditions, et la même équation qui se vérifie : quand Alice Gaggi court chez elle, le reste du plateau féminin joue pour la deuxième place. Quand Lorenzo Rota Martir trouve ses marques dès les premiers hectomètres, la CT22 se transforme en contre-la-montre à un coureur. La Colmen Trail 2026 n'a pas dérogé à sa grammaire.
+Treize éditions et la même équation qui se vérifie : quand Alice Gaggi court chez elle, le reste du plateau féminin joue pour la deuxième place. Quand Lorenzo Rota Martir trouve ses marques dès les premiers hectomètres, la CT22 se transforme en contre-la-montre à un coureur. La Colmen Trail 2026 n'a pas dérogé à sa grammaire.
 
 Orchestrée par le Team Valtellina au-dessus de Morbegno, la treizième édition de la Colmen Trail a réuni plus de 500 coureurs sur deux formats, 22 km et 1 320 m D+ pour la CT22, 12 km et 600 m D+ pour la CT12. Comme le rapporte Corsa in Montagna, Lorenzo Rota Martir (US Malonno – La Sportiva) s'est imposé en 1h50'58", Alice Gaggi (Recastello – Brooks) en 2h15'46". Travaux à la Colonia Fluviale obligent, départ et arrivée ont été déplacés au Polo Fieristico. La montagne, elle, n'a pas bougé. Les hiérarchies non plus.
 

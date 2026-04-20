@@ -21,7 +21,7 @@ Les bulletins de Météo France et de MeteoSwiss convergeaient depuis 48 heures 
 
 ![Illustration Courses & Récits](/articles/tds-2024-meteo-course-bouleversee-recit-1.jpg)
 
-Le maintien du départ, décidé en fin d'après-midi, reposait sur un calcul classique en organisation d'ultra : couper vaut mieux qu'annuler. La promesse implicite faite aux 1 900 coureurs alignés à Courmayeur était claire. Le tracé serait ajusté en temps réel, et la sécurité primerait sur le sportif. Cette promesse a été tenue, parfois brutalement.
+Le maintien du départ, décidé en fin d'après-midi, reposait sur un calcul classique en organisation d'ultra : couper vaut mieux qu'annuler. La promesse implicite faite aux 1 900 coureurs alignés à Courmayeur était claire. Le tracé serait ajusté en temps réel et la sécurité primerait sur le sportif. Cette promesse a été tenue, parfois brutalement.
 
 ## Le déroutage de la Gittaz et la bascule au col de la Seigne
 

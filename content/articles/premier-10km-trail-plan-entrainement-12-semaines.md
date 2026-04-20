@@ -13,7 +13,7 @@ tags: ["Plan d'entraînement", "Débuter", "10 km", "Objectif"]
 
 Douze semaines. Quatre-vingt-quatre jours pour transformer un coureur de route occasionnel, un randonneur curieux ou un débutant motivé en finisher d'un premier 10 km de trail. Ni magie, ni raccourci : une structure.
 
-Le format court du trail — 10 à 15 kilomètres, généralement 300 à 600 mètres de dénivelé positif — reste la porte d'entrée la plus lucide vers la discipline. Moins traumatisant qu'un marathon, plus exigeant qu'un 10 km route à cause du dénivelé et du terrain, il demande une préparation spécifique que beaucoup négligent. Ce plan s'articule autour de quatre séances hebdomadaires, une règle de progression de 10 % par semaine validée par la littérature en traumatologie sportive, et trois phases distinctes. Objectif : arriver sur la ligne de départ entraîné, pas cramé.
+Le format court du trail — 10 à 15 kilomètres, généralement 300 à 600 mètres de dénivelé positif — reste la porte d'entrée la plus lucide vers la discipline. Moins traumatisant qu'un marathon, plus exigeant qu'un 10 km route à cause du dénivelé et du terrain, il demande une préparation spécifique que beaucoup négligent. Ce plan s'articule autour de quatre séances hebdomadaires, une règle de progression de 10 % par semaine validée par la littérature en traumatologie sportive et trois phases distinctes. Objectif : arriver sur la ligne de départ entraîné, pas cramé.
 
 ## Pourquoi 12 semaines, ni plus ni moins
 

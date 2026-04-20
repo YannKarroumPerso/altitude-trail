@@ -13,7 +13,7 @@ tags: ["Descente", "Excentrique", "Renforcement", "Quadriceps"]
 
 Kilomètre 150 de la CCC, descente finale sur Chamonix. Le cardio tient, la tête aussi. Ce sont les quadriceps qui refusent d'amortir le prochain pas. Cette scène n'est pas une fatalité : c'est un déficit d'entraînement spécifique.
 
-Les dix derniers kilomètres d'un ultra se jouent rarement sur le souffle. Ils se jouent sur la capacité musculaire à encaisser la descente. La contraction excentrique — muscle allongé sous tension — provoque des micro-lésions des sarcomères nettement plus marquées qu'en travail concentrique, un déficit fonctionnel de 50 à 80 % pendant cinq à sept jours sur le quadriceps, et des courbatures retardées à 24-48 heures. La littérature en physiologie du sport documente ces mécanismes depuis trente ans. L'entraînement du trailer, lui, les ignore encore trop souvent.
+Les dix derniers kilomètres d'un ultra se jouent rarement sur le souffle. Ils se jouent sur la capacité musculaire à encaisser la descente. La contraction excentrique — muscle allongé sous tension — provoque des micro-lésions des sarcomères nettement plus marquées qu'en travail concentrique, un déficit fonctionnel de 50 à 80 % pendant cinq à sept jours sur le quadriceps et des courbatures retardées à 24-48 heures. La littérature en physiologie du sport documente ces mécanismes depuis trente ans. L'entraînement du trailer, lui, les ignore encore trop souvent.
 
 ## Le muscle qui freine se détruit plus que le muscle qui pousse
 

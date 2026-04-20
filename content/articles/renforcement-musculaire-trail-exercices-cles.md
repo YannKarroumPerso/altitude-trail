@@ -27,7 +27,7 @@ Kilian Jornet et François D'Haene l'ont intégré depuis longtemps dans leur pr
 
 ## La chaîne postérieure, grande oubliée du traileur français
 
-La culture française du trail reste marquée par un biais aérobie. On parle VMA, seuil, dénivelé cumulé — rarement force maximale ou asymétrie de force. Résultat : des coureurs avec des ischio-jambiers sous-développés, des moyens fessiers paresseux, et des soléaires incapables de soutenir une foulée économique après six heures.
+La culture française du trail reste marquée par un biais aérobie. On parle VMA, seuil, dénivelé cumulé — rarement force maximale ou asymétrie de force. Résultat : des coureurs avec des ischio-jambiers sous-développés, des moyens fessiers paresseux et des soléaires incapables de soutenir une foulée économique après six heures.
 
 Deux exercices règlent 80 % du problème. Le squat bulgare, d'abord, qui place l'essentiel de la charge sur une jambe et expose immédiatement les déséquilibres droite-gauche — fréquents chez le traileur qui a couru mille fois le même sentier dans le même sens. Charge progressive sur 6 à 8 répétitions, 3 à 4 séries, en cherchant une amplitude complète et un contrôle descendant lent.
 
@@ -35,13 +35,13 @@ Le soulevé de terre roumain unilatéral ensuite, qui cible les ischios et le mo
 
 ## Mollets et pieds : le maillon que tout le monde néglige
 
-La puissance du mollet, et plus précisément du soléaire, conditionne directement la rigidité du renvoi à chaque foulée. Les travaux récents sur les coureurs d'endurance suggèrent que le soléaire encaisse jusqu'à six à huit fois le poids du corps à chaque appui en descente. Un soléaire faible, c'est une foulée qui s'écrase, un tendon d'Achille surchargé, et la porte ouverte aux tendinopathies.
+La puissance du mollet et plus précisément du soléaire, conditionne directement la rigidité du renvoi à chaque foulée. Les travaux récents sur les coureurs d'endurance suggèrent que le soléaire encaisse jusqu'à six à huit fois le poids du corps à chaque appui en descente. Un soléaire faible, c'est une foulée qui s'écrase, un tendon d'Achille surchargé et la porte ouverte aux tendinopathies.
 
 ![Illustration Entraînement & Performances](/articles/renforcement-musculaire-trail-exercices-cles-2.jpg)
 
 Le calf raise excentrique en descente de marche règle ce point. Montée sur deux jambes, descente lente sur une seule, sur trois à cinq secondes, amplitude maximale talon sous le niveau de la marche. 3 séries de 12 à 15 répétitions par jambe suffisent. C'est aussi, selon les recommandations de rééducation utilisées dans les manuels de médecine du sport type Brukner and Khan, le protocole de référence pour la prévention et la prise en charge des tendinopathies d'Achille — à adapter évidemment avec un professionnel de santé en cas de douleur.
 
-L'élévation unilatérale sur marche haute complète le tableau en travaillant simultanément le quadriceps en extension complète, le moyen fessier stabilisateur, et le pied proprioceptif. À faire lentement, sans élan, sans triche.
+L'élévation unilatérale sur marche haute complète le tableau en travaillant simultanément le quadriceps en extension complète, le moyen fessier stabilisateur et le pied proprioceptif. À faire lentement, sans élan, sans triche.
 
 ## Gainage fonctionnel : oublier les 200 abdos du dimanche
 

@@ -37,7 +37,7 @@ Le troisième, la dépendance aux sponsors. L'alliance structurelle entre UTMB G
 
 ## La réponse d'UTMB Group : pédagogie plutôt que réforme
 
-Face à cette contestation, l'organisation a multiplié les communications explicatives sans engager, à ce stade, de réforme profonde du modèle. Les réponses publiques d'UTMB Group insistent sur la logique d'un circuit mondial, la nécessité de garantir des plateaux équilibrés, l'existence d'un comité sportif interne, et la volonté d'accompagner la professionnalisation de la discipline.
+Face à cette contestation, l'organisation a multiplié les communications explicatives sans engager, à ce stade, de réforme profonde du modèle. Les réponses publiques d'UTMB Group insistent sur la logique d'un circuit mondial, la nécessité de garantir des plateaux équilibrés, l'existence d'un comité sportif interne et la volonté d'accompagner la professionnalisation de la discipline.
 
 ![Illustration Actualités](/articles/utmb-wildcards-elites-protestation-systeme-2.jpg)
 

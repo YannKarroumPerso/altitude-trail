@@ -2,7 +2,7 @@
 slug: bob-yates-1-030-miles-a-travers-le-royaume-uni-pour-feter-ses-60-ans
 title: 'Bob Yates : 1 030 miles à travers le Royaume-Uni pour fêter ses 60 ans'
 excerpt: >-
-  Cinq semaines, l'équivalent d'un ultra par jour, et plus de 5 000 livres
+  Cinq semaines, l'équivalent d'un ultra par jour et plus de 5 000 livres
   récoltées pour une association humanitaire : récit d'une traversée hors norme
   de Land's End à John O'Groats.
 category: Courses & Récits
@@ -24,11 +24,11 @@ rewrittenAt: '2026-04-20'
 ---
 Traverser la Grande-Bretagne d'une pointe à l'autre, à la course, sans temps de repos, à soixante ans. L'exploit de Bob Yates tient moins du record que du manifeste. Celui d'une génération d'ultra-runners tardifs qui réécrit, à bas bruit, ce qu'on pensait savoir du vieillissement sportif.
 
-Le 4 juillet, le Britannique a bouclé à John O'Groats, pointe nord de l'Écosse, les 1 030 miles — soit plus de 1 650 kilomètres — qui le séparaient de Land's End, tout au sud de la Cornouailles. Trente-cinq jours de course, près de 47 kilomètres par jour en moyenne, l'équivalent d'un ultra quotidien pendant cinq semaines. Le tout pour ses soixante ans, et pour lever plus de 5 000 livres au profit d'Humanity Direct, ONG qui finance des opérations chirurgicales pédiatriques en Ouganda. Son récit, rapporté par Ultrarunning World, raconte surtout une trajectoire improbable : celle d'un sédentaire de bureau devenu, en six ans, finisher d'un des défis d'endurance les plus redoutés du Royaume-Uni.
+Le 4 juillet, le Britannique a bouclé à John O'Groats, pointe nord de l'Écosse, les 1 030 miles — soit plus de 1 650 kilomètres — qui le séparaient de Land's End, tout au sud de la Cornouailles. Trente-cinq jours de course, près de 47 kilomètres par jour en moyenne, l'équivalent d'un ultra quotidien pendant cinq semaines. Le tout pour ses soixante ans et pour lever plus de 5 000 livres au profit d'Humanity Direct, ONG qui finance des opérations chirurgicales pédiatriques en Ouganda. Son récit, rapporté par Ultrarunning World, raconte surtout une trajectoire improbable : celle d'un sédentaire de bureau devenu, en six ans, finisher d'un des défis d'endurance les plus redoutés du Royaume-Uni.
 
 ## Le LEJOG, ce mythe insulaire que peu achèvent à pied
 
-Land's End to John O'Groats. Trois mots, un acronyme, et une obsession nationale. Le LEJOG est au Royaume-Uni ce que la traversée des Pyrénées est aux randonneurs français, en plus long et en plus brut : la diagonale intégrale de l'île, du cap extrême sud-ouest au cap extrême nord-est. Des milliers de Britanniques la tentent chaque année. En vélo, surtout. En voiture. En van. Très peu à pied, encore moins en courant.
+Land's End to John O'Groats. Trois mots, un acronyme et une obsession nationale. Le LEJOG est au Royaume-Uni ce que la traversée des Pyrénées est aux randonneurs français, en plus long et en plus brut : la diagonale intégrale de l'île, du cap extrême sud-ouest au cap extrême nord-est. Des milliers de Britanniques la tentent chaque année. En vélo, surtout. En voiture. En van. Très peu à pied, encore moins en courant.
 
 ![Illustration Courses & Récits](/articles/bob-yates-1-030-miles-a-travers-le-royaume-uni-pour-feter-ses-60-ans-1.jpg)
 
@@ -64,4 +64,4 @@ Ce volet caritatif n'est pas anecdotique : il s'inscrit dans une tradition brita
 
 Ce que révèle, en creux, la performance de Bob Yates, c'est une mutation sociologique du trail et de l'ultra qu'on peine encore à nommer. L'image dominante — jeune athlète shaperisé, sponsor sur la casquette, strava-addict — est minoritaire dans la pratique réelle. La majorité silencieuse, ce sont des quinquas, des sexagénaires, des anciens sédentaires qui découvrent tard leur capacité d'endurance et l'exploitent sans attendre quoi que ce soit en retour.
 
-On a tendance, dans la presse spécialisée, à faire tourner la machine sur les vainqueurs d'UTMB et de Western States. C'est normal, c'est le sport de haut niveau. Mais l'ultra n'est pas d'abord ça. L'ultra, c'est Bob Yates qui, à soixante ans, traverse son île en courant parce qu'il a décidé qu'il en était capable, et parce que cela permettrait d'opérer quelques enfants ougandais au passage. Cette version du sport — modeste, longue, orientée vers autre chose que soi — mérite autant, sinon davantage, qu'on en parle. Elle raconte quelque chose de la discipline que les podiums ne disent plus.
+On a tendance, dans la presse spécialisée, à faire tourner la machine sur les vainqueurs d'UTMB et de Western States. C'est normal, c'est le sport de haut niveau. Mais l'ultra n'est pas d'abord ça. L'ultra, c'est Bob Yates qui, à soixante ans, traverse son île en courant parce qu'il a décidé qu'il en était capable et parce que cela permettrait d'opérer quelques enfants ougandais au passage. Cette version du sport — modeste, longue, orientée vers autre chose que soi — mérite autant, sinon davantage, qu'on en parle. Elle raconte quelque chose de la discipline que les podiums ne disent plus.

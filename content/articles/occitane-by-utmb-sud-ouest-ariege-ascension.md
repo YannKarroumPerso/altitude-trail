@@ -21,7 +21,7 @@ Avant 2022, le sud-ouest français avait ses pépites — la Saintélyon côté 
 
 ![Illustration Courses & Récits](/articles/occitane-by-utmb-sud-ouest-ariege-ascension-1.jpg)
 
-L'Occitane a occupé ce vide stratégique. Ax-les-Thermes offre un triple atout : une altitude modérée favorable aux coureurs non-acclimatés, un massif haut (Pic de Tarbésou, vallée d'Orlu, plateau de Beille) qui autorise le vrai engagement montagne, et une accessibilité logistique via Toulouse à deux heures de route. Dans un marché saturé côté alpin, ce différentiel comptait.
+L'Occitane a occupé ce vide stratégique. Ax-les-Thermes offre un triple atout : une altitude modérée favorable aux coureurs non-acclimatés, un massif haut (Pic de Tarbésou, vallée d'Orlu, plateau de Beille) qui autorise le vrai engagement montagne et une accessibilité logistique via Toulouse à deux heures de route. Dans un marché saturé côté alpin, ce différentiel comptait.
 
 ## L'effet World Series, ou la mécanique d'accélération
 
@@ -53,4 +53,4 @@ L'Occitane agit comme accélérateur. Elle rend crédible l'idée qu'une course 
 
 ## Une ascension qui interroge autant qu'elle impressionne
 
-L'Occitane by UTMB a gagné son pari initial : exister, vite. La question qui se pose désormais est celle de la durée. Les courses labellisées World Series grandissent vite mais se ressemblent parfois dangereusement, et l'appétit commercial du modèle global interroge sur la capacité des organisateurs locaux à préserver une identité ariégeoise — la rudesse, l'humilité des villages traversés, la dimension thermale — face au formatage. Le vrai test n'est pas dans les chiffres de dossards de 2025 ou 2026. Il est dans ce que les coureurs raconteront, dix ans après, de leur passage à Ax-les-Thermes. S'ils parlent du Tarbésou et des étangs d'Orlu plutôt que du village expo et du sas de départ, l'Occitane aura gagné deux fois.
+L'Occitane by UTMB a gagné son pari initial : exister, vite. La question qui se pose désormais est celle de la durée. Les courses labellisées World Series grandissent vite mais se ressemblent parfois dangereusement et l'appétit commercial du modèle global interroge sur la capacité des organisateurs locaux à préserver une identité ariégeoise — la rudesse, l'humilité des villages traversés, la dimension thermale — face au formatage. Le vrai test n'est pas dans les chiffres de dossards de 2025 ou 2026. Il est dans ce que les coureurs raconteront, dix ans après, de leur passage à Ax-les-Thermes. S'ils parlent du Tarbésou et des étangs d'Orlu plutôt que du village expo et du sas de départ, l'Occitane aura gagné deux fois.

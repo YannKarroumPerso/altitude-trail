@@ -22,7 +22,7 @@ sourceUrl: >-
   https://www.ultrarunnermagazine.co.uk/kim-collison-wins-the-mens-montane-winter-spine-race/
 rewrittenAt: '2026-04-20'
 ---
-Quatre hivers de défaites, une victoire. Kim Collison a franchi la ligne de Kirk Yetholm en 82 heures et 46 minutes, et cette performance dit quelque chose de plus profond qu'un simple chrono : elle raconte comment on domestique une course qui, pendant des années, vous a refusé l'entrée.
+Quatre hivers de défaites, une victoire. Kim Collison a franchi la ligne de Kirk Yetholm en 82 heures et 46 minutes et cette performance dit quelque chose de plus profond qu'un simple chrono : elle raconte comment on domestique une course qui, pendant des années, vous a refusé l'entrée.
 
 Le Britannique a remporté l'édition 2025 de la Montane Winter Spine Race, selon Ultra Runner Magazine, en signant le troisième meilleur temps jamais enregistré sur cette traversée hivernale de 268 miles — environ 431 kilomètres — le long de la Pennine Way, d'Edale dans le Derbyshire jusqu'à la frontière écossaise. Une course réputée comme l'une des plus brutales de la planète, où les concurrents portent leur matériel sur le dos et progressent pendant des jours dans le froid, la nuit, la tourbe gelée. Collison s'y était cassé les dents quatre fois.
 
@@ -66,7 +66,7 @@ Le contexte compte. Depuis cinq ou six ans, le Royaume-Uni a cessé d'être un f
 
 Ce n'est pas anodin. La scène ultra internationale reste souvent lue à travers le prisme alpin (UTMB) ou nord-américain (Western States, Hardrock). La Spine, elle, propose un autre paradigme : l'autonomie, le long, l'hiver, l'intérieur. Une école différente, plus proche dans l'esprit de la Barkley que de CCC. Et cette école produit des champions.
 
-Ultra Runner Magazine insiste sur la transition de Collison, du fell running pur vers l'ultra-endurance de très longue durée. C'est la trajectoire logique d'un coureur qui a épuisé ce que la distance courte mais intense pouvait lui offrir, et qui cherche désormais à éprouver ses limites sur des fenêtres temporelles que la physiologie seule ne suffit plus à expliquer.
+Ultra Runner Magazine insiste sur la transition de Collison, du fell running pur vers l'ultra-endurance de très longue durée. C'est la trajectoire logique d'un coureur qui a épuisé ce que la distance courte mais intense pouvait lui offrir et qui cherche désormais à éprouver ses limites sur des fenêtres temporelles que la physiologie seule ne suffit plus à expliquer.
 
 ## Ce que l'hiver 2025 vient de rappeler
 

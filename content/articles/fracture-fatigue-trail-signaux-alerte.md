@@ -27,7 +27,7 @@ C'est ce que la littérature appelle le continuum du stress osseux. On n'entre p
 
 ## Une géographie prévisible de la blessure
 
-Certains sites sont récurrents, et leur localisation en dit long sur la mécanique fautive. Le tibia antérieur concentre à lui seul près d'un tiers des cas chez le coureur. Zone de flexion maximale, particulièrement sollicitée par la réception en descente et par les terrains durs, elle supporte mal les variations brutales de volume.
+Certains sites sont récurrents et leur localisation en dit long sur la mécanique fautive. Le tibia antérieur concentre à lui seul près d'un tiers des cas chez le coureur. Zone de flexion maximale, particulièrement sollicitée par la réception en descente et par les terrains durs, elle supporte mal les variations brutales de volume.
 
 Les métatarsiens, deuxième et troisième notamment, touchent davantage les coureurs à foulée médio-pied ou avant-pied, surtout quand la transition vers des chaussures plus minimalistes a été trop rapide. Le col fémoral, lui, reste la localisation la plus redoutée : risque de déplacement, chirurgie potentielle, arrêt qui peut dépasser six mois. On le retrouve plus souvent chez les coureuses en déficit énergétique prolongé.
 
@@ -47,7 +47,7 @@ Le test du saut unipodal, simple et redoutablement efficace, reproduit la douleu
 
 Le piège diagnostique classique : radiographie normale, donc rien de grave. C'est faux. La radiographie standard reste négative dans la majorité des cas avant la troisième semaine, parfois au-delà. Le cal osseux, seul signe visible sur cliché, n'apparaît qu'après que la consolidation a commencé.
 
-L'IRM s'est imposée comme examen de référence. Elle visualise l'œdème médullaire bien avant toute fissure visible, permet de grader la lésion selon la classification de Fredericson, et surtout oriente le pronostic. Un grade 1 peut se gérer en trois semaines ; un grade 4 demande deux à trois mois. La scintigraphie osseuse, sensible mais peu spécifique, garde son intérêt dans certaines situations complexes.
+L'IRM s'est imposée comme examen de référence. Elle visualise l'œdème médullaire bien avant toute fissure visible, permet de grader la lésion selon la classification de Fredericson et surtout oriente le pronostic. Un grade 1 peut se gérer en trois semaines ; un grade 4 demande deux à trois mois. La scintigraphie osseuse, sensible mais peu spécifique, garde son intérêt dans certaines situations complexes.
 
 Concrètement : face à une douleur osseuse persistante chez un coureur, une IRM bien conduite règle la question en une demi-heure. Toute décision thérapeutique sérieuse passe évidemment par un médecin du sport ou un radiologue spécialisé, seuls habilités à poser le diagnostic et à orienter la prise en charge.
 
@@ -67,4 +67,4 @@ La reprise suit la règle des 10 % : pas plus de dix pour cent d'augmentation he
 
 La multiplication des blessures osseuses chez les traileurs n'est pas un hasard. Les volumes d'entraînement explosent, les calendriers de course se densifient, la pression sociale autour des ultras pousse à repousser sans cesse. Dans le même temps, le discours sur la récupération progresse, mais celui sur l'alimentation suffisante reste largement sous-développé, particulièrement chez les femmes où la culture de la légèreté reste tenace.
 
-La fracture de fatigue est un révélateur. Elle sanctionne rarement un manque de talent ou de force mentale ; elle sanctionne un défaut d'écoute. Les coureurs qui durent, de Jornet à Dauwalter, partagent cette intelligence-là : savoir s'arrêter à temps. Le reste est une question de comptabilité biologique, et l'os finit toujours par présenter la facture.
+La fracture de fatigue est un révélateur. Elle sanctionne rarement un manque de talent ou de force mentale ; elle sanctionne un défaut d'écoute. Les coureurs qui durent, de Jornet à Dauwalter, partagent cette intelligence-là : savoir s'arrêter à temps. Le reste est une question de comptabilité biologique et l'os finit toujours par présenter la facture.

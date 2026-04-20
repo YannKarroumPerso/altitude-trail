@@ -17,7 +17,7 @@ Le surentraînement ne prévient pas. Il s'installe, discret, derrière des sema
 
 ## La charge d'entraînement n'est pas une addition de kilomètres
 
-Longtemps, les plans trail se résumaient à un cumul hebdomadaire : 80 km, 100 km, 120 km, et ainsi de suite jusqu'à l'objectif. Cette lecture linéaire ignore une vérité physiologique élémentaire : le stress que subit l'organisme dépend autant de l'intensité que du volume, et surtout du rapport entre la semaine en cours et les semaines précédentes.
+Longtemps, les plans trail se résumaient à un cumul hebdomadaire : 80 km, 100 km, 120 km et ainsi de suite jusqu'à l'objectif. Cette lecture linéaire ignore une vérité physiologique élémentaire : le stress que subit l'organisme dépend autant de l'intensité que du volume et surtout du rapport entre la semaine en cours et les semaines précédentes.
 
 Le ratio ACWR (Acute:Chronic Workload Ratio) formalise cette intuition. On divise la charge des sept derniers jours par la moyenne des vingt-huit précédents. Un ratio entre 0,8 et 1,3 correspond à une zone dite de sécurité. Au-delà de 1,5, plusieurs études parues dans la revue du Sports Medicine Australia associent ce pic à une augmentation significative des blessures musculo-squelettiques dans les semaines qui suivent.
 
@@ -35,7 +35,7 @@ La fréquence cardiaque de repos complète utilement le tableau. Une élévation
 
 ## Le sommeil, variable dont rien ne compense la dette
 
-Aucune stratégie nutritionnelle, aucun bas de compression, aucune séance de récupération active ne remplace huit heures de sommeil. Les recommandations de la National Sleep Foundation situent les besoins des adultes entre sept et neuf heures, et plusieurs méta-analyses pointent une dégradation mesurable des performances d'endurance dès deux nuits consécutives sous six heures.
+Aucune stratégie nutritionnelle, aucun bas de compression, aucune séance de récupération active ne remplace huit heures de sommeil. Les recommandations de la National Sleep Foundation situent les besoins des adultes entre sept et neuf heures et plusieurs méta-analyses pointent une dégradation mesurable des performances d'endurance dès deux nuits consécutives sous six heures.
 
 La phase de sommeil profond concentre la sécrétion d'hormone de croissance, essentielle à la réparation tissulaire. Le sommeil paradoxal consolide les apprentissages moteurs — utile quand on travaille la descente technique ou l'économie de course. Les montres modernes estiment ces phases avec une précision encore imparfaite mais suffisante pour repérer les tendances.
 

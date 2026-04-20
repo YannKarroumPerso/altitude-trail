@@ -45,7 +45,7 @@ La distinction entre épreuves officielles et non-officielles devient ainsi stra
 
 ## Professionnalisation assumée : gain ou perte d'âme ?
 
-Le débat est ouvert, et il traverse toute la communauté. Des coureurs élites comme Kilian Jornet ont historiquement défendu une approche du trail moins institutionnalisée, plus proche de l'alpinisme que de l'athlétisme. D'autres, à l'image de François D'Haene ou des organisateurs de l'UTMB, ont embrassé la structuration comme condition de survie économique d'un sport devenu massif. Les deux positions se défendent.
+Le débat est ouvert et il traverse toute la communauté. Des coureurs élites comme Kilian Jornet ont historiquement défendu une approche du trail moins institutionnalisée, plus proche de l'alpinisme que de l'athlétisme. D'autres, à l'image de François D'Haene ou des organisateurs de l'UTMB, ont embrassé la structuration comme condition de survie économique d'un sport devenu massif. Les deux positions se défendent.
 
 La réforme FFA 2026 tranche, de fait, en faveur du deuxième camp. Elle acte que le trail français adulte a besoin de garanties — pour ses pratiquants, pour ses assureurs, pour ses collectivités partenaires, pour ses sponsors. Le prix à payer : une bureaucratisation accrue et un risque d'exclusion des petites structures. Le calendrier d'application, progressif sur 2026, laisse aux organisateurs une fenêtre pour s'ajuster.
 

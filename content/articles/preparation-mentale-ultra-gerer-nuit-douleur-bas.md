@@ -49,11 +49,11 @@ La baisse de luminosité déclenche une cascade neuroendocrinienne. La mélatoni
 
 La caféine reste l'outil principal, à doser. Les recommandations actuelles en nutrition sportive évoquent 3 à 6 mg par kilo de poids corporel réparti en prises de 50 à 100 mg toutes les deux à trois heures sur les phases nocturnes, plutôt qu'une bombe unique. Au-delà, les effets secondaires — tachycardie, troubles digestifs, anxiété — dépassent le bénéfice.
 
-La micro-sieste, 15 à 20 minutes maximum sur un ravito, est une option sérieuse en cas de somnolence installée. Au-delà, on entre en sommeil profond, et le réveil est catastrophique. Ludovic Pommeret et d'autres finisheurs de Tor des Géants ont intégré ces fenêtres courtes comme des outils de course, pas comme des aveux de faiblesse. Tout avis personnalisé sur la caféine, notamment en cas d'antécédents cardiaques, relève d'un médecin du sport.
+La micro-sieste, 15 à 20 minutes maximum sur un ravito, est une option sérieuse en cas de somnolence installée. Au-delà, on entre en sommeil profond et le réveil est catastrophique. Ludovic Pommeret et d'autres finisheurs de Tor des Géants ont intégré ces fenêtres courtes comme des outils de course, pas comme des aveux de faiblesse. Tout avis personnalisé sur la caféine, notamment en cas d'antécédents cardiaques, relève d'un médecin du sport.
 
 ## Douleur acceptable ou signal d'alerte : savoir trancher
 
-Le point le plus délicat, et celui où la préparation mentale rejoint l'intelligence clinique. Le manuel de référence Brukner and Khan distingue depuis longtemps la douleur d'effort, diffuse et symétrique, de la douleur lésionnelle, localisée, aiguë, reproductible à la palpation ou au mouvement test.
+Le point le plus délicat et celui où la préparation mentale rejoint l'intelligence clinique. Le manuel de référence Brukner and Khan distingue depuis longtemps la douleur d'effort, diffuse et symétrique, de la douleur lésionnelle, localisée, aiguë, reproductible à la palpation ou au mouvement test.
 
 Une douleur qui augmente à chaque foulée, qui modifie la biomécanique, qui s'accompagne d'un gonflement ou d'un craquement, n'est pas à encaisser mentalement. Elle est à évaluer, éventuellement à faire examiner au ravito médical. Le stoïcisme mal placé produit des fractures de fatigue aggravées et des tendinopathies chroniques. Un avis médical personnalisé reste impératif au moindre doute.
 
@@ -67,6 +67,6 @@ Les crews les plus efficaces ne discutent pas, ne négocient pas, n'interrogent 
 
 ## Le mental, dernier chantier pris au sérieux
 
-On a longtemps considéré la préparation mentale en trail comme un supplément d'âme, quelque chose qu'on improvise ou qu'on « a ou qu'on n'a pas ». Cette époque est révolue. Les meilleurs coureurs de la planète travaillent aujourd'hui avec des préparateurs mentaux au même titre qu'avec des préparateurs physiques, et ce n'est plus un tabou.
+On a longtemps considéré la préparation mentale en trail comme un supplément d'âme, quelque chose qu'on improvise ou qu'on « a ou qu'on n'a pas ». Cette époque est révolue. Les meilleurs coureurs de la planète travaillent aujourd'hui avec des préparateurs mentaux au même titre qu'avec des préparateurs physiques et ce n'est plus un tabou.
 
 L'ultra a ceci de particulier qu'il expose brutalement la qualité de cette préparation invisible. On peut tricher sur beaucoup de choses en trail — pas sur les quatre dernières heures d'une 100 miles. L'enjeu culturel, pour la discipline, est d'arrêter de romantiser la souffrance brute et de reconnaître qu'un mental d'ultra se construit, techniquement, méthodiquement. La vraie dureté, c'est de préparer sa vulnérabilité avant qu'elle n'arrive. Pas de la nier.

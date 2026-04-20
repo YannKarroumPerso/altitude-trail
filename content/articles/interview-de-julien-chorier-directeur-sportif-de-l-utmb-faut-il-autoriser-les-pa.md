@@ -30,9 +30,9 @@ imagePrompt2: >-
   warm golden tungsten lighting contrasting with dark mountains
 rewrittenAt: '2026-04-20'
 ---
-Pas de pacers sur l'UTMB. La ligne est tracée, assumée, et elle ne bougera pas. Julien Chorier, directeur sportif de l'organisation et ancien vainqueur de la Hardrock, vient de le confirmer dans un entretien publié par U-Trail, au moment même où la question revenait cogner aux portes de Chamonix via un malentendu italien.
+Pas de pacers sur l'UTMB. La ligne est tracée, assumée et elle ne bougera pas. Julien Chorier, directeur sportif de l'organisation et ancien vainqueur de la Hardrock, vient de le confirmer dans un entretien publié par U-Trail, au moment même où la question revenait cogner aux portes de Chamonix via un malentendu italien.
 
-L'affaire est partie du Tor des Géants, où François d'Haene a été accusé à tort d'avoir bénéficié de relayeurs d'allure. Démenti rapide, polémique évacuée, mais la vieille question est ressortie intacte : pourquoi l'UTMB, seul parmi les mastodontes mondiaux du 100 miles, continue-t-il d'interdire le pacing quand Western States, Hardrock ou même le Tor l'autorisent ou le tolèrent ? Réponse de Chorier à U-Trail : parce que l'autonomie est le socle de la course, et qu'on n'y touchera pas.
+L'affaire est partie du Tor des Géants, où François d'Haene a été accusé à tort d'avoir bénéficié de relayeurs d'allure. Démenti rapide, polémique évacuée, mais la vieille question est ressortie intacte : pourquoi l'UTMB, seul parmi les mastodontes mondiaux du 100 miles, continue-t-il d'interdire le pacing quand Western States, Hardrock ou même le Tor l'autorisent ou le tolèrent ? Réponse de Chorier à U-Trail : parce que l'autonomie est le socle de la course et qu'on n'y touchera pas.
 
 ## Une polémique italienne qui sert de révélateur
 
@@ -50,7 +50,7 @@ Chorier, interrogé par U-Trail, défend cette architecture comme un choix philo
 
 ## L'équité, angle mort du débat
 
-C'est sans doute l'argument le plus solide, et le plus souvent éludé par les partisans du pacing. Autoriser les relayeurs d'allure créerait une inégalité structurelle entre les élites — entourés d'un staff, de partenaires, de coureurs d'entraînement prêts à s'aligner — et les milliers d'amateurs qui bouclent la boucle avec un compagnon de route présent à trois ravitaillements, voire personne.
+C'est sans doute l'argument le plus solide et le plus souvent éludé par les partisans du pacing. Autoriser les relayeurs d'allure créerait une inégalité structurelle entre les élites — entourés d'un staff, de partenaires, de coureurs d'entraînement prêts à s'aligner — et les milliers d'amateurs qui bouclent la boucle avec un compagnon de route présent à trois ravitaillements, voire personne.
 
 L'UTMB, malgré son gigantisme industriel, conserve ce paradoxe précieux : Kilian Jornet et le coureur classé 1 800e partagent la même ligne de départ, les mêmes 171 kilomètres, les mêmes 10 000 mètres de dénivelé positif. Soit l'équivalent de plus de quatre marathons enchaînés, sur un profil qui cumule la hauteur de plus de trois Tour Eiffel verticales. Introduire le pacing, c'est réserver de fait un avantage compétitif aux athlètes dotés d'une infrastructure. Chorier, selon U-Trail, en fait un enjeu de justice sportive autant que d'identité.
 

@@ -13,11 +13,11 @@ tags: ["Santé", "RED-S", "Fer", "Performance"]
 
 Une saison ne se brise pas en une sortie. Elle s'effrite par en dessous, semaine après semaine, pendant qu'on s'entraîne de mieux en mieux et qu'on court de plus en plus mal.
 
-Le traileur moderne maîtrise ses zones de fréquence cardiaque, lit ses courbes de puissance verticale, programme ses blocs de dénivelé au mètre près. Mais sur le volet nutritionnel, beaucoup naviguent encore à vue. Les chiffres compilés par plusieurs études européennes sur les athlètes d'endurance convergent : une majorité de coureurs en préparation ultra évoluent en déficit énergétique chronique, six à huit femmes sur dix présentent des perturbations compatibles avec le RED-S, et la carence martiale toucherait près d'un athlète sur trois. Derrière ces chiffres, une même logique : des erreurs invisibles, cumulatives, qui cassent la progression sans jamais faire de bruit.
+Le traileur moderne maîtrise ses zones de fréquence cardiaque, lit ses courbes de puissance verticale, programme ses blocs de dénivelé au mètre près. Mais sur le volet nutritionnel, beaucoup naviguent encore à vue. Les chiffres compilés par plusieurs études européennes sur les athlètes d'endurance convergent : une majorité de coureurs en préparation ultra évoluent en déficit énergétique chronique, six à huit femmes sur dix présentent des perturbations compatibles avec le RED-S et la carence martiale toucherait près d'un athlète sur trois. Derrière ces chiffres, une même logique : des erreurs invisibles, cumulatives, qui cassent la progression sans jamais faire de bruit.
 
 ## Le RED-S, cette panne hormonale qu'on refuse de voir
 
-Le déficit énergétique relatif dans le sport, le fameux RED-S, n'est plus un concept de niche. Le Comité international olympique en a publié un consensus dès 2014, actualisé en 2023, et les recommandations de l'American College of Sports Medicine vont dans le même sens. Le principe est simple : quand l'apport calorique ne couvre plus la dépense de l'entraînement plus le métabolisme de base, le corps coupe les fonctions qu'il juge non essentielles.
+Le déficit énergétique relatif dans le sport, le fameux RED-S, n'est plus un concept de niche. Le Comité international olympique en a publié un consensus dès 2014, actualisé en 2023 et les recommandations de l'American College of Sports Medicine vont dans le même sens. Le principe est simple : quand l'apport calorique ne couvre plus la dépense de l'entraînement plus le métabolisme de base, le corps coupe les fonctions qu'il juge non essentielles.
 
 ![Illustration Nutrition](/articles/erreurs-nutritionnelles-qui-cassent-une-saison-trail-1.jpg)
 
@@ -35,13 +35,13 @@ Kilian Jornet lui-même, souvent cité à tort comme référence du low-carb, n'
 
 ## Le fer, signal faible devenu alerte rouge
 
-La carence martiale est l'angle mort du traileur. Elle progresse silencieusement, s'installe sur trois à six mois, et explique une part considérable des baisses de forme inexpliquées. Les travaux publiés dans des revues comme le British Journal of Sports Medicine montrent qu'une ferritine sous les 30 ng/mL suffit à réduire la VO2max et la capacité à soutenir une intensité, bien avant que l'anémie soit avérée à la numération.
+La carence martiale est l'angle mort du traileur. Elle progresse silencieusement, s'installe sur trois à six mois et explique une part considérable des baisses de forme inexpliquées. Les travaux publiés dans des revues comme le British Journal of Sports Medicine montrent qu'une ferritine sous les 30 ng/mL suffit à réduire la VO2max et la capacité à soutenir une intensité, bien avant que l'anémie soit avérée à la numération.
 
 ![Illustration Nutrition](/articles/erreurs-nutritionnelles-qui-cassent-une-saison-trail-2.jpg)
 
 Les signes sont connus mais souvent mis sur le compte de la fatigue d'entraînement : pâleur, essoufflement anormal dans les côtes, fréquence cardiaque qui dérive, récupération allongée, ongles cassants, humeur en berne. La course à pied en ajoute une cause mécanique spécifique, l'hémolyse d'impact, qui détruit des globules rouges à chaque foulée.
 
-Le réflexe à prendre : un bilan sanguin annuel comprenant ferritine, coefficient de saturation de la transferrine et CRP. La CRP est cruciale car l'inflammation fausse la ferritine vers le haut. Toute supplémentation doit passer par un médecin : le fer en excès est hépatotoxique, et l'automédication a fait des dégâts réels.
+Le réflexe à prendre : un bilan sanguin annuel comprenant ferritine, coefficient de saturation de la transferrine et CRP. La CRP est cruciale car l'inflammation fausse la ferritine vers le haut. Toute supplémentation doit passer par un médecin : le fer en excès est hépatotoxique et l'automédication a fait des dégâts réels.
 
 ## Les erreurs du quotidien qui finissent par peser
 
@@ -49,7 +49,7 @@ Autour de ces trois grands pièges gravitent des fautes plus banales mais qui s'
 
 La négligence de la fenêtre post-effort est une autre constante. Dans les 30 à 60 minutes qui suivent une séance intense, la resynthèse du glycogène est maximale. Sauter ce créneau, c'est retarder la récupération d'une demi-journée. Un ratio glucides-protéines autour de 3 pour 1, soit un bol de riz avec un yaourt ou une banane avec un verre de lait, suffit.
 
-Enfin, la vitamine D. En France, d'octobre à mars, l'ensoleillement ne permet pas la synthèse cutanée suffisante au-dessus du 45e parallèle. La Haute Autorité de Santé reconnaît le déficit comme quasi généralisé en hiver. Or la vitamine D pèse sur la fonction musculaire, immunitaire et osseuse. Un dosage sanguin en novembre, une supplémentation encadrée si besoin, et le sujet est réglé.
+Enfin, la vitamine D. En France, d'octobre à mars, l'ensoleillement ne permet pas la synthèse cutanée suffisante au-dessus du 45e parallèle. La Haute Autorité de Santé reconnaît le déficit comme quasi généralisé en hiver. Or la vitamine D pèse sur la fonction musculaire, immunitaire et osseuse. Un dosage sanguin en novembre, une supplémentation encadrée si besoin et le sujet est réglé.
 
 ## Les signaux qui doivent faire consulter
 

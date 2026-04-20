@@ -25,7 +25,7 @@ sourceUrl: >-
   https://www.corsainmontagna.it/2026/04/18/domani-il-portogallo-ospita-il-mondo-la-world-cup-2026-inizia-con-la-sao-bras-cross/
 rewrittenAt: '2026-04-20'
 ---
-Seize courses, dix pays, quatre continents. La Coupe du monde de course en montagne 2026 s'annonce comme la saison la plus dense jamais alignée par la WMRA, et c'est un village du centre du Portugal qui va l'ouvrir dimanche. Pas Chamonix, pas Innsbruck, pas Sierre. Castro Daire.
+Seize courses, dix pays, quatre continents. La Coupe du monde de course en montagne 2026 s'annonce comme la saison la plus dense jamais alignée par la WMRA et c'est un village du centre du Portugal qui va l'ouvrir dimanche. Pas Chamonix, pas Innsbruck, pas Sierre. Castro Daire.
 
 La São Brás Cross, 19ᵉ édition, donne le coup d'envoi de la Mountain Running World Cup dimanche depuis le village de Granja, dans la Serra de Montemuro. Un tracé Classic Up & Down de 10,9 km pour 628 mètres de dénivelé positif, selon les données rapportées par Corsa in Montagna. Chez les femmes, la Britannique Scout Adkin remet son titre en jeu face à un peloton européen et kényan resserré. Chez les hommes, le Kényan Michael Selelo Saoli fait figure de favori. Première des cinq manches Classic Up & Down du calendrier, la course sert de baromètre à une saison qui ira jusqu'en Chine.
 
@@ -35,13 +35,13 @@ La WMRA affiche ses ambitions : seize rendez-vous répartis sur quatre continent
 
 ![Illustration Actualités](/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-1.jpg)
 
-Trois formats coexistent dans un même classement général : Uphill (3 à 9 km), Classic Up & Down (10 à 21 km), Long Mountain (22 à 50 km). Chaque épreuve pèse du même poids au général, et un titre spécialisé récompense le meilleur de chaque catégorie. La WMRA, mandatée par World Athletics, impose des contrôles antidopage systématiques sur chaque manche. Une rigueur qui manque cruellement à une partie du trail longue distance, et qui rappelle que la course en montagne reste, administrativement, un sport adossé à la fédération internationale d'athlétisme.
+Trois formats coexistent dans un même classement général : Uphill (3 à 9 km), Classic Up & Down (10 à 21 km), Long Mountain (22 à 50 km). Chaque épreuve pèse du même poids au général et un titre spécialisé récompense le meilleur de chaque catégorie. La WMRA, mandatée par World Athletics, impose des contrôles antidopage systématiques sur chaque manche. Une rigueur qui manque cruellement à une partie du trail longue distance et qui rappelle que la course en montagne reste, administrativement, un sport adossé à la fédération internationale d'athlétisme.
 
 La juxtaposition des formats pose une question éditoriale rarement formulée : la course en montagne doit-elle encore se penser comme une discipline unifiée ? Un spécialiste de la montée sèche de 5 km et un coureur de 45 km vallonnés ne partagent plus grand-chose, sinon le sigle WMRA. En gardant les trois familles sous le même classement, la fédération parie sur la polyvalence. C'est un pari.
 
-## Pourquoi le Portugal, et pourquoi maintenant
+## Pourquoi le Portugal et pourquoi maintenant
 
-Castro Daire n'a rien d'un choix neutre. La São Brás Cross fête sa 19ᵉ édition. Un événement porté localement, ancré dans la Serra de Montemuro, et jusqu'ici connu des seuls initiés de la scène ibérique. Son intronisation dans le calendrier mondial n'est pas un accident : Corsa in Montagna souligne que la Turismo Centro de Portugal devient, via son programme « Move Centro de Portugal – The Sports Region », sponsor officiel de la catégorie Classic Up & Down pour 2026.
+Castro Daire n'a rien d'un choix neutre. La São Brás Cross fête sa 19ᵉ édition. Un événement porté localement, ancré dans la Serra de Montemuro et jusqu'ici connu des seuls initiés de la scène ibérique. Son intronisation dans le calendrier mondial n'est pas un accident : Corsa in Montagna souligne que la Turismo Centro de Portugal devient, via son programme « Move Centro de Portugal – The Sports Region », sponsor officiel de la catégorie Classic Up & Down pour 2026.
 
 Autrement dit, une région touristique investit pour placer son terrain sur la carte internationale du running. Le schéma est désormais connu — Innsbruck, Zermatt, Chamonix l'ont écrit avant — mais sa répétition sur un terrain portugais, loin de l'axe alpin historique, dit quelque chose de la géographie du sport. La course en montagne quitte les Alpes pour aller chercher du granite atlantique, des landes balayées par le vent, des vallées boisées peu familières du grand public. Décentralisation assumée.
 

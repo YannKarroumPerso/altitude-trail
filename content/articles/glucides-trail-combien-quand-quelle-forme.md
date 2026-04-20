@@ -17,7 +17,7 @@ Longtemps calqué sur la physiologie du marathon, le ravitaillement en trail ob�
 
 ## Pourquoi la barre des 60 g/h a sauté
 
-Le chiffre de 60 g/h correspondait à une limite physiologique bien réelle : le taux maximal d'oxydation du glucose seul, plafonné par la saturation des transporteurs intestinaux SGLT1. Au-delà, surplus dans l'intestin, appel d'eau, troubles digestifs. La découverte décisive remonte aux travaux d'une équipe de Birmingham au début des années 2000, largement confirmés depuis dans des revues comme Sports Medicine : associer glucose et fructose mobilise un second transporteur, GLUT5, et permet de dépasser cette limite.
+Le chiffre de 60 g/h correspondait à une limite physiologique bien réelle : le taux maximal d'oxydation du glucose seul, plafonné par la saturation des transporteurs intestinaux SGLT1. Au-delà, surplus dans l'intestin, appel d'eau, troubles digestifs. La découverte décisive remonte aux travaux d'une équipe de Birmingham au début des années 2000, largement confirmés depuis dans des revues comme Sports Medicine : associer glucose et fructose mobilise un second transporteur, GLUT5 et permet de dépasser cette limite.
 
 ![Illustration Nutrition](/articles/glucides-trail-combien-quand-quelle-forme-1.jpg)
 

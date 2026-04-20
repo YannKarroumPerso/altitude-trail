@@ -21,13 +21,13 @@ tags:
 sourceUrl: 'https://trailrunningspain.com/2026/02/05/salomon-xt-6-review-by-mayayo/'
 rewrittenAt: '2026-04-20'
 ---
-Une chaussure de trail qui finit en vitrine de sneaker shop, ce n'est plus une anomalie. C'est un modèle économique. Avec le catalogue 2026, Salomon officialise ce que tout le monde avait compris : la XT-6 est désormais une sneaker unisexe, et la marque d'Annecy en fait un pilier assumé de sa stratégie.
+Une chaussure de trail qui finit en vitrine de sneaker shop, ce n'est plus une anomalie. C'est un modèle économique. Avec le catalogue 2026, Salomon officialise ce que tout le monde avait compris : la XT-6 est désormais une sneaker unisexe et la marque d'Annecy en fait un pilier assumé de sa stratégie.
 
 La XT-6, lancée il y a plus d'une décennie comme chaussure d'ultra-trail, bascule pour 2026 dans une catégorisation officielle de sneaker unisexe, comme l'a rapporté Trail Running Spain dans sa revue signée Mayayo. La gamme XT s'élargit autour du modèle historique avec deux déclinaisons strictement lifestyle, tandis que les versions techniques — dont la XT-6 Gore-Tex — restent au catalogue performance. Un grand écart stratégique qui pose une question brûlante : peut-on être à la fois une icône du gorpcore mondial et une chaussure de référence pour les longs ultras européens ?
 
 ## Une bascule officielle, pas une dérive
 
-Pendant des années, Salomon a laissé faire. La XT-6 squattait les pieds des fashionistas tokyoïtes pendant que la marque continuait de la présenter, officiellement, comme une chaussure de trail longue distance. Une ambiguïté confortable : les techniciens achetaient la performance, les urbains achetaient le design, et personne ne gérait vraiment la double vie du produit.
+Pendant des années, Salomon a laissé faire. La XT-6 squattait les pieds des fashionistas tokyoïtes pendant que la marque continuait de la présenter, officiellement, comme une chaussure de trail longue distance. Une ambiguïté confortable : les techniciens achetaient la performance, les urbains achetaient le design et personne ne gérait vraiment la double vie du produit.
 
 ![Illustration Actualités](/articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe-1.jpg)
 
@@ -35,7 +35,7 @@ La revue publiée par Trail Running Spain acte la fin de ce flou. La XT-6 est d�
 
 ## Du singletrack au gorpcore, une trajectoire qui n'a rien d'accidentel
 
-Remettre la XT-6 dans son contexte, c'est comprendre pourquoi elle, et pas une autre. Son design brut — mesh technique, renforts TPU apparents, Quicklace visible, semelle Contagrip massive — coche toutes les cases de l'esthétique outdoor recyclée en vestiaire urbain. Le gorpcore, ce courant mode qui puise dans l'équipement de montagne pour en faire un uniforme citadin, lui a offert une seconde vie.
+Remettre la XT-6 dans son contexte, c'est comprendre pourquoi elle et pas une autre. Son design brut — mesh technique, renforts TPU apparents, Quicklace visible, semelle Contagrip massive — coche toutes les cases de l'esthétique outdoor recyclée en vestiaire urbain. Le gorpcore, ce courant mode qui puise dans l'équipement de montagne pour en faire un uniforme citadin, lui a offert une seconde vie.
 
 Tokyo, Séoul, Paris, New York : la chaussure s'est imposée comme un marqueur. Les collaborations, notamment avec des maisons de mode et des concept stores, ont entretenu la rareté. Les rééditions en séries limitées ont alimenté un marché de la revente où certains coloris dépassent largement leur prix de lancement. La XT-6 a suivi la trajectoire de la Nike Air Max 95 ou de la New Balance 990 : un objet sportif devenu objet culturel, dont la fonction d'origine finit par passer au second plan pour une large part de ses acheteurs.
 
@@ -53,7 +53,7 @@ Le choix du vocabulaire mérite qu'on s'y arrête. En running et en trail, la se
 
 Positionner la XT-6 en sneaker unisexe, c'est donc la sortir des codes du running pour la placer dans ceux de la mode. C'est aussi adopter le rythme commercial qui va avec : cycles courts, drops saisonniers, coloris capsule, collaborations. Le contraire total du cycle produit trail, où une plateforme reste deux ou trois ans au catalogue avant révision. Ce changement de tempo, c'est peut-être le vrai basculement structurel de 2026.
 
-## Le débat communautaire, et ce qu'il cache
+## Le débat communautaire et ce qu'il cache
 
 Dans la communauté trail, l'évolution agace une partie des puristes. Voir un outil de travail devenir un accessoire de mode, puis un symbole de hype, a quelque chose de désorientant pour qui a traîné la XT-6 sur les chemins du GR20 ou sur les crêtes pyrénéennes. La crainte implicite : que Salomon, porté par le chiffre d'affaires lifestyle, finisse par arbitrer la R&D au détriment du trail pur.
 
@@ -65,6 +65,6 @@ Il y a toutefois un risque réel, rarement formulé : celui de la dilution ident
 
 Concrètement, sur le sentier, rien ne change. La XT-6 technique reste disponible, la version Gore-Tex aussi. Les traileurs qui aiment son maintien et sa tenue sur terrain cassant retrouveront leur chaussure. Ce qui change, c'est le paysage autour. Le même modèle, sur les pieds d'un influenceur à Séoul, dans un clip de rap, sur un podium lors d'une Fashion Week. Il faudra s'habituer.
 
-La XT-6 n'est plus une chaussure de trail qui a percé en ville. Elle est devenue un objet hybride, dont la partie trail n'est plus qu'une sous-catégorie parmi d'autres. C'est une première dans l'industrie du trail running, et ça n'est pas anodin. Aucun autre modèle spécifiquement trail n'a atteint ce statut culturel — pas la Speedgoat de Hoka, pas la Mafate, pas la Lone Peak d'Altra, pas même la Sense Ride. Salomon a créé un précédent, et l'ensemble du secteur observe.
+La XT-6 n'est plus une chaussure de trail qui a percé en ville. Elle est devenue un objet hybride, dont la partie trail n'est plus qu'une sous-catégorie parmi d'autres. C'est une première dans l'industrie du trail running et ça n'est pas anodin. Aucun autre modèle spécifiquement trail n'a atteint ce statut culturel — pas la Speedgoat de Hoka, pas la Mafate, pas la Lone Peak d'Altra, pas même la Sense Ride. Salomon a créé un précédent et l'ensemble du secteur observe.
 
 Reste à voir si la marque tiendra la ligne de crête. Le pari est celui de la cohabitation : rester crédible auprès des coureurs qui achètent une paire par an pour performer, tout en alimentant une machine lifestyle qui vit sur des drops, des séries limitées et des collaborations. Peu de marques ont réussi ce grand écart dans la durée. Salomon, en 2026, a choisi de tenter. Le trail est devenu assez gros pour générer des icônes pop. Et assez mûr pour en payer le prix.

@@ -17,7 +17,7 @@ Le trail vivait encore dans un angle mort réglementaire. Les plaques carbone, l
 
 ## Le précédent route : ce que World Athletics a verrouillé en cinq ans
 
-Pour comprendre ce qui se joue en trail, il faut revenir à 2020. Après la Vaporfly 4% de Nike et ses records en cascade, World Athletics a posé trois garde-fous : épaisseur maximale de semelle à 40 mm pour la route, une seule plaque rigide autorisée, et obligation de commercialisation publique au moins quatre mois avant toute compétition. La logique affichée : éviter les prototypes confidentiels réservés à une écurie.
+Pour comprendre ce qui se joue en trail, il faut revenir à 2020. Après la Vaporfly 4% de Nike et ses records en cascade, World Athletics a posé trois garde-fous : épaisseur maximale de semelle à 40 mm pour la route, une seule plaque rigide autorisée et obligation de commercialisation publique au moins quatre mois avant toute compétition. La logique affichée : éviter les prototypes confidentiels réservés à une écurie.
 
 ![Illustration Actualités](/articles/chaussures-carbone-trail-itra-reglementation-limite-1.jpg)
 

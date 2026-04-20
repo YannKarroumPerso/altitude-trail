@@ -1,7 +1,7 @@
 ---
 slug: "syndrome-essuie-glace-itbs-genou-trail-descente"
 title: "Syndrome de l'essuie-glace : la douleur au genou qui vous stoppe en descente"
-excerpt: "Ce syndrome frotte, brûle, et contraint à l'abandon sur le côté extérieur du genou. Comprendre le mécanisme change radicalement la façon d'aborder les grandes descentes."
+excerpt: "Ce syndrome frotte, brûle et contraint à l'abandon sur le côté extérieur du genou. Comprendre le mécanisme change radicalement la façon d'aborder les grandes descentes."
 category: "Blessures & Préventions"
 categorySlug: blessures
 author: "Rédaction Altitude"
@@ -13,7 +13,7 @@ tags: ["ITBS", "Essuie-glace", "Genou", "Descente", "Renforcement"]
 
 Kilomètre 42 d'un 70 bornes dans le Beaufortain. Thomas attaque la longue descente vers la vallée, celle qu'il a répétée trois fois à l'entraînement. Après huit cents mètres de pente, une brûlure s'installe sur le côté extérieur du genou droit. Diffuse d'abord, puis lancinante, puis insoutenable à chaque appui. Il tente de raccourcir sa foulée, de freiner en biais, rien n'y fait : au bout de deux kilomètres, il marche. À l'arrivée, il boitille. Il vient de rencontrer le syndrome de la bandelette ilio-tibiale, surnommé « syndrome de l'essuie-glace ».
 
-C'est l'une des blessures les plus fréquemment rapportées dans le trail long, et l'une des plus frustrantes : elle survient souvent sur des coureurs entraînés, en pleine course, et elle cloue littéralement en descente alors que le plat et la montée restent supportables. Parce que le trail cumule dénivelés longs, terrains techniques et durées d'effort importantes, il expose davantage que la route à ce conflit mécanique. Comprendre ce qui frotte, où, et pourquoi, change radicalement la façon dont on prépare son genou à encaisser les grandes bascules.
+C'est l'une des blessures les plus fréquemment rapportées dans le trail long et l'une des plus frustrantes : elle survient souvent sur des coureurs entraînés, en pleine course et elle cloue littéralement en descente alors que le plat et la montée restent supportables. Parce que le trail cumule dénivelés longs, terrains techniques et durées d'effort importantes, il expose davantage que la route à ce conflit mécanique. Comprendre ce qui frotte, où et pourquoi, change radicalement la façon dont on prépare son genou à encaisser les grandes bascules.
 
 ## Anatomie d'un frottement répété
 
@@ -27,7 +27,7 @@ Le point clé, souvent ignoré : ce n'est pas la bandelette elle-même qui souff
 
 ## Pourquoi la descente concentre les risques
 
-En descente technique, le quadriceps travaille en excentrique : il freine la flexion du genou à chaque réception. Simultanément, le moyen fessier doit stabiliser le bassin sur la jambe d'appui, empêcher la hanche opposée de s'effondrer et contrôler la rotation interne du fémur. Quand le moyen fessier fatigue ou manque de force, un phénomène bien documenté apparaît : le valgus dynamique. Le genou part vers l'intérieur, la cuisse tourne médialement, et l'angle entre bandelette et condyle s'accentue. La friction explose.
+En descente technique, le quadriceps travaille en excentrique : il freine la flexion du genou à chaque réception. Simultanément, le moyen fessier doit stabiliser le bassin sur la jambe d'appui, empêcher la hanche opposée de s'effondrer et contrôler la rotation interne du fémur. Quand le moyen fessier fatigue ou manque de force, un phénomène bien documenté apparaît : le valgus dynamique. Le genou part vers l'intérieur, la cuisse tourne médialement et l'angle entre bandelette et condyle s'accentue. La friction explose.
 
 Ajoutez à cela la cadence de la descente — plusieurs milliers d'impacts en vingt minutes, à une intensité musculaire bien supérieure au plat — et vous obtenez le cocktail parfait. « En consultation, je vois souvent des coureurs avec un quadriceps énorme et des fessiers qui ne répondent plus après deux heures d'effort », observe Marion Delmas, kinésithérapeute du sport installée dans la vallée de l'Arve. « Le genou finit par payer une addition qui était ailleurs. »
 
@@ -47,6 +47,6 @@ La phase aiguë vise à calmer l'inflammation : réduction temporaire du volume,
 
 Le cœur du traitement, c'est la rééducation. Elle s'articule autour de trois axes. D'abord, le renforcement du moyen fessier et des rotateurs externes de hanche : clamshells lestés, pont fessier unilatéral, step-ups contrôlés, squats bulgares, marche latérale avec élastique. L'objectif est la force endurante, celle qui tient trois heures en montagne, pas seulement la force maximale. Ensuite, le travail du pattern de course : vidéo de foulée, correction du valgus dynamique, renforcement proprioceptif sur surface instable, parfois légère augmentation de cadence pour réduire l'amplitude d'oscillation de la bandelette. Enfin, un travail tissulaire sur les zones tendues — tenseur du fascia lata, grand fessier, quadriceps externe — par auto-massage ou thérapie manuelle, en gardant à l'esprit que l'étirement passif de la bandelette elle-même a une efficacité limitée.
 
-La reprise doit être graduelle : plat d'abord, puis montées, et enfin descentes courtes sur terrain roulant avant de retoucher au technique. Réintroduire le dénivelé négatif trop tôt est la principale cause de rechute.
+La reprise doit être graduelle : plat d'abord, puis montées et enfin descentes courtes sur terrain roulant avant de retoucher au technique. Réintroduire le dénivelé négatif trop tôt est la principale cause de rechute.
 
-Le syndrome de l'essuie-glace n'est ni une fatalité ni un arrêt de carrière. C'est un signal : celui d'une chaîne hanche-genou qui demande à être reconstruite autrement. Les coureurs qui sortent durablement de ce cercle sont ceux qui acceptent de passer du temps sur des exercices peu spectaculaires — renforcement lent, travail postural, gainage latéral — avant de replonger dans les grandes descentes. La récompense est double : un genou qui tient, et souvent une foulée plus efficace. Avant toute reprise structurée, un bilan avec un kinésithérapeute du sport ou un médecin reste le meilleur investissement. Le sentier attendra quelques semaines ; il sera encore là, entier, quand le genou le sera aussi.
+Le syndrome de l'essuie-glace n'est ni une fatalité ni un arrêt de carrière. C'est un signal : celui d'une chaîne hanche-genou qui demande à être reconstruite autrement. Les coureurs qui sortent durablement de ce cercle sont ceux qui acceptent de passer du temps sur des exercices peu spectaculaires — renforcement lent, travail postural, gainage latéral — avant de replonger dans les grandes descentes. La récompense est double : un genou qui tient et souvent une foulée plus efficace. Avant toute reprise structurée, un bilan avec un kinésithérapeute du sport ou un médecin reste le meilleur investissement. Le sentier attendra quelques semaines ; il sera encore là, entier, quand le genou le sera aussi.

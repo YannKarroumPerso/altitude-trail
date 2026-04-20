@@ -22,9 +22,9 @@ tags:
 sourceUrl: 'https://www.irunfar.com/steady-love'
 rewrittenAt: '2026-04-20'
 ---
-Zach Miller, un des coureurs les plus intenses de sa génération, publie un texte qui ressemble à un aveu. Pas un palmarès, pas un bilan de saison. Une confession sur ce qu'il retiendra vraiment, et ce n'est pas ce que l'on croit.
+Zach Miller, un des coureurs les plus intenses de sa génération, publie un texte qui ressemble à un aveu. Pas un palmarès, pas un bilan de saison. Une confession sur ce qu'il retiendra vraiment et ce n'est pas ce que l'on croit.
 
-L'Américain, deuxième de la Transgrancanaria 2024, figure de The North Face et habitant d'un bus de cinq mètres carrés perché sur Pikes Peak, a signé sur iRunFar une chronique intitulée *Steady Love*. Un texte introspectif écrit après une séance nocturne de home-trainer en combinaison thermique, version DIY de l'acclimatation à la chaleur. Le déclencheur : une chanson de Ben Rector qui tourne sur Spotify, et la question que se pose soudain un ultra-traileur de 35 ans. Que restera-t-il, vraiment, quand les chaussures seront rangées ?
+L'Américain, deuxième de la Transgrancanaria 2024, figure de The North Face et habitant d'un bus de cinq mètres carrés perché sur Pikes Peak, a signé sur iRunFar une chronique intitulée *Steady Love*. Un texte introspectif écrit après une séance nocturne de home-trainer en combinaison thermique, version DIY de l'acclimatation à la chaleur. Le déclencheur : une chanson de Ben Rector qui tourne sur Spotify et la question que se pose soudain un ultra-traileur de 35 ans. Que restera-t-il, vraiment, quand les chaussures seront rangées ?
 
 ## Une chronique qui sonne faux dans le paysage éditorial actuel
 
@@ -32,21 +32,21 @@ Posons le décor. Le trail traverse une séquence de surenchère permanente. Cou
 
 ![Illustration Actualités](/articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-1.jpg)
 
-Le texte publié par iRunFar n'est pas un manifeste. C'est presque l'inverse : une rumination nocturne, pédalée entre une cuisine miniature et un lit escamotable, chauffage à fond. Miller y décrit l'absurdité de la scène — « pédaler dans une cabine surchauffée, la sueur dégoulinant des manches » — et le glissement mental qu'elle provoque. La chanson *Steady Love* de Ben Rector entre en jeu. Son propos : on ne reste pas jeune éternellement, et quand le cœur se fatigue à force de courir après tout, il faut trouver un amour stable. L'image est banale en folk américain. Elle devient troublante appliquée à une vie d'ultra.
+Le texte publié par iRunFar n'est pas un manifeste. C'est presque l'inverse : une rumination nocturne, pédalée entre une cuisine miniature et un lit escamotable, chauffage à fond. Miller y décrit l'absurdité de la scène — « pédaler dans une cabine surchauffée, la sueur dégoulinant des manches » — et le glissement mental qu'elle provoque. La chanson *Steady Love* de Ben Rector entre en jeu. Son propos : on ne reste pas jeune éternellement et quand le cœur se fatigue à force de courir après tout, il faut trouver un amour stable. L'image est banale en folk américain. Elle devient troublante appliquée à une vie d'ultra.
 
 ## Le chasseur d'objectifs se regarde dans le miroir
 
-Miller s'identifie lui-même comme un coureur qui pousse toujours un cran plus loin. Plus grand, plus vite, plus fort. C'est le profil type du haut niveau contemporain, et il ne le renie pas. Son ascension forcenée de Pikes Peak en 2018, ses courses engagées à UTMB — septième en 2016, abandon spectaculaire en 2017 après avoir mené la course — ont construit une légende d'homme qui brûle tout, tout le temps.
+Miller s'identifie lui-même comme un coureur qui pousse toujours un cran plus loin. Plus grand, plus vite, plus fort. C'est le profil type du haut niveau contemporain et il ne le renie pas. Son ascension forcenée de Pikes Peak en 2018, ses courses engagées à UTMB — septième en 2016, abandon spectaculaire en 2017 après avoir mené la course — ont construit une légende d'homme qui brûle tout, tout le temps.
 
 Mais dans la chronique iRunFar, il pose une question frontale : si l'on réduit le trail à une liste d'accomplissements, ne passe-t-on pas à côté de l'essentiel ? Il se projette dans vingt ans. Les grandes courses reviendront en mémoire. La deuxième place à Transgrancanaria 2024, les duels, les lignes d'arrivée arrachées à l'épuisement. Une certaine fierté, oui. Le sommet émotionnel de sa vie de coureur ? Il en doute.
 
 Le contraste est saisissant avec la communication habituelle des athlètes sous contrat. Pas de récit héroïque. Pas de leçon de résilience transformable en post LinkedIn. Juste un coureur qui admet que son moteur principal pourrait bien ne pas être celui qu'il affiche.
 
-## Ce qu'il énumère, et pourquoi c'est précieux
+## Ce qu'il énumère et pourquoi c'est précieux
 
-Le cœur du texte tient dans une énumération. Miller liste ce qu'il retiendra vraiment, et la liste est d'une banalité revendiquée.
+Le cœur du texte tient dans une énumération. Miller liste ce qu'il retiendra vraiment et la liste est d'une banalité revendiquée.
 
-Les sorties matinales lancées dans le noir. Le privilège, écrit-il, d'assister au réveil d'une forêt, aux premiers rayons qui filtrent entre les troncs. Le moment où la foulée devient fluide, où l'on croit pouvoir courir indéfiniment. La brûlure lente des montées, et la délivrance quand la pente bascule. La sensation d'un corps fort, affûté. La boule au ventre avant une grosse séance. Le grand soupir de soulagement une fois la ligne franchie. Et même, dit-il dans iRunFar, des soirées comme celle-là : coincé dans son short bus, pédalant en combinaison thermique, attrapant une barre sur le comptoir sans descendre du vélo.
+Les sorties matinales lancées dans le noir. Le privilège, écrit-il, d'assister au réveil d'une forêt, aux premiers rayons qui filtrent entre les troncs. Le moment où la foulée devient fluide, où l'on croit pouvoir courir indéfiniment. La brûlure lente des montées et la délivrance quand la pente bascule. La sensation d'un corps fort, affûté. La boule au ventre avant une grosse séance. Le grand soupir de soulagement une fois la ligne franchie. Et même, dit-il dans iRunFar, des soirées comme celle-là : coincé dans son short bus, pédalant en combinaison thermique, attrapant une barre sur le comptoir sans descendre du vélo.
 
 ![Illustration Actualités](/articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-2.jpg)
 

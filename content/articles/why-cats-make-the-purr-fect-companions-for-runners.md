@@ -22,7 +22,7 @@ rewrittenAt: '2026-04-20'
 ---
 Oubliez le labrador qui court à vos côtés sur les single tracks. La vraie révélation du trail outdoor 2024 pourrait bien tenir sur quatre pattes, miauler à l'aube et peser trois kilos. Le chat s'invite sur les sentiers — et la culture running commence à en prendre acte.
 
-Un plaidoyer publié par Trail Runner Mag bouscule un tabou silencieux de la communauté ultra : l'animal de compagnie du traileur ne serait pas forcément canin. L'autrice y défend, témoignages à l'appui, l'idée que le félin coche des cases insoupçonnées pour un coureur de fond : régulateur de sommeil, coach d'étirement, antidote à l'obsession chronométrique. Derrière l'anecdote, deux figures emblématiques émergent — Simon, alias *Backpacking Kitty*, compagnon du cinéaste JJ Yosh à Boulder (Colorado), et Sully, vedette Instagram propulsée par sa propriétaire Katie Chen. Plusieurs *14ers* au compteur pour le premier. Une cadence de trot qui intrigue les réseaux pour le second.
+Un plaidoyer publié par Trail Runner Mag bouscule un tabou silencieux de la communauté ultra : l'animal de compagnie du traileur ne serait pas forcément canin. L'autrice y défend, témoignages à l'appui, l'idée que le félin coche des cases insoupçonnées pour un coureur de fond : régulateur de sommeil, coach d'étirement, antidote à l'obsession chronométrique. Derrière l'anecdote, deux figures emblématiques émergent — Simon, alias *Backpacking Kitty*, compagnon du cinéaste JJ Yosh à Boulder (Colorado) et Sully, vedette Instagram propulsée par sa propriétaire Katie Chen. Plusieurs *14ers* au compteur pour le premier. Une cadence de trot qui intrigue les réseaux pour le second.
 
 ## Un phénomène outdoor qui ne se résume pas à une mode Instagram
 

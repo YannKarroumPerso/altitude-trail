@@ -35,7 +35,7 @@ Cela suppose un mental de fer. Passer la nuit à remonter des places sans savoir
 
 ## L'optimisation nocturne : là où la course bascule
 
-Le GRP se joue souvent entre 1 h et 5 h du matin. C'est un cliché, et c'est vrai. Troisième profil : celui qui structure toute sa course autour de la performance nocturne. Équipement frontal surpuissant, gestion thermique étudiée pour les crêtes à 2 200 mètres quand la température chute, alimentation calibrée pour éviter le coup de barre circadien autour de 3 h du matin.
+Le GRP se joue souvent entre 1 h et 5 h du matin. C'est un cliché et c'est vrai. Troisième profil : celui qui structure toute sa course autour de la performance nocturne. Équipement frontal surpuissant, gestion thermique étudiée pour les crêtes à 2 200 mètres quand la température chute, alimentation calibrée pour éviter le coup de barre circadien autour de 3 h du matin.
 
 ![Illustration Courses & Récits](/articles/grand-raid-pyrenees-portraits-vainqueurs-strategies-2.jpg)
 

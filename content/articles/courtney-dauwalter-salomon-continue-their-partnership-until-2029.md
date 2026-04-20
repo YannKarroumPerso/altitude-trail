@@ -34,9 +34,9 @@ La formule mérite qu'on s'y arrête. D'ordinaire, un renouvellement de contrat 
 
 Le cas est rare. Dans le communiqué repris par Ultra Runner Magazine, le périmètre du futur poste est précisé : mentorat des athlètes running de la marque, contribution au développement produit, promotion des gammes running. Autrement dit, Salomon ne signe pas seulement une coureuse en activité, la marque sécurise son capital d'expertise pour la décennie suivante. Dans un sport où les carrières d'élite tiennent rarement plus de dix ans au sommet, c'est une clause de continuité.
 
-## Comment tout a commencé, et pourquoi ça compte
+## Comment tout a commencé et pourquoi ça compte
 
-Retour en 2017. Dauwalter n'a alors ni palmarès international ni visibilité médiatique. Elle vient de la piste et du ski de fond, a quitté l'enseignement pour courir à plein temps. L'équipe Salomon US lui envoie quelques paires de chaussures et deux tenues. Dans le communiqué cité par Ultra Runner Magazine, elle rembobine : « En 2017, Salomon US a parié sur moi et m'a intégrée comme ambassadrice. Ils croyaient en moi, et n'ont pas tiqué quand j'ai demandé des shorts homme. J'étais aux anges. »
+Retour en 2017. Dauwalter n'a alors ni palmarès international ni visibilité médiatique. Elle vient de la piste et du ski de fond, a quitté l'enseignement pour courir à plein temps. L'équipe Salomon US lui envoie quelques paires de chaussures et deux tenues. Dans le communiqué cité par Ultra Runner Magazine, elle rembobine : « En 2017, Salomon US a parié sur moi et m'a intégrée comme ambassadrice. Ils croyaient en moi et n'ont pas tiqué quand j'ai demandé des shorts homme. J'étais aux anges. »
 
 L'anecdote des shorts n'est pas un détail. C'est l'embryon d'une identité visuelle et, sept ans plus tard, d'une ligne produit. Cette même année 2017, Dauwalter gagne la Moab 240 au scratch — devant tous les hommes. La trajectoire était posée. « Qui aurait cru que ce serait le début d'une relation aussi particulière ? », ajoute-t-elle dans les propos rapportés par Ultra Runner Magazine.
 

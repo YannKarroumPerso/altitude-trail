@@ -45,7 +45,7 @@ La rock plate, cette plaque rigide intégrée entre semelle et mousse, protège 
 
 ## Pointure et laçage : là où se jouent vraiment les ampoules
 
-En trail, on prend une demi-pointure, parfois une pointure au-dessus de sa taille de ville. Non pas par coquetterie technique, mais parce que le pied gonfle en course, parfois de plusieurs millimètres, et que les descentes projettent les orteils vers l'avant. Un ongle noir n'est pas une médaille, c'est une erreur de fitting.
+En trail, on prend une demi-pointure, parfois une pointure au-dessus de sa taille de ville. Non pas par coquetterie technique, mais parce que le pied gonfle en course, parfois de plusieurs millimètres et que les descentes projettent les orteils vers l'avant. Un ongle noir n'est pas une médaille, c'est une erreur de fitting.
 
 Le protocole d'essayage sérieux : fin de journée, quand les pieds sont légèrement enflés, avec les chaussettes techniques que vous porterez en course. Testez une descente simulée en magasin — les bons vendeurs disposent d'un plan incliné. Vos orteils ne doivent jamais toucher l'avant. Comptez un bon centimètre de marge entre le plus long orteil et le bout de la chaussure.
 

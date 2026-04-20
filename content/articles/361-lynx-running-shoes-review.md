@@ -27,7 +27,7 @@ Une marque chinoise qu'on ne voit pratiquement jamais sur les départs de l'UTMB
 
 ## Un marché saturé où l'outsider doit faire mieux, pas différemment
 
-Le trail running vit depuis cinq ans une guerre d'attrition entre trois ou quatre marques dominantes. Hoka a industrialisé l'amorti maximaliste. Saucony impose son dynamisme. Salomon et La Sportiva se disputent le terrain technique. Nike et On essaient d'exister. Dans cette configuration, un nouvel entrant n'a aucune marge d'erreur : il doit livrer mieux que les mastodontes sur au moins un critère, et aussi bien sur tous les autres.
+Le trail running vit depuis cinq ans une guerre d'attrition entre trois ou quatre marques dominantes. Hoka a industrialisé l'amorti maximaliste. Saucony impose son dynamisme. Salomon et La Sportiva se disputent le terrain technique. Nike et On essaient d'exister. Dans cette configuration, un nouvel entrant n'a aucune marge d'erreur : il doit livrer mieux que les mastodontes sur au moins un critère et aussi bien sur tous les autres.
 
 ![Illustration Actualités](/articles/361-lynx-la-chaussure-de-trail-qui-monte-discretement-en-puissance-1.jpg)
 
@@ -35,7 +35,7 @@ C'est précisément le pari tenté par 361° avec la Lynx. Ultra Runner Magazine
 
 ## La mousse PRIMO, l'arme cachée des ingénieurs chinois
 
-Le cœur de la chaussure, c'est sa midsole. 361° y loge sa mousse propriétaire, la PRIMO, que Williams décrit dans Ultra Runner Magazine comme redoutablement efficace sur longue distance : "la fatigue musculaire s'invite plus tard, et les derniers kilomètres ne virent pas au chemin de croix". Une affirmation qu'il faut lire à l'aune de son kilométrage de test — 320 kilomètres, soit l'équivalent de sept ou huit marathons, ou encore d'une CCC avec marge.
+Le cœur de la chaussure, c'est sa midsole. 361° y loge sa mousse propriétaire, la PRIMO, que Williams décrit dans Ultra Runner Magazine comme redoutablement efficace sur longue distance : "la fatigue musculaire s'invite plus tard et les derniers kilomètres ne virent pas au chemin de croix". Une affirmation qu'il faut lire à l'aune de son kilométrage de test — 320 kilomètres, soit l'équivalent de sept ou huit marathons, ou encore d'une CCC avec marge.
 
 À cela s'ajoutent des semelles de propreté ORTHOLITE X-40 amovibles, qui jouent sur le moelleux et la ventilation. Le détail compte : dans une chaussure à 30-35 mm de stack, la gestion thermique sous le pied peut devenir problématique en été. Williams note d'ailleurs que le mesh supérieur — composé à 25 % de fil recyclé — "maintient le pied à bonne température, même lors des sorties longues où la chaleur tend à s'accumuler". Concession discrète à l'éco-conception, devenue un standard de l'industrie plus qu'un argument différenciant.
 
