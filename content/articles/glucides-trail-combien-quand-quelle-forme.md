@@ -5,7 +5,7 @@ excerpt: "60, 90, 120 g/h ? La science avance vite et les recommandations aussi.
 category: "Nutrition"
 categorySlug: nutrition
 author: "Rédaction Altitude"
-date: "4 avril 2026"
+date: "8 avril 2026"
 readTime: "9 min"
 image: "/articles/glucides-trail-combien-quand-quelle-forme-hero.jpg"
 tags: ["Glucides", "Nutrition", "Gels", "Science"]

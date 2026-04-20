@@ -5,7 +5,7 @@ excerpt: "La Fédération française d'athlétisme revoit son dispositif d'agré
 category: "Actualités"
 categorySlug: actualites
 author: "Rédaction Altitude"
-date: "25 mars 2026"
+date: "5 avril 2026"
 readTime: "8 min"
 image: "/articles/ffa-certification-epreuves-trail-nouveau-cadre-2026-hero.jpg"
 tags: ["FFA", "Certification", "Réglementation", "Organisation"]

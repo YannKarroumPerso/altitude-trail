@@ -5,7 +5,7 @@ excerpt: "Depuis sa création en 2011, le GRP a sacré des profils très différ
 category: "Courses & Récits"
 categorySlug: courses-recits
 author: "Rédaction Altitude"
-date: "20 mars 2026"
+date: "4 avril 2026"
 readTime: "10 min"
 image: "/articles/grand-raid-pyrenees-portraits-vainqueurs-strategies-hero.jpg"
 tags: ["GRP", "Pyrénées", "Portraits", "Ultra"]

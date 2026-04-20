@@ -5,7 +5,7 @@ excerpt: "Une racine mal vue, un pierrier glissant, et la cheville part sur le c
 category: "Blessures & Préventions"
 categorySlug: blessures
 author: "Rédaction Altitude"
-date: "20 avril 2026"
+date: "16 avril 2026"
 readTime: "9 min"
 image: "/articles/entorse-cheville-trail-premiers-gestes-proprioception-hero.jpg"
 tags: ["Entorse", "Cheville", "Premiers secours", "Proprioception"]

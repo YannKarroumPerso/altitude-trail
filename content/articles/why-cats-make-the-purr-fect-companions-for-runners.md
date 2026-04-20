@@ -8,7 +8,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 17 décembre 2024
+date: "28 mars 2026"
 readTime: 6 min
 image: /articles/le-chat-compagnon-insoupconne-du-traileur-hero.jpg
 tags:

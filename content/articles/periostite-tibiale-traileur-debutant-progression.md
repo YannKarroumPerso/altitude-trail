@@ -5,7 +5,7 @@ excerpt: "Brûlures le long du tibia, sensations de cuisson après chaque sortie
 category: "Blessures & Préventions"
 categorySlug: blessures
 author: "Rédaction Altitude"
-date: "20 avril 2026"
+date: "18 avril 2026"
 readTime: "7 min"
 image: "/articles/periostite-tibiale-traileur-debutant-progression-hero.jpg"
 tags: ["Périostite", "Tibia", "Débutant", "Volume"]

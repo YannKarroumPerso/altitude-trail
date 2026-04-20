@@ -8,7 +8,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 13 décembre 2024
+date: "28 mars 2026"
 readTime: 6 min
 image: >-
   /articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu-hero.jpg

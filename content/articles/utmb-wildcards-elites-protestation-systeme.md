@@ -5,7 +5,7 @@ excerpt: "Invitations personnelles, tirages au sort, critères opaques : le syst
 category: "Actualités"
 categorySlug: actualites
 author: "Rédaction Altitude"
-date: "5 avril 2026"
+date: "8 avril 2026"
 readTime: "9 min"
 image: "/articles/utmb-wildcards-elites-protestation-systeme-hero.jpg"
 tags: ["UTMB", "Élites", "Wildcards", "Gouvernance"]

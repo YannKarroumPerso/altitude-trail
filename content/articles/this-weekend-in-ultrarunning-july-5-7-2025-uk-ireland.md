@@ -11,7 +11,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 2 juillet 2025
+date: "31 mars 2026"
 readTime: 6 min
 image: >-
   /articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-hero.jpg

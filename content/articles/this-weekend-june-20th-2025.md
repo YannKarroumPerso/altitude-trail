@@ -8,7 +8,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 19 juin 2025
+date: "30 mars 2026"
 readTime: 5 min
 image: >-
   /articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-hero.jpg

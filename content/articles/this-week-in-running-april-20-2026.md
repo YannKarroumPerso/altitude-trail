@@ -7,7 +7,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 20 avril 2026
+date: "20 avril 2026"
 readTime: 6 min
 image: >-
   /articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-hero.jpg

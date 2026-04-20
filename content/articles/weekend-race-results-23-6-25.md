@@ -11,7 +11,7 @@ excerpt: >-
 category: Courses & Récits
 categorySlug: courses-recits
 author: Rédaction Altitude
-date: 25 juin 2025
+date: "30 mars 2026"
 readTime: 7 min
 image: >-
   /articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu-hero.jpg

@@ -8,7 +8,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 23 janvier 2026
+date: "1 avril 2026"
 readTime: 5 min
 image: >-
   /articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc-hero.jpg

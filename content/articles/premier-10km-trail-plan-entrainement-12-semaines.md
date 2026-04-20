@@ -5,7 +5,7 @@ excerpt: "Un plan clair, quatre séances par semaine et une progression respectu
 category: "Débuter"
 categorySlug: debuter
 author: "Rédaction Altitude"
-date: "7 avril 2026"
+date: "9 avril 2026"
 readTime: "9 min"
 image: "/articles/premier-10km-trail-plan-entrainement-12-semaines-hero.jpg"
 tags: ["Plan d'entraînement", "Débuter", "10 km", "Objectif"]

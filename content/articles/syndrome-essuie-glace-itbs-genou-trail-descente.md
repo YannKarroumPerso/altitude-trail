@@ -5,7 +5,7 @@ excerpt: "Ce syndrome frotte, brûle, et contraint à l'abandon sur le côté ex
 category: "Blessures & Préventions"
 categorySlug: blessures
 author: "Rédaction Altitude"
-date: "20 avril 2026"
+date: "19 avril 2026"
 readTime: "7 min"
 image: "/articles/syndrome-essuie-glace-itbs-genou-trail-descente-hero.jpg"
 tags: ["ITBS", "Essuie-glace", "Genou", "Descente", "Renforcement"]

@@ -8,7 +8,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 20 décembre 2024
+date: "29 mars 2026"
 readTime: 6 min
 image: >-
   /articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-hero.jpg

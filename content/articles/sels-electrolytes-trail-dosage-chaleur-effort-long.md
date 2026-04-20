@@ -5,7 +5,7 @@ excerpt: "Sodium, potassium, magnésium : trois minéraux centraux dans la réus
 category: "Nutrition"
 categorySlug: nutrition
 author: "Rédaction Altitude"
-date: "6 avril 2026"
+date: "9 avril 2026"
 readTime: "8 min"
 image: "/articles/sels-electrolytes-trail-dosage-chaleur-effort-long-hero.jpg"
 tags: ["Électrolytes", "Sodium", "Chaleur", "Hydratation"]

@@ -5,7 +5,7 @@ excerpt: "Née en 2022 dans les Pyrénées ariégeoises, l'Occitane by UTMB est 
 category: "Courses & Récits"
 categorySlug: courses-recits
 author: "Rédaction Altitude"
-date: "25 mars 2026"
+date: "5 avril 2026"
 readTime: "9 min"
 image: "/articles/occitane-by-utmb-sud-ouest-ariege-ascension-hero.jpg"
 tags: ["Occitane", "UTMB World Series", "Ariège", "Croissance"]

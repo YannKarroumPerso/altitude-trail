@@ -5,7 +5,7 @@ excerpt: "L'entraînement au seuil, socle de la performance en endurance, doit �
 category: "Entraînement & Performances"
 categorySlug: entrainement
 author: "Rédaction Altitude"
-date: "16 avril 2026"
+date: "14 avril 2026"
 readTime: "9 min"
 image: "/articles/seuil-trail-structurer-intervalles-cote-hero.jpg"
 tags: ["Seuil", "Intervalles", "Côte", "VMA"]

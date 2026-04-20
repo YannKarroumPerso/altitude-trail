@@ -9,7 +9,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 20 avril 2026
+date: "18 avril 2026"
 readTime: 6 min
 image: >-
   /articles/quand-un-robot-humanoide-bat-le-record-du-semi-marathon-le-vrai-du-faux-d-une-pr-hero.jpg

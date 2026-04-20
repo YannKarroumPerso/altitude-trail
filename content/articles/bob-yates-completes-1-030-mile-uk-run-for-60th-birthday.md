@@ -8,7 +8,7 @@ excerpt: >-
 category: Courses & Récits
 categorySlug: courses-recits
 author: Rédaction Altitude
-date: 7 juillet 2025
+date: "31 mars 2026"
 readTime: 6 min
 image: >-
   /articles/bob-yates-1-030-miles-a-travers-le-royaume-uni-pour-feter-ses-60-ans-hero.jpg

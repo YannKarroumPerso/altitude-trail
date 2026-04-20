@@ -11,7 +11,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 18 avril 2026
+date: "14 avril 2026"
 readTime: 6 min
 image: >-
   /articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-hero.jpg

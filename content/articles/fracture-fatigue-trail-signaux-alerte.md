@@ -5,7 +5,7 @@ excerpt: "Une douleur qui monte en intensité à chaque sortie, un point précis
 category: "Blessures & Préventions"
 categorySlug: blessures
 author: "Rédaction Altitude"
-date: "15 avril 2026"
+date: "13 avril 2026"
 readTime: "9 min"
 image: "/articles/fracture-fatigue-trail-signaux-alerte-hero.jpg"
 tags: ["Fracture de fatigue", "Tibia", "Diagnostic", "Os"]

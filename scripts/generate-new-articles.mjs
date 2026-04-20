@@ -432,6 +432,34 @@ const ARTICLES = [
     topic:
       "pathologies de l'ongle chez le coureur de trail : hématome sous-unguéal (ongle noir par traumatisme répété, prévention par pointure adaptée, ponction si gêne), onycholyse (décollement partiel ou total, repousse 6-12 mois), ongle incarné (causes, prise en charge podologique), onychomycose (infection fongique, facteurs favorisants humidité-macération-immunité, diagnostic par prélèvement, traitement topique ou systémique selon étendue, durée 3 à 6 mois), hygiène post-sortie, choix chaussettes, massage quotidien, quand consulter un dermatologue ou un podologue",
   },
+
+  // ===== NOUVEAUX (20 avril 2026) =====
+  {
+    slug: "cafeine-ultra-trail-dosage-vigilance-nocturne",
+    title: "La caféine en ultra : dosage optimal et gestion de la vigilance nocturne",
+    excerpt:
+      "Un café à Courmayeur, une capsule à minuit, un gel caféiné au lever du soleil. Le plan est rarement pensé. Comment utiliser vraiment la caféine pour passer la nuit sans la payer au réveil.",
+    category: "Nutrition",
+    categorySlug: "nutrition",
+    tags: ["Caféine", "Vigilance", "Ultra", "Nuit"],
+    readTime: "8 min",
+    date: "20 avril 2026",
+    topic:
+      "utilisation raisonnée de la caféine en ultra-trail : pharmacocinétique (pic plasmatique 45-60 min après ingestion, demi-vie 4-6 h, métabolisme hépatique CYP1A2 très variable selon les individus), effets ergogènes démontrés par la littérature (↑ vigilance centrale, ↓ perception de l'effort, ↑ mobilisation des acides gras libres, amélioration de la précision motrice en fatigue), dosage recommandé 3-6 mg/kg avant effort prolongé, recharges en course (impulsions 50-100 mg/h en continu ou doses 100-200 mg à moments stratégiques), stratégie face à la nuit (ne pas abuser en début de nuit pour préserver la possibilité d'un abandon-sommeil ; dose critique vers 2 h-5 h du matin quand la mélatonine endogène culmine), formes disponibles (gels caféinés Maurten Caf, gommes Run Gum, capsules No-Doz 100 mg, café soluble aux ravitos UTMB, pastilles Lipton noir), interactions (↑ sollicitation cardiaque par forte chaleur, effet diurétique modéré surestimé par la croyance populaire), erreurs les plus fréquentes (surdosage par empilement de produits, premier usage le jour J sans tolérance testée), intérêt d'un sevrage 7-10 jours avant l'objectif pour maximiser l'effet",
+  },
+  {
+    slug: "entrainement-specifique-descente-trail-excentrique",
+    title: "Entraînement spécifique descente : pourquoi les jambes lâchent et comment y remédier",
+    excerpt:
+      "Les dix derniers kilomètres d'un ultra se jouent en descente, jambes détruites. La cause est musculaire, pas cardiaque. La parade aussi.",
+    category: "Entraînement & Performances",
+    categorySlug: "entrainement",
+    tags: ["Descente", "Excentrique", "Renforcement", "Quadriceps"],
+    readTime: "9 min",
+    date: "20 avril 2026",
+    topic:
+      "entraînement spécifique à la descente en trail : physiologie de la contraction excentrique (muscle allongé sous tension, micro-lésions des sarcomères nettement plus marquées qu'en concentrique, courbatures retardées DOMS 24-48 h, déficit fonctionnel 50-80 % pendant 5-7 jours sur le quadriceps), pourquoi la descente casse les jambes en ultra (accumulation de micro-lésions non récupérées, effet repeated bout qui protège après quelques semaines d'entraînement préalable), protocoles d'entraînement terrain (sortie longue avec descente continue 30-60 min en endurance modérée sur pente 8-12 %, séance de descente rapide en côte technique type 6x200 m, renforcement en dehors des séances de course), travail au gymnase (squat descendant 3-4 s sur la phase excentrique, step-down unipodal sur marche, fente bulgare avec tempo, Nordic hamstring curl pour ischio-jambiers), règle de progression (augmentation du dénivelé négatif hebdomadaire plafonnée à 10 % par semaine), erreurs classiques (évitement de la descente par peur de la blessure, entraînement exclusivement concentrique en salle, programmation de charges massives de descente dans les 2 dernières semaines avant course), placement dans le plan (6 à 10 semaines avant l'objectif, semaine de décharge tous les 3-4 cycles)",
+  },
 ];
 
 const FORMAT_INSTRUCTIONS = `FORMAT DE SORTIE (ARTICLE ORIGINAL)

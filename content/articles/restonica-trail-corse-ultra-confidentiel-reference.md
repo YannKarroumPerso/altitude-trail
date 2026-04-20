@@ -5,7 +5,7 @@ excerpt: "110 km dans les aiguilles de Bavella et le massif du Rotondo, sur le s
 category: "Courses & Récits"
 categorySlug: courses-recits
 author: "Rédaction Altitude"
-date: "10 avril 2026"
+date: "11 avril 2026"
 readTime: "9 min"
 image: "/articles/restonica-trail-corse-ultra-confidentiel-reference-hero.jpg"
 tags: ["Restonica", "Corse", "GR 20", "Ultra"]

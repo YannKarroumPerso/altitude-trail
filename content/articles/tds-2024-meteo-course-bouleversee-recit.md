@@ -5,7 +5,7 @@ excerpt: "Orage cévenol, brouillard épais, boue jusqu'aux chevilles : le 28 ao
 category: "Courses & Récits"
 categorySlug: courses-recits
 author: "Rédaction Altitude"
-date: "1 avril 2026"
+date: "7 avril 2026"
 readTime: "10 min"
 image: "/articles/tds-2024-meteo-course-bouleversee-recit-hero.jpg"
 tags: ["TDS", "UTMB", "Météo", "Récit"]

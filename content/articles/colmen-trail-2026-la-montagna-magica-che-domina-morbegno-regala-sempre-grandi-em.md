@@ -11,7 +11,7 @@ excerpt: >-
 category: Courses & Récits
 categorySlug: courses-recits
 author: Rédaction Altitude
-date: 19 avril 2026
+date: "15 avril 2026"
 readTime: 5 min
 image: >-
   /articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno-hero.jpg

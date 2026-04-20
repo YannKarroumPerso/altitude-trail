@@ -5,7 +5,7 @@ excerpt: "Douleur bas du dos qui s'installe sur les longues sorties, s'efface au
 category: "Blessures & Préventions"
 categorySlug: blessures
 author: "Rédaction Altitude"
-date: "18 avril 2026"
+date: "15 avril 2026"
 readTime: "8 min"
 image: "/articles/lombalgie-traileur-sac-hydratation-gestion-charge-hero.jpg"
 tags: ["Lombalgie", "Dos", "Équipement", "Gainage"]

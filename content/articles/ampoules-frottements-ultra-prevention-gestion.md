@@ -5,7 +5,7 @@ excerpt: "Un détail qui sabote des courses entières. La gestion des frottement
 category: "Blessures & Préventions"
 categorySlug: blessures
 author: "Rédaction Altitude"
-date: "8 avril 2026"
+date: "9 avril 2026"
 readTime: "8 min"
 image: "/articles/ampoules-frottements-ultra-prevention-gestion-hero.jpg"
 tags: ["Ampoules", "Ultra", "Pieds", "Équipement"]

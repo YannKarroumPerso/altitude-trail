@@ -5,7 +5,7 @@ excerpt: "Les stations françaises cherchent leur nouveau modèle économique ho
 category: "Actualités"
 categorySlug: actualites
 author: "Rédaction Altitude"
-date: "15 avril 2026"
+date: "13 avril 2026"
 readTime: "9 min"
 image: "/articles/stations-montagne-ete-vtt-trail-modele-economique-hero.jpg"
 tags: ["Stations", "Économie", "Aménagement", "Tendance"]

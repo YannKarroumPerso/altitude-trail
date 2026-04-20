@@ -5,7 +5,7 @@ excerpt: "Déficit énergétique relatif, sous-consommation de glucides, carence
 category: "Nutrition"
 categorySlug: nutrition
 author: "Rédaction Altitude"
-date: "10 avril 2026"
+date: "11 avril 2026"
 readTime: "9 min"
 image: "/articles/erreurs-nutritionnelles-qui-cassent-une-saison-trail-hero.jpg"
 tags: ["Santé", "RED-S", "Fer", "Performance"]

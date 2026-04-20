@@ -5,7 +5,7 @@ excerpt: "Au-delà de douze heures, le mental bascule. Traverser les nuits et le
 category: "Entraînement & Performances"
 categorySlug: entrainement
 author: "Rédaction Altitude"
-date: "18 avril 2026"
+date: "15 avril 2026"
 readTime: "9 min"
 image: "/articles/preparation-mentale-ultra-gerer-nuit-douleur-bas-hero.jpg"
 tags: ["Mental", "Ultra", "Nuit", "Préparation"]

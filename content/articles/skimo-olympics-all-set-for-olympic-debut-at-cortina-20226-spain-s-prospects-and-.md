@@ -11,7 +11,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 18 février 2026
+date: "2 avril 2026"
 readTime: 6 min
 image: >-
   /articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-hero.jpg

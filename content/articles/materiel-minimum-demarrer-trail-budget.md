@@ -5,7 +5,7 @@ excerpt: "Inutile de dépenser 800 € pour se lancer. On dresse la liste des in
 category: "Débuter"
 categorySlug: debuter
 author: "Rédaction Altitude"
-date: "9 avril 2026"
+date: "10 avril 2026"
 readTime: "8 min"
 image: "/articles/materiel-minimum-demarrer-trail-budget-hero.jpg"
 tags: ["Matériel", "Budget", "Équipement", "Débuter"]

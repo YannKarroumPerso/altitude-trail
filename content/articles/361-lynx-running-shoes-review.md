@@ -8,7 +8,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 12 janvier 2025
+date: "29 mars 2026"
 readTime: 6 min
 image: >-
   /articles/361-lynx-la-chaussure-de-trail-qui-monte-discretement-en-puissance-hero.jpg

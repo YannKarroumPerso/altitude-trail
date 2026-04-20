@@ -5,7 +5,7 @@ excerpt: "La plus tenace des blessures du pied frappe aussi bien les débutants 
 category: "Blessures & Préventions"
 categorySlug: blessures
 author: "Rédaction Altitude"
-date: "20 avril 2026"
+date: "17 avril 2026"
 readTime: "8 min"
 image: "/articles/fasciite-plantaire-trail-causes-traitement-prevention-hero.jpg"
 tags: ["Fasciite plantaire", "Pied", "Récupération", "Prévention"]

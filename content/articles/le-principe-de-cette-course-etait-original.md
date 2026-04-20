@@ -8,7 +8,7 @@ excerpt: >-
 category: Courses & Récits
 categorySlug: courses-recits
 author: Rédaction Altitude
-date: 20 avril 2026
+date: "18 avril 2026"
 readTime: 5 min
 image: >-
   /articles/les-heures-barbares-quand-le-trail-s-invite-sur-un-circuit-de-moto-cross-hero.jpg

@@ -5,7 +5,7 @@ excerpt: "Deux séances par semaine bien ciblées font plus pour votre performan
 category: "Entraînement & Performances"
 categorySlug: entrainement
 author: "Rédaction Altitude"
-date: "14 avril 2026"
+date: "12 avril 2026"
 readTime: "9 min"
 image: "/articles/renforcement-musculaire-trail-exercices-cles-hero.jpg"
 tags: ["Renforcement", "Musculation", "Performance", "Prévention"]

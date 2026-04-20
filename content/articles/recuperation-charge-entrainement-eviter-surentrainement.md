@@ -5,7 +5,7 @@ excerpt: "Fréquence cardiaque au repos, variabilité cardiaque, sommeil : trois
 category: "Entraînement & Performances"
 categorySlug: entrainement
 author: "Rédaction Altitude"
-date: "19 avril 2026"
+date: "16 avril 2026"
 readTime: "9 min"
 image: "/articles/recuperation-charge-entrainement-eviter-surentrainement-hero.jpg"
 tags: ["Récupération", "HRV", "Surentraînement", "Charge"]

@@ -11,7 +11,7 @@ excerpt: >-
 category: Courses & Récits
 categorySlug: courses-recits
 author: Rédaction Altitude
-date: 13 janvier 2025
+date: "29 mars 2026"
 readTime: 5 min
 image: >-
   /articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de-hero.jpg

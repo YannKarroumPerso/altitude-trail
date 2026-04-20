@@ -5,7 +5,7 @@ excerpt: "Trois ans après le lancement, la marque du Catalan s'impose dans le t
 category: "Actualités"
 categorySlug: actualites
 author: "Rédaction Altitude"
-date: "30 mars 2026"
+date: "6 avril 2026"
 readTime: "9 min"
 image: "/articles/kilian-jornet-nnormal-modele-marque-durable-hero.jpg"
 tags: ["NNormal", "Kilian Jornet", "Industrie", "Durabilité"]

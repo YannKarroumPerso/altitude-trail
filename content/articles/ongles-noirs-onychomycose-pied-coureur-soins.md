@@ -5,7 +5,7 @@ excerpt: "Décollement, noircissement, démangeaisons : le pied du traileur cumu
 category: "Blessures & Préventions"
 categorySlug: blessures
 author: "Rédaction Altitude"
-date: "22 avril 2026"
+date: "20 avril 2026"
 readTime: "8 min"
 image: "/articles/ongles-noirs-onychomycose-pied-coureur-soins-hero.jpg"
 tags: ["Ongles", "Pieds", "Dermatologie", "Soins"]

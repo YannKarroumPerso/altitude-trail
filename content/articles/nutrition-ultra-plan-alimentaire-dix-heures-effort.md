@@ -5,7 +5,7 @@ excerpt: "La digestion est le premier ennemi en ultra. Comment organiser son ali
 category: "Nutrition"
 categorySlug: nutrition
 author: "Rédaction Altitude"
-date: "2 avril 2026"
+date: "7 avril 2026"
 readTime: "10 min"
 image: "/articles/nutrition-ultra-plan-alimentaire-dix-heures-effort-hero.jpg"
 tags: ["Nutrition", "Ultra", "Plan alimentaire", "Digestion"]

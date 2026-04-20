@@ -9,7 +9,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 17 avril 2026
+date: "14 avril 2026"
 readTime: 5 min
 image: >-
   /articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-hero.jpg

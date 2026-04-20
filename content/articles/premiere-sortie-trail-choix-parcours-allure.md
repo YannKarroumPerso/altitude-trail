@@ -5,7 +5,7 @@ excerpt: "Ni trop long ni trop raide : les règles simples pour que votre baptê
 category: "Débuter"
 categorySlug: debuter
 author: "Rédaction Altitude"
-date: "1 avril 2026"
+date: "6 avril 2026"
 readTime: "7 min"
 image: "/articles/premiere-sortie-trail-choix-parcours-allure-hero.jpg"
 tags: ["Débuter", "Parcours", "Allure", "Progression"]

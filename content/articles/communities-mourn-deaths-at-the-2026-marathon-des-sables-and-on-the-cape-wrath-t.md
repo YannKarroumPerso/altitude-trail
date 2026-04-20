@@ -12,7 +12,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 16 avril 2026
+date: "13 avril 2026"
 readTime: 6 min
 image: >-
   /articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e-hero.jpg

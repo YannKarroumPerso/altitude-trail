@@ -5,7 +5,7 @@ excerpt: "Drop, crampons, amorti, pointure : cinq critères déterminent si vos 
 category: "Débuter"
 categorySlug: debuter
 author: "Rédaction Altitude"
-date: "3 avril 2026"
+date: "7 avril 2026"
 readTime: "8 min"
 image: "/articles/choisir-premiere-paire-chaussures-trail-guide-complet-hero.jpg"
 tags: ["Chaussures", "Débuter", "Équipement", "Achat"]

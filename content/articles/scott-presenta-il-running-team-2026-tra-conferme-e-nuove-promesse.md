@@ -8,7 +8,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 20 avril 2026
+date: "19 avril 2026"
 readTime: 5 min
 image: /articles/scott-running-team-2026-la-releve-frappe-a-la-porte-hero.jpg
 tags:

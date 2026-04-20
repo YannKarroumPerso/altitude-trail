@@ -8,7 +8,7 @@ excerpt: >-
 category: Courses & Récits
 categorySlug: courses-recits
 author: Rédaction Altitude
-date: 15 janvier 2025
+date: "30 mars 2026"
 readTime: 5 min
 image: >-
   /articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures-hero.jpg

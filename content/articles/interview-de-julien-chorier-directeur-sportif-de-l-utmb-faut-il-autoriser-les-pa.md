@@ -8,7 +8,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 20 avril 2026
+date: "17 avril 2026"
 readTime: 6 min
 image: /articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb-hero.jpg
 tags:

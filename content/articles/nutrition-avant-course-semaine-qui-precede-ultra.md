@@ -5,7 +5,7 @@ excerpt: "Carbohydrate loading, hydratation, fibres, alcool : comment bâtir les
 category: "Nutrition"
 categorySlug: nutrition
 author: "Rédaction Altitude"
-date: "8 avril 2026"
+date: "10 avril 2026"
 readTime: "8 min"
 image: "/articles/nutrition-avant-course-semaine-qui-precede-ultra-hero.jpg"
 tags: ["Préparation course", "Glucides", "Hydratation", "Ultra"]

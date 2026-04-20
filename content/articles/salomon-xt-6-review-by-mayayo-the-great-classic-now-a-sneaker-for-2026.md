@@ -8,7 +8,7 @@ excerpt: >-
 category: Actualités
 categorySlug: actualites
 author: Rédaction Altitude
-date: 5 février 2026
+date: "1 avril 2026"
 readTime: 5 min
 image: >-
   /articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe-hero.jpg

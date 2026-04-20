@@ -8,7 +8,7 @@ excerpt: >-
 category: Courses & Récits
 categorySlug: courses-recits
 author: Rédaction Altitude
-date: 17 avril 2026
+date: "14 avril 2026"
 readTime: 7 min
 image: /articles/wesley-kiptoo-et-alex-masai-deux-kenyans-un-reve-de-boston-hero.jpg
 tags:

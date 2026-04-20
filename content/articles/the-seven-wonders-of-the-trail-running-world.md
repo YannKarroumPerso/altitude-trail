@@ -8,7 +8,7 @@ excerpt: >-
 category: Courses & Récits
 categorySlug: courses-recits
 author: Rédaction Altitude
-date: 10 avril 2026
+date: "11 avril 2026"
 readTime: 6 min
 image: /articles/les-sept-merveilles-du-trail-mondial-l-ultime-bucket-list-hero.jpg
 tags:

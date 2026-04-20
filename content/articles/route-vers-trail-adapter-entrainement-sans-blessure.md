@@ -5,7 +5,7 @@ excerpt: "Le passage du bitume au sentier change presque tout : cadence, allure,
 category: "Débuter"
 categorySlug: debuter
 author: "Rédaction Altitude"
-date: "5 avril 2026"
+date: "8 avril 2026"
 readTime: "8 min"
 image: "/articles/route-vers-trail-adapter-entrainement-sans-blessure-hero.jpg"
 tags: ["Transition", "Débuter", "Progression", "Route"]

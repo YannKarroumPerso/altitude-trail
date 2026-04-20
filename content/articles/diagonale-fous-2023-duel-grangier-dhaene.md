@@ -5,7 +5,7 @@ excerpt: "Deux jours, deux nuits, 165 km à moins de cinq minutes d'écart. Reto
 category: "Courses & Récits"
 categorySlug: courses-recits
 author: "Rédaction Altitude"
-date: "28 mars 2026"
+date: "6 avril 2026"
 readTime: "10 min"
 image: "/articles/diagonale-fous-2023-duel-grangier-dhaene-hero.jpg"
 tags: ["Diagonale des Fous", "François D'Haene", "Réunion", "Récit"]
