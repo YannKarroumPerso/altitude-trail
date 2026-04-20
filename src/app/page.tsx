@@ -122,7 +122,14 @@ export default function Home() {
           <div className="col-span-1 lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
             {scienceArticles.map((article) => (
               <Link key={article.slug} href={"/articles/" + article.slug} className="flex gap-4 group">
-                <div className="shrink-0 w-24 h-24 bg-surface-container-high flex items-center justify-center text-3xl">🏃</div>
+                <Image
+                  src={article.image}
+                  alt={article.title}
+                  width={96}
+                  height={96}
+                  sizes="96px"
+                  className="shrink-0 w-24 h-24 object-cover lg:grayscale lg:group-hover:grayscale-0 transition-all duration-300"
+                />
                 <div className="space-y-2">
                   <h4 className="font-headline font-bold text-xl group-hover:text-primary transition-colors">{article.title}</h4>
                   <p className="text-sm text-slate-600 line-clamp-2">{article.excerpt}</p>
