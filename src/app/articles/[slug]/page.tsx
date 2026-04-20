@@ -15,16 +15,63 @@ import {
   buildNewsArticleJsonLd,
 } from "@/lib/seo";
 
+function slugifyHeading(text: string): string {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function extractTextFromNode(node: React.ReactNode): string {
+  if (node == null || node === false) return "";
+  if (typeof node === "string" || typeof node === "number") return String(node);
+  if (Array.isArray(node)) return node.map(extractTextFromNode).join("");
+  if (typeof node === "object" && node !== null && "props" in node) {
+    const props = (node as { props?: { children?: React.ReactNode } }).props;
+    return props ? extractTextFromNode(props.children) : "";
+  }
+  return "";
+}
+
+function extractToc(md: string): { id: string; label: string }[] {
+  const out: { id: string; label: string }[] = [];
+  for (const line of md.split(/\r?\n/)) {
+    const m = line.match(/^##\s+(.+?)\s*$/);
+    if (m) {
+      const label = m[1].trim();
+      out.push({ id: slugifyHeading(label), label });
+    }
+  }
+  return out;
+}
+
 const markdownComponents = {
-  h1: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h2 className="font-headline text-4xl font-black mt-10 mb-4" {...props} />
-  ),
-  h2: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h2 className="font-headline text-3xl font-black mt-10 mb-4" {...props} />
-  ),
-  h3: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h3 className="font-headline text-2xl font-bold mt-8 mb-3" {...props} />
-  ),
+  h1: ({ children, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => {
+    const id = slugifyHeading(extractTextFromNode(children));
+    return (
+      <h2 id={id} className="font-headline text-4xl font-black mt-10 mb-4 scroll-mt-24" {...props}>
+        {children}
+      </h2>
+    );
+  },
+  h2: ({ children, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => {
+    const id = slugifyHeading(extractTextFromNode(children));
+    return (
+      <h2 id={id} className="font-headline text-3xl font-black mt-10 mb-4 scroll-mt-24" {...props}>
+        {children}
+      </h2>
+    );
+  },
+  h3: ({ children, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => {
+    const id = slugifyHeading(extractTextFromNode(children));
+    return (
+      <h3 id={id} className="font-headline text-2xl font-bold mt-8 mb-3 scroll-mt-24" {...props}>
+        {children}
+      </h3>
+    );
+  },
   h4: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
     <h4 className="font-headline text-xl font-bold mt-6 mb-2" {...props} />
   ),
@@ -151,6 +198,32 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         />
       </div>
       <p className="text-xl text-slate-600 italic border-l-4 border-primary pl-6 mb-8 leading-relaxed">{article.excerpt}</p>
+      {article.content && (() => {
+        const toc = extractToc(article.content);
+        if (toc.length < 2) return null;
+        return (
+          <nav aria-label="Sommaire" className="bg-surface-container border-l-4 border-navy p-6 mb-10">
+            <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-4">
+              Sommaire
+            </div>
+            <ol className="space-y-2">
+              {toc.map((item, i) => (
+                <li key={item.id} className="flex gap-3 items-baseline">
+                  <span className="font-headline font-black text-primary shrink-0 w-8 text-sm tabular-nums">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <a
+                    href={`#${item.id}`}
+                    className="font-headline font-bold text-navy hover:text-primary transition-colors underline-offset-4 hover:underline"
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        );
+      })()}
       <div className="text-slate-700 leading-relaxed text-lg">
         {article.content ? (
           <ReactMarkdown components={markdownComponents}>
