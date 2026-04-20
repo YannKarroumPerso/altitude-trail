@@ -14,7 +14,7 @@ import {
   buildWebSiteJsonLd,
 } from "@/lib/seo";
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-THC9PSGZ14";
 const GOOGLE_SITE_VERIFICATION = process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION;
 
 export const metadata: Metadata = {
