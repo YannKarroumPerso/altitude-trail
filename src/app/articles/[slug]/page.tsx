@@ -2,7 +2,56 @@ import { articles } from "@/lib/data";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import ReactMarkdown from "react-markdown";
 import ArticleCard from "@/components/ui/ArticleCard";
+
+const markdownComponents = {
+  h1: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <h2 className="font-headline text-4xl font-black mt-10 mb-4" {...props} />
+  ),
+  h2: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <h2 className="font-headline text-3xl font-black mt-10 mb-4" {...props} />
+  ),
+  h3: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <h3 className="font-headline text-2xl font-bold mt-8 mb-3" {...props} />
+  ),
+  h4: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <h4 className="font-headline text-xl font-bold mt-6 mb-2" {...props} />
+  ),
+  p: (props: React.HTMLAttributes<HTMLParagraphElement>) => (
+    <p className="mb-4" {...props} />
+  ),
+  ul: (props: React.HTMLAttributes<HTMLUListElement>) => (
+    <ul className="list-disc pl-6 space-y-2 mb-4" {...props} />
+  ),
+  ol: (props: React.OlHTMLAttributes<HTMLOListElement>) => (
+    <ol className="list-decimal pl-6 space-y-2 mb-4" {...props} />
+  ),
+  strong: (props: React.HTMLAttributes<HTMLElement>) => (
+    <strong className="font-semibold" {...props} />
+  ),
+  em: (props: React.HTMLAttributes<HTMLElement>) => (
+    <em className="italic" {...props} />
+  ),
+  a: (props: React.AnchorHTMLAttributes<HTMLAnchorElement>) => (
+    <a
+      className="text-primary underline hover:opacity-80"
+      target="_blank"
+      rel="noopener noreferrer"
+      {...props}
+    />
+  ),
+  blockquote: (props: React.BlockquoteHTMLAttributes<HTMLQuoteElement>) => (
+    <blockquote
+      className="border-l-4 border-primary pl-6 italic text-slate-600 my-6"
+      {...props}
+    />
+  ),
+};
+
+function stripLeadingH1(md: string): string {
+  return md.replace(/^\s*#\s+[^\n]+\n+/, "");
+}
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
@@ -34,13 +83,21 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         <Image src={article.image} alt={article.title} width={1200} height={675} className="w-full aspect-video object-cover" />
       </div>
       <p className="text-xl text-slate-600 italic border-l-4 border-primary pl-6 mb-8 leading-relaxed">{article.excerpt}</p>
-      <div className="space-y-6 text-slate-700 leading-relaxed text-lg">
-        <p>Le trail running est bien plus qu'un sport — c'est une philosophie de vie, une façon d'appréhender la montagne et ses défis. Dans cet article, nous explorons en profondeur tous les aspects de ce sujet passionnant qui touche des milliers de coureurs en France et dans le monde entier.</p>
-        <p>Que vous soyez débutant cherchant vos premiers kilomètres en nature ou ultra-traileur expérimenté visant les plus grandes courses mondiales, les enjeux restent les mêmes : repousser ses limites, se connecter à la nature, et partager cette passion avec une communauté extraordinaire.</p>
-        <h2 className="font-headline text-3xl font-black mt-10 mb-4">Les fondamentaux</h2>
-        <p>La préparation est la clé de tout. Sans une base solide d'entraînement progressif, aucun objectif ambitieux ne peut être atteint durablement. Les meilleurs traileurs du monde consacrent des années à construire leur moteur aérobie avant de viser les podiums.</p>
-        <h2 className="font-headline text-3xl font-black mt-10 mb-4">En pratique</h2>
-        <p>Sur le terrain, la théorie laisse place à l'instinct. Des années d'entraînement cristallisées en quelques heures d'effort intense, où chaque décision peut faire la différence entre une belle performance et un abandon.</p>
+      <div className="text-slate-700 leading-relaxed text-lg">
+        {article.content ? (
+          <ReactMarkdown components={markdownComponents}>
+            {stripLeadingH1(article.content)}
+          </ReactMarkdown>
+        ) : (
+          <div className="space-y-6">
+            <p>Le trail running est bien plus qu&apos;un sport — c&apos;est une philosophie de vie, une façon d&apos;appréhender la montagne et ses défis. Dans cet article, nous explorons en profondeur tous les aspects de ce sujet passionnant qui touche des milliers de coureurs en France et dans le monde entier.</p>
+            <p>Que vous soyez débutant cherchant vos premiers kilomètres en nature ou ultra-traileur expérimenté visant les plus grandes courses mondiales, les enjeux restent les mêmes : repousser ses limites, se connecter à la nature, et partager cette passion avec une communauté extraordinaire.</p>
+            <h2 className="font-headline text-3xl font-black mt-10 mb-4">Les fondamentaux</h2>
+            <p>La préparation est la clé de tout. Sans une base solide d&apos;entraînement progressif, aucun objectif ambitieux ne peut être atteint durablement. Les meilleurs traileurs du monde consacrent des années à construire leur moteur aérobie avant de viser les podiums.</p>
+            <h2 className="font-headline text-3xl font-black mt-10 mb-4">En pratique</h2>
+            <p>Sur le terrain, la théorie laisse place à l&apos;instinct. Des années d&apos;entraînement cristallisées en quelques heures d&apos;effort intense, où chaque décision peut faire la différence entre une belle performance et un abandon.</p>
+          </div>
+        )}
       </div>
       {article.tags && (
         <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-surface-container">
