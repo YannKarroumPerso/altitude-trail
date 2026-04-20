@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://altitude-trail.vercel.app").replace(/\/$/, "");
+const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://altitude-brut.fr").replace(/\/$/, "");
 const KEY = process.env.INDEXNOW_KEY || "4e7c8a2f5b9d1e3a6c4f8b2d5e7a9c1f";
 const HOST = SITE_URL.replace(/^https?:\/\//, "");
 const KEY_LOCATION = `${SITE_URL}/${KEY}.txt`;

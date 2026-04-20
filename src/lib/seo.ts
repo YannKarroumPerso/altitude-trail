@@ -1,7 +1,7 @@
 import { Article, Race } from "@/types";
 
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL || "https://altitude-trail.vercel.app"
+  process.env.NEXT_PUBLIC_SITE_URL || "https://altitude-brut.fr"
 ).replace(/\/$/, "");
 
 export const SITE_NAME = "Altitude Trail";

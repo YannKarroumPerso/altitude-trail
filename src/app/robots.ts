@@ -23,7 +23,7 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "Applebot", allow: "/", disallow: ["/api/"] },
       { userAgent: "Applebot-Extended", allow: "/", disallow: ["/api/"] },
     ],
-    sitemap: `${SITE_URL}/sitemap.xml`,
+    sitemap: [`${SITE_URL}/sitemap.xml`, `${SITE_URL}/news-sitemap.xml`],
     host: SITE_URL,
   };
 }
