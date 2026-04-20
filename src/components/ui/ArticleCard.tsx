@@ -5,14 +5,16 @@ import { Article } from "@/types";
 interface ArticleCardProps {
   article: Article;
   variant?: "default" | "horizontal" | "mini" | "large";
+  priority?: boolean;
 }
 
-export default function ArticleCard({ article, variant = "default" }: ArticleCardProps) {
+export default function ArticleCard({ article, variant = "default", priority = false }: ArticleCardProps) {
   if (variant === "large") {
     return (
       <Link href={"/articles/" + article.slug} className="group cursor-pointer block">
         <div className="overflow-hidden">
           <Image src={article.image} alt={article.title} width={900} height={562}
+            priority={priority} loading={priority ? "eager" : "lazy"} sizes="(max-width: 1024px) 100vw, 900px"
             className="w-full aspect-[16/10] object-cover transition-transform duration-700 group-hover:scale-105" />
         </div>
         <div className="mt-6 space-y-4">

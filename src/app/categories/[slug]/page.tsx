@@ -1,10 +1,44 @@
+import type { Metadata } from "next";
 import { articles, categories } from "@/lib/data";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import ArticleCard from "@/components/ui/ArticleCard";
+import Breadcrumb from "@/components/ui/Breadcrumb";
+import JsonLd from "@/components/ui/JsonLd";
+import {
+  SITE_NAME,
+  categoryUrl,
+  buildCollectionPageJsonLd,
+} from "@/lib/seo";
 
 export function generateStaticParams() {
   return categories.map((c) => ({ slug: c.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const category = categories.find((c) => c.slug === slug);
+  if (!category) return { title: "Catégorie introuvable" };
+  const canonicalPath = `/categories/${category.slug}`;
+  const title = `${category.label} — Trail running & ultra-trail`;
+  return {
+    title,
+    description: category.description,
+    alternates: { canonical: canonicalPath, languages: { fr: canonicalPath } },
+    openGraph: {
+      type: "website",
+      url: categoryUrl(category.slug),
+      title,
+      description: category.description,
+      siteName: SITE_NAME,
+      locale: "fr_FR",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: category.description,
+    },
+  };
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -13,14 +47,23 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   if (!category) notFound();
   const categoryArticles = articles.filter((a) => a.categorySlug === slug);
 
+  const breadcrumb = [
+    { label: "Accueil", href: "/" },
+    { label: category.label },
+  ];
+
+  const collectionJsonLd = buildCollectionPageJsonLd({
+    name: `${category.label} — ${SITE_NAME}`,
+    description: category.description,
+    url: categoryUrl(category.slug),
+    articles: categoryArticles,
+  });
+
   return (
     <div className="max-w-7xl mx-auto px-4 lg:px-8 py-12">
+      <JsonLd data={collectionJsonLd} />
       <div className="border-b-2 border-navy pb-6 mb-12">
-        <div className="flex items-center gap-2 text-xs text-slate-500 mb-4 font-headline uppercase tracking-wide">
-          <Link href="/" className="hover:text-primary transition-colors">Accueil</Link>
-          <span>/</span>
-          <span>{category.label}</span>
-        </div>
+        <Breadcrumb items={breadcrumb} />
         <h1 className="font-headline text-5xl font-black uppercase tracking-tighter">{category.label}</h1>
         <p className="text-slate-500 mt-2">{category.description}</p>
       </div>

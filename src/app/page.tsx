@@ -1,7 +1,28 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { articles, mostRead } from "@/lib/data";
 import ArticleCard from "@/components/ui/ArticleCard";
+import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title: `${SITE_NAME} — Actualités trail, courses et ultra-trail`,
+  description: SITE_DESCRIPTION,
+  alternates: { canonical: "/", languages: { fr: "/" } },
+  openGraph: {
+    type: "website",
+    url: SITE_URL,
+    title: `${SITE_NAME} — Actualités trail, courses et ultra-trail`,
+    description: SITE_DESCRIPTION,
+    images: [{ url: DEFAULT_OG_IMAGE, width: 1200, height: 630, alt: SITE_NAME }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE_NAME} — Actualités trail, courses et ultra-trail`,
+    description: SITE_DESCRIPTION,
+    images: [DEFAULT_OG_IMAGE],
+  },
+};
 
 const featuredArticle = articles[0];
 const secondaryArticles = articles.slice(1, 3);
@@ -40,7 +61,7 @@ export default function Home() {
 
         {/* Central Column */}
         <section className="lg:col-span-6 space-y-8">
-          <ArticleCard article={featuredArticle} variant="large" />
+          <ArticleCard article={featuredArticle} variant="large" priority />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 border-t-2 border-surface-container pt-8">
             {secondaryArticles.map((article) => (
               <ArticleCard key={article.slug} article={article} variant="default" />

@@ -1,0 +1,28 @@
+name: IndexNow ping
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Wait for Vercel deploy to settle
+        run: sleep 180
+
+      - name: Ping IndexNow
+        env:
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL || 'https://altitude-trail.vercel.app' }}
+          INDEXNOW_KEY: ${{ vars.INDEXNOW_KEY || '4e7c8a2f5b9d1e3a6c4f8b2d5e7a9c1f' }}
+        run: node scripts/indexnow.mjs

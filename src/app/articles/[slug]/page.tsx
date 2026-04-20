@@ -1,9 +1,19 @@
-import { articles } from "@/lib/data";
+import type { Metadata } from "next";
+import { articles, mostRead, categories } from "@/lib/data";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import ArticleCard from "@/components/ui/ArticleCard";
+import Breadcrumb from "@/components/ui/Breadcrumb";
+import JsonLd from "@/components/ui/JsonLd";
+import {
+  SITE_URL,
+  SITE_NAME,
+  absoluteUrl,
+  articleUrl,
+  buildNewsArticleJsonLd,
+} from "@/lib/seo";
 
 const markdownComponents = {
   h1: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
@@ -57,30 +67,88 @@ export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const article = articles.find((a) => a.slug === slug);
+  if (!article) return { title: "Article introuvable" };
+  const url = articleUrl(article.slug);
+  const canonicalPath = `/articles/${article.slug}`;
+  const ogImage = absoluteUrl(article.image);
+  return {
+    title: article.title,
+    description: article.excerpt,
+    keywords: article.tags,
+    authors: [{ name: article.author }],
+    alternates: { canonical: canonicalPath, languages: { fr: canonicalPath } },
+    openGraph: {
+      type: "article",
+      url,
+      title: article.title,
+      description: article.excerpt,
+      siteName: SITE_NAME,
+      locale: "fr_FR",
+      images: [{ url: ogImage, width: 1200, height: 630, alt: article.title }],
+      publishedTime: article.date,
+      authors: [article.author],
+      tags: article.tags,
+      section: article.category,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.excerpt,
+      images: [ogImage],
+    },
+  };
+}
+
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const article = articles.find((a) => a.slug === slug);
   if (!article) notFound();
-  const related = articles.filter((a) => a.categorySlug === article.categorySlug && a.slug !== slug).slice(0, 3);
+
+  const related = articles
+    .filter((a) => a.categorySlug === article.categorySlug && a.slug !== slug)
+    .slice(0, 3);
+  const popular = mostRead.filter((a) => a.slug !== slug).slice(0, 4);
+  const parentCategory = categories.find((c) => c.slug === article.categorySlug);
+
+  const breadcrumb = [
+    { label: "Accueil", href: "/" },
+    {
+      label: article.category,
+      href: `/categories/${article.categorySlug}`,
+    },
+    { label: article.title },
+  ];
 
   return (
     <div className="max-w-4xl mx-auto px-4 lg:px-8 py-12">
-      <div className="flex items-center gap-2 text-xs text-slate-500 mb-8 font-headline uppercase tracking-wide">
-        <Link href="/" className="hover:text-primary transition-colors">Accueil</Link>
-        <span>/</span>
-        <Link href={"/categories/" + article.categorySlug} className="hover:text-primary transition-colors">{article.category}</Link>
-        <span>/</span>
-        <span className="text-on-surface truncate max-w-xs">{article.title}</span>
-      </div>
+      <JsonLd data={buildNewsArticleJsonLd(article)} />
+      <Breadcrumb items={breadcrumb} />
       <div className="mb-4">
-        <span className="bg-primary text-white text-[10px] font-bold px-2 py-0.5 tracking-tighter uppercase font-headline">{article.category}</span>
+        <Link
+          href={`/categories/${article.categorySlug}`}
+          className="bg-primary text-white text-[10px] font-bold px-2 py-0.5 tracking-tighter uppercase font-headline hover:opacity-80 transition-opacity"
+        >
+          {article.category}
+        </Link>
       </div>
       <h1 className="font-headline text-4xl lg:text-6xl font-black leading-none tracking-tighter mb-6">{article.title}</h1>
       <div className="flex items-center gap-4 text-xs text-slate-500 font-semibold uppercase tracking-wide mb-8 border-b border-surface-container pb-6">
         <span>Par {article.author}</span><span>·</span><span>{article.date}</span><span>·</span><span>{article.readTime} de lecture</span>
       </div>
       <div className="mb-8 overflow-hidden">
-        <Image src={article.image} alt={article.title} width={1200} height={675} className="w-full aspect-video object-cover" />
+        <Image
+          src={article.image}
+          alt={article.title}
+          width={1200}
+          height={675}
+          priority
+          loading="eager"
+          sizes="(max-width: 1024px) 100vw, 896px"
+          className="w-full aspect-video object-cover"
+        />
       </div>
       <p className="text-xl text-slate-600 italic border-l-4 border-primary pl-6 mb-8 leading-relaxed">{article.excerpt}</p>
       <div className="text-slate-700 leading-relaxed text-lg">
@@ -106,12 +174,50 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           ))}
         </div>
       )}
+
+      {parentCategory && (
+        <div className="mt-12 bg-surface-container p-6 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div>
+            <p className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-1">Catégorie</p>
+            <p className="font-headline font-black text-xl">{parentCategory.label}</p>
+            <p className="text-sm text-slate-600 mt-1">{parentCategory.description}</p>
+          </div>
+          <Link
+            href={`/categories/${parentCategory.slug}`}
+            className="bg-navy text-white px-6 py-3 font-headline font-bold text-xs uppercase tracking-widest hover:bg-primary transition-colors whitespace-nowrap"
+          >
+            Tous les articles →
+          </Link>
+        </div>
+      )}
+
       {related.length > 0 && (
         <div className="mt-16">
           <div className="newspaper-divider mb-10"><span>ARTICLES SIMILAIRES</span></div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             {related.map((a) => <ArticleCard key={a.slug} article={a} variant="default" />)}
           </div>
+        </div>
+      )}
+
+      {popular.length > 0 && (
+        <div className="mt-16">
+          <div className="newspaper-divider mb-10"><span>LES PLUS CONSULTÉS</span></div>
+          <ol className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+            {popular.map((a, i) => (
+              <li key={a.slug}>
+                <Link href={`/articles/${a.slug}`} className="flex gap-4 group cursor-pointer">
+                  <div className="text-4xl font-headline font-black text-slate-300 group-hover:text-primary transition-colors leading-none shrink-0 w-12 text-right">
+                    {i + 1}
+                  </div>
+                  <div className="space-y-1">
+                    <h3 className="font-headline font-bold text-base leading-snug group-hover:underline">{a.title}</h3>
+                    <p className="text-[10px] text-slate-500 uppercase font-bold tracking-wider">{a.category} — {a.readTime}</p>
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ol>
         </div>
       )}
     </div>

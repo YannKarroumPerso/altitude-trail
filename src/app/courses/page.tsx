@@ -1,5 +1,34 @@
+import type { Metadata } from "next";
 import { races } from "@/lib/data";
 import Link from "next/link";
+import Breadcrumb from "@/components/ui/Breadcrumb";
+import JsonLd from "@/components/ui/JsonLd";
+import {
+  SITE_URL,
+  SITE_NAME,
+  buildSportsEventJsonLd,
+  buildBreadcrumbJsonLd,
+  absoluteUrl,
+} from "@/lib/seo";
+
+const title = "Calendrier des courses de trail en France";
+const description =
+  "Calendrier complet des courses de trail et ultra-trail en France : UTMB, Diagonale des Fous, Maxi-Race, Trail du Mont-Blanc et plus — distances, dénivelés, dates 2025.";
+
+export const metadata: Metadata = {
+  title,
+  description,
+  alternates: { canonical: "/courses", languages: { fr: "/courses" } },
+  openGraph: {
+    type: "website",
+    url: `${SITE_URL}/courses`,
+    title: `${title} — ${SITE_NAME}`,
+    description,
+    siteName: SITE_NAME,
+    locale: "fr_FR",
+  },
+  twitter: { card: "summary_large_image", title, description },
+};
 
 const difficultyColor: Record<string, string> = {
   "Facile": "bg-green-100 text-green-800",
@@ -10,14 +39,30 @@ const difficultyColor: Record<string, string> = {
 
 export default function CoursesPage() {
   const regions = [...new Set(races.map((r) => r.region))].sort();
+  const breadcrumb = [
+    { label: "Accueil", href: "/" },
+    { label: "Courses en France" },
+  ];
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: title,
+    description,
+    itemListElement: races.map((race, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: buildSportsEventJsonLd(race),
+    })),
+  };
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd(
+    breadcrumb.map((b) => ({ label: b.label, url: b.href ? absoluteUrl(b.href) : undefined }))
+  );
+
   return (
     <div className="max-w-7xl mx-auto px-4 lg:px-8 py-12">
+      <JsonLd data={[breadcrumbJsonLd, itemListJsonLd]} />
       <div className="border-b-2 border-navy pb-6 mb-12">
-        <div className="flex items-center gap-2 text-xs text-slate-500 mb-4 font-headline uppercase tracking-wide">
-          <Link href="/" className="hover:text-primary transition-colors">Accueil</Link>
-          <span>/</span>
-          <span>Courses en France</span>
-        </div>
+        <Breadcrumb items={breadcrumb} />
         <h1 className="font-headline text-5xl font-black uppercase tracking-tighter">Courses de Trail en France</h1>
         <p className="text-slate-500 mt-2">Le calendrier des courses — {races.length} courses répertoriées</p>
       </div>
@@ -72,7 +117,7 @@ export default function CoursesPage() {
       </div>
 
       <div className="mt-12 bg-navy text-white p-8 text-center space-y-4">
-        <h3 className="font-headline text-2xl font-black uppercase">Votre course n'est pas dans la liste ?</h3>
+        <h3 className="font-headline text-2xl font-black uppercase">Votre course n&apos;est pas dans la liste ?</h3>
         <p className="text-slate-300 text-sm">Contactez-nous pour ajouter votre événement trail.</p>
         <Link href="/contact" className="inline-block bg-primary text-white px-8 py-3 font-headline font-bold text-xs uppercase tracking-widest hover:opacity-80 transition-opacity">
           NOUS CONTACTER

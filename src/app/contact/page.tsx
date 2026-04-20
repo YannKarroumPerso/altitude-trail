@@ -1,14 +1,35 @@
-import Link from "next/link";
+import type { Metadata } from "next";
+import Breadcrumb from "@/components/ui/Breadcrumb";
+import { SITE_URL, SITE_NAME } from "@/lib/seo";
+
+const title = "Contact — Altitude Trail";
+const description =
+  "Contactez la rédaction d'Altitude Trail : rédaction, partenariats, référencement de courses trail.";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description,
+  alternates: { canonical: "/contact", languages: { fr: "/contact" } },
+  openGraph: {
+    type: "website",
+    url: `${SITE_URL}/contact`,
+    title,
+    description,
+    siteName: SITE_NAME,
+    locale: "fr_FR",
+  },
+  twitter: { card: "summary_large_image", title, description },
+};
 
 export default function ContactPage() {
+  const breadcrumb = [
+    { label: "Accueil", href: "/" },
+    { label: "Contact" },
+  ];
   return (
     <div className="max-w-3xl mx-auto px-4 lg:px-8 py-12">
       <div className="border-b-2 border-navy pb-6 mb-12">
-        <div className="flex items-center gap-2 text-xs text-slate-500 mb-4 font-headline uppercase tracking-wide">
-          <Link href="/" className="hover:text-primary transition-colors">Accueil</Link>
-          <span>/</span>
-          <span>Contact</span>
-        </div>
+        <Breadcrumb items={breadcrumb} />
         <h1 className="font-headline text-5xl font-black uppercase tracking-tighter">Contactez-nous</h1>
         <p className="text-slate-500 mt-2">Une question, un partenariat, une course à référencer ? On vous répond.</p>
       </div>

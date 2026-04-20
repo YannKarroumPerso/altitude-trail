@@ -198,7 +198,7 @@ function parseFrontmatter(md) {
   const body = md.slice(end + 4).trim();
   const meta = {};
   for (const line of yaml.split("\n")) {
-    const m = line.match(/^([a-zA-Z_]+):\s*(.+)$/);
+    const m = line.match(/^([a-zA-Z_][a-zA-Z0-9_]*):\s*(.+)$/);
     if (!m) continue;
     const key = m[1];
     let val = m[2].trim();
@@ -244,6 +244,8 @@ function buildMarkdownFile({ meta, body, sourceItem, pubDate, image }) {
     `image: "${image}"`,
     `tags: ${tagsYaml}`,
     `sourceUrl: "${sourceItem.link}"`,
+    ...(meta.imagePrompt1 ? [`imagePrompt1: ${JSON.stringify(meta.imagePrompt1)}`] : []),
+    ...(meta.imagePrompt2 ? [`imagePrompt2: ${JSON.stringify(meta.imagePrompt2)}`] : []),
     "---",
     "",
     body,
@@ -308,6 +310,7 @@ async function generateAndDownloadImages(slug, prompts) {
   for (let i = 0; i < prompts.length; i++) {
     const prompt = (prompts[i] || "").trim();
     if (!prompt) {
+      console.warn(`[veille]   flux#${i + 1}: prompt vide, skip`);
       refs.push(null);
       continue;
     }
