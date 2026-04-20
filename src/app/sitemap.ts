@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { articles, categories } from "@/lib/data";
+import { races } from "@/lib/races-database";
 import { SITE_URL, parseFrDate } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -25,5 +26,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...articleRoutes];
+  const raceRoutes: MetadataRoute.Sitemap = races.map((r) => ({
+    url: `${SITE_URL}/courses/${r.slug}`,
+    lastModified: new Date(r.dateISO),
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...categoryRoutes, ...articleRoutes, ...raceRoutes];
 }

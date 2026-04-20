@@ -13,18 +13,26 @@ export interface Article {
   content?: string;
 }
 
+export type Difficulty = "Facile" | "Modéré" | "Difficile" | "Extrême";
+
 export interface Race {
   id: string;
+  slug: string;
   name: string;
-  location: string;
-  department: string;
-  region: string;
   date: string;
-  distance: string;
-  elevation: string;
-  difficulty: "Facile" | "Modéré" | "Difficile" | "Extrême";
+  month: number;
+  dateISO: string;
+  city: string;
+  departmentCode: string;
+  departmentName: string;
+  region: string;
+  distance: number;
+  elevation: number;
+  difficulty: Difficulty;
+  description: string;
+  lat: number;
+  lng: number;
   website?: string;
-  description?: string;
 }
 
 export interface Category {

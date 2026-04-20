@@ -1,19 +1,18 @@
 import type { Metadata } from "next";
-import { races } from "@/lib/data";
-import Link from "next/link";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import JsonLd from "@/components/ui/JsonLd";
+import CoursesClient from "@/components/courses/CoursesClient";
+import { races } from "@/lib/races-database";
 import {
   SITE_URL,
   SITE_NAME,
-  buildSportsEventJsonLd,
-  buildBreadcrumbJsonLd,
   absoluteUrl,
+  buildBreadcrumbJsonLd,
+  buildSportsEventJsonLd,
 } from "@/lib/seo";
 
 const title = "Calendrier des courses de trail en France";
-const description =
-  "Calendrier complet des courses de trail et ultra-trail en France : UTMB, Diagonale des Fous, Maxi-Race, Trail du Mont-Blanc et plus — distances, dénivelés, dates 2025.";
+const description = `Carte interactive et calendrier de ${races.length} courses de trail en France pour la saison 2026 : UTMB, Diagonale des Fous, SaintéLyon, Templiers, Maxi-Race et plus — filtres par région, département, mois, distance, difficulté.`;
 
 export const metadata: Metadata = {
   title,
@@ -30,98 +29,50 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title, description },
 };
 
-const difficultyColor: Record<string, string> = {
-  "Facile": "bg-green-100 text-green-800",
-  "Modéré": "bg-yellow-100 text-yellow-800",
-  "Difficile": "bg-orange-100 text-orange-800",
-  "Extrême": "bg-red-100 text-red-800",
-};
-
 export default function CoursesPage() {
-  const regions = [...new Set(races.map((r) => r.region))].sort();
   const breadcrumb = [
     { label: "Accueil", href: "/" },
     { label: "Courses en France" },
   ];
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd(
+    breadcrumb.map((b) => ({ label: b.label, url: b.href ? absoluteUrl(b.href) : undefined }))
+  );
   const itemListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: title,
     description,
+    numberOfItems: races.length,
     itemListElement: races.map((race, i) => ({
       "@type": "ListItem",
       position: i + 1,
       item: buildSportsEventJsonLd(race),
     })),
   };
-  const breadcrumbJsonLd = buildBreadcrumbJsonLd(
-    breadcrumb.map((b) => ({ label: b.label, url: b.href ? absoluteUrl(b.href) : undefined }))
-  );
 
   return (
     <div className="max-w-7xl mx-auto px-4 lg:px-8 py-12">
       <JsonLd data={[breadcrumbJsonLd, itemListJsonLd]} />
-      <div className="border-b-2 border-navy pb-6 mb-12">
+      <div className="border-b-2 border-navy pb-6 mb-10">
         <Breadcrumb items={breadcrumb} />
         <h1 className="font-headline text-5xl font-black uppercase tracking-tighter">Courses de Trail en France</h1>
-        <p className="text-slate-500 mt-2">Le calendrier des courses — {races.length} courses répertoriées</p>
+        <p className="text-slate-500 mt-2">
+          Calendrier 2026 — {races.length} courses référencées. Cliquez sur un marqueur pour voir le détail.
+        </p>
       </div>
+      <CoursesClient races={races} />
 
-      <div className="flex flex-wrap gap-3 mb-10">
-        <span className="text-xs font-headline font-bold uppercase tracking-wide text-slate-500 self-center mr-2">Région :</span>
-        <button className="px-4 py-2 text-xs font-headline font-bold uppercase bg-navy text-white">Toutes</button>
-        {regions.map((region) => (
-          <button key={region} className="px-4 py-2 text-xs font-headline font-bold uppercase bg-surface-container text-navy hover:bg-navy hover:text-white transition-colors">
-            {region}
-          </button>
-        ))}
-      </div>
-
-      <div className="overflow-x-auto">
-        <table className="w-full text-sm">
-          <thead>
-            <tr className="bg-navy text-white font-headline text-xs uppercase tracking-wide">
-              <th className="text-left px-4 py-3">Course</th>
-              <th className="text-left px-4 py-3">Lieu</th>
-              <th className="text-left px-4 py-3">Région</th>
-              <th className="text-left px-4 py-3">Date 2025</th>
-              <th className="text-left px-4 py-3">Distance</th>
-              <th className="text-left px-4 py-3">D+</th>
-              <th className="text-left px-4 py-3">Difficulté</th>
-              <th className="text-left px-4 py-3">Site</th>
-            </tr>
-          </thead>
-          <tbody>
-            {races.map((race, i) => (
-              <tr key={race.id} className={"border-b border-surface-container hover:bg-surface-container transition-colors " + (i % 2 === 0 ? "bg-white" : "bg-surface")}>
-                <td className="px-4 py-4 font-headline font-bold">{race.name}</td>
-                <td className="px-4 py-4 text-slate-600">{race.location}</td>
-                <td className="px-4 py-4 text-slate-500 text-xs">{race.region}</td>
-                <td className="px-4 py-4 text-slate-600 whitespace-nowrap">{race.date}</td>
-                <td className="px-4 py-4 font-bold text-primary">{race.distance}</td>
-                <td className="px-4 py-4 text-slate-600">{race.elevation}</td>
-                <td className="px-4 py-4">
-                  <span className={"px-2 py-0.5 text-xs font-bold rounded-sm " + (difficultyColor[race.difficulty] || "")}>
-                    {race.difficulty}
-                  </span>
-                </td>
-                <td className="px-4 py-4">
-                  {race.website ? (
-                    <a href={race.website} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline text-xs font-bold">Voir →</a>
-                  ) : <span className="text-slate-300 text-xs">—</span>}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <div className="mt-12 bg-navy text-white p-8 text-center space-y-4">
-        <h3 className="font-headline text-2xl font-black uppercase">Votre course n&apos;est pas dans la liste ?</h3>
-        <p className="text-slate-300 text-sm">Contactez-nous pour ajouter votre événement trail.</p>
-        <Link href="/contact" className="inline-block bg-primary text-white px-8 py-3 font-headline font-bold text-xs uppercase tracking-widest hover:opacity-80 transition-opacity">
-          NOUS CONTACTER
-        </Link>
+      <div className="mt-16 bg-navy text-white p-8 text-center space-y-4">
+        <h2 className="font-headline text-2xl font-black uppercase">Votre course n&apos;est pas dans la liste ?</h2>
+        <p className="text-slate-300 text-sm max-w-xl mx-auto">
+          Ce calendrier est en cours d&apos;enrichissement. Contactez-nous pour référencer votre événement trail.
+        </p>
+        <a
+          href="/contact"
+          className="inline-block bg-primary text-white px-8 py-3 font-headline font-bold text-xs uppercase tracking-widest hover:opacity-80 transition-opacity"
+        >
+          Nous contacter
+        </a>
       </div>
     </div>
   );
