@@ -82,12 +82,6 @@ export default function Header() {
         </div>
       )}
 
-      {/* Alert Banner */}
-      <div className="bg-primary text-white py-2 px-8 flex justify-center items-center gap-3 text-xs font-bold uppercase tracking-widest">
-        <span>⚡</span>
-        <span>DIRECT : Suivez la Diagonale des Fous en temps réel sur Altitude Trail !</span>
-        <span>→</span>
-      </div>
     </header>
   );
 }
