@@ -63,8 +63,13 @@ export default function Home() {
         <section className="lg:col-span-6 space-y-8 order-1 lg:order-none">
           <ArticleCard article={featuredArticle} variant="large" priority />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 border-t-2 border-surface-container pt-8">
-            {secondaryArticles.map((article) => (
-              <ArticleCard key={article.slug} article={article} variant="default" />
+            {secondaryArticles.map((article, i) => (
+              <ArticleCard
+                key={article.slug}
+                article={article}
+                variant="default"
+                hideExcerpt={i % 3 === 2}
+              />
             ))}
           </div>
         </section>
@@ -105,8 +110,13 @@ export default function Home() {
       <section className="max-w-[1440px] mx-auto px-4 lg:px-8 pb-12">
         <div className="newspaper-divider"><span>COURSES &amp; RÉCITS</span></div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-0 md:gap-y-8 mt-12">
-          {coursesRecits.map((article) => (
-            <ArticleCard key={article.slug} article={article} variant="default" />
+          {coursesRecits.map((article, i) => (
+            <ArticleCard
+              key={article.slug}
+              article={article}
+              variant="default"
+              hideExcerpt={i % 3 === 2}
+            />
           ))}
         </div>
       </section>
@@ -116,26 +126,31 @@ export default function Home() {
         <div className="newspaper-divider"><span>SCIENCE &amp; ENTRAÎNEMENT</span></div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-12">
           <div className="col-span-1 lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
-            {scienceArticles.map((article) => (
-              <Link
-                key={article.slug}
-                href={"/articles/" + article.slug}
-                className="group flex flex-col md:flex-row gap-3 md:gap-4 pb-6 border-b border-surface-container md:pb-0 md:border-b-0"
-              >
-                <Image
-                  src={article.image}
-                  alt={article.title}
-                  width={800}
-                  height={450}
-                  sizes="(max-width: 768px) 100vw, 96px"
-                  className="w-full aspect-video md:w-24 md:h-24 md:aspect-auto md:shrink-0 object-cover lg:grayscale lg:group-hover:grayscale-0 transition-all duration-300"
-                />
-                <div className="space-y-2">
-                  <h4 className="font-headline font-black md:font-bold text-2xl md:text-xl leading-tight group-hover:text-primary transition-colors">{article.title}</h4>
-                  <p className="text-base md:text-sm text-slate-600 leading-relaxed line-clamp-3 md:line-clamp-2">{article.excerpt}</p>
-                </div>
-              </Link>
-            ))}
+            {scienceArticles.map((article, i) => {
+              const hideExcerpt = i % 3 === 2;
+              return (
+                <Link
+                  key={article.slug}
+                  href={"/articles/" + article.slug}
+                  className="group flex flex-col md:flex-row gap-3 md:gap-4 pb-6 border-b border-surface-container md:pb-0 md:border-b-0"
+                >
+                  <Image
+                    src={article.image}
+                    alt={article.title}
+                    width={800}
+                    height={450}
+                    sizes="(max-width: 768px) 100vw, 96px"
+                    className="w-full aspect-video md:w-24 md:h-24 md:aspect-auto md:shrink-0 object-cover lg:grayscale lg:group-hover:grayscale-0 transition-all duration-300"
+                  />
+                  <div className="space-y-2">
+                    <h4 className="font-headline font-black md:font-bold text-2xl md:text-xl leading-tight group-hover:text-primary transition-colors">{article.title}</h4>
+                    {!hideExcerpt && (
+                      <p className="text-base md:text-sm text-slate-600 leading-relaxed line-clamp-3 md:line-clamp-2">{article.excerpt}</p>
+                    )}
+                  </div>
+                </Link>
+              );
+            })}
           </div>
           <div className="bg-white p-6 border-l-2 border-primary shadow-sm space-y-6">
             <h3 className="font-headline font-black text-2xl tracking-tighter italic uppercase">Altitude Trail</h3>

@@ -268,7 +268,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         <div className="mt-16">
           <div className="newspaper-divider mb-10"><span>ARTICLES SIMILAIRES</span></div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            {related.map((a) => <ArticleCard key={a.slug} article={a} variant="default" />)}
+            {related.map((a, i) => (
+              <ArticleCard
+                key={a.slug}
+                article={a}
+                variant="default"
+                hideExcerpt={i % 3 === 2}
+              />
+            ))}
           </div>
         </div>
       )}

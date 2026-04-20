@@ -79,7 +79,14 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         <p className="text-slate-500 text-center py-20">Aucun article dans cette catégorie pour le moment.</p>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {categoryArticles.map((article) => <ArticleCard key={article.slug} article={article} variant="default" />)}
+          {categoryArticles.map((article, i) => (
+            <ArticleCard
+              key={article.slug}
+              article={article}
+              variant="default"
+              hideExcerpt={i % 3 === 2}
+            />
+          ))}
         </div>
       )}
     </div>

@@ -6,9 +6,10 @@ interface ArticleCardProps {
   article: Article;
   variant?: "default" | "horizontal" | "mini" | "large";
   priority?: boolean;
+  hideExcerpt?: boolean;
 }
 
-export default function ArticleCard({ article, variant = "default", priority = false }: ArticleCardProps) {
+export default function ArticleCard({ article, variant = "default", priority = false, hideExcerpt = false }: ArticleCardProps) {
   if (variant === "large") {
     return (
       <Link href={"/articles/" + article.slug} className="group cursor-pointer block">
@@ -71,9 +72,11 @@ export default function ArticleCard({ article, variant = "default", priority = f
           {article.readTime}
         </span>
       </div>
-      <p className="text-base md:text-sm text-slate-600 leading-relaxed line-clamp-3 md:line-clamp-2">
-        {article.excerpt}
-      </p>
+      {!hideExcerpt && (
+        <p className="text-base md:text-sm text-slate-600 leading-relaxed line-clamp-3 md:line-clamp-2">
+          {article.excerpt}
+        </p>
+      )}
     </Link>
   );
 }
