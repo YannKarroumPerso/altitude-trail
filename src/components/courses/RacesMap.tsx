@@ -83,12 +83,24 @@ export default function RacesMap({
                   <span>·</span>
                   <span>{race.date}</span>
                 </div>
-                <Link
-                  href={`/courses/${race.slug}`}
-                  style={{ fontSize: 11, fontWeight: 700, color: "#ea580c", textDecoration: "underline" }}
-                >
-                  Voir la fiche →
-                </Link>
+                <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+                  <Link
+                    href={`/courses/${race.slug}`}
+                    style={{ fontSize: 11, fontWeight: 700, color: "#ea580c", textDecoration: "underline" }}
+                  >
+                    Voir la fiche →
+                  </Link>
+                  {race.website && (
+                    <a
+                      href={race.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ fontSize: 11, fontWeight: 700, color: "#0f172a", textDecoration: "underline" }}
+                    >
+                      Site officiel ↗
+                    </a>
+                  )}
+                </div>
               </div>
             </Popup>
           </Marker>

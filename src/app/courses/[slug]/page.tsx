@@ -138,31 +138,49 @@ export default async function RaceDetailPage({ params }: { params: Promise<{ slu
           <div className="newspaper-divider mb-10"><span>COURSES SIMILAIRES</span></div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {related.map((r) => (
-              <Link
+              <article
                 key={r.id}
-                href={`/courses/${r.slug}`}
-                className="group bg-white border border-surface-container hover:border-primary transition-colors p-5 flex flex-col gap-3"
+                className="group bg-white border border-surface-container hover:border-primary transition-colors flex flex-col"
               >
-                <div className="flex items-start justify-between gap-3">
-                  <span
-                    className="inline-block text-[10px] font-headline font-bold uppercase tracking-widest text-white px-2 py-0.5"
-                    style={{ background: RACE_DIFFICULTY_COLORS[r.difficulty] }}
+                <Link
+                  href={`/courses/${r.slug}`}
+                  className="p-5 flex flex-col gap-3 flex-grow"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <span
+                      className="inline-block text-[10px] font-headline font-bold uppercase tracking-widest text-white px-2 py-0.5"
+                      style={{ background: RACE_DIFFICULTY_COLORS[r.difficulty] }}
+                    >
+                      {r.difficulty}
+                    </span>
+                    <span className="text-xs text-slate-500 font-semibold uppercase tracking-wide text-right">{r.date}</span>
+                  </div>
+                  <h3 className="font-headline font-black text-lg leading-tight group-hover:text-primary transition-colors">
+                    {r.name}
+                  </h3>
+                  <div className="text-xs text-slate-500 font-bold uppercase tracking-wide">
+                    {r.city} — {r.departmentName} ({r.departmentCode})
+                  </div>
+                  <div className="flex gap-4 text-sm font-headline font-bold border-t border-surface-container pt-3 mt-auto">
+                    <span><span className="text-primary">{r.distance}</span> km</span>
+                    <span><span className="text-primary">+{r.elevation}</span> m</span>
+                  </div>
+                </Link>
+                {r.website ? (
+                  <a
+                    href={r.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-center bg-surface-container hover:bg-primary hover:text-white transition-colors text-[10px] font-headline font-bold uppercase tracking-widest py-2.5 px-4 border-t border-surface-container"
                   >
-                    {r.difficulty}
-                  </span>
-                  <span className="text-xs text-slate-500 font-semibold uppercase tracking-wide text-right">{r.date}</span>
-                </div>
-                <h3 className="font-headline font-black text-lg leading-tight group-hover:text-primary transition-colors">
-                  {r.name}
-                </h3>
-                <div className="text-xs text-slate-500 font-bold uppercase tracking-wide">
-                  {r.city} — {r.departmentName} ({r.departmentCode})
-                </div>
-                <div className="flex gap-4 text-sm font-headline font-bold border-t border-surface-container pt-3 mt-auto">
-                  <span><span className="text-primary">{r.distance}</span> km</span>
-                  <span><span className="text-primary">+{r.elevation}</span> m</span>
-                </div>
-              </Link>
+                    Site officiel de l&apos;événement ↗
+                  </a>
+                ) : (
+                  <div className="text-center text-[10px] font-headline font-bold uppercase tracking-widest text-slate-400 py-2.5 px-4 border-t border-surface-container">
+                    Site officiel non renseigné
+                  </div>
+                )}
+              </article>
             ))}
           </div>
         </div>
