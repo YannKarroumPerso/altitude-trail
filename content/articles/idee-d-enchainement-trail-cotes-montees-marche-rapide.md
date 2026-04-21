@@ -7,7 +7,7 @@ categorySlug: entrainement
 author: "Rédaction Altitude"
 date: "21 avril 2026"
 readTime: "5 min"
-image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
+image: "/articles/cotes-montees-marche-rapide-v3-hero.jpg"
 tags: ["entraînement", "dénivelé", "marche rapide", "préparation", "trail court"]
 sourceUrl: "https://www2.u-trail.com/idee-denchainement-trail26/"
 imagePrompt1: "A solo trail runner power-hiking up a steep green grassy summer slope, hands pressed firmly on thighs classic uphill technique, wearing running vest and shorts, trail running shoes on dirt path, warm golden hour backlight, summer wildflowers along the trail, rolling green hills in background, no snow, no skis, no poles, no winter gear"
@@ -24,7 +24,7 @@ Posons les chiffres. Un semi-marathon se court en 1h30 pour un coureur aguerri. 
 
 Le ratio D+/km dont parle implicitement u-Trail — 50 m de dénivelé par kilomètre — place l'épreuve dans la catégorie des trails vallonnés exigeants. À titre de repère, Sierre-Zinal affiche 94 m/km, la CCC de l'UTMB environ 60 m/km. Un 30 km à 1500 m n'est donc pas un format introductif. C'est déjà un engagement sérieux.
 
-![A solo trail runner climbing a steep grassy ridge in the Vercors massif at golden hour, power-hiking with hands on thigh](/articles/idee-d-enchainement-trail-cotes-montees-marche-rapide-1.jpg)
+![Solo trail runner power-hiking up a steep green summer slope, golden hour, rolling hills and wildflowers](/articles/cotes-montees-marche-rapide-v3-1.jpg)
 
 ## Pourquoi la marche rapide structure la séance
 
@@ -40,7 +40,7 @@ Chacun de ces registres mobilise des fibres et des schémas moteurs différents.
 
 ## Le piège du débutant : courir toutes les montées
 
-![Close-up side view of a trail runner's legs on a steep forest climb in the Beaujolais hills, calves tensed, muddy Salomo](/articles/idee-d-enchainement-trail-cotes-montees-marche-rapide-2.jpg)
+![Close-up of a trail runner's legs and shoes on a root-covered dirt path in a summer beech forest](/articles/cotes-montees-marche-rapide-v3-2.jpg)
 
 La faute récurrente chez le coureur issu de la route, observée dans la plupart des retours de terrain publiés par u-Trail et ses confrères comme Lepape-Info ou Trail Endurance Mag, tient en une phrase : vouloir courir toutes les bosses. Le cardio s'envole dès le premier quart d'heure, l'acide lactique s'accumule, et le coureur paie l'addition à partir du 20e kilomètre.
 
