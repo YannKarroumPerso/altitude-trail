@@ -14,6 +14,7 @@ import {
   articleUrl,
   buildNewsArticleJsonLd,
   parseFrDate,
+  NEWS_KEYWORDS,
 } from "@/lib/seo";
 
 function slugifyHeading(text: string): string {
@@ -122,11 +123,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const url = articleUrl(article.slug);
   const canonicalPath = `/articles/${article.slug}`;
   const ogImage = absoluteUrl(article.image);
+  const publishedIso = parseFrDate(article.date).toISOString();
+  const tags = article.tags || [];
+  const allKeywords = Array.from(new Set([...tags, ...NEWS_KEYWORDS]));
   return {
     title: article.title,
     description: article.excerpt,
-    keywords: article.tags,
-    authors: [{ name: article.author }],
+    keywords: allKeywords,
+    authors: [{ name: article.author, url: `${SITE_URL}/a-propos` }],
     alternates: { canonical: canonicalPath, languages: { fr: canonicalPath } },
     openGraph: {
       type: "article",
@@ -136,10 +140,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       siteName: SITE_NAME,
       locale: "fr_FR",
       images: [{ url: ogImage, width: 1200, height: 630, alt: article.title }],
-      publishedTime: parseFrDate(article.date).toISOString(),
-      modifiedTime: parseFrDate(article.date).toISOString(),
-      authors: [article.author],
-      tags: article.tags,
+      publishedTime: publishedIso,
+      modifiedTime: publishedIso,
+      authors: [`${SITE_URL}/a-propos`],
+      tags,
       section: article.category,
     },
     twitter: {
@@ -147,6 +151,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: article.title,
       description: article.excerpt,
       images: [ogImage],
+    },
+    other: {
+      "news_keywords": allKeywords.join(", "),
+      "article:published_time": publishedIso,
+      "article:modified_time": publishedIso,
+      "article:author": article.author,
+      "article:section": article.category,
+      "article:tag": tags.join(", "),
+      "syndication-source": url,
+      "original-source": url,
     },
   };
 }
@@ -194,6 +208,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           width={1200}
           height={675}
           priority
+          fetchPriority="high"
           loading="eager"
           sizes="(max-width: 1024px) 100vw, 896px"
           className="w-full aspect-video object-cover"

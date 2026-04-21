@@ -10,6 +10,7 @@ import {
   SITE_DESCRIPTION,
   SITE_LOCALE,
   DEFAULT_OG_IMAGE,
+  NEWS_KEYWORDS,
   buildOrganizationJsonLd,
   buildWebSiteJsonLd,
 } from "@/lib/seo";
@@ -18,6 +19,8 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-THC9PSGZ14";
 const GOOGLE_SITE_VERIFICATION =
   process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION ||
   "yxW25KZGmXLzlnfxImJlUXpjFwgvoyBLBfVhbwMd2yk";
+const GOOGLE_PUBLISHER_VERIFICATION =
+  process.env.NEXT_PUBLIC_GOOGLE_PUBLISHER_VERIFICATION || "";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -31,12 +34,15 @@ export const metadata: Metadata = {
     "trail running", "ultra-trail", "trail", "course en montagne", "UTMB",
     "entraînement trail", "nutrition trail", "récits de courses", "magazine trail",
   ],
-  authors: [{ name: `Rédaction ${SITE_NAME}` }],
+  authors: [{ name: `Rédaction ${SITE_NAME}`, url: `${SITE_URL}/a-propos` }],
   creator: SITE_NAME,
   publisher: SITE_NAME,
   alternates: {
     canonical: "/",
     languages: { fr: "/" },
+    types: {
+      "application/rss+xml": `${SITE_URL}/rss.xml`,
+    },
   },
   openGraph: {
     type: "website",
@@ -61,6 +67,14 @@ export const metadata: Metadata = {
   verification: GOOGLE_SITE_VERIFICATION
     ? { google: GOOGLE_SITE_VERIFICATION }
     : undefined,
+  other: {
+    "news_keywords": NEWS_KEYWORDS.join(", "),
+    "syndication-source": SITE_URL,
+    "original-source": SITE_URL,
+    ...(GOOGLE_PUBLISHER_VERIFICATION
+      ? { "google-publisher-site-verification": GOOGLE_PUBLISHER_VERIFICATION }
+      : {}),
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -69,7 +83,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link
+          rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="alternate" type="application/rss+xml" title={`${SITE_NAME} — RSS`} href="/rss.xml" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/logo-square.png" />
       </head>
       <body>
         <JsonLd data={buildOrganizationJsonLd()} />

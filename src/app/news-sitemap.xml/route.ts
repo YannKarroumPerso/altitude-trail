@@ -1,5 +1,5 @@
 import { articles } from "@/lib/data";
-import { SITE_URL, SITE_NAME, parseFrDate } from "@/lib/seo";
+import { SITE_URL, SITE_NAME, SITE_LANG, parseFrDate } from "@/lib/seo";
 
 // Google News Sitemap — n'inclut que les articles publiés dans les 2 derniers
 // jours (contrainte officielle du format Google News). Google News ne
@@ -28,15 +28,16 @@ export async function GET() {
   const items = recent
     .map((a) => {
       const pub = parseFrDate(a.date).toISOString();
+      const keywords = (a.tags || []).join(", ");
       return `  <url>
     <loc>${SITE_URL}/articles/${a.slug}</loc>
     <news:news>
       <news:publication>
         <news:name>${escapeXml(SITE_NAME)}</news:name>
-        <news:language>fr</news:language>
+        <news:language>${SITE_LANG}</news:language>
       </news:publication>
       <news:publication_date>${pub}</news:publication_date>
-      <news:title>${escapeXml(a.title)}</news:title>
+      <news:title>${escapeXml(a.title)}</news:title>${keywords ? `\n      <news:keywords>${escapeXml(keywords)}</news:keywords>` : ""}
     </news:news>
   </url>`;
     })

@@ -124,7 +124,15 @@ const FORMAT_INSTRUCTIONS = `FORMAT DE SORTIE (INITIAL — article créé depuis
 Réponds UNIQUEMENT avec un fichier Markdown complet, ouvert par un frontmatter YAML. Rien avant ni après. Aucun fence de code.
 
 Frontmatter obligatoire :
-- title : titre français percutant, pas un résumé plat
+- title : titre français PENSÉ POUR GOOGLE DISCOVER, entre 40 et 110 caractères (idéal 60-90).
+  - Construction recommandée : accroche forte + protagoniste ou chiffre + enjeu.
+  - Leviers Discover à privilégier (utilise-les à bon escient, jamais les cinq d'un coup) :
+    * Un chiffre concret quand le sujet le permet ("3 erreurs qui ruinent votre UTMB", "60 secondes pour sauver un genou")
+    * Une question rhétorique qui pose le vrai enjeu ("Pourquoi Kilian court-il plus vite que vous ?")
+    * Un marqueur d'actualité fort si l'info vient de tomber ("BREAKING", "Ce week-end")
+    * Une charge émotionnelle assumée sur les portraits et récits ("L'histoire glaciale de…", "La chute qui a tout changé")
+    * Un mot-clé trail/ultra dans le titre (trail, UTMB, ultra, D+, FKT, VMA, seuil) pour l'indexation Actualités
+  - Interdits : titres plats, descriptifs ("Un article sur…"), clickbait vide ("Vous ne croirez jamais…"), tout en majuscules, point-virgule, emoji.
 - excerpt : chapeau accrocheur 1-2 phrases
 - categorySlug : une de ces valeurs exactement — actualites, debuter, courses-recits, nutrition, entrainement, blessures
 - tags : 3 à 5 tags français, chaînes simples

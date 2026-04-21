@@ -9,10 +9,25 @@ export const SITE_DESCRIPTION =
   "Actualités, courses, entraînement, nutrition, blessures et récits du trail running en France et dans le monde.";
 export const SITE_LOCALE = "fr_FR";
 export const SITE_LANG = "fr";
+export const SITE_LANG_REGION = "fr-FR";
 export const DEFAULT_OG_IMAGE =
   "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80";
-export const ORG_LOGO = `${SITE_URL}/favicon.ico`;
+export const LOGO_URL = `${SITE_URL}/logo.png`;
+export const LOGO_WIDTH = 600;
+export const LOGO_HEIGHT = 60;
+export const LOGO_SQUARE_URL = `${SITE_URL}/logo-square.png`;
+export const AUTHOR_NAME = "Rédaction Altitude Trail";
+export const AUTHOR_URL = `${SITE_URL}/a-propos`;
 export const INDEXNOW_KEY = "4e7c8a2f5b9d1e3a6c4f8b2d5e7a9c1f";
+export const NEWS_KEYWORDS = [
+  "trail",
+  "trail running",
+  "ultra-trail",
+  "course en montagne",
+  "UTMB",
+  "entraînement trail",
+  "nutrition trail",
+];
 
 const FR_MONTHS: Record<string, number> = {
   janvier: 0, "février": 1, mars: 2, avril: 3, mai: 4, juin: 5,
@@ -42,28 +57,71 @@ export function categoryUrl(slug: string): string {
   return `${SITE_URL}/categories/${slug}`;
 }
 
+// Google News headline: 40-110 chars. Truncate if longer, warn if shorter.
+export function headlineForGoogle(title: string): string {
+  const t = title.trim();
+  if (t.length <= 110) return t;
+  const cut = t.slice(0, 107);
+  const lastSpace = cut.lastIndexOf(" ");
+  return `${cut.slice(0, lastSpace > 80 ? lastSpace : 107)}…`;
+}
+
+export function estimateWordCount(content?: string): number {
+  if (!content) return 0;
+  return content.split(/\s+/).filter(Boolean).length;
+}
+
+// Build a single og:image URL. For multiple aspect ratios we reuse the same
+// underlying asset; Google crops as needed and the different "width/height"
+// signals let it pick the right render surface (Discover, SERP, AMP).
+export function articleImageSet(article: Article): { url: string; width: number; height: number }[] {
+  const base = absoluteUrl(article.image);
+  return [
+    { url: base, width: 1200, height: 675 },
+    { url: base, width: 1200, height: 1200 },
+    { url: base, width: 1200, height: 900 },
+  ];
+}
+
 export function buildNewsArticleJsonLd(article: Article) {
   const url = articleUrl(article.slug);
   const published = parseFrDate(article.date).toISOString();
+  const images = articleImageSet(article).map((i) => i.url);
   return {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
-    headline: article.title,
+    headline: headlineForGoogle(article.title),
     description: article.excerpt,
-    image: [absoluteUrl(article.image)],
+    image: images,
     datePublished: published,
     dateModified: published,
-    author: { "@type": "Organization", name: article.author || SITE_NAME, url: SITE_URL },
-    publisher: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      logo: { "@type": "ImageObject", url: ORG_LOGO },
+    author: {
+      "@type": "Person",
+      name: article.author || AUTHOR_NAME,
+      url: AUTHOR_URL,
     },
+    publisher: buildPublisherJsonLd(),
     articleSection: article.category,
-    keywords: article.tags?.join(", "),
-    inLanguage: SITE_LANG,
+    keywords: (article.tags || []).join(", "),
+    wordCount: estimateWordCount(article.content),
+    inLanguage: SITE_LANG_REGION,
     url,
+    isAccessibleForFree: true,
+  };
+}
+
+export function buildPublisherJsonLd() {
+  return {
+    "@type": "Organization",
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: {
+      "@type": "ImageObject",
+      url: LOGO_URL,
+      width: LOGO_WIDTH,
+      height: LOGO_HEIGHT,
+    },
   };
 }
 
@@ -83,11 +141,25 @@ export function buildBreadcrumbJsonLd(items: { label: string; url?: string }[]) 
 export function buildOrganizationJsonLd() {
   return {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "NewsMediaOrganization",
     name: SITE_NAME,
     url: SITE_URL,
-    logo: ORG_LOGO,
+    logo: {
+      "@type": "ImageObject",
+      url: LOGO_URL,
+      width: LOGO_WIDTH,
+      height: LOGO_HEIGHT,
+    },
     description: SITE_DESCRIPTION,
+    inLanguage: SITE_LANG_REGION,
+    foundingDate: "2026",
+    sameAs: [],
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "editorial",
+      email: "redaction@altitude-brut.fr",
+      availableLanguage: ["French"],
+    },
   };
 }
 
@@ -98,7 +170,7 @@ export function buildWebSiteJsonLd() {
     name: SITE_NAME,
     url: SITE_URL,
     description: SITE_DESCRIPTION,
-    inLanguage: SITE_LANG,
+    inLanguage: SITE_LANG_REGION,
     publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
     potentialAction: {
       "@type": "SearchAction",
@@ -153,7 +225,7 @@ export function buildCollectionPageJsonLd(args: {
     name: args.name,
     description: args.description,
     url: args.url,
-    inLanguage: SITE_LANG,
+    inLanguage: SITE_LANG_REGION,
     mainEntity: {
       "@type": "ItemList",
       itemListElement: args.articles.map((a, i) => ({
