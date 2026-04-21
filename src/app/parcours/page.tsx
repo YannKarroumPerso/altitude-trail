@@ -2,18 +2,16 @@ import type { Metadata } from "next";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import JsonLd from "@/components/ui/JsonLd";
 import ParcoursClient from "@/components/parcours/ParcoursClient";
-import { parcours } from "@/lib/parcours-database";
 import { traces } from "@/lib/traces-database";
 import {
   SITE_URL,
   SITE_NAME,
   absoluteUrl,
   buildBreadcrumbJsonLd,
-  buildHikingTrailJsonLd,
 } from "@/lib/seo";
 
-const title = "Parcours trail et randonnée en France";
-const description = `Carte interactive et liste filtrable de ${parcours.length} parcours emblématiques trail, randonnée et ultra en France (GR20, Tour du Mont-Blanc, GR54, GR10, Stevenson, Sentier Cathare, Ventoux…) enrichie de ${traces.length} traces OpenStreetMap. Fond IGN Géoportail, profil altimétrique, téléchargement GPX.`;
+const title = "Traces & parcours de randonnée et trail en France";
+const description = `Carte interactive de ${traces.length.toLocaleString("fr-FR")} sentiers de randonnée et de trail en France, importés depuis OpenStreetMap. Fond de carte IGN Géoportail + photos aériennes, clustering, filtres balisage / distance / difficulté, liens vers Waymarked Trails et OSM pour la trace détaillée.`;
 
 export const metadata: Metadata = {
   title,
@@ -33,34 +31,39 @@ export const metadata: Metadata = {
 export default function ParcoursPage() {
   const breadcrumb = [
     { label: "Accueil", href: "/" },
-    { label: "Parcours" },
+    { label: "Traces & Parcours" },
   ];
   const breadcrumbJsonLd = buildBreadcrumbJsonLd(
     breadcrumb.map((b) => ({ label: b.label, url: b.href ? absoluteUrl(b.href) : undefined }))
   );
-  const itemListJsonLd = {
+  const collectionJsonLd = {
     "@context": "https://schema.org",
-    "@type": "ItemList",
+    "@type": "CollectionPage",
     name: title,
     description,
-    numberOfItems: parcours.length,
-    itemListElement: parcours.map((p, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      item: buildHikingTrailJsonLd(p),
-    })),
+    url: `${SITE_URL}/parcours`,
+    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: SITE_URL },
+    numberOfItems: traces.length,
+    license: "https://opendatacommons.org/licenses/odbl/",
+    isBasedOn: {
+      "@type": "Dataset",
+      name: "OpenStreetMap hiking relations",
+      url: "https://www.openstreetmap.org/",
+      license: "https://opendatacommons.org/licenses/odbl/",
+    },
   };
+
   return (
     <div className="max-w-7xl mx-auto px-4 lg:px-8 py-12">
-      <JsonLd data={[breadcrumbJsonLd, itemListJsonLd]} />
+      <JsonLd data={[breadcrumbJsonLd, collectionJsonLd]} />
       <div className="border-b-2 border-navy pb-6 mb-10">
         <Breadcrumb items={breadcrumb} />
-        <h1 className="font-headline text-5xl font-black uppercase tracking-tighter">Parcours</h1>
+        <h1 className="font-headline text-5xl font-black uppercase tracking-tighter">Traces &amp; Parcours</h1>
         <p className="text-slate-500 mt-2 max-w-2xl">
-          {parcours.length} parcours curés trail, randonnée et ultra{traces.length > 0 ? ` + ${traces.length.toLocaleString("fr-FR")} traces OpenStreetMap` : ""} en France. Carte sur fond IGN Géoportail. Les tracés sont approximatifs et indicatifs — ne remplacent pas une cartographie officielle pour la navigation.
+          {traces.length.toLocaleString("fr-FR")} sentiers de randonnée et de trail en France, importés depuis OpenStreetMap (licence ODbL). Carte sur fond IGN Géoportail, filtres par balisage, distance et difficulté, popup avec liens vers Waymarked Trails et OSM pour consulter le tracé détaillé.
         </p>
       </div>
-      <ParcoursClient parcours={parcours} traces={traces} />
+      <ParcoursClient traces={traces} />
     </div>
   );
 }

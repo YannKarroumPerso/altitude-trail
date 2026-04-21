@@ -2,22 +2,13 @@
 
 import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
-import Link from "next/link";
-import { Parcours, Trace, Difficulty, ParcoursType } from "@/types";
-import {
-  PARCOURS_DIFFICULTY_COLORS,
-  DISTANCE_BUCKETS,
-  ELEVATION_BUCKETS,
-  PARCOURS_TYPES,
-  distanceBucket,
-  elevationBucket,
-  formatDuration,
-} from "@/lib/parcours-utils";
+import { Trace, Difficulty, TraceNetwork } from "@/types";
+import { PARCOURS_DIFFICULTY_COLORS, DISTANCE_BUCKETS, distanceBucket } from "@/lib/parcours-utils";
 
 const ParcoursMap = dynamic(() => import("./ParcoursMap"), {
   ssr: false,
   loading: () => (
-    <div className="bg-surface-container flex items-center justify-center" style={{ height: 560 }}>
+    <div className="bg-surface-container flex items-center justify-center" style={{ height: 600 }}>
       <span className="text-sm text-slate-500 font-headline uppercase tracking-wide">
         Chargement de la carte…
       </span>
@@ -26,63 +17,62 @@ const ParcoursMap = dynamic(() => import("./ParcoursMap"), {
 });
 
 const DIFFICULTIES: Difficulty[] = ["Facile", "Modéré", "Difficile", "Extrême"];
+const NETWORKS: { value: TraceNetwork; label: string; description: string }[] = [
+  { value: "iwn", label: "International", description: "GR, E-paths, sentiers transfrontaliers" },
+  { value: "nwn", label: "National", description: "GR français, traversées nationales" },
+  { value: "rwn", label: "Régional", description: "PR, GR de Pays, sentiers régionaux" },
+];
 const PAGE_SIZE = 20;
 
 type DistanceBucket = "all" | "<10" | "10-30" | "30-50" | ">50";
-type ElevationBucket = "all" | "<500" | "500-1500" | ">1500";
 
-export default function ParcoursClient({ parcours, traces = [] }: { parcours: Parcours[]; traces?: Trace[] }) {
-  const [region, setRegion] = useState<string>("all");
-  const [departmentCode, setDepartmentCode] = useState<string>("all");
-  const [type, setType] = useState<ParcoursType | "all">("all");
-  const [distance, setDistance] = useState<DistanceBucket>("all");
-  const [elevation, setElevation] = useState<ElevationBucket>("all");
+const NETWORK_LABEL: Record<TraceNetwork, string> = {
+  iwn: "International",
+  nwn: "National",
+  rwn: "Régional",
+};
+
+const NETWORK_COLOR: Record<TraceNetwork, string> = {
+  iwn: "#dc2626",
+  nwn: "#ea580c",
+  rwn: "#10b981",
+};
+
+export default function ParcoursClient({ traces }: { traces: Trace[] }) {
+  const [network, setNetwork] = useState<TraceNetwork | "all">("all");
   const [difficulty, setDifficulty] = useState<Difficulty | "all">("all");
+  const [distance, setDistance] = useState<DistanceBucket>("all");
+  const [hasDistanceOnly, setHasDistanceOnly] = useState(false);
   const [search, setSearch] = useState<string>("");
   const [page, setPage] = useState<number>(1);
 
-  const regions = useMemo(
-    () => [...new Set(parcours.map((p) => p.region))].sort(),
-    [parcours]
-  );
-
-  const departments = useMemo(() => {
-    const relevant = region === "all" ? parcours : parcours.filter((p) => p.region === region);
-    const map = new Map<string, string>();
-    for (const p of relevant) map.set(p.departmentCode, p.departmentName);
-    return [...map.entries()]
-      .sort((a, b) => a[0].localeCompare(b[0]))
-      .map(([code, name]) => ({ code, name }));
-  }, [parcours, region]);
-
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
-    return parcours.filter((p) => {
-      if (region !== "all" && p.region !== region) return false;
-      if (departmentCode !== "all" && p.departmentCode !== departmentCode) return false;
-      if (type !== "all" && p.type !== type) return false;
-      if (distance !== "all" && distanceBucket(p.distance) !== distance) return false;
-      if (elevation !== "all" && elevationBucket(p.elevationGain) !== elevation) return false;
-      if (difficulty !== "all" && p.difficulty !== difficulty) return false;
+    return traces.filter((t) => {
+      if (network !== "all" && t.network !== network) return false;
+      if (difficulty !== "all" && t.difficulty !== difficulty) return false;
+      if (hasDistanceOnly && !t.distanceKm) return false;
+      if (distance !== "all") {
+        if (!t.distanceKm) return false;
+        if (distanceBucket(t.distanceKm) !== distance) return false;
+      }
       if (q) {
-        const hay = `${p.name} ${p.city} ${p.departmentName} ${p.region}`.toLowerCase();
+        const hay = `${t.name} ${t.ref || ""} ${t.operator || ""}`.toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
     });
-  }, [parcours, region, departmentCode, type, distance, elevation, difficulty, search]);
+  }, [traces, network, difficulty, distance, hasDistanceOnly, search]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const safePage = Math.min(page, totalPages);
   const pageItems = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
 
   const resetFilters = () => {
-    setRegion("all");
-    setDepartmentCode("all");
-    setType("all");
-    setDistance("all");
-    setElevation("all");
+    setNetwork("all");
     setDifficulty("all");
+    setDistance("all");
+    setHasDistanceOnly(false);
     setSearch("");
     setPage(1);
   };
@@ -95,77 +85,74 @@ export default function ParcoursClient({ parcours, traces = [] }: { parcours: Pa
   return (
     <div className="space-y-10">
       <div className="bg-surface-container">
-        <ParcoursMap parcours={filtered} traces={traces} height="560px" />
+        <ParcoursMap traces={filtered} height="600px" />
       </div>
-      {traces.length > 0 && (
-        <p className="text-xs text-slate-500 italic">
-          {traces.length.toLocaleString("fr-FR")} traces OpenStreetMap affichées en points fins sur la carte (balisage international <span className="font-bold">iwn</span>, national <span className="font-bold">nwn</span>, régional <span className="font-bold">rwn</span>). Données sous licence ODbL. Cliquez un point pour les infos et les liens externes.
-        </p>
-      )}
 
-      <div className="flex flex-wrap gap-4 text-xs font-headline uppercase tracking-wide">
-        {DIFFICULTIES.map((d) => (
-          <span key={d} className="flex items-center gap-2">
-            <span
-              aria-hidden="true"
-              className="inline-block w-3 h-3 rounded-full border-2 border-white shadow-sm"
-              style={{ background: PARCOURS_DIFFICULTY_COLORS[d] }}
-            />
-            <span className="text-slate-600">{d}</span>
-          </span>
-        ))}
+      <p className="text-xs text-slate-500 italic leading-relaxed">
+        {filtered.length.toLocaleString("fr-FR")} traces affichées sur un total de {traces.length.toLocaleString("fr-FR")} sentiers importés depuis OpenStreetMap via Overpass API (relations <code>route=hiking</code>, balisage <code>iwn</code>, <code>nwn</code>, <code>rwn</code>). Cliquez un point pour le nom, le balisage officiel, la distance, la difficulté estimée et les liens externes. Données sous licence ODbL © contributeurs OpenStreetMap.
+      </p>
+
+      <div className="flex flex-wrap gap-6">
+        <div>
+          <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-2">Balisage</div>
+          <div className="flex gap-3 flex-wrap text-xs">
+            {NETWORKS.map((n) => (
+              <span key={n.value} className="flex items-center gap-2">
+                <span className="inline-block w-3 h-3 rounded-full border-2 border-white shadow-sm" style={{ background: NETWORK_COLOR[n.value] }} />
+                <span className="font-headline font-bold">{n.label}</span>
+                <span className="text-slate-400">{n.description}</span>
+              </span>
+            ))}
+          </div>
+        </div>
+        <div>
+          <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-2">Difficulté estimée</div>
+          <div className="flex gap-3 flex-wrap text-xs font-headline uppercase tracking-wide">
+            {DIFFICULTIES.map((d) => (
+              <span key={d} className="flex items-center gap-2">
+                <span className="inline-block w-3 h-3 rounded-full border-2 border-white shadow-sm" style={{ background: PARCOURS_DIFFICULTY_COLORS[d] }} />
+                <span className="text-slate-600">{d}</span>
+              </span>
+            ))}
+          </div>
+        </div>
       </div>
 
       <div className="bg-surface-container p-6 space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <label className="block">
-            <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">
-              Recherche
-            </span>
+          <label className="block md:col-span-2">
+            <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Recherche</span>
             <input
               type="search"
               value={search}
               onChange={(e) => handleFilterChange(setSearch, e.target.value)}
-              placeholder="Nom, ville, région…"
+              placeholder="Nom du sentier, référence (GR20, GR10…), opérateur"
               className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </label>
           <label className="block">
-            <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Région</span>
+            <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Balisage</span>
             <select
-              value={region}
-              onChange={(e) => { handleFilterChange(setRegion, e.target.value); setDepartmentCode("all"); }}
+              value={network}
+              onChange={(e) => handleFilterChange(setNetwork, e.target.value as TraceNetwork | "all")}
               className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
             >
-              <option value="all">Toutes les régions</option>
-              {regions.map((r) => (
-                <option key={r} value={r}>{r}</option>
+              <option value="all">Tous les balisages</option>
+              {NETWORKS.map((n) => (
+                <option key={n.value} value={n.value}>{n.label}</option>
               ))}
             </select>
           </label>
           <label className="block">
-            <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Département</span>
+            <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Difficulté</span>
             <select
-              value={departmentCode}
-              onChange={(e) => handleFilterChange(setDepartmentCode, e.target.value)}
+              value={difficulty}
+              onChange={(e) => handleFilterChange(setDifficulty, e.target.value as Difficulty | "all")}
               className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
             >
-              <option value="all">Tous les départements</option>
-              {departments.map((d) => (
-                <option key={d.code} value={d.code}>{d.code} — {d.name}</option>
-              ))}
-            </select>
-          </label>
-          <label className="block">
-            <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Type</span>
-            <select
-              value={type}
-              onChange={(e) => handleFilterChange(setType, e.target.value as ParcoursType | "all")}
-              className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-            >
-              <option value="all">Tous les types</option>
-              {PARCOURS_TYPES.map((t) => (
-                <option key={t} value={t}>{t}</option>
+              <option value="all">Toutes</option>
+              {DIFFICULTIES.map((d) => (
+                <option key={d} value={d}>{d}</option>
               ))}
             </select>
           </label>
@@ -181,30 +168,16 @@ export default function ParcoursClient({ parcours, traces = [] }: { parcours: Pa
               ))}
             </select>
           </label>
-          <label className="block">
-            <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Dénivelé +</span>
-            <select
-              value={elevation}
-              onChange={(e) => handleFilterChange(setElevation, e.target.value as ElevationBucket)}
-              className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-            >
-              {ELEVATION_BUCKETS.map((b) => (
-                <option key={b.value} value={b.value}>{b.label}</option>
-              ))}
-            </select>
-          </label>
-          <label className="block">
-            <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Difficulté</span>
-            <select
-              value={difficulty}
-              onChange={(e) => handleFilterChange(setDifficulty, e.target.value as Difficulty | "all")}
-              className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-            >
-              <option value="all">Toutes difficultés</option>
-              {DIFFICULTIES.map((d) => (
-                <option key={d} value={d}>{d}</option>
-              ))}
-            </select>
+          <label className="flex items-center gap-2 col-span-2">
+            <input
+              type="checkbox"
+              checked={hasDistanceOnly}
+              onChange={(e) => handleFilterChange(setHasDistanceOnly, e.target.checked)}
+              className="w-4 h-4 accent-primary"
+            />
+            <span className="text-xs text-slate-600">
+              Afficher uniquement les sentiers avec distance renseignée ({traces.filter((t) => t.distanceKm).length.toLocaleString("fr-FR")} sur {traces.length.toLocaleString("fr-FR")})
+            </span>
           </label>
           <div className="flex items-end">
             <button
@@ -217,46 +190,79 @@ export default function ParcoursClient({ parcours, traces = [] }: { parcours: Pa
           </div>
         </div>
         <div className="bg-primary text-white text-center font-headline font-black text-sm uppercase tracking-wide py-2">
-          {filtered.length} {filtered.length > 1 ? "parcours trouvés" : "parcours trouvé"}
+          {filtered.length.toLocaleString("fr-FR")} {filtered.length > 1 ? "sentiers trouvés" : "sentier trouvé"} sur {traces.length.toLocaleString("fr-FR")}
         </div>
       </div>
 
       {filtered.length === 0 ? (
         <p className="text-center text-slate-500 py-16 font-headline uppercase tracking-wide text-sm">
-          Aucun parcours ne correspond à ces critères.
+          Aucun sentier ne correspond à ces critères.
         </p>
       ) : (
         <>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {pageItems.map((p) => (
-              <Link
-                key={p.id}
-                href={`/parcours/${p.slug}`}
-                className="group bg-white border border-surface-container hover:border-primary transition-colors p-5 flex flex-col gap-3"
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {pageItems.map((t) => (
+              <article
+                key={t.id}
+                className="group bg-white border border-surface-container p-4 flex flex-col gap-2 hover:border-primary transition-colors"
               >
                 <div className="flex items-start justify-between gap-3">
                   <span
                     className="inline-block text-[10px] font-headline font-bold uppercase tracking-widest text-white px-2 py-0.5"
-                    style={{ background: PARCOURS_DIFFICULTY_COLORS[p.difficulty] }}
+                    style={{ background: NETWORK_COLOR[t.network] }}
                   >
-                    {p.difficulty}
+                    {NETWORK_LABEL[t.network]}
                   </span>
-                  <span className="text-xs text-slate-500 font-semibold uppercase tracking-wide text-right">
-                    {p.type}
+                  <span
+                    className="inline-block text-[10px] font-headline font-bold uppercase tracking-widest px-2 py-0.5"
+                    style={{ background: PARCOURS_DIFFICULTY_COLORS[t.difficulty], color: "#ffffff" }}
+                  >
+                    {t.difficulty}
                   </span>
                 </div>
-                <h3 className="font-headline font-black text-lg leading-tight group-hover:text-primary transition-colors">
-                  {p.name}
-                </h3>
-                <div className="text-xs text-slate-500 font-bold uppercase tracking-wide">
-                  {p.city} — {p.departmentName} ({p.departmentCode})
+                <h3 className="font-headline font-black text-base leading-snug">{t.name}</h3>
+                {(t.ref || t.operator) && (
+                  <div className="text-xs text-slate-500 font-semibold">
+                    {t.ref && <span>Balisage {t.ref}</span>}
+                    {t.ref && t.operator && <span> · </span>}
+                    {t.operator && <span>{t.operator}</span>}
+                  </div>
+                )}
+                {t.description && (
+                  <p className="text-xs text-slate-600 leading-relaxed line-clamp-3">{t.description}</p>
+                )}
+                <div className="flex gap-4 text-sm font-headline font-bold mt-auto pt-2 border-t border-surface-container">
+                  {t.distanceKm != null && <span><span className="text-primary">{t.distanceKm}</span> km</span>}
                 </div>
-                <div className="flex flex-wrap gap-4 text-sm font-headline font-bold border-t border-surface-container pt-3 mt-auto">
-                  <span><span className="text-primary">{p.distance}</span> km</span>
-                  <span><span className="text-primary">+{p.elevationGain.toLocaleString("fr-FR")}</span> m</span>
-                  <span className="text-slate-500">{formatDuration(p.durationHours)}</span>
+                <div className="flex gap-3 text-[11px] font-bold">
+                  <a
+                    href={`https://hiking.waymarkedtrails.org/#route?type=relation&id=${t.osmId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary underline hover:opacity-80"
+                  >
+                    Waymarked Trails ↗
+                  </a>
+                  <a
+                    href={`https://www.openstreetmap.org/relation/${t.osmId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-navy underline hover:opacity-80"
+                  >
+                    OSM ↗
+                  </a>
+                  {t.website && (
+                    <a
+                      href={t.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-navy underline hover:opacity-80"
+                    >
+                      Site officiel ↗
+                    </a>
+                  )}
                 </div>
-              </Link>
+              </article>
             ))}
           </div>
 
