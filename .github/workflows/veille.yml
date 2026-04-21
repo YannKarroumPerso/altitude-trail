@@ -2,15 +2,17 @@ name: Veille quotidienne
 
 on:
   schedule:
-    # Horaires calés sur l'heure d'été (CEST, UTC+2). En heure d'hiver (CET,
-    # UTC+1) ils se décalent d'une heure plus tôt. Si tu veux garder un timing
-    # strict toute l'année, ajuste manuellement aux changements d'heure.
-    - cron: "0 4 * * *"   # 06:00 Europe/Paris (CEST)
-    - cron: "30 9 * * *"  # 11:30 Europe/Paris (CEST)
-    - cron: "0 16 * * *"  # 18:00 Europe/Paris (CEST)
+    # Horaires Europe/Paris, couverts pour ete ET hiver.
+    # Concurrence="veille" + cancel-in-progress=false → les doublons du meme
+    # creneau sont queues et un seul tourne.
+    # Cibles : 06:00, 11:30, 18:00 Paris.
+    - cron: "0 4 * * *"   # 06:00 Paris CEST
+    - cron: "0 5 * * *"   # 06:00 Paris CET
+    - cron: "30 9 * * *"  # 11:30 Paris CEST
+    - cron: "30 10 * * *" # 11:30 Paris CET
+    - cron: "0 16 * * *"  # 18:00 Paris CEST
+    - cron: "0 17 * * *"  # 18:00 Paris CET
   workflow_dispatch:
-  # Sentinel : touche et pousse `.github/triggers/veille.txt` pour déclencher
-  # un run hors planning sans passer par l'UI GitHub ni par un PAT.
   push:
     paths:
       - ".github/triggers/veille.txt"
@@ -24,6 +26,7 @@ env:
   MAIL_FROM: "Altitude Trail Bot <yannkarroum@gmail.com>"
   GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
   RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+  SITE_BASE_URL: "https://www.altitude-trail.fr"
 
 jobs:
   veille:
@@ -56,6 +59,23 @@ jobs:
         run: |
           echo "utc=$(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_OUTPUT
           echo "paris=$(TZ=Europe/Paris date '+%H:%M')" >> $GITHUB_OUTPUT
+          echo "day=$(TZ=Europe/Paris date '+%A %d %B')" >> $GITHUB_OUTPUT
+
+      - name: Preflight checks
+        id: preflight
+        run: |
+          echo "=== Preflight ==="
+          if [ -z "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+            echo "FATAL: ANTHROPIC_API_KEY secret missing"
+            exit 1
+          fi
+          MODEL="${{ vars.ANTHROPIC_MODEL || 'claude-sonnet-4-6' }}"
+          echo "Model to use: $MODEL"
+          echo "model=$MODEL" >> $GITHUB_OUTPUT
+          echo "Node: $(node --version)"
+          echo "NPM:  $(npm --version)"
+          echo "Last commit on main: $(git log -1 --format='%h %s')"
+          echo "Site base URL: ${{ env.SITE_BASE_URL }}"
 
       - name: Notify start
         if: env.GMAIL_APP_PASSWORD != ''
@@ -74,30 +94,34 @@ jobs:
             La veille Altitude Trail vient de démarrer.
 
             Heure       : ${{ steps.time.outputs.paris }} Paris (${{ steps.time.outputs.utc }})
+            Jour        : ${{ steps.time.outputs.day }}
             Déclencheur : ${{ github.event_name }}
-            Branche     : ${{ github.ref_name }}
+            Modèle      : ${{ steps.preflight.outputs.model }}
             Run         : ${{ env.RUN_URL }}
 
             Tu recevras un second mail quand les articles seront en ligne
-            sur altitude-brut.fr (ou quand le run est terminé sans nouveaux
-            articles à publier).
+            sur ${{ env.SITE_BASE_URL }}.
 
       - name: Run veille
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-opus-4-7' }}
+          ANTHROPIC_MODEL: ${{ steps.preflight.outputs.model }}
           MAX_ARTICLES_PER_SOURCE: ${{ vars.MAX_ARTICLES_PER_SOURCE || '2' }}
           BFL_API_KEY: ${{ secrets.BFL_API_KEY }}
           FLUX_MODEL: ${{ vars.FLUX_MODEL || 'flux-pro-1.1' }}
-        run: npm run veille
+        run: |
+          set -e
+          npm run veille
 
       - name: Publish and detect new articles
         id: publish
         run: |
+          set -e
           BEFORE=$(git rev-parse HEAD)
           npm run publish
           AFTER=$(git rev-parse HEAD)
           if [ "$BEFORE" = "$AFTER" ]; then
+            echo "Aucun nouvel article produit."
             echo "new_articles=0" >> $GITHUB_OUTPUT
             {
               echo "urls_text<<URLS_EOF"
@@ -113,7 +137,7 @@ jobs:
           sed 's|content/articles/||;s|\.md$||' /tmp/new-articles.txt > /tmp/slugs.txt
           : > /tmp/urls.txt
           while read -r slug; do
-            echo "https://www.altitude-brut.fr/articles/$slug" >> /tmp/urls.txt
+            echo "${{ env.SITE_BASE_URL }}/articles/$slug" >> /tmp/urls.txt
           done < /tmp/slugs.txt
           {
             echo "urls_text<<URLS_EOF"
@@ -122,15 +146,16 @@ jobs:
           } >> $GITHUB_OUTPUT
           FIRST_URL=$(head -1 /tmp/urls.txt)
           echo "first_url=$FIRST_URL" >> $GITHUB_OUTPUT
+          echo "Articles publies : $COUNT"
 
-      - name: Wait for Vercel deploy to serve the new article
+      - name: Wait for Vercel deploy
         if: steps.publish.outputs.new_articles != '0' && steps.publish.outputs.first_url != ''
         id: deploy
         run: |
           URL="${{ steps.publish.outputs.first_url }}"
           echo "Polling $URL until 200 OK (max 10 min)..."
           for i in $(seq 1 30); do
-            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$URL" 2>/dev/null || echo "000")
+            code=$(curl -s -L -o /dev/null -w "%{http_code}" --max-time 10 "$URL" 2>/dev/null || echo "000")
             echo "try $i/30: HTTP $code"
             if [ "$code" = "200" ]; then
               echo "live=true" >> $GITHUB_OUTPUT
@@ -139,7 +164,7 @@ jobs:
             fi
             sleep 20
           done
-          echo "Deploy not confirmed after 10 min — sending mail anyway"
+          echo "Deploy not confirmed after 10 min"
           echo "live=false" >> $GITHUB_OUTPUT
 
       - name: Notify complete (articles en ligne)
@@ -156,16 +181,15 @@ jobs:
           to: ${{ env.MAIL_TO }}
           from: ${{ env.MAIL_FROM }}
           body: |
-            ${{ steps.publish.outputs.new_articles }} nouvel(s) article(s) publié(s) et déployé(s)
-            sur https://www.altitude-brut.fr.
+            ${{ steps.publish.outputs.new_articles }} nouvel(s) article(s) publié(s) et déployé(s) sur ${{ env.SITE_BASE_URL }}.
 
-            Déploiement confirmé en ligne : ${{ steps.deploy.outputs.live == 'true' && 'oui' || 'pas encore détecté (10 min écoulées) — vérifie manuellement' }}
+            Déploiement confirmé en ligne : ${{ steps.deploy.outputs.live == 'true' && 'oui' || 'pas encore détecté (10 min écoulées)' }}
 
-            URLs des nouveaux articles :
+            URLs :
 
             ${{ steps.publish.outputs.urls_text }}
 
-            Run complet : ${{ env.RUN_URL }}
+            Run : ${{ env.RUN_URL }}
 
       - name: Notify complete (aucun nouvel article)
         if: always() && env.GMAIL_APP_PASSWORD != '' && steps.publish.outputs.new_articles == '0'
@@ -183,10 +207,9 @@ jobs:
           body: |
             La veille a tourné mais n'a rien produit de neuf : les RSS
             ingérés ne contenaient aucun article trail qui ne soit déjà
-            publié sur altitude-brut.fr.
+            publié sur ${{ env.SITE_BASE_URL }}.
 
-            C'est normal entre deux cron rapprochés ou quand les sources
-            n'ont rien sorti dans la fenêtre.
+            C'est normal entre deux cron rapprochés.
 
             Run : ${{ env.RUN_URL }}
 
@@ -200,9 +223,14 @@ jobs:
           secure: true
           username: ${{ env.MAIL_TO }}
           password: ${{ env.GMAIL_APP_PASSWORD }}
-          subject: "Altitude Trail — échec de veille (voir logs GitHub)"
+          subject: "Altitude Trail — ECHEC veille (voir logs)"
           to: ${{ env.MAIL_TO }}
           from: ${{ env.MAIL_FROM }}
           body: |
-            Le run de veille a échoué. Consulte les logs :
-            ${{ env.RUN_URL }}
+            Le run de veille a échoué.
+
+            Heure  : ${{ steps.time.outputs.paris }} Paris
+            Modèle : ${{ steps.preflight.outputs.model }}
+            Run    : ${{ env.RUN_URL }}
+
+            Consulte les logs pour identifier l'étape qui a planté.

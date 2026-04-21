@@ -97,7 +97,28 @@ function commitAndPush(count) {
   execSync("git add content/articles public/articles src/lib/data.ts", { stdio: "inherit" });
   const msg = `chore(veille): publication de ${count} article(s)`;
   execSync(`git commit -m ${JSON.stringify(msg)}`, { stdio: "inherit" });
-  execSync("git push", { stdio: "inherit" });
+
+  // Retry push avec rebase : si d'autres commits sont arrivés entre-temps,
+  // on rebase puis on retente. Protège contre les pushs concurrents.
+  const maxAttempts = 3;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      execSync("git push", { stdio: "inherit" });
+      console.log(`[publish] push reussi (attempt ${attempt})`);
+      return;
+    } catch {
+      if (attempt === maxAttempts) {
+        throw new Error(`[publish] push echec apres ${maxAttempts} tentatives`);
+      }
+      console.warn(`[publish] push echec attempt ${attempt}, rebase + retry...`);
+      try {
+        execSync("git pull --rebase origin main", { stdio: "inherit" });
+      } catch (pullErr) {
+        console.error("[publish] rebase echec:", pullErr);
+        throw pullErr;
+      }
+    }
+  }
 }
 
 async function main() {

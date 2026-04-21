@@ -24,7 +24,7 @@ const SOURCES = [
 
 const CONTENT_DIR = path.resolve("content/articles");
 const PUBLIC_IMAGES_DIR = path.resolve("public/articles");
-const MODEL = process.env.ANTHROPIC_MODEL || "claude-opus-4-7";
+const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 const MAX_PER_SOURCE = parseInt(process.env.MAX_ARTICLES_PER_SOURCE || "2", 10);
 const MIN_SOURCE_LENGTH = 400;
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80";
