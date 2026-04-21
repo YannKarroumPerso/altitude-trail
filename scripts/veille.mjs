@@ -11,8 +11,6 @@ const SOURCES = [
   "https://www2.u-trail.com/feed/",
   "https://passiontrail.fr/feed/",
   "https://runactu.com/feed/",
-  "https://www.planetrail.fr/feed",
-  "https://runninghero.com/feed",
   "https://www.irunfar.com/feed",
   "https://www.trailrunnermag.com/feed",
   "https://ultrarunning.com/feed/",
@@ -243,39 +241,30 @@ async function generateFluxImage(prompt) {
   const apiKey = process.env.BFL_API_KEY;
   if (!apiKey) throw new Error("BFL_API_KEY manquante");
   const fullPrompt = `${prompt.trim()}${FLUX_STYLE_SUFFIX}`;
-  const submitRes = await fetch(`${BFL_BASE_URL}/${FLUX_MODEL}`, {
+  const res = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
     method: "POST",
     headers: {
-      "x-key": apiKey,
+      "Authorization": `Key ${apiKey}`,
       "Content-Type": "application/json",
-      accept: "application/json",
+      "accept": "application/json",
     },
     body: JSON.stringify({
       prompt: fullPrompt,
-      width: FLUX_WIDTH,
-      height: FLUX_HEIGHT,
-      prompt_upsampling: false,
-      safety_tolerance: 2,
+      image_size: { width: FLUX_WIDTH, height: FLUX_HEIGHT },
+      num_images: 1,
+      safety_tolerance: "2",
       output_format: "jpeg",
+      enable_safety_checker: true,
     }),
   });
-  if (!submitRes.ok) {
-    const text = await submitRes.text().catch(() => "");
-    throw new Error(`BFL submit ${submitRes.status}: ${text.slice(0, 200)}`);
+  if (!res.ok) {
+    const text = await res.text().catch(() => "");
+    throw new Error(`fal submit ${res.status}: ${text.slice(0, 200)}`);
   }
-  const { id, polling_url: pollingUrl } = await submitRes.json();
-  const pollUrl = pollingUrl || `${BFL_BASE_URL}/get_result?id=${encodeURIComponent(id)}`;
-  for (let i = 0; i < FLUX_MAX_POLLS; i++) {
-    await sleep(FLUX_POLL_INTERVAL_MS);
-    const pollRes = await fetch(pollUrl, { headers: { "x-key": apiKey, accept: "application/json" } });
-    if (!pollRes.ok) throw new Error(`BFL poll ${pollRes.status}`);
-    const data = await pollRes.json();
-    if (data.status === "Ready") return data.result?.sample;
-    if (["Error", "Request Moderated", "Content Moderated", "Task not found", "TaskNotFound"].includes(data.status)) {
-      throw new Error(`BFL status: ${data.status}`);
-    }
-  }
-  throw new Error("BFL timeout");
+  const data = await res.json();
+  const url = data.images?.[0]?.url;
+  if (!url) throw new Error(`fal: pas d'URL dans la réponse`);
+  return url;
 }
 
 async function downloadImage(url, destPath) {

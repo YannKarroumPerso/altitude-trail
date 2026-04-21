@@ -95,7 +95,7 @@ function commitAndPush(count) {
     return;
   }
   execSync("git add content/articles public/articles src/lib/data.ts", { stdio: "inherit" });
-  const msg = `chore(veille): publication de ${count} article(s) [skip ci]`;
+  const msg = `chore(veille): publication de ${count} article(s)`;
   execSync(`git commit -m ${JSON.stringify(msg)}`, { stdio: "inherit" });
   execSync("git push", { stdio: "inherit" });
 }
