@@ -31,7 +31,7 @@ const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1551698618-1dfe5d97d25
 
 const BFL_BASE_URL = process.env.BFL_BASE_URL || "https://api.bfl.ai/v1";
 const FLUX_MODEL = process.env.FLUX_MODEL || "flux-pro-1.1";
-const FLUX_STYLE_SUFFIX = ", cinematic photography, trail running athlete, alpine mountain landscape, dramatic natural lighting, shallow depth of field, 35mm film, ultra realistic, editorial magazine style";
+const FLUX_STYLE_SUFFIX = ", cinematic trail running photography, summer mountain trail, dirt and rocky singletrack, dramatic natural lighting, shallow depth of field, 35mm film, ultra realistic, editorial magazine style, no skiing, no snow, no winter gear";
 const FLUX_WIDTH = 1344;
 const FLUX_HEIGHT = 768;
 const FLUX_POLL_INTERVAL_MS = 2000;
