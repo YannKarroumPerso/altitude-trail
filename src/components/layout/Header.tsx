@@ -57,7 +57,7 @@ export default function Header() {
               Courses en France
             </Link>
             <Link href="/parcours" className="nav-link text-primary font-bold">
-              Trace &amp; Parcours
+              Traces &amp; Parcours
             </Link>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function Header() {
               Courses en France
             </Link>
             <Link href="/parcours" className="nav-link text-primary font-bold" onClick={() => setMenuOpen(false)}>
-              Trace &amp; Parcours
+              Traces &amp; Parcours
             </Link>
             <Link href="/contact" className="nav-link" onClick={() => setMenuOpen(false)}>
               Contact
