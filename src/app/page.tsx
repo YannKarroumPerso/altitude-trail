@@ -106,6 +106,53 @@ export default function Home() {
         </aside>
       </div>
 
+      {/* CTA Plan d'entraînement personnalisé */}
+      <section className="bg-navy text-white">
+        <div className="max-w-[1440px] mx-auto px-4 lg:px-8 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div className="lg:col-span-7 space-y-5">
+            <div className="inline-block bg-primary text-white text-[10px] font-headline font-black uppercase tracking-widest px-3 py-1">
+              Nouveau · Propulsé par l&apos;IA
+            </div>
+            <h2 className="font-headline text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter uppercase leading-[0.95]">
+              Ton plan d&apos;entraînement trail
+              <br />
+              <span className="text-primary">100 % personnalisé</span>
+            </h2>
+            <p className="text-base md:text-lg text-slate-300 leading-relaxed max-w-2xl">
+              Indique ta course cible, ton niveau et ton volume actuel. On te génère en moins de 2 minutes un plan complet semaine par semaine, avec périodisation, séances détaillées, conseils nutrition et récupération — inspiré des méthodes Kilian Jornet, François D&apos;Haene et des coaches UTMB.
+            </p>
+            <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-300 pt-2">
+              <span className="flex items-center gap-2"><span className="text-primary font-black text-lg">&#10003;</span> Jusqu&apos;à 16 semaines de prépa</span>
+              <span className="flex items-center gap-2"><span className="text-primary font-black text-lg">&#10003;</span> Séances datées</span>
+              <span className="flex items-center gap-2"><span className="text-primary font-black text-lg">&#10003;</span> Export PDF</span>
+              <span className="flex items-center gap-2"><span className="text-primary font-black text-lg">&#10003;</span> 100 % gratuit</span>
+            </div>
+            <div className="pt-4">
+              <Link href="/entrainement/generateur" className="inline-block bg-primary hover:bg-primary-dark transition-colors text-white font-headline font-black text-sm uppercase tracking-widest py-4 px-8">
+                Générer mon plan gratuit &rarr;
+              </Link>
+            </div>
+          </div>
+          <div className="lg:col-span-5 hidden lg:block">
+            <div className="bg-navy-light/40 border border-white/10 p-6 space-y-3">
+              <div className="text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">
+                Exemple de semaine · Phase spécifique
+              </div>
+              <div className="space-y-1 text-sm">
+                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">LUN</span><span className="bg-slate-500 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">REPOS</span><span className="text-slate-200">Récupération active</span></div>
+                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">MAR</span><span className="bg-red-600 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">VMA</span><span className="text-slate-200">10 &times; 400 m sur piste</span></div>
+                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">MER</span><span className="bg-emerald-500 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">EF</span><span className="text-slate-200">1 h endurance fondamentale</span></div>
+                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">JEU</span><span className="bg-yellow-500 text-navy text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">RENFO</span><span className="text-slate-200">45 min gainage &amp; proprio</span></div>
+                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">VEN</span><span className="bg-slate-500 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">REPOS</span><span className="text-slate-200">Repos complet</span></div>
+                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">SAM</span><span className="bg-violet-500 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">TRAIL</span><span className="text-slate-200">3 h / 1200 D+ technique</span></div>
+                <div className="flex items-center gap-3 py-1.5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">DIM</span><span className="bg-blue-500 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">SL</span><span className="text-slate-200">2 h sortie longue</span></div>
+              </div>
+              <p className="text-[11px] text-slate-400 italic pt-2">Aperçu indicatif. Ton plan sera adapté à ton profil et ta course.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Courses & Récits */}
       <section className="max-w-[1440px] mx-auto px-4 lg:px-8 pb-12">
         <div className="newspaper-divider"><span>COURSES &amp; RÉCITS</span></div>
