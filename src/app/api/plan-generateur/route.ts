@@ -1,5 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { SYSTEM_PROMPT, buildUserPrompt, PlanFormInput } from "@/lib/entrainement-prompt";
+import { persistPlanGeneration } from "@/lib/supabase";
 
 // Vercel Pro : 300s max, largement suffisant en streaming.
 export const maxDuration = 300;
@@ -79,7 +80,55 @@ export async function POST(req: Request) {
 
         if (finalMessage.stop_reason === "max_tokens") {
           controller.enqueue(encoder.encode(ERROR_MARKER + "Plan tronque (max_tokens atteint)"));
+          controller.close();
+          return;
         }
+
+        // Persistance asynchrone en DB (fire-and-forget : pas bloquant pour le client)
+        try {
+          const rawText = finalMessage.content
+            .filter((b) => b.type === "text")
+            .map((b) => (b as { type: "text"; text: string }).text)
+            .join("\n")
+            .trim();
+          const cleaned = rawText.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
+          const startIdx = cleaned.indexOf("{");
+          const endIdx = cleaned.lastIndexOf("}");
+          if (startIdx !== -1 && endIdx !== -1) {
+            const parsedPlan = JSON.parse(cleaned.slice(startIdx, endIdx + 1));
+            persistPlanGeneration({
+              email: input.email,
+              prenom: input.prenom,
+              age: input.age,
+              sexe: input.sexe,
+              region: input.region,
+              consentRGPD: input.consentRGPD,
+              form: {
+                courseName: input.courseName,
+                courseDate: input.courseDate,
+                courseDistance: input.courseDistance,
+                courseDenivele: input.courseDenivele,
+                niveau: input.niveau,
+                volumeActuelKm: input.volumeActuelKm,
+                seancesMaxParSemaine: input.seancesMaxParSemaine,
+                objectifPrincipal: input.objectifPrincipal,
+                blessuresRecurrentes: input.blessuresRecurrentes,
+              },
+              plan: parsedPlan,
+            })
+              .then((result) => {
+                if (result) {
+                  console.log("[plan-generateur] persiste en DB: user=", result.userId, "plan=", result.planId);
+                } else {
+                  console.log("[plan-generateur] Supabase non configure, persistance ignoree");
+                }
+              })
+              .catch((e) => console.error("[plan-generateur] persistance error:", e));
+          }
+        } catch (persistErr) {
+          console.error("[plan-generateur] parse pour persistance echoue:", persistErr);
+        }
+
         controller.close();
       } catch (e: unknown) {
         const msg = e instanceof Error ? e.message : String(e);

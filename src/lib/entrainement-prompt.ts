@@ -135,17 +135,25 @@ CONTRAINTE DE LONGUEUR (impérative) :
 RÉPONSE ATTENDUE : le JSON brut, strictement conforme au schéma, rien d'autre.`;
 
 export interface PlanFormInput {
+  // Identite
+  prenom?: string;
+  email: string;
+  age?: number;
+  sexe?: "homme" | "femme";
+  region?: string;
+  consentRGPD: boolean;
+  // Profil coureur
+  niveau: "debutant" | "intermediaire" | "confirme" | "expert";
+  volumeActuelKm: number;
+  seancesMaxParSemaine: number;
+  // Course cible
   courseName: string;
   courseDate: string; // YYYY-MM-DD
   courseDistance: number; // km
   courseDenivele: number; // m
-  niveau: "debutant" | "intermediaire" | "confirme" | "expert";
-  volumeActuelKm: number;
-  seancesMaxParSemaine: number;
   objectifPrincipal: "finir" | "performance" | "podium" | "qualif-utmb";
+  // Optionnel
   blessuresRecurrentes?: string;
-  email: string;
-  consentRGPD: boolean;
 }
 
 export function buildUserPrompt(input: PlanFormInput, today?: string): string {
@@ -162,6 +170,10 @@ export function buildUserPrompt(input: PlanFormInput, today?: string): string {
     `- Dénivelé positif : ${input.courseDenivele} m`,
     ``,
     `COUREUR`,
+    input.prenom ? `- Prénom : ${input.prenom}` : `- Prénom : non communiqué`,
+    input.age ? `- Âge : ${input.age} ans` : `- Âge : non communiqué`,
+    input.sexe ? `- Sexe : ${input.sexe}` : `- Sexe : non communiqué`,
+    input.region ? `- Région : ${input.region}` : `- Région : non communiquée`,
     `- Niveau : ${input.niveau}`,
     `- Volume hebdomadaire actuel : ${input.volumeActuelKm} km/semaine`,
     `- Disponibilité : ${input.seancesMaxParSemaine} séances/semaine maximum`,
