@@ -65,7 +65,20 @@ export default function PlanGenerator() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
       });
-      const data = await res.json();
+      const raw = await res.text();
+      let data: { plan?: Plan; error?: string } = {};
+      try {
+        data = raw ? JSON.parse(raw) : {};
+      } catch {
+        if (res.status === 504 || /timeout|gateway/i.test(raw)) {
+          throw new Error(
+            "Le serveur a mis trop de temps à répondre. Réessaie, ou réduis la durée de préparation.",
+          );
+        }
+        throw new Error(
+          `Réponse serveur invalide (HTTP ${res.status}). Réessaie dans un instant.`,
+        );
+      }
       if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
       if (!data.plan) throw new Error("Réponse sans plan");
       setPlan(data.plan as Plan);
@@ -614,12 +627,12 @@ function computeSeanceDate(weekStart: Date | null, jour: string): Date | null {
 
 const LOADING_STEPS = [
   "Analyse de ton profil coureur",
-  "Calcul des phases de preparation",
-  "Equilibrage de la charge hebdomadaire",
-  "Integration du denivele specifique trail",
-  "Programmation des seances cles",
-  "Conseils nutrition et recuperation",
-  "Finalisation de ton plan personnalise",
+  "Calcul des phases de préparation",
+  "Équilibrage de la charge hebdomadaire",
+  "Intégration du dénivelé spécifique trail",
+  "Programmation des séances clés",
+  "Conseils nutrition et récupération",
+  "Finalisation de ton plan personnalisé",
 ];
 
 function LoadingOverlay() {
@@ -658,18 +671,18 @@ function LoadingOverlay() {
           </svg>
         </div>
         <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-2">
-          Generation en cours - {mm}:{ss}
+          Génération en cours — {mm}:{ss}
         </div>
         <h3 className="font-headline text-2xl md:text-3xl font-black tracking-tight leading-tight mb-4">
-          Claude construit ton plan
+          Nous construisons ton plan personnalisé
         </h3>
         <p key={stepIndex} className="text-primary font-headline font-bold text-sm uppercase tracking-widest animate-pulse mb-6">
           {LOADING_STEPS[stepIndex]}
         </p>
         <div className="text-sm text-slate-600 leading-relaxed">
-          La generation prend <strong>60 a 90 secondes</strong>.
+          La génération prend <strong>30 à 60 secondes</strong>.
           <br />
-          <strong className="text-red-600">Ne ferme pas cette page</strong>, ton plan s&apos;affichera des qu&apos;il est pret.
+          <strong className="text-red-600">Ne ferme pas cette page</strong>, ton plan s&apos;affichera dès qu&apos;il est prêt.
         </div>
       </div>
     </div>
