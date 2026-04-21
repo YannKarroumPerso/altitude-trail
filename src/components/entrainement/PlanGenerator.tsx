@@ -143,244 +143,367 @@ export default function PlanGenerator() {
     <div className="space-y-10">
       {loading && <LoadingOverlay progress={streamProgress} />}
       <form onSubmit={onSubmit} className="bg-surface-container p-6 space-y-6 no-print">
-        {/* Barre de progression */}
-        <div className="space-y-2">
-          <div className="flex items-center justify-between text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600">
+        {/* Barre de progression avec libelles */}
+        <div>
+          <div className="flex items-center justify-between text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-2">
             <span>Étape {step} sur 4</span>
-            <span className="text-slate-400">{["Toi", "Ton profil", "Ta course", "Validation"][step - 1]}</span>
+            <span className="text-slate-400">~ 30 secondes</span>
           </div>
-          <div className="h-1.5 bg-white overflow-hidden">
-            <div
-              className="h-full bg-primary transition-all duration-300"
-              style={{ width: `${(step / 4) * 100}%` }}
-            />
+          <div className="flex gap-1.5">
+            {[1, 2, 3, 4].map((n) => (
+              <div
+                key={n}
+                className={`h-1.5 flex-1 transition-colors ${
+                  n <= step ? "bg-primary" : "bg-white"
+                }`}
+              />
+            ))}
+          </div>
+          <div className="flex justify-between text-[10px] font-headline font-bold uppercase tracking-widest mt-2">
+            {["Toi", "Profil", "Course", "Valider"].map((label, i) => (
+              <span
+                key={label}
+                className={step === i + 1 ? "text-primary" : "text-slate-400"}
+              >
+                {label}
+              </span>
+            ))}
           </div>
         </div>
 
-        {/* Étape 1 — Identite */}
+        {/* Étape 1 — Identité */}
         {step === 1 && (
-          <div className="space-y-5 pt-2">
-            <div>
-              <h3 className="font-headline text-2xl font-black tracking-tight mb-1">À propos de toi</h3>
-              <p className="text-sm text-slate-600">Ces infos nous permettent de personnaliser ton plan. On ne t&apos;enverra pas de spam.</p>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 pt-2">
+            <div className="lg:col-span-3 space-y-5">
+              <div className="flex items-start gap-3">
+                <span className="shrink-0 w-10 h-10 bg-primary text-white flex items-center justify-center text-xl" aria-hidden="true">👤</span>
+                <div>
+                  <h3 className="font-headline text-2xl font-black tracking-tight leading-tight">À propos de toi</h3>
+                  <p className="text-sm text-slate-600 mt-0.5">5 infos rapides pour personnaliser ton plan.</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <label className="block md:col-span-2">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Prénom</span>
+                  <input
+                    type="text"
+                    value={form.prenom || ""}
+                    onChange={(e) => update("prenom", e.target.value)}
+                    placeholder="Ton prénom"
+                    required
+                    autoComplete="given-name"
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                  <span className="block text-[11px] text-slate-500 mt-1 italic">On l&apos;utilisera dans ton plan et tes emails.</span>
+                </label>
+                <label className="block md:col-span-2">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Adresse email</span>
+                  <input
+                    type="email"
+                    value={form.email}
+                    onChange={(e) => update("email", e.target.value)}
+                    placeholder="ton@email.fr"
+                    required
+                    autoComplete="email"
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                  <span className="block text-[11px] text-slate-500 mt-1 italic">Pour te renvoyer ton plan. Jamais de spam.</span>
+                </label>
+                <label className="block">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Âge</span>
+                  <input
+                    type="number"
+                    min={12}
+                    max={99}
+                    value={form.age ?? ""}
+                    onChange={(e) => update("age", e.target.value ? parseInt(e.target.value, 10) : undefined)}
+                    placeholder="Ex : 35"
+                    required
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </label>
+                <label className="block">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Sexe</span>
+                  <select
+                    value={form.sexe || ""}
+                    onChange={(e) => update("sexe", (e.target.value || undefined) as PlanFormInput["sexe"])}
+                    required
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  >
+                    <option value="">Sélectionner</option>
+                    <option value="homme">Homme</option>
+                    <option value="femme">Femme</option>
+                  </select>
+                </label>
+                <label className="block md:col-span-2">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Région</span>
+                  <select
+                    value={form.region || ""}
+                    onChange={(e) => update("region", e.target.value)}
+                    required
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  >
+                    <option value="">Sélectionner ta région</option>
+                    {REGIONS.map((r) => (
+                      <option key={r.value} value={r.value}>{r.label}</option>
+                    ))}
+                  </select>
+                  <span className="block text-[11px] text-slate-500 mt-1 italic">Pour t&apos;envoyer les courses et conseils locaux pertinents.</span>
+                </label>
+              </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <label className="block md:col-span-2">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Prénom</span>
-                <input
-                  type="text"
-                  value={form.prenom || ""}
-                  onChange={(e) => update("prenom", e.target.value)}
-                  placeholder="Ton prénom"
-                  required
-                  autoComplete="given-name"
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-              </label>
-              <label className="block md:col-span-2">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Adresse email</span>
-                <input
-                  type="email"
-                  value={form.email}
-                  onChange={(e) => update("email", e.target.value)}
-                  placeholder="ton@email.fr"
-                  required
-                  autoComplete="email"
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-              </label>
-              <label className="block">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Âge</span>
-                <input
-                  type="number"
-                  min={12}
-                  max={99}
-                  value={form.age ?? ""}
-                  onChange={(e) => update("age", e.target.value ? parseInt(e.target.value, 10) : undefined)}
-                  placeholder="Ex : 35"
-                  required
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-              </label>
-              <label className="block">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Sexe</span>
-                <select
-                  value={form.sexe || ""}
-                  onChange={(e) => update("sexe", (e.target.value || undefined) as PlanFormInput["sexe"])}
-                  required
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                >
-                  <option value="">Sélectionner</option>
-                  <option value="homme">Homme</option>
-                  <option value="femme">Femme</option>
-                </select>
-              </label>
-              <label className="block md:col-span-2">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Région</span>
-                <select
-                  value={form.region || ""}
-                  onChange={(e) => update("region", e.target.value)}
-                  required
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                >
-                  <option value="">Sélectionner ta région</option>
-                  {REGIONS.map((r) => (
-                    <option key={r.value} value={r.value}>{r.label}</option>
-                  ))}
-                </select>
-              </label>
-            </div>
+            <aside className="lg:col-span-2 space-y-4">
+              <div className="bg-white border-l-4 border-primary p-4 space-y-3">
+                <div className="text-[10px] font-headline font-black uppercase tracking-widest text-primary">Le savais-tu ?</div>
+                <p className="text-xs text-slate-700 leading-relaxed">
+                  Après <strong>35 ans</strong>, la VO2max baisse de ~1 % par an. On ajuste la récupération
+                  et les semaines de décharge en fonction de ton âge.
+                </p>
+                <p className="text-xs text-slate-700 leading-relaxed">
+                  Hommes et femmes ont des <strong>profils physiologiques différents</strong> sur l&apos;ultra :
+                  capacité oxydative, fenêtre glycémique, besoins en fer.
+                </p>
+              </div>
+              <div className="bg-navy text-white p-4 space-y-2">
+                <div className="flex items-center gap-2 text-[10px] font-headline font-black uppercase tracking-widest text-primary">
+                  <span aria-hidden="true">🔒</span>
+                  <span>RGPD</span>
+                </div>
+                <p className="text-xs text-slate-300 leading-relaxed">
+                  Tes données sont stockées en France (Paris). On ne les revend jamais à personne.
+                  Tu peux tout supprimer sur simple demande.
+                </p>
+              </div>
+            </aside>
           </div>
         )}
 
         {/* Étape 2 — Profil coureur */}
         {step === 2 && (
-          <div className="space-y-5 pt-2">
-            <div>
-              <h3 className="font-headline text-2xl font-black tracking-tight mb-1">Ton profil coureur</h3>
-              <p className="text-sm text-slate-600">Pour calibrer la charge d&apos;entraînement à ton niveau actuel.</p>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 pt-2">
+            <div className="lg:col-span-3 space-y-5">
+              <div className="flex items-start gap-3">
+                <span className="shrink-0 w-10 h-10 bg-primary text-white flex items-center justify-center text-xl" aria-hidden="true">🏃</span>
+                <div>
+                  <h3 className="font-headline text-2xl font-black tracking-tight leading-tight">Ton profil coureur</h3>
+                  <p className="text-sm text-slate-600 mt-0.5">Pour calibrer la charge à ton niveau actuel.</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <label className="block md:col-span-2">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Niveau actuel</span>
+                  <select
+                    value={form.niveau}
+                    onChange={(e) => update("niveau", e.target.value as PlanFormInput["niveau"])}
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  >
+                    {NIVEAUX.map((n) => (
+                      <option key={n.value} value={n.value}>{n.label}</option>
+                    ))}
+                  </select>
+                  <span className="block text-[11px] text-slate-500 mt-1 italic">Sois honnête : c&apos;est ce qui détermine la progressivité du plan.</span>
+                </label>
+                <label className="block">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Volume actuel (km/sem)</span>
+                  <input
+                    type="number"
+                    min={0}
+                    max={250}
+                    value={form.volumeActuelKm}
+                    onChange={(e) => update("volumeActuelKm", parseInt(e.target.value, 10) || 0)}
+                    required
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                  <span className="block text-[11px] text-slate-500 mt-1 italic">Ton kilométrage hebdo sur les 4 dernières semaines.</span>
+                </label>
+                <label className="block">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Séances max / semaine</span>
+                  <input
+                    type="number"
+                    min={3}
+                    max={7}
+                    value={form.seancesMaxParSemaine}
+                    onChange={(e) => update("seancesMaxParSemaine", parseInt(e.target.value, 10) || 3)}
+                    required
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                  <span className="block text-[11px] text-slate-500 mt-1 italic">Nombre réaliste que tu peux tenir chaque semaine.</span>
+                </label>
+              </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <label className="block md:col-span-2">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Niveau actuel</span>
-                <select
-                  value={form.niveau}
-                  onChange={(e) => update("niveau", e.target.value as PlanFormInput["niveau"])}
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                >
-                  {NIVEAUX.map((n) => (
-                    <option key={n.value} value={n.value}>{n.label}</option>
-                  ))}
-                </select>
-              </label>
-              <label className="block">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Volume actuel (km/sem)</span>
-                <input
-                  type="number"
-                  min={0}
-                  max={250}
-                  value={form.volumeActuelKm}
-                  onChange={(e) => update("volumeActuelKm", parseInt(e.target.value, 10) || 0)}
-                  required
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-              </label>
-              <label className="block">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Séances max / semaine</span>
-                <input
-                  type="number"
-                  min={3}
-                  max={7}
-                  value={form.seancesMaxParSemaine}
-                  onChange={(e) => update("seancesMaxParSemaine", parseInt(e.target.value, 10) || 3)}
-                  required
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-              </label>
-            </div>
+            <aside className="lg:col-span-2 space-y-4">
+              <div className="bg-white border-l-4 border-primary p-4 space-y-3">
+                <div className="text-[10px] font-headline font-black uppercase tracking-widest text-primary">La règle des 10 %</div>
+                <p className="text-xs text-slate-700 leading-relaxed">
+                  On ne dépasse jamais <strong>+10 % de volume par semaine</strong>. C&apos;est la règle d&apos;or
+                  pour éviter les blessures de sur-usage (tendinites, périostite, fractures de stress).
+                </p>
+              </div>
+              <div className="bg-white border-l-4 border-navy p-4 space-y-3">
+                <div className="text-[10px] font-headline font-black uppercase tracking-widest text-navy">Combien de séances ?</div>
+                <ul className="text-xs text-slate-700 space-y-1 leading-relaxed">
+                  <li><strong>3/sem</strong> : prépa durable, idéale débutant</li>
+                  <li><strong>4-5/sem</strong> : optimal confirmé</li>
+                  <li><strong>6-7/sem</strong> : expert/ultra-trail</li>
+                </ul>
+              </div>
+            </aside>
           </div>
         )}
 
         {/* Étape 3 — Course cible */}
         {step === 3 && (
-          <div className="space-y-5 pt-2">
-            <div>
-              <h3 className="font-headline text-2xl font-black tracking-tight mb-1">Ta course cible</h3>
-              <p className="text-sm text-slate-600">Le plan sera optimisé pour que tu sois au pic de forme le jour J.</p>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 pt-2">
+            <div className="lg:col-span-3 space-y-5">
+              <div className="flex items-start gap-3">
+                <span className="shrink-0 w-10 h-10 bg-primary text-white flex items-center justify-center text-xl" aria-hidden="true">🎯</span>
+                <div>
+                  <h3 className="font-headline text-2xl font-black tracking-tight leading-tight">Ta course cible</h3>
+                  <p className="text-sm text-slate-600 mt-0.5">Le plan sera optimisé pour que tu sois au pic le jour J.</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <label className="block md:col-span-2">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Nom de la course</span>
+                  <input
+                    type="text"
+                    value={form.courseName}
+                    onChange={(e) => update("courseName", e.target.value)}
+                    placeholder="Ex : CCC by UTMB"
+                    required
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </label>
+                <label className="block">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Date de la course</span>
+                  <input
+                    type="date"
+                    value={form.courseDate}
+                    onChange={(e) => update("courseDate", e.target.value)}
+                    required
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                  <span className="block text-[11px] text-slate-500 mt-1 italic">Idéal : 12-16 semaines de prépa.</span>
+                </label>
+                <label className="block">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Objectif principal</span>
+                  <select
+                    value={form.objectifPrincipal}
+                    onChange={(e) => update("objectifPrincipal", e.target.value as PlanFormInput["objectifPrincipal"])}
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  >
+                    {OBJECTIFS.map((o) => (
+                      <option key={o.value} value={o.value}>{o.label}</option>
+                    ))}
+                  </select>
+                </label>
+                <label className="block">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Distance (km)</span>
+                  <input
+                    type="number"
+                    min={5}
+                    max={330}
+                    value={form.courseDistance}
+                    onChange={(e) => update("courseDistance", parseInt(e.target.value, 10) || 0)}
+                    required
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </label>
+                <label className="block">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Dénivelé positif (m)</span>
+                  <input
+                    type="number"
+                    min={0}
+                    max={25000}
+                    step={50}
+                    value={form.courseDenivele}
+                    onChange={(e) => update("courseDenivele", parseInt(e.target.value, 10) || 0)}
+                    required
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </label>
+              </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <label className="block md:col-span-2">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Nom de la course</span>
-                <input
-                  type="text"
-                  value={form.courseName}
-                  onChange={(e) => update("courseName", e.target.value)}
-                  placeholder="Ex : CCC by UTMB"
-                  required
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-              </label>
-              <label className="block">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Date de la course</span>
-                <input
-                  type="date"
-                  value={form.courseDate}
-                  onChange={(e) => update("courseDate", e.target.value)}
-                  required
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-              </label>
-              <label className="block">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Objectif principal</span>
-                <select
-                  value={form.objectifPrincipal}
-                  onChange={(e) => update("objectifPrincipal", e.target.value as PlanFormInput["objectifPrincipal"])}
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                >
-                  {OBJECTIFS.map((o) => (
-                    <option key={o.value} value={o.value}>{o.label}</option>
-                  ))}
-                </select>
-              </label>
-              <label className="block">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Distance (km)</span>
-                <input
-                  type="number"
-                  min={5}
-                  max={330}
-                  value={form.courseDistance}
-                  onChange={(e) => update("courseDistance", parseInt(e.target.value, 10) || 0)}
-                  required
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-              </label>
-              <label className="block">
-                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Dénivelé positif (m)</span>
-                <input
-                  type="number"
-                  min={0}
-                  max={25000}
-                  step={50}
-                  value={form.courseDenivele}
-                  onChange={(e) => update("courseDenivele", parseInt(e.target.value, 10) || 0)}
-                  required
-                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-              </label>
-            </div>
+            <aside className="lg:col-span-2 space-y-4">
+              <div className="bg-white border-l-4 border-primary p-4 space-y-3">
+                <div className="text-[10px] font-headline font-black uppercase tracking-widest text-primary">Profil de course</div>
+                <ul className="text-xs text-slate-700 space-y-1.5 leading-relaxed">
+                  <li><strong>&lt; 25 m D+/km</strong> : trail roulant (type Marathon du Beaujolais)</li>
+                  <li><strong>25-45 m D+/km</strong> : trail classique</li>
+                  <li><strong>&gt; 45 m D+/km</strong> : trail montagne sévère (CCC, OCC, Maxi-Race)</li>
+                </ul>
+                <p className="text-xs text-slate-700 leading-relaxed italic">
+                  Le plan ajuste automatiquement le travail spécifique dénivelé.
+                </p>
+              </div>
+              <div className="bg-white border-l-4 border-navy p-4 space-y-2">
+                <div className="text-[10px] font-headline font-black uppercase tracking-widest text-navy">Durée idéale de prépa</div>
+                <p className="text-xs text-slate-700 leading-relaxed">
+                  <strong>12-16 semaines</strong> = format complet (fondation → affûtage).
+                  <br />
+                  <strong>6-10 semaines</strong> = affûtage ciblé, pour coureur déjà actif.
+                  <br />
+                  <strong>&lt; 6 semaines</strong> = on fait avec ce qu&apos;on a.
+                </p>
+              </div>
+            </aside>
           </div>
         )}
 
-        {/* Étape 4 — Blessures + consentement + soumission */}
+        {/* Étape 4 — Derniers détails + teaser */}
         {step === 4 && (
-          <div className="space-y-5 pt-2">
-            <div>
-              <h3 className="font-headline text-2xl font-black tracking-tight mb-1">Derniers détails</h3>
-              <p className="text-sm text-slate-600">Encore une minute et ton plan personnalisé est prêt.</p>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 pt-2">
+            <div className="lg:col-span-3 space-y-5">
+              <div className="flex items-start gap-3">
+                <span className="shrink-0 w-10 h-10 bg-primary text-white flex items-center justify-center text-xl" aria-hidden="true">✓</span>
+                <div>
+                  <h3 className="font-headline text-2xl font-black tracking-tight leading-tight">Derniers détails</h3>
+                  <p className="text-sm text-slate-600 mt-0.5">Une minute et ton plan personnalisé est prêt.</p>
+                </div>
+              </div>
+              <label className="block">
+                <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Blessures récurrentes (facultatif)</span>
+                <textarea
+                  value={form.blessuresRecurrentes}
+                  onChange={(e) => update("blessuresRecurrentes", e.target.value)}
+                  placeholder="Ex : tendinite d'Achille droite, syndrome rotulien chronique"
+                  rows={3}
+                  className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+                />
+                <span className="block text-[11px] text-slate-500 mt-1 italic">
+                  Le plan évitera les charges à risque et intégrera du renforcement préventif ciblé.
+                </span>
+              </label>
+              <label className="flex items-start gap-2 cursor-pointer bg-white p-3 border border-slate-200">
+                <input
+                  type="checkbox"
+                  checked={form.consentRGPD}
+                  onChange={(e) => update("consentRGPD", e.target.checked)}
+                  required
+                  className="mt-0.5 accent-primary"
+                />
+                <span className="text-xs text-slate-600 leading-snug">
+                  J&apos;accepte que mon email soit utilisé par Altitude Trail pour me transmettre mon plan
+                  et m&apos;envoyer des conseils d&apos;entraînement. Je peux me désabonner à tout moment.
+                </span>
+              </label>
             </div>
-            <label className="block">
-              <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Blessures récurrentes (facultatif)</span>
-              <textarea
-                value={form.blessuresRecurrentes}
-                onChange={(e) => update("blessuresRecurrentes", e.target.value)}
-                placeholder="Ex : tendinite d'Achille droite, syndrome rotulien chronique"
-                rows={3}
-                className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary resize-none"
-              />
-            </label>
-            <label className="flex items-start gap-2 cursor-pointer bg-white p-3 border border-slate-200">
-              <input
-                type="checkbox"
-                checked={form.consentRGPD}
-                onChange={(e) => update("consentRGPD", e.target.checked)}
-                required
-                className="mt-0.5 accent-primary"
-              />
-              <span className="text-xs text-slate-600 leading-snug">
-                J&apos;accepte que mon email soit utilisé par Altitude Trail pour me transmettre mon plan
-                et m&apos;envoyer des conseils d&apos;entraînement. Je peux me désabonner à tout moment.
-              </span>
-            </label>
+            <aside className="lg:col-span-2">
+              <div className="bg-navy text-white p-5 space-y-3">
+                <div className="text-[10px] font-headline font-black uppercase tracking-widest text-primary">Ton plan dans 90 sec</div>
+                <p className="text-sm leading-relaxed text-slate-200">
+                  Une fois validé, Claude Sonnet analyse ton profil et construit :
+                </p>
+                <ul className="text-xs space-y-1.5 text-slate-300">
+                  <li className="flex gap-2"><span className="text-primary">✓</span> Plan 12-16 semaines avec dates</li>
+                  <li className="flex gap-2"><span className="text-primary">✓</span> Phases : fondation, développement, spécifique, affûtage</li>
+                  <li className="flex gap-2"><span className="text-primary">✓</span> Séances détaillées (allures, zones cardio, RPE)</li>
+                  <li className="flex gap-2"><span className="text-primary">✓</span> Conseils nutrition périodisés</li>
+                  <li className="flex gap-2"><span className="text-primary">✓</span> Graphique de charge hebdo</li>
+                  <li className="flex gap-2"><span className="text-primary">✓</span> Export PDF en un clic</li>
+                </ul>
+              </div>
+            </aside>
           </div>
         )}
 
@@ -389,7 +512,7 @@ export default function PlanGenerator() {
         )}
 
         {/* Navigation */}
-        <div className="flex items-center justify-between gap-3 pt-2 border-t border-slate-200">
+        <div className="flex items-center justify-between gap-3 pt-4 border-t border-slate-200">
           {step > 1 ? (
             <button
               type="button"
