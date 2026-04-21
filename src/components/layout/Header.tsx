@@ -59,6 +59,9 @@ export default function Header() {
             <Link href="/parcours" className="nav-link text-primary font-bold">
               Traces &amp; Parcours
             </Link>
+            <Link href="/entrainement/generateur" className="nav-link text-primary font-bold">
+              Plan d&apos;entraînement
+            </Link>
           </div>
         </div>
       </nav>
@@ -82,6 +85,9 @@ export default function Header() {
             </Link>
             <Link href="/parcours" className="nav-link text-primary font-bold" onClick={() => setMenuOpen(false)}>
               Traces &amp; Parcours
+            </Link>
+            <Link href="/entrainement/generateur" className="nav-link text-primary font-bold" onClick={() => setMenuOpen(false)}>
+              Plan d&apos;entraînement
             </Link>
             <Link href="/contact" className="nav-link" onClick={() => setMenuOpen(false)}>
               Contact
