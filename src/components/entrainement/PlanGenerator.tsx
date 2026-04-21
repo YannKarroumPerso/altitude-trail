@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import ChargeChartLoader from "./ChargeChartLoader";
 import { Plan, Seance, SEANCE_COLORS } from "@/types/plan";
 import { PlanFormInput } from "@/lib/entrainement-prompt";
@@ -24,6 +25,7 @@ const OBJECTIFS: { value: Objectif; label: string }[] = [
 ];
 
 export default function PlanGenerator() {
+  const router = useRouter();
   const [form, setForm] = useState<PlanFormInput>({
     prenom: "",
     email: "",
@@ -94,47 +96,18 @@ export default function PlanGenerator() {
     e.preventDefault();
     setError(null);
     setLoading(true);
-    setPlan(null);
-    setOpenSeance(null);
-    setStreamProgress({ phase: "init", weeksDone: 0, weeksTotal: 0 });
     try {
       const res = await fetch("/api/plan-generateur", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
       });
-
-      const contentType = res.headers.get("content-type") || "";
-      if (!res.ok && contentType.includes("application/json")) {
-        const errJson = await res.json().catch(() => ({}));
-        throw new Error(errJson.error || `HTTP ${res.status}`);
-      }
-      if (!res.body) throw new Error("Reponse sans corps");
-
-      const reader = res.body.getReader();
-      const decoder = new TextDecoder();
-      let buffer = "";
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        buffer += decoder.decode(value, { stream: true });
-
-        const errIdx = buffer.indexOf("__STREAM_ERROR__");
-        if (errIdx >= 0) {
-          throw new Error(buffer.slice(errIdx + 16).trim() || "Erreur pendant la generation");
-        }
-        setStreamProgress(parseStreamProgress(buffer));
-      }
-
-      const clean = buffer.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
-      const startIdx = clean.indexOf("{");
-      const endIdx = clean.lastIndexOf("}");
-      if (startIdx === -1 || endIdx === -1) throw new Error("JSON introuvable");
-      const parsed = JSON.parse(clean.slice(startIdx, endIdx + 1)) as Plan;
-      setPlan(parsed);
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+      if (!data.planId) throw new Error("Reponse sans planId");
+      router.push(`/mon-plan/${data.planId}`);
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
-    } finally {
       setLoading(false);
     }
   };
@@ -492,7 +465,7 @@ export default function PlanGenerator() {
               <div className="bg-navy text-white p-5 space-y-3">
                 <div className="text-[10px] font-headline font-black uppercase tracking-widest text-primary">Ton plan dans 90 sec</div>
                 <p className="text-sm leading-relaxed text-slate-200">
-                  Une fois validé, Claude Sonnet analyse ton profil et construit :
+                  Nous analysons ton profil et nous construisons :
                 </p>
                 <ul className="text-xs space-y-1.5 text-slate-300">
                   <li className="flex gap-2"><span className="text-primary">✓</span> Plan 12-16 semaines avec dates</li>

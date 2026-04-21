@@ -1,15 +1,20 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { after } from "next/server";
 import { SYSTEM_PROMPT, buildUserPrompt, PlanFormInput } from "@/lib/entrainement-prompt";
-import { persistPlanGeneration } from "@/lib/supabase";
+import { createPendingPlan, finalizePlan, markPlanFailed } from "@/lib/supabase";
 
-// Vercel Pro : 300s max, largement suffisant en streaming.
 export const maxDuration = 300;
 export const runtime = "nodejs";
 
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 
-// Sentinelle reservee pour signaler une erreur en plein stream cote client.
-const ERROR_MARKER = "__STREAM_ERROR__";
+function extractJson(text: string): string {
+  const trimmed = text.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
+  const start = trimmed.indexOf("{");
+  const end = trimmed.lastIndexOf("}");
+  if (start === -1 || end === -1 || end <= start) throw new Error("JSON introuvable dans la reponse");
+  return trimmed.slice(start, end + 1);
+}
 
 export async function POST(req: Request) {
   const apiKey =
@@ -17,10 +22,7 @@ export async function POST(req: Request) {
     process.env.Anthropic ||
     process.env.ANTHROPIC;
   if (!apiKey || !apiKey.trim()) {
-    return Response.json(
-      { error: "Cle API Anthropic manquante cote serveur." },
-      { status: 500 },
-    );
+    return Response.json({ error: "Cle API Anthropic manquante cote serveur." }, { status: 500 });
   }
 
   let input: PlanFormInput;
@@ -43,109 +45,78 @@ export async function POST(req: Request) {
   if (!input.consentRGPD) {
     return Response.json({ error: "Consentement requis" }, { status: 400 });
   }
-  console.log(
-    "[plan-generateur] email collecte:", input.email.trim(),
-    "- course:", input.courseName, "(" + input.courseDate + ")",
-  );
 
-  const client = new Anthropic({ apiKey });
-  const encoder = new TextEncoder();
-  const t0 = Date.now();
+  // 1) On cree immediatement un plan en status=generating et on renvoie son id.
+  const pending = await createPendingPlan({
+    user: {
+      email: input.email,
+      prenom: input.prenom ?? null,
+      age: input.age ?? null,
+      sexe: input.sexe ?? null,
+      region: input.region ?? null,
+      consentRGPD: input.consentRGPD,
+    },
+    form: {
+      courseName: input.courseName,
+      courseDate: input.courseDate,
+      courseDistance: input.courseDistance,
+      courseDenivele: input.courseDenivele,
+      niveau: input.niveau,
+      volumeActuelKm: input.volumeActuelKm,
+      seancesMaxParSemaine: input.seancesMaxParSemaine,
+      objectifPrincipal: input.objectifPrincipal,
+      blessuresRecurrentes: input.blessuresRecurrentes,
+    },
+  });
 
-  const readable = new ReadableStream<Uint8Array>({
-    async start(controller) {
-      try {
-        const anthropicStream = client.messages.stream({
-          model: MODEL,
-          max_tokens: 64000,
-          system: SYSTEM_PROMPT,
-          messages: [{ role: "user", content: buildUserPrompt(input) }],
-        });
+  if (!pending) {
+    return Response.json(
+      { error: "Impossible d enregistrer le plan (Supabase indisponible)." },
+      { status: 500 },
+    );
+  }
 
-        // Forward chaque chunk de texte au client au fur et a mesure.
-        anthropicStream.on("text", (text: string) => {
-          try {
-            controller.enqueue(encoder.encode(text));
-          } catch {
-            // Controller ferme cote client : on ignore.
-          }
-        });
+  const { planId } = pending;
+  console.log("[plan-generateur] start async generation, planId=", planId);
 
-        const finalMessage = await anthropicStream.finalMessage();
-        const elapsed = Date.now() - t0;
-        const outTokens = finalMessage.usage?.output_tokens ?? 0;
-        console.log(
-          "[plan-generateur] stream fini en", elapsed + "ms,", outTokens, "tokens, modele=" + MODEL,
-        );
+  // 2) La generation Anthropic tourne en background via after() sans bloquer la reponse.
+  after(async () => {
+    const t0 = Date.now();
+    try {
+      const client = new Anthropic({ apiKey });
+      const stream = client.messages.stream({
+        model: MODEL,
+        max_tokens: 64000,
+        system: SYSTEM_PROMPT,
+        messages: [{ role: "user", content: buildUserPrompt(input) }],
+      });
+      const message = await stream.finalMessage();
+      const elapsed = Date.now() - t0;
+      console.log(
+        "[plan-generateur] Anthropic fini en", elapsed + "ms, planId=", planId,
+      );
 
-        if (finalMessage.stop_reason === "max_tokens") {
-          controller.enqueue(encoder.encode(ERROR_MARKER + "Plan tronque (max_tokens atteint)"));
-          controller.close();
-          return;
-        }
-
-        // Persistance asynchrone en DB (fire-and-forget : pas bloquant pour le client)
-        try {
-          const rawText = finalMessage.content
-            .filter((b) => b.type === "text")
-            .map((b) => (b as { type: "text"; text: string }).text)
-            .join("\n")
-            .trim();
-          const cleaned = rawText.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
-          const startIdx = cleaned.indexOf("{");
-          const endIdx = cleaned.lastIndexOf("}");
-          if (startIdx !== -1 && endIdx !== -1) {
-            const parsedPlan = JSON.parse(cleaned.slice(startIdx, endIdx + 1));
-            persistPlanGeneration({
-              email: input.email,
-              prenom: input.prenom,
-              age: input.age,
-              sexe: input.sexe,
-              region: input.region,
-              consentRGPD: input.consentRGPD,
-              form: {
-                courseName: input.courseName,
-                courseDate: input.courseDate,
-                courseDistance: input.courseDistance,
-                courseDenivele: input.courseDenivele,
-                niveau: input.niveau,
-                volumeActuelKm: input.volumeActuelKm,
-                seancesMaxParSemaine: input.seancesMaxParSemaine,
-                objectifPrincipal: input.objectifPrincipal,
-                blessuresRecurrentes: input.blessuresRecurrentes,
-              },
-              plan: parsedPlan,
-            })
-              .then((result) => {
-                if (result) {
-                  console.log("[plan-generateur] persiste en DB: user=", result.userId, "plan=", result.planId);
-                } else {
-                  console.log("[plan-generateur] Supabase non configure, persistance ignoree");
-                }
-              })
-              .catch((e) => console.error("[plan-generateur] persistance error:", e));
-          }
-        } catch (persistErr) {
-          console.error("[plan-generateur] parse pour persistance echoue:", persistErr);
-        }
-
-        controller.close();
-      } catch (e: unknown) {
-        const msg = e instanceof Error ? e.message : String(e);
-        console.error("[plan-generateur] erreur stream:", msg);
-        try {
-          controller.enqueue(encoder.encode(ERROR_MARKER + msg));
-          controller.close();
-        } catch {}
+      if (message.stop_reason === "max_tokens") {
+        await markPlanFailed(planId, "Plan tronque (max_tokens atteint)");
+        return;
       }
-    },
+
+      const raw = message.content
+        .filter((b) => b.type === "text")
+        .map((b) => (b as { type: "text"; text: string }).text)
+        .join("\n")
+        .trim();
+      const json = extractJson(raw);
+      const parsedPlan = JSON.parse(json);
+      await finalizePlan(planId, parsedPlan);
+      console.log("[plan-generateur] plan finalise: planId=", planId);
+    } catch (e: unknown) {
+      const msg = e instanceof Error ? e.message : String(e);
+      console.error("[plan-generateur] erreur background:", msg, "planId=", planId);
+      await markPlanFailed(planId, msg);
+    }
   });
 
-  return new Response(readable, {
-    headers: {
-      "Content-Type": "text/plain; charset=utf-8",
-      "Cache-Control": "no-cache, no-transform",
-      "X-Accel-Buffering": "no",
-    },
-  });
+  // 3) Reponse immediate au client avec l id du plan a poller
+  return Response.json({ planId });
 }
