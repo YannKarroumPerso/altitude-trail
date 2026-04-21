@@ -68,3 +68,23 @@ export interface Parcours {
   website?: string;
   notes?: string; // traces approximées, usage indicatif
 }
+
+export type TraceNetwork = "iwn" | "nwn" | "rwn";
+
+export interface Trace {
+  id: string; // "osm-{osmId}"
+  osmId: number;
+  name: string;
+  ref?: string;
+  network: TraceNetwork;
+  difficulty: Difficulty;
+  distanceKm?: number;
+  description?: string;
+  wikipedia?: string;
+  website?: string;
+  operator?: string;
+  centerLat: number;
+  centerLng: number;
+  country: "FR";
+  source: "OpenStreetMap";
+}

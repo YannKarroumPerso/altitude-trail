@@ -3,6 +3,7 @@ import Breadcrumb from "@/components/ui/Breadcrumb";
 import JsonLd from "@/components/ui/JsonLd";
 import ParcoursClient from "@/components/parcours/ParcoursClient";
 import { parcours } from "@/lib/parcours-database";
+import { traces } from "@/lib/traces-database";
 import {
   SITE_URL,
   SITE_NAME,
@@ -12,7 +13,7 @@ import {
 } from "@/lib/seo";
 
 const title = "Parcours trail et randonnée en France";
-const description = `Carte interactive et liste filtrable de ${parcours.length} parcours emblématiques trail, randonnée et ultra en France : GR20, Tour du Mont-Blanc, GR54, GR10, Stevenson, Sentier Cathare, Ventoux et plus — fond de carte IGN Géoportail, profil altimétrique, téléchargement GPX.`;
+const description = `Carte interactive et liste filtrable de ${parcours.length} parcours emblématiques trail, randonnée et ultra en France (GR20, Tour du Mont-Blanc, GR54, GR10, Stevenson, Sentier Cathare, Ventoux…) enrichie de ${traces.length} traces OpenStreetMap. Fond IGN Géoportail, profil altimétrique, téléchargement GPX.`;
 
 export const metadata: Metadata = {
   title,
@@ -56,10 +57,10 @@ export default function ParcoursPage() {
         <Breadcrumb items={breadcrumb} />
         <h1 className="font-headline text-5xl font-black uppercase tracking-tighter">Parcours</h1>
         <p className="text-slate-500 mt-2 max-w-2xl">
-          {parcours.length} parcours trail, randonnée et ultra en France. Carte sur fond IGN Géoportail. Les tracés sont approximatifs et indicatifs — ne remplacent pas une cartographie officielle pour la navigation.
+          {parcours.length} parcours curés trail, randonnée et ultra{traces.length > 0 ? ` + ${traces.length.toLocaleString("fr-FR")} traces OpenStreetMap` : ""} en France. Carte sur fond IGN Géoportail. Les tracés sont approximatifs et indicatifs — ne remplacent pas une cartographie officielle pour la navigation.
         </p>
       </div>
-      <ParcoursClient parcours={parcours} />
+      <ParcoursClient parcours={parcours} traces={traces} />
     </div>
   );
 }

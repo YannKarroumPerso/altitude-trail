@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { Parcours, Difficulty, ParcoursType } from "@/types";
+import { Parcours, Trace, Difficulty, ParcoursType } from "@/types";
 import {
   PARCOURS_DIFFICULTY_COLORS,
   DISTANCE_BUCKETS,
@@ -31,7 +31,7 @@ const PAGE_SIZE = 20;
 type DistanceBucket = "all" | "<10" | "10-30" | "30-50" | ">50";
 type ElevationBucket = "all" | "<500" | "500-1500" | ">1500";
 
-export default function ParcoursClient({ parcours }: { parcours: Parcours[] }) {
+export default function ParcoursClient({ parcours, traces = [] }: { parcours: Parcours[]; traces?: Trace[] }) {
   const [region, setRegion] = useState<string>("all");
   const [departmentCode, setDepartmentCode] = useState<string>("all");
   const [type, setType] = useState<ParcoursType | "all">("all");
@@ -95,8 +95,13 @@ export default function ParcoursClient({ parcours }: { parcours: Parcours[] }) {
   return (
     <div className="space-y-10">
       <div className="bg-surface-container">
-        <ParcoursMap parcours={filtered} height="560px" />
+        <ParcoursMap parcours={filtered} traces={traces} height="560px" />
       </div>
+      {traces.length > 0 && (
+        <p className="text-xs text-slate-500 italic">
+          {traces.length.toLocaleString("fr-FR")} traces OpenStreetMap affichées en points fins sur la carte (balisage international <span className="font-bold">iwn</span>, national <span className="font-bold">nwn</span>, régional <span className="font-bold">rwn</span>). Données sous licence ODbL. Cliquez un point pour les infos et les liens externes.
+        </p>
+      )}
 
       <div className="flex flex-wrap gap-4 text-xs font-headline uppercase tracking-wide">
         {DIFFICULTIES.map((d) => (
