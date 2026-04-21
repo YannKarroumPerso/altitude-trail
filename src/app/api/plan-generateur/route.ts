@@ -55,6 +55,7 @@ export async function POST(req: Request) {
   );
 
   const client = new Anthropic({ apiKey });
+  const t0 = Date.now();
   try {
     const stream = client.messages.stream({
       model: MODEL,
@@ -63,6 +64,11 @@ export async function POST(req: Request) {
       messages: [{ role: "user", content: buildUserPrompt(input) }],
     });
     const message = await stream.finalMessage();
+    const elapsedMs = Date.now() - t0;
+    const outTokens = message.usage?.output_tokens ?? 0;
+    console.log(
+      `[plan-generateur] Anthropic fini en ${elapsedMs}ms, ${outTokens} tokens out, modele=${MODEL}`,
+    );
 
     if (message.stop_reason === "max_tokens") {
       console.error("[plan-generateur] reponse tronquee (stop_reason=max_tokens)");

@@ -33,7 +33,7 @@ RÈGLES PHYSIOLOGIQUES OBLIGATOIRES :
 - Renforcement : arrêt 10 jours avant la course
 - Entraînement croisé : privilégier en semaine de récupération
 
-STRUCTURE JSON STRICTE à générer. CONTRAINTE TAILLE : le JSON complet doit rester sous 30 000 caractères. Plan plafonné à 10 semaines maximum. Sois concis et précis, pas verbeux.
+STRUCTURE JSON STRICTE à générer. CONTRAINTE TAILLE : le JSON complet doit rester sous 15 000 caractères. Plan plafonné à 6 semaines maximum. Sois concis et précis, pas verbeux.
 
 {
   "meta": {
@@ -43,7 +43,7 @@ STRUCTURE JSON STRICTE à générer. CONTRAINTE TAILLE : le JSON complet doit re
     "volume_depart_km": 35,
     "volume_pic_km": 75,
     "charge_totale_heures": 140,
-    "methodologie": "1-2 phrases sur l'approche retenue (Lydiard pur / polarisé 80-20 / bloc 3+1)"
+    "methodologie": "1 phrase tres courte"
   },
   "phases": [
     {
@@ -76,17 +76,17 @@ STRUCTURE JSON STRICTE à générer. CONTRAINTE TAILLE : le JSON complet doit re
           "denivele": 0,
           "rpe_cible": 1,
           "zones_cardio": [],
-          "description": "2-4 phrases : structure de la séance, allure cible, intention. Inclure échauffement et retour au calme INTÉGRÉS dans la description pour les séances d'intensité."
+          "description": "1 phrase courte (20-40 mots max) : structure + allure cible."
         }
       ]
     }
   ],
   "conseils_globaux": {
     "materiels_recommandes": ["4 à 6 items max"],
-    "alimentation_generale": "3-4 phrases sur les piliers nutritionnels.",
+    "alimentation_generale": "2 phrases",
     "sommeil": "2 phrases",
     "signaux_alarme": ["3 à 5 signaux avec l'action associée, chaque item en 1 phrase"],
-    "ajustements_possibles": "3-4 phrases sur les adaptations possibles."
+    "ajustements_possibles": "2 phrases"
   }
 }
 
@@ -129,7 +129,7 @@ Si un contrôle échoue, refais le calcul avant d'émettre. Le JSON ne doit jama
 
 CONTRAINTE DE LONGUEUR (impérative) :
 - JSON total < 50 000 caractères.
-- Plan plafonné à 10 semaines max (même si la course est plus éloignée, démarre le plan 10 semaines avant).
+- Plan plafonné à 6 semaines max (même si la course est plus éloignée, démarre le plan 6 semaines avant).
 - Pas de prose verbeuse : sois direct et technique.
 
 RÉPONSE ATTENDUE : le JSON brut, strictement conforme au schéma, rien d'autre.`;
@@ -172,7 +172,7 @@ export function buildUserPrompt(input: PlanFormInput, today?: string): string {
   }
   lines.push(``);
   lines.push(
-    `Calcule le nombre de semaines entre la DATE DU JOUR et la date de course. Plafonne TOUJOURS à 10 semaines max (plan actif). Si la course est plus éloignée, indique dans meta.methodologie que le plan démarre 10 semaines avant la course. Si < 6 semaines, fais un plan court cohérent (affûtage rapide). Respecte strictement les règles physiologiques et la structure JSON du system prompt. N'invente jamais 2 séances intenses consécutives. Termine la dernière semaine à 40 % du volume normal. Sois concis : description de séance en 1-2 phrases courtes, 40-80 mots max. Pas de verbiage. Réponds UNIQUEMENT par le JSON, sans aucun texte autour, sans fence de code.`,
+    `Calcule le nombre de semaines entre la DATE DU JOUR et la date de course. Plafonne TOUJOURS à 6 semaines max. Si la course est plus éloignée, indique dans meta.methodologie que le plan démarre 6 semaines avant la course. Si < 6 semaines, fais un plan court cohérent (affûtage rapide). Respecte strictement les règles physiologiques et la structure JSON du system prompt. N'invente jamais 2 séances intenses consécutives. Termine la dernière semaine à 40 % du volume normal. Sois concis : description de séance en 1-2 phrases courtes, 40-80 mots max. Pas de verbiage. Réponds UNIQUEMENT par le JSON, sans aucun texte autour, sans fence de code.`,
   );
   return lines.join("\n");
 }
