@@ -1,4 +1,4 @@
-import { Article, Race } from "@/types";
+import { Article, Parcours, Race } from "@/types";
 
 export const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL || "https://www.altitude-brut.fr"
@@ -137,6 +137,39 @@ export function buildSportsEventJsonLd(race: Race) {
       },
     },
     ...(race.website ? { url: race.website } : {}),
+  };
+}
+
+export function buildHikingTrailJsonLd(parcours: Parcours) {
+  const url = `${SITE_URL}/parcours/${parcours.slug}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": ["TouristTrip", "Place"],
+    name: parcours.name,
+    description: parcours.description,
+    url,
+    touristType: parcours.type,
+    additionalProperty: [
+      { "@type": "PropertyValue", name: "distance", value: parcours.distance, unitCode: "KMT" },
+      { "@type": "PropertyValue", name: "elevationGain", value: parcours.elevationGain, unitCode: "MTR" },
+      { "@type": "PropertyValue", name: "elevationLoss", value: parcours.elevationLoss, unitCode: "MTR" },
+      { "@type": "PropertyValue", name: "duration", value: `${parcours.durationHours.toFixed(1)} hours` },
+      { "@type": "PropertyValue", name: "difficulty", value: parcours.difficulty },
+    ],
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: parcours.startLat,
+      longitude: parcours.startLng,
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: parcours.city,
+      addressRegion: parcours.region,
+      addressCountry: "FR",
+    },
+    isAccessibleForFree: true,
+    publicAccess: true,
+    ...(parcours.website ? { sameAs: parcours.website } : {}),
   };
 }
 

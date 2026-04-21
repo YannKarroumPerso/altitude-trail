@@ -40,3 +40,31 @@ export interface Category {
   label: string;
   description: string;
 }
+
+export type ParcoursType = "Trail" | "Randonnée" | "Ultra";
+
+export interface Parcours {
+  id: string;
+  slug: string;
+  name: string;
+  type: ParcoursType;
+  difficulty: Difficulty;
+  distance: number; // km
+  elevationGain: number; // m D+
+  elevationLoss: number; // m D-
+  durationHours: number; // en heures
+  region: string;
+  departmentCode: string;
+  departmentName: string;
+  city: string;
+  description: string;
+  startLat: number;
+  startLng: number;
+  endLat: number;
+  endLng: number;
+  trace: Array<[number, number]>; // [lat, lng] waypoints
+  elevationProfile: number[]; // altitudes en mètres, même pas que trace
+  source: "OpenStreetMap" | "IGN" | "curated";
+  website?: string;
+  notes?: string; // traces approximées, usage indicatif
+}

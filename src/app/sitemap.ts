@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { articles, categories } from "@/lib/data";
 import { races } from "@/lib/races-database";
+import { parcours } from "@/lib/parcours-database";
 import { SITE_URL, parseFrDate } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -9,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/`, lastModified: now, changeFrequency: "daily", priority: 1.0 },
     { url: `${SITE_URL}/courses`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${SITE_URL}/parcours`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
   ];
 
@@ -33,5 +35,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...articleRoutes, ...raceRoutes];
+  const parcoursRoutes: MetadataRoute.Sitemap = parcours.map((p) => ({
+    url: `${SITE_URL}/parcours/${p.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...categoryRoutes, ...articleRoutes, ...raceRoutes, ...parcoursRoutes];
 }
