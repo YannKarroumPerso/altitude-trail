@@ -58,7 +58,7 @@ export async function POST(req: Request) {
   try {
     const stream = client.messages.stream({
       model: MODEL,
-      max_tokens: 32000,
+      max_tokens: 16000,
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: buildUserPrompt(input) }],
     });

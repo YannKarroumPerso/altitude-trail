@@ -33,7 +33,7 @@ RÈGLES PHYSIOLOGIQUES OBLIGATOIRES :
 - Renforcement : arrêt 10 jours avant la course
 - Entraînement croisé : privilégier en semaine de récupération
 
-STRUCTURE JSON STRICTE à générer. CONTRAINTE TAILLE : le JSON complet doit rester sous 50 000 caractères. Plan plafonné à 16 semaines maximum. Sois concis et précis, pas verbeux.
+STRUCTURE JSON STRICTE à générer. CONTRAINTE TAILLE : le JSON complet doit rester sous 30 000 caractères. Plan plafonné à 10 semaines maximum. Sois concis et précis, pas verbeux.
 
 {
   "meta": {
@@ -129,7 +129,7 @@ Si un contrôle échoue, refais le calcul avant d'émettre. Le JSON ne doit jama
 
 CONTRAINTE DE LONGUEUR (impérative) :
 - JSON total < 50 000 caractères.
-- Plan plafonné à 16 semaines max (même si la course est plus éloignée, démarre le plan 16 semaines avant).
+- Plan plafonné à 10 semaines max (même si la course est plus éloignée, démarre le plan 10 semaines avant).
 - Pas de prose verbeuse : sois direct et technique.
 
 RÉPONSE ATTENDUE : le JSON brut, strictement conforme au schéma, rien d'autre.`;
@@ -172,7 +172,7 @@ export function buildUserPrompt(input: PlanFormInput, today?: string): string {
   }
   lines.push(``);
   lines.push(
-    `Calcule le nombre de semaines entre la DATE DU JOUR et la date de course. Plafonne TOUJOURS à 16 semaines max (plan actif). Si la course est plus éloignée, indique dans meta.methodologie que le plan démarre 16 semaines avant la course. Si < 6 semaines, fais un plan court cohérent (affûtage rapide). Respecte strictement les règles physiologiques et la structure JSON du system prompt. N'invente jamais 2 séances intenses consécutives. Termine la dernière semaine à 40 % du volume normal. Sois concis : description de séance en 2-4 phrases, pas de roman. Réponds UNIQUEMENT par le JSON, sans aucun texte autour, sans fence de code.`,
+    `Calcule le nombre de semaines entre la DATE DU JOUR et la date de course. Plafonne TOUJOURS à 10 semaines max (plan actif). Si la course est plus éloignée, indique dans meta.methodologie que le plan démarre 10 semaines avant la course. Si < 6 semaines, fais un plan court cohérent (affûtage rapide). Respecte strictement les règles physiologiques et la structure JSON du system prompt. N'invente jamais 2 séances intenses consécutives. Termine la dernière semaine à 40 % du volume normal. Sois concis : description de séance en 1-2 phrases courtes, 40-80 mots max. Pas de verbiage. Réponds UNIQUEMENT par le JSON, sans aucun texte autour, sans fence de code.`,
   );
   return lines.join("\n");
 }
