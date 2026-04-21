@@ -680,7 +680,7 @@ function LoadingOverlay() {
           {LOADING_STEPS[stepIndex]}
         </p>
         <div className="text-sm text-slate-600 leading-relaxed">
-          La génération prend <strong>30 à 60 secondes</strong>.
+          La génération prend <strong>60 à 120 secondes</strong>.
           <br />
           <strong className="text-red-600">Ne ferme pas cette page</strong>, ton plan s&apos;affichera dès qu&apos;il est prêt.
         </div>

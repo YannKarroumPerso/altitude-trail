@@ -1,13 +1,11 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { SYSTEM_PROMPT, buildUserPrompt, PlanFormInput } from "@/lib/entrainement-prompt";
 
-// Vercel Hobby : fonctions serverless limitees a 60s.
-// Haiku 4.5 est 3-5x plus rapide que Sonnet pour ce type de prompt structure,
-// on rentre tranquillement dans la fenetre.
-export const maxDuration = 60;
+// Vercel Pro : max 300s pour les fonctions serverless, largement suffisant pour un plan complet.
+export const maxDuration = 300;
 export const runtime = "nodejs";
 
-const MODEL = process.env.ANTHROPIC_MODEL || "claude-haiku-4-5-20251001";
+const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 
 function extractJson(text: string): string {
   const trimmed = text.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
@@ -59,7 +57,7 @@ export async function POST(req: Request) {
   try {
     const stream = client.messages.stream({
       model: MODEL,
-      max_tokens: 16000,
+      max_tokens: 64000,
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: buildUserPrompt(input) }],
     });
