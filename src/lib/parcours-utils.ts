@@ -113,3 +113,39 @@ export const PARCOURS_DIFFICULTY_COLORS: Record<Parcours["difficulty"], string> 
   "Difficile": "#ea580c",
   "Extrême": "#dc2626",
 };
+
+// Centroïdes approximatifs des régions françaises — utilisés pour classer une
+// trace OSM par plus-proche-région (Euclidien en degrés, largement suffisant
+// à cette échelle). L'Outre-mer est absent volontairement : les traces
+// importées sont métropole + Corse.
+export const FR_REGION_CENTROIDS: { name: string; lat: number; lng: number }[] = [
+  { name: "Auvergne-Rhône-Alpes", lat: 45.70, lng: 5.00 },
+  { name: "Bourgogne-Franche-Comté", lat: 47.30, lng: 4.80 },
+  { name: "Bretagne", lat: 48.20, lng: -2.90 },
+  { name: "Centre-Val de Loire", lat: 47.50, lng: 1.60 },
+  { name: "Corse", lat: 42.20, lng: 9.10 },
+  { name: "Grand Est", lat: 48.70, lng: 5.30 },
+  { name: "Hauts-de-France", lat: 50.00, lng: 2.90 },
+  { name: "Île-de-France", lat: 48.70, lng: 2.50 },
+  { name: "Normandie", lat: 49.20, lng: 0.10 },
+  { name: "Nouvelle-Aquitaine", lat: 45.00, lng: 0.20 },
+  { name: "Occitanie", lat: 43.70, lng: 1.90 },
+  { name: "Pays de la Loire", lat: 47.60, lng: -0.70 },
+  { name: "Provence-Alpes-Côte d'Azur", lat: 44.00, lng: 6.10 },
+];
+
+export function classifyRegion(lat: number, lng: number): string {
+  let bestIdx = 0;
+  let bestDistSq = Infinity;
+  for (let i = 0; i < FR_REGION_CENTROIDS.length; i++) {
+    const c = FR_REGION_CENTROIDS[i];
+    const dLat = lat - c.lat;
+    const dLng = lng - c.lng;
+    const dSq = dLat * dLat + dLng * dLng;
+    if (dSq < bestDistSq) {
+      bestDistSq = dSq;
+      bestIdx = i;
+    }
+  }
+  return FR_REGION_CENTROIDS[bestIdx].name;
+}

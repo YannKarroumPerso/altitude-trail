@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import { Trace, Difficulty, TraceNetwork } from "@/types";
-import { PARCOURS_DIFFICULTY_COLORS, DISTANCE_BUCKETS, distanceBucket } from "@/lib/parcours-utils";
+import { PARCOURS_DIFFICULTY_COLORS, DISTANCE_BUCKETS, distanceBucket, classifyRegion, FR_REGION_CENTROIDS } from "@/lib/parcours-utils";
 
 const ParcoursMap = dynamic(() => import("./ParcoursMap"), {
   ssr: false,
@@ -39,6 +39,7 @@ const NETWORK_COLOR: Record<TraceNetwork, string> = {
 };
 
 export default function ParcoursClient({ traces }: { traces: Trace[] }) {
+  const [region, setRegion] = useState<string>("all");
   const [network, setNetwork] = useState<TraceNetwork | "all">("all");
   const [difficulty, setDifficulty] = useState<Difficulty | "all">("all");
   const [distance, setDistance] = useState<DistanceBucket>("all");
@@ -46,9 +47,18 @@ export default function ParcoursClient({ traces }: { traces: Trace[] }) {
   const [search, setSearch] = useState<string>("");
   const [page, setPage] = useState<number>(1);
 
+  // Classification région — effectuée une fois à l'hydratation puis memoïsée.
+  const tracesByRegion = useMemo(() => {
+    return traces.map((t) => ({
+      ...t,
+      _region: classifyRegion(t.centerLat, t.centerLng),
+    }));
+  }, [traces]);
+
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
-    return traces.filter((t) => {
+    return tracesByRegion.filter((t) => {
+      if (region !== "all" && t._region !== region) return false;
       if (network !== "all" && t.network !== network) return false;
       if (difficulty !== "all" && t.difficulty !== difficulty) return false;
       if (hasDistanceOnly && !t.distanceKm) return false;
@@ -62,13 +72,25 @@ export default function ParcoursClient({ traces }: { traces: Trace[] }) {
       }
       return true;
     });
-  }, [traces, network, difficulty, distance, hasDistanceOnly, search]);
+  }, [tracesByRegion, region, network, difficulty, distance, hasDistanceOnly, search]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const safePage = Math.min(page, totalPages);
   const pageItems = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
 
+  const regionCounts = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const t of tracesByRegion) {
+      m.set(t._region, (m.get(t._region) || 0) + 1);
+    }
+    return [...FR_REGION_CENTROIDS.map((r) => r.name)]
+      .filter((name) => (m.get(name) || 0) > 0)
+      .sort((a, b) => a.localeCompare(b))
+      .map((name) => ({ name, count: m.get(name) || 0 }));
+  }, [tracesByRegion]);
+
   const resetFilters = () => {
+    setRegion("all");
     setNetwork("all");
     setDifficulty("all");
     setDistance("all");
@@ -95,6 +117,19 @@ export default function ParcoursClient({ traces }: { traces: Trace[] }) {
               placeholder="Nom du sentier, référence (GR20, GR10…), opérateur"
               className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
             />
+          </label>
+          <label className="block md:col-span-2">
+            <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Région</span>
+            <select
+              value={region}
+              onChange={(e) => handleFilterChange(setRegion, e.target.value)}
+              className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+            >
+              <option value="all">Toutes les régions</option>
+              {regionCounts.map((r) => (
+                <option key={r.name} value={r.name}>{r.name} ({r.count.toLocaleString("fr-FR")})</option>
+              ))}
+            </select>
           </label>
           <label className="block">
             <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Balisage</span>
