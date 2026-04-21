@@ -1,19 +1,14 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { SYSTEM_PROMPT, buildUserPrompt, PlanFormInput } from "@/lib/entrainement-prompt";
 
-// Vercel Pro : max 300s pour les fonctions serverless, largement suffisant pour un plan complet.
+// Vercel Pro : 300s max, largement suffisant en streaming.
 export const maxDuration = 300;
 export const runtime = "nodejs";
 
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 
-function extractJson(text: string): string {
-  const trimmed = text.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
-  const start = trimmed.indexOf("{");
-  const end = trimmed.lastIndexOf("}");
-  if (start === -1 || end === -1 || end <= start) throw new Error("JSON introuvable dans la reponse");
-  return trimmed.slice(start, end + 1);
-}
+// Sentinelle reservee pour signaler une erreur en plein stream cote client.
+const ERROR_MARKER = "__STREAM_ERROR__";
 
 export async function POST(req: Request) {
   const apiKey =
@@ -22,7 +17,7 @@ export async function POST(req: Request) {
     process.env.ANTHROPIC;
   if (!apiKey || !apiKey.trim()) {
     return Response.json(
-      { error: "Cle API Anthropic manquante cote serveur. Verifier la variable ANTHROPIC_API_KEY (ou Anthropic) dans .env.local (dev) / Vercel Environment Variables (prod)." },
+      { error: "Cle API Anthropic manquante cote serveur." },
       { status: 500 },
     );
   }
@@ -45,7 +40,7 @@ export async function POST(req: Request) {
     return Response.json({ error: "Adresse email invalide" }, { status: 400 });
   }
   if (!input.consentRGPD) {
-    return Response.json({ error: "Consentement requis pour recevoir le plan" }, { status: 400 });
+    return Response.json({ error: "Consentement requis" }, { status: 400 });
   }
   console.log(
     "[plan-generateur] email collecte:", input.email.trim(),
@@ -53,40 +48,55 @@ export async function POST(req: Request) {
   );
 
   const client = new Anthropic({ apiKey });
+  const encoder = new TextEncoder();
   const t0 = Date.now();
-  try {
-    const stream = client.messages.stream({
-      model: MODEL,
-      max_tokens: 64000,
-      system: SYSTEM_PROMPT,
-      messages: [{ role: "user", content: buildUserPrompt(input) }],
-    });
-    const message = await stream.finalMessage();
-    const elapsedMs = Date.now() - t0;
-    const outTokens = message.usage?.output_tokens ?? 0;
-    console.log(
-      `[plan-generateur] Anthropic fini en ${elapsedMs}ms, ${outTokens} tokens out, modele=${MODEL}`,
-    );
 
-    if (message.stop_reason === "max_tokens") {
-      console.error("[plan-generateur] reponse tronquee (stop_reason=max_tokens)");
-      return Response.json(
-        { error: "Le plan est trop long pour tenir en une seule reponse. Reduis le nombre de seances max par semaine ou rapproche la date de course." },
-        { status: 500 },
-      );
-    }
+  const readable = new ReadableStream<Uint8Array>({
+    async start(controller) {
+      try {
+        const anthropicStream = client.messages.stream({
+          model: MODEL,
+          max_tokens: 64000,
+          system: SYSTEM_PROMPT,
+          messages: [{ role: "user", content: buildUserPrompt(input) }],
+        });
 
-    const raw = message.content
-      .filter((b) => b.type === "text")
-      .map((b) => (b as { type: "text"; text: string }).text)
-      .join("\n")
-      .trim();
-    const json = extractJson(raw);
-    const plan = JSON.parse(json);
-    return Response.json({ plan });
-  } catch (e: unknown) {
-    const errorMsg = e instanceof Error ? e.message : String(e);
-    console.error("[plan-generateur] erreur Anthropic:", errorMsg);
-    return Response.json({ error: "Erreur generation : " + errorMsg }, { status: 500 });
-  }
+        // Forward chaque chunk de texte au client au fur et a mesure.
+        anthropicStream.on("text", (text: string) => {
+          try {
+            controller.enqueue(encoder.encode(text));
+          } catch {
+            // Controller ferme cote client : on ignore.
+          }
+        });
+
+        const finalMessage = await anthropicStream.finalMessage();
+        const elapsed = Date.now() - t0;
+        const outTokens = finalMessage.usage?.output_tokens ?? 0;
+        console.log(
+          "[plan-generateur] stream fini en", elapsed + "ms,", outTokens, "tokens, modele=" + MODEL,
+        );
+
+        if (finalMessage.stop_reason === "max_tokens") {
+          controller.enqueue(encoder.encode(ERROR_MARKER + "Plan tronque (max_tokens atteint)"));
+        }
+        controller.close();
+      } catch (e: unknown) {
+        const msg = e instanceof Error ? e.message : String(e);
+        console.error("[plan-generateur] erreur stream:", msg);
+        try {
+          controller.enqueue(encoder.encode(ERROR_MARKER + msg));
+          controller.close();
+        } catch {}
+      }
+    },
+  });
+
+  return new Response(readable, {
+    headers: {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Cache-Control": "no-cache, no-transform",
+      "X-Accel-Buffering": "no",
+    },
+  });
 }

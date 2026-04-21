@@ -40,6 +40,11 @@ export default function PlanGenerator() {
   const [error, setError] = useState<string | null>(null);
   const [plan, setPlan] = useState<Plan | null>(null);
   const [openSeance, setOpenSeance] = useState<string | null>(null);
+  const [streamProgress, setStreamProgress] = useState<StreamProgress>({
+    phase: "init",
+    weeksDone: 0,
+    weeksTotal: 0,
+  });
 
   const totalDenivele = useMemo(
     () => plan?.semaines.reduce((sum, s) => sum + s.denivele_total, 0) ?? 0,
@@ -59,29 +64,42 @@ export default function PlanGenerator() {
     setLoading(true);
     setPlan(null);
     setOpenSeance(null);
+    setStreamProgress({ phase: "init", weeksDone: 0, weeksTotal: 0 });
     try {
       const res = await fetch("/api/plan-generateur", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
       });
-      const raw = await res.text();
-      let data: { plan?: Plan; error?: string } = {};
-      try {
-        data = raw ? JSON.parse(raw) : {};
-      } catch {
-        if (res.status === 504 || /timeout|gateway/i.test(raw)) {
-          throw new Error(
-            "Le serveur a mis trop de temps à répondre. Réessaie, ou réduis la durée de préparation.",
-          );
-        }
-        throw new Error(
-          `Réponse serveur invalide (HTTP ${res.status}). Réessaie dans un instant.`,
-        );
+
+      const contentType = res.headers.get("content-type") || "";
+      if (!res.ok && contentType.includes("application/json")) {
+        const errJson = await res.json().catch(() => ({}));
+        throw new Error(errJson.error || `HTTP ${res.status}`);
       }
-      if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
-      if (!data.plan) throw new Error("Réponse sans plan");
-      setPlan(data.plan as Plan);
+      if (!res.body) throw new Error("Reponse sans corps");
+
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+
+        const errIdx = buffer.indexOf("__STREAM_ERROR__");
+        if (errIdx >= 0) {
+          throw new Error(buffer.slice(errIdx + 16).trim() || "Erreur pendant la generation");
+        }
+        setStreamProgress(parseStreamProgress(buffer));
+      }
+
+      const clean = buffer.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
+      const startIdx = clean.indexOf("{");
+      const endIdx = clean.lastIndexOf("}");
+      if (startIdx === -1 || endIdx === -1) throw new Error("JSON introuvable");
+      const parsed = JSON.parse(clean.slice(startIdx, endIdx + 1)) as Plan;
+      setPlan(parsed);
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally {
@@ -91,7 +109,7 @@ export default function PlanGenerator() {
 
   return (
     <div className="space-y-10">
-      {loading && <LoadingOverlay />}
+      {loading && <LoadingOverlay progress={streamProgress} />}
       <form onSubmit={onSubmit} className="bg-surface-container p-6 space-y-6 no-print">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <label className="block md:col-span-2">
@@ -623,67 +641,122 @@ function computeSeanceDate(weekStart: Date | null, jour: string): Date | null {
   return d;
 }
 
-// --- Overlay d'attente pendant la generation ---
+// --- Overlay d'attente pendant la generation (streaming) ---
 
-const LOADING_STEPS = [
-  "Analyse de ton profil coureur",
-  "Calcul des phases de préparation",
-  "Équilibrage de la charge hebdomadaire",
-  "Intégration du dénivelé spécifique trail",
-  "Programmation des séances clés",
-  "Conseils nutrition et récupération",
-  "Finalisation de ton plan personnalisé",
-];
+interface StreamProgress {
+  phase: "init" | "meta" | "phases" | "weeks" | "conseils" | "done";
+  weeksDone: number;
+  weeksTotal: number;
+}
 
-function LoadingOverlay() {
-  const [stepIndex, setStepIndex] = useState(0);
+function parseStreamProgress(buffer: string): StreamProgress {
+  const totalMatch = buffer.match(/"semaines_total"\s*:\s*(\d+)/);
+  const weeksTotal = totalMatch ? parseInt(totalMatch[1], 10) : 0;
+  const weeksDone = (buffer.match(/"numero"\s*:\s*\d+/g) || []).length;
+
+  let phase: StreamProgress["phase"] = "init";
+  if (buffer.includes('"conseils_globaux"')) phase = "conseils";
+  else if (buffer.includes('"semaines"')) phase = "weeks";
+  else if (buffer.includes('"phases"')) phase = "phases";
+  else if (buffer.includes('"meta"')) phase = "meta";
+
+  return { phase, weeksDone, weeksTotal };
+}
+
+function LoadingOverlay({ progress }: { progress: StreamProgress }) {
   const [elapsed, setElapsed] = useState(0);
-
   useEffect(() => {
-    const stepInterval = setInterval(() => {
-      setStepIndex((i) => (i + 1) % LOADING_STEPS.length);
-    }, 4500);
-    const tickInterval = setInterval(() => {
-      setElapsed((e) => e + 1);
-    }, 1000);
-    return () => {
-      clearInterval(stepInterval);
-      clearInterval(tickInterval);
-    };
+    const tick = setInterval(() => setElapsed((e) => e + 1), 1000);
+    return () => clearInterval(tick);
   }, []);
-
   const mm = Math.floor(elapsed / 60).toString().padStart(2, "0");
   const ss = (elapsed % 60).toString().padStart(2, "0");
 
+  const steps: { key: StreamProgress["phase"]; label: string }[] = [
+    { key: "meta", label: "Analyse de ton profil" },
+    { key: "phases", label: "Structuration des phases" },
+    { key: "weeks", label: "Construction des semaines" },
+    { key: "conseils", label: "Conseils nutrition & recuperation" },
+  ];
+  const order: StreamProgress["phase"][] = ["init", "meta", "phases", "weeks", "conseils", "done"];
+  const currentIndex = order.indexOf(progress.phase);
+
+  const weeksPct =
+    progress.weeksTotal > 0
+      ? Math.min(100, Math.round((progress.weeksDone / progress.weeksTotal) * 100))
+      : 0;
+
   return (
     <div className="no-print fixed inset-0 z-[100] bg-navy/95 backdrop-blur-sm flex items-center justify-center p-6">
-      <div className="max-w-lg w-full bg-white p-8 md:p-12 text-center shadow-2xl">
-        <div className="mb-6">
-          <svg
-            className="mx-auto animate-spin h-14 w-14 text-primary"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
-            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3" />
-            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z" />
-          </svg>
+      <div className="max-w-lg w-full bg-white p-8 md:p-10 shadow-2xl">
+        <div className="flex items-center justify-between mb-6">
+          <span className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500">
+            Generation en direct
+          </span>
+          <span className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 tabular-nums">
+            {mm}:{ss}
+          </span>
         </div>
-        <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-2">
-          Génération en cours — {mm}:{ss}
-        </div>
-        <h3 className="font-headline text-2xl md:text-3xl font-black tracking-tight leading-tight mb-4">
-          Nous construisons ton plan personnalisé
+
+        <h3 className="font-headline text-2xl md:text-3xl font-black tracking-tight leading-tight mb-6">
+          Nous construisons ton plan personnalise
         </h3>
-        <p key={stepIndex} className="text-primary font-headline font-bold text-sm uppercase tracking-widest animate-pulse mb-6">
-          {LOADING_STEPS[stepIndex]}
-        </p>
-        <div className="text-sm text-slate-600 leading-relaxed">
-          La génération prend <strong>60 à 120 secondes</strong>.
+
+        <ul className="space-y-2 mb-6">
+          {steps.map((step, i) => {
+            const stepOrderIdx = order.indexOf(step.key);
+            const done = currentIndex > stepOrderIdx;
+            const active = currentIndex === stepOrderIdx;
+            return (
+              <li key={step.key} className="flex items-center gap-3">
+                <span
+                  className={`shrink-0 w-5 h-5 flex items-center justify-center text-[11px] font-black ${
+                    done
+                      ? "bg-primary text-white"
+                      : active
+                      ? "bg-white border-2 border-primary text-primary"
+                      : "bg-slate-100 text-slate-400"
+                  }`}
+                >
+                  {done ? "✓" : i + 1}
+                </span>
+                <span
+                  className={`text-sm ${
+                    active
+                      ? "text-navy font-headline font-bold"
+                      : done
+                      ? "text-slate-500 line-through"
+                      : "text-slate-400"
+                  }`}
+                >
+                  {step.label}
+                  {step.key === "weeks" && active && progress.weeksTotal > 0 && (
+                    <span className="ml-2 text-primary">
+                      {progress.weeksDone}/{progress.weeksTotal}
+                    </span>
+                  )}
+                </span>
+              </li>
+            );
+          })}
+        </ul>
+
+        {progress.phase === "weeks" && progress.weeksTotal > 0 && (
+          <div className="mb-6">
+            <div className="h-2 bg-slate-100 overflow-hidden">
+              <div
+                className="h-full bg-primary transition-all duration-300"
+                style={{ width: `${weeksPct}%` }}
+              />
+            </div>
+          </div>
+        )}
+
+        <p className="text-[13px] text-slate-600 leading-relaxed">
+          Ton plan se construit en direct, <strong>semaine par semaine</strong>.
           <br />
-          <strong className="text-red-600">Ne ferme pas cette page</strong>, ton plan s&apos;affichera dès qu&apos;il est prêt.
-        </div>
+          <strong className="text-red-600">Ne ferme pas cette page</strong>, tu vas voir ton plan apparaitre.
+        </p>
       </div>
     </div>
   );
