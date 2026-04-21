@@ -13,6 +13,7 @@ import {
   absoluteUrl,
   articleUrl,
   buildNewsArticleJsonLd,
+  parseFrDate,
 } from "@/lib/seo";
 
 function slugifyHeading(text: string): string {
@@ -135,7 +136,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       siteName: SITE_NAME,
       locale: "fr_FR",
       images: [{ url: ogImage, width: 1200, height: 630, alt: article.title }],
-      publishedTime: article.date,
+      publishedTime: parseFrDate(article.date).toISOString(),
+      modifiedTime: parseFrDate(article.date).toISOString(),
       authors: [article.author],
       tags: article.tags,
       section: article.category,
