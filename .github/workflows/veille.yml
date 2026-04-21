@@ -2,7 +2,12 @@ name: Veille quotidienne
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    # Horaires calés sur l'heure d'été (CEST, UTC+2). En heure d'hiver (CET,
+    # UTC+1) ils se décalent d'une heure plus tôt. Si tu veux garder un timing
+    # strict toute l'année, ajuste manuellement aux changements d'heure.
+    - cron: "0 4 * * *"   # 06:00 Europe/Paris (CEST)
+    - cron: "30 9 * * *"  # 11:30 Europe/Paris (CEST)
+    - cron: "0 16 * * *"  # 18:00 Europe/Paris (CEST)
   workflow_dispatch:
 
 concurrency:
