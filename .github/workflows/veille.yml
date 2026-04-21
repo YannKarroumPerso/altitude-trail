@@ -9,6 +9,11 @@ on:
     - cron: "30 9 * * *"  # 11:30 Europe/Paris (CEST)
     - cron: "0 16 * * *"  # 18:00 Europe/Paris (CEST)
   workflow_dispatch:
+  # Sentinel : touche et pousse `.github/triggers/veille.txt` pour déclencher
+  # un run hors planning sans passer par l'UI GitHub ni par un PAT.
+  push:
+    paths:
+      - ".github/triggers/veille.txt"
 
 concurrency:
   group: veille

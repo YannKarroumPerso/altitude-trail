@@ -1,0 +1,4 @@
+Touche ce fichier (modifie une ligne, ajoute un timestamp) et pousse sur main
+pour déclencher une exécution hors planning du workflow Veille quotidienne.
+
+last-triggered: 2026-04-21T10:05Z (test initial après activation des secrets)
