@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "21 avril 2026"
 readTime: "5 min"
-image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
+image: "/articles/ecologie-de-facade-lampe-rouge-utmb-v3-hero.jpg"
 tags: ["UTMB", "écologie", "réglementation", "faune sauvage", "matériel"]
 sourceUrl: "https://www2.u-trail.com/ecologie-de-facade-lutmb-rend-obligatoire-lutilisation-du-mode-lumiere-rouge-sur-les-lampes-frontales/"
 imagePrompt1: "A trail runner ascending a steep rocky dirt singletrack at night in summer, headlamp switched to red light mode casting a warm crimson glow on the path and nearby ferns, dense green forest at the edge of the beam, wearing running shorts, trail running shoes, hydration vest, sweat on face, no snow, no skis, no winter gear"
@@ -22,7 +22,7 @@ Une consigne de matériel qui tient en deux mots — « mode rouge » — et qui
 
 Le principe est simple. La lumière blanche intense des frontales modernes perturbe les animaux nocturnes — insectes, chiroptères, petits mammifères, rapaces nocturnes — dont la vision et les comportements sont calibrés pour l'obscurité. Le spectre rouge, moins énergétique, reste largement invisible pour une grande partie de la faune sauvage. L'argumentaire scientifique est connu des astronomes amateurs depuis des décennies ; il arrive aujourd'hui sur les sentiers.
 
-![A line of trail runners ascending a narrow alpine path at night near Chamonix, headlamps switched to red light mode cast](/articles/ecologie-de-facade-l-utmb-rend-obligatoire-l-utilisation-du-mode-lumiere-rouge-s-1.jpg)
+![Trail runner ascending a rocky dirt singletrack at night, headlamp in red mode casting crimson glow, summer forest](/articles/ecologie-de-facade-lampe-rouge-utmb-v3-1.jpg)
 
 Sur le papier, c'est donc une bonne idée. u-Trail ne conteste pas le principe. Le média questionne l'échelle : une frontale rouge change-t-elle quoi que ce soit quand plusieurs milliers de coureurs traversent la nuit des vallées entre France, Italie et Suisse, suivis d'un cortège logistique, médiatique et familial ? La question est moins celle de la lampe que celle de la cohérence.
 
@@ -40,7 +40,7 @@ L'UTMB n'invente rien. Hardrock impose depuis longtemps des règles strictes de 
 
 L'UTMB, lui, a bâti son modèle sur la croissance. Expansion mondiale du circuit UTMB World Series, multiplication des épreuves satellites, billetterie à entrées quasi illimitées via le système de pierres, partenariat global avec Ironman. Le format a changé de nature depuis la création de la course en 2003. Demander à ses coureurs de basculer en mode rouge relève d'une logique complémentaire, pas d'un arbitrage structurel.
 
-![Close-up of a modern running headlamp on a granite rock at dusk in the French Alps, red LED illuminated, technical trail](/articles/ecologie-de-facade-l-utmb-rend-obligatoire-l-utilisation-du-mode-lumiere-rouge-s-2.jpg)
+![Close-up of a trail runner's forehead headlamp in red LED mode at dusk in a summer forest](/articles/ecologie-de-facade-lampe-rouge-utmb-v3-2.jpg)
 
 C'est là que u-Trail touche juste. Une mesure de matériel n'interroge pas le modèle ; elle le peint.
 
