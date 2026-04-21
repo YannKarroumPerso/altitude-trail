@@ -1,47 +1,71 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { SYSTEM_PROMPT, buildUserPrompt, PlanFormInput } from "@/lib/entrainement-prompt";
 
-// Plan long, on autorise un timeout long sur Vercel (Pro = 300s).
 export const maxDuration = 300;
 export const runtime = "nodejs";
 
-const MODEL = process.env.ANTHROPIC_MODEL || "claude-opus-4-7";
+const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 
 function extractJson(text: string): string {
   const trimmed = text.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
   const start = trimmed.indexOf("{");
   const end = trimmed.lastIndexOf("}");
-  if (start === -1 || end === -1 || end <= start) throw new Error("JSON introuvable dans la réponse");
+  if (start === -1 || end === -1 || end <= start) throw new Error("JSON introuvable dans la reponse");
   return trimmed.slice(start, end + 1);
 }
 
 export async function POST(req: Request) {
-  if (!process.env.ANTHROPIC_API_KEY) {
-    return Response.json({ error: "ANTHROPIC_API_KEY manquante côté serveur" }, { status: 500 });
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey || !apiKey.trim()) {
+    return Response.json(
+      { error: "ANTHROPIC_API_KEY manquante cote serveur. Verifier .env.local (dev) ou les variables Vercel (prod), puis redemarrer." },
+      { status: 500 },
+    );
   }
+
   let input: PlanFormInput;
   try {
     input = (await req.json()) as PlanFormInput;
   } catch {
     return Response.json({ error: "Body JSON invalide" }, { status: 400 });
   }
-  // Validations minimales
   if (!input.courseName || !input.courseDate || !input.courseDistance || !input.courseDenivele) {
     return Response.json({ error: "Champs course manquants" }, { status: 400 });
   }
   if (!input.niveau || !input.volumeActuelKm || !input.seancesMaxParSemaine || !input.objectifPrincipal) {
     return Response.json({ error: "Profil coureur incomplet" }, { status: 400 });
   }
+  const emailOk =
+    typeof input.email === "string" && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.email.trim());
+  if (!emailOk) {
+    return Response.json({ error: "Adresse email invalide" }, { status: 400 });
+  }
+  if (!input.consentRGPD) {
+    return Response.json({ error: "Consentement requis pour recevoir le plan" }, { status: 400 });
+  }
+  console.log(
+    "[plan-generateur] email collecte:", input.email.trim(),
+    "- course:", input.courseName, "(" + input.courseDate + ")",
+  );
 
-  const client = new Anthropic();
+  const client = new Anthropic({ apiKey });
   try {
     const stream = client.messages.stream({
       model: MODEL,
-      max_tokens: 32000,
+      max_tokens: 64000,
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: buildUserPrompt(input) }],
     });
     const message = await stream.finalMessage();
+
+    if (message.stop_reason === "max_tokens") {
+      console.error("[plan-generateur] reponse tronquee (stop_reason=max_tokens)");
+      return Response.json(
+        { error: "Le plan est trop long pour tenir en une seule reponse. Reduis le nombre de seances max par semaine ou rapproche la date de course." },
+        { status: 500 },
+      );
+    }
+
     const raw = message.content
       .filter((b) => b.type === "text")
       .map((b) => (b as { type: "text"; text: string }).text)
@@ -51,7 +75,8 @@ export async function POST(req: Request) {
     const plan = JSON.parse(json);
     return Response.json({ plan });
   } catch (e: unknown) {
-    const message = e instanceof Error ? e.message : String(e);
-    return Response.json({ error: `Erreur génération : ${message}` }, { status: 500 });
+    const errorMsg = e instanceof Error ? e.message : String(e);
+    console.error("[plan-generateur] erreur Anthropic:", errorMsg);
+    return Response.json({ error: "Erreur generation : " + errorMsg }, { status: 500 });
   }
 }

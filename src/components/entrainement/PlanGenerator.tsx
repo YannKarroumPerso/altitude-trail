@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import ChargeChartLoader from "./ChargeChartLoader";
 import { Plan, Seance, SEANCE_COLORS } from "@/types/plan";
 import { PlanFormInput } from "@/lib/entrainement-prompt";
@@ -33,6 +33,8 @@ export default function PlanGenerator() {
     seancesMaxParSemaine: 5,
     objectifPrincipal: "finir",
     blessuresRecurrentes: "",
+    email: "",
+    consentRGPD: false,
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -76,7 +78,8 @@ export default function PlanGenerator() {
 
   return (
     <div className="space-y-10">
-      <form onSubmit={onSubmit} className="bg-surface-container p-6 space-y-6">
+      {loading && <LoadingOverlay />}
+      <form onSubmit={onSubmit} className="bg-surface-container p-6 space-y-6 no-print">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <label className="block md:col-span-2">
             <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Nom de la course cible</span>
@@ -182,6 +185,35 @@ export default function PlanGenerator() {
               className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary resize-none"
             />
           </label>
+          <label className="block md:col-span-2">
+            <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">Adresse email</span>
+            <input
+              type="email"
+              value={form.email}
+              onChange={(e) => update("email", e.target.value)}
+              placeholder="ton@email.fr"
+              required
+              autoComplete="email"
+              className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+            />
+            <span className="block text-[11px] text-slate-500 mt-1">
+              Nécessaire pour t&apos;envoyer ton plan. On ne te spammera pas.
+            </span>
+          </label>
+          <label className="flex items-start gap-2 md:col-span-2 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={form.consentRGPD}
+              onChange={(e) => update("consentRGPD", e.target.checked)}
+              required
+              className="mt-0.5 accent-primary"
+            />
+            <span className="text-xs text-slate-600 leading-snug">
+              J&apos;accepte que mon email soit utilisé par Altitude Trail pour me transmettre
+              mon plan et m&apos;envoyer des conseils d&apos;entraînement. Je peux me désabonner
+              à tout moment.
+            </span>
+          </label>
         </div>
         <div className="flex items-center gap-3">
           <button
@@ -191,11 +223,6 @@ export default function PlanGenerator() {
           >
             {loading ? "Génération en cours…" : "Générer mon plan"}
           </button>
-          {loading && (
-            <span className="text-xs text-slate-500 uppercase tracking-wide">
-              Claude calcule ton plan — 30 à 90 secondes selon la durée de préparation
-            </span>
-          )}
         </div>
         {error && (
           <div className="border-l-4 border-red-600 bg-red-50 p-4 text-sm text-red-800">
@@ -230,8 +257,36 @@ function PlanDisplay({
   openSeance: string | null;
   onOpen: (id: string | null) => void;
 }) {
+  const planStart = useMemo(() => getPlanStartDate(plan), [plan]);
+  const raceDateLabel = useMemo(() => {
+    if (!plan.meta.date_course) return "";
+    const d = new Date(plan.meta.date_course + "T00:00:00");
+    return isNaN(d.getTime())
+      ? plan.meta.date_course
+      : d.toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
+  }, [plan]);
+
   return (
-    <div className="space-y-10">
+    <div id="plan-export" className="space-y-10">
+      <div className="flex flex-wrap items-end justify-between gap-4 border-b-2 border-navy pb-4">
+        <div>
+          <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500">Plan généré</div>
+          <h2 className="font-headline text-3xl md:text-4xl font-black tracking-tight leading-tight">
+            {plan.meta.course || "Plan d'entraînement"}
+          </h2>
+          {raceDateLabel && (
+            <div className="text-sm text-slate-600 mt-1">Course le {raceDateLabel}</div>
+          )}
+        </div>
+        <button
+          type="button"
+          onClick={() => window.print()}
+          className="no-print bg-navy text-white font-headline font-black text-xs uppercase tracking-widest py-3 px-6 hover:opacity-80 transition-opacity"
+        >
+          Exporter en PDF
+        </button>
+      </div>
+
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <Stat label="Semaines" value={plan.meta.semaines_total} />
         <Stat label="Volume total" value={`${Math.round(totalKm)} km`} />
@@ -274,6 +329,7 @@ function PlanDisplay({
             <SemaineBlock
               key={semaine.numero}
               semaine={semaine}
+              planStart={planStart}
               openSeance={openSeance}
               onOpen={onOpen}
             />
@@ -332,18 +388,39 @@ function ConseilBox({ title, text }: { title: string; text: string }) {
 
 function SemaineBlock({
   semaine,
+  planStart,
   openSeance,
   onOpen,
 }: {
   semaine: import("@/types/plan").Semaine;
+  planStart: Date | null;
   openSeance: string | null;
   onOpen: (id: string | null) => void;
 }) {
+  const weekStart = useMemo(() => {
+    if (!planStart) return null;
+    const d = new Date(planStart);
+    d.setDate(planStart.getDate() + (semaine.numero - 1) * 7);
+    return d;
+  }, [planStart, semaine.numero]);
+
+  const weekRangeLabel = useMemo(() => {
+    if (!weekStart) return "";
+    const end = new Date(weekStart);
+    end.setDate(weekStart.getDate() + 6);
+    const f = (d: Date) =>
+      d.toLocaleDateString("fr-FR", { day: "numeric", month: "short" });
+    return `${f(weekStart)} – ${f(end)}`;
+  }, [weekStart]);
+
   return (
-    <div className="bg-white border border-surface-container">
+    <div className="bg-white border border-surface-container break-inside-avoid">
       <div className="flex flex-wrap items-center justify-between gap-4 p-5 border-b border-surface-container">
         <div>
-          <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500">Semaine {semaine.numero} · {semaine.phase}</div>
+          <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500">
+            Semaine {semaine.numero} · {semaine.phase}
+            {weekRangeLabel && <span className="ml-2 text-slate-400">({weekRangeLabel})</span>}
+          </div>
           <div className="font-headline font-black text-xl leading-tight">{semaine.theme}</div>
         </div>
         <div className="flex gap-4 text-sm font-headline font-bold">
@@ -364,11 +441,13 @@ function SemaineBlock({
         {semaine.seances.map((seance, i) => {
           const id = `s${semaine.numero}-j${i}`;
           const isOpen = openSeance === id;
+          const seanceDate = computeSeanceDate(weekStart, seance.jour);
           return (
             <SeanceRow
               key={id}
               id={id}
               seance={seance}
+              seanceDate={seanceDate}
               isOpen={isOpen}
               onToggle={() => onOpen(isOpen ? null : id)}
             />
@@ -392,15 +471,20 @@ function MiniConseil({ label, text }: { label: string; text: string }) {
 function SeanceRow({
   id,
   seance,
+  seanceDate,
   isOpen,
   onToggle,
 }: {
   id: string;
   seance: Seance;
+  seanceDate: Date | null;
   isOpen: boolean;
   onToggle: () => void;
 }) {
   const color = SEANCE_COLORS[seance.type] || SEANCE_COLORS.REPOS;
+  const dateLabel = seanceDate
+    ? seanceDate.toLocaleDateString("fr-FR", { day: "2-digit", month: "short" })
+    : "";
   return (
     <div>
       <button
@@ -416,8 +500,9 @@ function SeanceRow({
         >
           {seance.type}
         </div>
-        <div className="shrink-0 w-16 text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500">
-          {seance.jour}
+        <div className="shrink-0 w-24 text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500">
+          <div>{seance.jour}</div>
+          {dateLabel && <div className="text-slate-400 normal-case tracking-normal text-[11px] font-normal">{dateLabel}</div>}
         </div>
         <div className="flex-1 min-w-0">
           <div className="font-headline font-bold text-base truncate">{seance.titre}</div>
@@ -446,7 +531,7 @@ function SeanceRow({
           {seance.echauffement && <DetailBlock label="Échauffement" text={seance.echauffement} />}
           {seance.corps_seance && <DetailBlock label="Corps de séance" text={seance.corps_seance} />}
           {seance.retour_calme && <DetailBlock label="Retour au calme" text={seance.retour_calme} />}
-          {seance.exercices_renforcement?.length > 0 && (
+          {seance.exercices_renforcement && seance.exercices_renforcement.length > 0 && (
             <div>
               <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-2">Exercices de renforcement</div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -468,7 +553,7 @@ function SeanceRow({
               </div>
             </div>
           )}
-          {seance.materiel?.length > 0 && (
+          {seance.materiel && seance.materiel.length > 0 && (
             <div className="text-xs">
               <span className="font-headline font-bold uppercase tracking-wider text-slate-500">Matériel : </span>
               {seance.materiel.join(", ")}
@@ -488,6 +573,105 @@ function DetailBlock({ label, text }: { label: string; text: string }) {
     <div>
       <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-1">{label}</div>
       <p className="text-sm leading-relaxed text-slate-700">{text}</p>
+    </div>
+  );
+}
+
+// --- Helpers date ---
+
+const FRENCH_DAY_TO_OFFSET: Record<string, number> = {
+  lundi: 0,
+  mardi: 1,
+  mercredi: 2,
+  jeudi: 3,
+  vendredi: 4,
+  samedi: 5,
+  dimanche: 6,
+};
+
+function getPlanStartDate(plan: Plan): Date | null {
+  if (!plan.meta.date_course || !plan.meta.semaines_total) return null;
+  const race = new Date(plan.meta.date_course + "T00:00:00");
+  if (isNaN(race.getTime())) return null;
+  const offsetFromMonday = (race.getDay() + 6) % 7;
+  const raceWeekMonday = new Date(race);
+  raceWeekMonday.setDate(race.getDate() - offsetFromMonday);
+  const start = new Date(raceWeekMonday);
+  start.setDate(raceWeekMonday.getDate() - (plan.meta.semaines_total - 1) * 7);
+  return start;
+}
+
+function computeSeanceDate(weekStart: Date | null, jour: string): Date | null {
+  if (!weekStart) return null;
+  const offset = FRENCH_DAY_TO_OFFSET[(jour || "").toLowerCase().trim()];
+  if (offset === undefined) return null;
+  const d = new Date(weekStart);
+  d.setDate(weekStart.getDate() + offset);
+  return d;
+}
+
+// --- Overlay d'attente pendant la generation ---
+
+const LOADING_STEPS = [
+  "Analyse de ton profil coureur",
+  "Calcul des phases de preparation",
+  "Equilibrage de la charge hebdomadaire",
+  "Integration du denivele specifique trail",
+  "Programmation des seances cles",
+  "Conseils nutrition et recuperation",
+  "Finalisation de ton plan personnalise",
+];
+
+function LoadingOverlay() {
+  const [stepIndex, setStepIndex] = useState(0);
+  const [elapsed, setElapsed] = useState(0);
+
+  useEffect(() => {
+    const stepInterval = setInterval(() => {
+      setStepIndex((i) => (i + 1) % LOADING_STEPS.length);
+    }, 4500);
+    const tickInterval = setInterval(() => {
+      setElapsed((e) => e + 1);
+    }, 1000);
+    return () => {
+      clearInterval(stepInterval);
+      clearInterval(tickInterval);
+    };
+  }, []);
+
+  const mm = Math.floor(elapsed / 60).toString().padStart(2, "0");
+  const ss = (elapsed % 60).toString().padStart(2, "0");
+
+  return (
+    <div className="no-print fixed inset-0 z-[100] bg-navy/95 backdrop-blur-sm flex items-center justify-center p-6">
+      <div className="max-w-lg w-full bg-white p-8 md:p-12 text-center shadow-2xl">
+        <div className="mb-6">
+          <svg
+            className="mx-auto animate-spin h-14 w-14 text-primary"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3" />
+            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z" />
+          </svg>
+        </div>
+        <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-2">
+          Generation en cours - {mm}:{ss}
+        </div>
+        <h3 className="font-headline text-2xl md:text-3xl font-black tracking-tight leading-tight mb-4">
+          Claude construit ton plan
+        </h3>
+        <p key={stepIndex} className="text-primary font-headline font-bold text-sm uppercase tracking-widest animate-pulse mb-6">
+          {LOADING_STEPS[stepIndex]}
+        </p>
+        <div className="text-sm text-slate-600 leading-relaxed">
+          La generation prend <strong>60 a 90 secondes</strong>.
+          <br />
+          <strong className="text-red-600">Ne ferme pas cette page</strong>, ton plan s&apos;affichera des qu&apos;il est pret.
+        </div>
+      </div>
     </div>
   );
 }

@@ -33,7 +33,8 @@ RÈGLES PHYSIOLOGIQUES OBLIGATOIRES :
 - Renforcement : arrêt 10 jours avant la course
 - Entraînement croisé : privilégier en semaine de récupération
 
-STRUCTURE JSON STRICTE à générer (aucun champ en moins, aucun texte en dehors) :
+STRUCTURE JSON STRICTE à générer. CONTRAINTE TAILLE : le JSON complet doit rester sous 50 000 caractères. Plan plafonné à 16 semaines maximum. Sois concis et précis, pas verbeux.
+
 {
   "meta": {
     "course": "nom de la course",
@@ -42,62 +43,58 @@ STRUCTURE JSON STRICTE à générer (aucun champ en moins, aucun texte en dehors
     "volume_depart_km": 35,
     "volume_pic_km": 75,
     "charge_totale_heures": 140,
-    "methodologie": "description courte de l'approche (Lydiard pur / polarisé 80-20 / bloc 3+1)"
+    "methodologie": "1-2 phrases sur l'approche retenue (Lydiard pur / polarisé 80-20 / bloc 3+1)"
   },
   "phases": [
     {
       "nom": "Fondation",
       "semaines": [1, 2, 3, 4],
-      "objectif": "construire la base aérobie",
-      "focus": "endurance fondamentale, renforcement général, technique de base"
+      "objectif": "1 phrase courte",
+      "focus": "3-5 mots-clés séparés par virgule"
     }
   ],
   "semaines": [
     {
       "numero": 1,
       "phase": "Fondation",
-      "theme": "Construction aérobie",
+      "theme": "2-4 mots",
       "volume_km": 45,
       "volume_heures": 5.5,
       "denivele_total": 800,
       "charge_relative": 65,
-      "conseils_semaine": "cadence libre, pas d'intensité",
-      "nutrition_conseil": "privilégier les glucides complexes, hydratation régulière",
-      "recuperation_conseil": "7-8 h de sommeil minimum, étirements quotidiens 10 min",
+      "conseils_semaine": "1 phrase",
+      "nutrition_conseil": "1 phrase",
+      "recuperation_conseil": "1 phrase",
       "seances": [
         {
           "jour": "Lundi",
           "type": "REPOS",
           "categorie": "recuperation",
-          "titre": "Repos actif",
+          "titre": "titre court (3-6 mots)",
           "duree_min": 0,
           "distance_km": 0,
           "denivele": 0,
           "rpe_cible": 1,
           "zones_cardio": [],
-          "description": "Journée de récupération complète",
-          "echauffement": "",
-          "corps_seance": "",
-          "retour_calme": "",
-          "exercices_renforcement": [],
-          "materiel": [],
-          "conseils_techniques": ""
+          "description": "2-4 phrases : structure de la séance, allure cible, intention. Inclure échauffement et retour au calme INTÉGRÉS dans la description pour les séances d'intensité."
         }
       ]
     }
   ],
   "conseils_globaux": {
-    "materiels_recommandes": ["Chaussures trail polyvalentes", "Sac hydratation 5L", "Bâtons"],
-    "alimentation_generale": "Privilégier céréales complètes, poissons gras, fruits et légumes de saison. 3-4 g de glucides/kg/j sur les semaines chargées.",
-    "sommeil": "Viser 7-9 h par nuit, siestes courtes autorisées les semaines lourdes",
-    "signaux_alarme": [
-      "Douleur tendon d'Achille qui persiste > 48 h → réduire volume 50 %",
-      "FC de repos > 10 bpm au-dessus de l'habituel → jour de repos supplémentaire",
-      "Perte d'appétit ou sommeil dégradé > 3 nuits → semaine de décharge"
-    ],
-    "ajustements_possibles": "Si blessure mineure, basculer la séance trail sur vélo ou rameur. Décaler la sortie longue dans la semaine sans jamais en empiler deux sur 48 h."
+    "materiels_recommandes": ["4 à 6 items max"],
+    "alimentation_generale": "3-4 phrases sur les piliers nutritionnels.",
+    "sommeil": "2 phrases",
+    "signaux_alarme": ["3 à 5 signaux avec l'action associée, chaque item en 1 phrase"],
+    "ajustements_possibles": "3-4 phrases sur les adaptations possibles."
   }
 }
+
+CHAMPS OPTIONNELS sur une séance (à N'INCLURE QUE si vraiment pertinent, sinon les OMETTRE) :
+- "exercices_renforcement" : uniquement sur les vraies séances de renforcement (type="RENFORCEMENT"). Liste de 4 à 6 exercices max, chaque item {nom, series, repetitions, repos_sec, description (1 phrase), muscle_cible}.
+- "materiel" : uniquement si matériel spécifique requis (bâtons, GPS, home trainer…). 1 à 3 items.
+- "conseils_techniques" : uniquement pour TRAIL / SL / VMA avec une vraie technique à expliquer. 1-2 phrases.
+- "echauffement", "corps_seance", "retour_calme" : N'UTILISE PAS CES CHAMPS, tout doit tenir dans "description".
 
 CATÉGORIES / TYPES de séance (utilise ces labels exacts, le code couleur UI s'y base) :
 - type="REPOS", categorie="recuperation"
@@ -128,7 +125,12 @@ CONTRÔLES QUALITÉ à vérifier MENTALEMENT avant d'émettre le JSON :
 6. La somme des volume_km sur toutes les semaines est cohérente avec charge_totale_heures (moyenne 8-10 km/h tout terrain).
 7. Le ratio (séances EF + SL) / (séances VMA + TEMPO) est >= 4 sur l'ensemble du plan (80/20).
 
-Si un contrôle échoue, refais le calcul avant d'émettre. Le JSON ne doit jamais contenir null — utilise "", 0 ou [] selon le type.
+Si un contrôle échoue, refais le calcul avant d'émettre. Le JSON ne doit jamais contenir null — OMETS simplement les champs optionnels non pertinents plutôt que de mettre "" ou [] partout. Pour les champs obligatoires numériques, utilise 0 si non applicable.
+
+CONTRAINTE DE LONGUEUR (impérative) :
+- JSON total < 50 000 caractères.
+- Plan plafonné à 16 semaines max (même si la course est plus éloignée, démarre le plan 16 semaines avant).
+- Pas de prose verbeuse : sois direct et technique.
 
 RÉPONSE ATTENDUE : le JSON brut, strictement conforme au schéma, rien d'autre.`;
 
@@ -142,11 +144,16 @@ export interface PlanFormInput {
   seancesMaxParSemaine: number;
   objectifPrincipal: "finir" | "performance" | "podium" | "qualif-utmb";
   blessuresRecurrentes?: string;
+  email: string;
+  consentRGPD: boolean;
 }
 
-export function buildUserPrompt(input: PlanFormInput): string {
+export function buildUserPrompt(input: PlanFormInput, today?: string): string {
+  const todayStr = today || new Date().toISOString().slice(0, 10);
   const lines = [
     `Génère un plan d'entraînement complet pour ce coureur.`,
+    ``,
+    `DATE DU JOUR (utilise-la pour calculer le nombre de semaines jusqu'à la course) : ${todayStr}`,
     ``,
     `COURSE CIBLE`,
     `- Nom : ${input.courseName}`,
@@ -165,7 +172,7 @@ export function buildUserPrompt(input: PlanFormInput): string {
   }
   lines.push(``);
   lines.push(
-    `Calcule le nombre de semaines entre aujourd'hui et la date de course. Respecte strictement les règles physiologiques et la structure JSON du system prompt. N'invente jamais 2 séances intenses consécutives. Termine la dernière semaine à 40 % du volume normal. Réponds UNIQUEMENT par le JSON, sans aucun texte autour, sans fence de code.`,
+    `Calcule le nombre de semaines entre la DATE DU JOUR et la date de course. Plafonne TOUJOURS à 16 semaines max (plan actif). Si la course est plus éloignée, indique dans meta.methodologie que le plan démarre 16 semaines avant la course. Si < 6 semaines, fais un plan court cohérent (affûtage rapide). Respecte strictement les règles physiologiques et la structure JSON du system prompt. N'invente jamais 2 séances intenses consécutives. Termine la dernière semaine à 40 % du volume normal. Sois concis : description de séance en 2-4 phrases, pas de roman. Réponds UNIQUEMENT par le JSON, sans aucun texte autour, sans fence de code.`,
   );
   return lines.join("\n");
 }

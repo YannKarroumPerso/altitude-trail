@@ -42,12 +42,14 @@ export interface Seance {
   rpe_cible: number;
   zones_cardio: string[];
   description: string;
-  echauffement: string;
-  corps_seance: string;
-  retour_calme: string;
-  exercices_renforcement: Exercice[];
-  materiel: string[];
-  conseils_techniques: string;
+  // Champs optionnels : remplis uniquement pour les séances-clés (intensité, renforcement)
+  // afin de garder le JSON compact et la génération rapide.
+  echauffement?: string;
+  corps_seance?: string;
+  retour_calme?: string;
+  exercices_renforcement?: Exercice[];
+  materiel?: string[];
+  conseils_techniques?: string;
 }
 
 export interface Semaine {

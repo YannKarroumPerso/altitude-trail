@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="8" fill="#0b1c30"/>
+  <!-- Pic de montagne stylisé -->
+  <path d="M8 50 L22 22 L32 36 L42 16 L56 50 Z" fill="#ff4500"/>
+  <path d="M22 22 L32 36 L26 36 Z" fill="#ffffff" opacity="0.25"/>
+  <!-- Ligne de base -->
+  <rect x="6" y="52" width="52" height="3" fill="#ff4500"/>
+</svg>

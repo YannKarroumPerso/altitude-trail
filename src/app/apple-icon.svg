@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <rect width="180" height="180" rx="24" fill="#0b1c30"/>
+  <path d="M22 140 L62 62 L90 100 L118 46 L158 140 Z" fill="#ff4500"/>
+  <path d="M62 62 L90 100 L74 100 Z" fill="#ffffff" opacity="0.25"/>
+  <rect x="16" y="146" width="148" height="8" fill="#ff4500"/>
+  <text x="90" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="14" fill="#ffffff" letter-spacing="2">ALTITUDE BRUT</text>
+</svg>
