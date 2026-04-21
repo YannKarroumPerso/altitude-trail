@@ -110,9 +110,6 @@ export default function Home() {
       <section className="bg-navy text-white">
         <div className="max-w-[1440px] mx-auto px-4 lg:px-8 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-7 space-y-5">
-            <div className="inline-block bg-primary text-white text-[10px] font-headline font-black uppercase tracking-widest px-3 py-1">
-              Nouveau · Propulsé par l&apos;IA
-            </div>
             <h2 className="font-headline text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter uppercase leading-[0.95]">
               Ton plan d&apos;entraînement trail
               <br />
