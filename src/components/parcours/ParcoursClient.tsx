@@ -84,40 +84,6 @@ export default function ParcoursClient({ traces }: { traces: Trace[] }) {
 
   return (
     <div className="space-y-10">
-      <div className="bg-surface-container">
-        <ParcoursMap traces={filtered} height="600px" />
-      </div>
-
-      <p className="text-xs text-slate-500 italic leading-relaxed">
-        {filtered.length.toLocaleString("fr-FR")} traces affichées sur un total de {traces.length.toLocaleString("fr-FR")} sentiers importés depuis OpenStreetMap via Overpass API (relations <code>route=hiking</code>, balisage <code>iwn</code>, <code>nwn</code>, <code>rwn</code>). Cliquez un point pour le nom, le balisage officiel, la distance, la difficulté estimée et les liens externes. Données sous licence ODbL © contributeurs OpenStreetMap.
-      </p>
-
-      <div className="flex flex-wrap gap-6">
-        <div>
-          <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-2">Balisage</div>
-          <div className="flex gap-3 flex-wrap text-xs">
-            {NETWORKS.map((n) => (
-              <span key={n.value} className="flex items-center gap-2">
-                <span className="inline-block w-3 h-3 rounded-full border-2 border-white shadow-sm" style={{ background: NETWORK_COLOR[n.value] }} />
-                <span className="font-headline font-bold">{n.label}</span>
-                <span className="text-slate-400">{n.description}</span>
-              </span>
-            ))}
-          </div>
-        </div>
-        <div>
-          <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-2">Difficulté estimée</div>
-          <div className="flex gap-3 flex-wrap text-xs font-headline uppercase tracking-wide">
-            {DIFFICULTIES.map((d) => (
-              <span key={d} className="flex items-center gap-2">
-                <span className="inline-block w-3 h-3 rounded-full border-2 border-white shadow-sm" style={{ background: PARCOURS_DIFFICULTY_COLORS[d] }} />
-                <span className="text-slate-600">{d}</span>
-              </span>
-            ))}
-          </div>
-        </div>
-      </div>
-
       <div className="bg-surface-container p-6 space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <label className="block md:col-span-2">
@@ -191,6 +157,40 @@ export default function ParcoursClient({ traces }: { traces: Trace[] }) {
         </div>
         <div className="bg-primary text-white text-center font-headline font-black text-sm uppercase tracking-wide py-2">
           {filtered.length.toLocaleString("fr-FR")} {filtered.length > 1 ? "sentiers trouvés" : "sentier trouvé"} sur {traces.length.toLocaleString("fr-FR")}
+        </div>
+      </div>
+
+      <div className="bg-surface-container">
+        <ParcoursMap traces={filtered} height="600px" />
+      </div>
+
+      <p className="text-xs text-slate-500 italic leading-relaxed">
+        {filtered.length.toLocaleString("fr-FR")} traces affichées sur un total de {traces.length.toLocaleString("fr-FR")} sentiers importés depuis OpenStreetMap via Overpass API (relations <code>route=hiking</code>, balisage <code>iwn</code>, <code>nwn</code>, <code>rwn</code>). Cliquez un point pour le nom, le balisage officiel, la distance, la difficulté estimée et les liens externes. Données sous licence ODbL © contributeurs OpenStreetMap.
+      </p>
+
+      <div className="flex flex-wrap gap-6">
+        <div>
+          <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-2">Balisage</div>
+          <div className="flex gap-3 flex-wrap text-xs">
+            {NETWORKS.map((n) => (
+              <span key={n.value} className="flex items-center gap-2">
+                <span className="inline-block w-3 h-3 rounded-full border-2 border-white shadow-sm" style={{ background: NETWORK_COLOR[n.value] }} />
+                <span className="font-headline font-bold">{n.label}</span>
+                <span className="text-slate-400">{n.description}</span>
+              </span>
+            ))}
+          </div>
+        </div>
+        <div>
+          <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500 mb-2">Difficulté estimée</div>
+          <div className="flex gap-3 flex-wrap text-xs font-headline uppercase tracking-wide">
+            {DIFFICULTIES.map((d) => (
+              <span key={d} className="flex items-center gap-2">
+                <span className="inline-block w-3 h-3 rounded-full border-2 border-white shadow-sm" style={{ background: PARCOURS_DIFFICULTY_COLORS[d] }} />
+                <span className="text-slate-600">{d}</span>
+              </span>
+            ))}
+          </div>
         </div>
       </div>
 
