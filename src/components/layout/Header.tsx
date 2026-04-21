@@ -16,7 +16,7 @@ export default function Header() {
         <div className="absolute left-1/2 -translate-x-1/2">
           <Link href="/">
             <h1 className="text-xl md:text-2xl font-black text-white tracking-tighter font-headline uppercase">
-              Altitude Brut
+              Altitude Trail
             </h1>
           </Link>
         </div>

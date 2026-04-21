@@ -1,10 +1,10 @@
 import { Article, Race } from "@/types";
 
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL || "https://www.altitude-brut.fr"
+  process.env.NEXT_PUBLIC_SITE_URL || "https://www.altitude-trail.fr"
 ).replace(/\/$/, "");
 
-export const SITE_NAME = "Altitude Brut";
+export const SITE_NAME = "Altitude Trail";
 export const SITE_DESCRIPTION =
   "Actualités, courses, entraînement, nutrition, blessures et récits du trail running en France et dans le monde.";
 export const SITE_LOCALE = "fr_FR";
@@ -16,7 +16,7 @@ export const LOGO_URL = `${SITE_URL}/logo.png`;
 export const LOGO_WIDTH = 600;
 export const LOGO_HEIGHT = 60;
 export const LOGO_SQUARE_URL = `${SITE_URL}/logo-square.png`;
-export const AUTHOR_NAME = "Rédaction Altitude Brut";
+export const AUTHOR_NAME = "Rédaction Altitude Trail";
 export const AUTHOR_URL = `${SITE_URL}/a-propos`;
 export const INDEXNOW_KEY = "4e7c8a2f5b9d1e3a6c4f8b2d5e7a9c1f";
 export const NEWS_KEYWORDS = [
@@ -157,7 +157,7 @@ export function buildOrganizationJsonLd() {
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "editorial",
-      email: "redaction@altitude-brut.fr",
+      email: "redaction@altitude-trail.fr",
       availableLanguage: ["French"],
     },
   };

@@ -78,13 +78,13 @@ export function buildGpx(parcours: Parcours): string {
     })
     .join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="Altitude Brut — altitude-brut.fr" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<gpx version="1.1" creator="Altitude Trail — altitude-trail.fr" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>${escapeXml(parcours.name)}</name>
     <desc>${escapeXml(parcours.description)}</desc>
     <time>${now}</time>
-    <link href="https://www.altitude-brut.fr/parcours/${parcours.slug}">
-      <text>Fiche parcours Altitude Brut</text>
+    <link href="https://www.altitude-trail.fr/parcours/${parcours.slug}">
+      <text>Fiche parcours Altitude Trail</text>
     </link>
   </metadata>
   <trk>

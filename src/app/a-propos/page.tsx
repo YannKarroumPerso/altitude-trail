@@ -186,10 +186,10 @@ export default function AboutPage() {
           <li>
             E-mail :{" "}
             <a
-              href="mailto:redaction@altitude-brut.fr"
+              href="mailto:redaction@altitude-trail.fr"
               className="text-primary underline hover:opacity-80"
             >
-              redaction@altitude-brut.fr
+              redaction@altitude-trail.fr
             </a>
           </li>
           <li>
@@ -207,10 +207,10 @@ export default function AboutPage() {
           publication : la rédaction d&apos;Altitude Trail. Contact
           rédaction :{" "}
           <a
-            href="mailto:redaction@altitude-brut.fr"
+            href="mailto:redaction@altitude-trail.fr"
             className="text-primary underline hover:opacity-80"
           >
-            redaction@altitude-brut.fr
+            redaction@altitude-trail.fr
           </a>
           .
         </p>
@@ -232,10 +232,10 @@ export default function AboutPage() {
           Une imprécision, un chiffre erroné, une attribution incorrecte ?
           Écrivez-nous à{" "}
           <a
-            href="mailto:redaction@altitude-brut.fr"
+            href="mailto:redaction@altitude-trail.fr"
             className="text-primary underline hover:opacity-80"
           >
-            redaction@altitude-brut.fr
+            redaction@altitude-trail.fr
           </a>
           . Les corrections sont apportées sous 48 h et signalées en pied
           d&apos;article.
