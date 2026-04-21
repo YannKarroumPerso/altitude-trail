@@ -10,8 +10,8 @@ readTime: "5 min"
 image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
 tags: ["UTMB", "écologie", "réglementation", "faune sauvage", "matériel"]
 sourceUrl: "https://www2.u-trail.com/ecologie-de-facade-lutmb-rend-obligatoire-lutilisation-du-mode-lumiere-rouge-sur-les-lampes-frontales/"
-imagePrompt1: "A line of trail runners ascending a narrow alpine path at night near Chamonix, headlamps switched to red light mode casting crimson glows on rocky terrain, moonlit Mont-Blanc massif silhouette in background, cold blue ambient light, visible breath in mountain air"
-imagePrompt2: "Close-up of a modern running headlamp on a granite rock at dusk in the French Alps, red LED illuminated, technical trail vest and poles in soft focus, larch forest and distant peaks at blue hour, dew on alpine grass"
+imagePrompt1: "A trail runner ascending a steep rocky dirt singletrack at night in summer, headlamp switched to red light mode casting a warm crimson glow on the path and nearby ferns, dense green forest at the edge of the beam, wearing running shorts, trail running shoes, hydration vest, sweat on face, no snow, no skis, no winter gear"
+imagePrompt2: "Close-up of a trail runner's forehead headlamp in red LED mode at dusk in a summer beech forest, face of the runner softly out of focus, sweat on skin, green leaves behind, running bandana and vest straps visible, no snow, no ski equipment, shallow depth of field"
 ---
 
 Une consigne de matériel qui tient en deux mots — « mode rouge » — et qui déclenche un débat bien plus vaste sur ce qu'est devenue l'écologie dans le trail de masse. L'UTMB impose, u-Trail interroge. Le vrai sujet n'est pas la lampe.

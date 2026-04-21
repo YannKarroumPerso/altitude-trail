@@ -10,8 +10,8 @@ readTime: "5 min"
 image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
 tags: ["entraînement", "dénivelé", "marche rapide", "préparation", "trail court"]
 sourceUrl: "https://www2.u-trail.com/idee-denchainement-trail26/"
-imagePrompt1: "A solo trail runner climbing a steep grassy ridge in the Vercors massif at golden hour, power-hiking with hands on thighs, poles strapped to vest, warm backlight carving the silhouette, weathered mountain path, low autumn sun"
-imagePrompt2: "Close-up side view of a trail runner's legs on a steep forest climb in the Beaujolais hills, calves tensed, muddy Salomon shoes gripping roots, dappled morning light filtering through beech trees, sweat-darkened socks"
+imagePrompt1: "A solo trail runner power-hiking up a steep green grassy summer slope, hands pressed firmly on thighs classic uphill technique, wearing running vest and shorts, trail running shoes on dirt path, warm golden hour backlight, summer wildflowers along the trail, rolling green hills in background, no snow, no skis, no poles, no winter gear"
+imagePrompt2: "Close-up side view of a trail runner's legs mid-stride on a steep root-covered dirt singletrack in a lush summer beech forest, tensed calves, muddy trail running shoes gripping exposed tree roots, running shorts, dappled morning sunlight through green leaves, moss on rocks, sweat-darkened socks, no snow"
 ---
 
 Préparer un 30 km avec 1500 m de dénivelé, ce n'est pas courir plus. C'est apprendre à marcher vite sans se saboter. La distinction semble anodine — elle décide pourtant de l'issue du jour J.
