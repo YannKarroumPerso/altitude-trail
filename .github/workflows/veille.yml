@@ -19,6 +19,12 @@ concurrency:
   group: veille
   cancel-in-progress: false
 
+env:
+  MAIL_TO: yannkarroum@gmail.com
+  MAIL_FROM: "Altitude Trail Bot <yannkarroum@gmail.com>"
+  GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+  RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
 jobs:
   veille:
     runs-on: ubuntu-latest
@@ -45,6 +51,37 @@ jobs:
           git config user.name "altitude-veille-bot"
           git config user.email "altitude-veille-bot@users.noreply.github.com"
 
+      - name: Compute timestamps
+        id: time
+        run: |
+          echo "utc=$(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_OUTPUT
+          echo "paris=$(TZ=Europe/Paris date '+%H:%M')" >> $GITHUB_OUTPUT
+
+      - name: Notify start
+        if: env.GMAIL_APP_PASSWORD != ''
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ env.MAIL_TO }}
+          password: ${{ env.GMAIL_APP_PASSWORD }}
+          subject: "Altitude Trail — veille démarrée (${{ steps.time.outputs.paris }} Paris)"
+          to: ${{ env.MAIL_TO }}
+          from: ${{ env.MAIL_FROM }}
+          body: |
+            La veille Altitude Trail vient de démarrer.
+
+            Heure       : ${{ steps.time.outputs.paris }} Paris (${{ steps.time.outputs.utc }})
+            Déclencheur : ${{ github.event_name }}
+            Branche     : ${{ github.ref_name }}
+            Run         : ${{ env.RUN_URL }}
+
+            Tu recevras un second mail quand les articles seront en ligne
+            sur altitude-brut.fr (ou quand le run est terminé sans nouveaux
+            articles à publier).
+
       - name: Run veille
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -54,5 +91,118 @@ jobs:
           FLUX_MODEL: ${{ vars.FLUX_MODEL || 'flux-pro-1.1' }}
         run: npm run veille
 
-      - name: Publish
-        run: npm run publish
+      - name: Publish and detect new articles
+        id: publish
+        run: |
+          BEFORE=$(git rev-parse HEAD)
+          npm run publish
+          AFTER=$(git rev-parse HEAD)
+          if [ "$BEFORE" = "$AFTER" ]; then
+            echo "new_articles=0" >> $GITHUB_OUTPUT
+            {
+              echo "urls_text<<URLS_EOF"
+              echo "(aucun nouvel article)"
+              echo "URLS_EOF"
+            } >> $GITHUB_OUTPUT
+            echo "first_url=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          git diff --name-only --diff-filter=A "$BEFORE..$AFTER" -- 'content/articles/*.md' > /tmp/new-articles.txt
+          COUNT=$(wc -l < /tmp/new-articles.txt | tr -d ' ')
+          echo "new_articles=$COUNT" >> $GITHUB_OUTPUT
+          sed 's|content/articles/||;s|\.md$||' /tmp/new-articles.txt > /tmp/slugs.txt
+          : > /tmp/urls.txt
+          while read -r slug; do
+            echo "https://www.altitude-brut.fr/articles/$slug" >> /tmp/urls.txt
+          done < /tmp/slugs.txt
+          {
+            echo "urls_text<<URLS_EOF"
+            cat /tmp/urls.txt
+            echo "URLS_EOF"
+          } >> $GITHUB_OUTPUT
+          FIRST_URL=$(head -1 /tmp/urls.txt)
+          echo "first_url=$FIRST_URL" >> $GITHUB_OUTPUT
+
+      - name: Wait for Vercel deploy to serve the new article
+        if: steps.publish.outputs.new_articles != '0' && steps.publish.outputs.first_url != ''
+        id: deploy
+        run: |
+          URL="${{ steps.publish.outputs.first_url }}"
+          echo "Polling $URL until 200 OK (max 10 min)..."
+          for i in $(seq 1 30); do
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$URL" 2>/dev/null || echo "000")
+            echo "try $i/30: HTTP $code"
+            if [ "$code" = "200" ]; then
+              echo "live=true" >> $GITHUB_OUTPUT
+              echo "Deploy confirmed live."
+              exit 0
+            fi
+            sleep 20
+          done
+          echo "Deploy not confirmed after 10 min — sending mail anyway"
+          echo "live=false" >> $GITHUB_OUTPUT
+
+      - name: Notify complete (articles en ligne)
+        if: always() && env.GMAIL_APP_PASSWORD != '' && steps.publish.outputs.new_articles != '0'
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ env.MAIL_TO }}
+          password: ${{ env.GMAIL_APP_PASSWORD }}
+          subject: "Altitude Trail — ${{ steps.publish.outputs.new_articles }} nouvel(s) article(s) en ligne"
+          to: ${{ env.MAIL_TO }}
+          from: ${{ env.MAIL_FROM }}
+          body: |
+            ${{ steps.publish.outputs.new_articles }} nouvel(s) article(s) publié(s) et déployé(s)
+            sur https://www.altitude-brut.fr.
+
+            Déploiement confirmé en ligne : ${{ steps.deploy.outputs.live == 'true' && 'oui' || 'pas encore détecté (10 min écoulées) — vérifie manuellement' }}
+
+            URLs des nouveaux articles :
+
+            ${{ steps.publish.outputs.urls_text }}
+
+            Run complet : ${{ env.RUN_URL }}
+
+      - name: Notify complete (aucun nouvel article)
+        if: always() && env.GMAIL_APP_PASSWORD != '' && steps.publish.outputs.new_articles == '0'
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ env.MAIL_TO }}
+          password: ${{ env.GMAIL_APP_PASSWORD }}
+          subject: "Altitude Trail — veille terminée, aucun nouvel article"
+          to: ${{ env.MAIL_TO }}
+          from: ${{ env.MAIL_FROM }}
+          body: |
+            La veille a tourné mais n'a rien produit de neuf : les RSS
+            ingérés ne contenaient aucun article trail qui ne soit déjà
+            publié sur altitude-brut.fr.
+
+            C'est normal entre deux cron rapprochés ou quand les sources
+            n'ont rien sorti dans la fenêtre.
+
+            Run : ${{ env.RUN_URL }}
+
+      - name: Notify failure
+        if: failure() && env.GMAIL_APP_PASSWORD != ''
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ env.MAIL_TO }}
+          password: ${{ env.GMAIL_APP_PASSWORD }}
+          subject: "Altitude Trail — échec de veille (voir logs GitHub)"
+          to: ${{ env.MAIL_TO }}
+          from: ${{ env.MAIL_FROM }}
+          body: |
+            Le run de veille a échoué. Consulte les logs :
+            ${{ env.RUN_URL }}
