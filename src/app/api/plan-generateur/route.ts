@@ -15,8 +15,6 @@ function extractJson(text: string): string {
 }
 
 export async function POST(req: Request) {
-  // Priorite : ANTHROPIC_API_KEY (convention officielle du SDK), puis Anthropic en fallback
-  // pour tolerer les conventions de nommage custom dans Vercel.
   const apiKey =
     process.env.ANTHROPIC_API_KEY ||
     process.env.Anthropic ||
@@ -79,13 +77,6 @@ export async function POST(req: Request) {
     const json = extractJson(raw);
     const plan = JSON.parse(json);
     return Response.json({ plan });
-  } catch (e: unknown) {
-    const errorMsg = e instanceof Error ? e.message : String(e);
-    console.error("[plan-generateur] erreur Anthropic:", errorMsg);
-    return Response.json({ error: "Erreur generation : " + errorMsg }, { status: 500 });
-  }
-}
-an });
   } catch (e: unknown) {
     const errorMsg = e instanceof Error ? e.message : String(e);
     console.error("[plan-generateur] erreur Anthropic:", errorMsg);
