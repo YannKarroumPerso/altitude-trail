@@ -16,6 +16,10 @@
     {
       "path": "/api/cron/weekly-report",
       "schedule": "15 6 * * 1"
+    },
+    {
+      "path": "/api/cron/stale-articles-check",
+      "schedule": "45 5 * * 1"
     }
   ]
 }

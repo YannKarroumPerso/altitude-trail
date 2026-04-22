@@ -275,16 +275,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </nav>
         );
       })()}
-      {article.youtubeVideoId && article.youtubeTitle && (
-        <YouTubeEmbed
-          videoId={article.youtubeVideoId}
-          title={article.youtubeTitle}
-          channelName={article.youtubeChannel}
-          durationSeconds={article.youtubeDuration}
-          uploadDate={article.youtubeUploadDate}
-          description={article.excerpt}
-        />
-      )}
       <div className="text-slate-700 leading-relaxed text-lg">
         {article.content ? (
           <ReactMarkdown components={markdownComponents}>
@@ -301,6 +291,22 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
         )}
       </div>
+      {article.youtubeVideoId && article.youtubeTitle && (
+        <section className="mt-12 pt-8 border-t border-surface-container">
+          <h2 className="font-headline text-xs font-black uppercase tracking-widest text-slate-500 mb-4">
+            Pour aller plus loin en vidéo
+          </h2>
+          <YouTubeEmbed
+            videoId={article.youtubeVideoId}
+            title={article.youtubeTitle}
+            channelName={article.youtubeChannel}
+            durationSeconds={article.youtubeDuration}
+            uploadDate={article.youtubeUploadDate}
+            description={article.excerpt}
+          />
+        </section>
+      )}
+
       {article.externalRefs && article.externalRefs.length > 0 && (
         <aside className="mt-12 pt-8 border-t border-surface-container">
           <h2 className="font-headline text-xs font-black uppercase tracking-widest text-slate-500 mb-4">
