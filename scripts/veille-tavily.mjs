@@ -40,29 +40,61 @@ const CONTENT_DIR = path.resolve("content/articles");
 const PUBLIC_IMAGES_DIR = path.resolve("public/articles");
 
 // Requêtes thématiques tournées chaque semaine.
-// Choisies pour ne PAS recouvrir ce que les flux RSS apportent déjà :
-// - Recherche scientifique / physiologie (sous-couvert)
-// - Actualités hors circuit français (UTMB, Western, Hardrock, Tor)
-// - Équipement et innovation produit
-// - Portraits d'athlètes internationaux
-//
-// 3 pour le run hebdo (production raisonnable, ~3 articles nouveaux/semaine).
+// IMPORTANT : en anglais, "trail" est ambigu (Trail Blazers = NBA). Les
+// requêtes doivent donc contenir des mots-clés désambiguïsants explicites :
+//   - "ultramarathon", "ultrarunning"
+//   - "UTMB", "Western States", noms d'épreuves précises
+//   - "mountain running", "skyrunning"
+// On évite les mots génériques comme "training injury" qui remontent
+// massivement des contenus NBA/NFL/MLB.
 const THEMATIC_QUERIES = [
   {
-    query: "trail running science latest research training nutrition injury",
+    query: '"ultrarunning" OR "ultramarathon" science research training physiology study',
     categorySlug: "entrainement",
-    angle: "Actualité scientifique : études récentes sur l'entraînement, la physiologie, les blessures ou la nutrition en trail / ultra-endurance.",
+    angle: "Actualité scientifique appliquée à l'ultra-endurance : études récentes sur l'entraînement, la physiologie, la nutrition ou la récupération chez les coureurs d'ultra et trail.",
+    include_domains: [
+      "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
+      "pubmed.ncbi.nlm.nih.gov", "pmc.ncbi.nlm.nih.gov", "bjsm.bmj.com",
+      "lepape-info.com", "runnersworld.com", "trail-session.fr",
+      "runningmagazine.ca", "marathonhandbook.com",
+    ],
   },
   {
-    query: "ultra trail UTMB Western States Hardrock Tor des Geants latest results 2026",
+    query: '"UTMB" OR "Western States" OR "Hardrock 100" OR "Tor des Geants" ultramarathon results 2026',
     categorySlug: "courses-recits",
-    angle: "Actualité des grandes courses internationales : résultats, surprises, podiums récents.",
+    angle: "Actualité des grandes courses ultra-trail internationales : résultats, podiums, analyses stratégiques, surprises récentes.",
+    include_domains: [
+      "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
+      "utmbmontblanc.com", "utmb.world", "wser.org", "hardrock100.com",
+      "tordesgeants.it", "lepape-info.com", "u-trail.com",
+    ],
   },
   {
-    query: "trail running shoes carbon plate new release 2026 equipment innovation",
+    query: '"trail running shoes" OR "mountain running shoes" review 2026 Hoka Salomon La Sportiva Altra',
     categorySlug: "actualites",
-    angle: "Actualité équipement et innovation : nouveaux modèles de chaussures, technologies, stratégies d'équipementiers.",
+    angle: "Actualité équipement trail : nouveaux modèles de chaussures montagne, innovations des équipementiers spécialisés, tests et comparatifs.",
+    include_domains: [
+      "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
+      "runnersworld.com", "runningmagazine.ca", "runrepeat.com",
+      "lepape-info.com", "trail-session.fr", "u-trail.com",
+      "hoka.com", "salomon.com", "lasportiva.com",
+    ],
   },
+];
+
+// Blacklist supplémentaire des domaines qui polluent les résultats "trail"
+// (sports US qui utilisent le mot "trail" ou "blazer" différemment).
+const TAVILY_AGGRESSIVE_BLACKLIST = [
+  "sports.yahoo.com",
+  "espn.com",
+  "bleacherreport.com",
+  "nba.com",
+  "nfl.com",
+  "mlb.com",
+  "si.com",
+  "foxsports.com",
+  "cbssports.com",
+  "theringer.com",
 ];
 
 const MAX_ARTICLES_PER_RUN = parseInt(process.env.MAX_ARTICLES_PER_RUN || "3", 10);
@@ -383,25 +415,42 @@ function buildMarkdownFile({ meta, body, pubDate, image, sources }) {
 
 // ─── Orchestration ─────────────────────────────────────────────────────────
 
-async function processQuery(client, query, angle, categorySlug, allExisting) {
+async function processQuery(client, query, angle, categorySlug, allExisting, include_domains) {
   console.log(`\n[tavily] == ${query}`);
 
   const tavilyResult = await tavilySearch(query, {
     search_depth: "advanced",
-    max_results: 10,
-    topic: "news",
+    max_results: 15,
+    topic: "general",  // "news" remonte trop de sports US, on préfère general
     days: FRESHNESS_DAYS,
-    exclude_domains: TAVILY_EXCLUDE_DOMAINS,
+    exclude_domains: [...TAVILY_EXCLUDE_DOMAINS, ...TAVILY_AGGRESSIVE_BLACKLIST],
+    ...(include_domains && include_domains.length > 0 ? { include_domains } : {}),
   });
 
-  const reranked = rerankByPriority(tavilyResult.results);
+  // Post-filtrage : retire tout résultat dont l'URL ou le titre ne semble
+  // pas lié à la course / trail / running / ultra / montagne. On est strict
+  // pour éviter les contaminations NBA/NFL/MLB.
+  const TRAIL_TOKENS = [
+    "trail", "ultra", "running", "marathon", "runner", "course",
+    "mountain", "sky", "fkt", "utmb", "ftr", "itra",
+    "nutrition", "physiology", "endurance", "training",
+    "hoka", "salomon", "sportiva", "altra",
+  ];
+  const isTrailRelated = (s) => {
+    const hay = `${s.url} ${s.title || ""} ${s.content || ""}`.toLowerCase();
+    return TRAIL_TOKENS.some((tok) => hay.includes(tok));
+  };
+
+  const filtered = tavilyResult.results.filter(isTrailRelated);
+  const reranked = rerankByPriority(filtered);
   const top = reranked.slice(0, 6);
   if (top.length < 2) {
-    console.log(`[tavily]   seulement ${top.length} source(s), skip (besoin min 2)`);
+    console.log(`[tavily]   seulement ${top.length} source(s) pertinente(s) après filtrage, skip (min 2)`);
+    console.log(`[tavily]   → Tavily avait renvoyé ${tavilyResult.results.length} résultats, ${filtered.length} ont passé le filtre trail`);
     return null;
   }
 
-  console.log(`[tavily]   ${top.length} sources retenues`);
+  console.log(`[tavily]   ${top.length} sources retenues (sur ${tavilyResult.results.length} résultats Tavily, ${filtered.length} passés filtre trail)`);
   for (const s of top) console.log(`           · ${s.url}`);
 
   let rewritten;
@@ -506,14 +555,14 @@ async function main() {
   const allExisting = await loadExistingArticles();
 
   const queries = customQuery
-    ? [{ query: customQuery, angle: "Synthèse thématique personnalisée.", categorySlug: "actualites" }]
+    ? [{ query: customQuery, angle: "Synthèse thématique personnalisée.", categorySlug: "actualites", include_domains: undefined }]
     : THEMATIC_QUERIES;
 
   let created = 0;
   for (const q of queries) {
     if (created >= MAX_ARTICLES_PER_RUN) break;
     try {
-      const slug = await processQuery(client, q.query, q.angle, q.categorySlug, allExisting);
+      const slug = await processQuery(client, q.query, q.angle, q.categorySlug, allExisting, q.include_domains);
       if (slug) created++;
     } catch (e) {
       console.error(`[tavily] ${q.query} — erreur: ${e.message}`);
