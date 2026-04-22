@@ -31,6 +31,15 @@ imagePrompt2: >-
   green leaves behind, running bandana and vest straps visible, no snow, no ski
   equipment, shallow depth of field
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www2.u-trail.com'
+    label: u-Trail – Média spécialisé trail running et ultra-trail
+  - url: 'https://www.utmb.world'
+    label: Site officiel de l'UTMB World Series
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Littérature scientifique sur la pollution lumineuse et la faune
+      nocturne
 ---
 
 Une consigne de matériel qui tient en deux mots — « mode rouge » — et qui déclenche un débat bien plus vaste sur ce qu'est devenue l'écologie dans le trail de masse. L'[UTMB](https://www.altitude-trail.fr/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb) impose, u-Trail interroge. Le vrai sujet n'est pas la lampe.

@@ -26,6 +26,15 @@ sourceUrl: >-
   https://www.irunfar.com/deaths-2026-gregory-marathon-des-sables-legendary-david-parrish-cape-wrath-trail
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Média de référence trail et ultra-trail international
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Études scientifiques sur les décès et risques cardiaques en
+      ultra-endurance
+  - url: 'https://www.utmb.world'
+    label: UTMB World – Contexte des courses d'ultra-trail en autonomie
 ---
 Deux décès, deux continents, la même semaine. Dans le Sahara marocain et dans les Highlands écossais, le trail d'endurance a perdu deux des siens à quelques jours d'intervalle. Les circonstances diffèrent, la leçon est identique : l'expérience ne protège de rien.
 

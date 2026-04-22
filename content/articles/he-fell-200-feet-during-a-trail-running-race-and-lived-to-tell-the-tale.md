@@ -34,6 +34,15 @@ imagePrompt2: >-
   jackets carrying a spine board, summer alpine setting with wildflowers and
   loose boulders, late morning light
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.trailrunnermag.com'
+    label: >-
+      Trail Runner Mag – Source originale du reportage sur la chute de Stuart
+      Terrill
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Fédération internationale trail et mountain running, règlements et
+      sécurité
 ---
 
 Une passe tentée dans un virage exposé. Quelques secondes d'emballement. Puis le vide, et 60 mètres de chute dans un couloir rocheux du Wasatch. Stuart Terrill aurait dû mourir le 13 juillet à Snowbird. Il vit, et son histoire replace une question gênante au centre du plateau : jusqu'où le mountain [running](https://www.altitude-trail.fr/articles/scott-running-fete-ses-20-ans-ce-que-revele-une-operation-de-presse-en-val-di-so) peut-il aller sans admettre qu'il est devenu un sport à risque majeur ?

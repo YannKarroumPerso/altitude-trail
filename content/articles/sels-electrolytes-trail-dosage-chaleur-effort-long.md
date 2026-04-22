@@ -16,6 +16,21 @@ tags:
   - Chaleur
   - Hydratation
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données scientifiques sur la physiologie de l'effort et
+      l'hyponatrémie d'exercice
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Recommandations sur la gestion
+      électrolytique en endurance
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Analyses nutrition et hydratation pour les ultras par forte
+      chaleur
+  - url: 'https://www.trailrunnermag.com'
+    label: Trail Runner Magazine – Dosage sodium et électrolytes en course longue
 ---
 
 Un ultra perdu à la ligne d'arrivée ne l'est presque jamais sur les glucides. C'est le sel, discrètement, qui fait basculer les fins de course par forte chaleur.

@@ -16,6 +16,21 @@ tags:
   - Périodisation
   - Performance
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      Base de données PubMed – études en physiologie de l'endurance et
+      périodisation de l'entraînement
+  - url: 'https://www.hardrock100.com'
+    label: Hardrock 100 – ultra-trail de référence mentionné dans l'article
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – média trail de référence couvrant la planification et les plans
+      d'entraînement ultra
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Fédération internationale de trail running et classification des
+      courses ultra
 ---
 
 Six mois. C'est le délai qu'un coureur sérieux devrait s'accorder pour préparer un premier ultra sans bricoler. Pas six semaines de panique et trois sorties longues empilées en espérant que le corps suive.

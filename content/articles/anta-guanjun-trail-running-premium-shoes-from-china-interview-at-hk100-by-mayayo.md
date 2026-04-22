@@ -21,6 +21,17 @@ tags:
 sourceUrl: 'https://trailrunningspain.com/2026/01/23/anta-guanjun-interview-by-mayayo/'
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.utmb.world'
+    label: UTMB World Series – circuit international de référence du trail premium
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – média trail de référence couvrant l'actualité équipement et
+      courses
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Instance internationale de classement et réglementation du trail
+      running
 ---
 Hong Kong, janvier. Sur la ligne du HK100, Anta ne vient pas vendre des [chaussures](https://www.altitude-trail.fr/articles/chaussures-carbone-trail-itra-reglementation-limite). La marque chinoise vient poser un acte politique : celui d'un équipementier qui refuse désormais son rôle historique de sous-traitant du sport mondial.
 

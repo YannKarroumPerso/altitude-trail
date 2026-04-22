@@ -23,6 +23,19 @@ tags:
   - quadriceps
   - prévention
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données scientifiques sur la biomécanique de la descente
+      et les contraintes articulaires en trail
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Recherches sur les blessures liées
+      aux contractions excentriques et la course en descente
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Analyses techniques sur la descente en ultra-trail et la
+      prévention des blessures
 ---
 
 Tous les traileurs le savent intuitivement : les courbatures après une grosse course ne sont pas dans les mollets qui ont monté. Elles sont dans les quadriceps, les genoux, les chevilles qui ont descendu. Ce qui se passe à la [descente](https://www.altitude-trail.fr/articles/entrainement-specifique-descente-trail-excentrique) est l'un des paradoxes biomécaniques les plus brutaux du sport : **on y va plus vite, on y dépense moins d'énergie métabolique, mais on détruit bien plus de tissu**. Descendre mal, c'est exploser ses articulations à l'échelle d'une vie de coureur.

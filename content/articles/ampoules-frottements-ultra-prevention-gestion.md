@@ -16,6 +16,19 @@ tags:
   - Pieds
   - Équipement
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données scientifiques sur les lésions cutanées et la
+      friction en sport
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Couverture médicale et retours terrain des grandes courses
+      d'ultra
+  - url: 'https://www.trailrunnermag.com'
+    label: >-
+      Trail Runner Magazine – Articles de prévention et gestion des blessures
+      aux pieds en ultra
 ---
 
 Un ongle qui accroche, une couture qui frotte, une chaussette humide depuis quatre heures. Et soudain, à 80 kilomètres de l'arrivée, la course bascule. Pas sur un mollet explosé ou une hypoglycémie : sur une ampoule de trois centimètres sous le talon.

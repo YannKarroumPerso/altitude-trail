@@ -20,6 +20,11 @@ sourceUrl: >-
   https://www.trailrunnermag.com/people/culture-people/why-cats-make-the-purr-fect-companions-for-runners/
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.trailrunnermag.com'
+    label: Trail Runner Mag – média de référence trail et ultra-trail
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – actualités et culture de l'ultra-trail
 ---
 Oubliez le labrador qui court à vos côtés sur les single tracks. La vraie révélation du trail outdoor 2024 pourrait bien tenir sur quatre pattes, miauler à l'aube et peser trois kilos. Le chat s'invite sur les sentiers — et la culture running commence à en prendre acte.
 

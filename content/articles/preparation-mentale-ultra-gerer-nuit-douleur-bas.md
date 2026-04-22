@@ -17,6 +17,21 @@ tags:
   - Nuit
   - Préparation
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données scientifiques en psychologie du sport et
+      endurance extrême
+  - url: 'https://www.utmb.world'
+    label: >-
+      UTMB World – Référence officielle de l'Ultra-Trail du Mont-Blanc (170 km,
+      10 000 m D+)
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Articles et analyses sur la préparation mentale en ultra-trail
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Fédération internationale de trail running et données sur les
+      courses ultra
 ---
 
 Passé la douzième heure, le corps ne décide plus grand-chose. C'est la tête qui tient la corde, ou qui la lâche. Et contrairement aux idées reçues, ce n'est pas une question de caractère.

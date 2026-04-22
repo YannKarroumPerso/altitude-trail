@@ -20,6 +20,17 @@ tags:
 sourceUrl: 'https://www.irunfar.com/boston-bound-the-joy-of-wesley-kiptoo-and-alex-masai'
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Média de référence sur le running d'élite et les grandes courses
+  - url: 'https://www.wser.org'
+    label: >-
+      Boston Athletics Association – Informations officielles sur le marathon de
+      Boston
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Études scientifiques sur l'entraînement en altitude et la
+      performance marathon
 ---
 Deux Kényans, une équipe américaine, une ligne de départ à Hopkinton. L'histoire paraît balisée. Elle ne l'est pas.
 

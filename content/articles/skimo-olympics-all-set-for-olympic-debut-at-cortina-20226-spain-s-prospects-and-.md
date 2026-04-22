@@ -24,6 +24,17 @@ tags:
 sourceUrl: 'https://trailrunningspain.com/2026/02/18/skimo-olympics-mayayo/'
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.utmb.world'
+    label: UTMB World Series – Référence des sports de montagne d'endurance
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Actualités et analyses des sports de montagne et
+      d'ultra-endurance
+  - url: 'https://worldathletics.org'
+    label: >-
+      World Athletics – Fédération internationale et calendrier des disciplines
+      athlétiques
 ---
 Le ski-alpinisme entre aux Jeux par la grande porte et il y entre par l'Italie. À Cortina d'Ampezzo, en février 2026, une discipline née de la nécessité montagnarde va devoir prouver qu'elle tient debout sous les projecteurs du CIO. Ce n'est pas qu'un symbole. C'est un test.
 

@@ -17,6 +17,13 @@ tags:
   - Aménagement
   - Tendance
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Média de référence sur le trail et l'ultra-trail en montagne
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Index international de classement et référencement des courses
+      trail
 ---
 
 La saison blanche ne suffit plus. Les stations de montagne françaises ont fait leurs comptes : sans un été rentable, le modèle ne tient plus. Reste à choisir son camp — ou à refuser de choisir.

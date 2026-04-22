@@ -17,6 +17,19 @@ tags:
   - Sciatique
   - Kiné
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données d'études scientifiques sur le syndrome du
+      piriforme et les douleurs pseudo-sciatiques
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Recherches en traumatologie du sport
+      et pathologies de la hanche
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Ressources et analyses sur les blessures courantes en trail
+      running
 ---
 
 Une fesse qui chauffe en descente, une jambe qui fourmille sur les dix derniers kilomètres, une position assise devenue insupportable le lendemain. Trois signes qui ne trompent pas : ce n'est probablement pas une sciatique.

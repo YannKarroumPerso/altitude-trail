@@ -25,6 +25,15 @@ sourceUrl: >-
   https://ultrarunningworld.co.uk/this-weekend-in-ultrarunning-july-5-7-2025-uk-ireland/
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.utmb.world'
+    label: UTMB World Series – Calendrier officiel des courses du circuit mondial
+  - url: 'https://www.itra.run'
+    label: ITRA – Index international des trails et classement des courses ultra
+  - url: 'https://ultrarunning.com'
+    label: >-
+      Ultrarunning Magazine – Actualités et calendrier des épreuves ultra
+      mondiales
 ---
 Dix départs en cinq jours, trois nations, une boucle horaire côtoyant une traversée de 270 kilomètres. Le premier week-end de juillet 2025 dit tout de ce que l'ultra [britannique](https://www.altitude-trail.fr/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra) est devenu : un écosystème mature, diversifié, qui n'a plus rien à envier aux grandes vitrines alpines.
 

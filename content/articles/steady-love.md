@@ -22,6 +22,11 @@ tags:
 sourceUrl: 'https://www.irunfar.com/steady-love'
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Média de référence sur l'ultra-trail et chroniques d'athlètes
+  - url: 'https://www.transgrancanaria.net'
+    label: Transgrancanaria – Site officiel de la course mentionnée dans l'article
 ---
 Zach Miller, un des coureurs les plus intenses de sa génération, publie un texte qui ressemble à un aveu. Pas un palmarès, pas un bilan de saison. Une confession sur ce qu'il retiendra vraiment et ce n'est pas ce que l'on croit.
 

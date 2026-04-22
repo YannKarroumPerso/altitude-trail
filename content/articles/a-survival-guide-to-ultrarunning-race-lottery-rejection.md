@@ -22,6 +22,15 @@ sourceUrl: >-
   https://www.trailrunnermag.com/races/ultrarunning-race-lottery-season-survival-guide/
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.wser.org'
+    label: Site officiel de la Western States Endurance Run
+  - url: 'https://www.hardrock100.com'
+    label: Site officiel de la Hardrock 100 Endurance Run
+  - url: 'https://www.trailrunnermag.com'
+    label: Trail Runner Magazine – actualités et statistiques des loteries d'ultra
+  - url: 'https://www.utmb.world'
+    label: Site officiel de l'UTMB World Series
 ---
 9 993 candidatures pour 260 dossards. 0,4 % de chances pour un postulant débutant. La Western States 100 n'est plus une course, c'est un concours d'entrée dont personne ne sort admis.
 

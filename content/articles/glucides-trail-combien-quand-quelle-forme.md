@@ -17,6 +17,19 @@ tags:
   - Gels
   - Science
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données d'études scientifiques sur la nutrition sportive
+      et l'oxydation des glucides
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Recherches sur la nutrition et la
+      performance en endurance
+  - url: 'https://www.itra.run'
+    label: ITRA – Référentiel international des épreuves de trail running
+  - url: 'https://www.trailrunnermag.com'
+    label: Trail Runner Magazine – Ressources pratiques sur la nutrition en trail
 ---
 
 La barre symbolique des 60 g de glucides par heure, dogme pendant vingt ans, est tombée. Les meilleurs trailers mondiaux absorbent aujourd'hui 90 à 120 g/h en course, parfois davantage. Une révolution silencieuse qui change la manière de préparer une épreuve longue.

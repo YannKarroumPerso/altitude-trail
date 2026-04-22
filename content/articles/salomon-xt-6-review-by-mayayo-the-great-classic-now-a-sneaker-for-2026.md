@@ -21,6 +21,11 @@ tags:
 sourceUrl: 'https://trailrunningspain.com/2026/02/05/salomon-xt-6-review-by-mayayo/'
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Actualités et analyses du trail et de l'ultra-trail mondial
+  - url: 'https://www.trailrunnermag.com'
+    label: Trail Runner Magazine – Équipement et tendances du trail running
 ---
 Une chaussure de trail qui finit en vitrine de sneaker shop, ce n'est plus une anomalie. C'est un modèle économique. Avec le catalogue 2026, [Salomon](https://www.altitude-trail.fr/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029) officialise ce que tout le monde avait compris : la XT-6 est désormais une sneaker unisexe et la marque d'Annecy en fait un pilier assumé de sa stratégie.
 

@@ -16,6 +16,19 @@ tags:
   - Fer
   - Performance
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – consensus et publications sur le
+      RED-S
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – études sur le déficit énergétique relatif et la carence en fer
+      chez les athlètes d'endurance
+  - url: 'https://www.anses.fr'
+    label: ANSES – recommandations nutritionnelles officielles pour les sportifs
+  - url: 'https://www.itra.run'
+    label: ITRA – ressources et données sur les coureurs de trail et ultra-trail
 ---
 
 Une saison ne se brise pas en une sortie. Elle s'effrite par en dessous, semaine après semaine, pendant qu'on s'entraîne de mieux en mieux et qu'on court de plus en plus mal.

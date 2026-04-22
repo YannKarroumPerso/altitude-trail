@@ -16,6 +16,17 @@ tags:
   - Débutant
   - Volume
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données scientifiques sur le syndrome de stress tibial
+      médial
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Ressources trail running sur la prévention des blessures
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Études cliniques sur les blessures de
+      surmenage chez le coureur
 ---
 
 Léa, trente-deux ans, entre dans le cabinet en claudiquant légèrement. Elle prépare son premier 42 kilomètres en montagne, s'entraîne depuis six mois et a décidé, trois semaines plus tôt, de passer de quatre à six sorties hebdomadaires pour « caler du volume ». Depuis dix jours, une ligne de feu brûle le long de la face interne de son tibia droit. Le matin, c'est une simple raideur. En fin de séance, c'est une cuisson permanente qui l'oblige à marcher les derniers kilomètres. Le scénario est d'une banalité clinique presque désespérante : c'est une périostite tibiale, l'une des blessures les plus fréquentes chez le coureur en phase de progression et particulièrement chez celui qui bascule sur le trail.

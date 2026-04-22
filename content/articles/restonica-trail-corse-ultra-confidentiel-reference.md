@@ -17,6 +17,19 @@ tags:
   - GR 20
   - Ultra
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Index des trails et ultras, classement et données courses de
+      référence
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Média trail international, couverture des ultras de haute
+      montagne
+  - url: 'https://www.utmb.world'
+    label: >-
+      UTMB World Series – Référence mondiale des courses d'ultra-trail en
+      montagne
 ---
 
 Le GR 20 n'est pas un sentier de course. C'est une épreuve d'alpinisme allongée. Faire 110 kilomètres dessus d'une traite, avec 7 500 mètres de dénivelé positif, relève d'une catégorie à part.

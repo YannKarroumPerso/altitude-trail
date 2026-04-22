@@ -17,6 +17,21 @@ tags:
   - Premiers secours
   - Proprioception
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      Base de données PubMed – études épidémiologiques sur les entorses de
+      cheville en course à pied
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – protocoles de rééducation et
+      prévention des entorses de cheville
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – ressources et actualités sur les blessures en trail running
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – données et statistiques sur les courses de trail et
+      l'accidentologie
 ---
 
 Vingt-deuxième kilomètre d'un trail dans le Mercantour, descente technique sous les pins. Thomas, 38 ans, aperçoit la racine une fraction de seconde trop tard. Le pied droit ripe vers l'extérieur, la cheville bascule en inversion, un craquement sourd, puis la douleur fulgurante sur la malléole externe. Le coureur s'assoit, hagard, encore à plus d'une heure du ravitaillement le plus proche.

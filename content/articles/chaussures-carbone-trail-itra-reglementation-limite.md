@@ -17,6 +17,19 @@ tags:
   - Carbone
   - Industrie
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – International Trail Running Association, organisme de référence du
+      trail mondial
+  - url: 'https://worldathletics.org'
+    label: >-
+      World Athletics – Réglementation officielle sur les chaussures de
+      compétition sur route
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Actualités et analyses sur l'équipement et la réglementation en
+      trail running
 ---
 
 Le [trail](https://www.altitude-trail.fr/articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc) vivait encore dans un angle mort réglementaire. Les plaques carbone, les mousses hyperréactives, les empilements de 50 mm sous le talon : tout était permis, rien n'était cadré. L'ITRA s'apprête à refermer cette parenthèse.

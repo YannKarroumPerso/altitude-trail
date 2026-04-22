@@ -30,6 +30,19 @@ imagePrompt2: >-
   running shoes gripping exposed tree roots, running shorts, dappled morning
   sunlight through green leaves, moss on rocks, sweat-darkened socks, no snow
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.ncbi.nlm.nih.gov/pubmed/'
+    label: >-
+      PubMed – études sur la biomécanique de la marche rapide et de la montée en
+      trail running
+  - url: 'https://www2.u-trail.com'
+    label: U-Trail – entraînement spécifique trail et préparation dénivelé
+  - url: 'https://www.utmb.world'
+    label: >-
+      UTMB World Series – référence des formats trail et ratios
+      dénivelé/distance
+  - url: 'https://www.itra.run'
+    label: ITRA – classification officielle des trails par difficulté et dénivelé
 ---
 
 Préparer un 30 km avec 1500 m de dénivelé, ce n'est pas courir plus. C'est apprendre à marcher vite sans se saboter. La distinction semble anodine — elle décide pourtant de l'issue du jour J.

@@ -24,6 +24,11 @@ tags:
 sourceUrl: 'https://ultrarunningworld.co.uk/weekend-race-results-23-6-25/'
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.itra.run'
+    label: ITRA – Référentiel international des courses de trail et ultra-trail
+  - url: 'https://ultrarunning.com'
+    label: Ultrarunning Magazine – Actualités et résultats des courses ultra
 ---
 Une femme remporte au scratch la traversée non-stop la plus exigeante du Royaume-Uni, 268 miles le long de la Pennine Way. Ce n'est ni anecdotique ni symbolique. C'est le fait marquant d'un week-end de solstice qui a rappelé, loin du vacarme UTMB, que l'ultra [britannique](https://www.altitude-trail.fr/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra) fonctionne comme un écosystème à part.
 

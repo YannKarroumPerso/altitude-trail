@@ -17,6 +17,17 @@ tags:
   - Industrie
   - Durabilité
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Actualités et analyses sur le trail running et ses acteurs
+      majeurs
+  - url: 'https://www.trailrunnermag.com'
+    label: >-
+      Trail Runner Magazine – Couverture de l'industrie du trail et des marques
+      émergentes
+  - url: 'https://www.utmb.world'
+    label: UTMB World Series – Contexte compétitif dans lequel évolue NNormal
 ---
 
 Trois ans après le lancement, NNormal n'est plus une curiosité catalane. C'est un cas d'école que l'industrie observe de près, entre fascination et scepticisme.

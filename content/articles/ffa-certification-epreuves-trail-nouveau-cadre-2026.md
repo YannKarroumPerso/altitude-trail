@@ -17,6 +17,13 @@ tags:
   - Réglementation
   - Organisation
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Index Trail Running Association, cotation internationale des
+      courses trail
+  - url: 'https://www.athle.fr'
+    label: Athle.fr – calendrier et résultats officiels des épreuves labellisées FFA
 ---
 
 Le trail français n'est plus une niche. Avec plusieurs centaines d'épreuves au calendrier annuel et des organisations qui mobilisent des budgets à six, parfois sept chiffres, la question du cadre réglementaire n'est plus accessoire. Elle est structurante.

@@ -16,6 +16,15 @@ tags:
   - Équipement
   - Débuter
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Média de référence trail et ultra pour les conseils équipement
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Littérature scientifique sur les blessures en course à pied et
+      chaussures
+  - url: 'https://www.trailrunnermag.com'
+    label: Trail Runner Magazine – Guides équipement et sélection de chaussures trail
 ---
 
 On entend souvent qu'il faut mille euros et une boutique spécialisée pour commencer le trail. C'est faux. Trois cent cinquante euros suffisent, bien dépensés, pour courir en sécurité sur les sentiers pendant deux ans.

@@ -17,6 +17,19 @@ tags:
   - Mollet
   - Progression
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Référence scientifique sur les
+      tendinopathies du coureur
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Études épidémiologiques sur les blessures en course à pied et
+      tendinopathie achilléenne
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Ressource trail running sur la prévention des blessures en
+      montagne
 ---
 
 Début septembre, cabinet de kinésithérapie du sport à Annecy. Julien, quarante-deux ans, pose son sac sur la chaise et grimace en s'asseyant. Trois semaines plus tôt, il bouclait la Maxi-Race en espérant un chrono correct. Aujourd'hui, il ne peut plus courir trois kilomètres sans ressentir cette douleur sourde, localisée quelques centimètres au-dessus du talon droit, qui s'intensifie le matin au premier pas hors du lit. Son verdict intuitif — "un petit bobo qui va passer" — s'est transformé en saison compromise.

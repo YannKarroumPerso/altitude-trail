@@ -22,6 +22,17 @@ sourceUrl: >-
   https://www.ultrarunnermagazine.co.uk/courtney-dauwalter-salomon-continue-their-partnership-until-2029/
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.trailrunnermag.com'
+    label: >-
+      Trail Runner Magazine – source de référence sur l'actualité trail et
+      ultra-trail
+  - url: 'https://www.wser.org'
+    label: >-
+      Western States Endurance Run – site officiel de la course emblématique de
+      Courtney Dauwalter
+  - url: 'https://www.hardrock100.com'
+    label: Hardrock 100 – site officiel de l'une des courses du Triple Crown 2023
 ---
 Prolonger un contrat d'ambassadrice jusqu'en 2029, puis intégrer l'athlète au capital humain de la marque : [Salomon](https://www.altitude-trail.fr/articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe) ne renouvelle pas Courtney Dauwalter, la marque la transforme en actif long terme. Un signal pour toute l'industrie.
 

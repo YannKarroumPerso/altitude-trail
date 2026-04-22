@@ -30,6 +30,15 @@ imagePrompt2: >-
   humanoid robots lined up on parallel lanes, race banners in Chinese, overcast
   morning sky, urban industrial park setting, bib numbers visible
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Source originale sur le Beijing E-Town Half Marathon et le robot
+      Lightning
+  - url: 'https://worldathletics.org'
+    label: >-
+      World Athletics – Records du monde officiels du semi-marathon (Kiplimo,
+      Gidey)
 ---
 
 Un robot a couru 21,1 km en 50 minutes et 26 secondes. Soit sept minutes sous le record du monde humain de Jacob Kiplimo. La nouvelle sonne comme une farce. Elle n'en est pas une.

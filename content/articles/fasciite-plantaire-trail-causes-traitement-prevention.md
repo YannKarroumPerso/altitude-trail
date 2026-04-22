@@ -19,6 +19,17 @@ tags:
   - Récupération
   - Prévention
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – base de données d'études scientifiques sur la fasciite plantaire
+      et la biomécanique du coureur
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – ressources et analyses sur les blessures en trail et ultra-trail
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – recherches cliniques sur les
+      pathologies du pied chez les coureurs de fond
 ---
 
 Il est six heures du matin dans un gîte du Mercantour. Thomas, finisher de plusieurs cent bornes, pose le pied au sol et se fige. Une douleur aiguë, presque électrique, irradie sous son talon droit. Trois pas plus tard, elle s'estompe — pour mieux revenir le lendemain, puis chaque matin pendant des mois. Ce scénario, la majorité des traileurs le connaissent ou finiront par le croiser. La fasciite plantaire, ou aponévrosite plantaire, reste l'une des blessures les plus fréquentes du coureur de longue distance et sans doute la plus sournoise : elle s'installe discrètement, résiste au repos total et peut compromettre toute une saison si elle n'est pas prise au sérieux.

@@ -19,6 +19,19 @@ tags:
   - glucides
   - endurance
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données scientifique sur la nutrition et l'endurance
+      (oxydation des glucides exogènes)
+  - url: 'https://www.anses.fr'
+    label: >-
+      ANSES – Recommandations nutritionnelles officielles françaises pour les
+      sportifs d'endurance
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Ressources et analyses nutrition pour l'ultra-trail
+  - url: 'https://www.trailrunnermag.com'
+    label: Trail Runner Magazine – Guides pratiques nutrition sur ultra-distance
 ---
 
 Le mur du kilomètre 40 n'est presque jamais musculaire. C'est presque toujours métabolique. Le coureur qui explose sur un 80 km n'a pas "les jambes qui lâchent" — son cerveau n'a plus de carburant, son estomac refuse tout, et son système nerveux central baisse le rideau. La nutrition sur ultra, c'est 60 % de la performance. Pas un détail à régler la veille.

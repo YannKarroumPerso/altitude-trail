@@ -16,6 +16,21 @@ tags:
   - Côte
   - VMA
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données de référence en physiologie de l'effort et seuils
+      lactiques
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Recherches sur l'entraînement au
+      seuil en endurance
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Ressources spécialisées trail et méthodologie d'entraînement
+  - url: 'https://www.trailrunnermag.com'
+    label: >-
+      Trail Runner Magazine – Articles sur la performance et l'entraînement en
+      trail
 ---
 
 Le seuil, en [trail](https://www.altitude-trail.fr/articles/cotes-montees-marche-rapide-l-equation-oubliee-du-trail-de-30-km), n'est pas une allure. C'est une zone physiologique qu'il faut retraduire à chaque fois que le terrain bascule. Et dès que la pente dépasse 5 %, les repères du plat volent en éclat.

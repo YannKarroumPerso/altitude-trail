@@ -22,6 +22,15 @@ sourceUrl: >-
   https://www.ultrarunnermagazine.co.uk/kim-collison-wins-the-mens-montane-winter-spine-race/
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Actualités et résultats ultra-trail international
+  - url: 'https://ultrarunning.com'
+    label: UltraRunning Magazine – Ressource de référence sur l'ultra-endurance
+  - url: 'https://www.utmb.world'
+    label: >-
+      UTMB World Series – Contexte sur les grandes courses mondiales
+      d'ultra-trail
 ---
 Quatre hivers de défaites, une victoire. Kim Collison a franchi la ligne de Kirk Yetholm en 82 heures et 46 minutes et cette performance dit quelque chose de plus profond qu'un simple chrono : elle raconte comment on domestique une course qui, pendant des années, vous a refusé l'entrée.
 

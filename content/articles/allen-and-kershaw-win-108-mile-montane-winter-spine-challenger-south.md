@@ -25,6 +25,11 @@ sourceUrl: >-
   https://www.ultrarunnermagazine.co.uk/allen-and-kershaw-win-108-mile-montane-winter-spine-challenger-south/
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://ultrarunning.com'
+    label: Ultra Running Magazine – source des résultats officiels de la course
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – couverture des ultras hivernaux britanniques
 ---
 174 kilomètres, 57 [heures](https://www.altitude-trail.fr/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures) de barrière horaire, un départ le 11 janvier à l'aube britannique. Le Montane Winter Spine Challenger South n'est pas un ultra, c'est un audit de caractère. Et l'édition 2025 a sévèrement trié.
 

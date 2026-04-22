@@ -25,6 +25,17 @@ sourceUrl: >-
   https://www.corsainmontagna.it/2026/04/18/domani-il-portogallo-ospita-il-mondo-la-world-cup-2026-inizia-con-la-sao-bras-cross/
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://worldathletics.org'
+    label: World Athletics – Fédération mondiale d'athlétisme et courses en montagne
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – International Trail Running Association, classements et courses
+      internationales
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Actualités et résultats des courses de montagne et trail
+      internationaux
 ---
 Seize courses, dix pays, quatre continents. La Coupe du monde de course en [montagne](https://www.altitude-trail.fr/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno) 2026 s'annonce comme la saison la plus dense jamais alignée par la WMRA et c'est un village du centre du Portugal qui va l'ouvrir dimanche. Pas Chamonix, pas Innsbruck, pas Sierre. Castro Daire.
 

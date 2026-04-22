@@ -21,6 +21,15 @@ tags:
 sourceUrl: 'https://ultrarunningworld.co.uk/this-weekend-june-20th-2025/'
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://ultrarunning.com'
+    label: >-
+      Ultrarunning Magazine – Référence des courses ultra dont West Highland Way
+      Race
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Actualités et résultats des ultras britanniques et mondiaux
+  - url: 'https://www.itra.run'
+    label: ITRA – Calendrier et classement international des ultra-trails
 ---
 La nuit la plus courte de l'année est, pour certains, la plus longue à courir. Le week-end du 20 au 22 juin 2025 a transformé les îles Britanniques en un laboratoire grandeur nature de l'ultra-endurance, avec près d'une vingtaine d'épreuves recensées par Ultrarunning World. Rien de comparable, à la même date, sur le continent.
 

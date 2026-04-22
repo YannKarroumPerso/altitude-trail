@@ -16,6 +16,15 @@ tags:
   - Progression
   - Route
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Études sur l'adaptation neuromusculaire et les blessures en trail
+      running
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Ressources et conseils pour débuter le trail running
+  - url: 'https://www.trailrunnermag.com'
+    label: Trail Runner Magazine – Guide de transition route vers trail
 ---
 
 Passer de la route au trail, ce n'est pas changer de [chaussures](https://www.altitude-trail.fr/articles/choisir-premiere-paire-chaussures-trail-guide-complet). C'est changer de logiciel moteur. Et c'est précisément là que beaucoup de coureurs venus du bitume se blessent dans les six premiers mois.

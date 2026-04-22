@@ -16,6 +16,13 @@ tags:
   - Équipement
   - Achat
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.lepape-info.com'
+    label: Conseils équipement et chaussures trail – LePape Info
+  - url: 'https://www.irunfar.com'
+    label: Guides et tests de chaussures trail – iRunFar
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: Études scientifiques sur la biomécanique et la foulée en course – PubMed
 ---
 
 La chaussure de trail n'est pas une chaussure de route avec des crampons collés dessous. C'est un outil mécanique de précision, conçu pour composer avec des surfaces instables, des chocs latéraux et des kilomètres de descente. Se tromper de modèle pour débuter, c'est garantir ampoules, ongles noirs et abandon prématuré.

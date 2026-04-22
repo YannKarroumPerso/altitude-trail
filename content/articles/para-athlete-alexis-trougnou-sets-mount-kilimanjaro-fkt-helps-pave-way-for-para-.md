@@ -33,6 +33,19 @@ imagePrompt2: >-
   sunlight, exhausted but triumphant expressions, Tanzanian guides in
   background, clear blue African sky
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Récit et couverture du FKT d'Alexis Trougnou sur le Kilimandjaro
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Homologation et base de données des performances en trail et
+      ultra-trail
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Études scientifiques sur les effets de l'altitude et la
+      performance en trail
+  - url: 'https://worldathletics.org'
+    label: World Athletics – Réglementation et para-athlétisme international
 ---
 
 Un FKT sur le Kilimandjaro en 26h41, bouclé par un coureur qui voit "comme à travers une paille" et devient aveugle la nuit. Ce n'est pas une anecdote inspirante. C'est une recalibration.

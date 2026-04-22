@@ -16,6 +16,17 @@ tags:
   - 10 km
   - Objectif
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Recherches sur l'adaptation
+      tendineuse et la prévention des blessures
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Référentiel international des courses de trail et distances
+      officielles
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Ressources et conseils pour débuter le trail running
 ---
 
 Douze semaines. Quatre-vingt-quatre jours pour transformer un coureur de route occasionnel, un randonneur curieux ou un débutant motivé en finisher d'un premier 10 km de trail. Ni magie, ni raccourci : une structure.

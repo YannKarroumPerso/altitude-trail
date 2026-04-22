@@ -21,6 +21,11 @@ tags:
 sourceUrl: 'https://www.ultrarunnermagazine.co.uk/361-lynx-running-shoes-review/'
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://ultrarunning.com'
+    label: Ultrarunning Magazine – Media de référence sur l'ultra-trail
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Tests et actualités matériel trail running
 ---
 Une marque chinoise qu'on ne voit pratiquement jamais sur les départs de l'UTMB. Un modèle, la Lynx, qui traverse la presse anglo-saxonne à petits pas feutrés. Et pourtant, à lire le test mené par Ultra Runner Magazine, l'outsider 361° coche suffisamment de cases pour qu'on s'interroge sur ce que la discrétion recouvre vraiment.
 

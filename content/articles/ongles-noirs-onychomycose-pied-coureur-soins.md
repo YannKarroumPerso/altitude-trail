@@ -17,6 +17,19 @@ tags:
   - Dermatologie
   - Soins
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données scientifiques sur les pathologies unguéales et
+      dermatologie sportive
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Ressources et analyses sur les blessures courantes en
+      ultra-trail
+  - url: 'https://www.trailrunnermag.com'
+    label: >-
+      Trail Runner Magazine – Conseils pratiques sur les soins des pieds en
+      trail
 ---
 
 Le trail laisse des traces. Les médailles, les Strava, les photos au sommet — et les ongles noirs, cette signature discrète qu'on cache en tongs au bureau.

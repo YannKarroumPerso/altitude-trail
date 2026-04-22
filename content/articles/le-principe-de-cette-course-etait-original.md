@@ -20,6 +20,21 @@ tags:
 sourceUrl: 'https://www2.u-trail.com/le-principe-de-cette-course-etait-original/'
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www2.u-trail.com'
+    label: >-
+      U-Trail – Média trail de référence ayant couvert la première édition des
+      Heures barbares
+  - url: 'https://www.utmb.world'
+    label: UTMB World Series – Référence mondiale du trail en circuit montagne
+  - url: 'https://www.hardrock100.com'
+    label: >-
+      Hardrock 100 – Course emblématique citée comme pilier de la mythologie
+      trail
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Fédération internationale de trail running et référencement des
+      courses
 ---
 Un circuit de moto-cross, des relais qui s'enchaînent, zéro crête et zéro cairn. Les [Heures](https://www.altitude-trail.fr/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures) barbares, dont U-Trail a raconté la première édition, ne ressemblent à rien de ce que le trail français produit habituellement. Provocation marketing ou signal faible d'une mutation plus profonde ? Les deux, probablement.
 

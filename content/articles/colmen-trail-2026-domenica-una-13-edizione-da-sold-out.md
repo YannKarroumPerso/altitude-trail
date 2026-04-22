@@ -33,6 +33,15 @@ imagePrompt2: >-
   supporters, mountain runner crossing with arms raised, Valtellina valley and
   Colmen peak in the distance, mid-morning spring light
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Média de référence sur l'actualité du trail et de l'ultra-trail
+      mondial
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Index international de classement et de gestion des courses de
+      trail
 ---
 
 Cinq cents dossards. Pas un de plus. À 24 heures de la clôture officielle, le Colmen [Trail](https://www.altitude-trail.fr/articles/ffa-certification-epreuves-trail-nouveau-cadre-2026) 2026 a fermé ses inscriptions — et personne ne s'en excuse. Dans un écosystème où la croissance est devenue un réflexe, la décision du Team Valtellina ressemble presque à un acte politique.

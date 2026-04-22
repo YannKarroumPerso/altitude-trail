@@ -16,6 +16,17 @@ tags:
   - Réunion
   - Récit
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Actualités et résultats des courses d'ultra-trail
+      internationales
+  - url: 'https://www.utmb.world'
+    label: UTMB World Series – Palmarès et profil de François D'Haene
+  - url: 'https://www.itra.run'
+    label: ITRA – Classements et fiches coureurs trail running mondial
+  - url: 'https://ultrarunning.com'
+    label: Ultrarunning Magazine – Couverture des grandes courses d'ultra-endurance
 ---
 
 Deux jours, deux nuits, 165 kilomètres de volcan, de cirques et de remparts. Et au bout, moins de cinq minutes d'écart entre deux hommes qui se sont cherchés, lâchés, rattrapés sur la quasi-totalité du parcours. La Diagonale des Fous 2023 a offert l'un des duels les plus denses de son histoire récente.

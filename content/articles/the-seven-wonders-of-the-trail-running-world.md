@@ -21,6 +21,13 @@ sourceUrl: >-
   https://www.trailrunnermag.com/people/culture-people/the-seven-wonders-of-the-trail-running-world/
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.trailrunnermag.com'
+    label: Trail Runner Mag – Média de référence sur le trail mondial
+  - url: 'https://www.utmb.world'
+    label: UTMB World – Site officiel de l'Ultra-Trail du Mont-Blanc
+  - url: 'https://www.itra.run'
+    label: ITRA – Fédération internationale de trail running
 ---
 ## Sept sentiers, un diagnostic : le trail est devenu une industrie du voyage
 

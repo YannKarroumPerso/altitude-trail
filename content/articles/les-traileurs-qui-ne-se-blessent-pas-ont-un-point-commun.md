@@ -19,6 +19,17 @@ tags:
   - genoux
   - entraînement croisé
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Méta-analyses sur la prévention des
+      blessures chez les coureurs
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Études sur le renforcement musculaire et la prévention des
+      blessures de sur-usage
+  - url: 'https://www.itra.run'
+    label: ITRA – Référentiel international du trail running et suivi des coureurs
 ---
 
 Un coureur sur deux se blesse au moins une fois par an. C'est le chiffre universel, peu importe le pays ou le niveau. Mais dans le groupe qui ne se blesse pas, une pratique revient systématiquement : **2 à 3 séances de [renforcement](https://www.altitude-trail.fr/articles/renforcement-musculaire-trail-exercices-cles) musculaire par semaine**. Pas de la muscu lourde façon bodybuilder. Des exercices spécifiques, brefs, qui protègent exactement les zones à risque du coureur.

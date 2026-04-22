@@ -16,6 +16,19 @@ tags:
   - Performance
   - Prévention
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – revue scientifique de référence sur
+      l'entraînement et la performance
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – base de données des études scientifiques sur le renforcement
+      musculaire et l'économie de course
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – analyses et ressources sur l'entraînement en trail et
+      ultra-trail
 ---
 
 Deux séances de 40 minutes par semaine. Pas dix. C'est la dose minimale qui sépare le coureur qui tient ses descentes du coureur qui s'écroule au kilomètre 60.

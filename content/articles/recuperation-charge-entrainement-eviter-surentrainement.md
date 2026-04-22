@@ -18,6 +18,19 @@ tags:
   - Surentraînement
   - Charge
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Revue scientifique sur la charge
+      d'entraînement et la prévention des blessures
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données scientifiques sur le surentraînement et la
+      variabilité cardiaque (HRV)
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Ressources et analyses sur l'entraînement en trail et
+      ultra-trail
 ---
 
 Le surentraînement ne prévient pas. Il s'installe, discret, derrière des semaines bien remplies, des sensations qui s'émoussent, un sommeil qui s'effiloche. Quand le diagnostic tombe, il est souvent trop tard pour l'objectif.

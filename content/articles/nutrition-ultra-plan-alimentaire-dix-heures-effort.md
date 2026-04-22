@@ -16,6 +16,23 @@ tags:
   - Plan alimentaire
   - Digestion
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données de références scientifiques en physiologie de
+      l'effort et nutrition sportive
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Média de référence sur l'ultra-trail et la nutrition en course
+      longue
+  - url: 'https://www.hardrock100.com'
+    label: >-
+      Hardrock 100 – Site officiel de l'ultra-trail de référence mentionné dans
+      l'article
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Fédération internationale de trail running et ressources sur
+      l'effort ultra
 ---
 
 L'ultra ne se gagne pas à la VO2max. Il se perd à l'estomac. Demandez à n'importe quel finisher de la Diagonale, de la TDS ou de la Hardrock ce qui a failli le stopper : dans trois cas sur quatre, la réponse n'est ni les jambes ni la tête. C'est le ventre.

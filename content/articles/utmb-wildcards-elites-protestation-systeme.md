@@ -17,6 +17,15 @@ tags:
   - Wildcards
   - Gouvernance
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.utmb.world'
+    label: >-
+      Site officiel UTMB World Series – système de qualification et running
+      stones
+  - url: 'https://www.itra.run'
+    label: ITRA – Système de classement et points de qualification trail
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Couverture éditoriale de l'UTMB et du circuit élite trail
 ---
 
 La finale mondiale officieuse du trail se joue fin août à Chamonix. Mais pour y accéder, il faut décrypter un système que les meilleurs coureurs de la planète jugent désormais opaque, contradictoire, parfois arbitraire. Le malaise n'est plus feutré. Il est public.

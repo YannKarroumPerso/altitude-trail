@@ -16,6 +16,17 @@ tags:
   - Portraits
   - Ultra
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.utmb.world'
+    label: UTMB World Series – Référence des courses ultra-trail européennes
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données en physiologie de l'endurance et fatigue
+      cognitive
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Analyses tactiques et portraits de coureurs ultra-trail
+  - url: 'https://www.itra.run'
+    label: ITRA – Index international de classement des courses de trail
 ---
 
 Dix mille mètres de dénivelé positif. Cent soixante kilomètres. Une traversée pyrénéenne qui ne pardonne ni l'excès de confiance ni la timidité tactique. Le GRP n'a jamais été une course de spécialistes d'un seul profil — c'est précisément ce qui en fait un laboratoire fascinant de l'[ultra](https://www.altitude-trail.fr/articles/ampoules-frottements-ultra-prevention-gestion) moderne.

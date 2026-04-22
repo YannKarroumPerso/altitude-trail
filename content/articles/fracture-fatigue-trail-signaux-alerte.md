@@ -16,6 +16,17 @@ tags:
   - Diagnostic
   - Os
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Référence en médecine du sport et
+      blessures de course
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données scientifiques sur les fractures de fatigue et
+      biomécanique osseuse
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Ressources trail running sur blessures et prévention
 ---
 
 La fracture de fatigue n'arrive jamais par surprise. Elle s'annonce, insiste, hurle parfois pendant des semaines avant de casser net. Le problème, c'est qu'on préfère rarement l'écouter.

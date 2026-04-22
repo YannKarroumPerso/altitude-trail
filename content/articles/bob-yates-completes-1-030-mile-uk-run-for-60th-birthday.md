@@ -22,6 +22,15 @@ sourceUrl: >-
   https://ultrarunningworld.co.uk/bob-yates-completes-1030-mile-uk-run-for-60th-birthday/
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://ultrarunning.com'
+    label: Ultrarunning Magazine – Référence sur les défis d'ultra-endurance
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Actualités et récits de courses d'ultra-trail et d'endurance
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Études scientifiques sur la physiologie de l'endurance chez les
+      masters athletes
 ---
 Traverser la Grande-Bretagne d'une pointe à l'autre, à la course, sans temps de repos, à soixante ans. L'exploit de Bob Yates tient moins du record que du manifeste. Celui d'une génération d'ultra-runners tardifs qui réécrit, à bas bruit, ce qu'on pensait savoir du vieillissement sportif.
 

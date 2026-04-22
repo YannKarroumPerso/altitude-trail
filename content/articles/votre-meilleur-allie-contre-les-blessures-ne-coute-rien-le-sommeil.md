@@ -19,6 +19,19 @@ tags:
   - hygiène de vie
   - cortisol
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov/22520309/'
+    label: >-
+      Étude sur le sommeil et le risque de blessure chez les jeunes athlètes
+      (Journal of Pediatric Orthopaedics)
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – recherches sur récupération et
+      prévention des blessures en endurance
+  - url: 'https://www.inserm.fr'
+    label: >-
+      Inserm – données scientifiques sur le sommeil et la récupération
+      physiologique
 ---
 
 Tu peux avoir le meilleur [plan](https://www.altitude-trail.fr/articles/plan-entrainement-ultra-quatre-blocs-essentiels) d'entraînement du monde, la meilleure nutrition, les meilleures chaussures. Si tu dors 6 heures par nuit en enchaînant les grosses semaines, tu te blesseras. La science est désormais sans ambiguïté : **le sommeil est le levier de récupération n°1 du coureur d'endurance**, loin devant la nutrition post-effort, les bains froids, ou le massage. Et c'est gratuit.

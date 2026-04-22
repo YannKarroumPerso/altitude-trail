@@ -17,6 +17,13 @@ tags:
   - Météo
   - Récit
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Couverture et analyses des grandes courses de trail dont la TDS
+  - url: 'https://www.itra.run'
+    label: >-
+      ITRA – Fédération internationale de trail, référentiel des courses et
+      standards de sécurité
 ---
 
 Il a suffi d'une nuit. Entre le 27 et le 28 août 2024, un système orageux remonté du golfe de Gênes a transformé la TDS en laboratoire grandeur nature de la gestion de crise en trail. Quand le premier coureur franchit la ligne à Chamonix, l'épreuve qu'il vient de courir n'a plus grand-chose à voir avec celle annoncée sur le roadbook.

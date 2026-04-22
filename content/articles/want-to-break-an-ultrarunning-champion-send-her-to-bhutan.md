@@ -31,6 +31,21 @@ imagePrompt2: >-
   as breath vapor, harsh high-altitude midday sun, loose scree, distant prayer
   flags
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.trailrunnermag.com'
+    label: >-
+      Trail Runner Magazine – Source originale du récit de Clare Gallagher au
+      Bhoutan
+  - url: 'https://www.hardrock100.com'
+    label: >-
+      Hardrock 100 – Course emblématique en haute altitude du palmarès de Clare
+      Gallagher
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Études scientifiques sur les effets physiologiques de l'altitude
+      et de l'hypoxie
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Couverture éditoriale des courses ultra-trail en haute montagne
 ---
 
 Une championne de Leadville, 177 kilomètres d'Himalaya, cinq jours de course, un roi commanditaire et une pancarte climat. Sur le papier, l'histoire parfaite. Sur le terrain, Clare Gallagher s'est fissurée dès la troisième étape.

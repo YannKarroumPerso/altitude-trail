@@ -20,6 +20,11 @@ sourceUrl: >-
   https://www.corsainmontagna.it/2026/04/20/scott-presenta-il-running-team-2026-tra-conferme-e-nuove-promesse/
 rewrittenAt: '2026-04-20'
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Actualités et résultats trail et skyrunning international
+  - url: 'https://www.itra.run'
+    label: ITRA – Fédération internationale de trail running et classements athlètes
 ---
 Six noms, une philosophie. SCOTT [Running](https://www.altitude-trail.fr/articles/scott-running-fete-ses-20-ans-ce-que-revele-une-operation-de-presse-en-val-di-so) a dévoilé sa roster 2026 et le message est limpide : on ne recrute pas pour briller sur un communiqué, on construit sur la durée. Dans un marché trail saturé de transferts spectaculaires, la marque helvétique assume une ligne à contre-courant.
 

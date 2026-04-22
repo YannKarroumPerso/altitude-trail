@@ -18,6 +18,23 @@ tags:
   - Renforcement
   - Quadriceps
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      Base de données PubMed – littérature scientifique sur les contractions
+      excentriques et les micro-lésions musculaires
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – analyses et reportages sur les ultras et la performance en
+      descente
+  - url: 'https://www.trailrunnermag.com'
+    label: >-
+      Trail Runner Magazine – conseils d'entraînement spécifique trail et
+      renforcement musculaire
+  - url: 'https://www.utmb.world'
+    label: >-
+      UTMB World Series – données officielles sur la CCC et les profils de
+      course
 ---
 
 Kilomètre 150 de la CCC, [descente](https://www.altitude-trail.fr/articles/la-descente-fait-plus-de-degats-que-la-montee-voici-comment-proteger-vos-articulations) finale sur Chamonix. Le cardio tient, la tête aussi. Ce sont les quadriceps qui refusent d'amortir le prochain pas. Cette scène n'est pas une fatalité : c'est un déficit d'entraînement spécifique.

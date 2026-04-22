@@ -16,6 +16,19 @@ tags:
   - Équipement
   - Gainage
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed - Base de données scientifique sur la lombalgie et les blessures en
+      course à pied
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar - Ressources et analyses sur la pratique de l'ultratrail et la
+      prévention des blessures
+  - url: 'https://www.trailrunnermag.com'
+    label: >-
+      Trail Runner Magazine - Articles sur les blessures courantes et
+      l'équipement en trail
 ---
 
 Une douleur sourde qui grignote les derniers kilomètres, s'estompe au bivouac, ressurgit dès la reprise. Le traileur blâme son dos. Très souvent, c'est son sac qui parle.

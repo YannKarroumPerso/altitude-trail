@@ -16,6 +16,19 @@ tags:
   - Allure
   - Progression
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://www.irunfar.com'
+    label: >-
+      iRunFar – Ressources et conseils pour débuter et progresser en trail
+      running
+  - url: 'https://www.trailrunnermag.com'
+    label: >-
+      Trail Runner Magazine – Guides pratiques pour les nouveaux coureurs de
+      sentier
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Études scientifiques sur la physiologie et la biomécanique du
+      trail running
 ---
 
 Le trail n'est pas une version pentue de la course sur [route](https://www.altitude-trail.fr/articles/route-vers-trail-adapter-entrainement-sans-blessure). C'est un autre sport, avec ses propres règles et la première sortie le fait comprendre en quelques centaines de mètres.

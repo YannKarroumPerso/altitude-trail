@@ -17,6 +17,17 @@ tags:
   - Ultra
   - Nuit
 updatedAt: 22 avril 2026
+externalRefs:
+  - url: 'https://pubmed.ncbi.nlm.nih.gov'
+    label: >-
+      PubMed – Base de données d'études scientifiques sur les effets ergogènes
+      de la caféine
+  - url: 'https://bjsm.bmj.com'
+    label: >-
+      British Journal of Sports Medicine – Recherches sur la caféine et la
+      performance sportive
+  - url: 'https://www.irunfar.com'
+    label: iRunFar – Analyses et stratégies nutritionnelles en ultra-trail
 ---
 
 La caféine est devenue l'arme chimique la plus banalisée de l'[ultra](https://www.altitude-trail.fr/articles/preparation-mentale-ultra-gerer-nuit-douleur-bas). Tout le monde en prend, presque personne ne sait vraiment comment. Sur la Diagonale des Fous comme à l'UTMB, elle fait la différence entre ceux qui voient le jour se lever en courant et ceux qui s'effondrent au premier banc venu.
