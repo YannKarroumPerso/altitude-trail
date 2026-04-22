@@ -36,11 +36,11 @@ Entre le 21 et le 22 juin, selon le récapitulatif publié par Ultrarunning Worl
 
 ## Anna Troup, ou la Spine comme terrain d'égalité
 
-Le chiffre parle seul : 84h56'37". Sur 432 kilomètres de Pennine Way, d'Edale à Kirk Yetholm, Anna Troup a non seulement gagné la course féminine, elle a gagné la course tout court. Sept heures devant le premier homme. Ultrarunning World rapporte que la dernière finisheuse, Gillian McGale, a franchi la ligne le 21 juin, clôturant une épreuve dont la barrière horaire est fixée à 156 heures — soit six jours et demi de tolérance pour les plus lents.
+Le chiffre parle seul : 84h56'37". Sur 432 kilomètres de Pennine Way, d'Edale à Kirk Yetholm, Anna Troup a non seulement gagné la course féminine, elle a gagné la course tout court. Sept heures devant le premier homme. Ultrarunning World rapporte que la dernière finisheuse, Gillian McGale, a franchi la ligne le 21 juin, clôturant une épreuve dont la barrière horaire est fixée à 156 heures, soit six jours et demi de tolérance pour les plus lents.
 
 ![Illustration Courses & Récits](/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu-1.jpg)
 
-Ce scénario n'a rien d'un accident. La Spine est précisément le type d'épreuve — longue, dépouillée, privée de sommeil, exposée à la météo — où les différences physiologiques entre hommes et femmes s'estompent au profit de la gestion mentale, de la lucidité nocturne et de la résistance au froid. Jasmin Paris l'avait déjà démontré en 2019 sur la Winter Spine, avec un record absolu qui tient toujours. Troup s'inscrit dans cette lignée. À mesure que la distance augmente et que la technicité cède à l'endurance pure, la scène ultra britannique fabrique régulièrement ses légendes au féminin.
+Ce scénario n'a rien d'un accident. La Spine est précisément le type d'épreuve, longue, dépouillée, privée de sommeil, exposée à la météo, où les différences physiologiques entre hommes et femmes s'estompent au profit de la gestion mentale, de la lucidité nocturne et de la résistance au froid. Jasmin Paris l'avait déjà démontré en 2019 sur la Winter Spine, avec un record absolu qui tient toujours. Troup s'inscrit dans cette lignée. À mesure que la distance augmente et que la technicité cède à l'endurance pure, la scène ultra britannique fabrique régulièrement ses légendes au féminin.
 
 Derrière, la Spine n'est plus une course unique mais une franchise. Ultrarunning World détaille les formats [Challenger](https://www.altitude-trail.fr/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de) North (160 miles, James Hargreaves en 42h17'44", Allie Bailey en 53h11'07") et Challenger South (Chris Andrade en 28h33'12", Eleanor Walker en 31h44'55"). Sur le Sprint South, Chris Cope (6h36'41") et Victoria Thompson (7h49'44") ont tous deux établi de nouveaux records du parcours. Ce maillage de distances transforme l'événement en porte d'entrée progressive vers le monstre de 268 miles.
 
@@ -52,7 +52,7 @@ L'intérêt de la West Highland ne tient pas seulement à son tracé, magnifique
 
 ## Pays de Galles : un record qui en dit long
 
-Sam Humphrey a bouclé l'Ultra Wales 50 en 9h32'41", améliorant le record du parcours de près de cinq minutes selon Ultrarunning World. Sur 80 kilomètres et un terrain technique, cinq minutes ne tombent pas toutes seules. Emily Lydon, pour ses débuts sur la distance ultra, l'emporte chez les femmes en 12h49'06" — un chrono d'entrée de gamme qui pose une trajectoire.
+Sam Humphrey a bouclé l'Ultra Wales 50 en 9h32'41", améliorant le record du parcours de près de cinq minutes selon Ultrarunning World. Sur 80 kilomètres et un terrain technique, cinq minutes ne tombent pas toutes seules. Emily Lydon, pour ses débuts sur la distance ultra, l'emporte chez les femmes en 12h49'06", un chrono d'entrée de gamme qui pose une trajectoire.
 
 ![Illustration Courses & Récits](/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu-2.jpg)
 
@@ -62,7 +62,7 @@ Mettons ça en perspective. 3 900 m de D+ sur 55 km, c'est un ratio proche de Si
 
 ## Jurassic Coast : l'ultra côtier devient une discipline à part
 
-Sur 169 kilomètres du patrimoine mondial du Dorset, Justin Montague a remporté la Jurassic Extinction en 22h30, avec plus de trois heures d'avance sur Colin Clarke, rapporte Ultrarunning World. Michelle Claydon termine 5ᵉ scratch chez les femmes en 27h41'57". Plus à l'est, la Race to the King aligne ses deux boucles de 50 km autour de West Dean Gardens, à Chichester. Sergio Torija, 61ᵉ au kilomètre 27, a remonté tout le peloton pour s'imposer en 9h45'50", vingt-cinq minutes devant Robert Burbridge. Linda Goodchild a dominé la course féminine de bout en bout en 10h43'50". Sur 269 partants, 233 finissent — taux d'achèvement proche de 87 %, typique des profils côtiers roulants.
+Sur 169 kilomètres du patrimoine mondial du Dorset, Justin Montague a remporté la Jurassic Extinction en 22h30, avec plus de trois heures d'avance sur Colin Clarke, rapporte Ultrarunning World. Michelle Claydon termine 5ᵉ scratch chez les femmes en 27h41'57". Plus à l'est, la Race to the King aligne ses deux boucles de 50 km autour de West Dean Gardens, à Chichester. Sergio Torija, 61ᵉ au kilomètre 27, a remonté tout le peloton pour s'imposer en 9h45'50", vingt-cinq minutes devant Robert Burbridge. Linda Goodchild a dominé la course féminine de bout en bout en 10h43'50". Sur 269 partants, 233 finissent, taux d'achèvement proche de 87 %, typique des profils côtiers roulants.
 
 Les deux épreuves illustrent la montée en puissance d'une niche spécifique : l'ultra "patrimonial", qui se vend autant pour son tracé culturel que pour son défi sportif. La formule marche.
 
@@ -74,4 +74,4 @@ Côté backyards, Adrian Busolini a tenu 23 tours (155 km) au Longbridge 100, Ro
 
 ## Ce que la scène britannique a compris avant les autres
 
-La densité de ce week-end dit quelque chose de précis. Pendant que l'Europe continentale polarise son calendrier autour de trois ou quatre méga-événements labellisés, le Royaume-Uni entretient une biodiversité d'épreuves incomparable : historiques, minimalistes, techniques, familiales, côtières, montagnardes. La West Highland Way impose une assistance personnelle. L'Exmoor Perambulation demande de savoir lire une carte. La Spine n'a quasiment pas de ravitaillements. Ici, l'ultra n'est pas encore devenu un service. C'est un terrain. Et quand une coureuse comme Anna Troup bat tout le monde sur 432 kilomètres, ce n'est pas la performance qui mérite d'être soulignée — c'est le fait que le format le permette, le valorise et lui donne la place centrale qu'elle mérite. À méditer, côté Chamonix.
+La densité de ce week-end dit quelque chose de précis. Pendant que l'Europe continentale polarise son calendrier autour de trois ou quatre méga-événements labellisés, le Royaume-Uni entretient une biodiversité d'épreuves incomparable : historiques, minimalistes, techniques, familiales, côtières, montagnardes. La West Highland Way impose une assistance personnelle. L'Exmoor Perambulation demande de savoir lire une carte. La Spine n'a quasiment pas de ravitaillements. Ici, l'ultra n'est pas encore devenu un service. C'est un terrain. Et quand une coureuse comme Anna Troup bat tout le monde sur 432 kilomètres, ce n'est pas la performance qui mérite d'être soulignée, c'est le fait que le format le permette, le valorise et lui donne la place centrale qu'elle mérite. À méditer, côté Chamonix.

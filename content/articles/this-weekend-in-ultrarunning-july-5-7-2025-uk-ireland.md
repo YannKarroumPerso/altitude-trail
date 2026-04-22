@@ -45,11 +45,11 @@ La première leçon de ce week-end, c'est la densité. Dix courses de plus de 50
 
 ![Illustration Actualités](/articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-1.jpg)
 
-Ce n'est pas un hasard. La scène britannique s'est structurée autour d'organisateurs indépendants — Beyond Marathon, Ultra Running Limited, SilverBackTrails — qui multiplient les formats sans chercher la labellisation internationale. Résultat : une offre qui va du backyard au 170 miles et qui absorbe à peu près tous les profils de coureurs. *Ultrarunning World* recense dix rendez-vous sur ce seul premier week-end de juillet. C'est plus qu'un calendrier : c'est un indicateur de maturité.
+Ce n'est pas un hasard. La scène britannique s'est structurée autour d'organisateurs indépendants, Beyond Marathon, Ultra Running Limited, SilverBackTrails, qui multiplient les formats sans chercher la labellisation internationale. Résultat : une offre qui va du backyard au 170 miles et qui absorbe à peu près tous les profils de coureurs. *Ultrarunning World* recense dix rendez-vous sur ce seul premier week-end de juillet. C'est plus qu'un calendrier : c'est un indicateur de maturité.
 
 ## Le monument silencieux : 270 km à travers l'Écosse
 
-Si une épreuve résume l'ambition britannique hors radar médiatique, c'est By Way of The Glen. Organisée autour de Milngavie du 3 au 5 juillet, la course décline trois formats — 42, 72 et 170 miles — selon *Ultrarunning World*. Le plus long enchaîne la West Highland Way et la quasi-totalité de la Great Glen Way, soit près de 270 kilomètres d'une seule traite.
+Si une épreuve résume l'ambition britannique hors radar médiatique, c'est By Way of The Glen. Organisée autour de Milngavie du 3 au 5 juillet, la course décline trois formats, 42, 72 et 170 miles, selon *Ultrarunning World*. Le plus long enchaîne la West Highland Way et la quasi-totalité de la Great Glen Way, soit près de 270 kilomètres d'une seule traite.
 
 Pour prendre la mesure : c'est 100 km de plus que l'UTMB, sur un terrain certes moins vertical mais bien plus exposé au vent, à la pluie, à l'isolement. La Diagonale des Fous, référence française du format long, culmine à 165 km. By Way of The Glen, avec ses 170 miles, joue dans une catégorie supérieure en distance pure. L'épreuve ne fait pas parler d'elle dans les médias continentaux. Elle cultive une sobriété presque monacale. Ceux qui la terminent en parlent comme d'une traversée intérieure. C'est exactement ce que la plupart des grands ultras ont cessé d'être.
 
@@ -63,21 +63,21 @@ Le format s'est imposé en quelques années comme un laboratoire de l'endurance 
 
 ## Pays de Galles : le relief reprend ses droits
 
-Deux rendez-vous gallois encadrent le week-end. Le Pen Llyn Ultra, au départ de Pwllheli les 4 et 5 juillet, propose 50 et 100 miles sur la péninsule de Llŷn — falaises, criques, singletrack côtier. *Ultrarunning World* signale la présence attendue de Huw Williams, figure locale récurrente de l'épreuve.
+Deux rendez-vous gallois encadrent le week-end. Le Pen Llyn Ultra, au départ de Pwllheli les 4 et 5 juillet, propose 50 et 100 miles sur la péninsule de Llŷn, falaises, criques, singletrack côtier. *Ultrarunning World* signale la présence attendue de Huw Williams, figure locale récurrente de l'épreuve.
 
-Plus au sud, The Pigum s'élance d'Abergavenny le 5 juillet sur 30 miles, avec plus de 1 500 mètres de dénivelé positif. Ratio D+/distance d'environ 31 mètres par kilomètre : on est dans les clous d'un trail montagnard sérieux, loin de l'ultra plat de plaine. Pour mesurer : un Sierre-Zinal affiche 2 200 m de D+ sur 31 km, soit 71 m/km. The Pigum n'est pas alpin, mais il impose un vrai travail vertical — et sert de test grandeur nature pour des objectifs plus longs en août.
+Plus au sud, The Pigum s'élance d'Abergavenny le 5 juillet sur 30 miles, avec plus de 1 500 mètres de dénivelé positif. Ratio D+/distance d'environ 31 mètres par kilomètre : on est dans les clous d'un trail montagnard sérieux, loin de l'ultra plat de plaine. Pour mesurer : un Sierre-Zinal affiche 2 200 m de D+ sur 31 km, soit 71 m/km. The Pigum n'est pas alpin, mais il impose un vrai travail vertical, et sert de test grandeur nature pour des objectifs plus longs en août.
 
 ## Nord de l'Angleterre : là où ça durcit
 
 Le gros bloc technique du week-end se niche dans les landes du nord-est. SilverBackTrails: Summits of The North York Moors, disputé les 5 et 6 juillet au départ de Goathland, aligne 115 miles (185 km) pour environ 14 000 pieds de dénivelé, soit près de 4 300 mètres selon les données reprises par *Ultrarunning World*. C'est moins que l'UTMB (10 000 m de D+) mais sur une distance plus longue et un terrain autrement plus ingrat : tourbières, visibilité capricieuse, navigation indispensable.
 
-L'Ultra Beyond the Lune Skyline, 65 km et 2 000 m de D+ au départ de Kirkby Lonsdale, enchaîne sept sommets dans une logique skyrunning adaptée au gabarit britannique. Les Hardwolds 40, sur 47 miles dans le Yorkshire les 5 et 6 juillet, proposent un format plus roulant — paysages crayeux, villages anciens, pas de piège majeur. Trois épreuves, trois philosophies dans un rayon de 200 kilomètres.
+L'Ultra Beyond the Lune Skyline, 65 km et 2 000 m de D+ au départ de Kirkby Lonsdale, enchaîne sept sommets dans une logique skyrunning adaptée au gabarit britannique. Les Hardwolds 40, sur 47 miles dans le Yorkshire les 5 et 6 juillet, proposent un format plus roulant, paysages crayeux, villages anciens, pas de piège majeur. Trois épreuves, trois philosophies dans un rayon de 200 kilomètres.
 
 ## Les formats d'entrée et les laboratoires de pacing
 
-Le week-end recense aussi deux rendez-vous plus calibrés. L'ATW Odyssey 12-hour Run, à St. Neots le 5 juillet, propose une boucle trail en solo ou équipe sur douze heures — terrain idéal pour tester nutrition et gestion de rythme sans la contrainte logistique du point-à-point. Le Tittesworth 50k Ultra, disputé à Leek le 6 juillet, boucle 49 km dans les Staffordshire Peaks avec 1 485 m de D+, dans l'univers minéral des Roaches.
+Le week-end recense aussi deux rendez-vous plus calibrés. L'ATW Odyssey 12-hour Run, à St. Neots le 5 juillet, propose une boucle trail en solo ou équipe sur douze heures, terrain idéal pour tester nutrition et gestion de rythme sans la contrainte logistique du point-à-point. Le Tittesworth 50k Ultra, disputé à Leek le 6 juillet, boucle 49 km dans les Staffordshire Peaks avec 1 485 m de D+, dans l'univers minéral des Roaches.
 
-Ajoutez le Full Essex Way Ultra — 82 miles d'Epping à Harwich les 4 et 5 juillet, une Angleterre rurale reliée par chemins patrimoniaux — et le Serpent Trail Ultra, 100 km depuis Haslemere le 5 juillet le long des South Downs et vous obtenez une grille qui couvre tous les besoins d'un coureur : premier ultra, spécifique d'été, ou objectif majeur.
+Ajoutez le Full Essex Way Ultra, 82 miles d'Epping à Harwich les 4 et 5 juillet, une Angleterre rurale reliée par chemins patrimoniaux, et le Serpent Trail Ultra, 100 km depuis Haslemere le 5 juillet le long des South Downs et vous obtenez une grille qui couvre tous les besoins d'un coureur : premier ultra, spécifique d'été, ou objectif majeur.
 
 ## Ce que ce week-end dit de l'ultra en 2025
 

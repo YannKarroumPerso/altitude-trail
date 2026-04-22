@@ -40,7 +40,7 @@ Prolonger un contrat d'ambassadrice jusqu'en 2029, puis intégrer l'athlète au 
 
 ## Un renouvellement qui n'en est pas un
 
-La formule mérite qu'on s'y arrête. D'ordinaire, un renouvellement de contrat dans le trail professionnel s'étale sur deux ou trois saisons, indexé sur les résultats et la visibilité médiatique. Cinq ans, c'est une durée quasiment inconnue dans l'écosystème — à l'exception de quelques figures historiques du running sur route. Mais Salomon pousse plus loin : une fois Dauwalter retirée de la compétition, elle intégrera l'entreprise comme salariée à temps plein.
+La formule mérite qu'on s'y arrête. D'ordinaire, un renouvellement de contrat dans le trail professionnel s'étale sur deux ou trois saisons, indexé sur les résultats et la visibilité médiatique. Cinq ans, c'est une durée quasiment inconnue dans l'écosystème, à l'exception de quelques figures historiques du running sur route. Mais Salomon pousse plus loin : une fois Dauwalter retirée de la compétition, elle intégrera l'entreprise comme salariée à temps plein.
 
 ![Illustration Actualités](/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-1.jpg)
 
@@ -50,15 +50,15 @@ Le cas est rare. Dans le communiqué repris par Ultra Runner Magazine, le périm
 
 Retour en 2017. Dauwalter n'a alors ni palmarès international ni visibilité médiatique. Elle vient de la piste et du ski de fond, a quitté l'enseignement pour courir à plein temps. L'équipe Salomon US lui envoie quelques paires de chaussures et deux tenues. Dans le communiqué cité par Ultra Runner Magazine, elle rembobine : « En 2017, Salomon US a parié sur moi et m'a intégrée comme ambassadrice. Ils croyaient en moi et n'ont pas tiqué quand j'ai demandé des shorts homme. J'étais aux anges. »
 
-L'anecdote des shorts n'est pas un détail. C'est l'embryon d'une identité visuelle et, sept ans plus tard, d'une ligne produit. Cette même année 2017, Dauwalter gagne la Moab 240 au scratch — devant tous les hommes. La trajectoire était posée. « Qui aurait cru que ce serait le début d'une relation aussi particulière ? », ajoute-t-elle dans les propos rapportés par Ultra Runner Magazine.
+L'anecdote des shorts n'est pas un détail. C'est l'embryon d'une identité visuelle et, sept ans plus tard, d'une ligne produit. Cette même année 2017, Dauwalter gagne la Moab 240 au scratch, devant tous les hommes. La trajectoire était posée. « Qui aurait cru que ce serait le début d'une relation aussi particulière ? », ajoute-t-elle dans les propos rapportés par Ultra Runner Magazine.
 
 ## 2023, l'année qui change la grille de lecture
 
 Le palmarès accumulé est connu : Hardrock 100, Mount Fuji 100, Western States 100 avec le record féminin du parcours, UTMB, Grand Raid de la Réunion, Transgrancanaria, Ultra-Trail Cape Town, Tahoe 200. Plusieurs top 10 scratch, toutes catégories confondues. Mais c'est l'été 2023 qui fait bifurquer le récit.
 
-Remporter Western States fin juin, Hardrock trois semaines plus tard, puis l'UTMB fin août, aucun coureur — hommes et femmes confondus — ne l'avait jamais fait sur une même saison. Trois finales mondiales, trois géographies radicalement différentes (Sierra Nevada, San Juan du Colorado, massif du Mont-Blanc), trois formats d'ultra. Le Triple Crown version Dauwalter a fonctionné comme un accélérateur : il a délogé l'ultra-trail féminin du sous-chapitre où la presse généraliste le cantonnait.
+Remporter Western States fin juin, Hardrock trois semaines plus tard, puis l'UTMB fin août, aucun coureur, hommes et femmes confondus, ne l'avait jamais fait sur une même saison. Trois finales mondiales, trois géographies radicalement différentes (Sierra Nevada, San Juan du Colorado, massif du Mont-Blanc), trois formats d'ultra. Le Triple Crown version Dauwalter a fonctionné comme un accélérateur : il a délogé l'ultra-trail féminin du sous-chapitre où la presse généraliste le cantonnait.
 
-2024 a confirmé la régularité : 3e scratch à la Mount Fuji 100, 4e à Hardrock, 2e à l'Ultra Trail Metropole Nice Côte d'Azur 100 — et victoire féminine à chaque fois. Pour 2025, Ultra Runner Magazine liste trois rendez-vous : Cocodona 250 en mai, Lavaredo 120K en juin, UTMB en août. Un enchaînement qui laisse peu de place à l'improvisation.
+2024 a confirmé la régularité : 3e scratch à la Mount Fuji 100, 4e à Hardrock, 2e à l'Ultra Trail Metropole Nice Côte d'Azur 100, et victoire féminine à chaque fois. Pour 2025, Ultra Runner Magazine liste trois rendez-vous : Cocodona 250 en mai, Lavaredo 120K en juin, UTMB en août. Un enchaînement qui laisse peu de place à l'improvisation.
 
 ![Illustration Actualités](/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-2.jpg)
 
@@ -68,7 +68,7 @@ En 2022, Salomon a lancé la collection « Shortney », clin d'œil à ses short
 
 Derrière l'exercice marketing, un mouvement plus structurel. « Courtney est une source d'inspiration constante pour nos équipes produit et marketing », commente Scott Mellin, directeur global de la marque Salomon, dans les propos rapportés par le magazine britannique. « Elle a contribué à des collaborations uniques, tant sur l'apparel que sur la chaussure. » Ce n'est pas de la prose corporate : la Genesis, chaussure hybride entre course et long ultra, est devenue l'une des pièces les plus vendues du catalogue trail de la marque. Son alignement quasi total sur les préférences de Dauwalter en dit long sur le rôle joué par l'athlète dans le développement.
 
-Cette logique rapproche Salomon de modèles bien rodés ailleurs dans le sport — pensons au lien entre Nike et quelques-uns de ses athlètes signature sur la route, où la co-conception est devenue un argument de vente assumé. Dans le trail, encore balkanisé entre petites marques techniques et géants généralistes, l'approche reste rare.
+Cette logique rapproche Salomon de modèles bien rodés ailleurs dans le sport, pensons au lien entre Nike et quelques-uns de ses athlètes signature sur la route, où la co-conception est devenue un argument de vente assumé. Dans le trail, encore balkanisé entre petites marques techniques et géants généralistes, l'approche reste rare.
 
 ## La sortie de carrière, angle mort du trail professionnel
 
@@ -76,10 +76,10 @@ C'est sans doute là que l'annonce compte le plus. Le trail d'élite a grandi si
 
 Dauwalter, elle, annonce selon Ultra Runner Magazine vouloir courir « encore quelques années » avant d'intégrer Salomon comme salariée. Le cadre est posé, la trajectoire sécurisée. « Les sept dernières années passées avec Courtney ont été extrêmement riches pour Salomon », explique Scott Mellin cité par le magazine. « Elle possède l'un des plus beaux palmarès de l'histoire du trail, avec ce fameux Triple Crown jamais réalisé auparavant et plusieurs records de parcours. »
 
-La manœuvre institutionnalise une transition qui, jusqu'ici, se négociait au cas par cas. Pour les athlètes d'élite encore en activité, elle envoie un message : il est possible de passer de la pain cave — cet espace mental de souffrance que Dauwalter a popularisé — au siège d'Annecy.
+La manœuvre institutionnalise une transition qui, jusqu'ici, se négociait au cas par cas. Pour les athlètes d'élite encore en activité, elle envoie un message : il est possible de passer de la pain cave, cet espace mental de souffrance que Dauwalter a popularisé, au siège d'Annecy.
 
 ## Ce que l'épisode dit de l'état du trail
 
-Il y a sept ans, Salomon US glissait deux tenues dans un carton pour une outsider. Aujourd'hui, la marque verrouille cinq saisons supplémentaires et esquisse l'après. Cette verticalité — du sponsoring à l'intégration salariale — est la marque d'un sport en cours de professionnalisation accélérée. Le trail n'est plus le cousin baroudeur du running sur route : il produit ses propres carrières, ses propres modèles économiques, ses propres formes de loyauté.
+Il y a sept ans, Salomon US glissait deux tenues dans un carton pour une outsider. Aujourd'hui, la marque verrouille cinq saisons supplémentaires et esquisse l'après. Cette verticalité, du sponsoring à l'intégration salariale, est la marque d'un sport en cours de professionnalisation accélérée. Le trail n'est plus le cousin baroudeur du running sur route : il produit ses propres carrières, ses propres modèles économiques, ses propres formes de loyauté.
 
-Reste une ambiguïté. En s'attachant Dauwalter aussi profondément et aussi longtemps, Salomon capitalise sur une singularité — shorts flottants, sourire désarmant, franchise revendiquée — qui, par définition, ne se reproduit pas. Le risque est là : confondre une athlète et une formule. La prochaine génération n'aura ni le même parcours ni la même aura. Ce que l'industrie trail cherche, au fond, derrière cette annonce, c'est peut-être moins un mentor qu'un prototype de carrière longue. Et ça, c'est une autre course.
+Reste une ambiguïté. En s'attachant Dauwalter aussi profondément et aussi longtemps, Salomon capitalise sur une singularité, shorts flottants, sourire désarmant, franchise revendiquée, qui, par définition, ne se reproduit pas. Le risque est là : confondre une athlète et une formule. La prochaine génération n'aura ni le même parcours ni la même aura. Ce que l'industrie trail cherche, au fond, derrière cette annonce, c'est peut-être moins un mentor qu'un prototype de carrière longue. Et ça, c'est une autre course.

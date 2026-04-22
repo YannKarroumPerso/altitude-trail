@@ -63,9 +63,9 @@ En trail, pour trouver un saut comparable dans l'histoire d'une discipline, il f
 
 ## Le LiDAR, pas la VMA
 
-Comment Lightning a-t-il accompli cela ? Gabe Joyes note avec humour que le robot n'a "pratiquement ni yeux, ni tête, ni mains". À la place, selon les observations rapportées par iRunFar, un capteur LiDAR — Light Detection and Ranging — remplace ce qui ferait office de visage. La même technologie qui équipe aujourd'hui les véhicules autonomes pour cartographier en continu l'environnement.
+Comment Lightning a-t-il accompli cela ? Gabe Joyes note avec humour que le robot n'a "pratiquement ni yeux, ni tête, ni mains". À la place, selon les observations rapportées par iRunFar, un capteur LiDAR, Light Detection and Ranging, remplace ce qui ferait office de visage. La même technologie qui équipe aujourd'hui les véhicules autonomes pour cartographier en continu l'environnement.
 
-Le représentant de Honor, en conférence de presse après la course, a expliqué que l'entreprise ne fabrique des humanoïdes que depuis un an et que son travail a consisté à transférer des technologies issues d'autres pans de l'électronique grand public vers la robotique. C'est la clé : les gains de 2026 ne viennent pas d'innovations propres à la robotique humanoïde. Ils viennent de l'intégration de briques technologiques déjà matures — navigation autonome, perception spatiale, algorithmes de stabilisation — empruntées au smartphone et à la voiture autonome.
+Le représentant de Honor, en conférence de presse après la course, a expliqué que l'entreprise ne fabrique des humanoïdes que depuis un an et que son travail a consisté à transférer des technologies issues d'autres pans de l'électronique grand public vers la robotique. C'est la clé : les gains de 2026 ne viennent pas d'innovations propres à la robotique humanoïde. Ils viennent de l'intégration de briques technologiques déjà matures, navigation autonome, perception spatiale, algorithmes de stabilisation, empruntées au smartphone et à la voiture autonome.
 
 ![A wide shot of Beijing E-Town Half Marathon start line with human runners and humanoid robots lined up on parallel lanes](/articles/human-half-marathon-world-record-zapped-by-humanoid-robot-at-the-2026-beijing-e--2.jpg)
 
@@ -79,7 +79,7 @@ Mais l'argument "le trail est trop complexe pour les robots" rappelle dangereuse
 
 ## La tentation de la contre-offensive technologique
 
-Gabe Joyes, avec ironie, suggère dans son article pour iRunFar que l'humain devra peut-être envisager des "stratégies d'allègement extrêmes pouvant ou non passer par la case chirurgien". Il évoque aussi le Project Amplify de Nike — un système de chaussures à assistance électrique — et les exosquelettes développés par Hypershell. Ce n'est plus totalement une blague.
+Gabe Joyes, avec ironie, suggère dans son article pour iRunFar que l'humain devra peut-être envisager des "stratégies d'allègement extrêmes pouvant ou non passer par la case chirurgien". Il évoque aussi le Project Amplify de Nike, un système de chaussures à assistance électrique, et les exosquelettes développés par Hypershell. Ce n'est plus totalement une blague.
 
 La question posée par Pékin 2026 dépasse la curiosité. Elle touche à la définition de ce qu'on appelle une performance. Le cyclisme a tranché, partiellement : les e-bikes existent, ils ont leur place, ils ne se mélangent pas aux épreuves chronométrées traditionnelles. La course à pied, elle, fait déjà face au débat des plaques carbone, des semelles à plus de 40 mm, des combinaisons. Que se passera-t-il quand un fabricant proposera des chaussures à assistance électrique semi-légale ?
 

@@ -36,7 +36,7 @@ Sept jours avant le départ, l'enjeu n'est plus de construire la forme mais de l
 
 ## La fin du vieux carbo-loading à la semaine
 
-Le protocole classique, popularisé par les études scandinaves des années 1960, imposait une phase de déplétion glucidique suivie d'une surcharge sur sept jours. Il fonctionnait, mais au prix d'une semaine de fatigue, d'irritabilité et de jambes lourdes. Les travaux plus récents, en particulier ceux de l'équipe australienne de Louise Burke à l'Institut australien du sport, ont démontré qu'une surcharge courte — 36 à 48 heures à 10 g/kg/jour environ — saturait tout aussi efficacement les stocks de glycogène musculaire et hépatique.
+Le protocole classique, popularisé par les études scandinaves des années 1960, imposait une phase de déplétion glucidique suivie d'une surcharge sur sept jours. Il fonctionnait, mais au prix d'une semaine de fatigue, d'irritabilité et de jambes lourdes. Les travaux plus récents, en particulier ceux de l'équipe australienne de Louise Burke à l'Institut australien du sport, ont démontré qu'une surcharge courte, 36 à 48 heures à 10 g/kg/jour environ, saturait tout aussi efficacement les stocks de glycogène musculaire et hépatique.
 
 ![Illustration Nutrition](/articles/nutrition-avant-course-semaine-qui-precede-ultra-1.jpg)
 
@@ -46,7 +46,7 @@ Le corollaire, souvent ignoré, c'est le tapering. Réduire le volume d'entraîn
 
 ## L'hydratation, entre vigilance et paranoïa
 
-Se présenter déshydraté sur un [ultra](https://www.altitude-trail.fr/articles/cafeine-ultra-trail-dosage-vigilance-nocturne) est une faute. S'hyperhydrater dans les 48 heures qui précèdent en est une autre, plus pernicieuse, qui peut ouvrir la voie à une hyponatrémie de dilution — une des causes majeures d'hospitalisation en ultra d'endurance selon les données publiées par la *Wilderness Medical Society*.
+Se présenter déshydraté sur un [ultra](https://www.altitude-trail.fr/articles/cafeine-ultra-trail-dosage-vigilance-nocturne) est une faute. S'hyperhydrater dans les 48 heures qui précèdent en est une autre, plus pernicieuse, qui peut ouvrir la voie à une hyponatrémie de dilution, une des causes majeures d'hospitalisation en ultra d'endurance selon les données publiées par la *Wilderness Medical Society*.
 
 La règle raisonnable : boire à sa soif, viser une urine jaune pâle (pas transparente), saler normalement son alimentation. Les protocoles de pré-charge sodée, populaires dans le triathlon longue distance, peuvent avoir un intérêt pour les gros sueurs ou les courses en forte chaleur, mais ils relèvent d'un accompagnement individualisé par un professionnel de santé ou un nutritionniste du sport. Pas d'improvisation la veille sur la base d'un post Instagram.
 
@@ -68,11 +68,11 @@ Le repas du soir J-1 cristallise toutes les angoisses. Il devrait au contraire �
 
 Le petit-déjeuner du matin se prend idéalement 3 à 4 heures avant le départ pour permettre une vidange gastrique complète. La littérature sur la nutrition pré-effort, synthétisée par l'*International Society of Sports Nutrition*, recommande 1 à 4 g de glucides par kilo à ce moment, avec un apport protéique modéré et peu de gras, peu de fibres.
 
-Les classiques fonctionnent : pain blanc beurre-miel, porridge avec banane et sirop d'érable, semoule au lait, pancakes simples. Un café si vous en buvez habituellement — jamais découvert le matin même. Et une hydratation modérée, 400 à 500 ml sur ces heures, pour ne pas forcer le premier pipi à 500 mètres du départ.
+Les classiques fonctionnent : pain blanc beurre-miel, porridge avec banane et sirop d'érable, semoule au lait, pancakes simples. Un café si vous en buvez habituellement, jamais découvert le matin même. Et une hydratation modérée, 400 à 500 ml sur ces heures, pour ne pas forcer le premier pipi à 500 mètres du départ.
 
 ## Les erreurs qui coûtent des heures
 
-Trois grands classiques ruinent des courses. Le régime drastique de dernière minute, parce qu'on se trouve « lourd » sur la photo de dossard. La nouveauté alimentaire testée sur l'aire d'accueil — un gel offert, un plat régional, une boisson inconnue. La sous-hydratation volontaire par peur du pipi-stop. Ces trois erreurs partagent une racine commune : l'anxiété de pré-course, qui pousse à modifier ce qui fonctionnait.
+Trois grands classiques ruinent des courses. Le régime drastique de dernière minute, parce qu'on se trouve « lourd » sur la photo de dossard. La nouveauté alimentaire testée sur l'aire d'accueil, un gel offert, un plat régional, une boisson inconnue. La sous-hydratation volontaire par peur du pipi-stop. Ces trois erreurs partagent une racine commune : l'anxiété de pré-course, qui pousse à modifier ce qui fonctionnait.
 
 Un principe simple les neutralise : la semaine avant un ultra, on ne change rien aux stratégies individuelles validées à l'entraînement, on se contente d'ajuster les volumes et de soigner la digestion. Pour toute situation particulière (diabète, troubles digestifs, régime spécifique), l'avis d'un médecin du sport ou d'un diététicien-nutritionniste reste incontournable.
 

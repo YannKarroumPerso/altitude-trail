@@ -54,9 +54,9 @@ Kilian Jornet et François D'Haene l'ont intégré depuis longtemps dans leur pr
 
 ## La chaîne postérieure, grande oubliée du traileur français
 
-La culture française du trail reste marquée par un biais aérobie. On parle VMA, seuil, dénivelé cumulé — rarement force maximale ou asymétrie de force. Résultat : des coureurs avec des ischio-jambiers sous-développés, des moyens fessiers paresseux et des soléaires incapables de soutenir une foulée économique après six heures.
+La culture française du trail reste marquée par un biais aérobie. On parle VMA, seuil, dénivelé cumulé, rarement force maximale ou asymétrie de force. Résultat : des coureurs avec des ischio-jambiers sous-développés, des moyens fessiers paresseux et des soléaires incapables de soutenir une foulée économique après six heures.
 
-Deux exercices règlent 80 % du problème. Le squat bulgare, d'abord, qui place l'essentiel de la charge sur une jambe et expose immédiatement les déséquilibres droite-gauche — fréquents chez le traileur qui a couru mille fois le même sentier dans le même sens. Charge progressive sur 6 à 8 répétitions, 3 à 4 séries, en cherchant une amplitude complète et un contrôle descendant lent.
+Deux exercices règlent 80 % du problème. Le squat bulgare, d'abord, qui place l'essentiel de la charge sur une jambe et expose immédiatement les déséquilibres droite-gauche, fréquents chez le traileur qui a couru mille fois le même sentier dans le même sens. Charge progressive sur 6 à 8 répétitions, 3 à 4 séries, en cherchant une amplitude complète et un contrôle descendant lent.
 
 Le soulevé de terre roumain unilatéral ensuite, qui cible les ischios et le moyen fessier dans une position proche de la foulée de montée. 8 à 10 répétitions par jambe, haltère ou kettlebell tenu du côté opposé à la jambe d'appui pour activer la sangle anti-rotation. C'est le mouvement qui, mieux que tout autre, verrouille le bassin des traileurs qui s'effondrent vers l'intérieur en fatigue.
 
@@ -66,7 +66,7 @@ La puissance du mollet et plus précisément du soléaire, conditionne directeme
 
 ![Illustration Entraînement & Performances](/articles/renforcement-musculaire-trail-exercices-cles-2.jpg)
 
-Le calf raise excentrique en descente de marche règle ce point. Montée sur deux jambes, descente lente sur une seule, sur trois à cinq secondes, amplitude maximale talon sous le niveau de la marche. 3 séries de 12 à 15 répétitions par jambe suffisent. C'est aussi, selon les recommandations de rééducation utilisées dans les manuels de médecine du sport type Brukner and Khan, le protocole de référence pour la prévention et la prise en charge des tendinopathies d'Achille — à adapter évidemment avec un professionnel de santé en cas de douleur.
+Le calf raise excentrique en descente de marche règle ce point. Montée sur deux jambes, descente lente sur une seule, sur trois à cinq secondes, amplitude maximale talon sous le niveau de la marche. 3 séries de 12 à 15 répétitions par jambe suffisent. C'est aussi, selon les recommandations de rééducation utilisées dans les manuels de médecine du sport type Brukner and Khan, le protocole de référence pour la prévention et la prise en charge des tendinopathies d'Achille, à adapter évidemment avec un professionnel de santé en cas de douleur.
 
 L'élévation unilatérale sur marche haute complète le tableau en travaillant simultanément le quadriceps en extension complète, le moyen fessier stabilisateur et le pied proprioceptif. À faire lentement, sans élan, sans triche.
 
@@ -84,4 +84,4 @@ En période spécifique, six à huit semaines avant la course cible, on bascule 
 
 ## Ce que révèle le retard français
 
-La musculation reste, dans l'imaginaire de beaucoup de traileurs, un truc de coureurs sur piste ou de cyclistes. C'est une erreur culturelle qui coûte cher. Quand les meilleurs mondiaux passent deux à trois heures par semaine à soulever de la fonte, le traileur amateur français préfère souvent ajouter une sortie longue de plus et se plaindre de ses descentes. Le trail français produit des athlètes formidables, mais il reste handicapé par ce biais aérobie. Les jeunes coureurs qui émergent — ceux qui ont grandi avec une culture de la préparation athlétique intégrée — changent la donne. Pour les autres, il n'est jamais trop tard. Deux séances par semaine, six exercices, trois mois. Le corps répond toujours, à condition qu'on lui demande vraiment quelque chose.
+La musculation reste, dans l'imaginaire de beaucoup de traileurs, un truc de coureurs sur piste ou de cyclistes. C'est une erreur culturelle qui coûte cher. Quand les meilleurs mondiaux passent deux à trois heures par semaine à soulever de la fonte, le traileur amateur français préfère souvent ajouter une sortie longue de plus et se plaindre de ses descentes. Le trail français produit des athlètes formidables, mais il reste handicapé par ce biais aérobie. Les jeunes coureurs qui émergent, ceux qui ont grandi avec une culture de la préparation athlétique intégrée, changent la donne. Pour les autres, il n'est jamais trop tard. Deux séances par semaine, six exercices, trois mois. Le corps répond toujours, à condition qu'on lui demande vraiment quelque chose.

@@ -54,7 +54,7 @@ La répartition en course oscille autour de 80 % glucides, 15 % lipides, 5 % pro
 
 ## La stratégie bâton : petits apports, métronome implacable
 
-La règle la plus sous-estimée en ultra tient en une phrase : ne jamais laisser passer 45 minutes sans manger. La vidange gastrique fonctionne par lots et une prise régulière toutes les 30 à 45 minutes maintient un flux stable sans saturer l'estomac. L'inverse — engloutir 600 kcal en dix minutes à un ravitaillement parce qu'on a sauté les deux précédents — est la recette classique du coup de barre digestif à l'heure suivante.
+La règle la plus sous-estimée en ultra tient en une phrase : ne jamais laisser passer 45 minutes sans manger. La vidange gastrique fonctionne par lots et une prise régulière toutes les 30 à 45 minutes maintient un flux stable sans saturer l'estomac. L'inverse, engloutir 600 kcal en dix minutes à un ravitaillement parce qu'on a sauté les deux précédents, est la recette classique du coup de barre digestif à l'heure suivante.
 
 Concrètement, cela impose un minutage. Montre qui bipe, gel pré-décapsulé dans la ceinture, bidon de boisson glucidique sur la bretelle. Les meilleurs, de Kilian Jornet à Courtney Dauwalter, insistent tous publiquement sur ce point : ils ne se fient pas à la sensation de faim, qui arrive trop tard, mais à une horloge interne entraînée à l'entraînement. La faim en course est déjà un signal d'alerte, pas de régulation.
 
@@ -62,7 +62,7 @@ Concrètement, cela impose un minutage. Montre qui bipe, gel pré-décapsulé da
 
 Les premières heures, le corps tolère presque tout. Gels, boissons d'effort, barres : la vidange gastrique fonctionne, le débit sanguin digestif reste correct. Passé six à huit heures, le tableau change. L'ischémie digestive induite par l'effort prolongé réduit la perfusion de la muqueuse intestinale de 50 à 80 % selon les données publiées dans l'American Journal of Physiology. Résultat : nausées, ballonnements, parfois diarrhées.
 
-La parade tient dans l'alternance. Quand le solide ne passe plus, on passe au liquide : boisson glucidique diluée, bouillon salé, compote à boire. Quand le sucré écœure — phénomène quasi universel après huit heures — on bascule vers le salé et le tiède. Les aliments qui fonctionnent à ce stade sont étonnamment simples : purée de pommes de terre, riz au lait, bouillon de volaille, banane bien mûre, morceau de fromage, biscuit sec. Des textures familières, réconfortantes, proches de ce que l'on mangerait malade. Ce n'est pas un hasard : l'intestin en souffrance réclame ce qu'il connaît.
+La parade tient dans l'alternance. Quand le solide ne passe plus, on passe au liquide : boisson glucidique diluée, bouillon salé, compote à boire. Quand le sucré écœure, phénomène quasi universel après huit heures, on bascule vers le salé et le tiède. Les aliments qui fonctionnent à ce stade sont étonnamment simples : purée de pommes de terre, riz au lait, bouillon de volaille, banane bien mûre, morceau de fromage, biscuit sec. Des textures familières, réconfortantes, proches de ce que l'on mangerait malade. Ce n'est pas un hasard : l'intestin en souffrance réclame ce qu'il connaît.
 
 ![Illustration Nutrition](/articles/nutrition-ultra-plan-alimentaire-dix-heures-effort-2.jpg)
 
@@ -70,7 +70,7 @@ Les gros ravitaillements (tous les 25 à 40 km selon la course) sont les fenêtr
 
 ## Le sodium, variable oubliée et fracture thermique
 
-La déshydratation fait les gros titres, le sodium fait la différence. En conditions tempérées, 300 à 500 mg de sodium par heure suffisent. En chaleur — au-delà de 25 °C — il faut passer à 500, voire 1 000 mg/h selon la transpiration individuelle. Les études sur les ultramarathons de désert montrent des pertes sudorales dépassant 1,5 g de sodium par heure chez les gros transpirants.
+La déshydratation fait les gros titres, le sodium fait la différence. En conditions tempérées, 300 à 500 mg de sodium par heure suffisent. En chaleur, au-delà de 25 °C, il faut passer à 500, voire 1 000 mg/h selon la transpiration individuelle. Les études sur les ultramarathons de désert montrent des pertes sudorales dépassant 1,5 g de sodium par heure chez les gros transpirants.
 
 Sous-doser le sodium, c'est la porte ouverte à l'hyponatrémie d'effort, rare mais sérieuse et surtout aux crampes, à la baisse de [vigilance](https://www.altitude-trail.fr/articles/cafeine-ultra-trail-dosage-vigilance-nocturne) et à la saturation hydrique (on boit, on boit et l'eau ne passe plus). Pastilles, bouillons, cacahuètes salées, chips aux ravitos : les vecteurs sont nombreux, encore faut-il les planifier. Un avis médical personnalisé reste indispensable pour les coureurs hypertendus ou sous traitement.
 
@@ -84,4 +84,4 @@ Enfin, l'improvisation face au dégoût. Quand le sucré passe mal, la plupart s
 
 ## Ce que l'ultra dit de notre rapport à la performance
 
-La nutrition d'ultra est le dernier territoire où l'artisanat bat la technologie. On peut avoir la meilleure montre, les chaussures carbone et le plan d'entraînement du monde : si on n'a pas appris à manger en courant, on reste un amateur de la distance. C'est aussi ce qui fait le charme de la discipline. Courir cent miles, c'est accepter d'être ramené à des gestes primitifs — avaler un bouillon dans la nuit, mâcher une banane trop mûre — qui relèvent moins du sport que de la survie. Les coureurs qui progressent le plus ne sont pas ceux qui trouvent le gel miracle. Ce sont ceux qui ont fait la paix avec leur intestin, qui écoutent ses signaux et qui ont construit, saison après saison, une partition alimentaire aussi personnelle qu'une foulée. Le reste, c'est du marketing.
+La nutrition d'ultra est le dernier territoire où l'artisanat bat la technologie. On peut avoir la meilleure montre, les chaussures carbone et le plan d'entraînement du monde : si on n'a pas appris à manger en courant, on reste un amateur de la distance. C'est aussi ce qui fait le charme de la discipline. Courir cent miles, c'est accepter d'être ramené à des gestes primitifs, avaler un bouillon dans la nuit, mâcher une banane trop mûre, qui relèvent moins du sport que de la survie. Les coureurs qui progressent le plus ne sont pas ceux qui trouvent le gel miracle. Ce sont ceux qui ont fait la paix avec leur intestin, qui écoutent ses signaux et qui ont construit, saison après saison, une partition alimentaire aussi personnelle qu'une foulée. Le reste, c'est du marketing.

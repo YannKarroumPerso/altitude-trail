@@ -51,7 +51,7 @@ La plupart des coureurs découvrent la prévention dans le sac, la veille du dé
 
 Le tannage à l'alcool camphré à 10 % reste la méthode de référence, validée empiriquement par des générations de militaires et de marcheurs au long cours. Appliqué matin et soir sur pieds propres et secs, il déshydrate la couche cornée superficielle et la rigidifie légèrement. L'effet n'a rien de magique : la peau [devient](https://www.altitude-trail.fr/articles/lombalgie-traileur-sac-hydratation-gestion-charge) moins perméable et tolère mieux le cisaillement. Certains préfèrent le thé noir concentré, dont les tanins agissent par voie similaire. À éviter chez les coureurs à peau sèche ou fissurée, chez qui l'effet peut se retourner.
 
-Le callotage mérite un mot. Pas l'ablation brutale à la râpe la veille du départ — une aberration qui expose un tissu neuf et fragile. Un lissage doux au nubuck ou à la pierre ponce, une à deux fois par semaine sur plusieurs mois, maintient une corne fonctionnelle sans hyperkératose. L'objectif : une peau épaisse mais souple, pas une carapace qui se décolle en bloc.
+Le callotage mérite un mot. Pas l'ablation brutale à la râpe la veille du départ, une aberration qui expose un tissu neuf et fragile. Un lissage doux au nubuck ou à la pierre ponce, une à deux fois par semaine sur plusieurs mois, maintient une corne fonctionnelle sans hyperkératose. L'objectif : une peau épaisse mais souple, pas une carapace qui se décolle en bloc.
 
 Le taping préventif complète l'arsenal pour les zones identifiées comme fragiles lors des sorties longues. Tape micropore ou Elastoplast fin, posé à plat sans tension, sur peau dégraissée. L'idée n'est pas de protéger la peau : c'est de reporter la friction sur le tape, qui glissera contre la chaussette plutôt que la peau contre elle-même.
 
@@ -61,7 +61,7 @@ Aucune préparation cutanée ne compense un matériel mal pensé. Les chaussette
 
 ![Illustration Blessures & Préventions](/articles/ampoules-frottements-ultra-prevention-gestion-2.jpg)
 
-La pointure mérite un audit honnête. Les pieds gonflent de trois à huit pour cent sur un 100 kilomètres, davantage en chaleur. Une chaussure parfaite au kilomètre 20 devient une presse à orteils au kilomètre 90. Une demi-pointure au-dessus de la pointure ville est la norme minimale en ultra ; une pointure complète est souvent plus juste. La coque talon, elle, doit verrouiller sans serrer — un laçage en nœud de chirurgien ou en boucle de blocage au dernier œillet change la donne.
+La pointure mérite un audit honnête. Les pieds gonflent de trois à huit pour cent sur un 100 kilomètres, davantage en chaleur. Une chaussure parfaite au kilomètre 20 devient une presse à orteils au kilomètre 90. Une demi-pointure au-dessus de la pointure ville est la norme minimale en ultra ; une pointure complète est souvent plus juste. La coque talon, elle, doit verrouiller sans serrer, un laçage en nœud de chirurgien ou en boucle de blocage au dernier œillet change la donne.
 
 ## Kit minimal et intervention aux ravitaillements
 
@@ -79,4 +79,4 @@ Les profils élites ne sont pas épargnés. Plusieurs récits publics de coureur
 
 ## Le point de vue
 
-La culture trail valorise la souffrance noble — les crampes du kilomètre 140, la lucidité qui vacille dans la nuit, l'estomac qui ferme. L'ampoule, elle, reste traitée comme une petite honte technique, preuve qu'on n'a pas su préparer ses pieds. C'est une erreur d'appréciation. Les meilleurs ultra-traileurs du monde soignent leurs pieds comme les cyclistes soignent leurs fessiers : avec une obsession méthodique, pas avec du stoïcisme. Investir trois semaines de tannage, deux paires de chaussettes de qualité et dix minutes de soin au kilomètre 70 n'est pas du confort. C'est de la performance pure. L'ampoule n'est jamais fatale, mais elle abîme la course — et la mémoire qu'on en garde. Pour tout problème cutané douloureux ou infecté, l'avis d'un professionnel de santé reste la seule option raisonnable.
+La culture trail valorise la souffrance noble, les crampes du kilomètre 140, la lucidité qui vacille dans la nuit, l'estomac qui ferme. L'ampoule, elle, reste traitée comme une petite honte technique, preuve qu'on n'a pas su préparer ses pieds. C'est une erreur d'appréciation. Les meilleurs ultra-traileurs du monde soignent leurs pieds comme les cyclistes soignent leurs fessiers : avec une obsession méthodique, pas avec du stoïcisme. Investir trois semaines de tannage, deux paires de chaussettes de qualité et dix minutes de soin au kilomètre 70 n'est pas du confort. C'est de la performance pure. L'ampoule n'est jamais fatale, mais elle abîme la course, et la mémoire qu'on en garde. Pour tout problème cutané douloureux ou infecté, l'avis d'un professionnel de santé reste la seule option raisonnable.

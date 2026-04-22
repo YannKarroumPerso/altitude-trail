@@ -45,13 +45,13 @@ La préparation mentale en [ultra](https://www.altitude-trail.fr/articles/plan-e
 
 ## Le chunking, ou comment rendre 170 km pensables
 
-Le cerveau humain n'est pas câblé pour se projeter sur 30 heures d'effort continu. Une méta-analyse récente parue dans le domaine de la psychologie de l'endurance a confirmé ce que les coureurs savent empiriquement : découper mentalement la course en sous-unités courtes réduit significativement la perception d'effort. C'est le chunking, découpage cognitif qui transforme l'UTMB en une succession de douze segments de ravito à ravito, plutôt qu'en un monolithe de 170 kilomètres et 10 000 mètres de dénivelé positif — l'équivalent de trente fois la tour Eiffel empilées.
+Le cerveau humain n'est pas câblé pour se projeter sur 30 heures d'effort continu. Une méta-analyse récente parue dans le domaine de la psychologie de l'endurance a confirmé ce que les coureurs savent empiriquement : découper mentalement la course en sous-unités courtes réduit significativement la perception d'effort. C'est le chunking, découpage cognitif qui transforme l'UTMB en une succession de douze segments de ravito à ravito, plutôt qu'en un monolithe de 170 kilomètres et 10 000 mètres de dénivelé positif, l'équivalent de trente fois la tour Eiffel empilées.
 
 ![Illustration Entraînement & Performances](/articles/preparation-mentale-ultra-gerer-nuit-douleur-bas-1.jpg)
 
 Chaque segment a ses propres règles : son objectif de boisson, sa gestion du terrain, son point d'arrivée. On ne court pas vers Chamonix. On court vers Les Contamines, puis vers la Balme, puis vers le Col du Bonhomme. Kilian Jornet évoque régulièrement cette technique dans ses prises de parole publiques : penser en blocs, jamais en totalité.
 
-La bascule psychologique est considérable. Un coureur qui en est à 80 kilomètres d'un format 170 pense qu'il lui en reste 90 — insurmontable. Le même coureur, qui se dit qu'il va d'abord jusqu'au prochain point d'eau à 7 kilomètres, redevient fonctionnel.
+La bascule psychologique est considérable. Un coureur qui en est à 80 kilomètres d'un format 170 pense qu'il lui en reste 90, insurmontable. Le même coureur, qui se dit qu'il va d'abord jusqu'au prochain point d'eau à 7 kilomètres, redevient fonctionnel.
 
 ## Ancrages et dialogue intérieur : la boîte à outils
 
@@ -59,7 +59,7 @@ Les psychologues du sport parlent d'ancrages cognitifs : un mot, une image, un v
 
 Ce n'est pas de la pensée positive naïve. C'est un protocole : préparer en amont, au calme, deux ou trois ancrages précis, les répéter en visualisation pendant les sorties longues, les déclencher en course au moment où le dialogue intérieur dérape. Le self-talk, documenté depuis plus de quinze ans dans la littérature en psychologie du sport, produit des effets mesurables sur la performance en endurance, à condition qu'il soit préparé et pas improvisé à 4 h du matin sous la pluie.
 
-La règle est simple : quand ça va mal, on ne cherche pas — on récite. Les ancrages doivent être disponibles sans effort cognitif, parce que le cortex préfrontal est le premier système à décrocher après vingt heures de course.
+La règle est simple : quand ça va mal, on ne cherche pas, on récite. Les ancrages doivent être disponibles sans effort cognitif, parce que le cortex préfrontal est le premier système à décrocher après vingt heures de course.
 
 ## Traverser un bas sans lutter contre lui
 
@@ -75,7 +75,7 @@ La lutte, elle, coûte cher. Accélérer pour « en finir » avec un passage dur
 
 La baisse de luminosité déclenche une cascade neuroendocrinienne. La mélatonine monte, la [vigilance](https://www.altitude-trail.fr/articles/cafeine-ultra-trail-dosage-vigilance-nocturne) chute, la perception visuelle se rétrécit au cône de la frontale. Entre 2 h et 5 h du matin, la température corporelle atteint son minimum circadien. C'est mécanique, ce n'est pas psychologique.
 
-La caféine reste l'outil principal, à doser. Les recommandations actuelles en nutrition sportive évoquent 3 à 6 mg par kilo de poids corporel réparti en prises de 50 à 100 mg toutes les deux à trois heures sur les phases nocturnes, plutôt qu'une bombe unique. Au-delà, les effets secondaires — tachycardie, troubles digestifs, anxiété — dépassent le bénéfice.
+La caféine reste l'outil principal, à doser. Les recommandations actuelles en nutrition sportive évoquent 3 à 6 mg par kilo de poids corporel réparti en prises de 50 à 100 mg toutes les deux à trois heures sur les phases nocturnes, plutôt qu'une bombe unique. Au-delà, les effets secondaires, tachycardie, troubles digestifs, anxiété, dépassent le bénéfice.
 
 La micro-sieste, 15 à 20 minutes maximum sur un ravito, est une option sérieuse en cas de somnolence installée. Au-delà, on entre en sommeil profond et le réveil est catastrophique. Ludovic Pommeret et d'autres finisheurs de Tor des Géants ont intégré ces fenêtres courtes comme des outils de course, pas comme des aveux de faiblesse. Tout avis personnalisé sur la caféine, notamment en cas d'antécédents cardiaques, relève d'un médecin du sport.
 
@@ -97,4 +97,4 @@ Les crews les plus efficaces ne discutent pas, ne négocient pas, n'interrogent 
 
 On a longtemps considéré la préparation mentale en trail comme un supplément d'âme, quelque chose qu'on improvise ou qu'on « a ou qu'on n'a pas ». Cette époque est révolue. Les meilleurs coureurs de la planète travaillent aujourd'hui avec des préparateurs mentaux au même titre qu'avec des préparateurs physiques et ce n'est plus un tabou.
 
-L'ultra a ceci de particulier qu'il expose brutalement la qualité de cette préparation invisible. On peut tricher sur beaucoup de choses en trail — pas sur les quatre dernières heures d'une 100 miles. L'enjeu culturel, pour la discipline, est d'arrêter de romantiser la souffrance brute et de reconnaître qu'un mental d'ultra se construit, techniquement, méthodiquement. La vraie dureté, c'est de préparer sa vulnérabilité avant qu'elle n'arrive. Pas de la nier.
+L'ultra a ceci de particulier qu'il expose brutalement la qualité de cette préparation invisible. On peut tricher sur beaucoup de choses en trail, pas sur les quatre dernières heures d'une 100 miles. L'enjeu culturel, pour la discipline, est d'arrêter de romantiser la souffrance brute et de reconnaître qu'un mental d'ultra se construit, techniquement, méthodiquement. La vraie dureté, c'est de préparer sa vulnérabilité avant qu'elle n'arrive. Pas de la nier.

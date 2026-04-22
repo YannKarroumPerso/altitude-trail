@@ -50,7 +50,7 @@ externalRefs:
 
 Une championne de Leadville, 177 kilomètres d'Himalaya, cinq jours de course, un roi commanditaire et une pancarte climat. Sur le papier, l'histoire parfaite. Sur le terrain, Clare Gallagher s'est fissurée dès la troisième étape.
 
-**Le Snowman Race, organisé en octobre au Bhoutan à l'invitation personnelle du roi Jigme Khesar Namgyel Wangchuck, 44 ans, a réuni seize coureurs — sept Bhoutanais, neuf étrangers — sur un itinéraire de trekking historique culminant à 17 896 pieds (5 455 m) au col de Gophu La. Parmi les invités : l'Américaine Clare Gallagher, vainqueure de la Leadville 100 en 2016, le Suisse Pascal Egli, mountain runner et glaciologue, et l'Américain Luke Nelson. Récit publié par Trail Runner Mag, dans lequel Gallagher raconte comment la course l'a brisée.**
+**Le Snowman Race, organisé en octobre au Bhoutan à l'invitation personnelle du roi Jigme Khesar Namgyel Wangchuck, 44 ans, a réuni seize coureurs, sept Bhoutanais, neuf étrangers, sur un itinéraire de trekking historique culminant à 17 896 pieds (5 455 m) au col de Gophu La. Parmi les invités : l'Américaine Clare Gallagher, vainqueure de la Leadville 100 en 2016, le Suisse Pascal Egli, mountain runner et glaciologue, et l'Américain Luke Nelson. Récit publié par Trail Runner Mag, dans lequel Gallagher raconte comment la course l'a brisée.**
 
 ## Un roi, un glacier et une idée improbable
 
@@ -66,7 +66,7 @@ Le Bhoutan est l'un des rares États au monde à avoir érigé le Bonheur Nation
 
 C'est un choix politique fort. Là où l'UTMB ou la Hardrock lèvent des droits d'inscription à trois ou quatre chiffres pour financer leur logistique, le Snowman Race est une invitation royale. La course n'est pas un produit, c'est un message diplomatique. Le trail running devient un instrument de soft power climatique.
 
-Les chiffres disent la densité du défi : 110 [miles](https://www.altitude-trail.fr/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de) (177 km) en cinq étapes, un parcours où la troisième journée à elle seule annonce 23 miles (37 km) et 6 500 pieds (1 980 m) de dénivelé positif. Le col de Gophu La, à 5 455 m, dépasse de plus de 700 mètres le point culminant de la Diagonale des Fous, et se situe à une altitude où la plupart des amateurs ne courent tout simplement pas — ils marchent.
+Les chiffres disent la densité du défi : 110 [miles](https://www.altitude-trail.fr/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de) (177 km) en cinq étapes, un parcours où la troisième journée à elle seule annonce 23 miles (37 km) et 6 500 pieds (1 980 m) de dénivelé positif. Le col de Gophu La, à 5 455 m, dépasse de plus de 700 mètres le point culminant de la Diagonale des Fous, et se situe à une altitude où la plupart des amateurs ne courent tout simplement pas, ils marchent.
 
 ## L'altitude ne lit pas les palmarès
 
@@ -80,7 +80,7 @@ C'est une leçon que le trail réapprend à chaque génération. Killian Jornet 
 
 Le Snowman Race appartient à une catégorie singulière : l'ultra non-rapatriable. Gallagher le rappelle sèchement : « Ce n'était pas une course de trail ordinaire où l'on peut abandonner au prochain ravitaillement. La route la plus proche est à cinq jours de marche. La seule option d'évacuation : un hélicoptère de secours à environ 6 miles de l'étape du jour. »
 
-On pense immédiatement à la Barkley, où l'abandon est mécaniquement simple mais psychologiquement impossible. Au Snowman, c'est l'inverse : abandonner signifie mobiliser un hélicoptère, un pilote, mettre potentiellement en danger le staff. Pascal Egli, selon le récit, hésite précisément pour cette raison — ses genoux blessés le torturent, mais engager un sauvetage lui pèse moralement.
+On pense immédiatement à la Barkley, où l'abandon est mécaniquement simple mais psychologiquement impossible. Au Snowman, c'est l'inverse : abandonner signifie mobiliser un hélicoptère, un pilote, mettre potentiellement en danger le staff. Pascal Egli, selon le récit, hésite précisément pour cette raison, ses genoux blessés le torturent, mais engager un sauvetage lui pèse moralement.
 
 Ce format change la nature psychique de la course. Il n'y a plus de sortie honorable. On termine, ou on devient un problème logistique pour une nation entière. Ce n'est plus de l'ultra-endurance, c'est de l'expédition.
 
@@ -88,4 +88,4 @@ Ce format change la nature psychique de la course. Il n'y a plus de sortie honor
 
 L'invitation du roi bhoutanais n'est pas un gadget. Elle institutionnalise une intuition que le milieu du trail martèle depuis dix ans : nos terrains de jeu sont les premiers témoins de l'effondrement climatique. Glaciers qui reculent, névés qui disparaissent, cols qui s'ouvrent trop tôt. Courir en haute montagne devient, de fait, un acte d'observation.
 
-Mais l'épisode Gallagher vient tempérer l'optimisme ambassadorial. Quand une vainqueure de Leadville — profil solide en altitude, bâti par les Rocheuses — se fait broyer par l'Himalaya oriental, la question n'est plus seulement environnementale. Elle devient éthique. À quel point peut-on instrumentaliser un sport pour un message, aussi juste soit-il, avant que le message lui-même ne masque les limites humaines ? Le Bhoutan a choisi les traileurs comme porte-voix. Encore faut-il que les porte-voix survivent à la cathédrale.
+Mais l'épisode Gallagher vient tempérer l'optimisme ambassadorial. Quand une vainqueure de Leadville, profil solide en altitude, bâti par les Rocheuses, se fait broyer par l'Himalaya oriental, la question n'est plus seulement environnementale. Elle devient éthique. À quel point peut-on instrumentaliser un sport pour un message, aussi juste soit-il, avant que le message lui-même ne masque les limites humaines ? Le Bhoutan a choisi les traileurs comme porte-voix. Encore faut-il que les porte-voix survivent à la cathédrale.

@@ -42,13 +42,13 @@ externalRefs:
       nocturne
 ---
 
-Une consigne de matériel qui tient en deux mots — « mode rouge » — et qui déclenche un débat bien plus vaste sur ce qu'est devenue l'écologie dans le trail de masse. L'[UTMB](https://www.altitude-trail.fr/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb) impose, u-Trail interroge. Le vrai sujet n'est pas la lampe.
+Une consigne de matériel qui tient en deux mots, « mode rouge », et qui déclenche un débat bien plus vaste sur ce qu'est devenue l'écologie dans le trail de masse. L'[UTMB](https://www.altitude-trail.fr/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb) impose, u-Trail interroge. Le vrai sujet n'est pas la lampe.
 
-**L'organisation de l'Ultra-Trail du Mont-Blanc a rendu obligatoire l'utilisation du mode lumière rouge sur les frontales, pour limiter l'impact des passages nocturnes sur la faune sauvage. La mesure, relayée par le média spécialisé u-Trail dans un article au titre explicite — « Ecologie de façade » —, est présentée comme utile pour la biodiversité, mais suscite un questionnement de fond : le geste est-il proportionné à l'empreinte réelle d'un événement qui rassemble plusieurs milliers de coureurs et bien davantage de spectateurs autour de Chamonix chaque fin août ? u-Trail pose la question sans accuser, mais sans naïveté non plus.**
+**L'organisation de l'Ultra-Trail du Mont-Blanc a rendu obligatoire l'utilisation du mode lumière rouge sur les frontales, pour limiter l'impact des passages nocturnes sur la faune sauvage. La mesure, relayée par le média spécialisé u-Trail dans un article au titre explicite, « Ecologie de façade », est présentée comme utile pour la biodiversité, mais suscite un questionnement de fond : le geste est-il proportionné à l'empreinte réelle d'un événement qui rassemble plusieurs milliers de coureurs et bien davantage de spectateurs autour de Chamonix chaque fin août ? u-Trail pose la question sans accuser, mais sans naïveté non plus.**
 
 ## Ce que dit la mesure, ce qu'elle ne dit pas
 
-Le principe est simple. La lumière blanche intense des frontales modernes perturbe les animaux nocturnes — insectes, chiroptères, petits mammifères, rapaces nocturnes — dont la vision et les comportements sont calibrés pour l'obscurité. Le spectre rouge, moins énergétique, reste largement invisible pour une grande partie de la faune sauvage. L'argumentaire scientifique est connu des astronomes amateurs depuis des décennies ; il arrive aujourd'hui sur les sentiers.
+Le principe est simple. La lumière blanche intense des frontales modernes perturbe les animaux nocturnes, insectes, chiroptères, petits mammifères, rapaces nocturnes, dont la vision et les comportements sont calibrés pour l'obscurité. Le spectre rouge, moins énergétique, reste largement invisible pour une grande partie de la faune sauvage. L'argumentaire scientifique est connu des astronomes amateurs depuis des décennies ; il arrive aujourd'hui sur les sentiers.
 
 ![Trail runner ascending a rocky dirt singletrack at night, headlamp in red mode casting crimson glow, summer forest](/articles/ecologie-de-facade-lampe-rouge-utmb-v3-1.jpg)
 
@@ -56,7 +56,7 @@ Sur le papier, c'est donc une bonne idée. u-Trail ne conteste pas le principe. 
 
 ## Le problème de proportion que pose u-Trail
 
-L'expression « écologie de façade » utilisée par u-Trail n'est pas une accusation directe contre l'organisation. C'est un outil analytique. Elle désigne le décalage potentiel entre une mesure visible — facile à communiquer, facile à contrôler au sac — et son impact réel mesurable sur l'environnement.
+L'expression « écologie de façade » utilisée par u-Trail n'est pas une accusation directe contre l'organisation. C'est un outil analytique. Elle désigne le décalage potentiel entre une mesure visible, facile à communiquer, facile à contrôler au sac, et son impact réel mesurable sur l'environnement.
 
 Le raisonnement est imparable. Sur une course comme l'UTMB, le bilan carbone et écologique est d'abord dominé par les déplacements : coureurs venant des cinq continents, accompagnants, staff, médias, partenaires. Ensuite par l'empreinte matérielle : production de textiles techniques, équipements renouvelés, goodies, ravitaillements. Puis par la pression sur des sentiers déjà saturés et sur des vallées alpines fragiles. Face à cet ensemble, le choix d'un spectre lumineux pèse combien, en termes absolus ?
 
@@ -82,7 +82,7 @@ L'article de u-Trail n'énonce pas ce programme. Il invite à le penser.
 
 ## Ne pas jeter la lampe avec l'eau du bain
 
-Reste qu'il serait injuste de conclure que la mesure est inutile. Elle l'est peut-être à l'échelle macro, mais elle a une valeur pédagogique. Des milliers de coureurs vont découvrir, obligation oblige, que leur frontale dispose d'un mode rouge — et pourquoi. Cette sensibilisation de masse à la pollution lumineuse n'est pas rien. Elle peut irriguer les pratiques individuelles bien au-delà du dernier week-end d'août à Chamonix.
+Reste qu'il serait injuste de conclure que la mesure est inutile. Elle l'est peut-être à l'échelle macro, mais elle a une valeur pédagogique. Des milliers de coureurs vont découvrir, obligation oblige, que leur frontale dispose d'un mode rouge, et pourquoi. Cette sensibilisation de masse à la pollution lumineuse n'est pas rien. Elle peut irriguer les pratiques individuelles bien au-delà du dernier week-end d'août à Chamonix.
 
 On peut défendre la mesure comme premier pas, à condition de ne pas la présenter comme un aboutissement. C'est exactement la frontière que u-Trail pointe.
 
@@ -90,4 +90,4 @@ On peut défendre la mesure comme premier pas, à condition de ne pas la présen
 
 Ce qui rend l'article de u-Trail intéressant dépasse l'UTMB. Le trail mondial est entré dans la phase où ses propres médias spécialisés commencent à questionner, publiquement, les récits que l'industrie se raconte. Il y a dix ans, une mesure « verte » d'un grand organisateur aurait été relayée sans nuance. Aujourd'hui, elle est prise au mot et confrontée à ses implications réelles.
 
-C'est sain. Un sport qui ne sait plus s'auto-critiquer devient un produit. L'UTMB peut — et doit — être tenu à une exigence supérieure, précisément parce qu'il est devenu la vitrine planétaire de la discipline. Le mode rouge, à lui seul, ne sauvera ni les chouettes hulottes ni le glacier des Bossons. Mais un écosystème médiatique qui refuse de confondre signalétique et action environnementale, lui, peut faire bouger les lignes. La prochaine mesure attendue ne sera pas sur les frontales. Elle sera sur le nombre de dossards, sur les déplacements, sur le modèle. Et là, il n'y aura plus de filtre pour adoucir la lumière.
+C'est sain. Un sport qui ne sait plus s'auto-critiquer devient un produit. L'UTMB peut, et doit, être tenu à une exigence supérieure, précisément parce qu'il est devenu la vitrine planétaire de la discipline. Le mode rouge, à lui seul, ne sauvera ni les chouettes hulottes ni le glacier des Bossons. Mais un écosystème médiatique qui refuse de confondre signalétique et action environnementale, lui, peut faire bouger les lignes. La prochaine mesure attendue ne sera pas sur les frontales. Elle sera sur le nombre de dossards, sur les déplacements, sur le modèle. Et là, il n'y aura plus de filtre pour adoucir la lumière.

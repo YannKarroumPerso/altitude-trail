@@ -34,7 +34,7 @@ externalRefs:
     label: Trail Runner Magazine – Guides pratiques nutrition sur ultra-distance
 ---
 
-Le mur du kilomètre 40 n'est presque jamais musculaire. C'est presque toujours métabolique. Le coureur qui explose sur un 80 km n'a pas "les jambes qui lâchent" — son cerveau n'a plus de carburant, son estomac refuse tout, et son système nerveux central baisse le rideau. La nutrition sur ultra, c'est 60 % de la performance. Pas un détail à régler la veille.
+Le mur du kilomètre 40 n'est presque jamais musculaire. C'est presque toujours métabolique. Le coureur qui explose sur un 80 km n'a pas "les jambes qui lâchent", son cerveau n'a plus de carburant, son estomac refuse tout, et son système nerveux central baisse le rideau. La nutrition sur ultra, c'est 60 % de la performance. Pas un détail à régler la veille.
 
 
 
@@ -42,7 +42,7 @@ Le mur du kilomètre 40 n'est presque jamais musculaire. C'est presque toujours 
 
 ## La règle des 60 à 90 grammes de glucides par heure
 
-La donnée scientifique la plus solide en nutrition d'endurance, c'est le débit maximal d'oxydation des [glucides](https://www.altitude-trail.fr/articles/glucides-trail-combien-quand-quelle-forme) exogènes. Un coureur moyen absorbe environ **60 g de glucides par heure**. Un coureur dont l'appareil digestif est entraîné peut monter jusqu'à **90 g/h**, à condition de mélanger deux types de sucres — typiquement glucose + fructose en ratio 2:1 — qui empruntent des voies d'absorption différentes dans l'intestin grêle.
+La donnée scientifique la plus solide en nutrition d'endurance, c'est le débit maximal d'oxydation des [glucides](https://www.altitude-trail.fr/articles/glucides-trail-combien-quand-quelle-forme) exogènes. Un coureur moyen absorbe environ **60 g de glucides par heure**. Un coureur dont l'appareil digestif est entraîné peut monter jusqu'à **90 g/h**, à condition de mélanger deux types de sucres, typiquement glucose + fructose en ratio 2:1, qui empruntent des voies d'absorption différentes dans l'intestin grêle.
 
 Concrètement, sur un ultra de 12 heures, c'est **720 à 1080 kcal de glucides par heure**. À comparer aux gels trail classiques (22 à 30 g de glucides chacun), ça donne **2 à 3 gels par heure**, ou l'équivalent en boisson énergétique, ou un mix solide/liquide.
 
@@ -60,7 +60,7 @@ Concrètement, choisis une marque (gels, boissons, barres) et teste-la **sur tou
 
 Sur les courses courtes (moins de 4h), les gels et liquides suffisent et sont même préférables pour la vitesse d'absorption. Au-delà, c'est l'inverse : le cerveau et l'estomac réclament du solide.
 
-Après 4 à 6 heures d'effort, le goût sucré des gels devient insupportable. C'est un réflexe de saturation hédonique — ton système nerveux refuse le sucré et cherche des textures, des saveurs salées, gras. C'est là qu'interviennent :
+Après 4 à 6 heures d'effort, le goût sucré des gels devient insupportable. C'est un réflexe de saturation hédonique, ton système nerveux refuse le sucré et cherche des textures, des saveurs salées, gras. C'est là qu'interviennent :
 
 - **Les purées salées** : pomme de terre écrasée avec sel, bouillon chaud, semoule
 - **Les barres solides** : mélange glucides complexes + noix + fruits secs
@@ -73,18 +73,18 @@ Les meilleurs ultra-finishers alternent **solides + liquides + gels** tout au lo
 
 La nausée en ultra a trois causes principales, dans l'ordre :
 1. **Déshydratation** couplée à trop de sucre concentré
-2. **Ischémie digestive** — le sang est détourné vers les muscles, l'estomac ralentit
-3. **Effort anaérobie trop long** — l'acidose gastrique remonte
+2. **Ischémie digestive**, le sang est détourné vers les muscles, l'estomac ralentit
+3. **Effort anaérobie trop long**, l'acidose gastrique remonte
 
 Ce qui marche, dans l'ordre :
 
-- **Ralentir le rythme pendant 10-15 minutes** — l'estomac a besoin de sang pour digérer
-- **Passer sur du salé immédiatement** — le sucré alimente la nausée
-- **Boire de l'eau gazeuse** en petites gorgées — les bulles aident mécaniquement
-- **Gingembre** — soit en pastille, soit en infusion préparée à l'avance
-- **Coca dégazéifié** — combinaison caféine + sucre + réconfort psychologique
+- **Ralentir le rythme pendant 10-15 minutes**, l'estomac a besoin de sang pour digérer
+- **Passer sur du salé immédiatement**, le sucré alimente la nausée
+- **Boire de l'eau gazeuse** en petites gorgées, les bulles aident mécaniquement
+- **Gingembre**, soit en pastille, soit en infusion préparée à l'avance
+- **Coca dégazéifié**, combinaison caféine + sucre + réconfort psychologique
 
-Ce qui ne marche pas : forcer. Si tu tentes d'avaler un gel de plus alors que ton estomac est en ischémie, tu provoques le vomissement — et tu perds non seulement le gel, mais aussi tout ce qui restait dedans.
+Ce qui ne marche pas : forcer. Si tu tentes d'avaler un gel de plus alors que ton estomac est en ischémie, tu provoques le vomissement, et tu perds non seulement le gel, mais aussi tout ce qui restait dedans.
 
 ## La stratégie d'une course de 100 km, heure par heure
 

@@ -43,7 +43,7 @@ externalRefs:
 
 Vingt ans dans le [running](https://www.altitude-trail.fr/articles/scott-running-team-2026-la-releve-frappe-a-la-porte), c'est l'âge auquel une marque cesse d'être un nouvel entrant pour devenir un acteur installé. SCOTT a choisi la Val di Sole pour marquer le coup. Derrière les jus de pomme et les sessions d'essai, une question : que vend-on vraiment quand on vend une chaussure de trail en 2026 ?
 
-La scène se passe à Terzolas, village trentin niché entre le massif de Brenta et le parc de l'Adamello. Comme l'a rapporté **Corsa in Montagna**, le média italien convié à l'événement, SCOTT Italia y a réuni pendant deux jours un cercle de médias spécialisés pour célébrer les vingt ans de son entrée dans la course à pied. Au programme : tests des nouvelles Kinabalu Trail et Kinabalu Ultra, présentation de la campagne de marque MY26 baptisée *Every line tells a story*, et tour d'horizon d'une maison fondée en 1958 par Ed Scott — à l'origine avec un bâton de ski révolutionnaire — qui pèse aujourd'hui 1 052 salariés et 20 000 points de vente dans le monde.
+La scène se passe à Terzolas, village trentin niché entre le massif de Brenta et le parc de l'Adamello. Comme l'a rapporté **Corsa in Montagna**, le média italien convié à l'événement, SCOTT Italia y a réuni pendant deux jours un cercle de médias spécialisés pour célébrer les vingt ans de son entrée dans la course à pied. Au programme : tests des nouvelles Kinabalu Trail et Kinabalu Ultra, présentation de la campagne de marque MY26 baptisée *Every line tells a story*, et tour d'horizon d'une maison fondée en 1958 par Ed Scott, à l'origine avec un bâton de ski révolutionnaire, qui pèse aujourd'hui 1 052 salariés et 20 000 points de vente dans le monde.
 
 ## Un anniversaire qui raconte la mue d'une marque de ski
 
@@ -57,11 +57,11 @@ Selon le récit rapporté par **Corsa in Montagna**, la [gamme](https://www.alti
 
 Deux produits ont été mis en avant pendant le press trip : la Kinabalu Trail et la Kinabalu Ultra. Le nom n'a pas été choisi au hasard. La Kinabalu, baptisée d'après le sommet malaisien et la course qui s'y déroule, est la ligne historique de SCOTT sur le trail. C'est elle qui a permis à la marque d'exister au pied des athlètes sponsorisés et dans les rayons des magasins spécialisés depuis plus d'une décennie.
 
-Proposer aujourd'hui une déclinaison *Ultra* de la même famille répond à une évolution de fond : l'explosion du segment ultra-distance. Là où le trail running des années 2010 se structurait autour de courses de 20 à 50 kilomètres, le marché mondial bascule vers les 80, 100, 160 kilomètres. La grille produit suit. Chaque marque majeure — HOKA avec les Mafate et Speedgoat, Salomon avec les S/LAB Ultra, La Sportiva avec les Prodigio — a désormais son shoe dédiée à l'effort prolongé. SCOTT n'échappe pas à la règle.
+Proposer aujourd'hui une déclinaison *Ultra* de la même famille répond à une évolution de fond : l'explosion du segment ultra-distance. Là où le trail running des années 2010 se structurait autour de courses de 20 à 50 kilomètres, le marché mondial bascule vers les 80, 100, 160 kilomètres. La grille produit suit. Chaque marque majeure, HOKA avec les Mafate et Speedgoat, Salomon avec les S/LAB Ultra, La Sportiva avec les Prodigio, a désormais son shoe dédiée à l'effort prolongé. SCOTT n'échappe pas à la règle.
 
 ## Un press trip comme objet éditorial à part entière
 
-Il faut dire les choses. Un voyage de presse organisé par une marque, avec ses équipes marketing, ses produits à tester et son territoire-décor, n'est pas un reportage neutre. **Corsa in Montagna** ne s'en cache d'ailleurs pas : le média italien rapporte une « expérience » plus qu'une enquête. La question n'est pas de juger cette forme — elle structure une bonne part de la production éditoriale trail, en Italie comme en France — mais de lire ce qu'elle produit.
+Il faut dire les choses. Un voyage de presse organisé par une marque, avec ses équipes marketing, ses produits à tester et son territoire-décor, n'est pas un reportage neutre. **Corsa in Montagna** ne s'en cache d'ailleurs pas : le média italien rapporte une « expérience » plus qu'une enquête. La question n'est pas de juger cette forme, elle structure une bonne part de la production éditoriale trail, en Italie comme en France, mais de lire ce qu'elle produit.
 
 ![Close-up of a new generation trail running shoe with aggressive lugged outsole on alpine rocky terrain, Brenta Dolomites](/articles/every-line-tells-a-story-due-giorni-nel-mondo-scott-running-in-val-di-sole-2.jpg)
 
@@ -75,7 +75,7 @@ Quand une marque organise un événement médias à cet endroit plutôt que dans
 
 ## Ce que vingt ans de running SCOTT nous disent du marché
 
-Prenons un peu de recul. 1 052 employés, 20 000 points de vente dans le monde, une présence sur cinq segments produits. Ces chiffres rappelés par **Corsa in Montagna** placent SCOTT dans le peloton des marques moyennes-supérieures — loin derrière les géants (Nike, Adidas, HOKA qui a dépassé les deux milliards de chiffre d'affaires), mais dans la catégorie des acteurs qui pèsent sur l'innovation et le récit.
+Prenons un peu de recul. 1 052 employés, 20 000 points de vente dans le monde, une présence sur cinq segments produits. Ces chiffres rappelés par **Corsa in Montagna** placent SCOTT dans le peloton des marques moyennes-supérieures, loin derrière les géants (Nike, Adidas, HOKA qui a dépassé les deux milliards de chiffre d'affaires), mais dans la catégorie des acteurs qui pèsent sur l'innovation et le récit.
 
 Vingt ans après son entrée dans le running, SCOTT n'est plus un outsider. Et c'est précisément là que l'épisode en Val di Sole devient révélateur. Il n'y a plus grand-chose à prouver techniquement : les Kinabalu roulent, les coureurs sponsorisés montent sur les podiums, la gamme est cohérente. Reste à exister dans le bruit. D'où les press trips. D'où les campagnes narratives. D'où les baselines qui parlent de lignes, de rides et de sentiers à tracer.
 

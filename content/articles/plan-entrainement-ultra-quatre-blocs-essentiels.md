@@ -64,7 +64,7 @@ C'est aussi la phase à risque. Ajouter de l'intensité sur un volume élevé es
 
 Bloc trois. Ici, le plan cesse d'être générique. On dessine les séances à partir du profil exact de la course visée. UTMB, Diagonale des Fous, Grand Raid des Pyrénées : chaque objectif impose sa signature topographique.
 
-Le week-end devient stratégique. Les sorties dos-à-dos — long samedi, long dimanche, souvent sur terrain engagé — simulent la fatigue cumulée de l'ultra sans exiger une nuit blanche à chaque répétition. Pour un 100 miles avec 10 000 m de D+, l'équivalent de onze fois la tour Eiffel empilée, on vise des volumes hebdomadaires de dénivelé entre 4 000 et 6 000 m sur les semaines fortes. Pour un 50 km, on divise par deux.
+Le week-end devient stratégique. Les sorties dos-à-dos, long samedi, long dimanche, souvent sur terrain engagé, simulent la fatigue cumulée de l'ultra sans exiger une nuit blanche à chaque répétition. Pour un 100 miles avec 10 000 m de D+, l'équivalent de onze fois la tour Eiffel empilée, on vise des volumes hebdomadaires de dénivelé entre 4 000 et 6 000 m sur les semaines fortes. Pour un 50 km, on divise par deux.
 
 ![Illustration Entraînement & Performances](/articles/plan-entrainement-ultra-quatre-blocs-essentiels-2.jpg)
 
@@ -90,4 +90,4 @@ Le vrai variable d'ajustement n'est pas la physiologie, c'est la vie. Famille, t
 
 On entend depuis quelques années une petite musique : le trail serait trop individuel, trop sauvage, pour s'enfermer dans des modèles importés de la piste. C'est séduisant, c'est faux. Kilian Jornet, Courtney Dauwalter, François D'Haene n'improvisent pas. Ils périodisent, avec leurs variantes, leurs intuitions, mais selon les mêmes principes que n'importe quel athlète d'endurance depuis cinquante ans.
 
-La vraie spécificité du trail n'est pas dans le refus de la structure, elle est dans la multiplication des variables à intégrer : dénivelé, technicité, altitude, nutrition longue durée, gestion nocturne. Un plan sérieux les aborde une par une, dans l'ordre. Les coureurs qui progressent vraiment sont ceux qui acceptent cette patience. Avant de consulter un plan téléchargé sur internet ou de se lancer sur un 100 miles, un échange avec un coach formé ou un médecin du sport reste le meilleur investissement — plus rentable que la dernière paire de carbone à 280 euros.
+La vraie spécificité du trail n'est pas dans le refus de la structure, elle est dans la multiplication des variables à intégrer : dénivelé, technicité, altitude, nutrition longue durée, gestion nocturne. Un plan sérieux les aborde une par une, dans l'ordre. Les coureurs qui progressent vraiment sont ceux qui acceptent cette patience. Avant de consulter un plan téléchargé sur internet ou de se lancer sur un 100 miles, un échange avec un coach formé ou un médecin du sport reste le meilleur investissement, plus rentable que la dernière paire de carbone à 280 euros.

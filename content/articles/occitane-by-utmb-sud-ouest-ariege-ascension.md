@@ -25,11 +25,11 @@ externalRefs:
 
 En trois éditions, une course pyrénéenne a fait ce que d'autres mettent dix ans à construire : exister sur la carte mondiale du trail. L'Occitane by UTMB n'a pas grimpé les marches une par une. Elle a pris l'ascenseur.
 
-Lancée en 2022 depuis Ax-les-Thermes, intégrée dès sa naissance au circuit World Series d'UTMB, l'épreuve ariégeoise est passée d'environ 2 000 dossards à plus de 8 000 en trois saisons, selon les communications de l'organisation. Son format phare — 155 kilomètres pour près de 8 700 mètres de dénivelé positif, soit l'équivalent de l'Everest depuis le niveau de la mer — s'est imposé comme l'un des plus exigeants du calendrier français. Derrière l'explosion des chiffres se joue une recomposition silencieuse : la géographie du trail hexagonal ne se pense plus uniquement depuis les Alpes.
+Lancée en 2022 depuis Ax-les-Thermes, intégrée dès sa naissance au circuit World Series d'UTMB, l'épreuve ariégeoise est passée d'environ 2 000 dossards à plus de 8 000 en trois saisons, selon les communications de l'organisation. Son format phare, 155 kilomètres pour près de 8 700 mètres de dénivelé positif, soit l'équivalent de l'Everest depuis le niveau de la mer, s'est imposé comme l'un des plus exigeants du calendrier français. Derrière l'explosion des chiffres se joue une recomposition silencieuse : la géographie du trail hexagonal ne se pense plus uniquement depuis les Alpes.
 
 ## Un positionnement géographique qui a su lire le vide
 
-Avant 2022, le sud-ouest français avait ses pépites — la Saintélyon côté Massif central, le Grand Raid des Pyrénées à Vielle-Aure, les formats catalans autour de Canigó — mais aucune course labellisée World Series. L'ouest des Pyrénées vivait d'un trail confidentiel, souvent excellent, rarement médiatisé au niveau international. Les projecteurs restaient braqués sur Chamonix, la Réunion, la Côte d'Azur.
+Avant 2022, le sud-ouest français avait ses pépites, la Saintélyon côté Massif central, le Grand Raid des Pyrénées à Vielle-Aure, les formats catalans autour de Canigó, mais aucune course labellisée World Series. L'ouest des Pyrénées vivait d'un trail confidentiel, souvent excellent, rarement médiatisé au niveau international. Les projecteurs restaient braqués sur Chamonix, la Réunion, la Côte d'Azur.
 
 ![Illustration Courses & Récits](/articles/occitane-by-utmb-sud-ouest-ariege-ascension-1.jpg)
 
@@ -43,7 +43,7 @@ Pour un coureur nord-américain ou asiatique qui découvre l'Europe du trail, ch
 
 ## Un parcours qui n'a pas cherché à faire joli
 
-155 kilomètres et 8 700 mètres de dénivelé, c'est un ratio de 5,6 % — comparable à la Diagonale des Fous rapportée à ses propres références, plus exigeant qu'un UTMB Mont-Blanc dans le ratio D+/kilomètre. Traduit en volume d'effort, cela représente environ trois fois et demie un marathon enchaînés, avec un gain d'altitude cumulé équivalent à dix fois la hauteur de la tour Eiffel.
+155 kilomètres et 8 700 mètres de dénivelé, c'est un ratio de 5,6 %, comparable à la Diagonale des Fous rapportée à ses propres références, plus exigeant qu'un UTMB Mont-Blanc dans le ratio D+/kilomètre. Traduit en volume d'effort, cela représente environ trois fois et demie un marathon enchaînés, avec un gain d'altitude cumulé équivalent à dix fois la hauteur de la tour Eiffel.
 
 Le tracé enchaîne des sections réellement alpines : hauts plateaux d'Orlu, étangs d'altitude, passages techniques autour du Tarbésou, descentes longues et cassantes sur la vallée. Les premières éditions ont vu s'imposer des profils sérieux du circuit international, de Mathieu Blanchard chez les hommes à Katie Schide dans d'autres étapes comparables du circuit, confirmant la crédibilité sportive du format. Le chronomètre des vainqueurs, autour des 20-22 heures sur la distance reine, situe la course dans le haut du panier européen en termes de difficulté.
 
@@ -51,11 +51,11 @@ Le tracé enchaîne des sections réellement alpines : hauts plateaux d'Orlu, é
 
 ## Le triangle économique : UTMB Group, collectivités, station
 
-Le modèle repose sur un partenariat à trois étages dont l'équilibre est moins neutre qu'il n'y paraît. UTMB Group apporte la marque, la plateforme, l'expertise événementielle. Les collectivités locales — Conseil départemental de l'Ariège, Région Occitanie, communauté de communes — cofinancent l'accueil, les navettes, la sécurité. La station d'Ax 3 Domaines fournit le cœur logistique : arrivée, village, hébergement en intersaison.
+Le modèle repose sur un partenariat à trois étages dont l'équilibre est moins neutre qu'il n'y paraît. UTMB Group apporte la marque, la plateforme, l'expertise événementielle. Les collectivités locales, Conseil départemental de l'Ariège, Région Occitanie, communauté de communes, cofinancent l'accueil, les navettes, la sécurité. La station d'Ax 3 Domaines fournit le cœur logistique : arrivée, village, hébergement en intersaison.
 
 Pour un territoire de moyenne montagne confronté à l'érosion de l'économie du ski alpin, l'enjeu dépasse largement l'événement. Les retombées estimées par les collectivités sur ce type de manifestation tournent, selon les études d'impact publiées ces dernières années pour des formats équivalents, autour de plusieurs millions d'euros injectés localement sur une semaine d'affluence. Restauration, hébergement, transport, commerces : la diffusion économique est réelle, même si elle reste concentrée sur quelques jours.
 
-Le modèle a cependant ses critiques. L'uniformisation esthétique et réglementaire des épreuves World Series, dénoncée régulièrement par une partie du milieu — certaines figures comme Kilian Jornet ont publiquement questionné la concentration commerciale du trail mondial — pose la question d'une course à la labellisation qui absorberait progressivement les identités locales. Ax-les-Thermes a gagné en visibilité. Reste à savoir ce qu'elle conserve de singulier.
+Le modèle a cependant ses critiques. L'uniformisation esthétique et réglementaire des épreuves World Series, dénoncée régulièrement par une partie du milieu, certaines figures comme Kilian Jornet ont publiquement questionné la concentration commerciale du trail mondial, pose la question d'une course à la labellisation qui absorberait progressivement les identités locales. Ax-les-Thermes a gagné en visibilité. Reste à savoir ce qu'elle conserve de singulier.
 
 ## Ce que l'Occitane dit de la cartographie française du trail
 
@@ -65,4 +65,4 @@ L'Occitane agit comme accélérateur. Elle rend crédible l'idée qu'une course 
 
 ## Une ascension qui interroge autant qu'elle impressionne
 
-L'Occitane by UTMB a gagné son pari initial : exister, vite. La question qui se pose désormais est celle de la durée. Les courses labellisées World Series grandissent vite mais se ressemblent parfois dangereusement et l'appétit commercial du modèle global interroge sur la capacité des organisateurs locaux à préserver une identité ariégeoise — la rudesse, l'humilité des villages traversés, la dimension thermale — face au formatage. Le vrai test n'est pas dans les chiffres de dossards de 2025 ou 2026. Il est dans ce que les coureurs raconteront, dix ans après, de leur passage à Ax-les-Thermes. S'ils parlent du Tarbésou et des étangs d'Orlu plutôt que du village expo et du sas de départ, l'Occitane aura gagné deux fois.
+L'Occitane by UTMB a gagné son pari initial : exister, vite. La question qui se pose désormais est celle de la durée. Les courses labellisées World Series grandissent vite mais se ressemblent parfois dangereusement et l'appétit commercial du modèle global interroge sur la capacité des organisateurs locaux à préserver une identité ariégeoise, la rudesse, l'humilité des villages traversés, la dimension thermale, face au formatage. Le vrai test n'est pas dans les chiffres de dossards de 2025 ou 2026. Il est dans ce que les coureurs raconteront, dix ans après, de leur passage à Ax-les-Thermes. S'ils parlent du Tarbésou et des étangs d'Orlu plutôt que du village expo et du sas de départ, l'Occitane aura gagné deux fois.

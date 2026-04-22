@@ -39,7 +39,7 @@ externalRefs:
 
 Kilomètre 150 de la CCC, [descente](https://www.altitude-trail.fr/articles/la-descente-fait-plus-de-degats-que-la-montee-voici-comment-proteger-vos-articulations) finale sur Chamonix. Le cardio tient, la tête aussi. Ce sont les quadriceps qui refusent d'amortir le prochain pas. Cette scène n'est pas une fatalité : c'est un déficit d'entraînement spécifique.
 
-Les dix derniers kilomètres d'un ultra se jouent rarement sur le souffle. Ils se jouent sur la capacité musculaire à encaisser la descente. La contraction excentrique — muscle allongé sous tension — provoque des micro-lésions des sarcomères nettement plus marquées qu'en travail concentrique, un déficit fonctionnel de 50 à 80 % pendant cinq à sept jours sur le quadriceps et des courbatures retardées à 24-48 heures. La littérature en physiologie du sport documente ces mécanismes depuis trente ans. L'entraînement du trailer, lui, les ignore encore trop souvent.
+Les dix derniers kilomètres d'un ultra se jouent rarement sur le souffle. Ils se jouent sur la capacité musculaire à encaisser la descente. La contraction excentrique, muscle allongé sous tension, provoque des micro-lésions des sarcomères nettement plus marquées qu'en travail concentrique, un déficit fonctionnel de 50 à 80 % pendant cinq à sept jours sur le quadriceps et des courbatures retardées à 24-48 heures. La littérature en physiologie du sport documente ces mécanismes depuis trente ans. L'entraînement du trailer, lui, les ignore encore trop souvent.
 
 ## Le muscle qui freine se détruit plus que le muscle qui pousse
 
@@ -47,13 +47,13 @@ Contrairement à une intuition tenace, descendre n'est pas moins coûteux que mo
 
 ![Illustration Entraînement & Performances](/articles/entrainement-specifique-descente-trail-excentrique-1.jpg)
 
-Cette contraction excentrique est mécaniquement brutale. Les travaux publiés dans le Journal of Applied Physiology et synthétisés dans le manuel Brukner and Khan décrivent une désorganisation des sarcomères, une inflammation locale, une perte de force maximale volontaire persistant plusieurs jours. La sensation subjective — jambes en bois, impossibilité de s'asseoir sans se tenir à une rampe — correspond à une réalité histologique.
+Cette contraction excentrique est mécaniquement brutale. Les travaux publiés dans le Journal of Applied Physiology et synthétisés dans le manuel Brukner and Khan décrivent une désorganisation des sarcomères, une inflammation locale, une perte de force maximale volontaire persistant plusieurs jours. La sensation subjective, jambes en bois, impossibilité de s'asseoir sans se tenir à une rampe, correspond à une réalité histologique.
 
 ## Pourquoi l'ultra amplifie le désastre
 
-Sur une sortie de deux heures avec 800 m D-, un coureur entraîné encaisse. Sur une UTMB avec 10 000 m de dénivelé négatif cumulé — soit près de douze fois la hauteur de la tour Eiffel à descendre — les micro-lésions s'accumulent bien au-delà des capacités de réparation en temps réel. Le déficit fonctionnel devient visible, puis invalidant.
+Sur une sortie de deux heures avec 800 m D-, un coureur entraîné encaisse. Sur une UTMB avec 10 000 m de dénivelé négatif cumulé, soit près de douze fois la hauteur de la tour Eiffel à descendre, les micro-lésions s'accumulent bien au-delà des capacités de réparation en temps réel. Le déficit fonctionnel devient visible, puis invalidant.
 
-La bonne nouvelle tient dans un phénomène connu sous le nom de repeated bout effect. Une exposition préalable à la contraction excentrique protège durablement contre les dommages d'une exposition ultérieure. Quelques semaines d'entraînement spécifique suffisent à réduire nettement l'ampleur des lésions lors d'un effort similaire. C'est le principe vaccinal appliqué au quadriceps. Les coureurs d'élite qui enchaînent les formats longs — Courtney Dauwalter, François D'Haene, Ludovic Pommeret — ne descendent pas vite par don génétique seul. Ils descendent beaucoup, régulièrement, depuis longtemps.
+La bonne nouvelle tient dans un phénomène connu sous le nom de repeated bout effect. Une exposition préalable à la contraction excentrique protège durablement contre les dommages d'une exposition ultérieure. Quelques semaines d'entraînement spécifique suffisent à réduire nettement l'ampleur des lésions lors d'un effort similaire. C'est le principe vaccinal appliqué au quadriceps. Les coureurs d'élite qui enchaînent les formats longs, Courtney Dauwalter, François D'Haene, Ludovic Pommeret, ne descendent pas vite par don génétique seul. Ils descendent beaucoup, régulièrement, depuis longtemps.
 
 ## Les trois piliers d'une préparation descente sérieuse
 

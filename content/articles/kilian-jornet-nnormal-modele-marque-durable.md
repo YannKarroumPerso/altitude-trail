@@ -61,21 +61,21 @@ La promesse environnementale mérite d'être regardée sans naïveté. NNormal c
 
 ![Illustration Actualités](/articles/kilian-jornet-nnormal-modele-marque-durable-2.jpg)
 
-La limite est connue. Une chaussure de trail reste un assemblage complexe de polymères, la durée de vie utile tourne autour de 800 à 1200 kilomètres selon les tests indépendants — dans la fourchette du marché, pas au-dessus. Et la production asiatique ne disparaît pas du bilan.
+La limite est connue. Une chaussure de trail reste un assemblage complexe de polymères, la durée de vie utile tourne autour de 800 à 1200 kilomètres selon les tests indépendants, dans la fourchette du marché, pas au-dessus. Et la production asiatique ne disparaît pas du bilan.
 
 Mais comparons. On Running a lancé sa Cloudneo en abonnement recyclable, Saucony pousse sa gamme Triumph RFG, Allbirds a tenté puis reculé. Dans ce paysage, la cohérence NNormal tient moins à une innovation radicale qu'à une gamme étroite qui évite la surproduction structurelle du secteur. C'est peut-être là, plus que dans les matériaux, que se joue la différence.
 
 ## Un écosystème sponsoring volontairement minimal
 
-L'équipe NNormal tient sur une page. Jornet évidemment, Sara Alonso, Emelie Forsberg (compagne de Jornet et partenaire sportive), quelques athlètes choisis. Aucune écurie pléthorique façon Salomon, pas de chasse aux signatures tapageuses après chaque UTMB. Le budget sponsoring se concentre sur une communauté d'athlètes alignés idéologiquement avec la marque — militantisme climatique inclus chez Jornet, qui ne cache pas ses positions sur l'aviation ou l'extension des calendriers de courses.
+L'équipe NNormal tient sur une page. Jornet évidemment, Sara Alonso, Emelie Forsberg (compagne de Jornet et partenaire sportive), quelques athlètes choisis. Aucune écurie pléthorique façon Salomon, pas de chasse aux signatures tapageuses après chaque UTMB. Le budget sponsoring se concentre sur une communauté d'athlètes alignés idéologiquement avec la marque, militantisme climatique inclus chez Jornet, qui ne cache pas ses positions sur l'aviation ou l'extension des calendriers de courses.
 
 Cette rareté crée de la valeur narrative. Quand NNormal signe, cela signifie quelque chose. À l'inverse, un podium UTMB avec un athlète On ou Hoka se noie dans la densité du roster. Le modèle rappelle ce que Patagonia a fait dans l'outdoor : moins d'ambassadeurs, plus de cohérence.
 
 ## Modèle reproductible ou anomalie Kilian ?
 
-La vraie question est là. NNormal existe parce qu'un athlète au statut quasi unique — plus d'une trentaine de victoires en ultra-trail majeur, image mondiale — pouvait s'adosser à un industriel patient et à une conviction environnementale crédible. Retirez Jornet de l'équation et la proposition devient beaucoup plus fragile.
+La vraie question est là. NNormal existe parce qu'un athlète au statut quasi unique, plus d'une trentaine de victoires en ultra-trail majeur, image mondiale, pouvait s'adosser à un industriel patient et à une conviction environnementale crédible. Retirez Jornet de l'équation et la proposition devient beaucoup plus fragile.
 
-Les tentatives parallèles le montrent. Satisfy, Bandit, District Vision sur la route fonctionnent sur des niches communautaires étroites. Norda, au Canada, joue un positionnement premium et durable mais reste confidentielle. Les marques qui scalent — On, Hoka, Nike — le font par la voie inverse : gamme large, volume, marketing massif.
+Les tentatives parallèles le montrent. Satisfy, Bandit, District Vision sur la route fonctionnent sur des niches communautaires étroites. Norda, au Canada, joue un positionnement premium et durable mais reste confidentielle. Les marques qui scalent, On, Hoka, Nike, le font par la voie inverse : gamme large, volume, marketing massif.
 
 NNormal pourrait stagner à 50-80 millions d'euros annuels et rester rentable. Ou être rattrapée par la logique de croissance dès que Camper voudra amortir. Les trois prochaines saisons diront si le modèle vertical tient sans trahir.
 
@@ -83,4 +83,4 @@ NNormal pourrait stagner à 50-80 millions d'euros annuels et rester rentable. O
 
 NNormal ne va pas transformer l'industrie du trail. Les volumes ne le permettent pas et les logiques financières des grands acteurs sont ce qu'elles sont. Attendre de cette marque qu'elle renverse On ou Hoka relève de la pensée magique.
 
-En revanche, elle modifie les attentes d'une partie des coureurs. Une communauté trail de plus en plus consciente — climat, surconsommation de matériel, ras-le-bol des drops constants et des collections à six mois — trouve enfin une offre qui ne la prend pas pour un portefeuille. C'est cette pression par la demande, plus que la concurrence directe, qui forcera le secteur à bouger. Jornet l'a compris avant les autres : dans un sport qui se pense en harmonie avec la montagne, la cohérence finit par devenir un argument commercial. Reste à savoir combien de temps avant que quelqu'un ose vraiment le copier.
+En revanche, elle modifie les attentes d'une partie des coureurs. Une communauté trail de plus en plus consciente, climat, surconsommation de matériel, ras-le-bol des drops constants et des collections à six mois, trouve enfin une offre qui ne la prend pas pour un portefeuille. C'est cette pression par la demande, plus que la concurrence directe, qui forcera le secteur à bouger. Jornet l'a compris avant les autres : dans un sport qui se pense en harmonie avec la montagne, la cohérence finit par devenir un argument commercial. Reste à savoir combien de temps avant que quelqu'un ose vraiment le copier.

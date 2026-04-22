@@ -73,7 +73,7 @@ Si tu dors 6h30 systématiquement, tu n'es pas "plus productif". Tu es **un cour
 
 Tu ne peux pas toujours pousser ton heure de coucher. Mais tu peux optimiser la **qualité** du sommeil que tu as. Les leviers par ordre d'impact :
 
-### 1. Lumière du matin — le chef d'orchestre
+### 1. Lumière du matin, le chef d'orchestre
 
 Dès le réveil, **10 à 15 minutes de lumière naturelle** (fenêtre ouverte, balcon, dehors). Ça cale ta mélatonine pour la nuit suivante. Une étude de Stanford montre que cette exposition matinale avance le coucher de 30 à 45 minutes chez des sujets qui avaient du mal à dormir.
 
@@ -91,15 +91,15 @@ La demi-vie de la caféine est de 5 à 7 heures. Un café à 16h, c'est encore 5
 
 ### 5. Dernier repas 3 heures avant le coucher
 
-La digestion augmente la température corporelle et empêche le sommeil profond de s'installer. Surtout les glucides rapides et l'alcool — qui fait dormir mais dégrade profondément la qualité du sommeil.
+La digestion augmente la température corporelle et empêche le sommeil profond de s'installer. Surtout les glucides rapides et l'alcool, qui fait dormir mais dégrade profondément la qualité du sommeil.
 
 ### 6. Sport intense pas après 19h
 
 Une séance dure après 19h élève le cortisol et retarde l'endormissement de 45 minutes en moyenne. Si tu ne peux pas déplacer ton entraînement, privilégie les séances faciles le soir, les séances intenses le matin ou midi.
 
-### 7. Régularité — le plus sous-estimé
+### 7. Régularité, le plus sous-estimé
 
-Se coucher **à la même heure tous les jours**, week-end inclus, stabilise l'horloge circadienne. Les athlètes pro ont des horaires de sommeil presque maniaques. Le "je me rattrape le samedi en dormant jusqu'à midi" ne rattrape rien — ça désynchronise ton horloge pour 3-4 jours derrière.
+Se coucher **à la même heure tous les jours**, week-end inclus, stabilise l'horloge circadienne. Les athlètes pro ont des horaires de sommeil presque maniaques. Le "je me rattrape le samedi en dormant jusqu'à midi" ne rattrape rien, ça désynchronise ton horloge pour 3-4 jours derrière.
 
 ## Le test qui ne trompe pas
 

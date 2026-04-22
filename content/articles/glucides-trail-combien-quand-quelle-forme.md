@@ -55,7 +55,7 @@ Les chercheurs continuent de pousser : quelques publications récentes évoquent
 
 Le grand oublié des plans d'entraînement, c'est lui. Tolérer 100 g/h ne s'improvise pas. Les recommandations actuelles de plusieurs sociétés savantes de [nutrition](https://www.altitude-trail.fr/articles/nutrition-avant-course-semaine-qui-precede-ultra) sportive convergent sur un point : le gut training, ou entraînement digestif, est une discipline à part entière.
 
-Le principe est simple, l'exécution moins. On part d'une base supportée sans gêne — souvent 40 à 50 g/h — et on majore par paliers de 10 à 15 g toutes les deux à trois semaines, lors des sorties longues spécifiques. L'adaptation passe par une augmentation de l'expression des transporteurs intestinaux, une vidange gastrique accélérée et, probablement, une modulation du microbiote. Six à huit semaines suffisent en général à monter d'un cran significatif.
+Le principe est simple, l'exécution moins. On part d'une base supportée sans gêne, souvent 40 à 50 g/h, et on majore par paliers de 10 à 15 g toutes les deux à trois semaines, lors des sorties longues spécifiques. L'adaptation passe par une augmentation de l'expression des transporteurs intestinaux, une vidange gastrique accélérée et, probablement, une modulation du microbiote. Six à huit semaines suffisent en général à monter d'un cran significatif.
 
 Sur le terrain, cela signifie s'astreindre à manger sur des sorties de 3 à 5 heures même quand on n'a pas faim, tester plusieurs formes, plusieurs marques, plusieurs osmolarités. Les coureurs qui arrivent frais sur une UTMB à 30 heures sont presque toujours ceux qui ont industrialisé leur ravitaillement à l'entraînement.
 
@@ -73,7 +73,7 @@ Restent les alternatives naturelles, de plus en plus revendiquées : dattes Medj
 
 La charge glucidique pré-course reste d'actualité, mais affinée. Les recommandations courantes tournent autour de 8 à 12 g/kg/jour dans les 36 à 48 heures précédant un ultra, avec un dernier repas 3 à 4 heures avant le départ apportant 3 à 4 g/kg de glucides à index glycémique modéré. Le porridge-banane-miel avalé à 3h du matin n'est pas un folklore : il remplit le foie, dont le glycogène est mobilisé dès les premières minutes de course.
 
-Pendant l'effort, la régularité prime sur les bolus. Fractionner l'apport toutes les 15 à 20 minutes limite les pics osmotiques intestinaux et lisse la glycémie. L'ingestion précoce — dès la première heure, même si on se sent bien — évite le creux classique de la troisième heure.
+Pendant l'effort, la régularité prime sur les bolus. Fractionner l'apport toutes les 15 à 20 minutes limite les pics osmotiques intestinaux et lisse la glycémie. L'ingestion précoce, dès la première heure, même si on se sent bien, évite le creux classique de la troisième heure.
 
 La fenêtre post-effort, elle, reste une priorité sous-estimée en trail où la fatigue coupe l'appétit. Les 30 à 60 minutes qui suivent l'arrivée captent jusqu'à trois fois plus de glucides vers le muscle qu'un apport différé. Viser 1 à 1,2 g/kg, idéalement associé à 20-30 g de protéines, conditionne la vitesse de récupération pour les jours et semaines qui suivent.
 

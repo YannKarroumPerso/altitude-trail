@@ -44,7 +44,7 @@ Le mécanisme est simple : un muscle plus fort absorbe davantage d'énergie à l
 
 Tu n'as pas besoin de faire 2 heures de salle. Tu as besoin de travailler **les 3 zones qui lâchent en premier chez le coureur** :
 
-### 1. Les chevilles et mollets — le premier contact
+### 1. Les chevilles et mollets, le premier contact
 
 L'entorse latérale représente 15 % des blessures en trail. Les tendinopathies du tendon d'Achille, 10 % de plus. Les exercices essentiels :
 
@@ -52,7 +52,7 @@ L'entorse latérale représente 15 % des blessures en trail. Les tendinopathies 
 - **Équilibre unipodal les yeux fermés** : 3 × 30 secondes par pied. Proprioception et stabilisation.
 - **Sauts latéraux bas** : 3 × 20 répétitions. Renforce la capacité à encaisser les appuis en dévers.
 
-### 2. Les genoux — quadriceps + ischios + gainage
+### 2. Les genoux, quadriceps + ischios + gainage
 
 Le syndrome fémoro-patellaire (genou du coureur) touche 25 % des traileurs au moins une fois. La cause est quasi-systématiquement un déficit de force au quadriceps et au moyen fessier.
 
@@ -60,7 +60,7 @@ Le syndrome fémoro-patellaire (genou du coureur) touche 25 % des traileurs au m
 - **Fentes arrière avec charge légère** : 3 × 12 par jambe. Sollicite toute la chaîne postérieure.
 - **Pont fessier unipodal** : 3 × 15 par jambe. Active spécifiquement le moyen fessier, stabilisateur du bassin.
 
-### 3. Le gainage — le transfert d'énergie
+### 3. Le gainage, le transfert d'énergie
 
 Le gainage n'est pas "joli" à faire et ne muscle pas visiblement. Mais il conditionne **toute la transmission de force** entre les [jambes](https://www.altitude-trail.fr/articles/entrainement-specifique-descente-trail-excentrique) et le tronc. Un coureur au gainage faible gaspille 20 % de son énergie à compenser les mouvements parasites du bassin.
 

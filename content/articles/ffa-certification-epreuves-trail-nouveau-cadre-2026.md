@@ -32,7 +32,7 @@ La Fédération française d'athlétisme prépare pour 2026 une refonte de son d
 
 ## Un paysage saturé qui appelait une clarification
 
-Le trail français a changé d'échelle en dix ans. Là où l'on comptait quelques dizaines de courses nature à la fin des années 2000, on dépasse désormais, toutes distances confondues, plus d'un millier d'épreuves annuelles — certaines estimations du secteur parlent même de 2 500 rendez-vous si l'on inclut les formats courts et les trails blancs. Un volume qui génère mécaniquement des dérives : tracés mal mesurés, médicalisation approximative, assurances lacunaires, ravitaillements sous-dimensionnés sur des formats d'ultra.
+Le trail français a changé d'échelle en dix ans. Là où l'on comptait quelques dizaines de courses nature à la fin des années 2000, on dépasse désormais, toutes distances confondues, plus d'un millier d'épreuves annuelles, certaines estimations du secteur parlent même de 2 500 rendez-vous si l'on inclut les formats courts et les trails blancs. Un volume qui génère mécaniquement des dérives : tracés mal mesurés, médicalisation approximative, assurances lacunaires, ravitaillements sous-dimensionnés sur des formats d'ultra.
 
 ![Illustration Actualités](/articles/ffa-certification-epreuves-trail-nouveau-cadre-2026-1.jpg)
 
@@ -40,13 +40,13 @@ La réforme 2026 de la FFA tente de remettre de l'ordre dans ce foisonnement. El
 
 ## Ce que recouvre la grille de critères revisitée
 
-Le nouveau cadre repose sur une classification plus stricte des épreuves par distance et dénivelé. Les catégories traditionnelles — trail découverte, trail, trail long, ultra — sont conservées mais leurs bornes de kilométrage et de D+ sont précisées pour éviter les zones grises. Un 42 km avec 900 m de D+ et un 42 km avec 3 000 m de D+ ne relèvent plus tout à fait du même régime réglementaire en matière de médicalisation embarquée et de ravitaillements obligatoires.
+Le nouveau cadre repose sur une classification plus stricte des épreuves par distance et dénivelé. Les catégories traditionnelles, trail découverte, trail, trail long, ultra, sont conservées mais leurs bornes de kilométrage et de D+ sont précisées pour éviter les zones grises. Un 42 km avec 900 m de D+ et un 42 km avec 3 000 m de D+ ne relèvent plus tout à fait du même régime réglementaire en matière de médicalisation embarquée et de ravitaillements obligatoires.
 
-Sur le volet sécurité, les exigences se musclent. Présence d'une équipe médicale dimensionnée selon le format, désignation d'un directeur de course formé, plan d'évacuation validé, matériel [obligatoire](https://www.altitude-trail.fr/articles/lampe-rouge-obligatoire-a-l-utmb-symbole-ecologique-ou-poudre-aux-yeux) cohérent avec les conditions d'engagement. Les organisateurs devront également formaliser leur couverture assurantielle — responsabilité civile organisateur, individuelle accident pour les coureurs non licenciés — avec un niveau de garantie minimal relevé. Rien de révolutionnaire : ce sont les standards que les grosses organisations appliquent déjà. Mais la généralisation change la donne pour les courses de taille moyenne.
+Sur le volet sécurité, les exigences se musclent. Présence d'une équipe médicale dimensionnée selon le format, désignation d'un directeur de course formé, plan d'évacuation validé, matériel [obligatoire](https://www.altitude-trail.fr/articles/lampe-rouge-obligatoire-a-l-utmb-symbole-ecologique-ou-poudre-aux-yeux) cohérent avec les conditions d'engagement. Les organisateurs devront également formaliser leur couverture assurantielle, responsabilité civile organisateur, individuelle accident pour les coureurs non licenciés, avec un niveau de garantie minimal relevé. Rien de révolutionnaire : ce sont les standards que les grosses organisations appliquent déjà. Mais la généralisation change la donne pour les courses de taille moyenne.
 
 ## L'équation économique des organisateurs
 
-C'est là que la réforme fait grincer. Une course de 1 000 [dossards](https://www.altitude-trail.fr/articles/colmen-trail-500-dossards-envoles-quand-un-trail-de-village-verrouille-sa-jauge) sur un format trail long mobilise déjà, hors rémunérations, un budget technique de l'ordre de plusieurs dizaines de milliers d'euros : balisage, signaleurs, PC course, médicalisation, ravitaillements, autorisations environnementales, frais de secours. L'ajout de critères supplémentaires — formation obligatoire d'encadrants, audit de tracé, équipements de communication en zone blanche — peut représenter, selon les estimations du secteur, une hausse de 10 à 20 % des coûts fixes.
+C'est là que la réforme fait grincer. Une course de 1 000 [dossards](https://www.altitude-trail.fr/articles/colmen-trail-500-dossards-envoles-quand-un-trail-de-village-verrouille-sa-jauge) sur un format trail long mobilise déjà, hors rémunérations, un budget technique de l'ordre de plusieurs dizaines de milliers d'euros : balisage, signaleurs, PC course, médicalisation, ravitaillements, autorisations environnementales, frais de secours. L'ajout de critères supplémentaires, formation obligatoire d'encadrants, audit de tracé, équipements de communication en zone blanche, peut représenter, selon les estimations du secteur, une hausse de 10 à 20 % des coûts fixes.
 
 ![Illustration Actualités](/articles/ffa-certification-epreuves-trail-nouveau-cadre-2026-2.jpg)
 
@@ -54,7 +54,7 @@ Pour les organisations associatives, souvent portées par des bénévoles, c'est
 
 ## Pour le coureur, une lisibilité renforcée
 
-Du côté des participants, la réforme apporte des bénéfices concrets. Une épreuve labellisée FFA 2026 garantit un tracé mesuré, un dénivelé vérifié, des résultats homologués et, surtout, une cotation ITRA cohérente. Dans un sport où les performances se comparent désormais à l'échelle internationale — qualifications pour la Western States, la Hardrock, les championnats du monde de trail — cette homologation n'est pas cosmétique. Elle conditionne l'accès aux plus grands rendez-vous.
+Du côté des participants, la réforme apporte des bénéfices concrets. Une épreuve labellisée FFA 2026 garantit un tracé mesuré, un dénivelé vérifié, des résultats homologués et, surtout, une cotation ITRA cohérente. Dans un sport où les performances se comparent désormais à l'échelle internationale, qualifications pour la Western States, la Hardrock, les championnats du monde de trail, cette homologation n'est pas cosmétique. Elle conditionne l'accès aux plus grands rendez-vous.
 
 La distinction entre épreuves officielles et non-officielles devient ainsi stratégique pour le coureur ambitieux. Courir un 80 km non labellisé reste parfaitement légitime, mais les points ITRA et les qualifications passent par le circuit agréé. C'est une logique analogue à celle du marathon route, où seules les épreuves certifiées World Athletics permettent l'homologation d'un record. Le trail, longtemps réfractaire à cette normalisation au nom de son ADN libertaire, s'aligne progressivement.
 
@@ -62,7 +62,7 @@ La distinction entre épreuves officielles et non-officielles devient ainsi stra
 
 Le débat est ouvert et il traverse toute la communauté. Des coureurs élites comme Kilian Jornet ont historiquement défendu une approche du trail moins institutionnalisée, plus proche de l'alpinisme que de l'athlétisme. D'autres, à l'image de François D'Haene ou des organisateurs de l'UTMB, ont embrassé la structuration comme condition de survie économique d'un sport devenu massif. Les deux positions se défendent.
 
-La réforme FFA 2026 tranche, de fait, en faveur du deuxième camp. Elle acte que le trail français adulte a besoin de garanties — pour ses pratiquants, pour ses assureurs, pour ses collectivités partenaires, pour ses sponsors. Le prix à payer : une bureaucratisation accrue et un risque d'exclusion des petites structures. Le calendrier d'application, progressif sur 2026, laisse aux organisateurs une fenêtre pour s'ajuster.
+La réforme FFA 2026 tranche, de fait, en faveur du deuxième camp. Elle acte que le trail français adulte a besoin de garanties, pour ses pratiquants, pour ses assureurs, pour ses collectivités partenaires, pour ses sponsors. Le prix à payer : une bureaucratisation accrue et un risque d'exclusion des petites structures. Le calendrier d'application, progressif sur 2026, laisse aux organisateurs une fenêtre pour s'ajuster.
 
 ## Notre lecture : le trail entre dans son âge adulte, à marche forcée
 

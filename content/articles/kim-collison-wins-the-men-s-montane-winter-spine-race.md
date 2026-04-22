@@ -34,7 +34,7 @@ externalRefs:
 ---
 Quatre hivers de défaites, une victoire. Kim Collison a franchi la ligne de Kirk Yetholm en 82 heures et 46 minutes et cette performance dit quelque chose de plus profond qu'un simple chrono : elle raconte comment on domestique une course qui, pendant des années, vous a refusé l'entrée.
 
-Le Britannique a remporté l'édition 2025 de la [Montane](https://www.altitude-trail.fr/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de) Winter Spine Race, selon Ultra Runner Magazine, en signant le troisième meilleur temps jamais enregistré sur cette traversée hivernale de 268 miles — environ 431 kilomètres — le long de la Pennine Way, d'Edale dans le Derbyshire jusqu'à la frontière écossaise. Une course réputée comme l'une des plus brutales de la planète, où les concurrents portent leur matériel sur le dos et progressent pendant des jours dans le froid, la nuit, la tourbe gelée. Collison s'y était cassé les dents quatre fois.
+Le Britannique a remporté l'édition 2025 de la [Montane](https://www.altitude-trail.fr/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de) Winter Spine Race, selon Ultra Runner Magazine, en signant le troisième meilleur temps jamais enregistré sur cette traversée hivernale de 268 miles, environ 431 kilomètres, le long de la Pennine Way, d'Edale dans le Derbyshire jusqu'à la frontière écossaise. Une course réputée comme l'une des plus brutales de la planète, où les concurrents portent leur matériel sur le dos et progressent pendant des jours dans le froid, la nuit, la tourbe gelée. Collison s'y était cassé les dents quatre fois.
 
 ## Une course qui ne ressemble à aucune autre
 
@@ -48,7 +48,7 @@ Pour fixer l'échelle : 431 kilomètres, c'est plus de dix marathons d'affilée.
 
 ## Le sillon creusé par les abandons
 
-Collison n'est pas un découvreur. [Ultra](https://www.altitude-trail.fr/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu) Runner Magazine rappelle son statut de référence du fell running, cette discipline insulaire où l'on grimpe et descend les reliefs escarpés du Lake District avec une économie de mouvement qui frise la transe. Son Lakeland 24-Hour Record, posé en 2020 — plus de 125 kilomètres et 12 500 mètres de dénivelé positif en une seule rotation horaire —, suffirait à asseoir une carrière.
+Collison n'est pas un découvreur. [Ultra](https://www.altitude-trail.fr/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu) Runner Magazine rappelle son statut de référence du fell running, cette discipline insulaire où l'on grimpe et descend les reliefs escarpés du Lake District avec une économie de mouvement qui frise la transe. Son Lakeland 24-Hour Record, posé en 2020, plus de 125 kilomètres et 12 500 mètres de dénivelé positif en une seule rotation horaire, suffirait à asseoir une carrière.
 
 12 500 mètres de D+ en 24 heures, pour se donner une idée, c'est l'équivalent cumulé d'environ un Everest et demi depuis le niveau de la mer. En une journée. Sur ses jambes.
 
@@ -72,7 +72,7 @@ Collison a choisi l'inverse. Il a fait de la Spine sa colonne vertébrale saison
 
 ## Une génération britannique qui s'assume sur l'ultra long
 
-Le contexte compte. Depuis cinq ou six ans, le Royaume-Uni a cessé d'être un fournisseur de fell runners spécialisés pour devenir une vraie puissance de l'ultra-endurance longue. John Kelly, Damian Hall, Jasmin Paris — première femme à remporter la Spine en scratch en 2019, première finisher de la Barkley en 2024 — ont ouvert un chemin. Collison s'y inscrit.
+Le contexte compte. Depuis cinq ou six ans, le Royaume-Uni a cessé d'être un fournisseur de fell runners spécialisés pour devenir une vraie puissance de l'ultra-endurance longue. John Kelly, Damian Hall, Jasmin Paris, première femme à remporter la Spine en scratch en 2019, première finisher de la Barkley en 2024, ont ouvert un chemin. Collison s'y inscrit.
 
 Ce n'est pas anodin. La scène ultra internationale reste souvent lue à travers le prisme alpin (UTMB) ou nord-américain (Western States, Hardrock). La Spine, elle, propose un autre paradigme : l'autonomie, le long, l'hiver, l'intérieur. Une école différente, plus proche dans l'esprit de la Barkley que de CCC. Et cette école produit des champions.
 
@@ -82,4 +82,4 @@ Ultra Runner Magazine insiste sur la transition de Collison, du fell running pur
 
 La victoire de Kim Collison tombe à un moment où le trail mondial s'interroge sur sa propre trajectoire : spectacularisation, professionnalisation, contrats d'équipementiers, plateaux élites toujours plus denses. La Spine Race, elle, continue de proposer quelque chose que le circuit UTMB World Series ne peut structurellement pas offrir : une épreuve où le coureur est seul avec son matériel, sa nuit, sa fatigue, sans storytelling en direct ni GPS tracker transformé en téléréalité.
 
-Que le vainqueur 2025 soit un homme qui a échoué quatre fois avant de réussir n'est pas un détail. C'est un rappel. L'ultra-endurance reste, quand on gratte le vernis médiatique, une discipline où le temps long — celui des saisons qui s'accumulent, des apprentissages qui décantent, des défaites qui nourrissent — prime sur le talent pur. Collison l'a démontré à 82h46 près. Le message mérite d'être entendu au-delà de la Pennine Way.
+Que le vainqueur 2025 soit un homme qui a échoué quatre fois avant de réussir n'est pas un détail. C'est un rappel. L'ultra-endurance reste, quand on gratte le vernis médiatique, une discipline où le temps long, celui des saisons qui s'accumulent, des apprentissages qui décantent, des défaites qui nourrissent, prime sur le talent pur. Collison l'a démontré à 82h46 près. Le message mérite d'être entendu au-delà de la Pennine Way.

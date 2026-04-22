@@ -37,7 +37,7 @@ Au programme selon le calendrier publié par Ultrarunning World : la 39e éditio
 
 ## Milngavie-Fort William, la matriarche
 
-Tout commence à 1h du matin, samedi 21 juin, dans une banlieue nord de Glasgow. Les concurrents de la West Highland Way Race s'élancent pour 153 kilomètres vers Fort William, le long du plus célèbre sentier de grande randonnée d'Écosse. Loch Lomond d'abord, puis le Rannoch Moor — ce plateau désolé où le vent ne trouve jamais d'obstacle — et enfin le Devil's Staircase, ultime morsure avant la descente sur Kinlochleven.
+Tout commence à 1h du matin, samedi 21 juin, dans une banlieue nord de Glasgow. Les concurrents de la West Highland Way Race s'élancent pour 153 kilomètres vers Fort William, le long du plus célèbre sentier de grande randonnée d'Écosse. Loch Lomond d'abord, puis le Rannoch Moor, ce plateau désolé où le vent ne trouve jamais d'obstacle, et enfin le Devil's Staircase, ultime morsure avant la descente sur Kinlochleven.
 
 ![Illustration Actualités](/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-1.jpg)
 
@@ -47,7 +47,7 @@ Pour les amateurs de format court, Ultrarunning World signale également le Salt
 
 ## Le Pays de Galles, la province qui ne baisse pas les yeux
 
-Trois rendez-vous gallois figurent sur le calendrier publié par Ultrarunning World et aucun n'est cosmétique. L'Epona 100 quitte Abergavenny pour 160 kilomètres à travers les Black Mountains et les Brecon Beacons. L'Ultra Wales 50 part de Dolgellau et grimpe vers le Cadair Idris — 893 mètres, un sommet modeste sur la carte, mythique dans l'imaginaire gallois. Le 14 Peaks Ultra, lui, propose 53 kilomètres techniques dans le nord du parc national du Snowdonia avec l'ambition d'enchaîner plusieurs sommets dans la journée.
+Trois rendez-vous gallois figurent sur le calendrier publié par Ultrarunning World et aucun n'est cosmétique. L'Epona 100 quitte Abergavenny pour 160 kilomètres à travers les Black Mountains et les Brecon Beacons. L'Ultra Wales 50 part de Dolgellau et grimpe vers le Cadair Idris, 893 mètres, un sommet modeste sur la carte, mythique dans l'imaginaire gallois. Le 14 Peaks Ultra, lui, propose 53 kilomètres techniques dans le nord du parc national du Snowdonia avec l'ambition d'enchaîner plusieurs sommets dans la journée.
 
 Le massif gallois joue, à l'échelle britannique, un rôle comparable à celui des Pyrénées face aux Alpes : moins haut, plus brut, plus humide et doté d'une communauté de coureurs qui revendique sa rudesse comme un marqueur identitaire. Le solstice y est un test de capacité à gérer la météo plus que le dénivelé pur.
 
@@ -61,13 +61,13 @@ La côte jurassique, classée au patrimoine mondial pour ses falaises fossilifè
 
 ## La Race to the King et les North Downs : l'ultra de masse
 
-Autre pièce du dispositif signalée par Ultrarunning World : la Race to the King, qui relie Goodwood à Winchester via les South Downs sur 49, 52 ou 100 km. Épreuve de masse, avec des milliers de participants, elle incarne le versant grand public de l'ultra britannique — plus proche du marathon urbain dans son modèle logistique que de la course de montagne confidentielle.
+Autre pièce du dispositif signalée par Ultrarunning World : la Race to the King, qui relie Goodwood à Winchester via les South Downs sur 49, 52 ou 100 km. Épreuve de masse, avec des milliers de participants, elle incarne le versant grand public de l'ultra britannique, plus proche du marathon urbain dans son modèle logistique que de la course de montagne confidentielle.
 
 À Dorking, dans le Surrey, les Minotaur/Hydra/Centaur Ultras déclinent 50, 75 et 100 milles sur les North Downs. Nommage mythologique, catalogue modulaire : le coureur choisit sa dose. Plus à l'est, le Beyond London 55km part de Woolwich pour une traversée urbano-rurale de la capitale et le Three Shires Way Ultra (50 milles) sillonne la campagne depuis Milton Keynes. Chaque week-end estival britannique offre cette géographie : un tissu dense, à tous les niveaux d'engagement.
 
 ## Backyard et formats temporels : le temps plutôt que la distance
 
-Deux backyard ultras figurent au programme. Le Longbridge 100 Backyard Ultra à Litlington, annoncé jusqu'à 31 heures selon Ultrarunning World, soit environ 207 km théoriques si un concurrent tient la distance. Le Breakheart Backyard Ultra à Dursley, 26 heures. Dans ce format popularisé par Lazarus Lake — le même homme qui orchestre la Barkley Marathons —, il faut boucler 6,706 km en moins d'une heure, puis recommencer. Jusqu'à ce qu'il ne reste qu'un seul finisher. La course finit forcément par un abandon.
+Deux backyard ultras figurent au programme. Le Longbridge 100 Backyard Ultra à Litlington, annoncé jusqu'à 31 heures selon Ultrarunning World, soit environ 207 km théoriques si un concurrent tient la distance. Le Breakheart Backyard Ultra à Dursley, 26 heures. Dans ce format popularisé par Lazarus Lake, le même homme qui orchestre la Barkley Marathons, il faut boucler 6,706 km en moins d'une heure, puis recommencer. Jusqu'à ce qu'il ne reste qu'un seul finisher. La course finit forcément par un abandon.
 
 Les formats chronométriques complètent l'offre : MK24 Midsummer Run à Milton Keynes (24 heures sur boucle plane), Hopper 6 & 12 hr à Wolsingham (sentier). Le coureur britannique a intégré depuis longtemps ce que le coureur français peine encore à reconnaître : le temps comme unité de mesure est aussi légitime que la distance.
 
@@ -79,6 +79,6 @@ Mais la plus singulière reste sans doute le Scilly 60, dimanche 22 juin : 60 km
 
 ## Ce que ce solstice dit du trail français
 
-Un week-end, vingt épreuves, six formats différents, du 50 km au 200 km théorique, sur des terrains allant de la lande écossaise aux falaises crétacées du Dorset. La France, à la même date, propose une poignée de courses dignes de ce nom, toutes concentrées autour de trois ou quatre grands labels. Le modèle britannique repose sur une densité d'organisateurs indépendants, une culture d'assistance familiale et une acceptation décomplexée des formats non-montagnards — côte, canal, boucle, temps imparti.
+Un week-end, vingt épreuves, six formats différents, du 50 km au 200 km théorique, sur des terrains allant de la lande écossaise aux falaises crétacées du Dorset. La France, à la même date, propose une poignée de courses dignes de ce nom, toutes concentrées autour de trois ou quatre grands labels. Le modèle britannique repose sur une densité d'organisateurs indépendants, une culture d'assistance familiale et une acceptation décomplexée des formats non-montagnards, côte, canal, boucle, temps imparti.
 
 L'UTMB et sa galaxie ont imposé, sur le continent, une norme esthétique : la montagne, la technicité, le dénivelé comme juge ultime. Le solstice britannique rappelle qu'il existe une autre voie. Moins spectaculaire sur Instagram, peut-être. Mais plus profonde dans la culture populaire. Quand un pays organise deux cent milles sur la même côte le même week-end sans que personne ne s'en émeuve, c'est que l'ultra y est devenu ordinaire. Et c'est peut-être ça, la vraie maturité.

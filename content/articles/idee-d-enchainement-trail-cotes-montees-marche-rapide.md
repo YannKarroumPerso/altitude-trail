@@ -45,7 +45,7 @@ externalRefs:
     label: ITRA – classification officielle des trails par difficulté et dénivelé
 ---
 
-Préparer un 30 km avec 1500 m de dénivelé, ce n'est pas courir plus. C'est apprendre à marcher vite sans se saboter. La distinction semble anodine — elle décide pourtant de l'issue du jour J.
+Préparer un 30 km avec 1500 m de dénivelé, ce n'est pas courir plus. C'est apprendre à marcher vite sans se saboter. La distinction semble anodine, elle décide pourtant de l'issue du jour J.
 
 Dans une publication récente consacrée à l'entraînement spécifique, le site u-[Trail](https://www.altitude-trail.fr/articles/colmen-trail-500-dossards-envoles-quand-un-trail-de-village-verrouille-sa-jauge) revient sur un enchaînement classique mais sous-exploité : côtes, montées longues et marche rapide dans la même séance. L'objectif : préparer un trail court-montagneux type 30 km / 1500 m D+, format qui explose en France depuis cinq ans et qui concentre l'essentiel des débutants venus de la route. La thèse, simple, mérite d'être creusée : accumuler du kilomètre plat ne prépare pas à ce type d'épreuve. Il faut construire une autre motricité.
 
@@ -53,7 +53,7 @@ Dans une publication récente consacrée à l'entraînement spécifique, le site
 
 Posons les chiffres. Un semi-marathon se court en 1h30 pour un coureur aguerri. Un 30 km trail avec 1500 m de D+ se court rarement en moins de 3 heures, souvent 3h30 à 4h30 pour un pratiquant régulier. Le temps d'effort double, parfois triple, pour une distance à peine supérieure de 40 %. C'est là que la comparaison avec la route s'effondre.
 
-Le ratio D+/km dont parle implicitement u-Trail — 50 m de dénivelé par kilomètre — place l'épreuve dans la catégorie des trails vallonnés exigeants. À titre de repère, Sierre-Zinal affiche 94 m/km, la CCC de l'UTMB environ 60 m/km. Un 30 km à 1500 m n'est donc pas un format introductif. C'est déjà un engagement sérieux.
+Le ratio D+/km dont parle implicitement u-Trail, 50 m de dénivelé par kilomètre, place l'épreuve dans la catégorie des trails vallonnés exigeants. À titre de repère, Sierre-Zinal affiche 94 m/km, la CCC de l'UTMB environ 60 m/km. Un 30 km à 1500 m n'est donc pas un format introductif. C'est déjà un engagement sérieux.
 
 ![Solo trail runner power-hiking up a steep green summer slope, golden hour, rolling hills and wildflowers](/articles/cotes-montees-marche-rapide-v3-1.jpg)
 
@@ -65,7 +65,7 @@ Les études de physiologie de l'effort sur ce sujet convergent depuis longtemps 
 
 ## L'enchaînement comme grammaire musculaire
 
-L'idée centrale relayée par u-Trail — enchaîner dans la même séance côtes courtes, montées longues et marche rapide — n'est pas un empilement aléatoire. C'est une logique de sollicitation croisée. Les côtes courtes travaillent la puissance, le recrutement des fibres rapides, la capacité à passer un mur. Les montées longues installent la filière aérobie sur durée prolongée, à intensité moyenne soutenable. La marche rapide, enfin, entraîne un geste technique spécifique : poussée du bassin, gainage, respiration, usage éventuel des bâtons.
+L'idée centrale relayée par u-Trail, enchaîner dans la même séance côtes courtes, montées longues et marche rapide, n'est pas un empilement aléatoire. C'est une logique de sollicitation croisée. Les côtes courtes travaillent la puissance, le recrutement des fibres rapides, la capacité à passer un mur. Les montées longues installent la filière aérobie sur durée prolongée, à intensité moyenne soutenable. La marche rapide, enfin, entraîne un geste technique spécifique : poussée du bassin, gainage, respiration, usage éventuel des bâtons.
 
 Chacun de ces registres mobilise des fibres et des schémas moteurs différents. Les juxtaposer dans une même sortie, c'est simuler ce que le terrain impose en course : alterner, s'adapter, repartir. C'est exactement ce qu'un plan route ne peut pas produire, même avec dix séances de côtes par semaine.
 
@@ -79,7 +79,7 @@ L'enjeu d'une séance combinée, tel que u-Trail le formule, c'est précisément
 
 ## Le bâton, angle mort du débat français
 
-u-Trail ne détaille pas l'usage des bâtons dans ce type de séance, mais le sujet mérite d'être posé. Dans la tradition française, portée par les grandes courses alpines et l'école UTMB, les bâtons sont intégrés dès les pentes moyennes. Dans la culture anglo-saxonne — Western States, Hardrock — ils sont beaucoup plus rares, souvent jugés optionnels.
+u-Trail ne détaille pas l'usage des bâtons dans ce type de séance, mais le sujet mérite d'être posé. Dans la tradition française, portée par les grandes courses alpines et l'école UTMB, les bâtons sont intégrés dès les pentes moyennes. Dans la culture anglo-saxonne, Western States, Hardrock, ils sont beaucoup plus rares, souvent jugés optionnels.
 
 Sur un 30 km / 1500 m D+, le débat est ouvert. Le gain mécanique est réel au-delà de 15 % de pente, l'économie énergétique démontrée dans plusieurs travaux relayés par iRunFar et Ultrarunning Magazine. Mais les bâtons s'apprennent. Les sortir le jour J sans les avoir intégrés à l'entraînement, c'est s'imposer une charge technique parasite. Si l'on veut en faire, c'est dans ce type de séance enchaînée qu'il faut commencer.
 

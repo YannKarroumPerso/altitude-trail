@@ -52,7 +52,7 @@ La première raison est terrain. Sur route, la variable est quasi-nulle : bitume
 
 La deuxième raison est culturelle. Le trail s'est construit en opposition au marathon chronométré : esprit montagne, humilité, refus du tout-technologique. Discuter plaque carbone dans un milieu où François D'Haene a gagné des UTMB en portant des prototypes maison a longtemps semblé déplacé.
 
-La troisième raison est économique. Les marques dominantes du trail — Salomon, Hoka, La Sportiva — ont eu intérêt à laisser la porte ouverte le temps de rattraper l'avance technologique prise par les spécialistes du bitume. Aujourd'hui, le rattrapage est fait. L'encadrement devient possible.
+La troisième raison est économique. Les marques dominantes du trail, Salomon, Hoka, La Sportiva, ont eu intérêt à laisser la porte ouverte le temps de rattraper l'avance technologique prise par les spécialistes du bitume. Aujourd'hui, le rattrapage est fait. L'encadrement devient possible.
 
 ## Ce que l'ITRA met sur la table pour 2026
 
@@ -68,20 +68,20 @@ Le calendrier évoqué prévoit une phase de transition sur 2026, avec applicati
 
 Pour les marques, la partie se joue sur trois fronts. Le premier est produit : redessiner les modèles sous plafond. Hoka, habituée à des empilements généreux, devra probablement raboter. Nike et adidas, déjà rodées à la contrainte route, transposeront plus facilement. Salomon, historiquement positionnée sur des stack modérés, a une carte à jouer.
 
-Le deuxième front est marketing. La "super shoe trail" encadrée devient un produit de masse homologué, pas un objet d'élite. Le discours change : plus de promesse de gains inaccessibles, une technologie standardisée qu'il faut différencier autrement — précision, durabilité, adaptation aux profils.
+Le deuxième front est marketing. La "super shoe trail" encadrée devient un produit de masse homologué, pas un objet d'élite. Le discours change : plus de promesse de gains inaccessibles, une technologie standardisée qu'il faut différencier autrement, précision, durabilité, adaptation aux profils.
 
 Le troisième front est sportif. Les records officieux établis sur UTMB, Hardrock, Western States ces trois dernières saisons l'ont été dans un cadre sans limite. Faut-il distinguer une ère avant/après 2026 ? La question se pose déjà pour Kilian Jornet, dont les meilleurs chronos historiques ont été réalisés sur des modèles souvent moins technologiques que ceux d'aujourd'hui. Ludovic Pommeret, Courtney Dauwalter, Camille Bruyas : les athlètes s'expriment prudemment, la plupart favorables à un cadre, peu désireux de se désavantager publiquement.
 
 ## L'éthique sportive face à la course à l'armement
 
-Le vrai sujet est là. Le trail n'est pas un sport "pur" opposé à un cyclisme dopé à la technologie — cette fable n'a jamais tenu. Mais le trail s'est longtemps pensé comme une discipline où le terrain et le coureur primaient sur le matériel. L'arrivée des plaques carbone a changé l'équation.
+Le vrai sujet est là. Le trail n'est pas un sport "pur" opposé à un cyclisme dopé à la technologie, cette fable n'a jamais tenu. Mais le trail s'est longtemps pensé comme une discipline où le terrain et le coureur primaient sur le matériel. L'arrivée des plaques carbone a changé l'équation.
 
 Les travaux scientifiques sur la super shoe de route, publiés notamment dans le Journal of Applied Physiology et le Sports Medicine depuis 2018, convergent sur un gain d'économie de course de l'ordre de 2 à 4 % en moyenne. Sur ultra-trail, les transpositions sont plus incertaines : la fatigue musculaire, l'instabilité du terrain, les phases de marche modifient le bénéfice. Plusieurs études récentes, dont certaines parues dans l'European Journal of Sport Science, suggèrent que le gain existe mais qu'il est plus variable. Suffisant, en tout cas, pour que l'équité devienne un enjeu.
 
-Sur les sujets santé — risques de blessures liés aux plaques, modifications biomécaniques de la foulée — les recommandations actuelles invitent tout coureur à consulter un professionnel de santé avant d'intégrer ce type de chaussure à son entraînement régulier.
+Sur les sujets santé, risques de blessures liés aux plaques, modifications biomécaniques de la foulée, les recommandations actuelles invitent tout coureur à consulter un professionnel de santé avant d'intégrer ce type de chaussure à son entraînement régulier.
 
 ## Notre lecture : la fin salutaire d'une naïveté
 
-L'ITRA arrive tard, mais elle arrive. Et c'est une bonne nouvelle. Pendant cinq ans, le trail a laissé l'industrie écrire seule les règles du jeu en invoquant la spécificité du terrain comme excuse. La spécificité existe, mais elle ne justifiait pas l'absence totale de cadre — elle appelait au contraire un cadre adapté.
+L'ITRA arrive tard, mais elle arrive. Et c'est une bonne nouvelle. Pendant cinq ans, le trail a laissé l'industrie écrire seule les règles du jeu en invoquant la spécificité du terrain comme excuse. La spécificité existe, mais elle ne justifiait pas l'absence totale de cadre, elle appelait au contraire un cadre adapté.
 
 La vraie question n'est pas de savoir si les plaques carbone sont du dopage technologique. Elles ne le sont pas plus que les combinaisons de natation ou les vélos de contre-la-montre. La question est de savoir qui fixe la limite : la fédération, ou le département R&D de Beaverton. Avec la règle 2026, l'ITRA reprend la main sur un sport qui lui échappait. Le trail perd un peu de son romantisme anti-matériel. Il gagne en maturité. À cinquante kilomètres de dénivelé cumulé sur une saison élite, cette maturité n'est pas un luxe.

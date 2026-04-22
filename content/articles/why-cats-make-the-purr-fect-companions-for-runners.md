@@ -26,9 +26,9 @@ externalRefs:
   - url: 'https://www.irunfar.com'
     label: iRunFar – actualités et culture de l'ultra-trail
 ---
-Oubliez le labrador qui court à vos côtés sur les single tracks. La vraie révélation du trail outdoor 2024 pourrait bien tenir sur quatre pattes, miauler à l'aube et peser trois kilos. Le chat s'invite sur les sentiers — et la culture running commence à en prendre acte.
+Oubliez le labrador qui court à vos côtés sur les single tracks. La vraie révélation du trail outdoor 2024 pourrait bien tenir sur quatre pattes, miauler à l'aube et peser trois kilos. Le chat s'invite sur les sentiers, et la culture running commence à en prendre acte.
 
-Un plaidoyer publié par Trail Runner Mag bouscule un tabou silencieux de la communauté ultra : l'animal de compagnie du [traileur](https://www.altitude-trail.fr/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu) ne serait pas forcément canin. L'autrice y défend, témoignages à l'appui, l'idée que le félin coche des cases insoupçonnées pour un coureur de fond : régulateur de sommeil, coach d'étirement, antidote à l'obsession chronométrique. Derrière l'anecdote, deux figures emblématiques émergent — Simon, alias *Backpacking Kitty*, compagnon du cinéaste JJ Yosh à Boulder (Colorado) et Sully, vedette Instagram propulsée par sa propriétaire Katie Chen. Plusieurs *14ers* au compteur pour le premier. Une cadence de trot qui intrigue les réseaux pour le second.
+Un plaidoyer publié par Trail Runner Mag bouscule un tabou silencieux de la communauté ultra : l'animal de compagnie du [traileur](https://www.altitude-trail.fr/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu) ne serait pas forcément canin. L'autrice y défend, témoignages à l'appui, l'idée que le félin coche des cases insoupçonnées pour un coureur de fond : régulateur de sommeil, coach d'étirement, antidote à l'obsession chronométrique. Derrière l'anecdote, deux figures emblématiques émergent, Simon, alias *Backpacking Kitty*, compagnon du cinéaste JJ Yosh à Boulder (Colorado) et Sully, vedette Instagram propulsée par sa propriétaire Katie Chen. Plusieurs *14ers* au compteur pour le premier. Une cadence de trot qui intrigue les réseaux pour le second.
 
 ## Un phénomène outdoor qui ne se résume pas à une mode Instagram
 
@@ -36,11 +36,11 @@ Le chat d'aventure n'est plus une excentricité isolée. Trail Runner Mag identi
 
 ![Illustration Actualités](/articles/le-chat-compagnon-insoupconne-du-traileur-1.jpg)
 
-Ces cinq *14ers* cumulés représentent l'équivalent, en dénivelé positif, de deux UTMB empilés. Le chat ne les avale évidemment pas en autonomie — il voyage en sac à dos spécialisé, parfois drapé sur les épaules — mais il les parcourt. Le cadre compte : au Colorado, laisser divaguer un chat équivaut à le condamner. Coyotes, pumas, rapaces. L'extérieur sans harnais est une impasse. La laisse [devient](https://www.altitude-trail.fr/articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe) paradoxalement l'outil d'émancipation.
+Ces cinq *14ers* cumulés représentent l'équivalent, en dénivelé positif, de deux UTMB empilés. Le chat ne les avale évidemment pas en autonomie, il voyage en sac à dos spécialisé, parfois drapé sur les épaules, mais il les parcourt. Le cadre compte : au Colorado, laisser divaguer un chat équivaut à le condamner. Coyotes, pumas, rapaces. L'extérieur sans harnais est une impasse. La laisse [devient](https://www.altitude-trail.fr/articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe) paradoxalement l'outil d'émancipation.
 
 ## Ce que Yosh a compris que les coureurs n'ont pas encore intégré
 
-La logique est limpide, telle que Yosh la raconte à Trail Runner Mag : « Au Colorado, tout le monde embarque son chien dans son Subaru direction les trails. Pourquoi pas moi ? » Le propriétaire de Simon avait recueilli une portée errante. L'adoption s'est faite presque par accident, puis la décision — « autant en faire un chat d'aventure » — a tout structuré.
+La logique est limpide, telle que Yosh la raconte à Trail Runner Mag : « Au Colorado, tout le monde embarque son chien dans son Subaru direction les trails. Pourquoi pas moi ? » Le propriétaire de Simon avait recueilli une portée errante. L'adoption s'est faite presque par accident, puis la décision, « autant en faire un chat d'aventure », a tout structuré.
 
 Le duo a dormi dans la neige de l'Indian Peaks Wilderness. « Le froid ne l'a pas impressionné. Il s'est pelotonné dans son équipement et a savouré chaque seconde », rapporte Yosh dans Trail Runner Mag. On est loin du cliché du chat de salon. On est plus proche, en réalité, de la relation qu'un alpiniste entretient avec un chien de traîneau : une acclimatation patiente, un équipement spécifique, une lecture fine des limites de l'animal.
 
@@ -48,7 +48,7 @@ Côté Katie Chen, l'ambition est plus modeste et probablement plus réaliste po
 
 ## Le manuel d'acclimatation, ou pourquoi votre laisse à chien ne sert à rien
 
-La leçon technique tirée par Trail Runner Mag mérite d'être extraite du registre anecdotique. Premier principe : le harnais se travaille à l'intérieur, par sessions courtes, jusqu'à tolérance complète. Yosh reconnaît avoir tâtonné longtemps avant de trouver le modèle supporté par Simon. Deuxième principe : la routine structure l'acceptation. Chen insiste sur les horaires et lieux fixes — au risque, prévient-elle, de voir le chat réclamer ensuite sa sortie avec insistance.
+La leçon technique tirée par Trail Runner Mag mérite d'être extraite du registre anecdotique. Premier principe : le harnais se travaille à l'intérieur, par sessions courtes, jusqu'à tolérance complète. Yosh reconnaît avoir tâtonné longtemps avant de trouver le modèle supporté par Simon. Deuxième principe : la routine structure l'acceptation. Chen insiste sur les horaires et lieux fixes, au risque, prévient-elle, de voir le chat réclamer ensuite sa sortie avec insistance.
 
 ![Illustration Actualités](/articles/le-chat-compagnon-insoupconne-du-traileur-2.jpg)
 

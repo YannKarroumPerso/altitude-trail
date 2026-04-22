@@ -38,11 +38,11 @@ Les données relayées par iRunFar dans son compte-rendu hebdomadaire dessinent 
 
 ![Illustration Actualités](/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-1.jpg)
 
-Pour situer : sur la même course en 2023, Ben Dhiman avait posé la référence en 10 h 35. Butaci échoue à six minutes du record — sur un format où, à la Diagonale des Fous par exemple, les écarts entre podiums se comptent en dizaines de minutes. Un indice du niveau d'homogénéité actuel dans l'ultra continental.
+Pour situer : sur la même course en 2023, Ben Dhiman avait posé la référence en 10 h 35. Butaci échoue à six minutes du record, sur un format où, à la Diagonale des Fous par exemple, les écarts entre podiums se comptent en dizaines de minutes. Un indice du niveau d'homogénéité actuel dans l'ultra continental.
 
 Chez les femmes, basculement complet de scénario. Gemma Arenas a écrasé la course en 13 h 43, reléguant la Britannique Emily Dixon à 24 minutes et sa compatriote Yasmina Castro Chacón à près d'une heure. Démonstration à sens unique, sans la moindre contestation.
 
-Le MiM (60 km) a rejoué la même partition : José Fernández 5 h 15, l'Américain Dakota Jones 5 h 17, Mario Olmedo 5 h 23. Triplé à la minute près. Côté féminin, la Norvégienne Sara-Rebekka Færø Linde s'impose en 6 h 23, Inés Astrain et Anna Comet la suivant à treize minutes — et dix secondes d'écart entre elles. Les ultras européens se jouent désormais au sprint. La préparation a changé, les pelotons se sont densifiés.
+Le MiM (60 km) a rejoué la même partition : José Fernández 5 h 15, l'Américain Dakota Jones 5 h 17, Mario Olmedo 5 h 23. Triplé à la minute près. Côté féminin, la Norvégienne Sara-Rebekka Færø Linde s'impose en 6 h 23, Inés Astrain et Anna Comet la suivant à treize minutes, et dix secondes d'écart entre elles. Les ultras européens se jouent désormais au sprint. La préparation a changé, les pelotons se sont densifiés.
 
 ## São Brás : Gitonga change les règles de la descente
 
@@ -58,13 +58,13 @@ Sur la côte pacifique, l'étape Puerto Vallarta Mexico by UTMB a livré un verd
 
 ![Illustration Actualités](/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-2.jpg)
 
-L'UTMB continue donc son essaimage planétaire. L'enseigne annexe des paysages, appose sa signature sur un peyotl (Hikuri), une déesse de l'océan (Haramara) et engrange les coureurs locaux. Entre critique légitime sur l'hégémonie du circuit et constat factuel — le maillage est désormais assumé de Chiang Mai à Puerto Vallarta — le trail s'industrialise à marche forcée.
+L'UTMB continue donc son essaimage planétaire. L'enseigne annexe des paysages, appose sa signature sur un peyotl (Hikuri), une déesse de l'océan (Haramara) et engrange les coureurs locaux. Entre critique légitime sur l'hégémonie du circuit et constat factuel, le maillage est désormais assumé de Chiang Mai à Puerto Vallarta, le trail s'industrialise à marche forcée.
 
 ## Paulson à Boston : 7'40" au mile pendant 12 h 47
 
 Le moment fort du week-end s'est joué sous néons. Au Boston Marathon Expo, départ à 3 h 46 du matin, Ashley Paulson a couru 100 miles sur tapis en 12:47:10. iRunFar précise le détail qui compte : 7'40" au mile. Pendant plus de douze heures. Un marathon bouclé en 3 h 20, trois fois de suite, sans relâche.
 
-Le record précédent, 14:15:08, tenait depuis 2004. Signé Edit Bérces, Hongroise. Paulson vient de l'effacer d'une heure et demie. Et iRunFar rappelle qu'en février dernier, la même coureuse avait bouclé 100 miles en 12:19:34 à Jackpot Ultras, dans le Nevada — record du monde féminin sur la distance, route ou trail confondus.
+Le record précédent, 14:15:08, tenait depuis 2004. Signé Edit Bérces, Hongroise. Paulson vient de l'effacer d'une heure et demie. Et iRunFar rappelle qu'en février dernier, la même coureuse avait bouclé 100 miles en 12:19:34 à Jackpot Ultras, dans le Nevada, record du monde féminin sur la distance, route ou trail confondus.
 
 iRunFar mentionne aussi, dans un souci de complétude, la suspension de six mois purgée par Paulson en 2015-2016 à la suite d'un contrôle positif à l'ostarine en triathlon, imputé à un complément alimentaire contaminé. Information factuelle, dossier clos, mais que le journalisme sérieux ne tait pas.
 
@@ -78,4 +78,4 @@ Et sur les circuits américains plus classiques, moisson habituelle : Hyner View
 
 Le week-end prochain promet Canyons et Mont Fuji : Golden Ticket en Californie pour Western States avec Hayden Hawks, Adam Peterman, Zach Miller, Riley Brady, Molly Seidel et quatrième étape des World Trail Majors au Japon avec Kaytlyn Gerbin, Ruy Ueda, Guo-Min Deng. Le bruit reviendra.
 
-Reste que cette semaine en demi-teinte, précisément, est révélatrice. L'ultra européen se joue désormais à la seconde. La Coupe du monde de montagne voit émerger un axe est-africain qui bouscule la hiérarchie britannique. L'UTMB colonise proprement ses nouveaux territoires. Et sur un tapis du Massachusetts, une femme vient de courir 100 miles à 7'40" au mile — une allure que la plupart des marathoniens amateurs tiennent difficilement sur un semi. Le trail et l'ultra ne vivent pas en ce moment leur plus [grand](https://www.altitude-trail.fr/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno) week-end. Ils traversent simplement une phase où chaque dimanche redéfinit, un peu, le plafond. On finira par s'y habituer. C'est peut-être le vrai problème.
+Reste que cette semaine en demi-teinte, précisément, est révélatrice. L'ultra européen se joue désormais à la seconde. La Coupe du monde de montagne voit émerger un axe est-africain qui bouscule la hiérarchie britannique. L'UTMB colonise proprement ses nouveaux territoires. Et sur un tapis du Massachusetts, une femme vient de courir 100 miles à 7'40" au mile, une allure que la plupart des marathoniens amateurs tiennent difficilement sur un semi. Le trail et l'ultra ne vivent pas en ce moment leur plus [grand](https://www.altitude-trail.fr/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno) week-end. Ils traversent simplement une phase où chaque dimanche redéfinit, un peu, le plafond. On finira par s'y habituer. C'est peut-être le vrai problème.

@@ -39,9 +39,9 @@ youtubeDuration: 504
 youtubeUploadDate: '2025-06-26T12:59:48Z'
 ---
 
-Le trail laisse des traces. Les médailles, les Strava, les photos au sommet — et les ongles noirs, cette signature discrète qu'on cache en tongs au bureau.
+Le trail laisse des traces. Les médailles, les Strava, les photos au sommet, et les ongles noirs, cette signature discrète qu'on cache en tongs au bureau.
 
-L'ongle du coureur de trail encaisse tout : chocs répétés dans les descentes, humidité prolongée dans une chaussure saturée de sueur ou d'eau de gué, compression sur des centaines de milliers de pas. Chez les ultra-traileurs, les études dermatologiques retrouvent des atteintes unguéales chez la majorité des finishers d'épreuves longues — hématomes, décollements, mycoses. Rien de dramatique le plus souvent. Mais des pathologies qu'il faut savoir identifier, traiter et surtout prévenir, parce qu'un ongle mal géré peut gâcher une saison entière ou ouvrir la porte à des infections plus sérieuses.
+L'ongle du coureur de trail encaisse tout : chocs répétés dans les descentes, humidité prolongée dans une chaussure saturée de sueur ou d'eau de gué, compression sur des centaines de milliers de pas. Chez les ultra-traileurs, les études dermatologiques retrouvent des atteintes unguéales chez la majorité des finishers d'épreuves longues, hématomes, décollements, mycoses. Rien de dramatique le plus souvent. Mais des pathologies qu'il faut savoir identifier, traiter et surtout prévenir, parce qu'un ongle mal géré peut gâcher une saison entière ou ouvrir la porte à des infections plus sérieuses.
 
 ## L'hématome sous-unguéal, cicatrice ordinaire du descendeur
 
@@ -63,9 +63,9 @@ Point crucial : une repousse anarchique, épaissie, déformée ou double doit al
 
 ## Ongle incarné, la petite blessure qui stoppe une saison
 
-L'ongle incarné — onychocryptose pour les puristes — survient lorsque le bord latéral de l'ongle pénètre le sillon cutané. Inflammation, douleur à la pression, parfois surinfection avec bourgeon charnu suintant. Sur un coureur, c'est rédhibitoire : chaque appui devient un calvaire.
+L'ongle incarné, onychocryptose pour les puristes, survient lorsque le bord latéral de l'ongle pénètre le sillon cutané. Inflammation, douleur à la pression, parfois surinfection avec bourgeon charnu suintant. Sur un coureur, c'est rédhibitoire : chaque appui devient un calvaire.
 
-Trois causes reviennent systématiquement : coupe trop courte ou trop arrondie des bords, chaussures compressives et prédisposition anatomique (ongle en volute, gros orteil égyptien). Les recommandations de la Haute Autorité de Santé pour les formes non compliquées privilégient d'abord les soins conservateurs : bains d'antiseptique dilué, méchage du sillon par un podologue, orthonyxie (agrafe ou fil pour redresser la courbure). La chirurgie — phénolisation de la matrice — reste réservée aux récidives.
+Trois causes reviennent systématiquement : coupe trop courte ou trop arrondie des bords, chaussures compressives et prédisposition anatomique (ongle en volute, gros orteil égyptien). Les recommandations de la Haute Autorité de Santé pour les formes non compliquées privilégient d'abord les soins conservateurs : bains d'antiseptique dilué, méchage du sillon par un podologue, orthonyxie (agrafe ou fil pour redresser la courbure). La chirurgie, phénolisation de la matrice, reste réservée aux récidives.
 
 ![Illustration Blessures & Préventions](/articles/ongles-noirs-onychomycose-pied-coureur-soins-2.jpg)
 
@@ -77,7 +77,7 @@ L'infection fongique de l'ongle est la pathologie la plus sournoise du coureur. 
 
 Le terrain du traileur coche toutes les cases favorisantes identifiées par la dermatologie : humidité prolongée, micro-traumatismes unguéaux répétés qui créent des portes d'entrée, fréquentation de vestiaires et douches collectives. Les dermatophytes, principalement Trichophyton rubrum, adorent ce cocktail. L'immunodépression transitoire liée aux gros volumes d'entraînement, bien documentée dans la littérature en médecine du sport, aggrave la vulnérabilité.
 
-Le diagnostic sérieux passe par un prélèvement mycologique — examen direct plus culture — avant tout traitement. Auto-diagnostiquer une mycose sur un ongle qui jaunit est une erreur classique : un tiers des ongles suspects relève en réalité d'une dystrophie post-traumatique, pas d'un champignon. Traiter par antifongique ce qui n'en est pas un ne sert à rien.
+Le diagnostic sérieux passe par un prélèvement mycologique, examen direct plus culture, avant tout traitement. Auto-diagnostiquer une mycose sur un ongle qui jaunit est une erreur classique : un tiers des ongles suspects relève en réalité d'une dystrophie post-traumatique, pas d'un champignon. Traiter par antifongique ce qui n'en est pas un ne sert à rien.
 
 Quand la mycose est confirmée, la prise en charge s'étale. Traitement topique (solutions filmogènes type amorolfine ou ciclopirox) pour les atteintes distales modérées sur moins de la moitié de l'ongle. Traitement systémique (terbinafine orale) pour les formes étendues ou matricielles, avec surveillance hépatique. La durée, dans tous les cas, se compte en mois : trois à six pour un ongle de main, six à douze pour un gros orteil. Aucun antifongique ne fait repousser un ongle sain plus vite que sa vitesse biologique. La patience, encore.
 
@@ -85,12 +85,12 @@ Ces traitements, particulièrement la terbinafine, relèvent impérativement d'u
 
 ## Routine post-sortie, le maillon le plus sous-estimé
 
-La prévention ne tient pas dans un produit miracle. Elle tient dans une hygiène répétée. Sécher soigneusement les espaces interdigitaux après chaque sortie — c'est là que les champignons colonisent. Alterner les paires de chaussures pour laisser chacune sécher 24 à 48 heures. Choisir des chaussettes techniques en fibres synthétiques ou laine mérinos, changées systématiquement en cas d'humidité. Couper les ongles droits, ni trop courts ni trop longs, une fois par semaine.
+La prévention ne tient pas dans un produit miracle. Elle tient dans une hygiène répétée. Sécher soigneusement les espaces interdigitaux après chaque sortie, c'est là que les champignons colonisent. Alterner les paires de chaussures pour laisser chacune sécher 24 à 48 heures. Choisir des chaussettes techniques en fibres synthétiques ou laine mérinos, changées systématiquement en cas d'humidité. Couper les ongles droits, ni trop courts ni trop longs, une fois par semaine.
 
-Le massage quotidien des orteils, cinq minutes le soir avec une crème hydratante, améliore la trophicité cutanée et limite les fissurations. Geste simple, effet réel. Et pour les pieds à risque — hyper-sudation, antécédents mycosiques, déformations — un bilan podologique annuel vaut largement son coût.
+Le massage quotidien des orteils, cinq minutes le soir avec une crème hydratante, améliore la trophicité cutanée et limite les fissurations. Geste simple, effet réel. Et pour les pieds à risque, hyper-sudation, antécédents mycosiques, déformations, un bilan podologique annuel vaut largement son coût.
 
 ## Le pied, angle mort de la préparation
 
 On parle VO2max, plans d'entraînement, gels isotoniques, poudres de caféine. On parle moins de l'interface qui encaisse chaque watt produit : le pied. C'est pourtant là que se jouent la plupart des abandons évitables en [ultra](https://www.altitude-trail.fr/articles/ampoules-frottements-ultra-prevention-gestion), bien avant la défaillance cardio ou musculaire.
 
-La culture du soin podologique a progressé dans le peloton élite — Courtney Dauwalter ne fait pas mystère de ses rituels pré-course — mais reste embryonnaire chez l'amateur. On accepte encore l'ongle noir comme un trophée, la mycose comme une fatalité. C'est à rebours de toute logique de performance durable. Un pied en bon état court mieux, plus longtemps, plus loin. Le reste, c'est de la littérature. Et pour tout doute sur une lésion unguéale qui s'installe, le réflexe doit être médical, pas forumique.
+La culture du soin podologique a progressé dans le peloton élite, Courtney Dauwalter ne fait pas mystère de ses rituels pré-course, mais reste embryonnaire chez l'amateur. On accepte encore l'ongle noir comme un trophée, la mycose comme une fatalité. C'est à rebours de toute logique de performance durable. Un pied en bon état court mieux, plus longtemps, plus loin. Le reste, c'est de la littérature. Et pour tout doute sur une lésion unguéale qui s'installe, le réflexe doit être médical, pas forumique.

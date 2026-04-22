@@ -48,7 +48,7 @@ Le bon terrain de début ressemble à ceci : une forêt proche de chez soi, des 
 
 ![Illustration Débuter](/articles/premiere-sortie-trail-choix-parcours-allure-1.jpg)
 
-Le dénivelé mérite une attention particulière. 150 à 300 mètres sur 6 à 8 kilomètres, c'est une pente moyenne digeste. Au-delà, la proportion de marche explose et l'objectif initial — trouver un rythme, prendre du plaisir — s'effrite. On pourra doubler le D+ trois sorties plus tard, sans précipitation.
+Le dénivelé mérite une attention particulière. 150 à 300 mètres sur 6 à 8 kilomètres, c'est une pente moyenne digeste. Au-delà, la proportion de marche explose et l'objectif initial, trouver un rythme, prendre du plaisir, s'effrite. On pourra doubler le D+ trois sorties plus tard, sans précipitation.
 
 ## L'endurance fondamentale n'est pas une option, c'est le mode par défaut
 
