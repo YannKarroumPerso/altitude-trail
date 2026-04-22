@@ -1,64 +1,52 @@
 "use client";
 
 /**
- * Popin newsletter qui s'affiche après 60 secondes passées sur le site.
+ * Popin newsletter — version soignée mobile-first.
  *
- * Principes UX :
- *   - Affichée une seule fois, sauf si l'utilisateur redemande (refresh du
- *     localStorage) → on garde en mémoire 30 jours.
- *   - Fermable via 4 gestes distincts : bouton X, clic sur backdrop, touche
- *     Escape, ou soumission réussie.
- *   - Pas intrusive : pas de popup modale bloquante au démarrage.
- *
- * Respect RGPD :
- *   - Consentement explicite par clic sur "M'inscrire" (double opt-in mail à
- *     venir côté API).
- *   - Mention des conditions (pas de revente, résiliation 1 clic) visible.
+ * Design :
+ *   - Mobile (<640px) : bottom sheet plein écran, rounded-t, slide depuis le bas
+ *   - Desktop : modale centrée max 440px, slide + fade
+ *   - Hero visuel avec image article + overlay navy gradient
+ *   - Formulaire minimaliste, gros input tactile
+ *   - Animations 300ms
  */
 
 import { useEffect, useRef, useState } from "react";
 
 const LOCALSTORAGE_KEY = "at-newsletter-popin-closed-at";
-const DISMISS_DURATION_MS = 30 * 24 * 60 * 60 * 1000; // 30 jours
-const DELAY_MS = 60_000; // 60 secondes
+const DISMISS_DURATION_MS = 30 * 24 * 60 * 60 * 1000;
+const DELAY_MS = 60_000;
 
 type Status = "idle" | "submitting" | "success" | "error";
 
 export default function NewsletterPopin() {
   const [visible, setVisible] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const [email, setEmail] = useState("");
   const [consent, setConsent] = useState(true);
   const [status, setStatus] = useState<Status>("idle");
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const closeBtnRef = useRef<HTMLButtonElement | null>(null);
 
-  // Montre la popin après DELAY_MS, sauf si dismiss récent en localStorage.
   useEffect(() => {
-    // Skip si déjà dismiss dans les 30 derniers jours
     try {
       const dismissed = localStorage.getItem(LOCALSTORAGE_KEY);
       if (dismissed) {
         const ts = parseInt(dismissed, 10);
-        if (!isNaN(ts) && Date.now() - ts < DISMISS_DURATION_MS) {
-          return; // pas d'affichage
-        }
+        if (!isNaN(ts) && Date.now() - ts < DISMISS_DURATION_MS) return;
       }
-    } catch {
-      // localStorage indispo (safari privé, etc.) → on affiche normalement
-    }
-
-    const t = setTimeout(() => setVisible(true), DELAY_MS);
+    } catch {}
+    const t = setTimeout(() => {
+      setVisible(true);
+      requestAnimationFrame(() => setMounted(true));
+    }, DELAY_MS);
     return () => clearTimeout(t);
   }, []);
 
-  // Focus sur le bouton close à l'ouverture pour accessibilité
   useEffect(() => {
-    if (visible && closeBtnRef.current) {
-      closeBtnRef.current.focus();
-    }
+    if (visible && closeBtnRef.current) closeBtnRef.current.focus();
   }, [visible]);
 
-  // Fermeture via Escape
   useEffect(() => {
     if (!visible) return;
     const onKey = (e: KeyboardEvent) => {
@@ -66,7 +54,16 @@ export default function NewsletterPopin() {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [visible]);
 
+  useEffect(() => {
+    if (visible) {
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = "";
+      };
+    }
   }, [visible]);
 
   function persistDismiss() {
@@ -76,24 +73,25 @@ export default function NewsletterPopin() {
   }
 
   function close() {
-    persistDismiss();
-    setVisible(false);
+    setMounted(false);
+    setTimeout(() => {
+      persistDismiss();
+      setVisible(false);
+    }, 300);
   }
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
     setErrorMessage(null);
-
     const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
     if (!emailOk) {
       setErrorMessage("Adresse email invalide.");
       return;
     }
     if (!consent) {
-      setErrorMessage("Tu dois consentir à l'inscription pour continuer.");
+      setErrorMessage("Tu dois accepter la newsletter pour continuer.");
       return;
     }
-
     setStatus("submitting");
     try {
       const res = await fetch("/api/newsletter/subscribe", {
@@ -107,8 +105,10 @@ export default function NewsletterPopin() {
       }
       setStatus("success");
       persistDismiss();
-      // Fermeture automatique 4s après succès
-      setTimeout(() => setVisible(false), 4000);
+      setTimeout(() => {
+        setMounted(false);
+        setTimeout(() => setVisible(false), 300);
+      }, 5000);
     } catch (err) {
       setStatus("error");
       setErrorMessage(
@@ -120,131 +120,177 @@ export default function NewsletterPopin() {
   if (!visible) return null;
 
   return (
-    <div
-      className="fixed inset-0 z-[100] flex items-end md:items-center justify-center p-4 bg-black/60 backdrop-blur-sm"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="newsletter-title"
-      onClick={(e) => {
-        if (e.target === e.currentTarget) close();
-      }}
-    >
-      <div className="bg-white max-w-md w-full shadow-2xl relative animate-slide-up">
-        {/* Bouton fermer */}
-        <button
-          ref={closeBtnRef}
-          type="button"
-          onClick={close}
-          aria-label="Fermer"
-          className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center text-slate-400 hover:text-navy hover:bg-surface-container transition-colors text-xl"
+    <>
+      {/* Backdrop */}
+      <div
+        className={
+          "fixed inset-0 z-[100] bg-black transition-opacity duration-300 " +
+          (mounted ? "opacity-60 backdrop-blur-sm" : "opacity-0 pointer-events-none")
+        }
+        onClick={close}
+        aria-hidden="true"
+      />
+
+      {/* Conteneur popin */}
+      <div
+        className="fixed inset-0 z-[101] flex items-end sm:items-center justify-center pointer-events-none sm:p-4"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="newsletter-title"
+      >
+        <div
+          className={
+            "relative pointer-events-auto bg-white w-full sm:max-w-[440px] overflow-hidden shadow-2xl transition-all duration-300 ease-out " +
+            "rounded-t-[20px] sm:rounded-lg max-h-[92vh] overflow-y-auto " +
+            (mounted
+              ? "translate-y-0 opacity-100 sm:scale-100"
+              : "translate-y-full sm:translate-y-4 opacity-0 sm:scale-95")
+          }
         >
-          ✕
-        </button>
+          {/* Poignée mobile */}
+          <div className="sm:hidden absolute top-2.5 left-1/2 -translate-x-1/2 w-10 h-1 bg-slate-300 rounded-full" aria-hidden="true" />
 
-        {status === "success" ? (
-          <div className="p-8 text-center">
-            <div className="w-14 h-14 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto mb-4 text-2xl">
-              ✓
-            </div>
-            <h2 className="font-headline text-2xl font-black mb-2 text-navy">
-              Inscription enregistrée
-            </h2>
-            <p className="text-sm text-slate-600 leading-relaxed">
-              Tu recevras nos prochaines actualités trail par email. Un mail de
-              confirmation arrive dans ta boîte de réception.
-            </p>
-          </div>
-        ) : (
-          <>
-            <div className="bg-navy text-white p-6 border-b-4 border-primary">
-              <div className="text-[10px] font-headline font-black uppercase tracking-widest text-primary mb-2">
-                Altitude Trail
+          {/* Bouton fermer */}
+          <button
+            ref={closeBtnRef}
+            type="button"
+            onClick={close}
+            aria-label="Fermer"
+            className="absolute top-3 right-3 z-10 w-10 h-10 flex items-center justify-center text-white/80 hover:text-white hover:bg-white/10 transition-all rounded-full"
+          >
+            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+
+          {status === "success" ? (
+            /* ──── Écran succès ──── */
+            <div className="bg-navy text-white px-6 pt-10 pb-10 sm:px-10 sm:pt-14 sm:pb-12 text-center">
+              <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-primary/10 border-2 border-primary mb-6">
+                <svg className="w-10 h-10 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
               </div>
-              <h2
-                id="newsletter-title"
-                className="font-headline text-2xl md:text-3xl font-black leading-tight tracking-tight"
-              >
-                Ne rate plus aucune actu trail
+              <div className="text-[11px] font-headline font-black uppercase tracking-[0.25em] text-primary mb-3">
+                Bienvenue
+              </div>
+              <h2 className="font-headline text-3xl sm:text-4xl font-black leading-[1.05] tracking-tight mb-4">
+                C&apos;est parti
               </h2>
+              <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-xs mx-auto">
+                On vient de t&apos;envoyer un email avec nos trois articles de référence pour bien démarrer.
+              </p>
             </div>
-
-            <form onSubmit={onSubmit} className="p-6 space-y-4">
-              <p className="text-sm text-slate-700 leading-relaxed">
-                Reçois nos articles, les résultats des grandes courses et les
-                dernières analyses directement dans ta boîte mail. Une à deux fois
-                par semaine, jamais de spam.
-              </p>
-
-              <label className="block">
-                <span className="sr-only">Adresse email</span>
-                <input
-                  type="email"
-                  required
-                  autoComplete="email"
-                  placeholder="ton@email.com"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="w-full border border-slate-200 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+          ) : (
+            <>
+              {/* Hero visuel */}
+              <div className="relative h-[200px] sm:h-[220px] overflow-hidden bg-navy">
+                {/* Image de fond (paysage alpin) */}
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{
+                    backgroundImage:
+                      "url('/articles/preparer-premier-trail-10-km-conseils-cles-hero.jpg')",
+                  }}
+                  aria-hidden="true"
                 />
-              </label>
+                {/* Overlay dégradé navy pour lisibilité du texte */}
+                <div className="absolute inset-0 bg-gradient-to-b from-navy/60 via-navy/75 to-navy" aria-hidden="true" />
 
-              <label className="flex items-start gap-2 text-xs text-slate-600 leading-snug cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={consent}
-                  onChange={(e) => setConsent(e.target.checked)}
-                  className="mt-0.5 shrink-0 accent-primary"
-                />
-                <span>
-                  J&apos;accepte de recevoir la newsletter d&apos;Altitude Trail.
-                  Je peux me désinscrire en un clic depuis n&apos;importe quel email.
-                  Aucune revente, aucun partage.
-                </span>
-              </label>
+                {/* Badge */}
+                <div className="relative h-full flex flex-col justify-end p-6 sm:p-8">
+                  <div className="text-[10px] font-headline font-black uppercase tracking-[0.25em] text-primary mb-2">
+                    Newsletter Altitude Trail
+                  </div>
+                  <h2
+                    id="newsletter-title"
+                    className="font-headline text-2xl sm:text-3xl font-black leading-[1.1] tracking-tight text-white pr-10"
+                  >
+                    L&apos;actu trail,
+                    <br />
+                    <span className="text-primary">1 à 2 fois par semaine.</span>
+                  </h2>
+                </div>
+              </div>
 
-              {errorMessage && (
-                <p className="text-sm text-red-600 bg-red-50 border-l-2 border-red-600 px-3 py-2">
-                  {errorMessage}
+              {/* Formulaire */}
+              <form onSubmit={onSubmit} className="px-6 sm:px-8 pt-6 pb-7 sm:pb-8 space-y-4">
+                <p className="text-[15px] text-slate-700 leading-relaxed">
+                  Les résultats des grandes courses, nos analyses et les articles qui comptent — directement dans ta boîte mail. Zéro spam, désinscription en 1 clic.
                 </p>
-              )}
 
-              <button
-                type="submit"
-                disabled={status === "submitting"}
-                className="w-full bg-primary hover:bg-primary-dark disabled:opacity-50 transition-colors text-white font-headline font-black text-sm uppercase tracking-widest py-3"
-              >
-                {status === "submitting" ? "Inscription..." : "M'inscrire"}
-              </button>
+                <label className="block">
+                  <span className="sr-only">Adresse email</span>
+                  <input
+                    type="email"
+                    required
+                    inputMode="email"
+                    autoComplete="email"
+                    placeholder="ton@email.com"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    className="w-full border-b-2 border-slate-200 focus:border-primary bg-transparent px-0 py-3 text-[16px] focus:outline-none transition-colors placeholder:text-slate-400"
+                  />
+                </label>
 
-              <p className="text-center">
                 <button
-                  type="button"
-                  onClick={close}
-                  className="text-xs text-slate-500 hover:text-slate-700 underline underline-offset-4"
+                  type="submit"
+                  disabled={status === "submitting"}
+                  className="w-full bg-primary hover:bg-primary-dark active:scale-[0.98] disabled:opacity-60 disabled:cursor-not-allowed transition-all text-white font-headline font-black text-sm uppercase tracking-[0.15em] py-4 mt-2"
                 >
-                  Non merci, je préfère rester libre
+                  {status === "submitting" ? (
+                    <span className="inline-flex items-center gap-2">
+                      <svg className="w-4 h-4 animate-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10" strokeOpacity="0.25" />
+                        <path d="M12 2a10 10 0 0 1 10 10" strokeLinecap="round" />
+                      </svg>
+                      Inscription…
+                    </span>
+                  ) : (
+                    <>S&apos;inscrire gratuitement</>
+                  )}
                 </button>
-              </p>
-            </form>
-          </>
-        )}
-      </div>
 
-      <style jsx>{`
-        @keyframes slide-up {
-          from {
-            opacity: 0;
-            transform: translateY(30px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        .animate-slide-up {
-          animation: slide-up 0.35s ease-out;
-        }
-      `}</style>
-    </div>
+                <label className="flex items-start gap-2.5 text-[11px] text-slate-500 leading-relaxed cursor-pointer select-none pt-1">
+                  <input
+                    type="checkbox"
+                    checked={consent}
+                    onChange={(e) => setConsent(e.target.checked)}
+                    className="mt-0.5 shrink-0 w-4 h-4 accent-primary cursor-pointer"
+                  />
+                  <span>
+                    J&apos;accepte de recevoir la newsletter et je peux me désinscrire à tout moment. Voir la{" "}
+                    <a href="/charte-editoriale" target="_blank" rel="noopener" className="underline underline-offset-2 hover:text-primary">
+                      charte
+                    </a>
+                    .
+                  </span>
+                </label>
+
+                {errorMessage && (
+                  <p
+                    className="text-sm text-red-700 bg-red-50 border-l-4 border-red-600 px-3 py-2.5"
+                    role="alert"
+                  >
+                    {errorMessage}
+                  </p>
+                )}
+
+                <div className="text-center pt-1">
+                  <button
+                    type="button"
+                    onClick={close}
+                    className="text-xs text-slate-400 hover:text-slate-700 transition-colors underline underline-offset-2"
+                  >
+                    Non merci, une autre fois
+                  </button>
+                </div>
+              </form>
+            </>
+          )}
+        </div>
+      </div>
+    </>
   );
 }
