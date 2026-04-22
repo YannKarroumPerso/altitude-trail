@@ -2,3 +2,4 @@ Touche ce fichier (modifie une ligne, ajoute un timestamp) et pousse sur main
 pour déclencher une exécution hors planning du workflow Veille quotidienne.
 
 last-triggered: 2026-04-21T11:55Z (test emails Gmail après ajout GMAIL_APP_PASSWORD)
+last-triggered: 2026-04-22T07:15Z (diagnostic : cron a saute le run de 6h ce matin, on relance manuellement)
