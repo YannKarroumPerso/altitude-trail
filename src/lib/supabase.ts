@@ -161,32 +161,55 @@ export async function getPlanByAccessToken(token: string): Promise<PlanStatusRes
     .single();
   if (error || !data) return null;
 
+  // Supabase infère parfois `data` comme un union contenant GenericStringError
+  // quand le select combine colonnes + relation. On force le type attendu via
+  // un double cast (unknown intermédiaire pour satisfaire TS).
+  type PlanRow = {
+    id: string;
+    status: "generating" | "ready" | "failed";
+    plan_json: unknown | null;
+    error_message: string | null;
+    created_at: string;
+    access_token: string;
+    course_name: string | null;
+    course_date: string | null;
+    course_distance: number | null;
+    course_denivele: number | null;
+    niveau: string | null;
+    volume_actuel_km: number | null;
+    seances_max_par_semaine: number | null;
+    objectif_principal: string | null;
+    blessures_recurrentes: string | null;
+    users: { prenom: string | null } | { prenom: string | null }[] | null;
+  };
+  const row = data as unknown as PlanRow;
+
   // Normalisation user (peut être objet ou array selon l'inférence Supabase)
-  const rawUsers = (data as unknown as { users: unknown }).users;
+  const rawUsers = row.users;
   const u = Array.isArray(rawUsers) ? rawUsers[0] : rawUsers;
   const prenom = (u && typeof u === "object" && (u as { prenom?: string | null }).prenom) || null;
 
   const context: PlanContext = {
     prenom,
-    courseName: String(data.course_name || ""),
-    courseDate: data.course_date || null,
-    courseDistance: typeof data.course_distance === "number" ? data.course_distance : null,
-    courseDenivele: typeof data.course_denivele === "number" ? data.course_denivele : null,
-    niveau: data.niveau || null,
-    volumeActuelKm: typeof data.volume_actuel_km === "number" ? data.volume_actuel_km : null,
+    courseName: String(row.course_name || ""),
+    courseDate: row.course_date || null,
+    courseDistance: typeof row.course_distance === "number" ? row.course_distance : null,
+    courseDenivele: typeof row.course_denivele === "number" ? row.course_denivele : null,
+    niveau: row.niveau || null,
+    volumeActuelKm: typeof row.volume_actuel_km === "number" ? row.volume_actuel_km : null,
     seancesMaxParSemaine:
-      typeof data.seances_max_par_semaine === "number" ? data.seances_max_par_semaine : null,
-    objectifPrincipal: data.objectif_principal || null,
-    blessuresRecurrentes: data.blessures_recurrentes || null,
+      typeof row.seances_max_par_semaine === "number" ? row.seances_max_par_semaine : null,
+    objectifPrincipal: row.objectif_principal || null,
+    blessuresRecurrentes: row.blessures_recurrentes || null,
   };
 
   return {
-    id: data.id,
-    status: data.status,
-    plan: data.plan_json,
-    error: data.error_message,
-    createdAt: data.created_at,
-    accessToken: data.access_token,
+    id: row.id,
+    status: row.status,
+    plan: row.plan_json,
+    error: row.error_message,
+    createdAt: row.created_at,
+    accessToken: row.access_token,
     context,
   };
 }
