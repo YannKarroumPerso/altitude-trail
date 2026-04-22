@@ -1,14 +1,22 @@
 ---
-slug: "tds-2024-meteo-course-bouleversee-recit"
-title: "TDS 2024 : le jour où la météo a tout rebattu"
-excerpt: "Orage cévenol, brouillard épais, boue jusqu'aux chevilles : le 28 août 2024, la TDS a basculé. Retour sur une édition qui a redéfini les standards de gestion du risque."
-category: "Courses & Récits"
+slug: tds-2024-meteo-course-bouleversee-recit
+title: 'TDS 2024 : le jour où la météo a tout rebattu'
+excerpt: >-
+  Orage cévenol, brouillard épais, boue jusqu'aux chevilles : le 28 août 2024,
+  la TDS a basculé. Retour sur une édition qui a redéfini les standards de
+  gestion du risque.
+category: Courses & Récits
 categorySlug: courses-recits
-author: "Rédaction Altitude"
-date: "7 avril 2026"
-readTime: "10 min"
-image: "/articles/tds-2024-meteo-course-bouleversee-recit-hero.jpg"
-tags: ["TDS", "UTMB", "Météo", "Récit"]
+author: Yann Karroum
+date: 7 avril 2026
+readTime: 10 min
+image: /articles/tds-2024-meteo-course-bouleversee-recit-hero.jpg
+tags:
+  - TDS
+  - UTMB
+  - Météo
+  - Récit
+updatedAt: 22 avril 2026
 ---
 
 Il a suffi d'une nuit. Entre le 27 et le 28 août 2024, un système orageux remonté du golfe de Gênes a transformé la TDS en laboratoire grandeur nature de la gestion de crise en trail. Quand le premier coureur franchit la ligne à Chamonix, l'épreuve qu'il vient de courir n'a plus grand-chose à voir avec celle annoncée sur le roadbook.
@@ -21,7 +29,7 @@ Les bulletins de Météo France et de MeteoSwiss convergeaient depuis 48 heures 
 
 ![Illustration Courses & Récits](/articles/tds-2024-meteo-course-bouleversee-recit-1.jpg)
 
-Le maintien du départ, décidé en fin d'après-midi, reposait sur un calcul classique en organisation d'ultra : couper vaut mieux qu'annuler. La promesse implicite faite aux 1 900 coureurs alignés à Courmayeur était claire. Le tracé serait ajusté en temps réel et la sécurité primerait sur le sportif. Cette promesse a été tenue, parfois brutalement.
+Le maintien du départ, décidé en fin d'après-midi, reposait sur un calcul classique en organisation d'[ultra](https://www.altitude-trail.fr/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu) : couper vaut mieux qu'annuler. La promesse implicite faite aux 1 900 coureurs alignés à Courmayeur était claire. Le tracé serait ajusté en temps réel et la sécurité primerait sur le sportif. Cette promesse a été tenue, parfois brutalement.
 
 ## Le déroutage de la Gittaz et la bascule au col de la Seigne
 
@@ -43,7 +51,7 @@ Les débats d'après-course ont porté sur un point récurrent dans les ultras e
 
 Dans les semaines qui ont suivi, le groupe organisateur a communiqué sur un protocole météo durci pour l'édition 2025. Trois axes ressortent des éléments rendus publics. Premier axe : élargir la fenêtre de décision en amont, avec des scénarios alternatifs validés 72 heures avant le départ plutôt que 24. Deuxième axe : renforcer encore la liste de matériel obligatoire sur les formats les plus exposés et durcir les contrôles inopinés en course. Troisième axe : outiller les commissaires avec des relevés météo embarqués en temps réel sur les points critiques.
 
-Cette refonte dialogue avec ce que d'autres organisations ont mis en place après des épisodes similaires. La Diagonale des Fous 2019, interrompue sur un parcours de repli en raison du cyclone Calvinia, avait déjà poussé le Grand Raid réunionnais à repenser sa doctrine. Le marathon de route lui-même a connu ses épisodes de bascule, de Boston 2018 à Tokyo sous canicule. Le trail n'invente rien. Il rattrape son retard sur des sports d'endurance où la gestion du risque climatique est formalisée depuis plus longtemps.
+Cette refonte dialogue avec ce que d'autres organisations ont mis en place après des épisodes similaires. La [Diagonale](https://www.altitude-trail.fr/articles/diagonale-fous-2023-duel-grangier-dhaene) des Fous 2019, interrompue sur un parcours de repli en raison du cyclone Calvinia, avait déjà poussé le Grand Raid réunionnais à repenser sa doctrine. Le marathon de route lui-même a connu ses épisodes de bascule, de Boston 2018 à Tokyo sous canicule. Le trail n'invente rien. Il rattrape son retard sur des sports d'endurance où la gestion du risque climatique est formalisée depuis plus longtemps.
 
 ## Un trail ouvert aux conditions extrêmes, jusqu'où ?
 

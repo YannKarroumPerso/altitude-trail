@@ -6,8 +6,8 @@ excerpt: >-
   monde sur tapis à Boston : panorama d'un week-end de trail éclectique.
 category: Actualités
 categorySlug: actualites
-author: Rédaction Altitude
-date: "20 avril 2026"
+author: Marc Blanc
+date: 20 avril 2026
 readTime: 6 min
 image: >-
   /articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026-hero.jpg
@@ -19,10 +19,11 @@ tags:
   - international
 sourceUrl: 'https://www.irunfar.com/this-week-in-running-april-20-2026'
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
 Un record mondial sur tapis de course à Boston, 42 secondes d'écart après dix heures d'effort dans la sierra espagnole et une Kényane qui débranche une descente portugaise pour détrôner la championne en titre. Le 20 avril 2026 ne restera pas dans les annales comme un week-end charnière. Mais il dit beaucoup de l'état de forme actuel du trail mondial.
 
-Les données relayées par iRunFar dans son compte-rendu hebdomadaire dessinent un paysage morcelé : le Penyagolosa en Espagne a livré deux sprints d'ultra, la Mountain Running World Cup a lancé sa saison à São Brás au Portugal, l'étape UTMB de Puerto Vallarta a vu le Mexique rafler ses propres courses et Ashley Paulson a pulvérisé à Boston un record qui dormait depuis 2004. Le tout dans une semaine que iRunFar qualifie explicitement de "moins chargée qu'à l'accoutumée". On verra que l'adjectif masque une série d'indices plus parlants qu'il n'y paraît.
+Les données relayées par iRunFar dans son compte-rendu hebdomadaire dessinent un paysage morcelé : le Penyagolosa en Espagne a livré deux sprints d'ultra, la Mountain Running World Cup a lancé sa saison à São Brás au [Portugal](https://www.altitude-trail.fr/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av), l'étape UTMB de Puerto Vallarta a vu le Mexique rafler ses propres courses et Ashley Paulson a pulvérisé à Boston un record qui dormait depuis 2004. Le tout dans une semaine que iRunFar qualifie explicitement de "moins chargée qu'à l'accoutumée". On verra que l'adjectif masque une série d'indices plus parlants qu'il n'y paraît.
 
 ## Penyagolosa : quand l'ultra se joue à la photo-finish
 
@@ -70,4 +71,4 @@ Et sur les circuits américains plus classiques, moisson habituelle : Hyner View
 
 Le week-end prochain promet Canyons et Mont Fuji : Golden Ticket en Californie pour Western States avec Hayden Hawks, Adam Peterman, Zach Miller, Riley Brady, Molly Seidel et quatrième étape des World Trail Majors au Japon avec Kaytlyn Gerbin, Ruy Ueda, Guo-Min Deng. Le bruit reviendra.
 
-Reste que cette semaine en demi-teinte, précisément, est révélatrice. L'ultra européen se joue désormais à la seconde. La Coupe du monde de montagne voit émerger un axe est-africain qui bouscule la hiérarchie britannique. L'UTMB colonise proprement ses nouveaux territoires. Et sur un tapis du Massachusetts, une femme vient de courir 100 miles à 7'40" au mile — une allure que la plupart des marathoniens amateurs tiennent difficilement sur un semi. Le trail et l'ultra ne vivent pas en ce moment leur plus grand week-end. Ils traversent simplement une phase où chaque dimanche redéfinit, un peu, le plafond. On finira par s'y habituer. C'est peut-être le vrai problème.
+Reste que cette semaine en demi-teinte, précisément, est révélatrice. L'ultra européen se joue désormais à la seconde. La Coupe du monde de montagne voit émerger un axe est-africain qui bouscule la hiérarchie britannique. L'UTMB colonise proprement ses nouveaux territoires. Et sur un tapis du Massachusetts, une femme vient de courir 100 miles à 7'40" au mile — une allure que la plupart des marathoniens amateurs tiennent difficilement sur un semi. Le trail et l'ultra ne vivent pas en ce moment leur plus [grand](https://www.altitude-trail.fr/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno) week-end. Ils traversent simplement une phase où chaque dimanche redéfinit, un peu, le plafond. On finira par s'y habituer. C'est peut-être le vrai problème.

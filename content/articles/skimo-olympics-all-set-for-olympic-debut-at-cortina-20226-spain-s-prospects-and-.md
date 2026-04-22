@@ -10,8 +10,8 @@ excerpt: >-
   trail.
 category: Actualités
 categorySlug: actualites
-author: Rédaction Altitude
-date: "2 avril 2026"
+author: Yann Karroum
+date: 2 avril 2026
 readTime: 6 min
 image: >-
   /articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-hero.jpg
@@ -23,10 +23,11 @@ tags:
   - compétition
 sourceUrl: 'https://trailrunningspain.com/2026/02/18/skimo-olympics-mayayo/'
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
 Le ski-alpinisme entre aux Jeux par la grande porte et il y entre par l'Italie. À Cortina d'Ampezzo, en février 2026, une discipline née de la nécessité montagnarde va devoir prouver qu'elle tient debout sous les projecteurs du CIO. Ce n'est pas qu'un symbole. C'est un test.
 
-Trois formats au programme — sprint, individuel, relais mixte —, une semaine de compétition calée sur la seconde partie des Jeux et un plateau international déjà balisé par les circuits ISMF. Le Suisse Rémi Bonnet arrive en favori de l'individuel, auréolé, rappelle *Trail Running Spain*, d'un titre européen récent en vertical race décroché à Flaine. L'Autrichienne Sarah Dreier s'impose comme l'une des prétendantes les plus solides côté féminin. L'Espagne, elle, mise sur un collectif jeune et sur sa pépite Laia Selles, triple championne d'Europe U18, trop juste pour viser l'or mais déjà cotée.
+Trois formats au programme — sprint, individuel, relais mixte —, une semaine de compétition calée sur la seconde partie des Jeux et un plateau international déjà balisé par les circuits ISMF. Le Suisse Rémi Bonnet arrive en favori de l'individuel, auréolé, rappelle *Trail [Running](https://www.altitude-trail.fr/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026) Spain*, d'un titre européen récent en vertical race décroché à Flaine. L'Autrichienne Sarah Dreier s'impose comme l'une des prétendantes les plus solides côté féminin. L'Espagne, elle, mise sur un collectif jeune et sur sa pépite Laia Selles, triple championne d'Europe U18, trop juste pour viser l'or mais déjà cotée.
 
 ## La reconnaissance d'une discipline longtemps tenue en marge
 
@@ -34,7 +35,7 @@ Le ski-alpinisme n'est pas un sport nouveau. Il précède même, historiquement,
 
 ![Illustration Actualités](/articles/ski-alpinisme-aux-jo-cortina-2026-le-grand-saut-olympique-et-les-espoirs-espagno-1.jpg)
 
-Cette entrée est aussi une respiration pour la grande famille montagne. Le trail running, lui, attend toujours son moment. L'ISF et l'ITRA négocient, les critères d'éligibilité olympique se durcissent. Voir le skimo franchir la ligne avant le trail n'est pas qu'une curiosité administrative. C'est la démonstration qu'une discipline verticale peut convaincre Lausanne — et un signal envoyé aux fédérations de trail sur ce qu'il reste à structurer.
+Cette entrée est aussi une respiration pour la grande famille [montagne](https://www.altitude-trail.fr/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av). Le trail running, lui, attend toujours son moment. L'ISF et l'ITRA négocient, les critères d'éligibilité olympique se durcissent. Voir le skimo franchir la ligne avant le trail n'est pas qu'une curiosité administrative. C'est la démonstration qu'une discipline verticale peut convaincre Lausanne — et un signal envoyé aux fédérations de trail sur ce qu'il reste à structurer.
 
 ## Trois formats, trois économies sportives distinctes
 

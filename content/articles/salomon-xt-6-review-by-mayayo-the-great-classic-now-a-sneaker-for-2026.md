@@ -7,8 +7,8 @@ excerpt: >-
   métamorphose d'un modèle culte.
 category: Actualités
 categorySlug: actualites
-author: Rédaction Altitude
-date: "1 avril 2026"
+author: Marc Blanc
+date: 1 avril 2026
 readTime: 5 min
 image: >-
   /articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe-hero.jpg
@@ -20,10 +20,11 @@ tags:
   - lifestyle
 sourceUrl: 'https://trailrunningspain.com/2026/02/05/salomon-xt-6-review-by-mayayo/'
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
-Une chaussure de trail qui finit en vitrine de sneaker shop, ce n'est plus une anomalie. C'est un modèle économique. Avec le catalogue 2026, Salomon officialise ce que tout le monde avait compris : la XT-6 est désormais une sneaker unisexe et la marque d'Annecy en fait un pilier assumé de sa stratégie.
+Une chaussure de trail qui finit en vitrine de sneaker shop, ce n'est plus une anomalie. C'est un modèle économique. Avec le catalogue 2026, [Salomon](https://www.altitude-trail.fr/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029) officialise ce que tout le monde avait compris : la XT-6 est désormais une sneaker unisexe et la marque d'Annecy en fait un pilier assumé de sa stratégie.
 
-La XT-6, lancée il y a plus d'une décennie comme chaussure d'ultra-trail, bascule pour 2026 dans une catégorisation officielle de sneaker unisexe, comme l'a rapporté Trail Running Spain dans sa revue signée Mayayo. La gamme XT s'élargit autour du modèle historique avec deux déclinaisons strictement lifestyle, tandis que les versions techniques — dont la XT-6 Gore-Tex — restent au catalogue performance. Un grand écart stratégique qui pose une question brûlante : peut-on être à la fois une icône du gorpcore mondial et une chaussure de référence pour les longs ultras européens ?
+La XT-6, lancée il y a plus d'une décennie comme chaussure d'ultra-trail, bascule pour 2026 dans une catégorisation officielle de sneaker unisexe, comme l'a rapporté Trail Running Spain dans sa revue signée Mayayo. La [gamme](https://www.altitude-trail.fr/articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc) XT s'élargit autour du modèle historique avec deux déclinaisons strictement lifestyle, tandis que les versions techniques — dont la XT-6 Gore-Tex — restent au catalogue performance. Un grand écart stratégique qui pose une question brûlante : peut-on être à la fois une icône du gorpcore mondial et une chaussure de référence pour les longs ultras européens ?
 
 ## Une bascule officielle, pas une dérive
 

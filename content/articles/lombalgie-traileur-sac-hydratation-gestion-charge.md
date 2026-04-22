@@ -1,19 +1,26 @@
 ---
-slug: "lombalgie-traileur-sac-hydratation-gestion-charge"
-title: "Lombalgie du traileur : quand le sac d'hydratation devient le problème"
-excerpt: "Douleur bas du dos qui s'installe sur les longues sorties, s'efface au repos, revient en course. Souvent le signe d'un réglage de matériel à revoir."
-category: "Blessures & Préventions"
+slug: lombalgie-traileur-sac-hydratation-gestion-charge
+title: 'Lombalgie du traileur : quand le sac d''hydratation devient le problème'
+excerpt: >-
+  Douleur bas du dos qui s'installe sur les longues sorties, s'efface au repos,
+  revient en course. Souvent le signe d'un réglage de matériel à revoir.
+category: Blessures & Préventions
 categorySlug: blessures
-author: "Rédaction Altitude"
-date: "15 avril 2026"
-readTime: "8 min"
-image: "/articles/lombalgie-traileur-sac-hydratation-gestion-charge-hero.jpg"
-tags: ["Lombalgie", "Dos", "Équipement", "Gainage"]
+author: Thomas Rouvier
+date: 15 avril 2026
+readTime: 8 min
+image: /articles/lombalgie-traileur-sac-hydratation-gestion-charge-hero.jpg
+tags:
+  - Lombalgie
+  - Dos
+  - Équipement
+  - Gainage
+updatedAt: 22 avril 2026
 ---
 
 Une douleur sourde qui grignote les derniers kilomètres, s'estompe au bivouac, ressurgit dès la reprise. Le traileur blâme son dos. Très souvent, c'est son sac qui parle.
 
-La lombalgie mécanique figure parmi les trois motifs de consultation les plus fréquents chez les coureurs d'ultra, derrière les tendinopathies d'Achille et les syndromes fémoro-patellaires. Elle touche une majorité de pratiquants au-delà de six heures d'effort, s'installe rarement d'un coup et se résout dans trois cas sur quatre par une combinaison de réajustement matériel et de renforcement ciblé. Les disques L4-L5 et L5-S1 encaissent l'essentiel : ils supportent à la fois le poids du tronc, les vibrations de la descente et la traction d'un sac mal réparti. Six à huit semaines suffisent généralement pour rentrer dans le rang. À condition de comprendre d'où vient le problème.
+La lombalgie mécanique figure parmi les trois motifs de consultation les plus fréquents chez les coureurs d'[ultra](https://www.altitude-trail.fr/articles/ampoules-frottements-ultra-prevention-gestion), derrière les tendinopathies d'Achille et les syndromes fémoro-patellaires. Elle touche une majorité de pratiquants au-delà de six heures d'effort, s'installe rarement d'un coup et se résout dans trois cas sur quatre par une combinaison de réajustement matériel et de renforcement ciblé. Les disques L4-L5 et L5-S1 encaissent l'essentiel : ils supportent à la fois le poids du tronc, les vibrations de la descente et la traction d'un sac mal réparti. Six à huit semaines suffisent généralement pour rentrer dans le rang. À condition de comprendre d'où vient le problème.
 
 ## Pourquoi le bas du dos paie l'addition sur longue distance
 
@@ -57,4 +64,4 @@ Pour les courses en semi-autonomie de moins de 50 km, un gilet de 5 litres bien 
 
 La lombalgie du traileur raconte presque toujours la même histoire. Un coureur qui accumule le volume, néglige le gainage, court avec le sac hérité d'un ami plus grand et charge par prudence au cas où. Le dos finit par siffler la fin de la récréation. Ce n'est pas une fatalité liée à l'âge ou à la distance : c'est un signal d'alarme sur un système mal réglé.
 
-Le trail a basculé dans une culture du matériel sophistiqué, avec des sacs techniques à 180 euros capables de rivaliser avec l'équipement militaire. Il lui reste à basculer dans une culture du réglage. Mesurer, ajuster, tester, décharger. La préparation du sac mérite autant d'attention que la préparation des jambes. Faute de quoi le bas du dos continuera de faire ce qu'il fait depuis toujours : dire tout haut ce que le reste du corps endure en silence.
+Le [trail](https://www.altitude-trail.fr/articles/361-lynx-la-chaussure-de-trail-qui-monte-discretement-en-puissance) a basculé dans une culture du matériel sophistiqué, avec des sacs techniques à 180 euros capables de rivaliser avec l'équipement militaire. Il lui reste à basculer dans une culture du réglage. Mesurer, ajuster, tester, décharger. La préparation du sac mérite autant d'attention que la préparation des jambes. Faute de quoi le bas du dos continuera de faire ce qu'il fait depuis toujours : dire tout haut ce que le reste du corps endure en silence.

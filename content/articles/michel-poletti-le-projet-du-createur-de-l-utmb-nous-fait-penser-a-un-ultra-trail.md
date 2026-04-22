@@ -1,22 +1,42 @@
 ---
-slug: "a-71-ans-michel-poletti-traverse-la-france-a-pied-entre-ses-courses-utmb"
-title: "À 71 ans, Michel Poletti traverse la France à pied entre ses courses UTMB"
-excerpt: "Le cofondateur de l'Ultra-Trail du Mont-Blanc relie à pied plusieurs étapes du circuit UTMB World Series à travers la France. Un projet que u-Trail compare à un Ultra Trail de Compostelle — et qui dit quelque chose d'essentiel sur ce que le trail a perdu en grandissant."
-category: "Actualités"
+slug: a-71-ans-michel-poletti-traverse-la-france-a-pied-entre-ses-courses-utmb
+title: 'À 71 ans, Michel Poletti traverse la France à pied entre ses courses UTMB'
+excerpt: >-
+  Le cofondateur de l'Ultra-Trail du Mont-Blanc relie à pied plusieurs étapes du
+  circuit UTMB World Series à travers la France. Un projet que u-Trail compare à
+  un Ultra Trail de Compostelle — et qui dit quelque chose d'essentiel sur ce
+  que le trail a perdu en grandissant.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "22 avril 2026"
-readTime: "5 min"
-image: "/articles/michel-poletti-le-projet-du-createur-de-l-utmb-nous-fait-penser-a-un-ultra-trail-1.jpg"
-tags: ["Michel Poletti", "UTMB", "UTMB World Series", "ultra-trail", "pèlerinage"]
-sourceUrl: "https://www2.u-trail.com/michel-poletti-le-projet-du-createur-de-lutmb-nous-fait-penser-a-un-ultra-trail-de-compostelle/"
-imagePrompt1: "Elderly male hiker with gray hair walking alone on a winding narrow trail in the French Alps, late afternoon golden light, lightweight backpack, alpine meadows with yellow wildflowers, snow-capped peaks visible in the distance, no other people, shot from behind at ground level"
-imagePrompt2: "Ultramarathon mass start at night in a French mountain village, hundreds of runners with glowing headlamps forming a river of light along a cobblestone street, cheering spectators lining both sides, dramatic rocky mountain silhouette against a deep blue starry sky, wide-angle perspective"
+author: Yann Karroum
+date: 22 avril 2026
+readTime: 5 min
+image: >-
+  /articles/michel-poletti-le-projet-du-createur-de-l-utmb-nous-fait-penser-a-un-ultra-trail-1.jpg
+tags:
+  - Michel Poletti
+  - UTMB
+  - UTMB World Series
+  - ultra-trail
+  - pèlerinage
+sourceUrl: >-
+  https://www2.u-trail.com/michel-poletti-le-projet-du-createur-de-lutmb-nous-fait-penser-a-un-ultra-trail-de-compostelle/
+imagePrompt1: >-
+  Elderly male hiker with gray hair walking alone on a winding narrow trail in
+  the French Alps, late afternoon golden light, lightweight backpack, alpine
+  meadows with yellow wildflowers, snow-capped peaks visible in the distance, no
+  other people, shot from behind at ground level
+imagePrompt2: >-
+  Ultramarathon mass start at night in a French mountain village, hundreds of
+  runners with glowing headlamps forming a river of light along a cobblestone
+  street, cheering spectators lining both sides, dramatic rocky mountain
+  silhouette against a deep blue starry sky, wide-angle perspective
+updatedAt: 22 avril 2026
 ---
 
-À 71 ans, Michel Poletti marche. Pas en guise de récupération — en guise de projet. Le cofondateur de l'UTMB traverse la France à pied, reliant les courses d'un circuit mondial qu'il a lui-même contribué à bâtir. Il y a dans ce geste une tension fertile entre l'homme et la machine qu'il a créée.
+À 71 ans, Michel Poletti marche. Pas en guise de récupération — en guise de projet. Le cofondateur de l'[UTMB](https://www.altitude-trail.fr/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb) traverse la France à pied, reliant les courses d'un circuit mondial qu'il a lui-même contribué à bâtir. Il y a dans ce geste une tension fertile entre l'homme et la machine qu'il a créée.
 
-Selon u-Trail, Michel Poletti s'est lancé dans une traversée d'une grande partie de la France à pied, en reliant plusieurs courses du circuit UTMB World Series. Le média décrit l'entreprise comme "simple dans son principe et ambitieuse dans son exécution". Le cofondateur de l'Ultra-Trail du Mont-Blanc, 71 ans, s'offre ce que ses propres compétitions n'ont jamais vraiment permis — le temps long, le chemin pour lui-même, la marche sans chrono. U-Trail n'hésite pas à évoquer l'image d'un "Ultra Trail de Compostelle". L'analogie dit quelque chose de profond sur ce que Poletti cherche, et peut-être aussi sur ce que le trail a perdu en grandissant.
+Selon u-Trail, Michel Poletti s'est lancé dans une traversée d'une grande partie de la France à pied, en reliant plusieurs courses du circuit UTMB World Series. Le média décrit l'entreprise comme "simple dans son principe et ambitieuse dans son exécution". Le cofondateur de l'Ultra-Trail du Mont-Blanc, 71 ans, s'offre ce que ses propres compétitions n'ont jamais vraiment permis — le temps long, le chemin pour lui-même, la marche sans chrono. U-Trail n'hésite pas à évoquer l'image d'un "[Ultra](https://www.altitude-trail.fr/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu) Trail de Compostelle". L'analogie dit quelque chose de profond sur ce que Poletti cherche, et peut-être aussi sur ce que le trail a perdu en grandissant.
 
 ## L'homme qui a construit l'accélération choisit la lenteur
 
@@ -64,4 +84,4 @@ Marcher entre ses propres courses, c'est peut-être la seule façon de comprendr
 
 Ce que le projet de Michel Poletti révèle, c'est d'abord une question que l'UTMB n'a plus vraiment le temps de se poser : qu'est-ce que le trail running en dehors du chrono, du dossard et du classement ? La marque a réussi à faire de cette discipline un sport global, structuré, spectaculaire. C'est un succès immense, et il faut lui rendre cette justice. Mais ce faisant, elle a parfois éloigné le trail de ce qui l'avait rendu désirable — la liberté du chemin, la lenteur assumée, le rapport nu à la distance.
 
-Qu'un de ses fondateurs revienne à la marche, à 71 ans, en traversant la France entre ses propres courses, est le meilleur plaidoyer possible pour ce que le trail devrait aussi continuer d'être : un prétexte à mettre un pied devant l'autre, sans autre ambition que d'arriver quelque part.
+Qu'un de ses fondateurs revienne à la marche, à 71 ans, en traversant la France entre ses propres courses, est le meilleur plaidoyer possible pour ce que le trail devrait aussi continuer d'être : un

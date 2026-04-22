@@ -7,8 +7,8 @@ excerpt: >-
   improbable d'une piste de moto-cross.
 category: Courses & Récits
 categorySlug: courses-recits
-author: Rédaction Altitude
-date: "18 avril 2026"
+author: Yann Karroum
+date: 18 avril 2026
 readTime: 5 min
 image: >-
   /articles/les-heures-barbares-quand-le-trail-s-invite-sur-un-circuit-de-moto-cross-hero.jpg
@@ -19,8 +19,9 @@ tags:
   - trail insolite
 sourceUrl: 'https://www2.u-trail.com/le-principe-de-cette-course-etait-original/'
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
-Un circuit de moto-cross, des relais qui s'enchaînent, zéro crête et zéro cairn. Les Heures barbares, dont U-Trail a raconté la première édition, ne ressemblent à rien de ce que le trail français produit habituellement. Provocation marketing ou signal faible d'une mutation plus profonde ? Les deux, probablement.
+Un circuit de moto-cross, des relais qui s'enchaînent, zéro crête et zéro cairn. Les [Heures](https://www.altitude-trail.fr/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures) barbares, dont U-Trail a raconté la première édition, ne ressemblent à rien de ce que le trail français produit habituellement. Provocation marketing ou signal faible d'une mutation plus profonde ? Les deux, probablement.
 
 Le principe, tel que l'a rapporté U-Trail, est d'une simplicité désarmante : on prend une piste pensée pour les motos tout-terrain, on y fait tourner des coureurs en équipes et on regarde ce que ça donne. Exit la forêt profonde, les transhumances nocturnes, les ravitaillements toutes les deux heures dans un col battu par le vent. Place à un anneau fermé, répétitif, spectaculaire. La première édition vient d'avoir lieu et la proposition divise déjà : format de niche ou préfiguration d'un trail plus compact, plus télégénique, plus collectif ?
 
@@ -62,6 +63,6 @@ Les Heures barbares s'inscrivent dans ce mouvement, avec une radicalité supplé
 
 ## Conclusion : le trail n'a pas fini de muter et c'est tant mieux
 
-Reste la question qui fâche vraiment. Faut-il s'en inquiéter ? Franchement, non. Le trail a bâti sa légitimité sur la montagne, les massifs, le temps long — cela ne changera pas. Les grandes cathédrales tiendront debout. Mais à côté d'elles, la pratique va continuer à se fragmenter, à produire des objets étranges, à explorer les marges. C'est la marque des sports vivants. Le cyclisme a ses classiques et son gravel, l'escalade a sa paroi et son bloc en salle, le running a son marathon et son Hyrox.
+Reste la question qui fâche vraiment. Faut-il s'en inquiéter ? Franchement, non. Le trail a bâti sa légitimité sur la [montagne](https://www.altitude-trail.fr/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno), les massifs, le temps long — cela ne changera pas. Les grandes cathédrales tiendront debout. Mais à côté d'elles, la pratique va continuer à se fragmenter, à produire des objets étranges, à explorer les marges. C'est la marque des sports vivants. Le cyclisme a ses classiques et son gravel, l'escalade a sa paroi et son bloc en salle, le running a son marathon et son Hyrox.
 
 Ce que révèle l'épisode des Heures barbares, au-delà de l'anecdote rapportée par U-Trail, c'est surtout ceci : l'orthodoxie définitionnelle intéresse de moins en moins les coureurs. Ils veulent courir, se marrer, partager un week-end avec des potes, suer ensemble. Si c'est sur un circuit de moto-cross plutôt qu'un GR, tant pis pour la pureté doctrinale. Les puristes s'en remettront. Ils ont toute la chaîne alpine pour eux.

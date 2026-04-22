@@ -1,14 +1,22 @@
 ---
-slug: "ffa-certification-epreuves-trail-nouveau-cadre-2026"
-title: "FFA et certification des épreuves trail : le nouveau cadre 2026 décrypté"
-excerpt: "La Fédération française d'athlétisme revoit son dispositif d'agrément des courses nature pour la saison 2026. Ce que ça change pour les organisateurs et les coureurs."
-category: "Actualités"
+slug: ffa-certification-epreuves-trail-nouveau-cadre-2026
+title: 'FFA et certification des épreuves trail : le nouveau cadre 2026 décrypté'
+excerpt: >-
+  La Fédération française d'athlétisme revoit son dispositif d'agrément des
+  courses nature pour la saison 2026. Ce que ça change pour les organisateurs et
+  les coureurs.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "5 avril 2026"
-readTime: "8 min"
-image: "/articles/ffa-certification-epreuves-trail-nouveau-cadre-2026-hero.jpg"
-tags: ["FFA", "Certification", "Réglementation", "Organisation"]
+author: Marc Blanc
+date: 5 avril 2026
+readTime: 8 min
+image: /articles/ffa-certification-epreuves-trail-nouveau-cadre-2026-hero.jpg
+tags:
+  - FFA
+  - Certification
+  - Réglementation
+  - Organisation
+updatedAt: 22 avril 2026
 ---
 
 Le trail français n'est plus une niche. Avec plusieurs centaines d'épreuves au calendrier annuel et des organisations qui mobilisent des budgets à six, parfois sept chiffres, la question du cadre réglementaire n'est plus accessoire. Elle est structurante.
@@ -27,11 +35,11 @@ La réforme 2026 de la FFA tente de remettre de l'ordre dans ce foisonnement. El
 
 Le nouveau cadre repose sur une classification plus stricte des épreuves par distance et dénivelé. Les catégories traditionnelles — trail découverte, trail, trail long, ultra — sont conservées mais leurs bornes de kilométrage et de D+ sont précisées pour éviter les zones grises. Un 42 km avec 900 m de D+ et un 42 km avec 3 000 m de D+ ne relèvent plus tout à fait du même régime réglementaire en matière de médicalisation embarquée et de ravitaillements obligatoires.
 
-Sur le volet sécurité, les exigences se musclent. Présence d'une équipe médicale dimensionnée selon le format, désignation d'un directeur de course formé, plan d'évacuation validé, matériel obligatoire cohérent avec les conditions d'engagement. Les organisateurs devront également formaliser leur couverture assurantielle — responsabilité civile organisateur, individuelle accident pour les coureurs non licenciés — avec un niveau de garantie minimal relevé. Rien de révolutionnaire : ce sont les standards que les grosses organisations appliquent déjà. Mais la généralisation change la donne pour les courses de taille moyenne.
+Sur le volet sécurité, les exigences se musclent. Présence d'une équipe médicale dimensionnée selon le format, désignation d'un directeur de course formé, plan d'évacuation validé, matériel [obligatoire](https://www.altitude-trail.fr/articles/lampe-rouge-obligatoire-a-l-utmb-symbole-ecologique-ou-poudre-aux-yeux) cohérent avec les conditions d'engagement. Les organisateurs devront également formaliser leur couverture assurantielle — responsabilité civile organisateur, individuelle accident pour les coureurs non licenciés — avec un niveau de garantie minimal relevé. Rien de révolutionnaire : ce sont les standards que les grosses organisations appliquent déjà. Mais la généralisation change la donne pour les courses de taille moyenne.
 
 ## L'équation économique des organisateurs
 
-C'est là que la réforme fait grincer. Une course de 1 000 dossards sur un format trail long mobilise déjà, hors rémunérations, un budget technique de l'ordre de plusieurs dizaines de milliers d'euros : balisage, signaleurs, PC course, médicalisation, ravitaillements, autorisations environnementales, frais de secours. L'ajout de critères supplémentaires — formation obligatoire d'encadrants, audit de tracé, équipements de communication en zone blanche — peut représenter, selon les estimations du secteur, une hausse de 10 à 20 % des coûts fixes.
+C'est là que la réforme fait grincer. Une course de 1 000 [dossards](https://www.altitude-trail.fr/articles/colmen-trail-500-dossards-envoles-quand-un-trail-de-village-verrouille-sa-jauge) sur un format trail long mobilise déjà, hors rémunérations, un budget technique de l'ordre de plusieurs dizaines de milliers d'euros : balisage, signaleurs, PC course, médicalisation, ravitaillements, autorisations environnementales, frais de secours. L'ajout de critères supplémentaires — formation obligatoire d'encadrants, audit de tracé, équipements de communication en zone blanche — peut représenter, selon les estimations du secteur, une hausse de 10 à 20 % des coûts fixes.
 
 ![Illustration Actualités](/articles/ffa-certification-epreuves-trail-nouveau-cadre-2026-2.jpg)
 

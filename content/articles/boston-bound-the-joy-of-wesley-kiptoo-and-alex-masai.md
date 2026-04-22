@@ -7,8 +7,8 @@ excerpt: >-
   trajectoires kényanes qui se sont rejointes en altitude.
 category: Courses & Récits
 categorySlug: courses-recits
-author: Rédaction Altitude
-date: "14 avril 2026"
+author: Yann Karroum
+date: 14 avril 2026
 readTime: 7 min
 image: /articles/wesley-kiptoo-et-alex-masai-deux-kenyans-un-reve-de-boston-hero.jpg
 tags:
@@ -19,6 +19,7 @@ tags:
   - entraînement
 sourceUrl: 'https://www.irunfar.com/boston-bound-the-joy-of-wesley-kiptoo-and-alex-masai'
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
 Deux Kényans, une équipe américaine, une ligne de départ à Hopkinton. L'histoire paraît balisée. Elle ne l'est pas.
 
@@ -34,7 +35,7 @@ Autour d'eux : le Sud-Africain Adrian Wildschutt, dixième du 10 000 m à Paris 
 
 ## Le fartlek qui en dit long
 
-La séance prévue par Mullaney : 25 répétitions d'une minute rapide / une minute lente sur la portion vallonnée de Lake Mary Road. Exercice à l'effort, pas au chrono — mais le coach garde ses stopwatches en main, par réflexe. iRunFar détaille les allures : entre 4:13 et 4:56 au mile selon le relief et les rafales. Pour un lecteur européen, cela signifie des accélérations comprises entre 2'37" et 3'04" au kilomètre. Sur la durée d'un fartlek, à 2 100 mètres d'altitude, l'ordre de grandeur est explicite.
+La séance prévue par Mullaney : 25 répétitions d'une minute [rapide](https://www.altitude-trail.fr/articles/cotes-montees-marche-rapide-l-equation-oubliee-du-trail-de-30-km) / une minute lente sur la portion vallonnée de Lake Mary Road. Exercice à l'effort, pas au chrono — mais le coach garde ses stopwatches en main, par réflexe. iRunFar détaille les allures : entre 4:13 et 4:56 au mile selon le relief et les rafales. Pour un lecteur européen, cela signifie des accélérations comprises entre 2'37" et 3'04" au kilomètre. Sur la durée d'un fartlek, à 2 100 mètres d'altitude, l'ordre de grandeur est explicite.
 
 Treize premières minutes vent dans le dos vers le sud. Puis demi-tour, 4,5 miles face au vent, avec relais. Sur la dernière accélération, Kiptoo et Wildschutt haussent brusquement le ton. Masai les laisse filer. « Classique, sourit Mullaney dans iRunFar. Je dois faire attention quand je mets ces deux-là ensemble, ils finissent toujours par se tirer la bourre. » Masai, lui, refuse de mordre à l'hameçon.
 
@@ -56,7 +57,7 @@ L'enjeu dépasse le choix technique. Boston, depuis le record du monde non homol
 
 ## Deux histoires kényanes qui ne se ressemblent pas
 
-Masai a grandi au pied du mont Elgon, dans l'ouest du Kenya, dans une famille de coureurs. Sa sœur aînée, rapporte iRunFar, a décroché le bronze sur 10 000 m aux Jeux de 2008. Son frère aîné finit quatrième de la même épreuve. L'enfant, lui, fuyait la course. « Mes instituteurs m'invitaient dans leur salle à regarder la télé pendant que mon frère et ma sœur s'entraînaient », plaisante-t-il dans le média américain. Ce qui l'a fait basculer : le rêve de voyager. Une bourse universitaire américaine, obtenue sur un trial : « C'était quasiment une éducation gratuite. Je ne savais pas à quel point je m'investirais en course. J'avais juste le niveau nécessaire. »
+Masai a grandi au pied du mont Elgon, dans l'[ouest](https://www.altitude-trail.fr/articles/occitane-by-utmb-sud-ouest-ariege-ascension) du Kenya, dans une famille de coureurs. Sa sœur aînée, rapporte iRunFar, a décroché le bronze sur 10 000 m aux Jeux de 2008. Son frère aîné finit quatrième de la même épreuve. L'enfant, lui, fuyait la course. « Mes instituteurs m'invitaient dans leur salle à regarder la télé pendant que mon frère et ma sœur s'entraînaient », plaisante-t-il dans le média américain. Ce qui l'a fait basculer : le rêve de voyager. Une bourse universitaire américaine, obtenue sur un trial : « C'était quasiment une éducation gratuite. Je ne savais pas à quel point je m'investirais en course. J'avais juste le niveau nécessaire. »
 
 Kiptoo, lui, vient d'Eldoret. La capitale mondiale du marathon. Seul coureur de sa famille, il est repéré en 2014 par Wesley Korir, vainqueur du marathon de Boston 2012, qui l'intègre à sa Transcend Talent Academy. Arrivée au Kansas en 2018. Choc thermique : « Je n'avais jamais connu l'hiver », raconte-t-il à iRunFar. Premier semestre catastrophique — ordinateurs, anglais, blessures. Il appelle sa famille pour dire qu'il rentre. Réponse : « Trouve un moyen, tu rattraperas. » Il reste. Remporte le titre national NJCAA du 5 000 m. Rencontre sa future femme à la cafétéria.
 

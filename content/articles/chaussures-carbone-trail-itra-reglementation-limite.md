@@ -1,19 +1,27 @@
 ---
-slug: "chaussures-carbone-trail-itra-reglementation-limite"
-title: "Chaussures carbone en trail : la limite réglementaire ITRA enfin posée"
-excerpt: "Après des années de flou, l'International Trail Running Association tranche sur les plaques carbone et les épaisseurs de semelles. Nouvelle règle, nouvelle industrie."
-category: "Actualités"
+slug: chaussures-carbone-trail-itra-reglementation-limite
+title: 'Chaussures carbone en trail : la limite réglementaire ITRA enfin posée'
+excerpt: >-
+  Après des années de flou, l'International Trail Running Association tranche
+  sur les plaques carbone et les épaisseurs de semelles. Nouvelle règle,
+  nouvelle industrie.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "10 avril 2026"
-readTime: "8 min"
-image: "/articles/chaussures-carbone-trail-itra-reglementation-limite-hero.jpg"
-tags: ["ITRA", "Chaussures", "Carbone", "Industrie"]
+author: Yann Karroum
+date: 10 avril 2026
+readTime: 8 min
+image: /articles/chaussures-carbone-trail-itra-reglementation-limite-hero.jpg
+tags:
+  - ITRA
+  - Chaussures
+  - Carbone
+  - Industrie
+updatedAt: 22 avril 2026
 ---
 
-Le trail vivait encore dans un angle mort réglementaire. Les plaques carbone, les mousses hyperréactives, les empilements de 50 mm sous le talon : tout était permis, rien n'était cadré. L'ITRA s'apprête à refermer cette parenthèse.
+Le [trail](https://www.altitude-trail.fr/articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc) vivait encore dans un angle mort réglementaire. Les plaques carbone, les mousses hyperréactives, les empilements de 50 mm sous le talon : tout était permis, rien n'était cadré. L'ITRA s'apprête à refermer cette parenthèse.
 
-**L'essentiel.** L'International Trail Running Association a ouvert en 2024-2025 une consultation autour d'un encadrement du matériel chaussant, sur le modèle de ce que World Athletics a imposé sur route depuis 2020 : plafond d'épaisseur de semelle à 40 mm, limite sur le nombre de plaques rigides, période d'homologation préalable aux compétitions. Le texte définitif est attendu pour la saison 2026, avec une application échelonnée sur les courses du circuit ITRA World Series. Entre les marques engagées dans une course à l'armement technologique et les athlètes partagés, le trail entre dans l'ère du matériel régulé.
+**L'essentiel.** L'International [Trail](https://www.altitude-trail.fr/articles/choisir-premiere-paire-chaussures-trail-guide-complet) Running Association a ouvert en 2024-2025 une consultation autour d'un encadrement du matériel chaussant, sur le modèle de ce que World Athletics a imposé sur route depuis 2020 : plafond d'épaisseur de semelle à 40 mm, limite sur le nombre de plaques rigides, période d'homologation préalable aux compétitions. Le texte définitif est attendu pour la saison 2026, avec une application échelonnée sur les courses du circuit ITRA World Series. Entre les marques engagées dans une course à l'armement technologique et les athlètes partagés, le trail entre dans l'ère du matériel régulé.
 
 ## Le précédent route : ce que World Athletics a verrouillé en cinq ans
 

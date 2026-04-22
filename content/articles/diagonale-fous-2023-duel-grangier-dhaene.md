@@ -1,14 +1,21 @@
 ---
-slug: "diagonale-fous-2023-duel-grangier-dhaene"
-title: "Diagonale des Fous 2023 : le duel Grangier-D'Haene, minute par minute"
-excerpt: "Deux jours, deux nuits, 165 km à moins de cinq minutes d'écart. Retour sur le duel qui a animé l'édition 2023 du Grand Raid réunionnais."
-category: "Courses & Récits"
+slug: diagonale-fous-2023-duel-grangier-dhaene
+title: 'Diagonale des Fous 2023 : le duel Grangier-D''Haene, minute par minute'
+excerpt: >-
+  Deux jours, deux nuits, 165 km à moins de cinq minutes d'écart. Retour sur le
+  duel qui a animé l'édition 2023 du Grand Raid réunionnais.
+category: Courses & Récits
 categorySlug: courses-recits
-author: "Rédaction Altitude"
-date: "6 avril 2026"
-readTime: "10 min"
-image: "/articles/diagonale-fous-2023-duel-grangier-dhaene-hero.jpg"
-tags: ["Diagonale des Fous", "François D'Haene", "Réunion", "Récit"]
+author: Yann Karroum
+date: 6 avril 2026
+readTime: 10 min
+image: /articles/diagonale-fous-2023-duel-grangier-dhaene-hero.jpg
+tags:
+  - Diagonale des Fous
+  - François D'Haene
+  - Réunion
+  - Récit
+updatedAt: 22 avril 2026
 ---
 
 Deux jours, deux nuits, 165 kilomètres de volcan, de cirques et de remparts. Et au bout, moins de cinq minutes d'écart entre deux hommes qui se sont cherchés, lâchés, rattrapés sur la quasi-totalité du parcours. La Diagonale des Fous 2023 a offert l'un des duels les plus denses de son histoire récente.
@@ -39,7 +46,7 @@ Le passage à Dos d'Âne, en fin d'après-midi de la deuxième journée, marque 
 
 Grangier, lui, passe plus vite, plus net. L'écart grimpe, d'après les pointages officiels, au-delà de la dizaine de minutes. Dans toute autre configuration, avec 40 kilomètres à faire et la Roche-Écrite encore à franchir, on dirait la course pliée. Sauf que D'Haene a une signature reconnue : la nuit.
 
-Ses propres retours publics, après ses victoires passées à la Réunion comme à l'UTMB, insistent sur la même idée. La nuit, il bascule dans un état de conduite automatique où la douleur compte moins, où l'allure descente devient chirurgicale. Un profil qu'on retrouve, à d'autres titres, chez Kilian Jornet ou Courtney Dauwalter : la capacité à trouver un second moteur quand les autres s'éteignent.
+Ses propres retours publics, après ses victoires passées à la Réunion comme à l'[UTMB](https://www.altitude-trail.fr/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb), insistent sur la même idée. La nuit, il bascule dans un état de conduite automatique où la douleur compte moins, où l'allure descente devient chirurgicale. Un profil qu'on retrouve, à d'autres titres, chez Kilian Jornet ou Courtney Dauwalter : la capacité à trouver un second moteur quand les autres s'éteignent.
 
 ## La contre-remontée nocturne vers la Roche-Écrite
 
@@ -55,4 +62,4 @@ La Diagonale 2023 confirme une tendance qu'on observe depuis trois ou quatre sai
 
 Et ça change tout pour le spectateur. On regarde désormais un Grand Raid comme on regarderait une étape de montagne du Tour : en se demandant qui craquera, pas qui attaquera.
 
-Ce duel Grangier–D'Haene, au-delà de son suspense, dit autre chose. Il dit qu'un coureur avec trois victoires et une expérience totale du parcours peut être tenu en échec, presque, par un adversaire moins médiatique mais mieux préparé. Le trail longue distance entre dans une ère où la hiérarchie des noms pèse moins que la cohérence du travail accompli dans les six mois précédents. Pour l'édition 2024, la course aux favoris ne ressemblera déjà plus à celle d'il y a cinq ans.
+Ce duel Grangier–D'Haene, au-delà de son suspense, dit autre chose. Il dit qu'un coureur avec trois victoires et une expérience totale du parcours peut être tenu en échec, presque, par un adversaire moins médiatique mais mieux préparé. Le trail longue distance entre dans une ère où la hiérarchie des noms pèse moins que la cohérence du travail accompli dans les six mois précédents. Pour l'édition [2024](https://www.altitude-trail.fr/articles/tds-2024-meteo-course-bouleversee-recit), la course aux favoris ne ressemblera déjà plus à celle d'il y a cinq ans.

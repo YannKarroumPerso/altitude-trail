@@ -1,20 +1,39 @@
 ---
-slug: "lampe-rouge-obligatoire-a-l-utmb-symbole-ecologique-ou-poudre-aux-yeux"
-title: "Lampe rouge obligatoire à l'UTMB : symbole écologique ou poudre aux yeux ?"
-excerpt: "L'UTMB impose le mode lumière rouge sur les frontales. Mesure concrète pour la faune nocturne ou diversion face aux vrais enjeux environnementaux d'un événement à 10 000 coureurs ?"
-category: "Actualités"
+slug: lampe-rouge-obligatoire-a-l-utmb-symbole-ecologique-ou-poudre-aux-yeux
+title: 'Lampe rouge obligatoire à l''UTMB : symbole écologique ou poudre aux yeux ?'
+excerpt: >-
+  L'UTMB impose le mode lumière rouge sur les frontales. Mesure concrète pour la
+  faune nocturne ou diversion face aux vrais enjeux environnementaux d'un
+  événement à 10 000 coureurs ?
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "21 avril 2026"
-readTime: "5 min"
-image: "/articles/ecologie-de-facade-lampe-rouge-utmb-v3-hero.jpg"
-tags: ["UTMB", "écologie", "réglementation", "faune sauvage", "matériel"]
-sourceUrl: "https://www2.u-trail.com/ecologie-de-facade-lutmb-rend-obligatoire-lutilisation-du-mode-lumiere-rouge-sur-les-lampes-frontales/"
-imagePrompt1: "A trail runner ascending a steep rocky dirt singletrack at night in summer, headlamp switched to red light mode casting a warm crimson glow on the path and nearby ferns, dense green forest at the edge of the beam, wearing running shorts, trail running shoes, hydration vest, sweat on face, no snow, no skis, no winter gear"
-imagePrompt2: "Close-up of a trail runner's forehead headlamp in red LED mode at dusk in a summer beech forest, face of the runner softly out of focus, sweat on skin, green leaves behind, running bandana and vest straps visible, no snow, no ski equipment, shallow depth of field"
+author: Marc Blanc
+date: 21 avril 2026
+readTime: 5 min
+image: /articles/ecologie-de-facade-lampe-rouge-utmb-v3-hero.jpg
+tags:
+  - UTMB
+  - écologie
+  - réglementation
+  - faune sauvage
+  - matériel
+sourceUrl: >-
+  https://www2.u-trail.com/ecologie-de-facade-lutmb-rend-obligatoire-lutilisation-du-mode-lumiere-rouge-sur-les-lampes-frontales/
+imagePrompt1: >-
+  A trail runner ascending a steep rocky dirt singletrack at night in summer,
+  headlamp switched to red light mode casting a warm crimson glow on the path
+  and nearby ferns, dense green forest at the edge of the beam, wearing running
+  shorts, trail running shoes, hydration vest, sweat on face, no snow, no skis,
+  no winter gear
+imagePrompt2: >-
+  Close-up of a trail runner's forehead headlamp in red LED mode at dusk in a
+  summer beech forest, face of the runner softly out of focus, sweat on skin,
+  green leaves behind, running bandana and vest straps visible, no snow, no ski
+  equipment, shallow depth of field
+updatedAt: 22 avril 2026
 ---
 
-Une consigne de matériel qui tient en deux mots — « mode rouge » — et qui déclenche un débat bien plus vaste sur ce qu'est devenue l'écologie dans le trail de masse. L'UTMB impose, u-Trail interroge. Le vrai sujet n'est pas la lampe.
+Une consigne de matériel qui tient en deux mots — « mode rouge » — et qui déclenche un débat bien plus vaste sur ce qu'est devenue l'écologie dans le trail de masse. L'[UTMB](https://www.altitude-trail.fr/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb) impose, u-Trail interroge. Le vrai sujet n'est pas la lampe.
 
 **L'organisation de l'Ultra-Trail du Mont-Blanc a rendu obligatoire l'utilisation du mode lumière rouge sur les frontales, pour limiter l'impact des passages nocturnes sur la faune sauvage. La mesure, relayée par le média spécialisé u-Trail dans un article au titre explicite — « Ecologie de façade » —, est présentée comme utile pour la biodiversité, mais suscite un questionnement de fond : le geste est-il proportionné à l'empreinte réelle d'un événement qui rassemble plusieurs milliers de coureurs et bien davantage de spectateurs autour de Chamonix chaque fin août ? u-Trail pose la question sans accuser, mais sans naïveté non plus.**
 
@@ -36,7 +55,7 @@ u-Trail ne répond pas frontalement à la question. Mais la pose clairement.
 
 ## Une tendance de fond dans l'ultra international
 
-L'UTMB n'invente rien. Hardrock impose depuis longtemps des règles strictes de leave no trace et limite volontairement son format à environ 145 coureurs. Western States tient son plafond à 369 dossards malgré une demande exponentielle. Ces courses ont fait un choix radical : la rareté plutôt que la massification. L'écologie y est d'abord structurelle, pas cosmétique.
+L'UTMB n'invente rien. Hardrock impose depuis longtemps des règles strictes de leave no trace et limite volontairement son format à environ 145 coureurs. Western States tient son plafond à 369 dossards malgré une demande exponentielle. Ces [courses](https://www.altitude-trail.fr/articles/a-71-ans-michel-poletti-traverse-la-france-a-pied-entre-ses-courses-utmb) ont fait un choix radical : la rareté plutôt que la massification. L'écologie y est d'abord structurelle, pas cosmétique.
 
 L'UTMB, lui, a bâti son modèle sur la croissance. Expansion mondiale du circuit UTMB World Series, multiplication des épreuves satellites, billetterie à entrées quasi illimitées via le système de pierres, partenariat global avec Ironman. Le format a changé de nature depuis la création de la course en 2003. Demander à ses coureurs de basculer en mode rouge relève d'une logique complémentaire, pas d'un arbitrage structurel.
 

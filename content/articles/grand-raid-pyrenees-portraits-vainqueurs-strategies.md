@@ -1,17 +1,24 @@
 ---
-slug: "grand-raid-pyrenees-portraits-vainqueurs-strategies"
-title: "Grand Raid des Pyrénées : quatre vainqueurs, quatre stratégies gagnantes"
-excerpt: "Depuis sa création en 2011, le GRP a sacré des profils très différents. Portrait croisé de quatre coureurs qui racontent leurs 160 kilomètres."
-category: "Courses & Récits"
+slug: grand-raid-pyrenees-portraits-vainqueurs-strategies
+title: 'Grand Raid des Pyrénées : quatre vainqueurs, quatre stratégies gagnantes'
+excerpt: >-
+  Depuis sa création en 2011, le GRP a sacré des profils très différents.
+  Portrait croisé de quatre coureurs qui racontent leurs 160 kilomètres.
+category: Courses & Récits
 categorySlug: courses-recits
-author: "Rédaction Altitude"
-date: "4 avril 2026"
-readTime: "10 min"
-image: "/articles/grand-raid-pyrenees-portraits-vainqueurs-strategies-hero.jpg"
-tags: ["GRP", "Pyrénées", "Portraits", "Ultra"]
+author: Marc Blanc
+date: 4 avril 2026
+readTime: 10 min
+image: /articles/grand-raid-pyrenees-portraits-vainqueurs-strategies-hero.jpg
+tags:
+  - GRP
+  - Pyrénées
+  - Portraits
+  - Ultra
+updatedAt: 22 avril 2026
 ---
 
-Dix mille mètres de dénivelé positif. Cent soixante kilomètres. Une traversée pyrénéenne qui ne pardonne ni l'excès de confiance ni la timidité tactique. Le GRP n'a jamais été une course de spécialistes d'un seul profil — c'est précisément ce qui en fait un laboratoire fascinant de l'ultra moderne.
+Dix mille mètres de dénivelé positif. Cent soixante kilomètres. Une traversée pyrénéenne qui ne pardonne ni l'excès de confiance ni la timidité tactique. Le GRP n'a jamais été une course de spécialistes d'un seul profil — c'est précisément ce qui en fait un laboratoire fascinant de l'[ultra](https://www.altitude-trail.fr/articles/ampoules-frottements-ultra-prevention-gestion) moderne.
 
 Depuis son lancement en 2011 à Vielle-Aure, le Grand Raid des Pyrénées s'est imposé comme l'une des épreuves les plus exigeantes du calendrier européen. Dix mille mètres de grimpe, soit l'équivalent de plus de onze ascensions de la tour Eiffel, étalés sur 160 kilomètres entre les cirques de Néouvielle, Troumouse et Gavarnie. Point culminant à 2 509 mètres au pic du Midi de Bigorre, passages techniques au col de Madamète, au port de Bielsa et sur les crêtes qui plongent vers la brèche de Roland. Les vainqueurs successifs dessinent quatre archétypes tactiques qu'il vaut la peine de confronter.
 
@@ -55,4 +62,4 @@ Les vainqueurs récents qui ont tenté l'approche haute ont souvent témoigné p
 
 Quatre profils, quatre victoires, une question commune : qu'est-ce qui fait aujourd'hui un grand ultratraileur sur un parcours comme celui-ci ? La réponse tient moins dans le VO2max ou le seuil que dans l'intégration. Capacité à lire sa course, à ajuster son allure à la chaleur de fin d'après-midi sur les crêtes exposées, à basculer d'un plan A à un plan B sans panique, à manger quand le corps refuse. Le GRP récompense l'ultratraileur système, pas le pur athlète.
 
-C'est peut-être la leçon la plus intéressante de cette traversée pyrénéenne. Le trail long a cessé d'être un sport d'intuition héroïque. Il est devenu un sport d'ingénierie personnelle, où la préparation physique n'est qu'un des six ou sept piliers. Kilian Jornet le dit depuis dix ans, Ludovic Pommeret l'incarne à quarante-huit ans sur l'UTMB : la longévité et la régularité en ultra reposent sur la capacité à orchestrer, pas à exploser. Le GRP, dans sa brutalité pyrénéenne, n'a jamais dit autre chose.
+C'est peut-être la leçon la plus intéressante de cette traversée pyrénéenne. Le trail long a cessé d'être un sport d'intuition héroïque. Il est [devenu](https://www.altitude-trail.fr/articles/restonica-trail-corse-ultra-confidentiel-reference) un sport d'ingénierie personnelle, où la préparation physique n'est qu'un des six ou sept piliers. Kilian Jornet le dit depuis dix ans, Ludovic Pommeret l'incarne à quarante-huit ans sur l'UTMB : la longévité et la régularité en ultra reposent sur la capacité à orchestrer, pas à exploser. Le GRP, dans sa brutalité pyrénéenne, n'a jamais dit autre chose.

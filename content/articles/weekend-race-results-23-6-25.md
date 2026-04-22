@@ -10,8 +10,8 @@ excerpt: >-
   pages de la saison ultra 2025.
 category: Courses & Récits
 categorySlug: courses-recits
-author: Rédaction Altitude
-date: "30 mars 2026"
+author: Yann Karroum
+date: 30 mars 2026
 readTime: 7 min
 image: >-
   /articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu-hero.jpg
@@ -23,8 +23,9 @@ tags:
   - backyard ultra
 sourceUrl: 'https://ultrarunningworld.co.uk/weekend-race-results-23-6-25/'
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
-Une femme remporte au scratch la traversée non-stop la plus exigeante du Royaume-Uni, 268 miles le long de la Pennine Way. Ce n'est ni anecdotique ni symbolique. C'est le fait marquant d'un week-end de solstice qui a rappelé, loin du vacarme UTMB, que l'ultra britannique fonctionne comme un écosystème à part.
+Une femme remporte au scratch la traversée non-stop la plus exigeante du Royaume-Uni, 268 miles le long de la Pennine Way. Ce n'est ni anecdotique ni symbolique. C'est le fait marquant d'un week-end de solstice qui a rappelé, loin du vacarme UTMB, que l'ultra [britannique](https://www.altitude-trail.fr/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra) fonctionne comme un écosystème à part.
 
 Entre le 21 et le 22 juin, selon le récapitulatif publié par Ultrarunning World, des centaines de coureurs ont bataillé sur une quinzaine d'épreuves, du Devon aux Highlands. Anna Troup a dominé la Montane Summer Spine Race en 84h56'37", battant tout le plateau hommes compris. Shane Morgan a terminé premier homme en 91h45'56". Gus Irvine a enlevé la West Highland Way en 15h08'34". Sam Humphrey a pulvérisé le record de l'Ultra Wales 50. Plusieurs backyards ont livré leurs bourreaux. Tour d'horizon analytique.
 
@@ -36,7 +37,7 @@ Le chiffre parle seul : 84h56'37". Sur 432 kilomètres de Pennine Way, d'Edale �
 
 Ce scénario n'a rien d'un accident. La Spine est précisément le type d'épreuve — longue, dépouillée, privée de sommeil, exposée à la météo — où les différences physiologiques entre hommes et femmes s'estompent au profit de la gestion mentale, de la lucidité nocturne et de la résistance au froid. Jasmin Paris l'avait déjà démontré en 2019 sur la Winter Spine, avec un record absolu qui tient toujours. Troup s'inscrit dans cette lignée. À mesure que la distance augmente et que la technicité cède à l'endurance pure, la scène ultra britannique fabrique régulièrement ses légendes au féminin.
 
-Derrière, la Spine n'est plus une course unique mais une franchise. Ultrarunning World détaille les formats Challenger North (160 miles, James Hargreaves en 42h17'44", Allie Bailey en 53h11'07") et Challenger South (Chris Andrade en 28h33'12", Eleanor Walker en 31h44'55"). Sur le Sprint South, Chris Cope (6h36'41") et Victoria Thompson (7h49'44") ont tous deux établi de nouveaux records du parcours. Ce maillage de distances transforme l'événement en porte d'entrée progressive vers le monstre de 268 miles.
+Derrière, la Spine n'est plus une course unique mais une franchise. Ultrarunning World détaille les formats [Challenger](https://www.altitude-trail.fr/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de) North (160 miles, James Hargreaves en 42h17'44", Allie Bailey en 53h11'07") et Challenger South (Chris Andrade en 28h33'12", Eleanor Walker en 31h44'55"). Sur le Sprint South, Chris Cope (6h36'41") et Victoria Thompson (7h49'44") ont tous deux établi de nouveaux records du parcours. Ce maillage de distances transforme l'événement en porte d'entrée progressive vers le monstre de 268 miles.
 
 ## West Highland Way : l'ultra à l'ancienne résiste
 

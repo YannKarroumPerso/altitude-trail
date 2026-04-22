@@ -1,19 +1,27 @@
 ---
-slug: "preparation-mentale-ultra-gerer-nuit-douleur-bas"
-title: "Préparation mentale en ultra : gérer la nuit, la douleur, les bas"
-excerpt: "Au-delà de douze heures, le mental bascule. Traverser les nuits et les passages creux relève d'une préparation aussi rigoureuse que l'entraînement physique."
-category: "Entraînement & Performances"
+slug: preparation-mentale-ultra-gerer-nuit-douleur-bas
+title: 'Préparation mentale en ultra : gérer la nuit, la douleur, les bas'
+excerpt: >-
+  Au-delà de douze heures, le mental bascule. Traverser les nuits et les
+  passages creux relève d'une préparation aussi rigoureuse que l'entraînement
+  physique.
+category: Entraînement & Performances
 categorySlug: entrainement
-author: "Rédaction Altitude"
-date: "15 avril 2026"
-readTime: "9 min"
-image: "/articles/preparation-mentale-ultra-gerer-nuit-douleur-bas-hero.jpg"
-tags: ["Mental", "Ultra", "Nuit", "Préparation"]
+author: Thomas Rouvier
+date: 15 avril 2026
+readTime: 9 min
+image: /articles/preparation-mentale-ultra-gerer-nuit-douleur-bas-hero.jpg
+tags:
+  - Mental
+  - Ultra
+  - Nuit
+  - Préparation
+updatedAt: 22 avril 2026
 ---
 
 Passé la douzième heure, le corps ne décide plus grand-chose. C'est la tête qui tient la corde, ou qui la lâche. Et contrairement aux idées reçues, ce n'est pas une question de caractère.
 
-La préparation mentale en ultra n'a rien d'ésotérique. C'est un ensemble de techniques documentées, empruntées à la psychologie du sport appliquée à l'endurance extrême, qui permettent de traverser les nuits, d'absorber la douleur qui s'installe et de remonter des bas qui peuvent durer une heure. Sur une course de 100 miles, la majorité des abandons survient entre le 60e et le 110e kilomètre, dans une zone que les psychologues du sport qualifient de « vallée de l'ombre ». Anticiper cette zone, c'est doubler ses chances d'arriver.
+La préparation mentale en [ultra](https://www.altitude-trail.fr/articles/plan-entrainement-ultra-quatre-blocs-essentiels) n'a rien d'ésotérique. C'est un ensemble de techniques documentées, empruntées à la psychologie du sport appliquée à l'endurance extrême, qui permettent de traverser les nuits, d'absorber la douleur qui s'installe et de remonter des bas qui peuvent durer une heure. Sur une course de 100 miles, la majorité des abandons survient entre le 60e et le 110e kilomètre, dans une zone que les psychologues du sport qualifient de « vallée de l'ombre ». Anticiper cette zone, c'est doubler ses chances d'arriver.
 
 ## Le chunking, ou comment rendre 170 km pensables
 
@@ -45,7 +53,7 @@ La lutte, elle, coûte cher. Accélérer pour « en finir » avec un passage dur
 
 ## La nuit, zone grise de la vigilance
 
-La baisse de luminosité déclenche une cascade neuroendocrinienne. La mélatonine monte, la vigilance chute, la perception visuelle se rétrécit au cône de la frontale. Entre 2 h et 5 h du matin, la température corporelle atteint son minimum circadien. C'est mécanique, ce n'est pas psychologique.
+La baisse de luminosité déclenche une cascade neuroendocrinienne. La mélatonine monte, la [vigilance](https://www.altitude-trail.fr/articles/cafeine-ultra-trail-dosage-vigilance-nocturne) chute, la perception visuelle se rétrécit au cône de la frontale. Entre 2 h et 5 h du matin, la température corporelle atteint son minimum circadien. C'est mécanique, ce n'est pas psychologique.
 
 La caféine reste l'outil principal, à doser. Les recommandations actuelles en nutrition sportive évoquent 3 à 6 mg par kilo de poids corporel réparti en prises de 50 à 100 mg toutes les deux à trois heures sur les phases nocturnes, plutôt qu'une bombe unique. Au-delà, les effets secondaires — tachycardie, troubles digestifs, anxiété — dépassent le bénéfice.
 

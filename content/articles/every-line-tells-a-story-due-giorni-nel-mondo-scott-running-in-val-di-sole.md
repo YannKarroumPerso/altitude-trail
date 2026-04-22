@@ -1,20 +1,40 @@
 ---
-slug: "scott-running-fete-ses-20-ans-ce-que-revele-une-operation-de-presse-en-val-di-so"
-title: "SCOTT Running fête ses 20 ans : ce que révèle une opération de presse en Val di Sole"
-excerpt: "Deux décennies après son entrée dans la course à pied, la marque suisse orchestre un press trip au pied des Dolomites de Brenta. Décryptage d'un récit de marque qui en dit long sur l'état du marché trail."
-category: "Actualités"
+slug: >-
+  scott-running-fete-ses-20-ans-ce-que-revele-une-operation-de-presse-en-val-di-so
+title: >-
+  SCOTT Running fête ses 20 ans : ce que révèle une opération de presse en Val
+  di Sole
+excerpt: >-
+  Deux décennies après son entrée dans la course à pied, la marque suisse
+  orchestre un press trip au pied des Dolomites de Brenta. Décryptage d'un récit
+  de marque qui en dit long sur l'état du marché trail.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "16 avril 2026"
-readTime: "5 min"
-image: "https://www.corsainmontagna.it/wp-content/uploads/2026/04/DSC1309-468x312.jpg"
-tags: ["SCOTT Running", "Kinabalu", "industrie trail", "chaussures", "marketing"]
-sourceUrl: "https://www.corsainmontagna.it/2026/04/16/every-line-tells-a-story-due-giorni-nel-mondo-scott-running-in-val-di-sole/"
-imagePrompt1: "Trail runners testing shoes on a narrow singletrack through larch forests above Terzolas in Val di Sole, Italian Dolomites visible in the background, late spring afternoon golden light, athletes wearing bright performance running kit"
-imagePrompt2: "Close-up of a new generation trail running shoe with aggressive lugged outsole on alpine rocky terrain, Brenta Dolomites limestone towers in the distance, morning side light casting long shadows, technical mountain atmosphere"
+author: Marc Blanc
+date: 16 avril 2026
+readTime: 5 min
+image: 'https://www.corsainmontagna.it/wp-content/uploads/2026/04/DSC1309-468x312.jpg'
+tags:
+  - SCOTT Running
+  - Kinabalu
+  - industrie trail
+  - chaussures
+  - marketing
+sourceUrl: >-
+  https://www.corsainmontagna.it/2026/04/16/every-line-tells-a-story-due-giorni-nel-mondo-scott-running-in-val-di-sole/
+imagePrompt1: >-
+  Trail runners testing shoes on a narrow singletrack through larch forests
+  above Terzolas in Val di Sole, Italian Dolomites visible in the background,
+  late spring afternoon golden light, athletes wearing bright performance
+  running kit
+imagePrompt2: >-
+  Close-up of a new generation trail running shoe with aggressive lugged outsole
+  on alpine rocky terrain, Brenta Dolomites limestone towers in the distance,
+  morning side light casting long shadows, technical mountain atmosphere
+updatedAt: 22 avril 2026
 ---
 
-Vingt ans dans le running, c'est l'âge auquel une marque cesse d'être un nouvel entrant pour devenir un acteur installé. SCOTT a choisi la Val di Sole pour marquer le coup. Derrière les jus de pomme et les sessions d'essai, une question : que vend-on vraiment quand on vend une chaussure de trail en 2026 ?
+Vingt ans dans le [running](https://www.altitude-trail.fr/articles/scott-running-team-2026-la-releve-frappe-a-la-porte), c'est l'âge auquel une marque cesse d'être un nouvel entrant pour devenir un acteur installé. SCOTT a choisi la Val di Sole pour marquer le coup. Derrière les jus de pomme et les sessions d'essai, une question : que vend-on vraiment quand on vend une chaussure de trail en 2026 ?
 
 La scène se passe à Terzolas, village trentin niché entre le massif de Brenta et le parc de l'Adamello. Comme l'a rapporté **Corsa in Montagna**, le média italien convié à l'événement, SCOTT Italia y a réuni pendant deux jours un cercle de médias spécialisés pour célébrer les vingt ans de son entrée dans la course à pied. Au programme : tests des nouvelles Kinabalu Trail et Kinabalu Ultra, présentation de la campagne de marque MY26 baptisée *Every line tells a story*, et tour d'horizon d'une maison fondée en 1958 par Ed Scott — à l'origine avec un bâton de ski révolutionnaire — qui pèse aujourd'hui 1 052 salariés et 20 000 points de vente dans le monde.
 
@@ -24,7 +44,7 @@ SCOTT n'est pas née dans le running. Elle y est entrée en 2006, après près d
 
 ![Trail runners testing shoes on a narrow singletrack through larch forests above Terzolas in Val di Sole, Italian Dolomit](/articles/every-line-tells-a-story-due-giorni-nel-mondo-scott-running-in-val-di-sole-1.jpg)
 
-Selon le récit rapporté par **Corsa in Montagna**, la gamme actuelle se décline désormais sur cinq segments : racing, everyday run, trail, mountain lifestyle, all day lifestyle. Cette cartographie n'a rien d'anodin. Elle traduit la volonté d'exister à la fois sur la ligne de départ des compétitions élites et dans la rue, où se joue désormais l'essentiel des volumes pour toute marque d'outdoor qui veut survivre aux cycles d'amortissement d'une R&D coûteuse.
+Selon le récit rapporté par **Corsa in Montagna**, la [gamme](https://www.altitude-trail.fr/articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc) actuelle se décline désormais sur cinq segments : racing, everyday run, trail, mountain lifestyle, all day lifestyle. Cette cartographie n'a rien d'anodin. Elle traduit la volonté d'exister à la fois sur la ligne de départ des compétitions élites et dans la rue, où se joue désormais l'essentiel des volumes pour toute marque d'outdoor qui veut survivre aux cycles d'amortissement d'une R&D coûteuse.
 
 ## Kinabalu, la franchise qui porte l'édifice
 

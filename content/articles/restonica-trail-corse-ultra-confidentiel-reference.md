@@ -1,19 +1,31 @@
 ---
-slug: "restonica-trail-corse-ultra-confidentiel-reference"
-title: "Restonica Trail : le confidentiel corse devenu référence"
-excerpt: "110 km dans les aiguilles de Bavella et le massif du Rotondo, sur le sentier du GR 20. L'ultra le plus dur de France a longtemps vécu à l'écart. Plus maintenant."
-category: "Courses & Récits"
+slug: restonica-trail-corse-ultra-confidentiel-reference
+title: 'Restonica Trail : le confidentiel corse devenu référence'
+excerpt: >-
+  110 km dans les aiguilles de Bavella et le massif du Rotondo, sur le sentier
+  du GR 20. L'ultra le plus dur de France a longtemps vécu à l'écart. Plus
+  maintenant.
+category: Courses & Récits
 categorySlug: courses-recits
-author: "Rédaction Altitude"
-date: "11 avril 2026"
-readTime: "9 min"
-image: "/articles/restonica-trail-corse-ultra-confidentiel-reference-hero.jpg"
-tags: ["Restonica", "Corse", "GR 20", "Ultra"]
+author: Marc Blanc
+date: 11 avril 2026
+readTime: 9 min
+image: /articles/restonica-trail-corse-ultra-confidentiel-reference-hero.jpg
+tags:
+  - Restonica
+  - Corse
+  - GR 20
+  - Ultra
+updatedAt: 22 avril 2026
 ---
 
 Le GR 20 n'est pas un sentier de course. C'est une épreuve d'alpinisme allongée. Faire 110 kilomètres dessus d'une traite, avec 7 500 mètres de dénivelé positif, relève d'une catégorie à part.
 
-Le Restonica Trail, créé en 2010 par une poignée de passionnés corses autour de Corte, a vécu douze saisons dans une semi-confidentialité assumée : moins de deux cents dossards, pas de fanfare, un bouche-à-oreille qui circulait entre initiés. Depuis 2022, l'épreuve a basculé. Documentaire Salomon TV, retour médiatisé de Thierry Breuil, calendrier positionné fin juin en pré-saison alpine : la course passe du statut de secret insulaire à celui de référence française pour l'ultra de haute montagne. Ce qui interroge autant que cela fascine.
+
+
+*À lire aussi : [Grand Raid des Pyrénées : quatre vainqueurs, quatre stratégies gagnantes](https://www.altitude-trail.fr/articles/grand-raid-pyrenees-portraits-vainqueurs-strategies)*
+
+Le Restonica Trail, créé en 2010 par une poignée de passionnés corses autour de Corte, a vécu douze saisons dans une semi-confidentialité assumée : moins de deux cents dossards, pas de fanfare, un bouche-à-oreille qui circulait entre initiés. Depuis 2022, l'épreuve a basculé. Documentaire Salomon TV, retour médiatisé de Thierry Breuil, calendrier positionné fin juin en pré-saison alpine : la course passe du statut de secret insulaire à celui de référence française pour l'[ultra](https://www.altitude-trail.fr/articles/ampoules-frottements-ultra-prevention-gestion) de haute montagne. Ce qui interroge autant que cela fascine.
 
 ## Naissance d'un ultra sur le tracé le plus dur de Méditerranée
 

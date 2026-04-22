@@ -1,17 +1,36 @@
 ---
-slug: "bhoutan-la-course-qui-a-brise-clare-gallagher"
-title: "Bhoutan, la course qui a brisé Clare Gallagher"
-excerpt: "Invitée par le roi du Bhoutan à courir 177 km dans l'Himalaya comme ambassadrice climatique, la championne américaine a découvert qu'aucun palmarès ne protège de l'altitude."
-category: "Courses & Récits"
+slug: bhoutan-la-course-qui-a-brise-clare-gallagher
+title: 'Bhoutan, la course qui a brisé Clare Gallagher'
+excerpt: >-
+  Invitée par le roi du Bhoutan à courir 177 km dans l'Himalaya comme
+  ambassadrice climatique, la championne américaine a découvert qu'aucun
+  palmarès ne protège de l'altitude.
+category: Courses & Récits
 categorySlug: courses-recits
-author: "Rédaction Altitude"
-date: "13 décembre 2024"
-readTime: "5 min"
-image: "https://cdn.trailrunnermag.com/wp-content/uploads/2024/12/Clare-Gallagher-Snowman-Race.png?width=1200"
-tags: ["Snowman Race", "Bhoutan", "Clare Gallagher", "ultra-trail", "climat"]
-sourceUrl: "https://www.trailrunnermag.com/people/news/clare-gallagher-cracked-at-snowman-race/"
-imagePrompt1: "Buddhist monks in crimson robes chanting at dawn in front of trail runners lined up at the start of the Snowman Race in Laya village, northern Bhutan, prayer flags fluttering, snow-capped Himalayan peaks behind, cold golden morning light, frost on the ground"
-imagePrompt2: "Exhausted female trail runner climbing a rocky icy trail toward Gophu La Pass at 17896 feet in the Bhutanese Himalayas, glacial lake below, thin air visible as breath vapor, harsh high-altitude midday sun, loose scree, distant prayer flags"
+author: Yann Karroum
+date: 13 décembre 2024
+readTime: 5 min
+image: >-
+  https://cdn.trailrunnermag.com/wp-content/uploads/2024/12/Clare-Gallagher-Snowman-Race.png?width=1200
+tags:
+  - Snowman Race
+  - Bhoutan
+  - Clare Gallagher
+  - ultra-trail
+  - climat
+sourceUrl: >-
+  https://www.trailrunnermag.com/people/news/clare-gallagher-cracked-at-snowman-race/
+imagePrompt1: >-
+  Buddhist monks in crimson robes chanting at dawn in front of trail runners
+  lined up at the start of the Snowman Race in Laya village, northern Bhutan,
+  prayer flags fluttering, snow-capped Himalayan peaks behind, cold golden
+  morning light, frost on the ground
+imagePrompt2: >-
+  Exhausted female trail runner climbing a rocky icy trail toward Gophu La Pass
+  at 17896 feet in the Bhutanese Himalayas, glacial lake below, thin air visible
+  as breath vapor, harsh high-altitude midday sun, loose scree, distant prayer
+  flags
+updatedAt: 22 avril 2026
 ---
 
 Une championne de Leadville, 177 kilomètres d'Himalaya, cinq jours de course, un roi commanditaire et une pancarte climat. Sur le papier, l'histoire parfaite. Sur le terrain, Clare Gallagher s'est fissurée dès la troisième étape.
@@ -24,7 +43,7 @@ L'origine du Snowman Race tient en une phrase. Sa Majesté Jigme Khesar Namgyel 
 
 L'idée peut prêter à sourire. Clare Gallagher, dans le récit qu'elle livre à Trail Runner Mag, ne s'en cache pas : « Le trail running est un sport de niche, au mieux. Pourquoi nous ? Ne serait-il pas plus simple de demander à un joueur NBA de tweeter quelque chose sur les glaciers qui fondent ? » Luke Nelson, running et physician's assistant installé à Pocatello (Idaho), lui a répondu que le roi avait tranché : les traileurs, spécifiquement, sont les mieux placés pour voir les impacts.
 
-La réponse est intéressante. Elle postule que la traversée lente, physique, en autonomie relative, produit un type de témoignage que ni l'hélicoptère ni le drone ne remplacent. Une forme d'ethnographie climatique par les jambes.
+La réponse est intéressante. Elle postule que la [travers](https://www.altitude-trail.fr/articles/bob-yates-1-030-miles-a-travers-le-royaume-uni-pour-feter-ses-60-ans)ée lente, physique, en autonomie relative, produit un type de témoignage que ni l'hélicoptère ni le drone ne remplacent. Une forme d'ethnographie climatique par les jambes.
 
 ## Un pays qui ferme ses frontières pour mieux s'ouvrir
 
@@ -32,7 +51,7 @@ Le Bhoutan est l'un des rares États au monde à avoir érigé le Bonheur Nation
 
 C'est un choix politique fort. Là où l'UTMB ou la Hardrock lèvent des droits d'inscription à trois ou quatre chiffres pour financer leur logistique, le Snowman Race est une invitation royale. La course n'est pas un produit, c'est un message diplomatique. Le trail running devient un instrument de soft power climatique.
 
-Les chiffres disent la densité du défi : 110 miles (177 km) en cinq étapes, un parcours où la troisième journée à elle seule annonce 23 miles (37 km) et 6 500 pieds (1 980 m) de dénivelé positif. Le col de Gophu La, à 5 455 m, dépasse de plus de 700 mètres le point culminant de la Diagonale des Fous, et se situe à une altitude où la plupart des amateurs ne courent tout simplement pas — ils marchent.
+Les chiffres disent la densité du défi : 110 [miles](https://www.altitude-trail.fr/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de) (177 km) en cinq étapes, un parcours où la troisième journée à elle seule annonce 23 miles (37 km) et 6 500 pieds (1 980 m) de dénivelé positif. Le col de Gophu La, à 5 455 m, dépasse de plus de 700 mètres le point culminant de la Diagonale des Fous, et se situe à une altitude où la plupart des amateurs ne courent tout simplement pas — ils marchent.
 
 ## L'altitude ne lit pas les palmarès
 

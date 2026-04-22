@@ -1,19 +1,26 @@
 ---
-slug: "nutrition-ultra-plan-alimentaire-dix-heures-effort"
-title: "Nutrition en ultra : construire son plan alimentaire au-delà de 10 h d'effort"
-excerpt: "La digestion est le premier ennemi en ultra. Comment organiser son alimentation pour tenir physiquement et mentalement, sans coup de moins bien."
-category: "Nutrition"
+slug: nutrition-ultra-plan-alimentaire-dix-heures-effort
+title: 'Nutrition en ultra : construire son plan alimentaire au-delà de 10 h d''effort'
+excerpt: >-
+  La digestion est le premier ennemi en ultra. Comment organiser son
+  alimentation pour tenir physiquement et mentalement, sans coup de moins bien.
+category: Nutrition
 categorySlug: nutrition
-author: "Rédaction Altitude"
-date: "7 avril 2026"
-readTime: "10 min"
-image: "/articles/nutrition-ultra-plan-alimentaire-dix-heures-effort-hero.jpg"
-tags: ["Nutrition", "Ultra", "Plan alimentaire", "Digestion"]
+author: Yann Karroum
+date: 7 avril 2026
+readTime: 10 min
+image: /articles/nutrition-ultra-plan-alimentaire-dix-heures-effort-hero.jpg
+tags:
+  - Nutrition
+  - Ultra
+  - Plan alimentaire
+  - Digestion
+updatedAt: 22 avril 2026
 ---
 
 L'ultra ne se gagne pas à la VO2max. Il se perd à l'estomac. Demandez à n'importe quel finisher de la Diagonale, de la TDS ou de la Hardrock ce qui a failli le stopper : dans trois cas sur quatre, la réponse n'est ni les jambes ni la tête. C'est le ventre.
 
-Au-delà de dix heures d'effort, la nutrition cesse d'être une variable d'ajustement pour devenir le pivot central de la performance. Un coureur de 70 kg brûle entre 300 et 500 kcal par heure selon l'intensité et le dénivelé, soit 4 000 à 7 000 kcal sur une journée de course. Impossible à compenser intégralement. La stratégie consiste donc à limiter la dette énergétique tout en préservant une machine digestive qui, elle, sature vite. Les travaux publiés ces dernières années dans Sports Medicine et le European Journal of Applied Physiology convergent : la tolérance digestive s'entraîne, se planifie et se casse en quelques minutes d'erreur.
+Au-delà de dix heures d'effort, la [nutrition](https://www.altitude-trail.fr/articles/nutrition-avant-course-semaine-qui-precede-ultra) cesse d'être une variable d'ajustement pour devenir le pivot central de la performance. Un coureur de 70 kg brûle entre 300 et 500 kcal par heure selon l'intensité et le dénivelé, soit 4 000 à 7 000 kcal sur une journée de course. Impossible à compenser intégralement. La stratégie consiste donc à limiter la dette énergétique tout en préservant une machine digestive qui, elle, sature vite. Les travaux publiés ces dernières années dans Sports Medicine et le European Journal of Applied Physiology convergent : la tolérance digestive s'entraîne, se planifie et se casse en quelques minutes d'erreur.
 
 ## Le vrai plafond énergétique n'est pas musculaire, il est intestinal
 
@@ -43,7 +50,7 @@ Les gros ravitaillements (tous les 25 à 40 km selon la course) sont les fenêtr
 
 La déshydratation fait les gros titres, le sodium fait la différence. En conditions tempérées, 300 à 500 mg de sodium par heure suffisent. En chaleur — au-delà de 25 °C — il faut passer à 500, voire 1 000 mg/h selon la transpiration individuelle. Les études sur les ultramarathons de désert montrent des pertes sudorales dépassant 1,5 g de sodium par heure chez les gros transpirants.
 
-Sous-doser le sodium, c'est la porte ouverte à l'hyponatrémie d'effort, rare mais sérieuse et surtout aux crampes, à la baisse de vigilance et à la saturation hydrique (on boit, on boit et l'eau ne passe plus). Pastilles, bouillons, cacahuètes salées, chips aux ravitos : les vecteurs sont nombreux, encore faut-il les planifier. Un avis médical personnalisé reste indispensable pour les coureurs hypertendus ou sous traitement.
+Sous-doser le sodium, c'est la porte ouverte à l'hyponatrémie d'effort, rare mais sérieuse et surtout aux crampes, à la baisse de [vigilance](https://www.altitude-trail.fr/articles/cafeine-ultra-trail-dosage-vigilance-nocturne) et à la saturation hydrique (on boit, on boit et l'eau ne passe plus). Pastilles, bouillons, cacahuètes salées, chips aux ravitos : les vecteurs sont nombreux, encore faut-il les planifier. Un avis médical personnalisé reste indispensable pour les coureurs hypertendus ou sous traitement.
 
 ## Les erreurs qui plombent une course et comment les désamorcer
 

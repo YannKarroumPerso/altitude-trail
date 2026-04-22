@@ -1,17 +1,25 @@
 ---
-slug: "cafeine-ultra-trail-dosage-vigilance-nocturne"
-title: "La caféine en ultra : dosage optimal et gestion de la vigilance nocturne"
-excerpt: "Un café à Courmayeur, une capsule à minuit, un gel caféiné au lever du soleil. Le plan est rarement pensé. Comment utiliser vraiment la caféine pour passer la nuit sans la payer au réveil."
-category: "Nutrition"
+slug: cafeine-ultra-trail-dosage-vigilance-nocturne
+title: 'La caféine en ultra : dosage optimal et gestion de la vigilance nocturne'
+excerpt: >-
+  Un café à Courmayeur, une capsule à minuit, un gel caféiné au lever du soleil.
+  Le plan est rarement pensé. Comment utiliser vraiment la caféine pour passer
+  la nuit sans la payer au réveil.
+category: Nutrition
 categorySlug: nutrition
-author: "Rédaction Altitude"
-date: "16 avril 2026"
-readTime: "8 min"
-image: "/articles/cafeine-ultra-trail-dosage-vigilance-nocturne-hero.jpg"
-tags: ["Caféine", "Vigilance", "Ultra", "Nuit"]
+author: Yann Karroum
+date: 16 avril 2026
+readTime: 8 min
+image: /articles/cafeine-ultra-trail-dosage-vigilance-nocturne-hero.jpg
+tags:
+  - Caféine
+  - Vigilance
+  - Ultra
+  - Nuit
+updatedAt: 22 avril 2026
 ---
 
-La caféine est devenue l'arme chimique la plus banalisée de l'ultra. Tout le monde en prend, presque personne ne sait vraiment comment. Sur la Diagonale des Fous comme à l'UTMB, elle fait la différence entre ceux qui voient le jour se lever en courant et ceux qui s'effondrent au premier banc venu.
+La caféine est devenue l'arme chimique la plus banalisée de l'[ultra](https://www.altitude-trail.fr/articles/preparation-mentale-ultra-gerer-nuit-douleur-bas). Tout le monde en prend, presque personne ne sait vraiment comment. Sur la Diagonale des Fous comme à l'UTMB, elle fait la différence entre ceux qui voient le jour se lever en courant et ceux qui s'effondrent au premier banc venu.
 
 Entre le café à Courmayeur, le gel caféiné tiré au hasard de la veste et la capsule 100 mg avalée à 3 h du matin, le coureur moyen ingère sur un 100 miles l'équivalent de six à dix expressos, souvent sans plan cohérent. La littérature en sciences du sport est pourtant dense : pic plasmatique entre quarante-cinq et soixante minutes, demi-vie de quatre à six heures, effets ergogènes robustes sur la vigilance et la perception de l'effort. La bonne dose existe. Elle se situe entre trois et six milligrammes par kilo avant l'effort, puis se module par impulsions en course. Le reste, c'est de la gestion de nuit.
 
@@ -25,7 +33,7 @@ Les méta-analyses publiées ces dernières années dans le British Journal of S
 
 ## Trois à six milligrammes par kilo : la fourchette à connaître
 
-Les recommandations de l'ACSM et des principaux consensus de nutrition sportive tournent autour de 3 à 6 mg/kg avant un effort prolongé. Pour un coureur de 70 kg, cela représente 210 à 420 mg, soit l'équivalent de deux à quatre expressos serrés. Au-delà de 6 mg/kg, les bénéfices plafonnent et les effets secondaires explosent : tachycardie, troubles digestifs, tremblements, anxiété.
+Les recommandations de l'ACSM et des principaux consensus de [nutrition](https://www.altitude-trail.fr/articles/nutrition-avant-course-semaine-qui-precede-ultra) sportive tournent autour de 3 à 6 mg/kg avant un effort prolongé. Pour un coureur de 70 kg, cela représente 210 à 420 mg, soit l'équivalent de deux à quatre expressos serrés. Au-delà de 6 mg/kg, les bénéfices plafonnent et les effets secondaires explosent : tachycardie, troubles digestifs, tremblements, anxiété.
 
 Le problème n'est presque jamais la dose isolée. C'est l'empilement. Un café au départ, un gel caféiné toutes les trois heures, une capsule 100 mg à la nuit tombée, un Coca à chaque ravito — on dépasse facilement 700 mg sur la course. À ce niveau, le gain ergogène laisse place à une tachycardie parasite qui, sous chaleur, sollicite le myocarde bien au-delà du raisonnable. Les cardiologues du sport alertent régulièrement sur ce point lors des congrès de médecine de montagne.
 
