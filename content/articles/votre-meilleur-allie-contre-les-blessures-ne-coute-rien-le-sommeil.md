@@ -7,7 +7,7 @@ categorySlug: "entrainement"
 author: "Rédaction Altitude Trail"
 date: "22 avril 2026"
 readTime: "7 min"
-image: "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80"
+image: "/articles/sommeil-recuperation-coureur-mo9t6xjv-hero.jpg"
 tags: ["sommeil", "récupération", "blessures", "performance", "hygiène de vie", "cortisol"]
 ---
 

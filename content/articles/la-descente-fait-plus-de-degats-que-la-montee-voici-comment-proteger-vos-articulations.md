@@ -7,7 +7,7 @@ categorySlug: "blessures-preventions"
 author: "Rédaction Altitude Trail"
 date: "22 avril 2026"
 readTime: "8 min"
-image: "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80"
+image: "/articles/descente-trail-articulations-mo9t6xjv-hero.jpg"
 tags: ["descente", "technique", "genoux", "bâtons", "excentrique", "quadriceps", "prévention"]
 ---
 
