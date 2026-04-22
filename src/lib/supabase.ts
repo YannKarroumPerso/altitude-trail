@@ -121,6 +121,19 @@ export async function markPlanFailed(planId: string, errorMessage: string): Prom
     .eq("id", planId);
 }
 
+export interface PlanContext {
+  prenom: string | null;
+  courseName: string;
+  courseDate: string | null;
+  courseDistance: number | null;
+  courseDenivele: number | null;
+  niveau: string | null;
+  volumeActuelKm: number | null;
+  seancesMaxParSemaine: number | null;
+  objectifPrincipal: string | null;
+  blessuresRecurrentes: string | null;
+}
+
 export interface PlanStatusResult {
   id: string;
   status: "generating" | "ready" | "failed";
@@ -128,6 +141,8 @@ export interface PlanStatusResult {
   error: string | null;
   createdAt: string;
   accessToken?: string;
+  // Données du formulaire + user, pour enrichir l'affichage côté front.
+  context?: PlanContext | null;
 }
 
 // Lookup par token d'acces (URL publique) : c'est ce que le client et le lien email utilisent.
@@ -136,10 +151,35 @@ export async function getPlanByAccessToken(token: string): Promise<PlanStatusRes
   if (!client) return null;
   const { data, error } = await client
     .from("plans")
-    .select("id, status, plan_json, error_message, created_at, access_token")
+    .select(
+      "id, status, plan_json, error_message, created_at, access_token, " +
+        "course_name, course_date, course_distance, course_denivele, " +
+        "niveau, volume_actuel_km, seances_max_par_semaine, " +
+        "objectif_principal, blessures_recurrentes, users(prenom)"
+    )
     .eq("access_token", token)
     .single();
   if (error || !data) return null;
+
+  // Normalisation user (peut être objet ou array selon l'inférence Supabase)
+  const rawUsers = (data as unknown as { users: unknown }).users;
+  const u = Array.isArray(rawUsers) ? rawUsers[0] : rawUsers;
+  const prenom = (u && typeof u === "object" && (u as { prenom?: string | null }).prenom) || null;
+
+  const context: PlanContext = {
+    prenom,
+    courseName: String(data.course_name || ""),
+    courseDate: data.course_date || null,
+    courseDistance: typeof data.course_distance === "number" ? data.course_distance : null,
+    courseDenivele: typeof data.course_denivele === "number" ? data.course_denivele : null,
+    niveau: data.niveau || null,
+    volumeActuelKm: typeof data.volume_actuel_km === "number" ? data.volume_actuel_km : null,
+    seancesMaxParSemaine:
+      typeof data.seances_max_par_semaine === "number" ? data.seances_max_par_semaine : null,
+    objectifPrincipal: data.objectif_principal || null,
+    blessuresRecurrentes: data.blessures_recurrentes || null,
+  };
+
   return {
     id: data.id,
     status: data.status,
@@ -147,6 +187,7 @@ export async function getPlanByAccessToken(token: string): Promise<PlanStatusRes
     error: data.error_message,
     createdAt: data.created_at,
     accessToken: data.access_token,
+    context,
   };
 }
 

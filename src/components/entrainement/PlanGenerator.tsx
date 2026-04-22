@@ -562,7 +562,7 @@ export default function PlanGenerator() {
               disabled={loading || !canProceed(4)}
               className="bg-primary text-white font-headline font-black text-xs uppercase tracking-widest py-3 px-6 hover:opacity-80 transition-opacity disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              {loading ? "Génération…" : "Générer mon plan"}
+              {loading ? "Construction…" : "Construire mon plan"}
             </button>
           )}
         </div>

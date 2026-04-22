@@ -10,9 +10,9 @@ import {
   buildBreadcrumbJsonLd,
 } from "@/lib/seo";
 
-const title = "Générateur de plan d'entraînement trail";
+const title = "Moteur d'entraînement personnalisé trail";
 const description =
-  "Plan d'entraînement trail personnalisé généré par une intelligence artificielle entraînée sur les méthodes de Kilian Jornet, François D'Haene et les coaches UTMB. Périodisation, gestion de la charge, nutrition, renforcement.";
+  "Moteur d'entraînement personnalisé pour le trail, basé sur les méthodes de Kilian Jornet, François D'Haene et les coaches UTMB. Périodisation, gestion de la charge, nutrition, renforcement : un plan construit pour toi.";
 
 const GENERATOR_URL = `${SITE_URL}/entrainement/generateur`;
 
@@ -52,7 +52,7 @@ const HOW_TO_STEPS = [
 
 const FAQ = [
   {
-    q: "Le générateur de plan d'entraînement trail est-il vraiment gratuit ?",
+    q: "Le moteur d'entraînement est-il vraiment gratuit ?",
     a: "Oui. Le plan est 100 % gratuit, sans limite d'usage. Altitude Trail finance le service via sa ligne éditoriale et ses partenaires. Ton email reste confidentiel et n'est jamais revendu.",
   },
   {
@@ -65,7 +65,7 @@ const FAQ = [
   },
   {
     q: "Le plan remplace-t-il un coach ?",
-    a: "Non. Un coach humain analyse ta gestuelle, tes réponses aux charges, ton sommeil, ton mental et adapte chaque semaine. Le générateur donne un cadre solide et cohérent, particulièrement utile pour les coureurs autonomes ou comme base de discussion avec un préparateur.",
+    a: "Non. Un coach humain analyse ta gestuelle, tes réponses aux charges, ton sommeil, ton mental et adapte chaque semaine. Le moteur donne un cadre solide et cohérent, particulièrement utile pour les coureurs autonomes ou comme base de discussion avec un préparateur.",
   },
   {
     q: "Puis-je exporter le plan en PDF ?",
@@ -80,7 +80,7 @@ const FAQ = [
 const breadcrumb = [
   { label: "Accueil", href: "/" },
   { label: "Entraînement", href: "/categories/entrainement" },
-  { label: "Générateur de plan" },
+  { label: "Moteur d'entraînement" },
 ];
 
 export default function GenerateurPage() {
@@ -88,7 +88,7 @@ export default function GenerateurPage() {
     <div className="max-w-5xl mx-auto px-4 lg:px-8 py-12">
       <JsonLd
         data={buildHowToJsonLd({
-          name: "Comment générer son plan d'entraînement trail personnalisé",
+          name: "Utiliser le moteur d'entraînement personnalisé trail",
           description,
           url: GENERATOR_URL,
           totalTime: "PT90S",
@@ -100,12 +100,12 @@ export default function GenerateurPage() {
         data={buildBreadcrumbJsonLd([
           { label: "Accueil", url: SITE_URL },
           { label: "Entraînement", url: `${SITE_URL}/categories/entrainement` },
-          { label: "Générateur de plan", url: GENERATOR_URL },
+          { label: "Moteur d'entraînement", url: GENERATOR_URL },
         ])}
       />
       <div className="border-b-2 border-navy pb-6 mb-10">
         <Breadcrumb items={breadcrumb} />
-        <h1 className="font-headline text-5xl font-black uppercase tracking-tighter">Générateur de plan d&apos;entraînement</h1>
+        <h1 className="font-headline text-5xl font-black uppercase tracking-tighter">Moteur d&apos;entraînement personnalisé</h1>
         <p className="text-slate-500 mt-2 max-w-2xl">
           Remplis le formulaire ci-dessous et reçois en 30 à 90 secondes un plan complet, semaine par semaine,
           calé sur les règles physiologiques et méthodologies des coaches trail de référence. Utilisation

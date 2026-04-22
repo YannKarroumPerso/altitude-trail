@@ -49,7 +49,7 @@ export default function Footer() {
             href="/entrainement/generateur"
             className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
           >
-            Générateur de plan
+            Moteur d&apos;entraînement
           </Link>
           <Link
             href="/lexique"

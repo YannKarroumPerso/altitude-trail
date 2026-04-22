@@ -306,7 +306,7 @@ export default function GuideUTMBPage() {
             <strong>Bloc 4 — Affûtage (semaines 19-24)</strong> : réduction progressive du volume de 40-60 %, maintien de l'intensité, priorité au sommeil et à la récupération. Dernière grosse séance 10 jours avant le départ, max.
           </p>
           <p className="mb-4">
-            Un <Link href="/entrainement/generateur" className="text-primary hover:underline">générateur de plan d'entraînement personnalisé</Link> est disponible sur ce site pour bâtir ta périodisation selon ton niveau actuel et ta date d'objectif.
+            Un <Link href="/entrainement/generateur" className="text-primary hover:underline">moteur d'entraînement personnalisé</Link> est disponible sur ce site pour bâtir ta périodisation selon ton niveau actuel et ta date d'objectif.
           </p>
         </section>
 
@@ -378,19 +378,19 @@ export default function GuideUTMBPage() {
         </section>
       </div>
 
-      {/* CTA vers le générateur de plan */}
+      {/* CTA vers le moteur d'entraînement */}
       <div className="mt-16 bg-navy text-white p-8 lg:p-10 border-l-4 border-primary">
         <h3 className="font-headline font-black text-2xl lg:text-3xl uppercase tracking-tighter mb-3">
           Prêt à passer à la préparation ?
         </h3>
         <p className="text-slate-300 mb-5 leading-relaxed">
-          Le générateur de plan personnalisé bâtit ta périodisation UTMB sur 16 à 24 semaines en fonction de ton volume actuel, ta VMA et ta date d'objectif.
+          Le moteur d&apos;entraînement personnalisé bâtit ta périodisation UTMB sur 16 à 24 semaines en fonction de ton volume actuel, ta VMA et ta date d&apos;objectif.
         </p>
         <Link
           href="/entrainement/generateur"
           className="inline-block bg-primary text-white px-6 py-3 font-headline font-bold text-xs uppercase tracking-widest hover:bg-primary-dark transition-colors"
         >
-          Générer mon plan UTMB →
+          Construire mon plan UTMB →
         </Link>
       </div>
     </div>

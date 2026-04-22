@@ -130,17 +130,17 @@ export default function Home() {
         </aside>
       </div>
 
-      {/* CTA Plan d'entraînement personnalisé */}
+      {/* CTA Moteur d'entraînement personnalisé */}
       <section className="bg-navy text-white">
         <div className="max-w-[1440px] mx-auto px-4 lg:px-8 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-7 space-y-5">
             <h2 className="font-headline text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter uppercase leading-[0.95]">
-              Ton plan d&apos;entraînement trail
+              Moteur d&apos;entraînement
               <br />
               <span className="text-primary">100 % personnalisé</span>
             </h2>
             <p className="text-base md:text-lg text-slate-300 leading-relaxed max-w-2xl">
-              Indique ta course cible, ton niveau et ton volume actuel. On te génère en moins de 2 minutes un plan complet semaine par semaine, avec périodisation, séances détaillées, conseils nutrition et récupération — inspiré des méthodes Kilian Jornet, François D&apos;Haene et des coaches UTMB.
+              Indique ta course cible, ton niveau et ton volume actuel. On te construit en moins de 2 minutes un plan complet semaine par semaine, avec périodisation, séances détaillées, conseils nutrition et récupération, inspiré des méthodes Kilian Jornet, François D&apos;Haene et des coaches UTMB.
             </p>
             <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-300 pt-2">
               <span className="flex items-center gap-2"><span className="text-primary font-black text-lg">&#10003;</span> Jusqu&apos;à 16 semaines de prépa</span>
@@ -150,7 +150,7 @@ export default function Home() {
             </div>
             <div className="pt-4">
               <Link href="/entrainement/generateur" className="inline-block bg-primary hover:bg-primary-dark transition-colors text-white font-headline font-black text-sm uppercase tracking-widest py-4 px-8">
-                Générer mon plan gratuit &rarr;
+                Construire mon plan gratuit &rarr;
               </Link>
             </div>
           </div>

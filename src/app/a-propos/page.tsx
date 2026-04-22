@@ -195,7 +195,7 @@ export default function AboutPage() {
           </li>
           <li>
             <Link href="/entrainement/generateur" className="text-primary underline hover:opacity-80">
-              Générateur de plan d&apos;entraînement trail
+              Moteur d&apos;entraînement personnalisé trail
             </Link>{" "}
             personnalisé selon l&apos;objectif, le niveau et la
             disponibilité

@@ -6,7 +6,7 @@ import { categories } from "@/lib/data";
 const GUIDES_TOOLS = [
   { href: "/guides/utmb", label: "Guide UTMB", desc: "La référence pour courir l'UTMB" },
   { href: "/courses", label: "Calendrier des courses", desc: "Carte et filtres de toutes les courses France" },
-  { href: "/entrainement/generateur", label: "Plan d'entraînement", desc: "Générateur personnalisé gratuit" },
+  { href: "/entrainement/generateur", label: "Moteur d'entraînement", desc: "Plan personnalisé gratuit, construit pour ton profil" },
   { href: "/lexique", label: "Lexique du trail", desc: "40 termes essentiels" },
   { href: "/parcours", label: "Traces & parcours", desc: "Itinéraires GPX à découvrir" },
 ];

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import PlanDisplay from "./PlanDisplay";
+import type { PlanContextLike } from "./PlanIntro";
 import { Plan } from "@/types/plan";
 
 type PlanStatus = "generating" | "ready" | "failed";
@@ -12,6 +13,7 @@ interface StatusResponse {
   plan: Plan | null;
   error: string | null;
   createdAt: string;
+  context?: PlanContextLike | null;
 }
 
 const TIPS = [
@@ -44,6 +46,7 @@ const TIPS = [
 export default function MonPlanClient({ accessToken }: { accessToken: string }) {
   const [status, setStatus] = useState<PlanStatus>("generating");
   const [plan, setPlan] = useState<Plan | null>(null);
+  const [context, setContext] = useState<PlanContextLike | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [elapsed, setElapsed] = useState(0);
   const [tipIndex, setTipIndex] = useState(0);
@@ -67,6 +70,7 @@ export default function MonPlanClient({ accessToken }: { accessToken: string }) 
         const data = (await res.json()) as StatusResponse;
         if (cancelled) return;
         setStatus(data.status);
+        if (data.context) setContext(data.context);
         if (data.status === "ready" && data.plan) {
           setPlan(data.plan);
         }
@@ -110,7 +114,7 @@ export default function MonPlanClient({ accessToken }: { accessToken: string }) 
   }, [status]);
 
   if (status === "ready" && plan) {
-    return <PlanDisplay plan={plan} />;
+    return <PlanDisplay plan={plan} context={context} />;
   }
 
   if (status === "failed") {

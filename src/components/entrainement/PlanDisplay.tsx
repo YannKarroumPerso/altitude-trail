@@ -2,9 +2,16 @@
 
 import { useMemo, useState } from "react";
 import ChargeChartLoader from "./ChargeChartLoader";
+import PlanIntro, { type PlanContextLike } from "./PlanIntro";
 import { Plan, Seance, SEANCE_COLORS } from "@/types/plan";
 
-export default function PlanDisplay({ plan }: { plan: Plan }) {
+export default function PlanDisplay({
+  plan,
+  context,
+}: {
+  plan: Plan;
+  context?: PlanContextLike | null;
+}) {
   const [openSeance, setOpenSeance] = useState<string | null>(null);
   const totalDenivele = useMemo(
     () => plan.semaines.reduce((sum, s) => sum + s.denivele_total, 0),
@@ -25,6 +32,7 @@ export default function PlanDisplay({ plan }: { plan: Plan }) {
 
   return (
     <div id="plan-export" className="space-y-10">
+      {context && <PlanIntro plan={plan} context={context} />}
       <div className="flex flex-wrap items-end justify-between gap-4 border-b-2 border-navy pb-4">
         <div>
           <div className="text-[10px] font-headline font-bold uppercase tracking-widest text-slate-500">Plan généré</div>
