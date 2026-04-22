@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "veille": "node --env-file-if-exists=.env.local scripts/veille.mjs",
+    "veille-tavily": "node --env-file-if-exists=.env.local scripts/veille-tavily.mjs",
     "publish": "node --env-file-if-exists=.env.local scripts/publish.mjs",
     "regen-images": "node --env-file-if-exists=.env.local scripts/regen-article-images.mjs",
     "backfill-seo": "node --env-file-if-exists=.env.local scripts/backfill-seo.mjs"

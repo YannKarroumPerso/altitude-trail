@@ -23,6 +23,16 @@ PÉRIODISATION DU DÉNIVELÉ (spécifique trail) :
 - Spécifique : D+ = 90-110 % de la cible, reproduire le profil de la course.
 - Affûtage : D+ = 40-50 %, maintenir les qualités techniques sans fatiguer.
 
+ADAPTATION SELON LE TERRAIN D'ENTRAÎNEMENT :
+- Montagne : intègre le D+ directement dans les sorties longues. Les SL en spécifique portent le gros du D+ (SL 5-8h avec 2000-3500 D+).
+- Vallonné : SL avec D+ modéré (800-1800 D+ selon la phase). Ajoute 1 séance dédiée aux côtes par semaine en développement et spécifique (8-15 × 2-3 min sur une bosse courte).
+- Plat : SL sur plat, mais prescris des alternatives explicites pour développer la musculature ascensionnelle : tapis incliné, escaliers (10-20 étages × 5-8), gilet lesté, côte courte répétée sur passage d'autoroute ou digue. Planifie aussi un stage dénivelé (weekend en zone vallonnée) 4-6 semaines avant la course.
+
+ADAPTATION SELON LA CAPACITÉ WEEK-ENDS CHOCS :
+- 2 à 3 / bloc : place 2-3 week-ends chocs dans les phases développement et spécifique (samedi 4-6h + dimanche 3-4h). Profil optimal pour préparer un ultra.
+- 1 / bloc : un seul week-end choc par phase longue, positionné au pic de spécificité. Les autres SL restent classiques.
+- 0 / bloc : pas de back-to-back, compense par des sorties longues plus denses en D+ ou en intensité dans le corps de la séance. Plan réaliste orienté distance cible <= 80 km ; au-delà, signale dans meta.methodologie la limite du plan sans back-to-back.
+
 RÈGLES PHYSIOLOGIQUES OBLIGATOIRES :
 - Progression maximale +10 % volume par semaine
 - Semaine de récupération toutes les 3-4 semaines (-30 % volume)
@@ -146,6 +156,12 @@ export interface PlanFormInput {
   niveau: "debutant" | "intermediaire" | "confirme" | "expert";
   volumeActuelKm: number;
   seancesMaxParSemaine: number;
+  // Disponibilité weekends chocs (2 grosses sorties consécutives sam+dim)
+  // Signal clé pour la prescription des blocs spécifiques en prépa ultra.
+  weekendChocsCapacity?: "0" | "1" | "2-3";
+  // Terrain d'entraînement principal — dicte l'accès au dénivelé réel et
+  // la prescription (intégration D+ vs compensation côtes répétées).
+  terrainPrincipal?: "montagne" | "vallonne" | "plat";
   // Course cible
   courseName: string;
   courseDate: string; // YYYY-MM-DD
@@ -154,6 +170,32 @@ export interface PlanFormInput {
   objectifPrincipal: "finir" | "performance" | "podium" | "qualif-utmb";
   // Optionnel
   blessuresRecurrentes?: string;
+}
+
+function weekendChocsLabel(v: PlanFormInput["weekendChocsCapacity"]): string {
+  switch (v) {
+    case "0":
+      return "Aucun week-end choc possible (emploi du temps incompatible)";
+    case "1":
+      return "1 week-end choc par bloc possible";
+    case "2-3":
+      return "2 à 3 week-ends chocs par bloc possibles";
+    default:
+      return "non communiqué (supposer 1 par bloc max pour rester prudent)";
+  }
+}
+
+function terrainLabel(v: PlanFormInput["terrainPrincipal"]): string {
+  switch (v) {
+    case "montagne":
+      return "Montagne — D+ 1000 m facile à atteindre à côté de chez lui/elle (intégrer le dénivelé dans les SL, pas besoin d'artifice)";
+    case "vallonne":
+      return "Vallonné — collines, forêts, 300-800 m D+ accessibles (SL intermédiaires + séances de côtes dédiées pour compenser)";
+    case "plat":
+      return "Plat — ville, plaine, bord de mer, D+ difficile à trouver (prescrire alternatives : côtes courtes répétées, escaliers, gilet lesté, tapis incliné)";
+    default:
+      return "non communiqué (supposer vallonné par défaut)";
+  }
 }
 
 export function buildUserPrompt(input: PlanFormInput, today?: string): string {
@@ -177,6 +219,8 @@ export function buildUserPrompt(input: PlanFormInput, today?: string): string {
     `- Niveau : ${input.niveau}`,
     `- Volume hebdomadaire actuel : ${input.volumeActuelKm} km/semaine`,
     `- Disponibilité : ${input.seancesMaxParSemaine} séances/semaine maximum`,
+    `- Week-ends chocs : ${weekendChocsLabel(input.weekendChocsCapacity)}`,
+    `- Terrain d'entraînement : ${terrainLabel(input.terrainPrincipal)}`,
     `- Objectif principal : ${input.objectifPrincipal}`,
   ];
   if (input.blessuresRecurrentes && input.blessuresRecurrentes.trim().length > 0) {

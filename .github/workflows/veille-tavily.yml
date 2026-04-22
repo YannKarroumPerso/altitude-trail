@@ -1,0 +1,146 @@
+name: Veille Tavily hebdomadaire
+
+# Tourne chaque mercredi à 10h Paris (CEST+CET gérés).
+# Produit 3 articles thématiques de synthèse multi-sources via Tavily + Claude.
+on:
+  schedule:
+    - cron: "0 8 * * 3"   # 10:00 Paris CEST
+    - cron: "0 9 * * 3"   # 10:00 Paris CET
+  workflow_dispatch:
+    inputs:
+      custom_query:
+        description: "Query Tavily custom (facultatif, prend le pas sur le planning hebdo)"
+        required: false
+        type: string
+
+concurrency:
+  group: veille-tavily
+  cancel-in-progress: false
+
+env:
+  MAIL_TO: yannkarroum@gmail.com
+  MAIL_FROM: "Altitude Trail Bot <yannkarroum@gmail.com>"
+  GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+  RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+  SITE_BASE_URL: "https://www.altitude-trail.fr"
+
+jobs:
+  veille-tavily:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git
+        run: |
+          git config user.name "altitude-veille-tavily-bot"
+          git config user.email "altitude-veille-tavily-bot@users.noreply.github.com"
+
+      - name: Preflight checks
+        id: preflight
+        run: |
+          echo "=== Preflight ==="
+          if [ -z "${{ secrets.TAVILY_API_KEY }}" ]; then
+            echo "FATAL: TAVILY_API_KEY secret missing"; exit 1
+          fi
+          if [ -z "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+            echo "FATAL: ANTHROPIC_API_KEY secret missing"; exit 1
+          fi
+          echo "Site base URL: ${{ env.SITE_BASE_URL }}"
+
+      - name: Run veille Tavily
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-sonnet-4-6' }}
+          BFL_API_KEY: ${{ secrets.BFL_API_KEY }}
+          FLUX_MODEL: ${{ vars.FLUX_MODEL || 'flux-pro-1.1' }}
+          YOUTUBE_API_DATA: ${{ secrets.YOUTUBE_API_DATA }}
+          SITE_BASE_URL: ${{ env.SITE_BASE_URL }}
+          MAX_ARTICLES_PER_RUN: "3"
+          TAVILY_FRESHNESS_DAYS: "7"
+        run: |
+          set -e
+          if [ -n "${{ github.event.inputs.custom_query }}" ]; then
+            node --env-file-if-exists=.env.local scripts/veille-tavily.mjs --query="${{ github.event.inputs.custom_query }}"
+          else
+            npm run veille-tavily
+          fi
+
+      - name: Publish and detect new articles
+        id: publish
+        run: |
+          set -e
+          BEFORE=$(git rev-parse HEAD)
+          npm run publish
+          AFTER=$(git rev-parse HEAD)
+          if [ "$BEFORE" = "$AFTER" ]; then
+            echo "Aucun nouvel article produit."
+            echo "new_articles=0" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          git diff --name-only --diff-filter=A "$BEFORE..$AFTER" -- 'content/articles/*.md' > /tmp/new-articles.txt
+          COUNT=$(wc -l < /tmp/new-articles.txt | tr -d ' ')
+          echo "new_articles=$COUNT" >> $GITHUB_OUTPUT
+          sed 's|content/articles/||;s|\.md$||' /tmp/new-articles.txt > /tmp/slugs.txt
+          : > /tmp/urls.txt
+          while read -r slug; do
+            echo "${{ env.SITE_BASE_URL }}/articles/$slug" >> /tmp/urls.txt
+          done < /tmp/slugs.txt
+          {
+            echo "urls_text<<URLS_EOF"
+            cat /tmp/urls.txt
+            echo "URLS_EOF"
+          } >> $GITHUB_OUTPUT
+          echo "Articles publiés : $COUNT"
+
+      - name: Notify complete (articles en ligne)
+        if: always() && env.GMAIL_APP_PASSWORD != '' && steps.publish.outputs.new_articles != '0'
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ env.MAIL_TO }}
+          password: ${{ env.GMAIL_APP_PASSWORD }}
+          subject: "Altitude Trail — Veille Tavily : ${{ steps.publish.outputs.new_articles }} article(s) synthèse publié(s)"
+          to: ${{ env.MAIL_TO }}
+          from: ${{ env.MAIL_FROM }}
+          body: |
+            Articles générés par la veille Tavily (synthèse multi-sources) et déployés sur ${{ env.SITE_BASE_URL }} :
+
+            ${{ steps.publish.outputs.urls_text }}
+
+            Run : ${{ env.RUN_URL }}
+
+      - name: Notify failure
+        if: failure() && env.GMAIL_APP_PASSWORD != ''
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ env.MAIL_TO }}
+          password: ${{ env.GMAIL_APP_PASSWORD }}
+          subject: "Altitude Trail — ECHEC veille Tavily"
+          to: ${{ env.MAIL_TO }}
+          from: ${{ env.MAIL_FROM }}
+          body: |
+            La veille Tavily a échoué.
+            Run : ${{ env.RUN_URL }}
