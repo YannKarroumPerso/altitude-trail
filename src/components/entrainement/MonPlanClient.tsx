@@ -41,7 +41,7 @@ const TIPS = [
   },
 ];
 
-export default function MonPlanClient({ planId }: { planId: string }) {
+export default function MonPlanClient({ accessToken }: { accessToken: string }) {
   const [status, setStatus] = useState<PlanStatus>("generating");
   const [plan, setPlan] = useState<Plan | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -53,7 +53,7 @@ export default function MonPlanClient({ planId }: { planId: string }) {
     let cancelled = false;
     const poll = async () => {
       try {
-        const res = await fetch(`/api/plan-generateur/status?id=${encodeURIComponent(planId)}`, {
+        const res = await fetch(`/api/plan-generateur/status?token=${encodeURIComponent(accessToken)}`, {
           cache: "no-store",
         });
         if (!res.ok) {
@@ -88,7 +88,7 @@ export default function MonPlanClient({ planId }: { planId: string }) {
       cancelled = true;
       if (pollRef.current) clearInterval(pollRef.current);
     };
-  }, [planId]);
+  }, [accessToken]);
 
   // Arret du polling quand on a un statut final
   useEffect(() => {

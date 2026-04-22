@@ -53,6 +53,7 @@ export default function PlanGenerator() {
     weeksDone: 0,
     weeksTotal: 0,
   });
+  const [submittedToken, setSubmittedToken] = useState<string | null>(null);
 
   const totalDenivele = useMemo(
     () => plan?.semaines.reduce((sum, s) => sum + s.denivele_total, 0) ?? 0,
@@ -104,13 +105,18 @@ export default function PlanGenerator() {
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
-      if (!data.planId) throw new Error("Reponse sans planId");
-      router.push(`/mon-plan/${data.planId}`);
+      if (!data.accessToken) throw new Error("Reponse sans accessToken");
+      setSubmittedToken(data.accessToken);
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
+    } finally {
       setLoading(false);
     }
   };
+
+  if (submittedToken) {
+    return <SubmittedConfirmation accessToken={submittedToken} prenom={form.prenom} email={form.email} />;
+  }
 
   return (
     <div className="space-y-10">
@@ -895,6 +901,77 @@ function computeSeanceDate(weekStart: Date | null, jour: string): Date | null {
   const d = new Date(weekStart);
   d.setDate(weekStart.getDate() + offset);
   return d;
+}
+
+function SubmittedConfirmation({
+  accessToken,
+  prenom,
+  email,
+}: {
+  accessToken: string;
+  prenom?: string;
+  email: string;
+}) {
+  const hello = prenom ? `Bravo ${prenom} !` : "Bravo !";
+  const planUrl = `/mon-plan/${accessToken}`;
+  return (
+    <div className="space-y-6">
+      <div className="bg-navy text-white p-8 md:p-12 space-y-6 text-center">
+        <div className="inline-flex w-16 h-16 bg-primary text-white items-center justify-center text-3xl mx-auto">
+          ✓
+        </div>
+        <div className="space-y-3">
+          <h2 className="font-headline text-3xl md:text-4xl font-black tracking-tight leading-tight">
+            {hello}
+          </h2>
+          <p className="text-lg text-slate-200 leading-relaxed max-w-xl mx-auto">
+            Ton plan personnalisé est en cours de génération. Nous te l&apos;envoyons
+            par <strong className="text-primary">email à {email}</strong> dès qu&apos;il est prêt
+            (dans environ 2 minutes).
+          </p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="bg-surface-container p-5 space-y-2">
+          <div className="text-2xl" aria-hidden="true">📬</div>
+          <h4 className="font-headline font-black text-sm uppercase tracking-wide">Dans ta boîte mail</h4>
+          <p className="text-xs text-slate-700 leading-relaxed">
+            Tu recevras un email avec un lien privé vers ton plan. Pense à vérifier les spams si rien n&apos;arrive.
+          </p>
+        </div>
+        <div className="bg-surface-container p-5 space-y-2">
+          <div className="text-2xl" aria-hidden="true">🔒</div>
+          <h4 className="font-headline font-black text-sm uppercase tracking-wide">100 % privé</h4>
+          <p className="text-xs text-slate-700 leading-relaxed">
+            Ton plan est protégé par un lien unique non indexé sur Google. Lui seul donne accès à ton plan.
+          </p>
+        </div>
+        <div className="bg-surface-container p-5 space-y-2">
+          <div className="text-2xl" aria-hidden="true">♾️</div>
+          <h4 className="font-headline font-black text-sm uppercase tracking-wide">Bookmark-le</h4>
+          <p className="text-xs text-slate-700 leading-relaxed">
+            Le lien reste valable à vie. Bookmark-le, partage-le avec ton coach si tu veux.
+          </p>
+        </div>
+      </div>
+
+      <div className="bg-white border border-surface-container p-6 flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <div className="text-[10px] font-headline font-black uppercase tracking-widest text-slate-500 mb-1">
+            Pressé ? Tu peux aussi
+          </div>
+          <div className="font-headline font-bold text-base">Attendre ton plan ici sans fermer l&apos;onglet</div>
+        </div>
+        <a
+          href={planUrl}
+          className="bg-primary text-white font-headline font-black text-xs uppercase tracking-widest py-3 px-6 hover:opacity-80 transition-opacity"
+        >
+          Voir mon plan →
+        </a>
+      </div>
+    </div>
+  );
 }
 
 // --- Overlay d'attente pendant la generation (streaming) ---

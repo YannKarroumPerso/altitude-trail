@@ -3,8 +3,12 @@ import Breadcrumb from "@/components/ui/Breadcrumb";
 import MonPlanClient from "@/components/entrainement/MonPlanClient";
 
 export const metadata: Metadata = {
-  title: "Ton plan d'entraînement",
-  robots: { index: false, follow: false }, // pages utilisateur privees, pas d indexation
+  title: "Ton plan d entrainement",
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: { index: false, follow: false },
+  },
 };
 
 export default async function MonPlanPage({
@@ -12,10 +16,10 @@ export default async function MonPlanPage({
 }: {
   params: Promise<{ id: string }>;
 }) {
-  const { id } = await params;
+  const { id: token } = await params;
   const breadcrumb = [
     { label: "Accueil", href: "/" },
-    { label: "Entraînement", href: "/categories/entrainement" },
+    { label: "Entrainement", href: "/categories/entrainement" },
     { label: "Mon plan" },
   ];
   return (
@@ -23,10 +27,10 @@ export default async function MonPlanPage({
       <div className="border-b-2 border-navy pb-6 mb-10 no-print">
         <Breadcrumb items={breadcrumb} />
         <h1 className="font-headline text-4xl md:text-5xl font-black uppercase tracking-tighter">
-          Ton plan d&apos;entra&icirc;nement
+          Ton plan d&apos;entrainement
         </h1>
       </div>
-      <MonPlanClient planId={id} />
+      <MonPlanClient accessToken={token} />
     </div>
   );
 }

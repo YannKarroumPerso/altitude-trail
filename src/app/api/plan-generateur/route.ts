@@ -1,18 +1,26 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { after } from "next/server";
 import { SYSTEM_PROMPT, buildUserPrompt, PlanFormInput } from "@/lib/entrainement-prompt";
-import { createPendingPlan, finalizePlan, markPlanFailed } from "@/lib/supabase";
+import {
+  createPendingPlan,
+  finalizePlan,
+  markPlanFailed,
+  getUserForPlan,
+} from "@/lib/supabase";
+import { sendPlanReadyEmail } from "@/lib/email";
 
 export const maxDuration = 300;
 export const runtime = "nodejs";
 
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://www.altitude-trail.fr";
 
 function extractJson(text: string): string {
   const trimmed = text.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
   const start = trimmed.indexOf("{");
   const end = trimmed.lastIndexOf("}");
-  if (start === -1 || end === -1 || end <= start) throw new Error("JSON introuvable dans la reponse");
+  if (start === -1 || end === -1 || end <= start) throw new Error("JSON introuvable");
   return trimmed.slice(start, end + 1);
 }
 
@@ -46,7 +54,6 @@ export async function POST(req: Request) {
     return Response.json({ error: "Consentement requis" }, { status: 400 });
   }
 
-  // 1) On cree immediatement un plan en status=generating et on renvoie son id.
   const pending = await createPendingPlan({
     user: {
       email: input.email,
@@ -76,10 +83,10 @@ export async function POST(req: Request) {
     );
   }
 
-  const { planId } = pending;
-  console.log("[plan-generateur] start async generation, planId=", planId);
+  const { planId, accessToken } = pending;
+  const planUrl = `${SITE_URL}/mon-plan/${accessToken}`;
+  console.log("[plan-generateur] start async, planId=", planId, "url=", planUrl);
 
-  // 2) La generation Anthropic tourne en background via after() sans bloquer la reponse.
   after(async () => {
     const t0 = Date.now();
     try {
@@ -92,9 +99,7 @@ export async function POST(req: Request) {
       });
       const message = await stream.finalMessage();
       const elapsed = Date.now() - t0;
-      console.log(
-        "[plan-generateur] Anthropic fini en", elapsed + "ms, planId=", planId,
-      );
+      console.log("[plan-generateur] Anthropic fini en", elapsed + "ms, planId=", planId);
 
       if (message.stop_reason === "max_tokens") {
         await markPlanFailed(planId, "Plan tronque (max_tokens atteint)");
@@ -106,10 +111,30 @@ export async function POST(req: Request) {
         .map((b) => (b as { type: "text"; text: string }).text)
         .join("\n")
         .trim();
-      const json = extractJson(raw);
-      const parsedPlan = JSON.parse(json);
+      const parsedPlan = JSON.parse(extractJson(raw));
       await finalizePlan(planId, parsedPlan);
-      console.log("[plan-generateur] plan finalise: planId=", planId);
+      console.log("[plan-generateur] plan finalise:", planId);
+
+      // Envoi email avec le magic link
+      try {
+        const user = await getUserForPlan(planId);
+        if (user?.email) {
+          await sendPlanReadyEmail({
+            to: user.email,
+            prenom: user.prenom,
+            courseName: input.courseName,
+            courseDate: input.courseDate,
+            courseDistance: input.courseDistance,
+            courseDenivele: input.courseDenivele,
+            planUrl,
+          });
+        } else {
+          console.warn("[plan-generateur] pas de user associe au plan, email skip");
+        }
+      } catch (mailErr) {
+        console.error("[plan-generateur] erreur envoi email:", mailErr);
+        // on n'echoue pas le plan pour un echec d email, le user peut toujours revenir via le lien
+      }
     } catch (e: unknown) {
       const msg = e instanceof Error ? e.message : String(e);
       console.error("[plan-generateur] erreur background:", msg, "planId=", planId);
@@ -117,6 +142,6 @@ export async function POST(req: Request) {
     }
   });
 
-  // 3) Reponse immediate au client avec l id du plan a poller
-  return Response.json({ planId });
+  // On renvoie accessToken pour permettre la redirection optionnelle cote client
+  return Response.json({ planId, accessToken });
 }
