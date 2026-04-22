@@ -27,6 +27,11 @@ externalRefs:
       biomécanique osseuse
   - url: 'https://www.irunfar.com'
     label: iRunFar – Ressources trail running sur blessures et prévention
+youtubeVideoId: k0VZTiZ64Dw
+youtubeTitle: 'Fracture de Fatigue : Comment s''en Sortir ?'
+youtubeChannel: TV Vendée
+youtubeDuration: 171
+youtubeUploadDate: '2012-03-15T06:48:05Z'
 ---
 
 La fracture de fatigue n'arrive jamais par surprise. Elle s'annonce, insiste, hurle parfois pendant des semaines avant de casser net. Le problème, c'est qu'on préfère rarement l'écouter.

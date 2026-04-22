@@ -30,6 +30,13 @@ externalRefs:
     label: >-
       Trail Runner Magazine – Conseils pratiques sur les soins des pieds en
       trail
+youtubeVideoId: o8SaEFOxenE
+youtubeTitle: >-
+  Mycose de l’ongle : j’ai comparé les produits en pharmacie (mon avis de
+  Podologue)
+youtubeChannel: Allopodo
+youtubeDuration: 504
+youtubeUploadDate: '2025-06-26T12:59:48Z'
 ---
 
 Le trail laisse des traces. Les médailles, les Strava, les photos au sommet — et les ongles noirs, cette signature discrète qu'on cache en tongs au bureau.

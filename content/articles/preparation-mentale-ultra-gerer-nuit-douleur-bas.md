@@ -32,6 +32,11 @@ externalRefs:
     label: >-
       ITRA – Fédération internationale de trail running et données sur les
       courses ultra
+youtubeVideoId: k5RmrYImUcE
+youtubeTitle: Les 3 meilleurs exercices de préparation mentale à faire seul
+youtubeChannel: Extraterrien
+youtubeDuration: 1464
+youtubeUploadDate: '2023-08-10T18:30:43Z'
 ---
 
 Passé la douzième heure, le corps ne décide plus grand-chose. C'est la tête qui tient la corde, ou qui la lâche. Et contrairement aux idées reçues, ce n'est pas une question de caractère.

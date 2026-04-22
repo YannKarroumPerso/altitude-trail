@@ -28,6 +28,11 @@ externalRefs:
       émergentes
   - url: 'https://www.utmb.world'
     label: UTMB World Series – Contexte compétitif dans lequel évolue NNormal
+youtubeVideoId: WZDUH4gToT4
+youtubeTitle: 'Kilian Jornet quitte Salomon : décryptage'
+youtubeChannel: Simon Dugué
+youtubeDuration: 922
+youtubeUploadDate: '2021-12-01T16:00:30Z'
 ---
 
 Trois ans après le lancement, NNormal n'est plus une curiosité catalane. C'est un cas d'école que l'industrie observe de près, entre fascination et scepticisme.

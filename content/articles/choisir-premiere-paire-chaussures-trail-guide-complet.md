@@ -23,6 +23,11 @@ externalRefs:
     label: Guides et tests de chaussures trail – iRunFar
   - url: 'https://pubmed.ncbi.nlm.nih.gov'
     label: Études scientifiques sur la biomécanique et la foulée en course – PubMed
+youtubeVideoId: Nx2iq5OVEB8
+youtubeTitle: Tu ne savais pas encore comment t'équiper pour commencer le Trail ?
+youtubeChannel: Campus Coach
+youtubeDuration: 1061
+youtubeUploadDate: '2025-10-15T14:30:19Z'
 ---
 
 La chaussure de trail n'est pas une chaussure de route avec des crampons collés dessous. C'est un outil mécanique de précision, conçu pour composer avec des surfaces instables, des chocs latéraux et des kilomètres de descente. Se tromper de modèle pour débuter, c'est garantir ampoules, ongles noirs et abandon prématuré.

@@ -25,6 +25,11 @@ externalRefs:
     label: iRunFar – Ressources et conseils pour débuter le trail running
   - url: 'https://www.trailrunnermag.com'
     label: Trail Runner Magazine – Guide de transition route vers trail
+youtubeVideoId: fC6WEhlQDJc
+youtubeTitle: 'Entrainement croisé : Le vélo fait-il vraiment progresser en course à pied ?'
+youtubeChannel: Running Addict
+youtubeDuration: 342
+youtubeUploadDate: '2020-06-21T18:45:00Z'
 ---
 
 Passer de la route au trail, ce n'est pas changer de [chaussures](https://www.altitude-trail.fr/articles/choisir-premiere-paire-chaussures-trail-guide-complet). C'est changer de logiciel moteur. Et c'est précisément là que beaucoup de coureurs venus du bitume se blessent dans les six premiers mois.

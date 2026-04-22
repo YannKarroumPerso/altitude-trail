@@ -31,6 +31,11 @@ externalRefs:
     label: >-
       ITRA – Fédération internationale de trail running et classification des
       courses ultra
+youtubeVideoId: BQyZZARU3dQ
+youtubeTitle: 'Les CLÉS d''un BON Plan d''entraînement [Tuto pour construire votre programme]'
+youtubeChannel: Running Addict
+youtubeDuration: 473
+youtubeUploadDate: '2018-11-08T12:00:01Z'
 ---
 
 Six mois. C'est le délai qu'un coureur sérieux devrait s'accorder pour préparer un premier ultra sans bricoler. Pas six semaines de panique et trois sorties longues empilées en espérant que le corps suive.

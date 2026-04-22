@@ -33,6 +33,11 @@ externalRefs:
     label: >-
       ITRA – Fédération internationale de trail running et ressources sur
       l'effort ultra
+youtubeVideoId: bq5H4tjVHsU
+youtubeTitle: Alimentation pour le trail et l'ultra trail
+youtubeChannel: Alexandre Auffret - Tout pour ma Santé
+youtubeDuration: 654
+youtubeUploadDate: '2021-06-13T06:55:16Z'
 ---
 
 L'ultra ne se gagne pas à la VO2max. Il se perd à l'estomac. Demandez à n'importe quel finisher de la Diagonale, de la TDS ou de la Hardrock ce qui a failli le stopper : dans trois cas sur quatre, la réponse n'est ni les jambes ni la tête. C'est le ventre.

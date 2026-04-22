@@ -29,6 +29,11 @@ externalRefs:
     label: >-
       PubMed – Études scientifiques sur la physiologie et la biomécanique du
       trail running
+youtubeVideoId: dnRptzA1LlA
+youtubeTitle: "5 ERREURS qu’on aurait aimé connaître avant de commencer à COURIR \U0001F605\_(ft @mathieu_blanchard)"
+youtubeChannel: Running Addict
+youtubeDuration: 556
+youtubeUploadDate: '2024-10-10T14:30:24Z'
 ---
 
 Le trail n'est pas une version pentue de la course sur [route](https://www.altitude-trail.fr/articles/route-vers-trail-adapter-entrainement-sans-blessure). C'est un autre sport, avec ses propres règles et la première sortie le fait comprendre en quelques centaines de mètres.

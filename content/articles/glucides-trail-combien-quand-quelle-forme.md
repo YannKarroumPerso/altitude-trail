@@ -30,6 +30,11 @@ externalRefs:
     label: ITRA – Référentiel international des épreuves de trail running
   - url: 'https://www.trailrunnermag.com'
     label: Trail Runner Magazine – Ressources pratiques sur la nutrition en trail
+youtubeVideoId: bq5H4tjVHsU
+youtubeTitle: Alimentation pour le trail et l'ultra trail
+youtubeChannel: Alexandre Auffret - Tout pour ma Santé
+youtubeDuration: 654
+youtubeUploadDate: '2021-06-13T06:55:16Z'
 ---
 
 La barre symbolique des 60 g de glucides par heure, dogme pendant vingt ans, est tombée. Les meilleurs trailers mondiaux absorbent aujourd'hui 90 à 120 g/h en course, parfois davantage. Une révolution silencieuse qui change la manière de préparer une épreuve longue.

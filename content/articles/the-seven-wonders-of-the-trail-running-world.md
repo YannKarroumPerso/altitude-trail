@@ -28,6 +28,13 @@ externalRefs:
     label: UTMB World – Site officiel de l'Ultra-Trail du Mont-Blanc
   - url: 'https://www.itra.run'
     label: ITRA – Fédération internationale de trail running
+youtubeVideoId: Hp0-9KCeTOE
+youtubeTitle: >-
+  Top 10 Things To Do In Maui, Hawaii In 2024 (Adventure Itinerary) - 4K Travel
+  Guide
+youtubeChannel: Jackson Meyer
+youtubeDuration: 663
+youtubeUploadDate: '2024-02-20T16:00:09Z'
 ---
 ## Sept sentiers, un diagnostic : le trail est devenu une industrie du voyage
 

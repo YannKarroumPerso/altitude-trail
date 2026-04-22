@@ -36,6 +36,11 @@ externalRefs:
     label: >-
       iRunFar – Actualités et résultats des courses de montagne et trail
       internationaux
+youtubeVideoId: AhrCIsJiEUk
+youtubeTitle: Un passager se tue en grimpant dans le moteur d’un Airbus A220 prêt à partir
+youtubeChannel: Le Parisien
+youtubeDuration: 105
+youtubeUploadDate: '2024-01-16T11:05:01Z'
 ---
 Seize courses, dix pays, quatre continents. La Coupe du monde de course en [montagne](https://www.altitude-trail.fr/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno) 2026 s'annonce comme la saison la plus dense jamais alignée par la WMRA et c'est un village du centre du Portugal qui va l'ouvrir dimanche. Pas Chamonix, pas Innsbruck, pas Sierre. Castro Daire.
 

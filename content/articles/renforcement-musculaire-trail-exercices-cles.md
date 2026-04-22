@@ -29,6 +29,13 @@ externalRefs:
     label: >-
       iRunFar – analyses et ressources sur l'entraînement en trail et
       ultra-trail
+youtubeVideoId: jSO1-3Obt7Y
+youtubeTitle: >-
+  Exercices de renforcement musculaire course à pied : 10' par jour suffisent
+  [Exercices + évolutions]
+youtubeChannel: Running Addict
+youtubeDuration: 355
+youtubeUploadDate: '2020-03-25T20:34:12Z'
 ---
 
 Deux séances de 40 minutes par semaine. Pas dix. C'est la dose minimale qui sépare le coureur qui tient ses descentes du coureur qui s'écroule au kilomètre 60.

@@ -36,6 +36,11 @@ externalRefs:
     label: >-
       iRunFar – Analyses techniques sur la descente en ultra-trail et la
       prévention des blessures
+youtubeVideoId: _dujtx5qPnQ
+youtubeTitle: Mathieu BLANCHARD m'apprend à DESCENDRE en TRAIL (4 CONSEILS DE PRO)
+youtubeChannel: Running Addict
+youtubeDuration: 1074
+youtubeUploadDate: '2024-11-13T15:30:08Z'
 ---
 
 Tous les traileurs le savent intuitivement : les courbatures après une grosse course ne sont pas dans les mollets qui ont monté. Elles sont dans les quadriceps, les genoux, les chevilles qui ont descendu. Ce qui se passe à la [descente](https://www.altitude-trail.fr/articles/entrainement-specifique-descente-trail-excentrique) est l'un des paradoxes biomécaniques les plus brutaux du sport : **on y va plus vite, on y dépense moins d'énergie métabolique, mais on détruit bien plus de tissu**. Descendre mal, c'est exploser ses articulations à l'échelle d'une vie de coureur.

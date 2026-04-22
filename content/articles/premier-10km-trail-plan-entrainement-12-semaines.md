@@ -27,6 +27,11 @@ externalRefs:
       officielles
   - url: 'https://www.irunfar.com'
     label: iRunFar – Ressources et conseils pour débuter le trail running
+youtubeVideoId: JemkeySCVGw
+youtubeTitle: 'Ce que j’aurais aimé savoir pour battre mon RP sur 10 km :'
+youtubeChannel: Running Addict
+youtubeDuration: 348
+youtubeUploadDate: '2018-06-14T18:43:12Z'
 ---
 
 Douze semaines. Quatre-vingt-quatre jours pour transformer un coureur de route occasionnel, un randonneur curieux ou un débutant motivé en finisher d'un premier 10 km de trail. Ni magie, ni raccourci : une structure.

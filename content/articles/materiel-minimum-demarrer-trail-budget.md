@@ -25,6 +25,11 @@ externalRefs:
       chaussures
   - url: 'https://www.trailrunnermag.com'
     label: Trail Runner Magazine – Guides équipement et sélection de chaussures trail
+youtubeVideoId: Nx2iq5OVEB8
+youtubeTitle: Tu ne savais pas encore comment t'équiper pour commencer le Trail ?
+youtubeChannel: Campus Coach
+youtubeDuration: 1061
+youtubeUploadDate: '2025-10-15T14:30:19Z'
 ---
 
 On entend souvent qu'il faut mille euros et une boutique spécialisée pour commencer le trail. C'est faux. Trois cent cinquante euros suffisent, bien dépensés, pour courir en sécurité sur les sentiers pendant deux ans.
