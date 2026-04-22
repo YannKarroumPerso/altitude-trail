@@ -3,8 +3,17 @@ import Link from "next/link";
 import { useState } from "react";
 import { categories } from "@/lib/data";
 
+const GUIDES_TOOLS = [
+  { href: "/guides/utmb", label: "Guide UTMB", desc: "La référence pour courir l'UTMB" },
+  { href: "/courses", label: "Calendrier des courses", desc: "Carte et filtres de toutes les courses France" },
+  { href: "/entrainement/generateur", label: "Plan d'entraînement", desc: "Générateur personnalisé gratuit" },
+  { href: "/lexique", label: "Lexique du trail", desc: "40 termes essentiels" },
+  { href: "/parcours", label: "Traces & parcours", desc: "Itinéraires GPX à découvrir" },
+];
+
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [guidesOpen, setGuidesOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50">
@@ -47,21 +56,58 @@ export default function Header() {
       {/* Secondary Navigation (desktop) */}
       <nav className="bg-navy w-full border-t border-white/5 shadow-xl hidden md:block">
         <div className="max-w-7xl mx-auto px-6 py-3">
-          <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2">
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
             {categories.map((cat) => (
               <Link key={cat.slug} href={`/categories/${cat.slug}`} className="nav-link">
                 {cat.label}
               </Link>
             ))}
-            <Link href="/courses" className="nav-link text-primary font-bold">
-              Courses en France
-            </Link>
-            <Link href="/parcours" className="nav-link text-primary font-bold">
-              Traces &amp; Parcours
-            </Link>
-            <Link href="/entrainement/generateur" className="nav-link text-primary font-bold">
-              Plan d&apos;entraînement
-            </Link>
+
+            {/* Dropdown Guides & Outils */}
+            <div
+              className="relative"
+              onMouseEnter={() => setGuidesOpen(true)}
+              onMouseLeave={() => setGuidesOpen(false)}
+            >
+              <button
+                type="button"
+                className="nav-link text-primary font-bold flex items-center gap-1"
+                onClick={() => setGuidesOpen((v) => !v)}
+                aria-expanded={guidesOpen}
+                aria-haspopup="true"
+              >
+                Guides &amp; outils
+                <svg className="w-3 h-3" viewBox="0 0 10 6" fill="currentColor" aria-hidden="true">
+                  <path d="M1 1l4 4 4-4" stroke="currentColor" strokeWidth="1.5" fill="none" />
+                </svg>
+              </button>
+              {guidesOpen && (
+                <div
+                  className="absolute top-full left-1/2 -translate-x-1/2 mt-0.5 bg-white text-navy shadow-xl border border-surface-container min-w-[320px] z-50"
+                  role="menu"
+                >
+                  <ul className="py-2">
+                    {GUIDES_TOOLS.map((item) => (
+                      <li key={item.href}>
+                        <Link
+                          href={item.href}
+                          className="block px-5 py-3 hover:bg-surface-container transition-colors"
+                          onClick={() => setGuidesOpen(false)}
+                          role="menuitem"
+                        >
+                          <div className="font-headline font-black text-navy text-sm group-hover:text-primary">
+                            {item.label}
+                          </div>
+                          <div className="text-[11px] text-slate-500 mt-0.5">
+                            {item.desc}
+                          </div>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </nav>
@@ -80,16 +126,22 @@ export default function Header() {
                 {cat.label}
               </Link>
             ))}
-            <Link href="/courses" className="nav-link text-primary font-bold" onClick={() => setMenuOpen(false)}>
-              Courses en France
-            </Link>
-            <Link href="/parcours" className="nav-link text-primary font-bold" onClick={() => setMenuOpen(false)}>
-              Traces &amp; Parcours
-            </Link>
-            <Link href="/entrainement/generateur" className="nav-link text-primary font-bold" onClick={() => setMenuOpen(false)}>
-              Plan d&apos;entraînement
-            </Link>
-            <Link href="/contact" className="nav-link" onClick={() => setMenuOpen(false)}>
+            <div className="border-t border-white/10 pt-3 mt-1">
+              <div className="text-[10px] font-headline font-black uppercase tracking-widest text-primary mb-2">
+                Guides &amp; outils
+              </div>
+              {GUIDES_TOOLS.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="nav-link block py-1.5"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+            <Link href="/contact" className="nav-link border-t border-white/10 pt-3" onClick={() => setMenuOpen(false)}>
               Contact
             </Link>
           </div>

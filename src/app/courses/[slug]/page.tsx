@@ -9,6 +9,7 @@ import {
   SITE_URL,
   SITE_NAME,
   buildSportsEventJsonLd,
+  getRaceEditorialRating,
 } from "@/lib/seo";
 
 export function generateStaticParams() {
@@ -97,6 +98,53 @@ export default async function RaceDetailPage({ params }: { params: Promise<{ slu
       </div>
 
       <p className="text-lg text-slate-700 leading-relaxed border-l-4 border-primary pl-6 mb-10">{race.description}</p>
+
+      {/* Note éditoriale Altitude Trail */}
+      {(() => {
+        const rating = getRaceEditorialRating(race);
+        const stars = Math.round(rating.overall * 2) / 2; // arrondi à 0.5
+        return (
+          <div className="bg-white border-l-4 border-primary p-6 mb-10 shadow-sm">
+            <div className="flex items-start justify-between gap-6 flex-wrap">
+              <div>
+                <div className="text-[10px] font-headline font-black uppercase tracking-widest text-slate-500 mb-1">
+                  Note éditoriale Altitude Trail
+                </div>
+                <div className="flex items-baseline gap-3">
+                  <span className="font-headline text-5xl font-black text-primary">
+                    {rating.overall.toFixed(1)}
+                  </span>
+                  <span className="text-slate-500">/ 5</span>
+                  <span className="text-xl tracking-tight" aria-label={`${stars} étoiles sur 5`}>
+                    {"★".repeat(Math.floor(stars))}
+                    {stars % 1 !== 0 ? "½" : ""}
+                    <span className="text-slate-300">
+                      {"★".repeat(5 - Math.ceil(stars))}
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <dl className="grid grid-cols-2 gap-x-6 gap-y-1 text-sm">
+                <dt className="text-slate-500">Défi</dt>
+                <dd className="font-headline font-bold text-navy">{rating.breakdown.defi}/5</dd>
+                <dt className="text-slate-500">Montagne</dt>
+                <dd className="font-headline font-bold text-navy">{rating.breakdown.montagne}/5</dd>
+                <dt className="text-slate-500">Endurance</dt>
+                <dd className="font-headline font-bold text-navy">{rating.breakdown.endurance}/5</dd>
+                <dt className="text-slate-500">Ambiance</dt>
+                <dd className="font-headline font-bold text-navy">{rating.breakdown.ambiance}/5</dd>
+              </dl>
+            </div>
+            <p className="text-xs text-slate-500 italic mt-4">
+              Note calculée à partir des caractéristiques de la course (difficulté, dénivelé, distance). Consultez notre{" "}
+              <Link href="/charte-editoriale" className="text-primary hover:underline">
+                charte éditoriale
+              </Link>{" "}
+              pour la méthodologie.
+            </p>
+          </div>
+        );
+      })()}
 
       <div className="mb-10">
         <div className="newspaper-divider mb-6"><span>LOCALISATION</span></div>

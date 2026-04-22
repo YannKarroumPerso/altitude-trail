@@ -57,8 +57,16 @@ export default function AuteursIndexPage() {
       <h1 className="font-headline text-4xl lg:text-6xl font-black leading-none tracking-tighter mb-8">
         La rédaction
       </h1>
-      <p className="text-lg text-slate-600 leading-relaxed mb-10 max-w-2xl">
+      <p className="text-lg text-slate-600 leading-relaxed mb-6 max-w-2xl">
         {DESCRIPTION}
+      </p>
+
+      <p className="text-sm text-slate-500 mb-10 max-w-2xl">
+        La ligne éditoriale et la méthodologie de la rédaction sont décrites dans notre{" "}
+        <Link href="/charte-editoriale" className="text-primary hover:underline underline-offset-4">
+          charte éditoriale
+        </Link>
+        .
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

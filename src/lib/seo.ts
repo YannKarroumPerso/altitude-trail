@@ -370,7 +370,41 @@ export function buildWebSiteJsonLd() {
   };
 }
 
+// Calcule un score éditorial 1-5 basé sur les caractéristiques de la course.
+// C'est un signal objectif (pas de faux avis utilisateurs), mais qui génère
+// tout de même une étoile dans les SERP Google pour augmenter le CTR.
+function computeEditorialRating(race: Race): { overall: number; breakdown: Record<string, number> } {
+  // Difficulté → score technique (inversement corrélé : plus c'est dur, plus
+  // le score "défi / montagne" est élevé, qui est une qualité en trail)
+  const diffScore =
+    race.difficulty === "Extrême" ? 5 :
+    race.difficulty === "Difficile" ? 4.5 :
+    race.difficulty === "Modéré" ? 4 :
+    3.5;
+
+  // Dénivelé → score "montagne" (plus c'est haut, plus c'est coté en trail)
+  const elevScore = Math.min(5, Math.max(3, 3 + race.elevation / 2000));
+
+  // Distance → score "endurance" (plus long = plus coté pour les amateurs d'ultra)
+  const distScore = Math.min(5, Math.max(3, 3 + race.distance / 60));
+
+  // Ambiance par défaut (score stable en l'absence d'avis utilisateurs)
+  const ambianceScore = 4;
+
+  const overall = (diffScore + elevScore + distScore + ambianceScore) / 4;
+  return {
+    overall: Math.round(overall * 10) / 10,
+    breakdown: {
+      defi: diffScore,
+      montagne: Math.round(elevScore * 10) / 10,
+      endurance: Math.round(distScore * 10) / 10,
+      ambiance: ambianceScore,
+    },
+  };
+}
+
 export function buildSportsEventJsonLd(race: Race) {
+  const rating = computeEditorialRating(race);
   return {
     "@context": "https://schema.org",
     "@type": "SportsEvent",
@@ -395,8 +429,36 @@ export function buildSportsEventJsonLd(race: Race) {
         longitude: race.lng,
       },
     },
+    review: {
+      "@type": "Review",
+      author: {
+        "@type": "Organization",
+        name: SITE_NAME,
+        url: SITE_URL,
+      },
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: rating.overall,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      reviewBody: `Évaluation éditoriale Altitude Trail : défi ${rating.breakdown.defi}/5, montagne ${rating.breakdown.montagne}/5, endurance ${rating.breakdown.endurance}/5, ambiance ${rating.breakdown.ambiance}/5.`,
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: rating.overall,
+      bestRating: 5,
+      worstRating: 1,
+      ratingCount: 1,
+      reviewCount: 1,
+    },
     ...(race.website ? { url: race.website } : {}),
   };
+}
+
+// Version exportée pour afficher les chiffres dans l'UI de la page course.
+export function getRaceEditorialRating(race: Race) {
+  return computeEditorialRating(race);
 }
 
 

@@ -40,10 +40,10 @@ export default function Footer() {
             Guide complet UTMB
           </Link>
           <Link
-            href="/trouver-une-course"
+            href="/courses"
             className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
           >
-            Trouver une course
+            Calendrier des courses
           </Link>
           <Link
             href="/entrainement/generateur"
@@ -58,16 +58,22 @@ export default function Footer() {
             Lexique du trail
           </Link>
           <Link
-            href="/courses"
+            href="/parcours"
             className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
           >
-            Calendrier des courses
+            Traces &amp; parcours
           </Link>
           <Link
             href="/a-propos"
             className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
           >
             À propos
+          </Link>
+          <Link
+            href="/charte-editoriale"
+            className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
+          >
+            Charte éditoriale
           </Link>
           <Link
             href="/contact"

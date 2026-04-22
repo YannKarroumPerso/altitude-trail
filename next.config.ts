@@ -1,6 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Redirections 301 — évite la cannibalisation SEO sur des pages aux
+  // contenus proches et préserve le jus des liens entrants éventuels.
+  async redirects() {
+    return [
+      {
+        source: "/trouver-une-course",
+        destination: "/courses",
+        permanent: true,
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
