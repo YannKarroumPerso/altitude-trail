@@ -300,7 +300,7 @@ export async function sendWeeklyReportEmail(args: WeeklyReportEmailArgs): Promis
         <tr><td style="background:#0b1c30;padding:24px 30px">
           <div style="color:#ff4500;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">ALTITUDE TRAIL · RAPPORT HEBDO</div>
           <div style="color:#fff;font-size:22px;font-weight:800">${escapeHtml(args.weekLabel)}</div>
-          <div style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:4px">${args.stats.articlesPublishedThisWeek} nouvel${args.stats.articlesPublishedThisWeek > 1 ? "s" : ""} article${args.stats.articlesPublishedThisWeek > 1 ? "s" : ""} cette semaine · ${args.stats.totalArticles} au total</div>
+          <div style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:4px">${args.stats.articlesPublishedThisWeek} ${args.stats.articlesPublishedThisWeek > 1 ? "nouveaux articles" : "nouvel article"} cette semaine · ${args.stats.totalArticles} au total</div>
         </td></tr>
 
         <tr><td style="padding:24px 30px">

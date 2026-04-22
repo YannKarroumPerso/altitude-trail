@@ -123,12 +123,15 @@ export async function runPsi(url: string, strategy: PsiStrategy): Promise<PsiRes
 
 export async function runPsiBatch(urls: string[]): Promise<PsiResult[]> {
   const out: PsiResult[] = [];
-  // Séquentiel pour éviter le rate limit (1 req/sec sans clé)
+  // Délai entre appels : 1.5s avec clé (quota large), 3s sans (rate limit
+  // anonyme partagé ~1 req/sec). Ça rallonge le cron mais garantit la
+  // collecte complète.
+  const hasKey = !!process.env.PAGESPEED_API_KEY;
+  const delayMs = hasKey ? 1500 : 3000;
   for (const url of urls) {
     for (const strategy of ["mobile", "desktop"] as PsiStrategy[]) {
       out.push(await runPsi(url, strategy));
-      // petite pause entre deux appels (0.5s)
-      await new Promise((r) => setTimeout(r, 500));
+      await new Promise((r) => setTimeout(r, delayMs));
     }
   }
   return out;
