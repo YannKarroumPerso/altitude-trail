@@ -108,6 +108,13 @@ export const viewport: Viewport = {
   colorScheme: "light",
   width: "device-width",
   initialScale: 1,
+  // On laisse volontairement l'utilisateur zoomer (accessibilité WCAG 1.4.4).
+  // Le souci de décalage au pinch-zoom vient d'un scroll horizontal sur la
+  // page, corrigé par overflow-x:hidden sur html+body dans globals.css.
+  userScalable: true,
+  maximumScale: 5,
+  // Gère proprement la safe area des iPhones (encoche, home indicator)
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

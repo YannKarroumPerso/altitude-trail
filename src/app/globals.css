@@ -16,10 +16,50 @@
 }
 
 @layer base {
+  /* Empêche le scroll horizontal qui casse la mise en page au pinch-zoom.
+     Si un élément déborde accidentellement de la viewport, le navigateur
+     tente sinon de panner horizontalement pendant le zoom, ce qui décale
+     tout. On coupe le débordement proprement au niveau racine. */
+  html {
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    /* Empêche iOS/Safari d'agrandir automatiquement le texte au rotate */
+  }
   body {
     background-color: var(--color-surface);
     color: var(--color-on-surface);
     font-family: var(--font-body);
+    overflow-x: hidden;
+    max-width: 100vw;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  /* Medias responsive par défaut : évite qu'une image/iframe oversize ne
+     dépasse de son conteneur et ne crée un scroll horizontal au zoom. */
+  img,
+  video,
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Inputs/textarea/select : taille de police 16px minimum sur mobile
+     pour empêcher iOS Safari de zoomer automatiquement au focus. */
+  @media (max-width: 640px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="url"],
+    input[type="password"],
+    input[type="number"],
+    input[type="date"],
+    textarea,
+    select {
+      font-size: 16px;
+    }
   }
 }
 
