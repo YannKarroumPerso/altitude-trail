@@ -4,7 +4,7 @@ import { categories } from "@/lib/data";
 export default function Footer() {
   return (
     <footer className="bg-slate-950 py-16 border-t border-slate-800 mt-16">
-      <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         <div className="space-y-4">
           <h4 className="text-xl font-black text-white font-headline uppercase tracking-tighter">
             ALTITUDE TRAIL
@@ -13,9 +13,8 @@ export default function Footer() {
             © {new Date().getFullYear()} Altitude Trail. Le magazine du trail running français. Built for the long run.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="text-slate-400 hover:text-primary transition-colors text-xs">RSS</a>
-            <a href="#" className="text-slate-400 hover:text-primary transition-colors text-xs">Instagram</a>
-            <a href="#" className="text-slate-400 hover:text-primary transition-colors text-xs">Strava</a>
+            <a href="/rss.xml" className="text-slate-400 hover:text-primary transition-colors text-xs">RSS</a>
+            <Link href="/auteurs" className="text-slate-400 hover:text-primary transition-colors text-xs">Rédaction</Link>
           </div>
         </div>
 
@@ -30,11 +29,45 @@ export default function Footer() {
               {cat.label}
             </Link>
           ))}
+        </div>
+
+        <div className="flex flex-col gap-3">
+          <h5 className="text-[10px] font-bold uppercase tracking-widest text-primary mb-2">GUIDES & OUTILS</h5>
+          <Link
+            href="/guides/utmb"
+            className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
+          >
+            Guide complet UTMB
+          </Link>
+          <Link
+            href="/trouver-une-course"
+            className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
+          >
+            Trouver une course
+          </Link>
+          <Link
+            href="/entrainement/generateur"
+            className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
+          >
+            Générateur de plan
+          </Link>
+          <Link
+            href="/lexique"
+            className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
+          >
+            Lexique du trail
+          </Link>
           <Link
             href="/courses"
             className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
           >
-            Courses en France
+            Calendrier des courses
+          </Link>
+          <Link
+            href="/a-propos"
+            className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
+          >
+            À propos
           </Link>
           <Link
             href="/contact"
