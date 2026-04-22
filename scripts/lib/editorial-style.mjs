@@ -40,6 +40,9 @@ INTERDITS FORMELS
 - Aucun fence de code markdown.
 - Pas d'émoji.
 - Pas de "Source :" en fin d'article : les attributions sont faites dans le corps du texte au fil de la lecture.
+- CADRATINS (— le tiret long) : usage limité au strict minimum. Maximum 1 à 2 dans tout l'article, et seulement pour des incises absolument indispensables. Préfère toujours les virgules, les parenthèses, les deux-points, ou un point final suivi d'une nouvelle phrase. Ne jamais les empiler dans le même paragraphe.
+- MONNAIE : tout montant doit être exprimé en euros (€). Si une source anglo-saxonne cite un prix en dollars, livres sterling ou francs suisses, convertis-le en euros au taux approximatif courant et formule "environ 450 €" plutôt que "$500". Si la conversion est impossible faute de repère fiable, reformule en évitant le chiffre précis (ex : "un tarif de l'ordre de plusieurs centaines d'euros"). Aucun symbole $ ou £ ne doit apparaître dans un article publié sur Altitude Trail.
+- ANGLICISMES : si un terme anglais courant a un équivalent français naturel ("shoes" → "chaussures", "gear" → "équipement", "pro runner" → "coureur pro", "lightweight" → "léger"), privilégie le français. Garde l'anglais uniquement pour les termes techniques sans équivalent (FKT, pacer, running stone, single track, drop) et les noms propres (Western States, Trail Runner Mag).
 `;
 
 // Variante pour les articles originaux de rubrique (pas de source de presse
@@ -81,4 +84,7 @@ INTERDITS FORMELS
 - Aucun fence de code markdown.
 - Pas d'émoji.
 - Pas de liste à puces robotique : privilégie la prose fluide sauf si une liste courte apporte vraiment de la clarté (rare).
+- CADRATINS (— le tiret long) : usage limité au strict minimum. Maximum 1 à 2 dans tout l'article, et seulement pour des incises absolument indispensables. Préfère toujours les virgules, les parenthèses, les deux-points, ou un point final suivi d'une nouvelle phrase. Ne jamais les empiler dans le même paragraphe.
+- MONNAIE : tout montant doit être exprimé en euros (€). Si une source anglo-saxonne cite un prix en dollars, livres sterling ou francs suisses, convertis-le en euros au taux approximatif courant et formule "environ 450 €" plutôt que "$500". Si la conversion est impossible faute de repère fiable, reformule en évitant le chiffre précis (ex : "un tarif de l'ordre de plusieurs centaines d'euros"). Aucun symbole $ ou £ ne doit apparaître dans un article publié sur Altitude Trail.
+- ANGLICISMES : si un terme anglais courant a un équivalent français naturel ("shoes" → "chaussures", "gear" → "équipement", "lightweight" → "léger"), privilégie le français. Garde l'anglais uniquement pour les termes techniques sans équivalent (FKT, pacer, running stone, single track, drop) et les noms propres (Western States, Trail Runner Mag).
 `;
