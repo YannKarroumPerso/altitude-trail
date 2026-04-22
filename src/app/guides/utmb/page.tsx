@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 const FAQ = [
   {
     q: "Combien coûte l'inscription à l'UTMB ?",
-    a: "Les tarifs varient selon la course (UTMB 171 km, CCC, OCC, TDS, MCC, PTL) et évoluent chaque année. S'ajoutent des frais obligatoires (licence ITRA, cotisation ProTrail) et optionnels (options Running Stones). Les montants exacts 2026 sont publiés sur le site officiel utmbmontblanc.com au moment de l'ouverture des inscriptions.",
+    a: "Pour l'UTMB 171 km (épreuve reine de Chamonix), le tarif d'inscription publié par l'organisation est de 479 €. Ce montant inclut la TVA à 20 %, une éco-taxe de 1,5 € destinée à l'entretien des sentiers, et une adhésion à l'association des Amis de l'UTMB (13 €). Des frais administratifs non remboursables s'ajoutent à la commande : environ 8 % pour les frais d'inscription, environ 4 % pour les options souscrites auprès des partenaires, et un don facultatif à 0 % si tu choisis d'en ajouter un. À partir de l'édition 2026, une contribution carbone obligatoire est également calculée automatiquement à l'inscription, à partir de ton adresse de résidence et du mode de transport choisi pour rejoindre Chamonix (un justificatif de domicile te sera demandé ultérieurement, les fausses déclarations entraînent l'annulation sans remboursement). Les tarifs des autres courses du circuit (CCC, OCC, TDS, MCC, PTL) sont plus bas et évoluent chaque année — consulte utmbmontblanc.com pour les montants à jour.",
   },
   {
     q: "Comment se qualifier pour l'UTMB ?",
