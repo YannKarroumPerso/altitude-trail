@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { articles, categories } from "@/lib/data";
 import { races } from "@/lib/races-database";
 import { SITE_URL, parseFrDate } from "@/lib/seo";
+import { ARTICLES_PER_PAGE, totalPagesForCount } from "@/components/ui/Pagination";
 
 // Priorité articles décroissante avec l'âge : les plus récents = 0.8,
 // puis dégressif jusqu'à 0.4 au-delà de 90 jours.
@@ -37,12 +38,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
   ];
 
-  const categoryRoutes: MetadataRoute.Sitemap = categories.map((c) => ({
-    url: `${SITE_URL}/categories/${c.slug}`,
-    lastModified: now,
-    changeFrequency: "daily",
-    priority: 0.7,
-  }));
+  // Catégorie page 1 (canonique) + pages paginées 2+
+  const categoryRoutes: MetadataRoute.Sitemap = [];
+  for (const c of categories) {
+    categoryRoutes.push({
+      url: `${SITE_URL}/categories/${c.slug}`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.7,
+    });
+    const count = articles.filter((a) => a.categorySlug === c.slug).length;
+    const totalPages = totalPagesForCount(count, ARTICLES_PER_PAGE);
+    // Priorité dégressive pour les pages paginées (moins importantes que la 1re)
+    for (let p = 2; p <= totalPages; p++) {
+      categoryRoutes.push({
+        url: `${SITE_URL}/categories/${c.slug}/page/${p}`,
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: Math.max(0.3, 0.7 - (p - 1) * 0.05),
+      });
+    }
+  }
 
   const articleRoutes: MetadataRoute.Sitemap = articles.map((a) => {
     const d = parseFrDate(a.date);

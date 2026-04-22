@@ -36,6 +36,8 @@ export default function PlanGenerator() {
     niveau: "intermediaire",
     volumeActuelKm: 30,
     seancesMaxParSemaine: 5,
+    weekendChocsCapacity: "1",
+    terrainPrincipal: "vallonne",
     courseName: "",
     courseDate: "",
     courseDistance: 42,
@@ -80,7 +82,13 @@ export default function PlanGenerator() {
         !!form.region
       );
     if (current === 2)
-      return !!form.niveau && form.volumeActuelKm >= 0 && form.seancesMaxParSemaine >= 3;
+      return (
+        !!form.niveau &&
+        form.volumeActuelKm >= 0 &&
+        form.seancesMaxParSemaine >= 3 &&
+        !!form.weekendChocsCapacity &&
+        !!form.terrainPrincipal
+      );
     if (current === 3)
       return (
         !!form.courseName.trim() &&
@@ -307,6 +315,42 @@ export default function PlanGenerator() {
                     className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
                   />
                   <span className="block text-[11px] text-slate-500 mt-1 italic">Nombre réaliste que tu peux tenir chaque semaine.</span>
+                </label>
+
+                <label className="block md:col-span-2">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">
+                    Terrain d&apos;entraînement principal
+                  </span>
+                  <select
+                    value={form.terrainPrincipal || "vallonne"}
+                    onChange={(e) => update("terrainPrincipal", e.target.value as PlanFormInput["terrainPrincipal"])}
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  >
+                    <option value="montagne">🏔️ Montagne (D+ 1000 m facile à proximité)</option>
+                    <option value="vallonne">🌳 Vallonné (collines, forêts, 300-800 m D+ accessibles)</option>
+                    <option value="plat">📏 Plat (ville, plaine, mer — D+ difficile à trouver)</option>
+                  </select>
+                  <span className="block text-[11px] text-slate-500 mt-1 italic">
+                    Le terrain disponible change la façon dont le plan prescrit le dénivelé.
+                  </span>
+                </label>
+
+                <label className="block md:col-span-2">
+                  <span className="block text-[10px] font-headline font-bold uppercase tracking-widest text-slate-600 mb-1">
+                    Week-ends chocs possibles
+                  </span>
+                  <select
+                    value={form.weekendChocsCapacity || "1"}
+                    onChange={(e) => update("weekendChocsCapacity", e.target.value as PlanFormInput["weekendChocsCapacity"])}
+                    className="w-full border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  >
+                    <option value="0">Aucun (emploi du temps incompatible)</option>
+                    <option value="1">1 week-end par bloc (c&apos;est faisable de temps en temps)</option>
+                    <option value="2-3">2 à 3 week-ends par bloc (je peux m&apos;organiser régulièrement)</option>
+                  </select>
+                  <span className="block text-[11px] text-slate-500 mt-1 italic">
+                    Un week-end choc = deux grosses sorties consécutives samedi (4-6h) + dimanche (3-4h). Clé pour préparer un ultra.
+                  </span>
                 </label>
               </div>
             </div>
