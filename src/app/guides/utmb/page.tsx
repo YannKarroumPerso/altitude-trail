@@ -39,38 +39,38 @@ export const metadata: Metadata = {
 const FAQ = [
   {
     q: "Combien coûte l'inscription à l'UTMB ?",
-    a: "Environ 380 € pour l'UTMB 171 km en 2026, hors frais de dossier ITRA et cotisation obligatoire à l'association ProTrail. Les courses associées (CCC, OCC, TDS, MCC, PTL) vont de 110 à 360 €.",
+    a: "Les tarifs varient selon la course (UTMB 171 km, CCC, OCC, TDS, MCC, PTL) et évoluent chaque année. S'ajoutent des frais obligatoires (licence ITRA, cotisation ProTrail) et optionnels (options Running Stones). Les montants exacts 2026 sont publiés sur le site officiel utmbmontblanc.com au moment de l'ouverture des inscriptions.",
   },
   {
-    q: "Combien de Running Stones faut-il pour s'inscrire à l'UTMB ?",
-    a: "Le nombre varie chaque année selon la demande. En 2026, il fallait 15 Running Stones minimum pour entrer en tirage au sort sur l'UTMB 171 km, 10 pour la CCC. Les running stones s'obtiennent en finishant des courses UTMB World Series.",
+    q: "Comment se qualifier pour l'UTMB ?",
+    a: "Le système combine des points ITRA (cotations attribuées aux courses qualifiantes terminées dans les 24 mois précédents) et des Running Stones obtenues en finissant des courses du circuit UTMB World Series. Plus tu accumules de Running Stones, plus tu augmentes tes chances au tirage au sort. Les seuils précis varient chaque année selon la demande — consulte utmbmontblanc.com pour les règles de l'édition en cours.",
   },
   {
-    q: "Quel temps minimum pour finir l'UTMB ?",
-    a: "Temps limite officiel : 46h30 pour les 171 km. Barrières horaires intermédiaires tout au long du parcours (Saint-Gervais, Les Contamines, Courmayeur, Champex, Trient, Vallorcine). Temps gagnant moyen : 20-22h chez les hommes, 23-26h chez les femmes.",
+    q: "Quel temps maximum pour finir l'UTMB ?",
+    a: "Le temps limite officiel est affiché sur le site UTMB (autour de 46 heures pour les 171 km). Des barrières horaires intermédiaires sont présentes à chaque ravitaillement majeur : Saint-Gervais, Les Contamines, Courmayeur, Champex, Trient, Vallorcine. Les temps vainqueurs se situent généralement autour de 20h pour les hommes et 23-25h pour les femmes selon les éditions.",
   },
   {
     q: "Sur combien de semaines préparer l'UTMB ?",
-    a: "16 à 24 semaines pour un coureur ayant déjà une base ultra. 28 à 36 semaines si c'est ta première tentative sur 100+ miles. La phase la plus critique est le dernier bloc de 8 semaines avec sorties longues cumulées de 25h/semaine.",
+    a: "16 à 24 semaines pour un coureur ayant déjà une base ultra. 28 à 36 semaines si c'est ta première tentative sur 100+ miles. Le dernier bloc de 6-8 semaines concentre les sorties longues en dénivelé, avec une baisse progressive du volume sur les 2-3 dernières semaines.",
   },
   {
     q: "Quels sont les points techniques les plus difficiles du parcours ?",
-    a: "La descente de Saint-Gervais (ultra rapide, quadriceps à protéger), la montée au Col du Bonhomme (raide, souvent dans la nuit), la montée au Grand Col Ferret (altitude et froid), la descente sur Trient (glissante en cas de pluie), et les derniers kilomètres sur Chamonix (jambes cuites, vigilance).",
+    a: "La descente de Saint-Gervais (rapide, quadriceps à protéger), la montée au Col du Bonhomme (longue, souvent dans la nuit), la montée au Grand Col Ferret (altitude, froid et vent exposé), la descente sur Trient (glissante par temps humide), et les derniers kilomètres sur Chamonix après La Flégère (jambes cuites, concentration à maintenir).",
   },
   {
     q: "Combien de calories faut-il ingérer sur l'UTMB ?",
-    a: "Pour un coureur de 70 kg visant 22h : entre 5 500 et 7 000 kcal ingérées, vs 12 000 à 15 000 kcal dépensées. Déficit maîtrisé = performance. Au-delà de 30 % de déficit, le mur devient quasi certain.",
+    a: "Les études sur ultra-trail montagneux indiquent une dépense de l'ordre de 10 000 à 15 000 kcal selon le gabarit et le temps passé sur le parcours. L'absorption en course se situe entre 5 000 et 8 000 kcal. Un déficit existe mécaniquement — l'objectif est de le minimiser, pas de l'éliminer.",
   },
   {
     q: "Faut-il dormir pendant l'UTMB ?",
-    a: "Pour un coureur de 22-28h : non, micro-siestes de 5-10 min à Courmayeur ou Champex-Lac si besoin. Au-delà de 35h : oui, 30-60 min de sommeil évite la dégradation cognitive qui ralentit plus qu'elle ne ralentit de courir lent et fatigué.",
+    a: "Pour les coureurs rapides (moins de 28h), la course se fait sans vrai sommeil, éventuellement avec quelques micro-siestes très courtes à Courmayeur ou Champex-Lac. Pour les coureurs plus lents (plus de 35h), un sommeil de 30 à 60 minutes peut être nécessaire pour préserver les fonctions cognitives et éviter les chutes.",
   },
 ];
 
 const HOW_TO_STEPS = [
   {
     name: "J-24 semaines : vérifier la qualification ITRA",
-    text: "Avoir 20+ points ITRA sur courses des 24 derniers mois. Sinon, inscrire une ou deux courses qualifiantes (UTS, Lavaredo, Trail du Mont-Blanc TDS).",
+    text: "Consulter les règles d'admission de l'édition en cours sur utmbmontblanc.com : index ITRA requis, catégorie visée, besoin éventuel de Running Stones supplémentaires. Si l'index n'est pas suffisant, prévoir une ou deux courses qualifiantes dans les mois qui précèdent.",
   },
   {
     name: "J-24 à J-16 : base aérobie",
@@ -212,8 +212,11 @@ export default function GuideUTMBPage() {
 
         <section id="parcours" className="scroll-mt-24">
           <h2 className="font-headline text-3xl font-black mt-10 mb-4">Le parcours 171 km, tronçon par tronçon</h2>
+          <p className="text-sm text-slate-500 italic mb-4 bg-surface-container p-3 border-l-2 border-primary">
+            Les distances et dénivelés indiqués ci-dessous sont des ordres de grandeur historiques — le tracé exact est susceptible d'évoluer d'une édition à l'autre selon la météo, l'état des sentiers ou des ajustements d'organisation. Les données officielles à jour sont publiées sur <a href="https://utmbmontblanc.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">utmbmontblanc.com</a>.
+          </p>
           <p className="mb-4">
-            Le parcours se lit comme une épopée en six actes. Le départ a lieu traditionnellement le vendredi soir à 18h depuis la place du Triangle de l'Amitié à Chamonix, dans un chaos acoustique unique. Vangelis, haies de spectateurs, lampe frontale allumée (même si il fait encore jour), et 2500 coureurs qui s'élancent en file vers Les Houches.
+            Le parcours se lit comme une épopée en six actes. Le départ a lieu traditionnellement le vendredi soir à 18h depuis la place du Triangle de l'Amitié à Chamonix, dans un chaos acoustique unique. Vangelis, haies de spectateurs, lampe frontale allumée (même si il fait encore jour), et le peloton s'élance en file vers Les Houches.
           </p>
           <p className="mb-4">
             <strong>Chamonix → Saint-Gervais (21 km, 1300 D+)</strong> : premier contrefort, col de Voza. Moment critique pour ne pas partir trop vite. Beaucoup de débutants ruinent ici leur course entière.
@@ -236,15 +239,20 @@ export default function GuideUTMBPage() {
         </section>
 
         <section id="qualification" className="scroll-mt-24">
-          <h2 className="font-headline text-3xl font-black mt-10 mb-4">Se qualifier : Running Stones et points ITRA</h2>
+          <h2 className="font-headline text-3xl font-black mt-10 mb-4">Se qualifier : Running Stones et index ITRA</h2>
           <p className="mb-4">
-            Depuis 2022, le système de qualification combine deux éléments : les points ITRA (qualitatif, basé sur tes finishes précédentes) et les Running Stones (quantitatif, basé sur ta participation aux courses UTMB World Series).
+            L'accès aux courses UTMB de Chamonix combine deux logiques. D'un côté, une <strong>qualification sportive</strong> basée sur l'index ITRA (International Trail Running Association) : chaque course terminée dans les mois précédents attribue une cotation, qui détermine la catégorie à laquelle tu peux prétendre. De l'autre, une <strong>loterie pondérée par les Running Stones</strong> : plus tu en accumules en finissant des épreuves du circuit UTMB World Series, plus tes chances d'être tiré au sort augmentent.
           </p>
           <p className="mb-4">
-            Pour être éligible au tirage au sort UTMB 171 km en 2026, il fallait au minimum <strong>20 points ITRA</strong> (cumul de 2 courses qualifiantes dans les 24 derniers mois) et <strong>15 Running Stones</strong> accumulés sur des finishes UTMB World Series. Les probabilités de tirage varient selon ton stock : 15 stones te donne environ 10-15 % de chances, 40 stones te garantit quasiment l'accès direct.
+            Les règles exactes évoluent chaque année — seuils d'index, nombre de stones requis, calendrier des inscriptions, tarifs — en fonction de la demande et de l'évolution du programme. <strong>Les chiffres publiés sur des sites tiers sont souvent périmés.</strong> Avant de te lancer dans une stratégie de qualification, vérifie les règles de l'édition en cours directement sur le site officiel :
           </p>
           <p className="mb-4">
-            <Link href="/articles/utmb-wildcards-elites-protestation-systeme" className="text-primary hover:underline">Le système fait débat chez les élites</Link> : il favorise les coureurs qui peuvent financer plusieurs voyages internationaux par an pour accumuler des stones. Une protestation organisée en 2026 a demandé un système plus ouvert pour les athlètes non sponsorisés.
+            <a href="https://utmbmontblanc.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline underline-offset-4">
+              utmbmontblanc.com — règles d'inscription et de qualification
+            </a>
+          </p>
+          <p className="mb-4">
+            <Link href="/articles/utmb-wildcards-elites-protestation-systeme" className="text-primary hover:underline">Le système fait débat dans le milieu</Link> : il favorise mécaniquement les coureurs capables de financer plusieurs voyages internationaux par an pour accumuler des stones, ce qui alimente une réflexion continue sur la notion d'équité d'accès à l'épreuve.
           </p>
         </section>
 
