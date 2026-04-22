@@ -40,8 +40,18 @@ RÈGLES PHYSIOLOGIQUES OBLIGATOIRES :
 - Pic de forme 2-3 semaines avant la course (affûtage)
 - Dernière semaine : 40 % du volume normal
 - Jamais 2 séances intenses consécutives
-- Renforcement : arrêt 10 jours avant la course
 - Entraînement croisé : privilégier en semaine de récupération
+
+RENFORCEMENT MUSCULAIRE — OBLIGATOIRE ET NON NÉGOCIABLE :
+- Le renforcement divise par 2 le risque de blessure (méta-analyse BJSM 2018). Il n'est donc PAS optionnel.
+- Fréquence imposée selon la phase :
+  * Fondation : 2 séances de renforcement / semaine
+  * Développement : 2 séances / semaine
+  * Spécifique : 1 séance / semaine (on allège en faveur du volume course)
+  * Affûtage : 0 séance (arrêt complet 10 à 14 jours avant la course)
+- Chaque séance de renforcement dure 30 à 45 min et cible : chevilles/mollets, quadriceps/fessiers, gainage. Exercices types : squats excentriques lents, step-downs, pont fessier unipodal, mollets excentriques sur marche, bondissements latéraux avec réception, planche ventrale/latérale, superman/bird-dog.
+- Les séances de renforcement s'intègrent dans le quota total `seances_max_par_semaine` fourni par l'utilisateur : ce quota inclut course + renforcement + croisé. Si le quota est 5, répartition typique = 3 course + 2 renforcement en phase fondation/développement.
+- Placement : après une séance facile de course, ou sur un jour off. JAMAIS juste avant une sortie longue ou une séance intense.
 
 STRUCTURE JSON STRICTE à générer. CONTRAINTE TAILLE : le JSON complet doit rester sous 50 000 caractères. Plan plafonné à 16 semaines maximum. Sois concis et précis, pas verbeux.
 
@@ -131,9 +141,10 @@ CONTRÔLES QUALITÉ à vérifier MENTALEMENT avant d'émettre le JSON :
 2. Une semaine de décharge (-30 % volume) apparaît toutes les 3-4 semaines.
 3. La dernière semaine = 40 % du volume normal, pas plus.
 4. Aucune paire Mardi-Mercredi, Jeudi-Vendredi ou Samedi-Dimanche avec 2 séances d'intensité.
-5. Zéro séance de renforcement dans les 10 derniers jours avant la course.
+5. Zéro séance de renforcement dans les 10 à 14 derniers jours avant la course.
 6. La somme des volume_km sur toutes les semaines est cohérente avec charge_totale_heures (moyenne 8-10 km/h tout terrain).
 7. Le ratio (séances EF + SL) / (séances VMA + TEMPO) est >= 4 sur l'ensemble du plan (80/20).
+8. RENFORCEMENT : compter les séances type="RENFORCEMENT" par semaine. Fondation = 2/sem, Développement = 2/sem, Spécifique = 1/sem, Affûtage = 0. Un plan avec moins d'une séance de renforcement par semaine en fondation/développement est INVALIDE — refais-le.
 
 Si un contrôle échoue, refais le calcul avant d'émettre. Le JSON ne doit jamais contenir null — OMETS simplement les champs optionnels non pertinents plutôt que de mettre "" ou [] partout. Pour les champs obligatoires numériques, utilise 0 si non applicable.
 
@@ -218,7 +229,7 @@ export function buildUserPrompt(input: PlanFormInput, today?: string): string {
     input.region ? `- Région : ${input.region}` : `- Région : non communiquée`,
     `- Niveau : ${input.niveau}`,
     `- Volume hebdomadaire actuel : ${input.volumeActuelKm} km/semaine`,
-    `- Disponibilité : ${input.seancesMaxParSemaine} séances/semaine maximum`,
+    `- Disponibilité : ${input.seancesMaxParSemaine} séances/semaine maximum (ce quota inclut le renforcement et l'entraînement croisé, pas seulement les séances de course à pied)`,
     `- Week-ends chocs : ${weekendChocsLabel(input.weekendChocsCapacity)}`,
     `- Terrain d'entraînement : ${terrainLabel(input.terrainPrincipal)}`,
     `- Objectif principal : ${input.objectifPrincipal}`,
