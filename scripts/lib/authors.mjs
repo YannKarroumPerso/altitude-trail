@@ -20,15 +20,46 @@ export const AUTHORS = [
   {
     slug: "yann-karroum",
     name: "Yann Karroum",
-    specialties: ["actualites", "entrainement", "nutrition", "courses-recits", "debuter"],
+    // Yann n'intervient que sur les actualités (partage avec Marc Blanc) et
+    // sur la catégorie "débuter" (dont il est seul responsable).
+    specialties: ["actualites", "debuter"],
   },
 ];
 
+// Attribution d'auteur. Règles :
+//   - Yann n'intervient que sur les catégories listées dans ses specialties
+//     (actualités, débuter).
+//   - Sur "actualités", partage 80/20 avec Marc Blanc (spécialiste principal).
+//   - Sur "débuter", Yann est seul spécialiste → 100%.
+//   - Sur les autres catégories (entraînement, nutrition, blessures,
+//     courses-récits), Yann n'intervient jamais : le spécialiste de la
+//     catégorie signe à 100%.
+const YANN_SHARE_WHEN_COSIGN = 1 / 5;
+
 export function pickAuthorForCategory(categorySlug, seed = new Date().toISOString()) {
-  const matching = AUTHORS.filter((a) => a.specialties.includes(categorySlug));
-  const pool = matching.length ? matching : AUTHORS.filter((a) => a.slug === "yann-karroum");
-  // Hash simple déterministe pour rotation
+  const yann = AUTHORS.find((a) => a.slug === "yann-karroum");
+  const yannCovers = yann && yann.specialties.includes(categorySlug);
+  const otherSpecialists = AUTHORS.filter(
+    (a) => a.slug !== "yann-karroum" && a.specialties.includes(categorySlug)
+  );
+
+  // Hash déterministe du seed (titre / slug) pour un choix reproductible
   let h = 0;
   for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) & 0xffffffff;
-  return pool[Math.abs(h) % pool.length];
+  const absHash = Math.abs(h);
+
+  // Cas 1 : Yann couvre ET d'autres spécialistes existent → 80/20 Yann/spécialiste
+  if (yannCovers && otherSpecialists.length > 0) {
+    const bucket = absHash % Math.round(1 / YANN_SHARE_WHEN_COSIGN);
+    if (bucket === 0) return yann;
+    return otherSpecialists[absHash % otherSpecialists.length];
+  }
+  // Cas 2 : Yann est le seul à couvrir → 100% Yann
+  if (yannCovers) return yann;
+  // Cas 3 : Yann ne couvre pas, mais des spécialistes existent → 100% spécialiste
+  if (otherSpecialists.length > 0) {
+    return otherSpecialists[absHash % otherSpecialists.length];
+  }
+  // Cas 4 (rare) : personne ne couvre la catégorie → fallback Yann
+  return yann || AUTHORS[0];
 }

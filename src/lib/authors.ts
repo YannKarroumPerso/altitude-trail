@@ -38,9 +38,11 @@ export const AUTHORS: Author[] = [
   {
     slug: "yann-karroum",
     name: "Yann Karroum",
-    bio: "Passionné et pratiquant de trail. Fondateur d'Altitude Trail, il signe des articles sur les sujets qui le touchent de près dans la pratique quotidienne du trail running en France.",
-    jobTitle: "Rédacteur",
-    specialties: ["actualites", "entrainement", "nutrition", "courses-recits"],
+    bio: "Passionné et pratiquant de trail. Fondateur d'Altitude Trail, il signe les articles d'actualité et les contenus destinés aux coureurs qui débutent dans la discipline.",
+    jobTitle: "Rédacteur — Actualités & Débuter",
+    // Yann n'intervient que sur les actualités (partage avec Marc Blanc) et
+    // la catégorie "débuter" (dont il est seul responsable).
+    specialties: ["actualites", "debuter"],
   },
 ];
 
@@ -76,25 +78,44 @@ export function resolveAuthor(rawName: string | undefined): {
   return { display: rawName };
 }
 
-// Choix d'un auteur pour un nouvel article selon la catégorie + rotation.
-// Utilisé par scripts/veille.mjs quand on publie un article.
-// Logique :
-//   1. On ne garde que les auteurs dont `specialties` contient la categorySlug
-//   2. Si plusieurs matchent, rotation basée sur la date (hash simple) pour
-//      éviter que ce soit toujours le même qui signe.
-//   3. Si aucun ne matche, fallback sur Yann Karroum (polyvalent).
+// Attribution d'auteur. Règles :
+//   - Yann n'intervient que sur les catégories listées dans ses specialties
+//     (actualités, débuter).
+//   - Sur "actualités", partage 80/20 avec Marc Blanc (spécialiste principal).
+//   - Sur "débuter", Yann est seul spécialiste → 100%.
+//   - Sur les autres catégories (entraînement, nutrition, blessures,
+//     courses-récits), Yann n'intervient jamais.
+const YANN_SHARE_WHEN_COSIGN = 1 / 5;
+
 export function pickAuthorForCategory(
   categorySlug: string,
   seed: string = new Date().toISOString()
 ): Author {
-  const matching = AUTHORS.filter((a) => a.specialties.includes(categorySlug));
-  if (!matching.length) {
-    return getAuthorBySlug("yann-karroum")!;
-  }
-  // Hash simple du seed pour picker déterministe
+  const yann = getAuthorBySlug("yann-karroum")!;
+  const yannCovers = yann.specialties.includes(categorySlug);
+  const otherSpecialists = AUTHORS.filter(
+    (a) => a.slug !== "yann-karroum" && a.specialties.includes(categorySlug)
+  );
+
+  // Hash déterministe du seed pour un choix reproductible
   let h = 0;
   for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) & 0xffffffff;
-  return matching[Math.abs(h) % matching.length];
+  const absHash = Math.abs(h);
+
+  // Cas 1 : Yann couvre ET d'autres spécialistes existent → 80/20 Yann/spécialiste
+  if (yannCovers && otherSpecialists.length > 0) {
+    const bucket = absHash % Math.round(1 / YANN_SHARE_WHEN_COSIGN);
+    if (bucket === 0) return yann;
+    return otherSpecialists[absHash % otherSpecialists.length];
+  }
+  // Cas 2 : Yann est le seul à couvrir → 100% Yann
+  if (yannCovers) return yann;
+  // Cas 3 : autres spécialistes sans Yann → 100% spécialiste
+  if (otherSpecialists.length > 0) {
+    return otherSpecialists[absHash % otherSpecialists.length];
+  }
+  // Cas 4 (rare) : personne ne couvre la catégorie → fallback Yann
+  return yann;
 }
 
 export function authorUrl(slug: string): string {
