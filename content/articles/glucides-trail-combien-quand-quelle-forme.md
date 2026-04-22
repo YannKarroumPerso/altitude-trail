@@ -1,22 +1,14 @@
 ---
-slug: glucides-trail-combien-quand-quelle-forme
-title: 'Les glucides en trail : combien, quand, sous quelle forme'
-excerpt: >-
-  60, 90, 120 g/h ? La science avance vite et les recommandations aussi. Tour
-  d'horizon actualisé des apports glucidiques en course, fondé sur les dernières
-  études.
-category: Nutrition
+slug: "glucides-trail-combien-quand-quelle-forme"
+title: "Les glucides en trail : combien, quand, sous quelle forme"
+excerpt: "60, 90, 120 g/h ? La science avance vite et les recommandations aussi. Tour d'horizon actualisé des apports glucidiques en course, fondé sur les dernières études."
+category: "Nutrition"
 categorySlug: nutrition
-author: Claire Mercier
-date: 8 avril 2026
-readTime: 9 min
-image: /articles/glucides-trail-combien-quand-quelle-forme-hero.jpg
-tags:
-  - Glucides
-  - Nutrition
-  - Gels
-  - Science
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "8 avril 2026"
+readTime: "9 min"
+image: "/articles/glucides-trail-combien-quand-quelle-forme-hero.jpg"
+tags: ["Glucides", "Nutrition", "Gels", "Science"]
 ---
 
 La barre symbolique des 60 g de glucides par heure, dogme pendant vingt ans, est tombée. Les meilleurs trailers mondiaux absorbent aujourd'hui 90 à 120 g/h en course, parfois davantage. Une révolution silencieuse qui change la manière de préparer une épreuve longue.
@@ -35,7 +27,7 @@ Les chercheurs continuent de pousser : quelques publications récentes évoquent
 
 ## L'intestin, l'organe qui s'entraîne
 
-Le grand oublié des plans d'entraînement, c'est lui. Tolérer 100 g/h ne s'improvise pas. Les recommandations actuelles de plusieurs sociétés savantes de [nutrition](https://www.altitude-trail.fr/articles/nutrition-avant-course-semaine-qui-precede-ultra) sportive convergent sur un point : le gut training, ou entraînement digestif, est une discipline à part entière.
+Le grand oublié des plans d'entraînement, c'est lui. Tolérer 100 g/h ne s'improvise pas. Les recommandations actuelles de plusieurs sociétés savantes de nutrition sportive convergent sur un point : le gut training, ou entraînement digestif, est une discipline à part entière.
 
 Le principe est simple, l'exécution moins. On part d'une base supportée sans gêne — souvent 40 à 50 g/h — et on majore par paliers de 10 à 15 g toutes les deux à trois semaines, lors des sorties longues spécifiques. L'adaptation passe par une augmentation de l'expression des transporteurs intestinaux, une vidange gastrique accélérée et, probablement, une modulation du microbiote. Six à huit semaines suffisent en général à monter d'un cran significatif.
 
@@ -45,7 +37,7 @@ Sur le terrain, cela signifie s'astreindre à manger sur des sorties de 3 à 5 h
 
 Aucune forme ne domine. La plupart des finisseurs de trails longs jonglent entre plusieurs supports, par lassitude gustative autant que par logique physiologique.
 
-Les gels concentrés, type Maurten 100 ou Näak, embarquent 25 à 40 g de glucides dans 40 g de produit, avec ratios optimisés. Pratiques, denses, mais exigeants sur l'hydratation qui doit suivre. Les boissons isotoniques, à 6-8 % de glucides, cochent deux cases d'un coup : eau et énergie, avec une tolérance digestive souvent meilleure. Overstim's, Tailwind, Näak [Ultra](https://www.altitude-trail.fr/articles/comment-nourrir-son-corps-sur-un-ultra-sans-craquer-au-km-40) Energy se partagent les ceintures des ravitaillements. Les barres, type Baouw ou les purées françaises aux fruits, apportent du confort psychologique et une mastication bienvenue après dix heures de course.
+Les gels concentrés, type Maurten 100 ou Näak, embarquent 25 à 40 g de glucides dans 40 g de produit, avec ratios optimisés. Pratiques, denses, mais exigeants sur l'hydratation qui doit suivre. Les boissons isotoniques, à 6-8 % de glucides, cochent deux cases d'un coup : eau et énergie, avec une tolérance digestive souvent meilleure. Overstim's, Tailwind, Näak Ultra Energy se partagent les ceintures des ravitaillements. Les barres, type Baouw ou les purées françaises aux fruits, apportent du confort psychologique et une mastication bienvenue après dix heures de course.
 
 ![Illustration Nutrition](/articles/glucides-trail-combien-quand-quelle-forme-2.jpg)
 

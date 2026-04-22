@@ -7,8 +7,8 @@ excerpt: >-
   doux.
 category: Actualités
 categorySlug: actualites
-author: Marc Blanc
-date: 28 mars 2026
+author: Rédaction Altitude
+date: "28 mars 2026"
 readTime: 6 min
 image: /articles/le-chat-compagnon-insoupconne-du-traileur-hero.jpg
 tags:
@@ -19,11 +19,10 @@ tags:
 sourceUrl: >-
   https://www.trailrunnermag.com/people/culture-people/why-cats-make-the-purr-fect-companions-for-runners/
 rewrittenAt: '2026-04-20'
-updatedAt: 22 avril 2026
 ---
 Oubliez le labrador qui court à vos côtés sur les single tracks. La vraie révélation du trail outdoor 2024 pourrait bien tenir sur quatre pattes, miauler à l'aube et peser trois kilos. Le chat s'invite sur les sentiers — et la culture running commence à en prendre acte.
 
-Un plaidoyer publié par Trail Runner Mag bouscule un tabou silencieux de la communauté ultra : l'animal de compagnie du [traileur](https://www.altitude-trail.fr/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu) ne serait pas forcément canin. L'autrice y défend, témoignages à l'appui, l'idée que le félin coche des cases insoupçonnées pour un coureur de fond : régulateur de sommeil, coach d'étirement, antidote à l'obsession chronométrique. Derrière l'anecdote, deux figures emblématiques émergent — Simon, alias *Backpacking Kitty*, compagnon du cinéaste JJ Yosh à Boulder (Colorado) et Sully, vedette Instagram propulsée par sa propriétaire Katie Chen. Plusieurs *14ers* au compteur pour le premier. Une cadence de trot qui intrigue les réseaux pour le second.
+Un plaidoyer publié par Trail Runner Mag bouscule un tabou silencieux de la communauté ultra : l'animal de compagnie du traileur ne serait pas forcément canin. L'autrice y défend, témoignages à l'appui, l'idée que le félin coche des cases insoupçonnées pour un coureur de fond : régulateur de sommeil, coach d'étirement, antidote à l'obsession chronométrique. Derrière l'anecdote, deux figures emblématiques émergent — Simon, alias *Backpacking Kitty*, compagnon du cinéaste JJ Yosh à Boulder (Colorado) et Sully, vedette Instagram propulsée par sa propriétaire Katie Chen. Plusieurs *14ers* au compteur pour le premier. Une cadence de trot qui intrigue les réseaux pour le second.
 
 ## Un phénomène outdoor qui ne se résume pas à une mode Instagram
 
@@ -31,7 +30,7 @@ Le chat d'aventure n'est plus une excentricité isolée. Trail Runner Mag identi
 
 ![Illustration Actualités](/articles/le-chat-compagnon-insoupconne-du-traileur-1.jpg)
 
-Ces cinq *14ers* cumulés représentent l'équivalent, en dénivelé positif, de deux UTMB empilés. Le chat ne les avale évidemment pas en autonomie — il voyage en sac à dos spécialisé, parfois drapé sur les épaules — mais il les parcourt. Le cadre compte : au Colorado, laisser divaguer un chat équivaut à le condamner. Coyotes, pumas, rapaces. L'extérieur sans harnais est une impasse. La laisse [devient](https://www.altitude-trail.fr/articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe) paradoxalement l'outil d'émancipation.
+Ces cinq *14ers* cumulés représentent l'équivalent, en dénivelé positif, de deux UTMB empilés. Le chat ne les avale évidemment pas en autonomie — il voyage en sac à dos spécialisé, parfois drapé sur les épaules — mais il les parcourt. Le cadre compte : au Colorado, laisser divaguer un chat équivaut à le condamner. Coyotes, pumas, rapaces. L'extérieur sans harnais est une impasse. La laisse devient paradoxalement l'outil d'émancipation.
 
 ## Ce que Yosh a compris que les coureurs n'ont pas encore intégré
 

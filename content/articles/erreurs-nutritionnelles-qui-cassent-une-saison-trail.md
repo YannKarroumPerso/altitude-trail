@@ -1,26 +1,19 @@
 ---
-slug: erreurs-nutritionnelles-qui-cassent-une-saison-trail
-title: Les erreurs nutritionnelles qui cassent une saison entière
-excerpt: >-
-  Déficit énergétique relatif, sous-consommation de glucides, carences en fer :
-  ces erreurs invisibles s'accumulent et finissent par briser la progression.
-category: Nutrition
+slug: "erreurs-nutritionnelles-qui-cassent-une-saison-trail"
+title: "Les erreurs nutritionnelles qui cassent une saison entière"
+excerpt: "Déficit énergétique relatif, sous-consommation de glucides, carences en fer : ces erreurs invisibles s'accumulent et finissent par briser la progression."
+category: "Nutrition"
 categorySlug: nutrition
-author: Claire Mercier
-date: 11 avril 2026
-readTime: 9 min
-image: /articles/erreurs-nutritionnelles-qui-cassent-une-saison-trail-hero.jpg
-tags:
-  - Santé
-  - RED-S
-  - Fer
-  - Performance
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "11 avril 2026"
+readTime: "9 min"
+image: "/articles/erreurs-nutritionnelles-qui-cassent-une-saison-trail-hero.jpg"
+tags: ["Santé", "RED-S", "Fer", "Performance"]
 ---
 
 Une saison ne se brise pas en une sortie. Elle s'effrite par en dessous, semaine après semaine, pendant qu'on s'entraîne de mieux en mieux et qu'on court de plus en plus mal.
 
-Le traileur moderne maîtrise ses zones de fréquence cardiaque, lit ses courbes de puissance verticale, programme ses blocs de dénivelé au mètre près. Mais sur le volet nutritionnel, beaucoup naviguent encore à vue. Les chiffres compilés par plusieurs études européennes sur les athlètes d'endurance convergent : une majorité de coureurs en préparation [ultra](https://www.altitude-trail.fr/articles/plan-entrainement-ultra-quatre-blocs-essentiels) évoluent en déficit énergétique chronique, six à huit femmes sur dix présentent des perturbations compatibles avec le RED-S et la carence martiale toucherait près d'un athlète sur trois. Derrière ces chiffres, une même logique : des erreurs invisibles, cumulatives, qui cassent la progression sans jamais faire de bruit.
+Le traileur moderne maîtrise ses zones de fréquence cardiaque, lit ses courbes de puissance verticale, programme ses blocs de dénivelé au mètre près. Mais sur le volet nutritionnel, beaucoup naviguent encore à vue. Les chiffres compilés par plusieurs études européennes sur les athlètes d'endurance convergent : une majorité de coureurs en préparation ultra évoluent en déficit énergétique chronique, six à huit femmes sur dix présentent des perturbations compatibles avec le RED-S et la carence martiale toucherait près d'un athlète sur trois. Derrière ces chiffres, une même logique : des erreurs invisibles, cumulatives, qui cassent la progression sans jamais faire de bruit.
 
 ## Le RED-S, cette panne hormonale qu'on refuse de voir
 
@@ -56,7 +49,7 @@ Autour de ces trois grands pièges gravitent des fautes plus banales mais qui s'
 
 La négligence de la fenêtre post-effort est une autre constante. Dans les 30 à 60 minutes qui suivent une séance intense, la resynthèse du glycogène est maximale. Sauter ce créneau, c'est retarder la récupération d'une demi-journée. Un ratio glucides-protéines autour de 3 pour 1, soit un bol de riz avec un yaourt ou une banane avec un verre de lait, suffit.
 
-Enfin, la vitamine D. En France, d'octobre à mars, l'ensoleillement ne permet pas la synthèse cutanée suffisante au-dessus du 45e parallèle. La Haute Autorité de Santé reconnaît le déficit comme quasi généralisé en hiver. Or la vitamine D pèse sur la fonction [musculaire](https://www.altitude-trail.fr/articles/renforcement-musculaire-trail-exercices-cles), immunitaire et osseuse. Un dosage sanguin en novembre, une supplémentation encadrée si besoin et le sujet est réglé.
+Enfin, la vitamine D. En France, d'octobre à mars, l'ensoleillement ne permet pas la synthèse cutanée suffisante au-dessus du 45e parallèle. La Haute Autorité de Santé reconnaît le déficit comme quasi généralisé en hiver. Or la vitamine D pèse sur la fonction musculaire, immunitaire et osseuse. Un dosage sanguin en novembre, une supplémentation encadrée si besoin et le sujet est réglé.
 
 ## Les signaux qui doivent faire consulter
 

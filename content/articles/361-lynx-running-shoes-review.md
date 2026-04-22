@@ -7,8 +7,8 @@ excerpt: >-
   sentiers variés.
 category: Actualités
 categorySlug: actualites
-author: Yann Karroum
-date: 29 mars 2026
+author: Rédaction Altitude
+date: "29 mars 2026"
 readTime: 6 min
 image: >-
   /articles/361-lynx-la-chaussure-de-trail-qui-monte-discretement-en-puissance-hero.jpg
@@ -20,7 +20,6 @@ tags:
   - Vibram
 sourceUrl: 'https://www.ultrarunnermagazine.co.uk/361-lynx-running-shoes-review/'
 rewrittenAt: '2026-04-20'
-updatedAt: 22 avril 2026
 ---
 Une marque chinoise qu'on ne voit pratiquement jamais sur les départs de l'UTMB. Un modèle, la Lynx, qui traverse la presse anglo-saxonne à petits pas feutrés. Et pourtant, à lire le test mené par Ultra Runner Magazine, l'outsider 361° coche suffisamment de cases pour qu'on s'interroge sur ce que la discrétion recouvre vraiment.
 
@@ -28,7 +27,7 @@ Une marque chinoise qu'on ne voit pratiquement jamais sur les départs de l'UTMB
 
 ## Un marché saturé où l'outsider doit faire mieux, pas différemment
 
-Le trail [running](https://www.altitude-trail.fr/articles/materiel-minimum-demarrer-trail-budget) vit depuis cinq ans une guerre d'attrition entre trois ou quatre marques dominantes. Hoka a industrialisé l'amorti maximaliste. Saucony impose son dynamisme. Salomon et La Sportiva se disputent le terrain technique. Nike et On essaient d'exister. Dans cette configuration, un nouvel entrant n'a aucune marge d'erreur : il doit livrer mieux que les mastodontes sur au moins un critère et aussi bien sur tous les autres.
+Le trail running vit depuis cinq ans une guerre d'attrition entre trois ou quatre marques dominantes. Hoka a industrialisé l'amorti maximaliste. Saucony impose son dynamisme. Salomon et La Sportiva se disputent le terrain technique. Nike et On essaient d'exister. Dans cette configuration, un nouvel entrant n'a aucune marge d'erreur : il doit livrer mieux que les mastodontes sur au moins un critère et aussi bien sur tous les autres.
 
 ![Illustration Actualités](/articles/361-lynx-la-chaussure-de-trail-qui-monte-discretement-en-puissance-1.jpg)
 
@@ -50,7 +49,7 @@ Le test britannique insiste sur le comportement en descente technique. "Racines 
 
 ## Durabilité : l'argument qui peut faire basculer la décision d'achat
 
-C'est peut-être le point le plus intéressant du test d'Ultra Runner Magazine. Après 320 kilomètres — soit un kilométrage où beaucoup de [chaussures](https://www.altitude-trail.fr/articles/choisir-premiere-paire-chaussures-trail-guide-complet) commencent à montrer des signes d'usure — Williams constate "aucun signe de décollement, pas de mesh effrangé, des crampons encore bien définis". Il souligne même que le secteur "souffre parfois de modèles prometteurs qui s'effondrent au bout de 500 kilomètres".
+C'est peut-être le point le plus intéressant du test d'Ultra Runner Magazine. Après 320 kilomètres — soit un kilométrage où beaucoup de chaussures commencent à montrer des signes d'usure — Williams constate "aucun signe de décollement, pas de mesh effrangé, des crampons encore bien définis". Il souligne même que le secteur "souffre parfois de modèles prometteurs qui s'effondrent au bout de 500 kilomètres".
 
 C'est là qu'un choix éditorial s'impose. La plupart des tests de chaussures de trail sont menés sur 50 à 150 kilomètres, ce qui ne dit rien de la durée de vie réelle d'un modèle. Pousser à 320 kilomètres, c'est commencer à parler sérieusement de durabilité. Et dans un contexte où le prix moyen d'une chaussure de trail haut de gamme flirte désormais avec les 180-200 euros, l'argument "encaisse sans broncher" n'a rien d'accessoire — il devient décisif.
 

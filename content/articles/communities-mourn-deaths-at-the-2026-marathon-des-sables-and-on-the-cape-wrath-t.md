@@ -11,8 +11,8 @@ excerpt: >-
   Highlands écossaises.
 category: Actualités
 categorySlug: actualites
-author: Yann Karroum
-date: 13 avril 2026
+author: Rédaction Altitude
+date: "13 avril 2026"
 readTime: 6 min
 image: >-
   /articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e-hero.jpg
@@ -25,19 +25,14 @@ tags:
 sourceUrl: >-
   https://www.irunfar.com/deaths-2026-gregory-marathon-des-sables-legendary-david-parrish-cape-wrath-trail
 rewrittenAt: '2026-04-20'
-updatedAt: 22 avril 2026
 ---
 Deux décès, deux continents, la même semaine. Dans le Sahara marocain et dans les Highlands écossais, le trail d'endurance a perdu deux des siens à quelques jours d'intervalle. Les circonstances diffèrent, la leçon est identique : l'expérience ne protège de rien.
-
-
-
-*À lire aussi : [Kilimandjaro : Alexis Trougnou signe le premier FKT para-athlète sur le toit de l'Afrique](https://www.altitude-trail.fr/articles/kilimandjaro-alexis-trougnou-signe-le-premier-fkt-para-athlete-sur-le-toit-de-l-)*
 
 Entre le 8 et le 11 avril, la presse spécialisée a documenté deux drames distincts. Selon iRunFar, un concurrent identifié par son seul prénom, Grégory, est mort lors de la quatrième étape du Marathon des Sables Legendary, après un malaise survenu vers 4 heures du matin et une évacuation vers l'hôpital d'Errachidia. Trois jours plus tard, le Britannique David Parrish, 35 ans, ancien Royal Marine, a été retrouvé sans vie à Kintail, alors qu'il tentait un FKT en autonomie totale sur le Cape Wrath Trail, 386 kilomètres à travers l'Écosse sauvage.
 
 ## Le Sahara, théâtre d'une tragédie au petit matin
 
-Le Marathon des Sables, dans sa déclinaison Legendary, reste l'un des laboratoires les plus anciens de l'[ultra](https://www.altitude-trail.fr/articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit) en semi-autonomie. Six étapes, un sac qui contient toute la nourriture de la semaine, des bivouacs collectifs fournis par l'organisation, de l'eau rationnée. Le protocole médical d'entrée est strict, la logistique de secours calibrée depuis près de quarante ans. Et pourtant.
+Le Marathon des Sables, dans sa déclinaison Legendary, reste l'un des laboratoires les plus anciens de l'ultra en semi-autonomie. Six étapes, un sac qui contient toute la nourriture de la semaine, des bivouacs collectifs fournis par l'organisation, de l'eau rationnée. Le protocole médical d'entrée est strict, la logistique de secours calibrée depuis près de quarante ans. Et pourtant.
 
 Selon le communiqué relayé par iRunFar, Grégory s'est effondré avant même le départ de la quatrième étape, autour de 4 heures du matin. Les équipes médicales présentes sur le bivouac ont pris le relais immédiatement. Évacuation vers Errachidia, la ville marocaine la plus proche du parcours. Décès quelques jours plus tard, malgré les soins hospitaliers. L'organisation a demandé le respect de l'intimité familiale, ce qui explique la communication a minima — un prénom, pas davantage.
 

@@ -10,8 +10,8 @@ excerpt: >-
   s'annonce comme la plus dense jamais organisée.
 category: Actualités
 categorySlug: actualites
-author: Marc Blanc
-date: 14 avril 2026
+author: Rédaction Altitude
+date: "14 avril 2026"
 readTime: 6 min
 image: >-
   /articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av-hero.jpg
@@ -24,11 +24,10 @@ tags:
 sourceUrl: >-
   https://www.corsainmontagna.it/2026/04/18/domani-il-portogallo-ospita-il-mondo-la-world-cup-2026-inizia-con-la-sao-bras-cross/
 rewrittenAt: '2026-04-20'
-updatedAt: 22 avril 2026
 ---
-Seize courses, dix pays, quatre continents. La Coupe du monde de course en [montagne](https://www.altitude-trail.fr/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno) 2026 s'annonce comme la saison la plus dense jamais alignée par la WMRA et c'est un village du centre du Portugal qui va l'ouvrir dimanche. Pas Chamonix, pas Innsbruck, pas Sierre. Castro Daire.
+Seize courses, dix pays, quatre continents. La Coupe du monde de course en montagne 2026 s'annonce comme la saison la plus dense jamais alignée par la WMRA et c'est un village du centre du Portugal qui va l'ouvrir dimanche. Pas Chamonix, pas Innsbruck, pas Sierre. Castro Daire.
 
-La São Brás Cross, 19ᵉ édition, donne le coup d'envoi de la Mountain [Running](https://www.altitude-trail.fr/articles/this-week-in-running-le-tour-du-monde-du-trail-20-avril-2026) World Cup dimanche depuis le village de Granja, dans la Serra de Montemuro. Un tracé Classic Up & Down de 10,9 km pour 628 mètres de dénivelé positif, selon les données rapportées par Corsa in Montagna. Chez les femmes, la Britannique Scout Adkin remet son titre en jeu face à un peloton européen et kényan resserré. Chez les hommes, le Kényan Michael Selelo Saoli fait figure de favori. Première des cinq manches Classic Up & Down du calendrier, la course sert de baromètre à une saison qui ira jusqu'en Chine.
+La São Brás Cross, 19ᵉ édition, donne le coup d'envoi de la Mountain Running World Cup dimanche depuis le village de Granja, dans la Serra de Montemuro. Un tracé Classic Up & Down de 10,9 km pour 628 mètres de dénivelé positif, selon les données rapportées par Corsa in Montagna. Chez les femmes, la Britannique Scout Adkin remet son titre en jeu face à un peloton européen et kényan resserré. Chez les hommes, le Kényan Michael Selelo Saoli fait figure de favori. Première des cinq manches Classic Up & Down du calendrier, la course sert de baromètre à une saison qui ira jusqu'en Chine.
 
 ## Une Coupe du monde qui change d'échelle
 

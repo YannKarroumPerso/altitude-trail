@@ -10,8 +10,8 @@ excerpt: >-
   d'un week-end de feu outre-Manche.
 category: Actualités
 categorySlug: actualites
-author: Marc Blanc
-date: 31 mars 2026
+author: Rédaction Altitude
+date: "31 mars 2026"
 readTime: 6 min
 image: >-
   /articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit-hero.jpg
@@ -24,11 +24,10 @@ tags:
 sourceUrl: >-
   https://ultrarunningworld.co.uk/this-weekend-in-ultrarunning-july-5-7-2025-uk-ireland/
 rewrittenAt: '2026-04-20'
-updatedAt: 22 avril 2026
 ---
-Dix départs en cinq jours, trois nations, une boucle horaire côtoyant une traversée de 270 kilomètres. Le premier week-end de juillet 2025 dit tout de ce que l'ultra [britannique](https://www.altitude-trail.fr/articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra) est devenu : un écosystème mature, diversifié, qui n'a plus rien à envier aux grandes vitrines alpines.
+Dix départs en cinq jours, trois nations, une boucle horaire côtoyant une traversée de 270 kilomètres. Le premier week-end de juillet 2025 dit tout de ce que l'ultra britannique est devenu : un écosystème mature, diversifié, qui n'a plus rien à envier aux grandes vitrines alpines.
 
-Du 3 au 7 juillet, les îles britanniques alignent dix épreuves recensées par *Ultrarunning World*, depuis le Serpent Trail Ultra de 100 km dans les South Downs jusqu'aux 170 miles écossais de By Way of The Glen, en passant par les 115 miles des North York Moors et un backyard ultra dans le Hampshire. Les distances vont de 30 miles à près de 270 km. Les profils oscillent entre les vallons crayeux du Yorkshire et les tourbières des [Highlands](https://www.altitude-trail.fr/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu). Le calendrier, lui, ne laisse aucun trou : le trail outre-Manche a basculé dans la production industrielle, sans renoncer à son ADN local.
+Du 3 au 7 juillet, les îles britanniques alignent dix épreuves recensées par *Ultrarunning World*, depuis le Serpent Trail Ultra de 100 km dans les South Downs jusqu'aux 170 miles écossais de By Way of The Glen, en passant par les 115 miles des North York Moors et un backyard ultra dans le Hampshire. Les distances vont de 30 miles à près de 270 km. Les profils oscillent entre les vallons crayeux du Yorkshire et les tourbières des Highlands. Le calendrier, lui, ne laisse aucun trou : le trail outre-Manche a basculé dans la production industrielle, sans renoncer à son ADN local.
 
 ## Un calendrier qui pulvérise la saisonnalité
 

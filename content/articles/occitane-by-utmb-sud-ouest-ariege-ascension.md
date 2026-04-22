@@ -1,21 +1,14 @@
 ---
-slug: occitane-by-utmb-sud-ouest-ariege-ascension
-title: 'L''Occitane by UTMB : comment le sud-ouest s''est imposé en deux saisons'
-excerpt: >-
-  Née en 2022 dans les Pyrénées ariégeoises, l'Occitane by UTMB est devenue une
-  étape incontournable du calendrier mondial. Anatomie d'une ascension éclair.
-category: Courses & Récits
+slug: "occitane-by-utmb-sud-ouest-ariege-ascension"
+title: "L'Occitane by UTMB : comment le sud-ouest s'est imposé en deux saisons"
+excerpt: "Née en 2022 dans les Pyrénées ariégeoises, l'Occitane by UTMB est devenue une étape incontournable du calendrier mondial. Anatomie d'une ascension éclair."
+category: "Courses & Récits"
 categorySlug: courses-recits
-author: Yann Karroum
-date: 5 avril 2026
-readTime: 9 min
-image: /articles/occitane-by-utmb-sud-ouest-ariege-ascension-hero.jpg
-tags:
-  - Occitane
-  - UTMB World Series
-  - Ariège
-  - Croissance
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "5 avril 2026"
+readTime: "9 min"
+image: "/articles/occitane-by-utmb-sud-ouest-ariege-ascension-hero.jpg"
+tags: ["Occitane", "UTMB World Series", "Ariège", "Croissance"]
 ---
 
 En trois éditions, une course pyrénéenne a fait ce que d'autres mettent dix ans à construire : exister sur la carte mondiale du trail. L'Occitane by UTMB n'a pas grimpé les marches une par une. Elle a pris l'ascenseur.
@@ -28,7 +21,7 @@ Avant 2022, le sud-ouest français avait ses pépites — la Saintélyon côté 
 
 ![Illustration Courses & Récits](/articles/occitane-by-utmb-sud-ouest-ariege-ascension-1.jpg)
 
-L'Occitane a occupé ce vide stratégique. Ax-les-Thermes offre un triple atout : une altitude modérée favorable aux coureurs non-acclimatés, un massif haut (Pic de Tarbésou, vallée d'Orlu, plateau de Beille) qui autorise le vrai engagement montagne et une accessibilité logistique via Toulouse à [deux](https://www.altitude-trail.fr/articles/wesley-kiptoo-et-alex-masai-deux-kenyans-un-reve-de-boston) heures de route. Dans un marché saturé côté alpin, ce différentiel comptait.
+L'Occitane a occupé ce vide stratégique. Ax-les-Thermes offre un triple atout : une altitude modérée favorable aux coureurs non-acclimatés, un massif haut (Pic de Tarbésou, vallée d'Orlu, plateau de Beille) qui autorise le vrai engagement montagne et une accessibilité logistique via Toulouse à deux heures de route. Dans un marché saturé côté alpin, ce différentiel comptait.
 
 ## L'effet World Series, ou la mécanique d'accélération
 
@@ -54,7 +47,7 @@ Le modèle a cependant ses critiques. L'uniformisation esthétique et réglement
 
 ## Ce que l'Occitane dit de la cartographie française du trail
 
-La réussite ariégeoise signale un basculement. La France du trail, longtemps pensée comme un axe Alpes-Massif central avec une excroissance réunionnaise, se rééquilibre vers ses extrémités pyrénéennes et méditerranéennes. Le Grand Raid des Pyrénées existait déjà. La Transju'Trail, la Trace des Cimes, les [courses](https://www.altitude-trail.fr/articles/a-71-ans-michel-poletti-traverse-la-france-a-pied-entre-ses-courses-utmb) catalanes complètent un maillage qui, il y a dix ans, semblait impensable à ce niveau de densité.
+La réussite ariégeoise signale un basculement. La France du trail, longtemps pensée comme un axe Alpes-Massif central avec une excroissance réunionnaise, se rééquilibre vers ses extrémités pyrénéennes et méditerranéennes. Le Grand Raid des Pyrénées existait déjà. La Transju'Trail, la Trace des Cimes, les courses catalanes complètent un maillage qui, il y a dix ans, semblait impensable à ce niveau de densité.
 
 L'Occitane agit comme accélérateur. Elle rend crédible l'idée qu'une course pyrénéenne puisse rivaliser en plateau sportif avec les références alpines, elle redistribue la fréquentation estivale, elle légitime les investissements des collectivités du sud-ouest dans le trail comme produit touristique structurant. Le phénomène rappelle ce qu'a vécu le cyclisme lorsque le Tour a redécouvert massivement le Pays basque et les Pyrénées dans les années 2000.
 

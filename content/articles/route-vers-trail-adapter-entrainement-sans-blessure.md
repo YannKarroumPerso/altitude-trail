@@ -1,24 +1,17 @@
 ---
-slug: route-vers-trail-adapter-entrainement-sans-blessure
-title: 'De la route au trail : comment adapter son entraînement sans se blesser'
-excerpt: >-
-  Le passage du bitume au sentier change presque tout : cadence, allure,
-  mécanique de descente. Voici la feuille de route pour basculer en douceur.
-category: Débuter
+slug: "route-vers-trail-adapter-entrainement-sans-blessure"
+title: "De la route au trail : comment adapter son entraînement sans se blesser"
+excerpt: "Le passage du bitume au sentier change presque tout : cadence, allure, mécanique de descente. Voici la feuille de route pour basculer en douceur."
+category: "Débuter"
 categorySlug: debuter
-author: Yann Karroum
-date: 8 avril 2026
-readTime: 8 min
-image: /articles/route-vers-trail-adapter-entrainement-sans-blessure-hero.jpg
-tags:
-  - Transition
-  - Débuter
-  - Progression
-  - Route
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "8 avril 2026"
+readTime: "8 min"
+image: "/articles/route-vers-trail-adapter-entrainement-sans-blessure-hero.jpg"
+tags: ["Transition", "Débuter", "Progression", "Route"]
 ---
 
-Passer de la route au trail, ce n'est pas changer de [chaussures](https://www.altitude-trail.fr/articles/choisir-premiere-paire-chaussures-trail-guide-complet). C'est changer de logiciel moteur. Et c'est précisément là que beaucoup de coureurs venus du bitume se blessent dans les six premiers mois.
+Passer de la route au trail, ce n'est pas changer de chaussures. C'est changer de logiciel moteur. Et c'est précisément là que beaucoup de coureurs venus du bitume se blessent dans les six premiers mois.
 
 La majorité des nouveaux traileurs arrivent avec un bagage route solide : allure régulière, cadence stable autour de 170-180, foulée calibrée. Sur sentier, ce logiciel ne suffit plus. L'adaptation neuromusculaire demande généralement huit à douze semaines pour stabiliser les chaînes posturales, apprendre la descente et tolérer les chocs excentriques. Les pathologies typiques de cette phase sont connues : tendinopathie d'Achille, périostite tibiale, entorse latérale de cheville. Toutes partagent une même origine : une charge de terrain qui monte plus vite que la capacité tissulaire à encaisser.
 
@@ -48,7 +41,7 @@ Sur route, descendre vite est une question de laisser filer. Sur trail, c'est la
 
 Pour un coureur route en transition, trois principes valent bilan kiné : oublier le chrono pendant les premières semaines, chercher une pose médio-pied souple avec genou légèrement fléchi, porter le regard trois à cinq mètres devant soi pour anticiper les appuis. Les yeux rivés sur ses pieds, on subit. Trois mètres devant, on lit le terrain.
 
-La descente sollicite les quadriceps en contraction excentrique, c'est-à-dire le mode le plus traumatisant pour le muscle. Les courbatures après une première grosse descente peuvent durer plusieurs jours. C'est normal. Répété trop vite, c'est [comment](https://www.altitude-trail.fr/articles/premiere-sortie-trail-choix-parcours-allure) on finit avec une tendinopathie rotulienne.
+La descente sollicite les quadriceps en contraction excentrique, c'est-à-dire le mode le plus traumatisant pour le muscle. Les courbatures après une première grosse descente peuvent durer plusieurs jours. C'est normal. Répété trop vite, c'est comment on finit avec une tendinopathie rotulienne.
 
 ## Marcher n'est pas tricher
 

@@ -10,8 +10,8 @@ excerpt: >-
   impitoyable.
 category: Courses & Récits
 categorySlug: courses-recits
-author: Marc Blanc
-date: 29 mars 2026
+author: Rédaction Altitude
+date: "29 mars 2026"
 readTime: 5 min
 image: >-
   /articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de-hero.jpg
@@ -24,9 +24,8 @@ tags:
 sourceUrl: >-
   https://www.ultrarunnermagazine.co.uk/allen-and-kershaw-win-108-mile-montane-winter-spine-challenger-south/
 rewrittenAt: '2026-04-20'
-updatedAt: 22 avril 2026
 ---
-174 kilomètres, 57 [heures](https://www.altitude-trail.fr/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures) de barrière horaire, un départ le 11 janvier à l'aube britannique. Le Montane Winter Spine Challenger South n'est pas un ultra, c'est un audit de caractère. Et l'édition 2025 a sévèrement trié.
+174 kilomètres, 57 heures de barrière horaire, un départ le 11 janvier à l'aube britannique. Le Montane Winter Spine Challenger South n'est pas un ultra, c'est un audit de caractère. Et l'édition 2025 a sévèrement trié.
 
 Sur la portion sud du Pennine Way, d'Edale dans le Derbyshire à Hardraw dans le North Yorkshire, James Allen s'est imposé chez les hommes en 34 heures et 39 minutes, avec Mark Potts à 45 minutes et Sam Tansley troisième en 37 h 44, selon les chiffres publiés par Ultra Runner Magazine. Chez les femmes, Alice Kershaw a bouclé la distance en 43 h 14. Dans la catégorie Mountain Rescue Teams, Kevin Robinson l'emporte en 38 h 49. Tout s'est joué dans la neige, le vent et la nuit — la vraie nuit anglaise de janvier, celle qui tombe à 16 heures.
 
@@ -40,7 +39,7 @@ Pour donner une idée : 174 km, c'est plus de quatre marathons enchaînés. Mais
 
 ## James Allen, une échappée dans le blanc
 
-Le récit de la victoire masculine, tel que rapporté par Ultra Runner Magazine, tient en une image : un coureur seul, boussole et GPS à la main, qui avale les [Pennines](https://www.altitude-trail.fr/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu) enneigées après Hebden Bridge sans plus aucun rival dans le champ de vision. Allen, basé à Manchester, a pris le large sur la deuxième moitié quand le groupe de tête s'est délité.
+Le récit de la victoire masculine, tel que rapporté par Ultra Runner Magazine, tient en une image : un coureur seul, boussole et GPS à la main, qui avale les Pennines enneigées après Hebden Bridge sans plus aucun rival dans le champ de vision. Allen, basé à Manchester, a pris le large sur la deuxième moitié quand le groupe de tête s'est délité.
 
 C'est là que le Spine se distingue des ultras continentaux. Sur une course française classique, celui qui prend 20 minutes d'avance la nuit les conserve rarement longtemps. Ici, 20 minutes d'avance dans un plateau balayé par la neige, c'est une éternité — parce que les suiveurs perdent du temps à la moindre hésitation de navigation, au moindre bivouac mal anticipé. Allen a joué cette partition-là.
 

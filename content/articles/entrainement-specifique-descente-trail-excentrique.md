@@ -1,26 +1,17 @@
 ---
-slug: entrainement-specifique-descente-trail-excentrique
-title: >-
-  Entraînement spécifique descente : pourquoi les jambes lâchent et comment y
-  remédier
-excerpt: >-
-  Les dix derniers kilomètres d'un ultra se jouent en descente, jambes
-  détruites. La cause est musculaire, pas cardiaque. La parade aussi.
-category: Entraînement & Performances
+slug: "entrainement-specifique-descente-trail-excentrique"
+title: "Entraînement spécifique descente : pourquoi les jambes lâchent et comment y remédier"
+excerpt: "Les dix derniers kilomètres d'un ultra se jouent en descente, jambes détruites. La cause est musculaire, pas cardiaque. La parade aussi."
+category: "Entraînement & Performances"
 categorySlug: entrainement
-author: Thomas Rouvier
-date: 17 avril 2026
-readTime: 9 min
-image: /articles/entrainement-specifique-descente-trail-excentrique-hero.jpg
-tags:
-  - Descente
-  - Excentrique
-  - Renforcement
-  - Quadriceps
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "17 avril 2026"
+readTime: "9 min"
+image: "/articles/entrainement-specifique-descente-trail-excentrique-hero.jpg"
+tags: ["Descente", "Excentrique", "Renforcement", "Quadriceps"]
 ---
 
-Kilomètre 150 de la CCC, [descente](https://www.altitude-trail.fr/articles/la-descente-fait-plus-de-degats-que-la-montee-voici-comment-proteger-vos-articulations) finale sur Chamonix. Le cardio tient, la tête aussi. Ce sont les quadriceps qui refusent d'amortir le prochain pas. Cette scène n'est pas une fatalité : c'est un déficit d'entraînement spécifique.
+Kilomètre 150 de la CCC, descente finale sur Chamonix. Le cardio tient, la tête aussi. Ce sont les quadriceps qui refusent d'amortir le prochain pas. Cette scène n'est pas une fatalité : c'est un déficit d'entraînement spécifique.
 
 Les dix derniers kilomètres d'un ultra se jouent rarement sur le souffle. Ils se jouent sur la capacité musculaire à encaisser la descente. La contraction excentrique — muscle allongé sous tension — provoque des micro-lésions des sarcomères nettement plus marquées qu'en travail concentrique, un déficit fonctionnel de 50 à 80 % pendant cinq à sept jours sur le quadriceps et des courbatures retardées à 24-48 heures. La littérature en physiologie du sport documente ces mécanismes depuis trente ans. L'entraînement du trailer, lui, les ignore encore trop souvent.
 
@@ -50,7 +41,7 @@ Le troisième pilier, c'est le renforcement hors course. Squat avec phase excent
 
 ## Les erreurs qui ruinent les préparations
 
-Première erreur, l'évitement. Le coureur qui a déjà connu une tendinite rotulienne ou un [syndrome](https://www.altitude-trail.fr/articles/syndrome-essuie-glace-itbs-genou-trail-descente) de l'essuie-glace en descente développe une peur légitime, puis contre-productive. Moins il descend, moins il tolère, plus il casse à la course. La solution n'est pas l'évitement, c'est la progression encadrée.
+Première erreur, l'évitement. Le coureur qui a déjà connu une tendinite rotulienne ou un syndrome de l'essuie-glace en descente développe une peur légitime, puis contre-productive. Moins il descend, moins il tolère, plus il casse à la course. La solution n'est pas l'évitement, c'est la progression encadrée.
 
 Deuxième erreur, le tout-concentrique en salle. Squats explosifs, presse, fentes dynamiques : excellent pour la force générale, insuffisant pour le trail long. Sans travail excentrique ciblé, la préparation laisse un trou béant.
 

@@ -1,26 +1,19 @@
 ---
-slug: materiel-minimum-demarrer-trail-budget
-title: Le matériel minimum pour démarrer le trail running (avec budget)
-excerpt: >-
-  Inutile de dépenser 800 € pour se lancer. On dresse la liste des
-  indispensables, gamme et prix réalistes pour la saison 2026.
-category: Débuter
+slug: "materiel-minimum-demarrer-trail-budget"
+title: "Le matériel minimum pour démarrer le trail running (avec budget)"
+excerpt: "Inutile de dépenser 800 € pour se lancer. On dresse la liste des indispensables, gamme et prix réalistes pour la saison 2026."
+category: "Débuter"
 categorySlug: debuter
-author: Yann Karroum
-date: 10 avril 2026
-readTime: 8 min
-image: /articles/materiel-minimum-demarrer-trail-budget-hero.jpg
-tags:
-  - Matériel
-  - Budget
-  - Équipement
-  - Débuter
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "10 avril 2026"
+readTime: "8 min"
+image: "/articles/materiel-minimum-demarrer-trail-budget-hero.jpg"
+tags: ["Matériel", "Budget", "Équipement", "Débuter"]
 ---
 
 On entend souvent qu'il faut mille euros et une boutique spécialisée pour commencer le trail. C'est faux. Trois cent cinquante euros suffisent, bien dépensés, pour courir en sécurité sur les sentiers pendant deux ans.
 
-Le trail running souffre d'un paradoxe : discipline née du minimalisme montagnard, elle s'est transformée en vitrine d'équipement high-tech où la moindre ceinture porte-gels coûte le prix d'un plein d'essence. Pour un débutant 2026, le set indispensable tient en six pièces, pour un budget réaliste de 350 à 500 €. [Chaussures](https://www.altitude-trail.fr/articles/choisir-premiere-paire-chaussures-trail-guide-complet), textile respirant, veste coupe-vent, casquette, sac d'hydratation et frontale : au-delà, tout relève du confort ou de la performance. Les bâtons, les montres GPS sophistiquées, les guêtres, la ceinture de nutrition — ensuite, si affinités.
+Le trail running souffre d'un paradoxe : discipline née du minimalisme montagnard, elle s'est transformée en vitrine d'équipement high-tech où la moindre ceinture porte-gels coûte le prix d'un plein d'essence. Pour un débutant 2026, le set indispensable tient en six pièces, pour un budget réaliste de 350 à 500 €. Chaussures, textile respirant, veste coupe-vent, casquette, sac d'hydratation et frontale : au-delà, tout relève du confort ou de la performance. Les bâtons, les montres GPS sophistiquées, les guêtres, la ceinture de nutrition — ensuite, si affinités.
 
 ## Les chaussures, seule ligne budgétaire non négociable
 
@@ -68,4 +61,4 @@ Deux leviers pour comprimer le budget sans sacrifier la qualité. D'abord les p�
 
 350 à 500 € pour un set complet, c'est moins qu'un vélo de route d'entrée de gamme, moins qu'une paire de skis et à peine plus qu'un abonnement annuel en salle. Le trail reste l'un des sports d'endurance les plus accessibles financièrement — contrairement au discours ambiant.
 
-La vraie tentation du débutant n'est pas le sous-équipement, c'est le sur-équipement anxiogène entretenu par l'industrie. Montre GPS à 700 €, chaussures à plaque carbone, électrolytes premium, textile de compression : rien de tout cela ne vous fera finir votre [premier](https://www.altitude-trail.fr/articles/premier-10km-trail-plan-entrainement-12-semaines) 25 km. Ce qui le fera, c'est progresser graduellement, écouter votre corps et consulter un médecin du sport si une douleur persiste au-delà de dix jours. Le matériel suit. Il ne précède jamais.
+La vraie tentation du débutant n'est pas le sous-équipement, c'est le sur-équipement anxiogène entretenu par l'industrie. Montre GPS à 700 €, chaussures à plaque carbone, électrolytes premium, textile de compression : rien de tout cela ne vous fera finir votre premier 25 km. Ce qui le fera, c'est progresser graduellement, écouter votre corps et consulter un médecin du sport si une douleur persiste au-delà de dix jours. Le matériel suit. Il ne précède jamais.

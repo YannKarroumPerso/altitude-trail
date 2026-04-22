@@ -7,8 +7,8 @@ excerpt: >-
   l'assistance et l'esprit des courses autour du Mont-Blanc.
 category: Actualités
 categorySlug: actualites
-author: Yann Karroum
-date: 17 avril 2026
+author: Rédaction Altitude
+date: "17 avril 2026"
 readTime: 6 min
 image: /articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb-hero.jpg
 tags:
@@ -29,7 +29,6 @@ imagePrompt2: >-
   visible, string lights overhead, wooden tables covered with cups and bananas,
   warm golden tungsten lighting contrasting with dark mountains
 rewrittenAt: '2026-04-20'
-updatedAt: 22 avril 2026
 ---
 Pas de pacers sur l'UTMB. La ligne est tracée, assumée et elle ne bougera pas. Julien Chorier, directeur sportif de l'organisation et ancien vainqueur de la Hardrock, vient de le confirmer dans un entretien publié par U-Trail, au moment même où la question revenait cogner aux portes de Chamonix via un malentendu italien.
 
@@ -37,7 +36,7 @@ L'affaire est partie du Tor des Géants, où François d'Haene a été accusé �
 
 ## Une polémique italienne qui sert de révélateur
 
-L'incident du Tor est un prétexte, pas une cause. Ce qui s'est joué là-bas — des concurrents calant leur rythme sur celui de d'Haene, perçus à tort comme des pacers — n'est qu'un symptôme. Le vrai sujet, c'est l'écart grandissant [entre](https://www.altitude-trail.fr/articles/a-71-ans-michel-poletti-traverse-la-france-a-pied-entre-ses-courses-utmb) les standards américains et la doctrine chamoniarde. À Western States, le pacing est autorisé à partir de Foresthill, au 100e kilomètre. À Hardrock, dès Grouse Gulch. Chorier connaît le dispositif de l'intérieur : il a couru et gagné là-bas, en 2011, avec un pacer à ses côtés sur la seconde moitié.
+L'incident du Tor est un prétexte, pas une cause. Ce qui s'est joué là-bas — des concurrents calant leur rythme sur celui de d'Haene, perçus à tort comme des pacers — n'est qu'un symptôme. Le vrai sujet, c'est l'écart grandissant entre les standards américains et la doctrine chamoniarde. À Western States, le pacing est autorisé à partir de Foresthill, au 100e kilomètre. À Hardrock, dès Grouse Gulch. Chorier connaît le dispositif de l'intérieur : il a couru et gagné là-bas, en 2011, avec un pacer à ses côtés sur la seconde moitié.
 
 ![Illustration Actualités](/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb-1.jpg)
 
@@ -45,7 +44,7 @@ Cette expérience rend sa position d'autant plus singulière. Il ne juge pas le 
 
 ## Le règlement UTMB, verrou plutôt que curseur
 
-Le cadre est connu, mais il mérite d'être rappelé. Sur l'ensemble des épreuves du festival, accompagner un coureur en course — à pied ou à vélo — est interdit hors des zones d'assistance balisées. Pénalité de temps ou disqualification à la clé. Le coureur porte son matériel [obligatoire](https://www.altitude-trail.fr/articles/lampe-rouge-obligatoire-a-l-utmb-symbole-ecologique-ou-poudre-aux-yeux), gère seul ses moments de doute, traverse la nuit avec ses propres ressources.
+Le cadre est connu, mais il mérite d'être rappelé. Sur l'ensemble des épreuves du festival, accompagner un coureur en course — à pied ou à vélo — est interdit hors des zones d'assistance balisées. Pénalité de temps ou disqualification à la clé. Le coureur porte son matériel obligatoire, gère seul ses moments de doute, traverse la nuit avec ses propres ressources.
 
 Chorier, interrogé par U-Trail, défend cette architecture comme un choix philosophique et non comme un réflexe conservateur. « L'UTMB s'est construit sur une philosophie d'autonomie », résume-t-il en substance. Ouvrir les pacers reviendrait, selon lui, à déplacer le curseur de ce que la course mesure. Un coureur accompagné bénéficie d'un appui moral, d'une gestion logistique déportée, parfois d'un porteur de fait. Les études sur les ultras américains montrent que les temps chutent quand le pacer entre en jeu. Ce n'est pas la même course.
 

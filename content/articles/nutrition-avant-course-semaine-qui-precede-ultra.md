@@ -1,24 +1,17 @@
 ---
-slug: nutrition-avant-course-semaine-qui-precede-ultra
-title: 'Nutrition avant-course : la semaine qui précède un ultra'
-excerpt: >-
-  Carbohydrate loading, hydratation, fibres, alcool : comment bâtir les sept
-  derniers jours avant le départ pour arriver sur la ligne au top.
-category: Nutrition
+slug: "nutrition-avant-course-semaine-qui-precede-ultra"
+title: "Nutrition avant-course : la semaine qui précède un ultra"
+excerpt: "Carbohydrate loading, hydratation, fibres, alcool : comment bâtir les sept derniers jours avant le départ pour arriver sur la ligne au top."
+category: "Nutrition"
 categorySlug: nutrition
-author: Claire Mercier
-date: 10 avril 2026
-readTime: 8 min
-image: /articles/nutrition-avant-course-semaine-qui-precede-ultra-hero.jpg
-tags:
-  - Préparation course
-  - Glucides
-  - Hydratation
-  - Ultra
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "10 avril 2026"
+readTime: "8 min"
+image: "/articles/nutrition-avant-course-semaine-qui-precede-ultra-hero.jpg"
+tags: ["Préparation course", "Glucides", "Hydratation", "Ultra"]
 ---
 
-La semaine qui précède un ultra ne se gagne pas à table, mais elle peut largement s'y perdre. Trop de coureurs sabotent des mois de préparation en misant sur des recettes héritées des années 90, ou en cédant à la panique [alimentaire](https://www.altitude-trail.fr/articles/nutrition-ultra-plan-alimentaire-dix-heures-effort) des derniers jours.
+La semaine qui précède un ultra ne se gagne pas à table, mais elle peut largement s'y perdre. Trop de coureurs sabotent des mois de préparation en misant sur des recettes héritées des années 90, ou en cédant à la panique alimentaire des derniers jours.
 
 Sept jours avant le départ, l'enjeu n'est plus de construire la forme mais de la préserver et de remplir les réservoirs. Les recommandations actuelles, synthétisées notamment par l'Académie américaine de nutrition et de diététique et reprises dans les consensus de nutrition sportive publiés au *British Journal of Sports Medicine*, convergent vers un protocole resserré : 8 à 12 g de glucides par kilo de poids corporel dans les 36 à 48 heures précédant l'épreuve, une hydratation mesurée, une digestion allégée. Fini la semaine d'orgie de pâtes. Place à une ingénierie plus fine, plus courte, mieux ciblée.
 
@@ -34,7 +27,7 @@ Le corollaire, souvent ignoré, c'est le tapering. Réduire le volume d'entraîn
 
 ## L'hydratation, entre vigilance et paranoïa
 
-Se présenter déshydraté sur un [ultra](https://www.altitude-trail.fr/articles/cafeine-ultra-trail-dosage-vigilance-nocturne) est une faute. S'hyperhydrater dans les 48 heures qui précèdent en est une autre, plus pernicieuse, qui peut ouvrir la voie à une hyponatrémie de dilution — une des causes majeures d'hospitalisation en ultra d'endurance selon les données publiées par la *Wilderness Medical Society*.
+Se présenter déshydraté sur un ultra est une faute. S'hyperhydrater dans les 48 heures qui précèdent en est une autre, plus pernicieuse, qui peut ouvrir la voie à une hyponatrémie de dilution — une des causes majeures d'hospitalisation en ultra d'endurance selon les données publiées par la *Wilderness Medical Society*.
 
 La règle raisonnable : boire à sa soif, viser une urine jaune pâle (pas transparente), saler normalement son alimentation. Les protocoles de pré-charge sodée, populaires dans le triathlon longue distance, peuvent avoir un intérêt pour les gros sueurs ou les courses en forte chaleur, mais ils relèvent d'un accompagnement individualisé par un professionnel de santé ou un nutritionniste du sport. Pas d'improvisation la veille sur la base d'un post Instagram.
 

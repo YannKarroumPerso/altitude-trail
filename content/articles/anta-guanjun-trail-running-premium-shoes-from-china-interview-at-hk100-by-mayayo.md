@@ -7,8 +7,8 @@ excerpt: >-
   bouscule les codes du trail premium.
 category: Actualités
 categorySlug: actualites
-author: Yann Karroum
-date: 1 avril 2026
+author: Rédaction Altitude
+date: "1 avril 2026"
 readTime: 5 min
 image: >-
   /articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc-hero.jpg
@@ -20,15 +20,14 @@ tags:
   - industrie
 sourceUrl: 'https://trailrunningspain.com/2026/01/23/anta-guanjun-interview-by-mayayo/'
 rewrittenAt: '2026-04-20'
-updatedAt: 22 avril 2026
 ---
-Hong Kong, janvier. Sur la ligne du HK100, Anta ne vient pas vendre des [chaussures](https://www.altitude-trail.fr/articles/chaussures-carbone-trail-itra-reglementation-limite). La marque chinoise vient poser un acte politique : celui d'un équipementier qui refuse désormais son rôle historique de sous-traitant du sport mondial.
+Hong Kong, janvier. Sur la ligne du HK100, Anta ne vient pas vendre des chaussures. La marque chinoise vient poser un acte politique : celui d'un équipementier qui refuse désormais son rôle historique de sous-traitant du sport mondial.
 
 Le conglomérat de Xiamen a profité de l'épreuve hongkongaise, dont il est sponsor titre, pour lancer mondialement sa Guanjun Saker 3RC, positionnée comme vaisseau amiral trail. Dans un entretien publié par Trail Running Spain, les responsables produit détaillent une feuille de route ambitieuse : imposer la gamme Guanjun — « champion » en mandarin — sur le segment premium, d'abord en Asie via HK100, Doi Inthanon, TransLantau ou Ultra-Trail Ninghai, puis en Europe et en Amérique du Nord. Le tout sur un marché du trail où la Chine pèse déjà lourd, mais sous d'autres bannières.
 
 ## Le paradoxe Anta : tout le monde porte du Anta sans le savoir
 
-Anta n'évoque rien à un traileur de Chamonix. Pourtant, si ce même coureur enfile une S/Lab Pulsar, une Arc'teryx Norvan ou grille un set de tennis avec une raquette Wilson, il porte du Anta. Le groupe basé dans le Fujian a pris le contrôle d'Amer Sports et détient de fait [Salomon](https://www.altitude-trail.fr/articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe), Arc'teryx, Wilson et consorts. On tient là le premier paradoxe éditorial de cette histoire : Anta est déjà partout sur les sentiers européens. Elle n'y est juste pas visible sous son propre nom.
+Anta n'évoque rien à un traileur de Chamonix. Pourtant, si ce même coureur enfile une S/Lab Pulsar, une Arc'teryx Norvan ou grille un set de tennis avec une raquette Wilson, il porte du Anta. Le groupe basé dans le Fujian a pris le contrôle d'Amer Sports et détient de fait Salomon, Arc'teryx, Wilson et consorts. On tient là le premier paradoxe éditorial de cette histoire : Anta est déjà partout sur les sentiers européens. Elle n'y est juste pas visible sous son propre nom.
 
 ![Illustration Actualités](/articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc-1.jpg)
 

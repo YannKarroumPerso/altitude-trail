@@ -1,31 +1,17 @@
 ---
-slug: >-
-  la-descente-fait-plus-de-degats-que-la-montee-voici-comment-proteger-vos-articulations
-title: >-
-  La descente fait plus de dégâts que la montée : voici comment protéger vos
-  articulations
-excerpt: >-
-  En descente, les impacts atteignent 8 à 12 fois le poids du corps. Technique
-  de foulée, placement du bassin, usage des bâtons, renforcement excentrique :
-  le guide complet pour descendre vite sans exploser genoux et quadriceps.
-category: Blessures & Préventions
-categorySlug: blessures-preventions
-author: Thomas Rouvier
-date: 22 avril 2026
-readTime: 8 min
-image: /articles/descente-trail-articulations-mo9t6xjv-hero.jpg
-tags:
-  - descente
-  - technique
-  - genoux
-  - bâtons
-  - excentrique
-  - quadriceps
-  - prévention
-updatedAt: 22 avril 2026
+slug: "la-descente-fait-plus-de-degats-que-la-montee-voici-comment-proteger-vos-articulations"
+title: "La descente fait plus de dégâts que la montée : voici comment protéger vos articulations"
+excerpt: "En descente, les impacts atteignent 8 à 12 fois le poids du corps. Technique de foulée, placement du bassin, usage des bâtons, renforcement excentrique : le guide complet pour descendre vite sans exploser genoux et quadriceps."
+category: "Blessures & Préventions"
+categorySlug: "blessures-preventions"
+author: "Rédaction Altitude Trail"
+date: "22 avril 2026"
+readTime: "8 min"
+image: "/articles/descente-trail-articulations-mo9t6xjv-hero.jpg"
+tags: ["descente", "technique", "genoux", "bâtons", "excentrique", "quadriceps", "prévention"]
 ---
 
-Tous les traileurs le savent intuitivement : les courbatures après une grosse course ne sont pas dans les mollets qui ont monté. Elles sont dans les quadriceps, les genoux, les chevilles qui ont descendu. Ce qui se passe à la [descente](https://www.altitude-trail.fr/articles/entrainement-specifique-descente-trail-excentrique) est l'un des paradoxes biomécaniques les plus brutaux du sport : **on y va plus vite, on y dépense moins d'énergie métabolique, mais on détruit bien plus de tissu**. Descendre mal, c'est exploser ses articulations à l'échelle d'une vie de coureur.
+Tous les traileurs le savent intuitivement : les courbatures après une grosse course ne sont pas dans les mollets qui ont monté. Elles sont dans les quadriceps, les genoux, les chevilles qui ont descendu. Ce qui se passe à la descente est l'un des paradoxes biomécaniques les plus brutaux du sport : **on y va plus vite, on y dépense moins d'énergie métabolique, mais on détruit bien plus de tissu**. Descendre mal, c'est exploser ses articulations à l'échelle d'une vie de coureur.
 
 ## Pourquoi la descente est-elle si destructrice ?
 
@@ -33,7 +19,7 @@ Sur terrain plat, chaque foulée impose une charge de **2,5 à 3 fois le poids d
 
 **En descente, la charge explose à 8 à 12 fois le poids du corps** à chaque contact. Un coureur de 70 kg encaisse 700 à 840 kg de force instantanée par foulée. Sur une descente technique de 1000 m D- (ce qui arrive sur n'importe quelle course montagne), c'est entre 2 000 et 3 500 foulées.
 
-[Pourquoi](https://www.altitude-trail.fr/articles/fasciite-plantaire-trail-causes-traitement-prevention) ? Parce que le muscle travaille en **excentrique** (il s'allonge sous tension), ce qui génère 30 à 40 % de force en plus qu'en concentrique. Et surtout, parce qu'à chaque pose, le corps doit décélérer une masse qui descend. Cette décélération est absorbée par les quadriceps, le tendon rotulien, et les ligaments du genou.
+Pourquoi ? Parce que le muscle travaille en **excentrique** (il s'allonge sous tension), ce qui génère 30 à 40 % de force en plus qu'en concentrique. Et surtout, parce qu'à chaque pose, le corps doit décélérer une masse qui descend. Cette décélération est absorbée par les quadriceps, le tendon rotulien, et les ligaments du genou.
 
 Résultat : **les micro-traumatismes musculaires sont 5 à 8 fois supérieurs en descente qu'en montée**. La fameuse courbature qui dure 3 jours après l'UTMB ne vient pas des 10 000 m de D+ positifs. Elle vient des 10 000 m de D- négatifs.
 
@@ -105,4 +91,3 @@ Même avec une technique parfaite, descendre à fond pendant 6 heures est destru
 - Sur ultra, garde une marge sur les descentes de la première moitié. La descente finale est le piège n°1.
 
 La montée construit ta capacité aérobie. La descente construit ta longévité de coureur. Maîtrise les deux et tu pourras courir encore à 60 ans.
-             

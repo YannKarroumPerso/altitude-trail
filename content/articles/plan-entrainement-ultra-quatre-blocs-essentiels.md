@@ -1,21 +1,14 @@
 ---
-slug: plan-entrainement-ultra-quatre-blocs-essentiels
-title: 'Bâtir son plan d''entraînement pour un ultra : les 4 blocs essentiels'
-excerpt: >-
-  Base, développement, spécifique, affûtage : comprendre ces quatre phases
-  change la façon dont on structure six mois de préparation.
-category: Entraînement & Performances
+slug: "plan-entrainement-ultra-quatre-blocs-essentiels"
+title: "Bâtir son plan d'entraînement pour un ultra : les 4 blocs essentiels"
+excerpt: "Base, développement, spécifique, affûtage : comprendre ces quatre phases change la façon dont on structure six mois de préparation."
+category: "Entraînement & Performances"
 categorySlug: entrainement
-author: Thomas Rouvier
-date: 12 avril 2026
-readTime: 10 min
-image: /articles/plan-entrainement-ultra-quatre-blocs-essentiels-hero.jpg
-tags:
-  - Plan d'entraînement
-  - Ultra
-  - Périodisation
-  - Performance
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "12 avril 2026"
+readTime: "10 min"
+image: "/articles/plan-entrainement-ultra-quatre-blocs-essentiels-hero.jpg"
+tags: ["Plan d'entraînement", "Ultra", "Périodisation", "Performance"]
 ---
 
 Six mois. C'est le délai qu'un coureur sérieux devrait s'accorder pour préparer un premier ultra sans bricoler. Pas six semaines de panique et trois sorties longues empilées en espérant que le corps suive.
@@ -38,7 +31,7 @@ Bloc deux. On a posé les fondations, on introduit l'intensité. Seuil, VMA cour
 
 Les sorties longues prennent du volume et du dénivelé. On passe de 2h30 à 4 ou 5 heures selon la cible. On grimpe vraiment, on descend vraiment, les quadriceps apprennent à encaisser. C'est le moment où la majorité des coureurs sentent un saut qualitatif : la VO2max gagne quelques points, l'économie de course s'améliore, la fréquence cardiaque à allure donnée baisse de façon visible.
 
-C'est aussi la phase à risque. Ajouter de l'intensité sur un volume élevé est précisément le cocktail qui fabrique les tendinopathies d'Achille et les syndromes de l'essuie-glace. La règle : si une [douleur](https://www.altitude-trail.fr/articles/preparation-mentale-ultra-gerer-nuit-douleur-bas) dure plus de trois sorties, on consulte. Les ressources des fédérations et les recommandations du manuel Brukner and Khan sont unanimes sur la fenêtre d'intervention précoce. Attendre, c'est transformer dix jours d'arrêt en deux mois d'errance.
+C'est aussi la phase à risque. Ajouter de l'intensité sur un volume élevé est précisément le cocktail qui fabrique les tendinopathies d'Achille et les syndromes de l'essuie-glace. La règle : si une douleur dure plus de trois sorties, on consulte. Les ressources des fédérations et les recommandations du manuel Brukner and Khan sont unanimes sur la fenêtre d'intervention précoce. Attendre, c'est transformer dix jours d'arrêt en deux mois d'errance.
 
 ## Six semaines de spécifique : répliquer la course avant la course
 
@@ -48,7 +41,7 @@ Le week-end devient stratégique. Les sorties dos-à-dos — long samedi, long d
 
 ![Illustration Entraînement & Performances](/articles/plan-entrainement-ultra-quatre-blocs-essentiels-2.jpg)
 
-C'est aussi le moment de verrouiller la [nutrition](https://www.altitude-trail.fr/articles/nutrition-ultra-plan-alimentaire-dix-heures-effort), le matériel, les bâtons, les chaussures, la gestion du froid nocturne. Les coureurs expérimentés comme Ludovic Pommeret ou Camille Bruyas l'ont répété publiquement : rien de nouveau le jour J. Tout ce qui sera utilisé en course doit avoir été testé au moins trois fois à l'entraînement, dans des conditions proches. Les apports glucidiques, en particulier, doivent être répétés pour entraîner le tube digestif, un paramètre que les recherches sur le gut training ont solidement documenté ces dernières années.
+C'est aussi le moment de verrouiller la nutrition, le matériel, les bâtons, les chaussures, la gestion du froid nocturne. Les coureurs expérimentés comme Ludovic Pommeret ou Camille Bruyas l'ont répété publiquement : rien de nouveau le jour J. Tout ce qui sera utilisé en course doit avoir été testé au moins trois fois à l'entraînement, dans des conditions proches. Les apports glucidiques, en particulier, doivent être répétés pour entraîner le tube digestif, un paramètre que les recherches sur le gut training ont solidement documenté ces dernières années.
 
 Semaine de récupération obligatoire à la fin du bloc. Non négociable.
 

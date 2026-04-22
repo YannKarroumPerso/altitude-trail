@@ -1,21 +1,14 @@
 ---
-slug: ampoules-frottements-ultra-prevention-gestion
-title: 'Ampoules et frottements en ultra : l''ennemi sous-estimé'
-excerpt: >-
-  Un détail qui sabote des courses entières. La gestion des frottements relève
-  autant de la préparation que du plan d'attaque aux ravitaillements.
-category: Blessures & Préventions
+slug: "ampoules-frottements-ultra-prevention-gestion"
+title: "Ampoules et frottements en ultra : l'ennemi sous-estimé"
+excerpt: "Un détail qui sabote des courses entières. La gestion des frottements relève autant de la préparation que du plan d'attaque aux ravitaillements."
+category: "Blessures & Préventions"
 categorySlug: blessures
-author: Thomas Rouvier
-date: 9 avril 2026
-readTime: 8 min
-image: /articles/ampoules-frottements-ultra-prevention-gestion-hero.jpg
-tags:
-  - Ampoules
-  - Ultra
-  - Pieds
-  - Équipement
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "9 avril 2026"
+readTime: "8 min"
+image: "/articles/ampoules-frottements-ultra-prevention-gestion-hero.jpg"
+tags: ["Ampoules", "Ultra", "Pieds", "Équipement"]
 ---
 
 Un ongle qui accroche, une couture qui frotte, une chaussette humide depuis quatre heures. Et soudain, à 80 kilomètres de l'arrivée, la course bascule. Pas sur un mollet explosé ou une hypoglycémie : sur une ampoule de trois centimètres sous le talon.
@@ -36,7 +29,7 @@ Ajoutez les facteurs aggravants individuels. Une hyper-pronation qui crée un po
 
 La plupart des coureurs découvrent la prévention dans le sac, la veille du départ. Trop tard. Un épiderme plantaire digne d'un ultra se construit sur deux à trois semaines, idéalement intégré au tapering.
 
-Le tannage à l'alcool camphré à 10 % reste la méthode de référence, validée empiriquement par des générations de militaires et de marcheurs au long cours. Appliqué matin et soir sur pieds propres et secs, il déshydrate la couche cornée superficielle et la rigidifie légèrement. L'effet n'a rien de magique : la peau [devient](https://www.altitude-trail.fr/articles/lombalgie-traileur-sac-hydratation-gestion-charge) moins perméable et tolère mieux le cisaillement. Certains préfèrent le thé noir concentré, dont les tanins agissent par voie similaire. À éviter chez les coureurs à peau sèche ou fissurée, chez qui l'effet peut se retourner.
+Le tannage à l'alcool camphré à 10 % reste la méthode de référence, validée empiriquement par des générations de militaires et de marcheurs au long cours. Appliqué matin et soir sur pieds propres et secs, il déshydrate la couche cornée superficielle et la rigidifie légèrement. L'effet n'a rien de magique : la peau devient moins perméable et tolère mieux le cisaillement. Certains préfèrent le thé noir concentré, dont les tanins agissent par voie similaire. À éviter chez les coureurs à peau sèche ou fissurée, chez qui l'effet peut se retourner.
 
 Le callotage mérite un mot. Pas l'ablation brutale à la râpe la veille du départ — une aberration qui expose un tissu neuf et fragile. Un lissage doux au nubuck ou à la pierre ponce, une à deux fois par semaine sur plusieurs mois, maintient une corne fonctionnelle sans hyperkératose. L'objectif : une peau épaisse mais souple, pas une carapace qui se décolle en bloc.
 
@@ -54,7 +47,7 @@ La pointure mérite un audit honnête. Les pieds gonflent de trois à huit pour 
 
 Le kit ampoules tient dans une pochette de la taille d'un paquet de gels. Aiguille stérile emballée individuellement, compresses alcoolisées, pansements hydrocolloïdes type Compeed, tape micropore en largeur 2,5 cm, mini-flacon de Bétadine dermique, ciseaux courbes. Rien de plus. Certains y ajoutent une lime carton pour un ongle qui se soulève.
 
-L'intervention au ravito obéit à une logique contre-intuitive : le temps investi à traiter correctement un [pied](https://www.altitude-trail.fr/articles/ongles-noirs-onychomycose-pied-coureur-soins) au kilomètre 70 est toujours rentabilisé sur les 50 suivants. Déchausser. Sécher intégralement, y compris entre les orteils. Changer de chaussettes, pas simplement les retourner. Inspecter, même si rien ne fait mal : une zone rouge se traite en trente secondes, une phlyctène ouverte en quinze minutes.
+L'intervention au ravito obéit à une logique contre-intuitive : le temps investi à traiter correctement un pied au kilomètre 70 est toujours rentabilisé sur les 50 suivants. Déchausser. Sécher intégralement, y compris entre les orteils. Changer de chaussettes, pas simplement les retourner. Inspecter, même si rien ne fait mal : une zone rouge se traite en trente secondes, une phlyctène ouverte en quinze minutes.
 
 Faut-il percer ? La question divise. La position la plus cohérente, convergente avec les recommandations des sociétés de médecine du sport : percer une ampoule tendue de plus d'un centimètre pour soulager la pression, en conservant impérativement le toit cutané qui protège le derme. Ponction latérale à l'aiguille stérile, pression douce pour évacuer, désinfection, pansement hydrocolloïde par-dessus. Une ampoule petite et non douloureuse se laisse tranquille, protégée par un tape.
 

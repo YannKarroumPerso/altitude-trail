@@ -1,27 +1,19 @@
 ---
-slug: stations-montagne-ete-vtt-trail-modele-economique
-title: 'Stations de montagne : la bataille de l''été entre VTT et trail'
-excerpt: >-
-  Les stations françaises cherchent leur nouveau modèle économique hors saison
-  hivernale. Le trail et le VTT se partagent — ou s'affrontent — sur les mêmes
-  versants.
-category: Actualités
+slug: "stations-montagne-ete-vtt-trail-modele-economique"
+title: "Stations de montagne : la bataille de l'été entre VTT et trail"
+excerpt: "Les stations françaises cherchent leur nouveau modèle économique hors saison hivernale. Le trail et le VTT se partagent — ou s'affrontent — sur les mêmes versants."
+category: "Actualités"
 categorySlug: actualites
-author: Yann Karroum
-date: 13 avril 2026
-readTime: 9 min
-image: /articles/stations-montagne-ete-vtt-trail-modele-economique-hero.jpg
-tags:
-  - Stations
-  - Économie
-  - Aménagement
-  - Tendance
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "13 avril 2026"
+readTime: "9 min"
+image: "/articles/stations-montagne-ete-vtt-trail-modele-economique-hero.jpg"
+tags: ["Stations", "Économie", "Aménagement", "Tendance"]
 ---
 
 La saison blanche ne suffit plus. Les stations de montagne françaises ont fait leurs comptes : sans un été rentable, le modèle ne tient plus. Reste à choisir son camp — ou à refuser de choisir.
 
-**Entre 2015 et aujourd'hui, la fréquentation estivale des stations alpines a progressé de façon continue, portée par deux locomotives : le VTT de descente et le [trail](https://www.altitude-trail.fr/articles/361-lynx-la-chaussure-de-trail-qui-monte-discretement-en-puissance) running. Les investissements suivent — remontées mécaniques ouvertes l'été, balisage dédié, labellisations Label'Trail de la FFA, parcs de bike park dimensionnés pour l'enduro world. Selon les chiffres de Domaines Skiables de France, l'été représente désormais entre 15 et 25 % du chiffre d'affaires des stations les plus engagées dans la diversification. Derrière la promesse d'une montagne quatre saisons, une question stratégique : faut-il se spécialiser, ou faire cohabiter deux publics qui partagent les mêmes versants sans toujours partager les mêmes codes ?**
+**Entre 2015 et aujourd'hui, la fréquentation estivale des stations alpines a progressé de façon continue, portée par deux locomotives : le VTT de descente et le trail running. Les investissements suivent — remontées mécaniques ouvertes l'été, balisage dédié, labellisations Label'Trail de la FFA, parcs de bike park dimensionnés pour l'enduro world. Selon les chiffres de Domaines Skiables de France, l'été représente désormais entre 15 et 25 % du chiffre d'affaires des stations les plus engagées dans la diversification. Derrière la promesse d'une montagne quatre saisons, une question stratégique : faut-il se spécialiser, ou faire cohabiter deux publics qui partagent les mêmes versants sans toujours partager les mêmes codes ?**
 
 ## Le hors-neige est devenu une question de survie
 
@@ -29,7 +21,7 @@ La pression est connue. Enneigement incertain sous 2 000 mètres, coûts d'explo
 
 ![Illustration Actualités](/articles/stations-montagne-ete-vtt-trail-modele-economique-1.jpg)
 
-Dans ce contexte, le [trail](https://www.altitude-trail.fr/articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc) et le VTT cochent toutes les cases. Investissement modéré comparé à une remontée mécanique neuve. Clientèle urbaine, sportive, à fort pouvoir d'achat. Séjours de trois à sept nuits en moyenne, souvent en juillet-août mais de plus en plus en juin et septembre. Les deux disciplines prolongent la saison, étalent la fréquentation, remplissent les hébergements marchands.
+Dans ce contexte, le trail et le VTT cochent toutes les cases. Investissement modéré comparé à une remontée mécanique neuve. Clientèle urbaine, sportive, à fort pouvoir d'achat. Séjours de trois à sept nuits en moyenne, souvent en juillet-août mais de plus en plus en juin et septembre. Les deux disciplines prolongent la saison, étalent la fréquentation, remplissent les hébergements marchands.
 
 Reste qu'elles ne produisent pas la même économie, ni la même empreinte sur le territoire.
 

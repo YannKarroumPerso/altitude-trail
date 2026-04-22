@@ -7,8 +7,8 @@ excerpt: >-
   de Land's End à John O'Groats.
 category: Courses & Récits
 categorySlug: courses-recits
-author: Yann Karroum
-date: 31 mars 2026
+author: Rédaction Altitude
+date: "31 mars 2026"
 readTime: 6 min
 image: >-
   /articles/bob-yates-1-030-miles-a-travers-le-royaume-uni-pour-feter-ses-60-ans-hero.jpg
@@ -21,11 +21,10 @@ tags:
 sourceUrl: >-
   https://ultrarunningworld.co.uk/bob-yates-completes-1030-mile-uk-run-for-60th-birthday/
 rewrittenAt: '2026-04-20'
-updatedAt: 22 avril 2026
 ---
 Traverser la Grande-Bretagne d'une pointe à l'autre, à la course, sans temps de repos, à soixante ans. L'exploit de Bob Yates tient moins du record que du manifeste. Celui d'une génération d'ultra-runners tardifs qui réécrit, à bas bruit, ce qu'on pensait savoir du vieillissement sportif.
 
-Le 4 juillet, le Britannique a bouclé à John O'Groats, pointe nord de l'Écosse, les 1 030 [miles](https://www.altitude-trail.fr/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de) — soit plus de 1 650 kilomètres — qui le séparaient de Land's End, tout au sud de la Cornouailles. Trente-cinq jours de course, près de 47 kilomètres par jour en moyenne, l'équivalent d'un ultra quotidien pendant cinq semaines. Le tout pour ses soixante ans et pour lever plus de 5 000 livres au profit d'Humanity Direct, ONG qui finance des opérations chirurgicales pédiatriques en Ouganda. Son récit, rapporté par Ultrarunning World, raconte surtout une trajectoire improbable : celle d'un sédentaire de bureau devenu, en six ans, finisher d'un des défis d'endurance les plus redoutés du Royaume-Uni.
+Le 4 juillet, le Britannique a bouclé à John O'Groats, pointe nord de l'Écosse, les 1 030 miles — soit plus de 1 650 kilomètres — qui le séparaient de Land's End, tout au sud de la Cornouailles. Trente-cinq jours de course, près de 47 kilomètres par jour en moyenne, l'équivalent d'un ultra quotidien pendant cinq semaines. Le tout pour ses soixante ans et pour lever plus de 5 000 livres au profit d'Humanity Direct, ONG qui finance des opérations chirurgicales pédiatriques en Ouganda. Son récit, rapporté par Ultrarunning World, raconte surtout une trajectoire improbable : celle d'un sédentaire de bureau devenu, en six ans, finisher d'un des défis d'endurance les plus redoutés du Royaume-Uni.
 
 ## Le LEJOG, ce mythe insulaire que peu achèvent à pied
 
@@ -33,7 +32,7 @@ Land's End to John O'Groats. Trois mots, un acronyme et une obsession nationale.
 
 ![Illustration Courses & Récits](/articles/bob-yates-1-030-miles-a-travers-le-royaume-uni-pour-feter-ses-60-ans-1.jpg)
 
-Yates, lui, a tracé la ligne mètre après mètre. D'abord les falaises atlantiques de Cornouailles, puis Exmoor et ses landes, le Pays de Galles et ses vallées encaissées, la remontée par Preston, enfin les [Highlands](https://www.altitude-trail.fr/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu) écossaises jusqu'au bout du bout. Un itinéraire qui condense à peu près tous les reliefs britanniques, avec la particularité insulaire de ne jamais offrir de vraie montagne mais d'empiler sans répit les bosses courtes et sèches. À l'échelle française, imaginez Hendaye–Dunkerque en courant, avec un ultra par jour pendant cinq semaines. Personne, ou presque, ne s'y colle.
+Yates, lui, a tracé la ligne mètre après mètre. D'abord les falaises atlantiques de Cornouailles, puis Exmoor et ses landes, le Pays de Galles et ses vallées encaissées, la remontée par Preston, enfin les Highlands écossaises jusqu'au bout du bout. Un itinéraire qui condense à peu près tous les reliefs britanniques, avec la particularité insulaire de ne jamais offrir de vraie montagne mais d'empiler sans répit les bosses courtes et sèches. À l'échelle française, imaginez Hendaye–Dunkerque en courant, avec un ultra par jour pendant cinq semaines. Personne, ou presque, ne s'y colle.
 
 ## Quarante-sept kilomètres par jour : ce que dit vraiment le chiffre
 

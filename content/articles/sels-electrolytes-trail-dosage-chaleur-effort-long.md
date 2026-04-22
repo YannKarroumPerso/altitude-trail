@@ -1,26 +1,19 @@
 ---
-slug: sels-electrolytes-trail-dosage-chaleur-effort-long
-title: 'Sels et électrolytes : dosage pour la chaleur et l''effort long'
-excerpt: >-
-  Sodium, potassium, magnésium : trois minéraux centraux dans la réussite d'un
-  ultra par temps chaud. Dosages, formes, erreurs classiques.
-category: Nutrition
+slug: "sels-electrolytes-trail-dosage-chaleur-effort-long"
+title: "Sels et électrolytes : dosage pour la chaleur et l'effort long"
+excerpt: "Sodium, potassium, magnésium : trois minéraux centraux dans la réussite d'un ultra par temps chaud. Dosages, formes, erreurs classiques."
+category: "Nutrition"
 categorySlug: nutrition
-author: Yann Karroum
-date: 9 avril 2026
-readTime: 8 min
-image: /articles/sels-electrolytes-trail-dosage-chaleur-effort-long-hero.jpg
-tags:
-  - Électrolytes
-  - Sodium
-  - Chaleur
-  - Hydratation
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "9 avril 2026"
+readTime: "8 min"
+image: "/articles/sels-electrolytes-trail-dosage-chaleur-effort-long-hero.jpg"
+tags: ["Électrolytes", "Sodium", "Chaleur", "Hydratation"]
 ---
 
 Un ultra perdu à la ligne d'arrivée ne l'est presque jamais sur les glucides. C'est le sel, discrètement, qui fait basculer les fins de course par forte chaleur.
 
-Entre 1 et 1,5 litre de sueur par heure, 0,5 à 1,5 gramme de sodium perdu par litre et un organisme qui tolère mal à la fois la déshydratation et son contraire : la [gestion](https://www.altitude-trail.fr/articles/cafeine-ultra-trail-dosage-vigilance-nocturne) électrolytique reste l'angle mort de beaucoup de plans nutritionnels en trail. Les recommandations convergent vers 500 à 1000 mg de sodium par heure sur effort long et chaud, mais le dosage individuel dépend d'un profil sudoral rarement mesuré. Tour d'horizon analytique de trois minéraux — sodium, potassium, magnésium — et des erreurs qui coûtent cher après huit heures de course.
+Entre 1 et 1,5 litre de sueur par heure, 0,5 à 1,5 gramme de sodium perdu par litre et un organisme qui tolère mal à la fois la déshydratation et son contraire : la gestion électrolytique reste l'angle mort de beaucoup de plans nutritionnels en trail. Les recommandations convergent vers 500 à 1000 mg de sodium par heure sur effort long et chaud, mais le dosage individuel dépend d'un profil sudoral rarement mesuré. Tour d'horizon analytique de trois minéraux — sodium, potassium, magnésium — et des erreurs qui coûtent cher après huit heures de course.
 
 ## Pourquoi le sodium décide de la fin de course
 
@@ -40,7 +33,7 @@ Le magnésium joue une partition différente. Cofacteur de plus de trois cents r
 
 ## Ce que dit la balance : 500 à 1000 mg de sodium par heure, vraiment ?
 
-La fourchette est devenue un mantra. Elle mérite d'être déconstruite. Les recommandations actuelles de l'ACSM et de l'International Society of Sports [Nutrition](https://www.altitude-trail.fr/articles/nutrition-avant-course-semaine-qui-precede-ultra) évoquent 300 à 700 mg de sodium par heure en conditions standard, avec une majoration possible au-delà sur effort long par forte chaleur. En pratique, les protocoles des coureurs élites sur UTMB ou Western States tournent souvent entre 500 et 1000 mg par heure, parfois davantage pour les gros sueurs salés.
+La fourchette est devenue un mantra. Elle mérite d'être déconstruite. Les recommandations actuelles de l'ACSM et de l'International Society of Sports Nutrition évoquent 300 à 700 mg de sodium par heure en conditions standard, avec une majoration possible au-delà sur effort long par forte chaleur. En pratique, les protocoles des coureurs élites sur UTMB ou Western States tournent souvent entre 500 et 1000 mg par heure, parfois davantage pour les gros sueurs salés.
 
 ![Illustration Nutrition](/articles/sels-electrolytes-trail-dosage-chaleur-effort-long-2.jpg)
 

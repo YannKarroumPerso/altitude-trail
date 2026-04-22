@@ -1,22 +1,14 @@
 ---
-slug: ongles-noirs-onychomycose-pied-coureur-soins
-title: 'Ongles noirs et onychomycose : les petites misères du pied du coureur'
-excerpt: >-
-  Décollement, noircissement, démangeaisons : le pied du traileur cumule les
-  traumatismes. Décryptage des pathologies les plus fréquentes et des soins
-  adaptés.
-category: Blessures & Préventions
+slug: "ongles-noirs-onychomycose-pied-coureur-soins"
+title: "Ongles noirs et onychomycose : les petites misères du pied du coureur"
+excerpt: "Décollement, noircissement, démangeaisons : le pied du traileur cumule les traumatismes. Décryptage des pathologies les plus fréquentes et des soins adaptés."
+category: "Blessures & Préventions"
 categorySlug: blessures
-author: Thomas Rouvier
-date: 20 avril 2026
-readTime: 8 min
-image: /articles/ongles-noirs-onychomycose-pied-coureur-soins-hero.jpg
-tags:
-  - Ongles
-  - Pieds
-  - Dermatologie
-  - Soins
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "20 avril 2026"
+readTime: "8 min"
+image: "/articles/ongles-noirs-onychomycose-pied-coureur-soins-hero.jpg"
+tags: ["Ongles", "Pieds", "Dermatologie", "Soins"]
 ---
 
 Le trail laisse des traces. Les médailles, les Strava, les photos au sommet — et les ongles noirs, cette signature discrète qu'on cache en tongs au bureau.
@@ -71,6 +63,6 @@ Le massage quotidien des orteils, cinq minutes le soir avec une crème hydratant
 
 ## Le pied, angle mort de la préparation
 
-On parle VO2max, plans d'entraînement, gels isotoniques, poudres de caféine. On parle moins de l'interface qui encaisse chaque watt produit : le pied. C'est pourtant là que se jouent la plupart des abandons évitables en [ultra](https://www.altitude-trail.fr/articles/ampoules-frottements-ultra-prevention-gestion), bien avant la défaillance cardio ou musculaire.
+On parle VO2max, plans d'entraînement, gels isotoniques, poudres de caféine. On parle moins de l'interface qui encaisse chaque watt produit : le pied. C'est pourtant là que se jouent la plupart des abandons évitables en ultra, bien avant la défaillance cardio ou musculaire.
 
 La culture du soin podologique a progressé dans le peloton élite — Courtney Dauwalter ne fait pas mystère de ses rituels pré-course — mais reste embryonnaire chez l'amateur. On accepte encore l'ongle noir comme un trophée, la mycose comme une fatalité. C'est à rebours de toute logique de performance durable. Un pied en bon état court mieux, plus longtemps, plus loin. Le reste, c'est de la littérature. Et pour tout doute sur une lésion unguéale qui s'installe, le réflexe doit être médical, pas forumique.

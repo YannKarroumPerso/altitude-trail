@@ -1,24 +1,17 @@
 ---
-slug: seuil-trail-structurer-intervalles-cote
-title: 'Le seuil en trail : comment structurer ses intervalles en côte'
-excerpt: >-
-  L'entraînement au seuil, socle de la performance en endurance, doit être pensé
-  différemment quand le dénivelé s'en mêle. Méthodologie.
-category: Entraînement & Performances
+slug: "seuil-trail-structurer-intervalles-cote"
+title: "Le seuil en trail : comment structurer ses intervalles en côte"
+excerpt: "L'entraînement au seuil, socle de la performance en endurance, doit être pensé différemment quand le dénivelé s'en mêle. Méthodologie."
+category: "Entraînement & Performances"
 categorySlug: entrainement
-author: Yann Karroum
-date: 14 avril 2026
-readTime: 9 min
-image: /articles/seuil-trail-structurer-intervalles-cote-hero.jpg
-tags:
-  - Seuil
-  - Intervalles
-  - Côte
-  - VMA
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "14 avril 2026"
+readTime: "9 min"
+image: "/articles/seuil-trail-structurer-intervalles-cote-hero.jpg"
+tags: ["Seuil", "Intervalles", "Côte", "VMA"]
 ---
 
-Le seuil, en [trail](https://www.altitude-trail.fr/articles/cotes-montees-marche-rapide-l-equation-oubliee-du-trail-de-30-km), n'est pas une allure. C'est une zone physiologique qu'il faut retraduire à chaque fois que le terrain bascule. Et dès que la pente dépasse 5 %, les repères du plat volent en éclat.
+Le seuil, en trail, n'est pas une allure. C'est une zone physiologique qu'il faut retraduire à chaque fois que le terrain bascule. Et dès que la pente dépasse 5 %, les repères du plat volent en éclat.
 
 **Le seuil structure la performance en endurance depuis quarante ans de recherche en physiologie. Travail autour du deuxième seuil lactique (SL2) ou du deuxième seuil ventilatoire (SV2), c'est la pierre angulaire des plans d'entraînement en course sur route, en cyclisme, en aviron. En trail, le principe tient. Mais il doit s'adapter à une variable massive : le dénivelé. Fréquence cardiaque décalée, recrutement musculaire différent, descentes à gérer comme une récupération active. Voici comment structurer intelligemment ses séances de seuil en côte, à raison d'une par semaine, sans empiler les erreurs classiques.**
 
@@ -38,7 +31,7 @@ La fréquence cardiaque sert de garde-fou, pas de juge. Si vous connaissez votre
 
 ## Choisir la pente selon l'objectif de la séance
 
-Toutes les côtes ne produisent pas le même travail. Entre 5 et 10 %, la pente reste courable, la foulée garde une logique de course et le système cardio-respiratoire est le facteur limitant dominant. C'est le terrain idéal des formats type fractionné long : 6 × 3 minutes, 4 × 5 minutes, 3 × 8 minutes. La récupération se fait en [descente](https://www.altitude-trail.fr/articles/entrainement-specifique-descente-trail-excentrique) active, jogging souple, même durée ou un poil plus court.
+Toutes les côtes ne produisent pas le même travail. Entre 5 et 10 %, la pente reste courable, la foulée garde une logique de course et le système cardio-respiratoire est le facteur limitant dominant. C'est le terrain idéal des formats type fractionné long : 6 × 3 minutes, 4 × 5 minutes, 3 × 8 minutes. La récupération se fait en descente active, jogging souple, même durée ou un poil plus court.
 
 Au-delà de 10-12 %, la biomécanique bascule. La foulée raccourcit, le travail devient musculaire avant d'être cardiaque et la séance glisse naturellement vers la force-endurance ou la force-vitesse. Ces pentes-là ne sont pas la bonne adresse pour du vrai seuil continu : elles produisent un effort plus segmentaire, utile mais différent. Les formats courts, 30/30 ou 1 minute / 1 minute, y trouvent leur place pour travailler la VMA ascensionnelle, distincte du seuil.
 

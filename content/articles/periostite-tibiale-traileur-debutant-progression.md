@@ -1,26 +1,19 @@
 ---
-slug: periostite-tibiale-traileur-debutant-progression
-title: 'Périostite tibiale : le mal qui trahit un volume d''entraînement mal dosé'
-excerpt: >-
-  Brûlures le long du tibia, sensations de cuisson après chaque sortie : le
-  signal que votre organisme ne suit plus. Diagnostic et protocole de reprise.
-category: Blessures & Préventions
+slug: "periostite-tibiale-traileur-debutant-progression"
+title: "Périostite tibiale : le mal qui trahit un volume d'entraînement mal dosé"
+excerpt: "Brûlures le long du tibia, sensations de cuisson après chaque sortie : le signal que votre organisme ne suit plus. Diagnostic et protocole de reprise."
+category: "Blessures & Préventions"
 categorySlug: blessures
-author: Thomas Rouvier
-date: 18 avril 2026
-readTime: 7 min
-image: /articles/periostite-tibiale-traileur-debutant-progression-hero.jpg
-tags:
-  - Périostite
-  - Tibia
-  - Débutant
-  - Volume
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "18 avril 2026"
+readTime: "7 min"
+image: "/articles/periostite-tibiale-traileur-debutant-progression-hero.jpg"
+tags: ["Périostite", "Tibia", "Débutant", "Volume"]
 ---
 
 Léa, trente-deux ans, entre dans le cabinet en claudiquant légèrement. Elle prépare son premier 42 kilomètres en montagne, s'entraîne depuis six mois et a décidé, trois semaines plus tôt, de passer de quatre à six sorties hebdomadaires pour « caler du volume ». Depuis dix jours, une ligne de feu brûle le long de la face interne de son tibia droit. Le matin, c'est une simple raideur. En fin de séance, c'est une cuisson permanente qui l'oblige à marcher les derniers kilomètres. Le scénario est d'une banalité clinique presque désespérante : c'est une périostite tibiale, l'une des blessures les plus fréquentes chez le coureur en phase de progression et particulièrement chez celui qui bascule sur le trail.
 
-La périostite, ou syndrome de stress tibial médial dans la littérature anglo-saxonne, concerne une proportion importante des coureurs d'endurance au moins une fois dans leur carrière, avec une surreprésentation chez les débutants, les militaires et les pratiquants en reprise. Pour un traileur, elle arrive souvent à un moment charnière : celui où l'on découvre la montagne, où l'on ajoute du dénivelé, où l'on allonge les sorties sans que le tissu osseux ait eu le temps de s'adapter. Le mal est rarement grave, mais il est sournois : ignoré, il peut évoluer vers une [fracture](https://www.altitude-trail.fr/articles/fracture-fatigue-trail-signaux-alerte) de fatigue et compromettre une saison entière.
+La périostite, ou syndrome de stress tibial médial dans la littérature anglo-saxonne, concerne une proportion importante des coureurs d'endurance au moins une fois dans leur carrière, avec une surreprésentation chez les débutants, les militaires et les pratiquants en reprise. Pour un traileur, elle arrive souvent à un moment charnière : celui où l'on découvre la montagne, où l'on ajoute du dénivelé, où l'on allonge les sorties sans que le tissu osseux ait eu le temps de s'adapter. Le mal est rarement grave, mais il est sournois : ignoré, il peut évoluer vers une fracture de fatigue et compromettre une saison entière.
 
 ![Illustration Blessures & Préventions](/articles/periostite-tibiale-traileur-debutant-progression-1.jpg)
 

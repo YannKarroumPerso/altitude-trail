@@ -7,8 +7,8 @@ excerpt: >-
   frustration en carburant.
 category: Actualités
 categorySlug: actualites
-author: Marc Blanc
-date: 28 mars 2026
+author: Rédaction Altitude
+date: "28 mars 2026"
 readTime: 6 min
 image: >-
   /articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu-hero.jpg
@@ -21,11 +21,10 @@ tags:
 sourceUrl: >-
   https://www.trailrunnermag.com/races/ultrarunning-race-lottery-season-survival-guide/
 rewrittenAt: '2026-04-20'
-updatedAt: 22 avril 2026
 ---
 9 993 candidatures pour 260 dossards. 0,4 % de chances pour un postulant débutant. La Western States 100 n'est plus une course, c'est un concours d'entrée dont personne ne sort admis.
 
-**La saison des loteries d'ultra vient de rendre son verdict et les chiffres compilés par Trail Runner Mag ont de quoi faire ravaler leur enthousiasme aux candidats du tirage 2025. Western States et Hardrock ont livré leurs heureux élus le week-end dernier. High Lonesome, Zegama, Cascade Crest, Vermont 100, [UTMB](https://www.altitude-trail.fr/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb) : les autres scrutins s'enchaînent jusqu'en janvier. Entre-temps, des dizaines de milliers de coureurs encaissent le mail de refus. Le signal est clair : l'ultra-trail est devenu un sport d'accès rationné et la pénurie de dossards redessine les stratégies de saison, les trajectoires sportives, peut-être même le rapport que l'on entretient à la pratique.**
+**La saison des loteries d'ultra vient de rendre son verdict et les chiffres compilés par Trail Runner Mag ont de quoi faire ravaler leur enthousiasme aux candidats du tirage 2025. Western States et Hardrock ont livré leurs heureux élus le week-end dernier. High Lonesome, Zegama, Cascade Crest, Vermont 100, UTMB : les autres scrutins s'enchaînent jusqu'en janvier. Entre-temps, des dizaines de milliers de coureurs encaissent le mail de refus. Le signal est clair : l'ultra-trail est devenu un sport d'accès rationné et la pénurie de dossards redessine les stratégies de saison, les trajectoires sportives, peut-être même le rapport que l'on entretient à la pratique.**
 
 ## Quand entrer à Harvard devient statistiquement plus simple qu'à Squaw Valley
 
@@ -39,7 +38,7 @@ La trajectoire est vertigineuse. En 2014, la course recevait 2 704 candidatures.
 
 Derrière la frustration individuelle, il y a un mouvement de fond. Trail Runner Mag parle sans détour d'une « révolution industrielle » du trail. Des épreuves qui faisaient leur renommée en toute indépendance — Miwok, Leadville, Way Too Cool sont citées — glissent dans l'orbite des grands circuits : UTMB World Series, Golden Trail World Series, ou se voient reléguées au rôle de qualificative pour les mastodontes.
 
-Le bilan est ambivalent. Côté positif, la densité de la tête de course progresse : les élites convergent vers un nombre réduit de rendez-vous majeurs, le niveau monte, la médiatisation suit. Côté négatif, l'écosystème intermédiaire s'étiole. Les [courses](https://www.altitude-trail.fr/articles/a-71-ans-michel-poletti-traverse-la-france-a-pied-entre-ses-courses-utmb) locales, celles qui portaient la culture communautaire du sport, peinent à exister hors d'un label. Le dossard ne se mérite plus par la ligne de départ — il se gagne par la loterie, ou par l'accumulation de « stones » UTMB, un système de qualification que Trail Runner Mag juge lui-même « si tortueux qu'il mériterait un guide à lui seul ».
+Le bilan est ambivalent. Côté positif, la densité de la tête de course progresse : les élites convergent vers un nombre réduit de rendez-vous majeurs, le niveau monte, la médiatisation suit. Côté négatif, l'écosystème intermédiaire s'étiole. Les courses locales, celles qui portaient la culture communautaire du sport, peinent à exister hors d'un label. Le dossard ne se mérite plus par la ligne de départ — il se gagne par la loterie, ou par l'accumulation de « stones » UTMB, un système de qualification que Trail Runner Mag juge lui-même « si tortueux qu'il mériterait un guide à lui seul ».
 
 Rappel de contexte pour qui découvre la mécanique : le calendrier des tirages s'étale de décembre à janvier. UTMB du 19 décembre au 9 janvier, Cascade Crest 100 du 9 décembre au 5 janvier, Vermont 100 du 1er au 10 janvier, Zegama du 13 au 24 janvier. Toute une saison de course se joue sur quatre semaines de clics et d'attente.
 

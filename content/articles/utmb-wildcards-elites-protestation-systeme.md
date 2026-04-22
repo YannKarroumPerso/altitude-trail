@@ -1,22 +1,14 @@
 ---
-slug: utmb-wildcards-elites-protestation-systeme
-title: 'UTMB et les wildcards : le mouvement de protestation des élites'
-excerpt: >-
-  Invitations personnelles, tirages au sort, critères opaques : le système
-  d'accès à l'UTMB est remis en cause par une partie des meilleurs coureurs
-  mondiaux.
-category: Actualités
+slug: "utmb-wildcards-elites-protestation-systeme"
+title: "UTMB et les wildcards : le mouvement de protestation des élites"
+excerpt: "Invitations personnelles, tirages au sort, critères opaques : le système d'accès à l'UTMB est remis en cause par une partie des meilleurs coureurs mondiaux."
+category: "Actualités"
 categorySlug: actualites
-author: Yann Karroum
-date: 8 avril 2026
-readTime: 9 min
-image: /articles/utmb-wildcards-elites-protestation-systeme-hero.jpg
-tags:
-  - UTMB
-  - Élites
-  - Wildcards
-  - Gouvernance
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "8 avril 2026"
+readTime: "9 min"
+image: "/articles/utmb-wildcards-elites-protestation-systeme-hero.jpg"
+tags: ["UTMB", "Élites", "Wildcards", "Gouvernance"]
 ---
 
 La finale mondiale officieuse du trail se joue fin août à Chamonix. Mais pour y accéder, il faut décrypter un système que les meilleurs coureurs de la planète jugent désormais opaque, contradictoire, parfois arbitraire. Le malaise n'est plus feutré. Il est public.
@@ -39,7 +31,7 @@ Les critiques ne datent pas d'hier. Mais elles se sont structurées. Depuis 2023
 
 Le premier, la transparence. Les critères précis de sélection des wildcards ne sont pas documentés publiquement. Un coureur invité une année peut être écarté l'année suivante sans justification communiquée.
 
-Le deuxième, la parité. L'élite féminine mondiale pointe régulièrement le différentiel de visibilité, de primes et d'invitations entre les plateaux hommes et femmes. Sur une discipline où les performances féminines se rapprochent structurellement de celles des hommes en ultra — un sujet documenté par plusieurs analyses parues dans le British Journal of Sports Medicine et chez les chercheurs de l'université de Brighton —, la question ne relève plus du [symbole](https://www.altitude-trail.fr/articles/lampe-rouge-obligatoire-a-l-utmb-symbole-ecologique-ou-poudre-aux-yeux).
+Le deuxième, la parité. L'élite féminine mondiale pointe régulièrement le différentiel de visibilité, de primes et d'invitations entre les plateaux hommes et femmes. Sur une discipline où les performances féminines se rapprochent structurellement de celles des hommes en ultra — un sujet documenté par plusieurs analyses parues dans le British Journal of Sports Medicine et chez les chercheurs de l'université de Brighton —, la question ne relève plus du symbole.
 
 Le troisième, la dépendance aux sponsors. L'alliance structurelle entre UTMB Group et Hoka, actionnaire devenu partenaire-titre, nourrit la perception d'un circuit où les affiliations commerciales pèseraient sur les invitations. Perception, pas preuve. Mais c'est précisément le problème : en l'absence de critères publics, la suspicion prospère.
 
@@ -73,4 +65,4 @@ La légitimité de Chamonix n'est pas menacée à court terme. Le plateau reste 
 
 Mais la légitimité à long terme se joue autrement. Elle se construit quand les athlètes de référence défendent publiquement le format, pas quand ils le quittent. Elle se consolide quand les critères d'accès sont lisibles par un coureur lambda comme par un journaliste. Elle s'érode, lentement, quand le doute s'installe sur le lien entre performance sportive et invitation commerciale.
 
-L'UTMB Group a les moyens de désamorcer la crise par une réforme simple : publier une grille de critères de wildcards, garantir une parité chiffrée dans les invitations, [ouvrir](https://www.altitude-trail.fr/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb) un dialogue formalisé avec la PTRA. Ne pas le faire, c'est parier sur la passivité des élites et la fidélité des foules. Un pari risqué, dans un sport où l'authenticité a longtemps été le capital principal.
+L'UTMB Group a les moyens de désamorcer la crise par une réforme simple : publier une grille de critères de wildcards, garantir une parité chiffrée dans les invitations, ouvrir un dialogue formalisé avec la PTRA. Ne pas le faire, c'est parier sur la passivité des élites et la fidélité des foules. Un pari risqué, dans un sport où l'authenticité a longtemps été le capital principal.

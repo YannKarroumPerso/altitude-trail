@@ -1,40 +1,22 @@
 ---
-slug: cotes-montees-marche-rapide-l-equation-oubliee-du-trail-de-30-km
-title: 'Côtes, montées, marche rapide : l''équation oubliée du trail de 30 km'
-excerpt: >-
-  Préparer un 30 km avec 1500 m de D+ exige une grammaire musculaire que
-  l'entraînement route ignore. La marche rapide en fait partie — et c'est tout
-  sauf anecdotique.
-category: Entraînement & Performances
+slug: "cotes-montees-marche-rapide-l-equation-oubliee-du-trail-de-30-km"
+title: "Côtes, montées, marche rapide : l'équation oubliée du trail de 30 km"
+excerpt: "Préparer un 30 km avec 1500 m de D+ exige une grammaire musculaire que l'entraînement route ignore. La marche rapide en fait partie — et c'est tout sauf anecdotique."
+category: "Entraînement & Performances"
 categorySlug: entrainement
-author: Yann Karroum
-date: 21 avril 2026
-readTime: 5 min
-image: /articles/cotes-montees-marche-rapide-v3-hero.jpg
-tags:
-  - entraînement
-  - dénivelé
-  - marche rapide
-  - préparation
-  - trail court
-sourceUrl: 'https://www2.u-trail.com/idee-denchainement-trail26/'
-imagePrompt1: >-
-  A solo trail runner power-hiking up a steep green grassy summer slope, hands
-  pressed firmly on thighs classic uphill technique, wearing running vest and
-  shorts, trail running shoes on dirt path, warm golden hour backlight, summer
-  wildflowers along the trail, rolling green hills in background, no snow, no
-  skis, no poles, no winter gear
-imagePrompt2: >-
-  Close-up side view of a trail runner's legs mid-stride on a steep root-covered
-  dirt singletrack in a lush summer beech forest, tensed calves, muddy trail
-  running shoes gripping exposed tree roots, running shorts, dappled morning
-  sunlight through green leaves, moss on rocks, sweat-darkened socks, no snow
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "21 avril 2026"
+readTime: "5 min"
+image: "/articles/cotes-montees-marche-rapide-v3-hero.jpg"
+tags: ["entraînement", "dénivelé", "marche rapide", "préparation", "trail court"]
+sourceUrl: "https://www2.u-trail.com/idee-denchainement-trail26/"
+imagePrompt1: "A solo trail runner power-hiking up a steep green grassy summer slope, hands pressed firmly on thighs classic uphill technique, wearing running vest and shorts, trail running shoes on dirt path, warm golden hour backlight, summer wildflowers along the trail, rolling green hills in background, no snow, no skis, no poles, no winter gear"
+imagePrompt2: "Close-up side view of a trail runner's legs mid-stride on a steep root-covered dirt singletrack in a lush summer beech forest, tensed calves, muddy trail running shoes gripping exposed tree roots, running shorts, dappled morning sunlight through green leaves, moss on rocks, sweat-darkened socks, no snow"
 ---
 
 Préparer un 30 km avec 1500 m de dénivelé, ce n'est pas courir plus. C'est apprendre à marcher vite sans se saboter. La distinction semble anodine — elle décide pourtant de l'issue du jour J.
 
-Dans une publication récente consacrée à l'entraînement spécifique, le site u-[Trail](https://www.altitude-trail.fr/articles/colmen-trail-500-dossards-envoles-quand-un-trail-de-village-verrouille-sa-jauge) revient sur un enchaînement classique mais sous-exploité : côtes, montées longues et marche rapide dans la même séance. L'objectif : préparer un trail court-montagneux type 30 km / 1500 m D+, format qui explose en France depuis cinq ans et qui concentre l'essentiel des débutants venus de la route. La thèse, simple, mérite d'être creusée : accumuler du kilomètre plat ne prépare pas à ce type d'épreuve. Il faut construire une autre motricité.
+Dans une publication récente consacrée à l'entraînement spécifique, le site u-Trail revient sur un enchaînement classique mais sous-exploité : côtes, montées longues et marche rapide dans la même séance. L'objectif : préparer un trail court-montagneux type 30 km / 1500 m D+, format qui explose en France depuis cinq ans et qui concentre l'essentiel des débutants venus de la route. La thèse, simple, mérite d'être creusée : accumuler du kilomètre plat ne prépare pas à ce type d'épreuve. Il faut construire une autre motricité.
 
 ## Le 30 km trail n'est pas un semi avec des bosses
 
@@ -62,7 +44,7 @@ Chacun de ces registres mobilise des fibres et des schémas moteurs différents.
 
 La faute récurrente chez le coureur issu de la route, observée dans la plupart des retours de terrain publiés par u-Trail et ses confrères comme Lepape-Info ou Trail Endurance Mag, tient en une phrase : vouloir courir toutes les bosses. Le cardio s'envole dès le premier quart d'heure, l'acide lactique s'accumule, et le coureur paie l'addition à partir du 20e kilomètre.
 
-L'enjeu d'une séance combinée, tel que u-Trail le formule, c'est précisément d'apprendre à sentir le basculement. Ce moment où courir coûte plus cher que marcher. Le développer à l'entraînement permet, en course, de le gérer sans culpabilité ni panique. On marche par choix, pas par défaite. C'est une bascule [mentale](https://www.altitude-trail.fr/articles/preparation-mentale-ultra-gerer-nuit-douleur-bas) autant que physiologique.
+L'enjeu d'une séance combinée, tel que u-Trail le formule, c'est précisément d'apprendre à sentir le basculement. Ce moment où courir coûte plus cher que marcher. Le développer à l'entraînement permet, en course, de le gérer sans culpabilité ni panique. On marche par choix, pas par défaite. C'est une bascule mentale autant que physiologique.
 
 ## Le bâton, angle mort du débat français
 

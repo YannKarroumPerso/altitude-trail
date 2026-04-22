@@ -1,30 +1,23 @@
 ---
-slug: choisir-premiere-paire-chaussures-trail-guide-complet
-title: 'Choisir sa première paire de chaussures de trail : le guide complet'
-excerpt: >-
-  Drop, crampons, amorti, pointure : cinq critères déterminent si vos premières
-  sorties se feront avec plaisir ou avec ampoules. On décortique chacun d'eux.
-category: Débuter
+slug: "choisir-premiere-paire-chaussures-trail-guide-complet"
+title: "Choisir sa première paire de chaussures de trail : le guide complet"
+excerpt: "Drop, crampons, amorti, pointure : cinq critères déterminent si vos premières sorties se feront avec plaisir ou avec ampoules. On décortique chacun d'eux."
+category: "Débuter"
 categorySlug: debuter
-author: Yann Karroum
-date: 7 avril 2026
-readTime: 8 min
-image: /articles/choisir-premiere-paire-chaussures-trail-guide-complet-hero.jpg
-tags:
-  - Chaussures
-  - Débuter
-  - Équipement
-  - Achat
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "7 avril 2026"
+readTime: "8 min"
+image: "/articles/choisir-premiere-paire-chaussures-trail-guide-complet-hero.jpg"
+tags: ["Chaussures", "Débuter", "Équipement", "Achat"]
 ---
 
 La chaussure de trail n'est pas une chaussure de route avec des crampons collés dessous. C'est un outil mécanique de précision, conçu pour composer avec des surfaces instables, des chocs latéraux et des kilomètres de descente. Se tromper de modèle pour débuter, c'est garantir ampoules, ongles noirs et abandon prématuré.
 
-**Le marché mondial de la chaussure de trail a doublé en dix ans, avec plus de 300 modèles disponibles en France selon les catalogues des grands distributeurs spécialisés.** Face à cette inflation, le débutant se noie. Cinq critères techniques — drop, crampons, amorti, rock plate, pointure — suffisent pourtant à trier le pertinent du gadget. [Budget](https://www.altitude-trail.fr/articles/materiel-minimum-demarrer-trail-budget) à prévoir : 80 à 160 euros pour un premier modèle honnête, avec une durée de vie moyenne de 600 à 800 kilomètres documentée par la plupart des manufacturiers. Voici comment arbitrer sans se faire piéger par le marketing.
+**Le marché mondial de la chaussure de trail a doublé en dix ans, avec plus de 300 modèles disponibles en France selon les catalogues des grands distributeurs spécialisés.** Face à cette inflation, le débutant se noie. Cinq critères techniques — drop, crampons, amorti, rock plate, pointure — suffisent pourtant à trier le pertinent du gadget. Budget à prévoir : 80 à 160 euros pour un premier modèle honnête, avec une durée de vie moyenne de 600 à 800 kilomètres documentée par la plupart des manufacturiers. Voici comment arbitrer sans se faire piéger par le marketing.
 
 ## Le drop, ce malentendu qui structure toute la foulée
 
-Le drop, c'est la différence de hauteur entre le talon et l'avant-pied de la chaussure. Un chiffre en millimètres qui détermine où votre pied va frapper le sol et [comment](https://www.altitude-trail.fr/articles/premiere-sortie-trail-choix-parcours-allure) votre chaîne musculaire postérieure va travailler. Les extrêmes existent : zéro drop chez Altra, jusqu'à 12 mm sur certains modèles amortis.
+Le drop, c'est la différence de hauteur entre le talon et l'avant-pied de la chaussure. Un chiffre en millimètres qui détermine où votre pied va frapper le sol et comment votre chaîne musculaire postérieure va travailler. Les extrêmes existent : zéro drop chez Altra, jusqu'à 12 mm sur certains modèles amortis.
 
 ![Illustration Débuter](/articles/choisir-premiere-paire-chaussures-trail-guide-complet-1.jpg)
 

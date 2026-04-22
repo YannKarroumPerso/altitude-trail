@@ -1,43 +1,22 @@
 ---
-slug: >-
-  colmen-trail-500-dossards-envoles-quand-un-trail-de-village-verrouille-sa-jauge
-title: >-
-  Colmen Trail, 500 dossards envolés : quand un trail de village verrouille sa
-  jauge
-excerpt: >-
-  La 13e édition du trail de Morbegno, en Valteline, affiche complet 24 heures
-  avant la clôture. Une décision assumée : fermer à 500 dossards pour ne pas
-  dégrader l'expérience. Un choix qui tranche avec la fuite en avant de certains
-  mastodontes.
-category: Actualités
+slug: "colmen-trail-500-dossards-envoles-quand-un-trail-de-village-verrouille-sa-jauge"
+title: "Colmen Trail, 500 dossards envolés : quand un trail de village verrouille sa jauge"
+excerpt: "La 13e édition du trail de Morbegno, en Valteline, affiche complet 24 heures avant la clôture. Une décision assumée : fermer à 500 dossards pour ne pas dégrader l'expérience. Un choix qui tranche avec la fuite en avant de certains mastodontes."
+category: "Actualités"
 categorySlug: actualites
-author: Marc Blanc
-date: 16 avril 2026
-readTime: 5 min
-image: >-
-  https://www.corsainmontagna.it/wp-content/uploads/2026/04/PHFrancescoBergamaschi-0648-1024x683.jpg
-tags:
-  - Colmen Trail
-  - Italie
-  - Valteline
-  - trail court
-  - organisation
-sourceUrl: >-
-  https://www.corsainmontagna.it/2026/04/16/colmen-trail-2026-domenica-una-13a-edizione-da-sold-out/
-imagePrompt1: >-
-  Runners climbing a steep forested ridge above Morbegno in the Valtellina
-  valley, Italian Alps in early spring, soft morning light filtering through
-  larches, race bibs visible, Orobie mountains backdrop still dusted with snow
-imagePrompt2: >-
-  Finish line arch at Polo Fieristico Morbegno exhibition hall, small crowd of
-  supporters, mountain runner crossing with arms raised, Valtellina valley and
-  Colmen peak in the distance, mid-morning spring light
-updatedAt: 22 avril 2026
+author: "Rédaction Altitude"
+date: "16 avril 2026"
+readTime: "5 min"
+image: "https://www.corsainmontagna.it/wp-content/uploads/2026/04/PHFrancescoBergamaschi-0648-1024x683.jpg"
+tags: ["Colmen Trail", "Italie", "Valteline", "trail court", "organisation"]
+sourceUrl: "https://www.corsainmontagna.it/2026/04/16/colmen-trail-2026-domenica-una-13a-edizione-da-sold-out/"
+imagePrompt1: "Runners climbing a steep forested ridge above Morbegno in the Valtellina valley, Italian Alps in early spring, soft morning light filtering through larches, race bibs visible, Orobie mountains backdrop still dusted with snow"
+imagePrompt2: "Finish line arch at Polo Fieristico Morbegno exhibition hall, small crowd of supporters, mountain runner crossing with arms raised, Valtellina valley and Colmen peak in the distance, mid-morning spring light"
 ---
 
-Cinq cents dossards. Pas un de plus. À 24 heures de la clôture officielle, le Colmen [Trail](https://www.altitude-trail.fr/articles/ffa-certification-epreuves-trail-nouveau-cadre-2026) 2026 a fermé ses inscriptions — et personne ne s'en excuse. Dans un écosystème où la croissance est devenue un réflexe, la décision du Team Valtellina ressemble presque à un acte politique.
+Cinq cents dossards. Pas un de plus. À 24 heures de la clôture officielle, le Colmen Trail 2026 a fermé ses inscriptions — et personne ne s'en excuse. Dans un écosystème où la croissance est devenue un réflexe, la décision du Team Valtellina ressemble presque à un acte politique.
 
-La 13e édition du trail morbegnois, programmée les 18 et 19 avril sur la *Montagna Magica* qui surplombe [Morbegno](https://www.altitude-trail.fr/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno), en Valteline, affiche sold out. Deux cent cinquante coureurs sur le 22 km, 250 sur le 12 km : le plafond a été atteint, et les organisateurs ont verrouillé la jauge en avance, comme le rapporte Corsa in Montagna. Côté favoris, le plateau aligne de jeunes loups italiens : Elia Mattio, Paolo Gianola, Francesco Bongio sur le format court, Lorenzo Rota Martir et Mattia Gianola sur le long, avec Alice Gaggi (Recastello – Brooks) en référence féminine.
+La 13e édition du trail morbegnois, programmée les 18 et 19 avril sur la *Montagna Magica* qui surplombe Morbegno, en Valteline, affiche sold out. Deux cent cinquante coureurs sur le 22 km, 250 sur le 12 km : le plafond a été atteint, et les organisateurs ont verrouillé la jauge en avance, comme le rapporte Corsa in Montagna. Côté favoris, le plateau aligne de jeunes loups italiens : Elia Mattio, Paolo Gianola, Francesco Bongio sur le format court, Lorenzo Rota Martir et Mattia Gianola sur le long, avec Alice Gaggi (Recastello – Brooks) en référence féminine.
 
 ## Un guichet fermé comme manifeste
 
