@@ -108,9 +108,12 @@ Règles :
       max_tokens: 2000,
       messages: [{ role: "user", content: prompt }],
     });
+    // Anthropic SDK renvoie un union ContentBlock — on extrait le texte
+    // des blocs de type "text" sans type predicate strict (pour éviter
+    // d'avoir à répliquer tous les champs optionnels de TextBlock).
     const text = msg.content
-      .filter((c): c is { type: "text"; text: string } => c.type === "text")
-      .map((c) => c.text)
+      .map((c) => (c.type === "text" ? c.text : ""))
+      .filter(Boolean)
       .join("\n");
     return text.trim();
   } catch (e) {
