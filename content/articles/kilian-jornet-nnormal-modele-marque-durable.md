@@ -1,19 +1,27 @@
 ---
-slug: "kilian-jornet-nnormal-modele-marque-durable"
-title: "Kilian Jornet et NNormal : les coulisses d'un modèle vertical"
-excerpt: "Trois ans après le lancement, la marque du Catalan s'impose dans le trail avec un modèle de production et de distribution qui rompt avec l'industrie classique."
-category: "Actualités"
+slug: kilian-jornet-nnormal-modele-marque-durable
+title: 'Kilian Jornet et NNormal : les coulisses d''un modèle vertical'
+excerpt: >-
+  Trois ans après le lancement, la marque du Catalan s'impose dans le trail avec
+  un modèle de production et de distribution qui rompt avec l'industrie
+  classique.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "6 avril 2026"
-readTime: "9 min"
-image: "/articles/kilian-jornet-nnormal-modele-marque-durable-hero.jpg"
-tags: ["NNormal", "Kilian Jornet", "Industrie", "Durabilité"]
+author: Marc Blanc
+date: 6 avril 2026
+readTime: 9 min
+image: /articles/kilian-jornet-nnormal-modele-marque-durable-hero.jpg
+tags:
+  - NNormal
+  - Kilian Jornet
+  - Industrie
+  - Durabilité
+updatedAt: 22 avril 2026
 ---
 
 Trois ans après le lancement, NNormal n'est plus une curiosité catalane. C'est un cas d'école que l'industrie observe de près, entre fascination et scepticisme.
 
-**Lancée en 2022 par Kilian Jornet et le chausseur majorquin Camper, NNormal revendique une gamme resserrée (deux modèles de course principaux, la Kjerag et la Tomir), une production européenne, des matériaux partiellement bio-sourcés et une logique de réparabilité. Trois saisons plus tard, la Kjerag a remporté plusieurs podiums majeurs sous les pieds de son fondateur et la marque s'est implantée dans une centaine de pays. Dans un secteur où On Running pèse désormais plus de deux milliards de dollars de chiffre d'affaires annuel et où Saucony multiplie les lancements, NNormal trace une voie radicalement plus étroite. Reproductible ? Ou condamnée à rester une niche militante ?**
+**Lancée en 2022 par Kilian Jornet et le chausseur majorquin Camper, NNormal revendique une [gamme](https://www.altitude-trail.fr/articles/anta-guanjun-la-chine-vise-le-haut-de-gamme-du-trail-avec-la-saker-3rc) resserrée (deux modèles de course principaux, la Kjerag et la Tomir), une production européenne, des matériaux partiellement bio-sourcés et une logique de réparabilité. Trois saisons plus tard, la Kjerag a remporté plusieurs podiums majeurs sous les pieds de son fondateur et la marque s'est implantée dans une centaine de pays. Dans un secteur où On Running pèse désormais plus de deux milliards de dollars de chiffre d'affaires annuel et où Saucony multiplie les lancements, NNormal trace une voie radicalement plus étroite. Reproductible ? Ou condamnée à rester une niche militante ?**
 
 ## Une architecture industrielle à rebours du secteur
 
@@ -33,7 +41,7 @@ La Tomir, sortie en 2023, élargit le spectre vers l'ultra-coureur moyen. Plus d
 
 ## La durabilité comme argument structurant, pas comme vernis
 
-La promesse environnementale mérite d'être regardée sans naïveté. NNormal communique sur des matériaux partiellement bio-sourcés (TPU recyclé, tiges sans couture pour limiter les chutes), la suppression de l'emballage individuel et un service de réparation via Camper pour prolonger la durée de vie. L'empreinte carbone par paire est publiée, ce que très peu d'acteurs font.
+La promesse environnementale mérite d'être regardée sans naïveté. NNormal communique sur des matériaux partiellement bio-sourcés (TPU recyclé, tiges sans couture pour limiter les chutes), la suppression de l'emballage individuel et un service de réparation via Camper pour prolonger la durée de vie. L'empreinte [carbone](https://www.altitude-trail.fr/articles/chaussures-carbone-trail-itra-reglementation-limite) par paire est publiée, ce que très peu d'acteurs font.
 
 ![Illustration Actualités](/articles/kilian-jornet-nnormal-modele-marque-durable-2.jpg)
 

@@ -7,8 +7,8 @@ excerpt: >-
   l'histoire de cette épreuve hivernale mythique.
 category: Courses & Récits
 categorySlug: courses-recits
-author: Rédaction Altitude
-date: "30 mars 2026"
+author: Marc Blanc
+date: 30 mars 2026
 readTime: 5 min
 image: >-
   /articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures-hero.jpg
@@ -21,10 +21,11 @@ tags:
 sourceUrl: >-
   https://www.ultrarunnermagazine.co.uk/kim-collison-wins-the-mens-montane-winter-spine-race/
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
 Quatre hivers de défaites, une victoire. Kim Collison a franchi la ligne de Kirk Yetholm en 82 heures et 46 minutes et cette performance dit quelque chose de plus profond qu'un simple chrono : elle raconte comment on domestique une course qui, pendant des années, vous a refusé l'entrée.
 
-Le Britannique a remporté l'édition 2025 de la Montane Winter Spine Race, selon Ultra Runner Magazine, en signant le troisième meilleur temps jamais enregistré sur cette traversée hivernale de 268 miles — environ 431 kilomètres — le long de la Pennine Way, d'Edale dans le Derbyshire jusqu'à la frontière écossaise. Une course réputée comme l'une des plus brutales de la planète, où les concurrents portent leur matériel sur le dos et progressent pendant des jours dans le froid, la nuit, la tourbe gelée. Collison s'y était cassé les dents quatre fois.
+Le Britannique a remporté l'édition 2025 de la [Montane](https://www.altitude-trail.fr/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de) Winter Spine Race, selon Ultra Runner Magazine, en signant le troisième meilleur temps jamais enregistré sur cette traversée hivernale de 268 miles — environ 431 kilomètres — le long de la Pennine Way, d'Edale dans le Derbyshire jusqu'à la frontière écossaise. Une course réputée comme l'une des plus brutales de la planète, où les concurrents portent leur matériel sur le dos et progressent pendant des jours dans le froid, la nuit, la tourbe gelée. Collison s'y était cassé les dents quatre fois.
 
 ## Une course qui ne ressemble à aucune autre
 
@@ -38,7 +39,7 @@ Pour fixer l'échelle : 431 kilomètres, c'est plus de dix marathons d'affilée.
 
 ## Le sillon creusé par les abandons
 
-Collison n'est pas un découvreur. Ultra Runner Magazine rappelle son statut de référence du fell running, cette discipline insulaire où l'on grimpe et descend les reliefs escarpés du Lake District avec une économie de mouvement qui frise la transe. Son Lakeland 24-Hour Record, posé en 2020 — plus de 125 kilomètres et 12 500 mètres de dénivelé positif en une seule rotation horaire —, suffirait à asseoir une carrière.
+Collison n'est pas un découvreur. [Ultra](https://www.altitude-trail.fr/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu) Runner Magazine rappelle son statut de référence du fell running, cette discipline insulaire où l'on grimpe et descend les reliefs escarpés du Lake District avec une économie de mouvement qui frise la transe. Son Lakeland 24-Hour Record, posé en 2020 — plus de 125 kilomètres et 12 500 mètres de dénivelé positif en une seule rotation horaire —, suffirait à asseoir une carrière.
 
 12 500 mètres de D+ en 24 heures, pour se donner une idée, c'est l'équivalent cumulé d'environ un Everest et demi depuis le niveau de la mer. En une journée. Sur ses jambes.
 

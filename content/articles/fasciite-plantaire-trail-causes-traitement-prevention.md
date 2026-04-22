@@ -1,19 +1,29 @@
 ---
-slug: "fasciite-plantaire-trail-causes-traitement-prevention"
-title: "Fasciite plantaire : pourquoi elle s'invite sur les trails longs et comment s'en prémunir"
-excerpt: "La plus tenace des blessures du pied frappe aussi bien les débutants que les ultra-traileurs. Anatomie, causes, traitement et stratégie de retour en douceur."
-category: "Blessures & Préventions"
+slug: fasciite-plantaire-trail-causes-traitement-prevention
+title: >-
+  Fasciite plantaire : pourquoi elle s'invite sur les trails longs et comment
+  s'en prémunir
+excerpt: >-
+  La plus tenace des blessures du pied frappe aussi bien les débutants que les
+  ultra-traileurs. Anatomie, causes, traitement et stratégie de retour en
+  douceur.
+category: Blessures & Préventions
 categorySlug: blessures
-author: "Rédaction Altitude"
-date: "17 avril 2026"
-readTime: "8 min"
-image: "/articles/fasciite-plantaire-trail-causes-traitement-prevention-hero.jpg"
-tags: ["Fasciite plantaire", "Pied", "Récupération", "Prévention"]
+author: Thomas Rouvier
+date: 17 avril 2026
+readTime: 8 min
+image: /articles/fasciite-plantaire-trail-causes-traitement-prevention-hero.jpg
+tags:
+  - Fasciite plantaire
+  - Pied
+  - Récupération
+  - Prévention
+updatedAt: 22 avril 2026
 ---
 
 Il est six heures du matin dans un gîte du Mercantour. Thomas, finisher de plusieurs cent bornes, pose le pied au sol et se fige. Une douleur aiguë, presque électrique, irradie sous son talon droit. Trois pas plus tard, elle s'estompe — pour mieux revenir le lendemain, puis chaque matin pendant des mois. Ce scénario, la majorité des traileurs le connaissent ou finiront par le croiser. La fasciite plantaire, ou aponévrosite plantaire, reste l'une des blessures les plus fréquentes du coureur de longue distance et sans doute la plus sournoise : elle s'installe discrètement, résiste au repos total et peut compromettre toute une saison si elle n'est pas prise au sérieux.
 
-Le trail expose particulièrement à cette pathologie. Les volumes hebdomadaires élevés, les sorties longues en montagne, les descentes prolongées sur terrain technique et la variabilité des chaussures utilisées selon les formats créent un cocktail de contraintes inhabituelles pour le pied. Contrairement au marathon sur route, où le geste est répétitif et prévisible, le trail impose à l'aponévrose plantaire des sollicitations multidirectionnelles, brutales et souvent sous fatigue. Comprendre ce tissu, ses limites et ses signaux, c'est se donner les moyens de courir longtemps sans le casser.
+Le trail expose particulièrement à cette pathologie. Les volumes hebdomadaires élevés, les sorties longues en montagne, les descentes prolongées sur terrain technique et la variabilité des chaussures utilisées selon les formats créent un cocktail de contraintes inhabituelles pour le pied. Contrairement au marathon sur route, où le geste est répétitif et prévisible, le trail impose à l'aponévrose plantaire des sollicitations multidirectionnelles, brutales et souvent sous fatigue. Comprendre ce tissu, ses limites et ses [signaux](https://www.altitude-trail.fr/articles/recuperation-charge-entrainement-eviter-surentrainement), c'est se donner les moyens de courir longtemps sans le casser.
 
 ## Anatomie et mécanique d'une lame tendue sous le pied
 
@@ -21,7 +31,7 @@ Le trail expose particulièrement à cette pathologie. Les volumes hebdomadaires
 
 L'aponévrose plantaire est une large bande de tissu fibreux, épaisse et peu extensible, qui relie le calcanéum (l'os du talon) à la base des orteils. Elle forme l'arche longitudinale du pied et joue le rôle d'un véritable ressort passif : à chaque foulée, lorsque le pied se déroule, les orteils remontent et mettent en tension cette lame — c'est le fameux « mécanisme du treuil » décrit par Hicks dans les années cinquante. Ce système stocke puis restitue de l'énergie élastique, rendant la course plus économe.
 
-Problème : ce tissu supporte des charges considérables. Sur les appuis de course, les forces qui transitent par l'aponévrose peuvent dépasser plusieurs fois le poids du corps et davantage encore en descente. Lorsque ces contraintes deviennent supérieures aux capacités de réparation du tissu, des microlésions apparaissent à l'insertion calcanéenne, zone la plus sollicitée. On parle aujourd'hui davantage de fasciopathie plantaire que de fasciite, car la composante inflammatoire pure est minoritaire : il s'agit surtout d'une dégénérescence chronique du collagène, proche de ce que l'on observe sur les tendinopathies.
+Problème : ce tissu supporte des charges considérables. Sur les appuis de course, les forces qui transitent par l'aponévrose peuvent dépasser plusieurs fois le poids du corps et davantage encore en [descente](https://www.altitude-trail.fr/articles/la-descente-fait-plus-de-degats-que-la-montee-voici-comment-proteger-vos-articulations). Lorsque ces contraintes deviennent supérieures aux capacités de réparation du tissu, des microlésions apparaissent à l'insertion calcanéenne, zone la plus sollicitée. On parle aujourd'hui davantage de fasciopathie plantaire que de fasciite, car la composante inflammatoire pure est minoritaire : il s'agit surtout d'une dégénérescence chronique du collagène, proche de ce que l'on observe sur les tendinopathies.
 
 ## Les facteurs qui la déclenchent chez le traileur
 

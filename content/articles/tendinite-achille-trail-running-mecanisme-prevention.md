@@ -1,19 +1,27 @@
 ---
-slug: "tendinite-achille-trail-running-mecanisme-prevention"
-title: "Tendinite d'Achille en trail : l'inflammation qui ruine une saison"
-excerpt: "Dénivelé positif, chaussures à drop faible, progression trop brutale : trois raisons pour lesquelles le tendon d'Achille cède. On décortique le mécanisme et les parades."
-category: "Blessures & Préventions"
+slug: tendinite-achille-trail-running-mecanisme-prevention
+title: 'Tendinite d''Achille en trail : l''inflammation qui ruine une saison'
+excerpt: >-
+  Dénivelé positif, chaussures à drop faible, progression trop brutale : trois
+  raisons pour lesquelles le tendon d'Achille cède. On décortique le mécanisme
+  et les parades.
+category: Blessures & Préventions
 categorySlug: blessures
-author: "Rédaction Altitude"
-date: "20 avril 2026"
-readTime: "8 min"
-image: "/articles/tendinite-achille-trail-running-mecanisme-prevention-hero.jpg"
-tags: ["Tendinite d'Achille", "Tendon", "Mollet", "Progression"]
+author: Thomas Rouvier
+date: 20 avril 2026
+readTime: 8 min
+image: /articles/tendinite-achille-trail-running-mecanisme-prevention-hero.jpg
+tags:
+  - Tendinite d'Achille
+  - Tendon
+  - Mollet
+  - Progression
+updatedAt: 22 avril 2026
 ---
 
 Début septembre, cabinet de kinésithérapie du sport à Annecy. Julien, quarante-deux ans, pose son sac sur la chaise et grimace en s'asseyant. Trois semaines plus tôt, il bouclait la Maxi-Race en espérant un chrono correct. Aujourd'hui, il ne peut plus courir trois kilomètres sans ressentir cette douleur sourde, localisée quelques centimètres au-dessus du talon droit, qui s'intensifie le matin au premier pas hors du lit. Son verdict intuitif — "un petit bobo qui va passer" — s'est transformé en saison compromise.
 
-La tendinopathie du tendon d'Achille figure parmi les trois blessures les plus fréquemment observées chez les coureurs d'endurance et elle occupe une place particulièrement douloureuse dans la communauté trail. Les études épidémiologiques sur les coureurs en montagne estiment que près d'un traileur sur cinq la rencontre au moins une fois dans sa carrière, avec des récidives fréquentes lorsque la reprise est mal conduite. La mécanique du trail — dénivelé positif répété, foulée hachée, terrains instables, choix d'équipement à drop minimaliste — crée un cocktail particulièrement agressif pour ce tendon déjà sursollicité dans n'importe quelle pratique de course. Comprendre pourquoi le tendon cède, c'est déjà se donner les moyens de le préserver.
+La tendinopathie du tendon d'Achille figure parmi les trois blessures les plus fréquemment observées chez les coureurs d'endurance et elle occupe une place particulièrement douloureuse dans la communauté [trail](https://www.altitude-trail.fr/articles/premiere-sortie-trail-choix-parcours-allure). Les études épidémiologiques sur les coureurs en montagne estiment que près d'un traileur sur cinq la rencontre au moins une fois dans sa carrière, avec des récidives fréquentes lorsque la reprise est mal conduite. La mécanique du trail — dénivelé positif répété, foulée hachée, terrains instables, choix d'équipement à drop minimaliste — crée un cocktail particulièrement agressif pour ce tendon déjà sursollicité dans n'importe quelle pratique de course. Comprendre pourquoi le tendon cède, c'est déjà se donner les moyens de le préserver.
 
 ## Un tendon, deux zones de faiblesse
 
@@ -49,4 +57,4 @@ Autour de ce socle, plusieurs outils complémentaires ont fait leurs preuves : o
 
 La reprise doit être graduée. On recommence par la marche rapide, puis par des footings courts sur terrain plat et souple, avant de réintroduire progressivement le dénivelé. Les descentes, particulièrement traumatisantes, sont les dernières à revenir. Compter six à douze semaines dans la majorité des cas, davantage pour les formes chroniques ou insertionnelles. Les infiltrations de corticoïdes intratendineux sont aujourd'hui déconseillées.
 
-La tendinopathie d'Achille n'est pas une fatalité du trail, mais elle sanctionne durement les erreurs de planification et les transitions mal conduites. Respecter une progression mesurée en dénivelé, introduire les chaussures minimalistes avec précaution, intégrer quotidiennement du renforcement excentrique préventif, écouter les signaux précoces du tendon — notamment ce raidissement matinal qu'on a trop tendance à ignorer — restent les meilleurs garde-fous. En cas de doute ou de douleur persistante, la consultation d'un médecin du sport ou d'un kinésithérapeute spécialisé ne doit pas être différée : un tendon pris en charge tôt récupère nettement mieux qu'un tendon négligé pendant des mois.
+La tendinopathie d'Achille n'est pas une fatalité du [trail](https://www.altitude-trail.fr/articles/route-vers-trail-adapter-entrainement-sans-blessure), mais elle sanctionne durement les erreurs de planification et les transitions mal conduites. Respecter une progression mesurée en dénivelé, introduire les chaussures minimalistes avec précaution, intégrer quotidiennement du renforcement excentrique préventif, écouter les signaux précoces du tendon — notamment ce raidissement matinal qu'on a trop tendance à ignorer — restent les meilleurs garde-fous. En cas de doute ou de douleur persistante, la consultation d'un médecin du sport ou d'un kinésithérapeute spécialisé ne doit pas être différée : un tendon pris en charge tôt récupère nettement mieux qu'un tendon négligé pendant des mois.

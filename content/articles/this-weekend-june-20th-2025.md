@@ -7,8 +7,8 @@ excerpt: >-
   jeu pour ultra-traileurs. Tour d'horizon.
 category: Actualités
 categorySlug: actualites
-author: Rédaction Altitude
-date: "30 mars 2026"
+author: Yann Karroum
+date: 30 mars 2026
 readTime: 5 min
 image: >-
   /articles/week-end-du-21-juin-2025-le-solstice-britannique-sous-le-signe-de-l-ultra-hero.jpg
@@ -20,10 +20,11 @@ tags:
   - backyard ultra
 sourceUrl: 'https://ultrarunningworld.co.uk/this-weekend-june-20th-2025/'
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
 La nuit la plus courte de l'année est, pour certains, la plus longue à courir. Le week-end du 20 au 22 juin 2025 a transformé les îles Britanniques en un laboratoire grandeur nature de l'ultra-endurance, avec près d'une vingtaine d'épreuves recensées par Ultrarunning World. Rien de comparable, à la même date, sur le continent.
 
-Au programme selon le calendrier publié par Ultrarunning World : la 39e édition de la West Highland Way Race et ses 153 kilomètres écossais, deux cent milles jumeaux sur la Jurassic Coast, des ultras gallois dans le Snowdonia, deux backyard ultras, plusieurs formats chronométriques de 6 à 24 heures et jusqu'à un 60 km sur l'archipel des Scilly avec transferts en bateau. Soit un éventail de distances allant du 50 km au 100 milles et des formats ouverts en backyard pouvant dépasser les 200 km théoriques. Cartographie éditoriale d'un week-end qui révèle beaucoup de ce qu'est devenu l'ultra britannique.
+Au programme selon le calendrier publié par Ultrarunning World : la 39e édition de la West Highland Way Race et ses 153 kilomètres écossais, deux cent milles jumeaux sur la Jurassic Coast, des ultras gallois dans le Snowdonia, deux backyard ultras, plusieurs formats chronométriques de 6 à 24 heures et jusqu'à un 60 km sur l'archipel des Scilly avec transferts en bateau. Soit un éventail de distances allant du 50 km au 100 milles et des formats ouverts en backyard pouvant dépasser les 200 km théoriques. Cartographie éditoriale d'un week-end qui révèle beaucoup de ce qu'est devenu l'[ultra](https://www.altitude-trail.fr/articles/week-end-ultra-au-royaume-uni-et-en-irlande-10-rendez-vous-pour-tous-les-gabarit) britannique.
 
 ## Milngavie-Fort William, la matriarche
 
@@ -63,7 +64,7 @@ Les formats chronométriques complètent l'offre : MK24 Midsummer Run à Milton 
 
 ## Les pépites : Exmoor, Yorkshire et l'Atlantique
 
-Au milieu des mastodontes, quelques épreuves plus confidentielles relevées par Ultrarunning World méritent le détour. L'Exmoor Perambulation (30 milles, environ 48 km) explore le parc national éponyme et ses landes à poneys sauvages. Les Two Roses Ultras depuis Hebden Bridge déclinent 50 ou 100 km dans le Yorkshire, clin d'œil à la guerre des Deux-Roses.
+Au milieu des mastodontes, quelques épreuves plus confidentielles relevées par Ultrarunning World méritent le détour. L'[Exmoor](https://www.altitude-trail.fr/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu) Perambulation (30 milles, environ 48 km) explore le parc national éponyme et ses landes à poneys sauvages. Les Two Roses Ultras depuis Hebden Bridge déclinent 50 ou 100 km dans le Yorkshire, clin d'œil à la guerre des Deux-Roses.
 
 Mais la plus singulière reste sans doute le Scilly 60, dimanche 22 juin : 60 km sur l'archipel des Scilly, au large des Cornouailles, avec transferts en bateau entre les îles. Mi-course, mi-voyage. L'exact opposé, sur le spectre de l'ultra britannique, d'une West Highland Way Race.
 

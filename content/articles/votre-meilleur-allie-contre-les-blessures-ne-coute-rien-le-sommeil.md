@@ -1,23 +1,33 @@
 ---
-slug: "votre-meilleur-allie-contre-les-blessures-ne-coute-rien-le-sommeil"
-title: "Votre meilleur allié contre les blessures ne coûte rien : le sommeil"
-excerpt: "Moins de 6 heures de sommeil multiplie par 1,7 le risque de blessure sportive. Ce que la science dit vraiment sur le lien entre récupération nocturne et longévité du coureur — et les leviers concrets pour dormir comme un athlète."
-category: "Entraînement"
-categorySlug: "entrainement"
-author: "Rédaction Altitude Trail"
-date: "22 avril 2026"
-readTime: "7 min"
-image: "/articles/sommeil-recuperation-coureur-mo9t6xjv-hero.jpg"
-tags: ["sommeil", "récupération", "blessures", "performance", "hygiène de vie", "cortisol"]
+slug: votre-meilleur-allie-contre-les-blessures-ne-coute-rien-le-sommeil
+title: 'Votre meilleur allié contre les blessures ne coûte rien : le sommeil'
+excerpt: >-
+  Moins de 6 heures de sommeil multiplie par 1,7 le risque de blessure sportive.
+  Ce que la science dit vraiment sur le lien entre récupération nocturne et
+  longévité du coureur — et les leviers concrets pour dormir comme un athlète.
+category: Entraînement
+categorySlug: entrainement
+author: Yann Karroum
+date: 22 avril 2026
+readTime: 7 min
+image: /articles/sommeil-recuperation-coureur-mo9t6xjv-hero.jpg
+tags:
+  - sommeil
+  - récupération
+  - blessures
+  - performance
+  - hygiène de vie
+  - cortisol
+updatedAt: 22 avril 2026
 ---
 
-Tu peux avoir le meilleur plan d'entraînement du monde, la meilleure nutrition, les meilleures chaussures. Si tu dors 6 heures par nuit en enchaînant les grosses semaines, tu te blesseras. La science est désormais sans ambiguïté : **le sommeil est le levier de récupération n°1 du coureur d'endurance**, loin devant la nutrition post-effort, les bains froids, ou le massage. Et c'est gratuit.
+Tu peux avoir le meilleur [plan](https://www.altitude-trail.fr/articles/plan-entrainement-ultra-quatre-blocs-essentiels) d'entraînement du monde, la meilleure nutrition, les meilleures chaussures. Si tu dors 6 heures par nuit en enchaînant les grosses semaines, tu te blesseras. La science est désormais sans ambiguïté : **le sommeil est le levier de récupération n°1 du coureur d'endurance**, loin devant la nutrition post-effort, les bains froids, ou le massage. Et c'est gratuit.
 
 ## Le chiffre qui devrait tous nous alerter
 
 Une étude publiée dans le *Journal of Pediatric Orthopaedics* sur 112 jeunes athlètes a établi un résultat sans appel : les athlètes dormant **moins de 8 heures par nuit ont 1,7 fois plus de risques de se blesser** que ceux dormant au moins 8 heures. Chez les adultes d'endurance, le facteur est similaire.
 
-Pire : cette corrélation est **indépendante** du volume d'entraînement. Autrement dit, ce n'est pas "je fais plus de volume donc je dors moins et je me blesse plus". C'est "je dors moins et mon corps résiste moins bien à la charge, peu importe laquelle".
+Pire : cette corrélation est **indépendante** du volume d'entraînement. Autrement dit, ce n'est pas "je fais plus de volume donc je dors moins et je me blesse plus". C'est "je dors moins et mon corps résiste moins bien à la [charge](https://www.altitude-trail.fr/articles/recuperation-charge-entrainement-eviter-surentrainement), peu importe laquelle".
 
 Sur les ultra-traileurs suivis au long cours, la privation chronique de sommeil (moins de 6h30 en moyenne sur 2 semaines) est associée à :
 

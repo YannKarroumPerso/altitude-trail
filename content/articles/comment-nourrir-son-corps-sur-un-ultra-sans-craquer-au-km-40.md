@@ -1,21 +1,35 @@
 ---
-slug: "comment-nourrir-son-corps-sur-un-ultra-sans-craquer-au-km-40"
-title: "Comment nourrir son corps sur un ultra sans craquer au km 40"
-excerpt: "Apports caloriques, solides vs gels, gestion de la nausée, fenêtre d'absorption : le guide nutritionnel pour tenir la distance sur ultra-trail, sans hypoglycémie ni troubles digestifs."
-category: "Nutrition"
-categorySlug: "nutrition"
-author: "Rédaction Altitude Trail"
-date: "22 avril 2026"
-readTime: "8 min"
-image: "/articles/nutrition-ultra-km40-mo9t6xjv-hero.jpg"
-tags: ["nutrition", "ultra-trail", "hypoglycémie", "training the gut", "glucides", "endurance"]
+slug: comment-nourrir-son-corps-sur-un-ultra-sans-craquer-au-km-40
+title: Comment nourrir son corps sur un ultra sans craquer au km 40
+excerpt: >-
+  Apports caloriques, solides vs gels, gestion de la nausée, fenêtre
+  d'absorption : le guide nutritionnel pour tenir la distance sur ultra-trail,
+  sans hypoglycémie ni troubles digestifs.
+category: Nutrition
+categorySlug: nutrition
+author: Yann Karroum
+date: 22 avril 2026
+readTime: 8 min
+image: /articles/nutrition-ultra-km40-mo9t6xjv-hero.jpg
+tags:
+  - nutrition
+  - ultra-trail
+  - hypoglycémie
+  - training the gut
+  - glucides
+  - endurance
+updatedAt: 22 avril 2026
 ---
 
 Le mur du kilomètre 40 n'est presque jamais musculaire. C'est presque toujours métabolique. Le coureur qui explose sur un 80 km n'a pas "les jambes qui lâchent" — son cerveau n'a plus de carburant, son estomac refuse tout, et son système nerveux central baisse le rideau. La nutrition sur ultra, c'est 60 % de la performance. Pas un détail à régler la veille.
 
+
+
+*À lire aussi : [Bob Yates : 1 030 miles à travers le Royaume-Uni pour fêter ses 60 ans](https://www.altitude-trail.fr/articles/bob-yates-1-030-miles-a-travers-le-royaume-uni-pour-feter-ses-60-ans)*
+
 ## La règle des 60 à 90 grammes de glucides par heure
 
-La donnée scientifique la plus solide en nutrition d'endurance, c'est le débit maximal d'oxydation des glucides exogènes. Un coureur moyen absorbe environ **60 g de glucides par heure**. Un coureur dont l'appareil digestif est entraîné peut monter jusqu'à **90 g/h**, à condition de mélanger deux types de sucres — typiquement glucose + fructose en ratio 2:1 — qui empruntent des voies d'absorption différentes dans l'intestin grêle.
+La donnée scientifique la plus solide en nutrition d'endurance, c'est le débit maximal d'oxydation des [glucides](https://www.altitude-trail.fr/articles/glucides-trail-combien-quand-quelle-forme) exogènes. Un coureur moyen absorbe environ **60 g de glucides par heure**. Un coureur dont l'appareil digestif est entraîné peut monter jusqu'à **90 g/h**, à condition de mélanger deux types de sucres — typiquement glucose + fructose en ratio 2:1 — qui empruntent des voies d'absorption différentes dans l'intestin grêle.
 
 Concrètement, sur un ultra de 12 heures, c'est **720 à 1080 kcal de glucides par heure**. À comparer aux gels trail classiques (22 à 30 g de glucides chacun), ça donne **2 à 3 gels par heure**, ou l'équivalent en boisson énergétique, ou un mix solide/liquide.
 

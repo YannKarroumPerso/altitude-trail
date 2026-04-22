@@ -1,22 +1,44 @@
 ---
-slug: "stuart-terrill-60-metres-de-chute-quand-le-mountain-running-bascule-dans-le-spor"
-title: "Stuart Terrill, 60 mètres de chute : quand le mountain running bascule dans le sport à risque"
-excerpt: "Le 13 juillet dernier, un jeune champion universitaire américain a survécu à une chute de plus de 60 mètres lors des championnats US de mountain running. Son histoire, racontée par Trail Runner Mag, oblige la discipline à regarder ses angles morts."
-category: "Actualités"
+slug: >-
+  stuart-terrill-60-metres-de-chute-quand-le-mountain-running-bascule-dans-le-spor
+title: >-
+  Stuart Terrill, 60 mètres de chute : quand le mountain running bascule dans le
+  sport à risque
+excerpt: >-
+  Le 13 juillet dernier, un jeune champion universitaire américain a survécu à
+  une chute de plus de 60 mètres lors des championnats US de mountain running.
+  Son histoire, racontée par Trail Runner Mag, oblige la discipline à regarder
+  ses angles morts.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "13 décembre 2024"
-readTime: "5 min"
-image: "https://cdn.trailrunnermag.com/wp-content/uploads/2024/12/Stuart-Terrill-opener.jpg?width=1200"
-tags: ["mountain running", "sécurité", "Cirque Series", "accident", "USA"]
-sourceUrl: "https://www.trailrunnermag.com/people/news/trail-running-accident/"
-imagePrompt1: "A lone trail runner in bright race bib cresting the rocky summit of Hidden Peak at Snowbird ski resort in Utah, exposed ridgeline with loose scree and steep drop-off, harsh midday July light, Wasatch range stretching into the distance, technical mountain running terrain"
-imagePrompt2: "A red medical rescue helicopter landing on a gravel service road below a jagged rocky gully in the Wasatch mountains, ski patrol team with orange jackets carrying a spine board, summer alpine setting with wildflowers and loose boulders, late morning light"
+author: Marc Blanc
+date: 13 décembre 2024
+readTime: 5 min
+image: >-
+  https://cdn.trailrunnermag.com/wp-content/uploads/2024/12/Stuart-Terrill-opener.jpg?width=1200
+tags:
+  - mountain running
+  - sécurité
+  - Cirque Series
+  - accident
+  - USA
+sourceUrl: 'https://www.trailrunnermag.com/people/news/trail-running-accident/'
+imagePrompt1: >-
+  A lone trail runner in bright race bib cresting the rocky summit of Hidden
+  Peak at Snowbird ski resort in Utah, exposed ridgeline with loose scree and
+  steep drop-off, harsh midday July light, Wasatch range stretching into the
+  distance, technical mountain running terrain
+imagePrompt2: >-
+  A red medical rescue helicopter landing on a gravel service road below a
+  jagged rocky gully in the Wasatch mountains, ski patrol team with orange
+  jackets carrying a spine board, summer alpine setting with wildflowers and
+  loose boulders, late morning light
+updatedAt: 22 avril 2026
 ---
 
-Une passe tentée dans un virage exposé. Quelques secondes d'emballement. Puis le vide, et 60 mètres de chute dans un couloir rocheux du Wasatch. Stuart Terrill aurait dû mourir le 13 juillet à Snowbird. Il vit, et son histoire replace une question gênante au centre du plateau : jusqu'où le mountain running peut-il aller sans admettre qu'il est devenu un sport à risque majeur ?
+Une passe tentée dans un virage exposé. Quelques secondes d'emballement. Puis le vide, et 60 mètres de chute dans un couloir rocheux du Wasatch. Stuart Terrill aurait dû mourir le 13 juillet à Snowbird. Il vit, et son histoire replace une question gênante au centre du plateau : jusqu'où le mountain [running](https://www.altitude-trail.fr/articles/scott-running-fete-ses-20-ans-ce-que-revele-une-operation-de-presse-en-val-di-so) peut-il aller sans admettre qu'il est devenu un sport à risque majeur ?
 
-Diplômé de l'Université de Richmond, double champion universitaire de trail, 22 ans, Terrill disputait le 8,7 miles du Cirque Series, support des championnats USATF de mountain running 2024. Une heure après le départ, il bascule le sommet de Hidden Peak, à 11 000 pieds. En tentant de doubler un concurrent dans la descente, il part à la faute, franchit la crête d'un couloir et chute sur plus de 200 pieds — environ 60 mètres — sur du terrain rocheux. Bilan rapporté par Trail Runner Mag : huit vertèbres, quatre côtes, la clavicule droite, le poignet gauche, la rotule droite, plusieurs os dans chaque pied. Transport héliporté à l'Université de l'Utah. Vivant.
+Diplômé de l'Université de Richmond, double champion universitaire de trail, 22 ans, Terrill disputait le 8,7 miles du Cirque Series, support des championnats USATF de mountain [running](https://www.altitude-trail.fr/articles/scott-running-team-2026-la-releve-frappe-a-la-porte) 2024. Une heure après le départ, il bascule le sommet de Hidden Peak, à 11 000 pieds. En tentant de doubler un concurrent dans la descente, il part à la faute, franchit la crête d'un couloir et chute sur plus de 200 pieds — environ 60 mètres — sur du terrain rocheux. Bilan rapporté par Trail Runner Mag : huit vertèbres, quatre côtes, la clavicule droite, le poignet gauche, la rotule droite, plusieurs os dans chaque pied. Transport héliporté à l'Université de l'Utah. Vivant.
 
 ## Un récit de chute qui force à regarder le terrain
 

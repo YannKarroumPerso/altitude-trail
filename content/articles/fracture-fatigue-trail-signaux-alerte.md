@@ -1,14 +1,21 @@
 ---
-slug: "fracture-fatigue-trail-signaux-alerte"
-title: "Fracture de fatigue : lire les signaux avant la rupture"
-excerpt: "Une douleur qui monte en intensité à chaque sortie, un point précis qui brûle la nuit. Le piège classique du coureur qui repousse la consultation."
-category: "Blessures & Préventions"
+slug: fracture-fatigue-trail-signaux-alerte
+title: 'Fracture de fatigue : lire les signaux avant la rupture'
+excerpt: >-
+  Une douleur qui monte en intensité à chaque sortie, un point précis qui brûle
+  la nuit. Le piège classique du coureur qui repousse la consultation.
+category: Blessures & Préventions
 categorySlug: blessures
-author: "Rédaction Altitude"
-date: "13 avril 2026"
-readTime: "9 min"
-image: "/articles/fracture-fatigue-trail-signaux-alerte-hero.jpg"
-tags: ["Fracture de fatigue", "Tibia", "Diagnostic", "Os"]
+author: Thomas Rouvier
+date: 13 avril 2026
+readTime: 9 min
+image: /articles/fracture-fatigue-trail-signaux-alerte-hero.jpg
+tags:
+  - Fracture de fatigue
+  - Tibia
+  - Diagnostic
+  - Os
+updatedAt: 22 avril 2026
 ---
 
 La fracture de fatigue n'arrive jamais par surprise. Elle s'annonce, insiste, hurle parfois pendant des semaines avant de casser net. Le problème, c'est qu'on préfère rarement l'écouter.
@@ -27,7 +34,7 @@ C'est ce que la littérature appelle le continuum du stress osseux. On n'entre p
 
 ## Une géographie prévisible de la blessure
 
-Certains sites sont récurrents et leur localisation en dit long sur la mécanique fautive. Le tibia antérieur concentre à lui seul près d'un tiers des cas chez le coureur. Zone de flexion maximale, particulièrement sollicitée par la réception en descente et par les terrains durs, elle supporte mal les variations brutales de volume.
+Certains sites sont récurrents et leur localisation en dit long sur la mécanique fautive. Le tibia antérieur concentre à lui seul près d'un tiers des cas chez le coureur. Zone de flexion maximale, particulièrement sollicitée par la réception en descente et par les terrains durs, elle supporte mal les variations brutales de [volume](https://www.altitude-trail.fr/articles/periostite-tibiale-traileur-debutant-progression).
 
 Les métatarsiens, deuxième et troisième notamment, touchent davantage les coureurs à foulée médio-pied ou avant-pied, surtout quand la transition vers des chaussures plus minimalistes a été trop rapide. Le col fémoral, lui, reste la localisation la plus redoutée : risque de déplacement, chirurgie potentielle, arrêt qui peut dépasser six mois. On le retrouve plus souvent chez les coureuses en déficit énergétique prolongé.
 

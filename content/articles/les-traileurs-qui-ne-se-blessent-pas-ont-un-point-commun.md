@@ -1,17 +1,27 @@
 ---
-slug: "les-traileurs-qui-ne-se-blessent-pas-ont-un-point-commun"
-title: "Les traileurs qui ne se blessent pas ont un point commun : ils font ça"
-excerpt: "Gainage, renforcement des chevilles et genoux, fréquence optimale : ce que les études sur 10 000 coureurs nous apprennent sur le seul entraînement qui divise par 4 le risque de blessure."
-category: "Entraînement"
-categorySlug: "entrainement"
-author: "Rédaction Altitude Trail"
-date: "22 avril 2026"
-readTime: "7 min"
-image: "/articles/renforcement-musculaire-traileur-mo9t6xjv-hero.jpg"
-tags: ["renforcement", "prévention blessures", "gainage", "chevilles", "genoux", "entraînement croisé"]
+slug: les-traileurs-qui-ne-se-blessent-pas-ont-un-point-commun
+title: 'Les traileurs qui ne se blessent pas ont un point commun : ils font ça'
+excerpt: >-
+  Gainage, renforcement des chevilles et genoux, fréquence optimale : ce que les
+  études sur 10 000 coureurs nous apprennent sur le seul entraînement qui divise
+  par 4 le risque de blessure.
+category: Entraînement
+categorySlug: entrainement
+author: Thomas Rouvier
+date: 22 avril 2026
+readTime: 7 min
+image: /articles/renforcement-musculaire-traileur-mo9t6xjv-hero.jpg
+tags:
+  - renforcement
+  - prévention blessures
+  - gainage
+  - chevilles
+  - genoux
+  - entraînement croisé
+updatedAt: 22 avril 2026
 ---
 
-Un coureur sur deux se blesse au moins une fois par an. C'est le chiffre universel, peu importe le pays ou le niveau. Mais dans le groupe qui ne se blesse pas, une pratique revient systématiquement : **2 à 3 séances de renforcement musculaire par semaine**. Pas de la muscu lourde façon bodybuilder. Des exercices spécifiques, brefs, qui protègent exactement les zones à risque du coureur.
+Un coureur sur deux se blesse au moins une fois par an. C'est le chiffre universel, peu importe le pays ou le niveau. Mais dans le groupe qui ne se blesse pas, une pratique revient systématiquement : **2 à 3 séances de [renforcement](https://www.altitude-trail.fr/articles/renforcement-musculaire-trail-exercices-cles) musculaire par semaine**. Pas de la muscu lourde façon bodybuilder. Des exercices spécifiques, brefs, qui protègent exactement les zones à risque du coureur.
 
 ## Le chiffre qui fait réfléchir : 49 % vs 13 %
 
@@ -41,7 +51,7 @@ Le syndrome fémoro-patellaire (genou du coureur) touche 25 % des traileurs au m
 
 ### 3. Le gainage — le transfert d'énergie
 
-Le gainage n'est pas "joli" à faire et ne muscle pas visiblement. Mais il conditionne **toute la transmission de force** entre les jambes et le tronc. Un coureur au gainage faible gaspille 20 % de son énergie à compenser les mouvements parasites du bassin.
+Le gainage n'est pas "joli" à faire et ne muscle pas visiblement. Mais il conditionne **toute la transmission de force** entre les [jambes](https://www.altitude-trail.fr/articles/entrainement-specifique-descente-trail-excentrique) et le tronc. Un coureur au gainage faible gaspille 20 % de son énergie à compenser les mouvements parasites du bassin.
 
 - **Planche ventrale et latérale** : 3 × 45 secondes chacune, 2 fois par semaine minimum
 - **Superman alternés (bird-dog)** : 3 × 12 répétitions. Coordonne gainage + équilibre

@@ -1,23 +1,30 @@
 ---
-slug: "renforcement-musculaire-trail-exercices-cles"
-title: "Renforcement musculaire pour le trail : les exercices qui changent tout"
-excerpt: "Deux séances par semaine bien ciblées font plus pour votre performance en trail que dix sorties supplémentaires. Le programme minimaliste qui marche."
-category: "Entraînement & Performances"
+slug: renforcement-musculaire-trail-exercices-cles
+title: 'Renforcement musculaire pour le trail : les exercices qui changent tout'
+excerpt: >-
+  Deux séances par semaine bien ciblées font plus pour votre performance en
+  trail que dix sorties supplémentaires. Le programme minimaliste qui marche.
+category: Entraînement & Performances
 categorySlug: entrainement
-author: "Rédaction Altitude"
-date: "12 avril 2026"
-readTime: "9 min"
-image: "/articles/renforcement-musculaire-trail-exercices-cles-hero.jpg"
-tags: ["Renforcement", "Musculation", "Performance", "Prévention"]
+author: Thomas Rouvier
+date: 12 avril 2026
+readTime: 9 min
+image: /articles/renforcement-musculaire-trail-exercices-cles-hero.jpg
+tags:
+  - Renforcement
+  - Musculation
+  - Performance
+  - Prévention
+updatedAt: 22 avril 2026
 ---
 
 Deux séances de 40 minutes par semaine. Pas dix. C'est la dose minimale qui sépare le coureur qui tient ses descentes du coureur qui s'écroule au kilomètre 60.
 
-La littérature scientifique converge depuis une quinzaine d'années : le renforcement musculaire lourd améliore l'économie de course chez les coureurs de fond, y compris d'ultra-endurance. Une méta-analyse parue dans le British Journal of Sports Medicine a quantifié ces gains entre 2 et 8 % sur l'économie de course, sans prise de masse significative. Pour un trail de 80 kilomètres, c'est l'équivalent d'une heure gagnée sans avoir couru un mètre supplémentaire. Et pourtant, la majorité des traileurs français continuent d'empiler les kilomètres en négligeant la salle. Erreur stratégique.
+La littérature scientifique converge depuis une quinzaine d'années : le renforcement musculaire lourd améliore l'économie de course chez les coureurs de fond, y compris d'ultra-endurance. Une méta-analyse parue dans le British Journal of Sports Medicine a quantifié ces gains entre 2 et 8 % sur l'économie de course, sans prise de masse significative. Pour un trail de 80 kilomètres, c'est l'équivalent d'une heure gagnée sans avoir couru un mètre supplémentaire. Et pourtant, la majorité des [traileurs](https://www.altitude-trail.fr/articles/les-traileurs-qui-ne-se-blessent-pas-ont-un-point-commun) français continuent d'empiler les kilomètres en négligeant la salle. Erreur stratégique.
 
 ## Pourquoi courir plus ne suffit plus passé un certain seuil
 
-Le trail n'est pas du marathon sur chemin. Chaque descente impose des contractions excentriques qui ravagent les fibres musculaires bien plus violemment qu'un effort concentrique sur route. Une descente technique soutenue, c'est l'équivalent biomécanique d'un travail pliométrique prolongé sous fatigue. Le quadriceps encaisse, les ischios freinent, les mollets absorbent. Si la structure cède, la foulée se désorganise et le chrono s'effondre.
+Le trail n'est pas du marathon sur chemin. Chaque [descente](https://www.altitude-trail.fr/articles/entrainement-specifique-descente-trail-excentrique) impose des contractions excentriques qui ravagent les fibres musculaires bien plus violemment qu'un effort concentrique sur route. Une descente technique soutenue, c'est l'équivalent biomécanique d'un travail pliométrique prolongé sous fatigue. Le quadriceps encaisse, les ischios freinent, les mollets absorbent. Si la structure cède, la foulée se désorganise et le chrono s'effondre.
 
 Ajouter des kilomètres à un coureur déjà à 80 km par semaine ne règle pas ce problème. Le volume développe le moteur cardiovasculaire et l'endurance métabolique, mais il ne reconstruit pas la rigidité tendineuse, la force maximale de la chaîne postérieure, ni la stabilité frontale de la hanche. Ce sont pourtant ces qualités qui déterminent la tenue musculaire après huit heures d'effort accidenté.
 

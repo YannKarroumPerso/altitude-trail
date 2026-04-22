@@ -7,8 +7,8 @@ excerpt: >-
   rôle de mentor au sein de Salomon.
 category: Actualités
 categorySlug: actualites
-author: Rédaction Altitude
-date: "29 mars 2026"
+author: Marc Blanc
+date: 29 mars 2026
 readTime: 6 min
 image: >-
   /articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029-hero.jpg
@@ -21,10 +21,11 @@ tags:
 sourceUrl: >-
   https://www.ultrarunnermagazine.co.uk/courtney-dauwalter-salomon-continue-their-partnership-until-2029/
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
-Prolonger un contrat d'ambassadrice jusqu'en 2029, puis intégrer l'athlète au capital humain de la marque : Salomon ne renouvelle pas Courtney Dauwalter, la marque la transforme en actif long terme. Un signal pour toute l'industrie.
+Prolonger un contrat d'ambassadrice jusqu'en 2029, puis intégrer l'athlète au capital humain de la marque : [Salomon](https://www.altitude-trail.fr/articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe) ne renouvelle pas Courtney Dauwalter, la marque la transforme en actif long terme. Un signal pour toute l'industrie.
 
-**Annoncée cette semaine et relayée par Ultra Runner Magazine, la prolongation du partenariat entre Courtney Dauwalter et Salomon couvre cinq saisons supplémentaires. Au-delà du contrat sportif, la coureuse américaine basculera ensuite du côté salarié de l'entreprise haut-savoyarde, dans un rôle mêlant mentorat, développement produit et marketing running. Septennat déjà derrière eux, depuis 2017 et un carton de chaussures envoyé à une quasi-inconnue du Minnesota. Entre temps : un record féminin à Western States, un Triple Crown inédit en 2023 (Western States, Hardrock, UTMB la même année), une collection capsule baptisée « Shortney » et une silhouette devenue l'une des plus identifiables du trail mondial.**
+**Annoncée cette semaine et relayée par [Ultra](https://www.altitude-trail.fr/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu) Runner Magazine, la prolongation du partenariat entre Courtney Dauwalter et Salomon couvre cinq saisons supplémentaires. Au-delà du contrat sportif, la coureuse américaine basculera ensuite du côté salarié de l'entreprise haut-savoyarde, dans un rôle mêlant mentorat, développement produit et marketing running. Septennat déjà derrière eux, depuis 2017 et un carton de chaussures envoyé à une quasi-inconnue du Minnesota. Entre temps : un record féminin à Western States, un Triple Crown inédit en 2023 (Western States, Hardrock, UTMB la même année), une collection capsule baptisée « Shortney » et une silhouette devenue l'une des plus identifiables du trail mondial.**
 
 ## Un renouvellement qui n'en est pas un
 

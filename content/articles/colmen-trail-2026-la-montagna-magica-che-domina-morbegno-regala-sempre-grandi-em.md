@@ -10,8 +10,8 @@ excerpt: >-
   la jeunesse rayonne sur le format court.
 category: Courses & Récits
 categorySlug: courses-recits
-author: Rédaction Altitude
-date: "15 avril 2026"
+author: Marc Blanc
+date: 15 avril 2026
 readTime: 5 min
 image: >-
   /articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno-hero.jpg
@@ -24,10 +24,11 @@ tags:
 sourceUrl: >-
   https://www.corsainmontagna.it/2026/04/19/colmen-trail-2026-la-montagna-magica-che-domina-morbegno-regala-sempre-grandi-emozioni/
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
 Treize éditions et la même équation qui se vérifie : quand Alice Gaggi court chez elle, le reste du plateau féminin joue pour la deuxième place. Quand Lorenzo Rota Martir trouve ses marques dès les premiers hectomètres, la CT22 se transforme en contre-la-montre à un coureur. La Colmen Trail 2026 n'a pas dérogé à sa grammaire.
 
-Orchestrée par le Team Valtellina au-dessus de Morbegno, la treizième édition de la Colmen Trail a réuni plus de 500 coureurs sur deux formats, 22 km et 1 320 m D+ pour la CT22, 12 km et 600 m D+ pour la CT12. Comme le rapporte Corsa in Montagna, Lorenzo Rota Martir (US Malonno – La Sportiva) s'est imposé en 1h50'58", Alice Gaggi (Recastello – Brooks) en 2h15'46". Travaux à la Colonia Fluviale obligent, départ et arrivée ont été déplacés au Polo Fieristico. La montagne, elle, n'a pas bougé. Les hiérarchies non plus.
+Orchestrée par le Team Valtellina au-dessus de Morbegno, la treizième édition de la Colmen Trail a réuni plus de 500 coureurs sur deux formats, 22 km et 1 320 m D+ pour la CT22, 12 km et 600 m D+ pour la CT12. Comme le rapporte Corsa in Montagna, Lorenzo Rota Martir (US Malonno – La Sportiva) s'est imposé en 1h50'58", Alice Gaggi (Recastello – Brooks) en 2h15'46". Travaux à la Colonia Fluviale obligent, départ et arrivée ont été déplacés au Polo Fieristico. La [montagne](https://www.altitude-trail.fr/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av), elle, n'a pas bougé. Les hiérarchies non plus.
 
 ## Rota Martir, la victoire annoncée qui s'exécute
 
@@ -65,7 +66,7 @@ Chiara Finzi (Polisportiva Albosaggia, 1h15'05") boucle le podium. Que deux cour
 
 ## Ce que la Colmen dit du trail italien
 
-Les grandes messes internationales du trail — UTMB, Hardrock, Western States — absorbent l'essentiel de l'attention médiatique. Elles cachent parfois l'arbre qui pousse : un tissu d'épreuves régionales de deux heures, cinq cents dossards, budget modeste, bénévoles motivés, qui constitue le véritable écosystème de la pratique.
+Les grandes messes internationales du trail — UTMB, Hardrock, Western States — absorbent l'essentiel de l'attention médiatique. Elles cachent parfois l'arbre qui pousse : un tissu d'épreuves régionales de deux heures, cinq cents [dossards](https://www.altitude-trail.fr/articles/colmen-trail-500-dossards-envoles-quand-un-trail-de-village-verrouille-sa-jauge), budget modeste, bénévoles motivés, qui constitue le véritable écosystème de la pratique.
 
 La Colmen Trail en est un exemple presque manuel. Tracés techniques et lisibles, ancrage territorial revendiqué, patronage municipal, réseau de sponsors locaux, format double qui accueille aussi bien les élites que les pratiquants du dimanche. Corsa in Montagna insiste sur la capacité de l'organisation à s'adapter — déplacement du départ, repas convivial au Polo Fieristico — sans rien perdre de son identité.
 

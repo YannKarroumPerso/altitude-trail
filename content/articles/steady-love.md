@@ -8,8 +8,8 @@ excerpt: >-
   constant ?
 category: Actualités
 categorySlug: actualites
-author: Rédaction Altitude
-date: "14 avril 2026"
+author: Yann Karroum
+date: 14 avril 2026
 readTime: 5 min
 image: >-
   /articles/steady-love-ce-que-zach-miller-retiendra-vraiment-de-sa-vie-de-coureur-hero.jpg
@@ -21,10 +21,11 @@ tags:
   - acclimatation chaleur
 sourceUrl: 'https://www.irunfar.com/steady-love'
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
 Zach Miller, un des coureurs les plus intenses de sa génération, publie un texte qui ressemble à un aveu. Pas un palmarès, pas un bilan de saison. Une confession sur ce qu'il retiendra vraiment et ce n'est pas ce que l'on croit.
 
-L'Américain, deuxième de la Transgrancanaria 2024, figure de The North Face et habitant d'un bus de cinq mètres carrés perché sur Pikes Peak, a signé sur iRunFar une chronique intitulée *Steady Love*. Un texte introspectif écrit après une séance nocturne de home-trainer en combinaison thermique, version DIY de l'acclimatation à la chaleur. Le déclencheur : une chanson de Ben Rector qui tourne sur Spotify et la question que se pose soudain un ultra-traileur de 35 ans. Que restera-t-il, vraiment, quand les chaussures seront rangées ?
+L'Américain, deuxième de la Transgrancanaria 2024, figure de The North Face et habitant d'un bus de cinq mètres carrés perché sur Pikes Peak, a signé sur iRunFar une chronique intitulée *Steady Love*. Un texte introspectif écrit après une séance nocturne de home-trainer en combinaison thermique, version DIY de l'acclimatation à la chaleur. Le déclencheur : une chanson de Ben Rector qui tourne sur Spotify et la question que se pose soudain un ultra-[traileur](https://www.altitude-trail.fr/articles/recale-aux-loteries-d-ultra-le-guide-de-survie-du-traileur-decu) de 35 ans. Que restera-t-il, vraiment, quand les chaussures seront rangées ?
 
 ## Une chronique qui sonne faux dans le paysage éditorial actuel
 
@@ -58,7 +59,7 @@ La lecture la plus intéressante de ce texte est celle qui prend de la hauteur. 
 
 Dans ce modèle, le processus disparaît sous le résultat. Seules les lignes d'arrivée existent médiatiquement. Ce que dit Miller — et iRunFar en creux, en lui laissant l'espace de le dire — c'est qu'il existe un coût psychique à cette compression. Quand tout devient objectif, le plaisir du simple mouvement se raréfie. Les podiums se multiplient, la gratitude s'atrophie.
 
-Comparer avec d'autres figures éclaire le propos. Kilian Jornet a passé une partie de ces dernières années à expliquer qu'il courait d'abord pour le mouvement en montagne. François D'Haene cultive depuis longtemps un discours de lenteur, de domaine viticole et de saison longue. Courtney Dauwalter parle rarement de victoire, beaucoup de curiosité. Il existe une tradition, chez les meilleurs, d'un refus discret de la tyrannie du résultat. Miller s'y inscrit, à sa manière américaine, directe et un peu naïve.
+Comparer avec d'autres figures éclaire le propos. Kilian Jornet a passé une partie de ces dernières années à expliquer qu'il courait d'abord pour le mouvement en montagne. François D'Haene cultive depuis longtemps un discours de lenteur, de domaine viticole et de saison longue. Courtney [Dauwalter](https://www.altitude-trail.fr/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029) parle rarement de victoire, beaucoup de curiosité. Il existe une tradition, chez les meilleurs, d'un refus discret de la tyrannie du résultat. Miller s'y inscrit, à sa manière américaine, directe et un peu naïve.
 
 ## Un déplacement du centre de gravité, pas un renoncement
 

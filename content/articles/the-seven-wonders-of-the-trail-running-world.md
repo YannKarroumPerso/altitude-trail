@@ -7,8 +7,8 @@ excerpt: >-
   dire.
 category: Courses & Récits
 categorySlug: courses-recits
-author: Rédaction Altitude
-date: "11 avril 2026"
+author: Marc Blanc
+date: 11 avril 2026
 readTime: 6 min
 image: /articles/les-sept-merveilles-du-trail-mondial-l-ultime-bucket-list-hero.jpg
 tags:
@@ -20,6 +20,7 @@ tags:
 sourceUrl: >-
   https://www.trailrunnermag.com/people/culture-people/the-seven-wonders-of-the-trail-running-world/
 rewrittenAt: '2026-04-20'
+updatedAt: 22 avril 2026
 ---
 ## Sept sentiers, un diagnostic : le trail est devenu une industrie du voyage
 
@@ -39,7 +40,7 @@ Le magazine américain souligne un détail révélateur : la plupart des coureur
 
 Dix-huit miles — 29 kilomètres — dans les White Mountains du New Hampshire. Sur le papier, une sortie longue. En réalité, l'un des terrains les plus traîtres de l'Est américain. Trail Runner Mag insiste sur la dureté du sol : caillouteux, cassant, impitoyable pour les chevilles. Neuf sommets portant des noms présidentiels — Washington, Adams, Jefferson, Madison, Monroe, Eisenhower, Pierce — enchaînés sur la crête.
 
-Le magazine rappelle un fait que peu de Français mesurent : la météo du Mont Washington est réputée parmi les plus hostiles du continent nord-américain. Des vents de plus de 300 km/h y ont été enregistrés. Le FKT de la traversée figure parmi les records les plus disputés des États-Unis. À méditer pour qui pense qu'un itinéraire court est forcément un itinéraire facile. Le Hardrock Hundred fait 160 kilomètres et 10 000 mètres de D+ ; la Presi fait un septième de cette distance et reste, proportionnellement, probablement aussi exigeante au kilomètre.
+Le magazine rappelle un fait que peu de Français mesurent : la météo du Mont Washington est réputée parmi les plus hostiles du continent nord-américain. Des vents de plus de 300 km/h y ont été enregistrés. Le FKT de la [travers](https://www.altitude-trail.fr/articles/bob-yates-1-030-miles-a-travers-le-royaume-uni-pour-feter-ses-60-ans)ée figure parmi les records les plus disputés des États-Unis. À méditer pour qui pense qu'un itinéraire court est forcément un itinéraire facile. Le Hardrock Hundred fait 160 kilomètres et 10 000 mètres de D+ ; la Presi fait un septième de cette distance et reste, proportionnellement, probablement aussi exigeante au kilomètre.
 
 ## Kalalau, Milford : quand le sentier impose sa loi
 
@@ -57,7 +58,7 @@ Le Four Pass Loop, près d'Aspen dans le Colorado, joue une autre partition : 43
 
 ## Le R2R2R, sommet inversé du trail américain
 
-Trail Runner Mag garde pour la fin le morceau de bravoure. Le Grand Canyon Rim-to-Rim-to-Rim. Descendre du South Rim jusqu'au Colorado, remonter au North Rim, redescendre, remonter. Entre 68 et 77 kilomètres selon les variantes retenues et environ 6 700 mètres de dénivelé positif cumulé. À titre de comparaison, c'est davantage de D+ que la Diagonale des Fous sur une distance nettement moindre.
+Trail Runner Mag garde pour la fin le morceau de bravoure. Le Grand Canyon Rim-to-Rim-to-Rim. Descendre du [South](https://www.altitude-trail.fr/articles/montane-winter-spine-challenger-south-allen-et-kershaw-dominent-les-108-miles-de) Rim jusqu'au Colorado, remonter au North Rim, redescendre, remonter. Entre 68 et 77 kilomètres selon les variantes retenues et environ 6 700 mètres de dénivelé positif cumulé. À titre de comparaison, c'est davantage de D+ que la Diagonale des Fous sur une distance nettement moindre.
 
 Le magazine liste les garde-fous : printemps ou automne obligatoires pour éviter les 40 °C du fond de canyon, vérification des points d'eau en amont, ravitaillement irréprochable. Trail Runner Mag précise qu'une portion du North Kaibab Trail est actuellement fermée, ce qui contraint la planification. Le R2R2R n'est pas une course officielle — pas de dossard, pas de ravitaillement, pas de barrières horaires. C'est sans doute ce qui fait sa réputation. Une épreuve en autonomie totale, dans l'un des biotopes les plus hostiles des États-Unis, que certains alignent après 20 ans de carrière comme on décroche un diplôme.
 

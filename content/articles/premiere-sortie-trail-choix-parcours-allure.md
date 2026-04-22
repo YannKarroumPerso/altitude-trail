@@ -1,23 +1,30 @@
 ---
-slug: "premiere-sortie-trail-choix-parcours-allure"
-title: "Première sortie trail : comment choisir son parcours et son allure"
-excerpt: "Ni trop long ni trop raide : les règles simples pour que votre baptême en sentier reste un plaisir et pose les bases d'une pratique durable."
-category: "Débuter"
+slug: premiere-sortie-trail-choix-parcours-allure
+title: 'Première sortie trail : comment choisir son parcours et son allure'
+excerpt: >-
+  Ni trop long ni trop raide : les règles simples pour que votre baptême en
+  sentier reste un plaisir et pose les bases d'une pratique durable.
+category: Débuter
 categorySlug: debuter
-author: "Rédaction Altitude"
-date: "6 avril 2026"
-readTime: "7 min"
-image: "/articles/premiere-sortie-trail-choix-parcours-allure-hero.jpg"
-tags: ["Débuter", "Parcours", "Allure", "Progression"]
+author: Yann Karroum
+date: 6 avril 2026
+readTime: 7 min
+image: /articles/premiere-sortie-trail-choix-parcours-allure-hero.jpg
+tags:
+  - Débuter
+  - Parcours
+  - Allure
+  - Progression
+updatedAt: 22 avril 2026
 ---
 
-Le trail n'est pas une version pentue de la course sur route. C'est un autre sport, avec ses propres règles et la première sortie le fait comprendre en quelques centaines de mètres.
+Le trail n'est pas une version pentue de la course sur [route](https://www.altitude-trail.fr/articles/route-vers-trail-adapter-entrainement-sans-blessure). C'est un autre sport, avec ses propres règles et la première sortie le fait comprendre en quelques centaines de mètres.
 
 **Passer du bitume au sentier, c'est accepter un décalage immédiat : l'allure chute, le cœur grimpe, les appuis travaillent autrement. Pour un coureur route qui envisage son baptême en sentier, la bonne recette tient en quelques paramètres simples. Un parcours de 5 à 8 kilomètres, 150 à 300 mètres de dénivelé positif, un tracé balisé en forêt plutôt qu'une arête alpine et une allure pilotée par la conversation plutôt que par la montre. Le reste, surtout l'envie de durer, découle de cette première discipline.**
 
 ## Un premier parcours se choisit sur le terrain, pas sur la performance
 
-La tentation classique du coureur route habitué à boucler son 10 km en 50 minutes : viser d'emblée un sentier technique en moyenne montagne parce que « ça passe ». C'est l'erreur fondatrice. Un trail de 8 kilomètres avec 250 mètres de D+ sur single forestier sollicite le système cardiovasculaire, les stabilisateurs de cheville et la proprioception d'une façon que le bitume n'a jamais demandée.
+La tentation classique du coureur route habitué à boucler son 10 km en 50 minutes : viser d'emblée un sentier technique en moyenne montagne parce que « ça passe ». C'est l'erreur fondatrice. Un [trail](https://www.altitude-trail.fr/articles/choisir-premiere-paire-chaussures-trail-guide-complet) de 8 kilomètres avec 250 mètres de D+ sur single forestier sollicite le système cardiovasculaire, les stabilisateurs de cheville et la proprioception d'une façon que le bitume n'a jamais demandée.
 
 Le bon terrain de début ressemble à ceci : une forêt proche de chez soi, des sentiers larges ou des chemins carrossables, un balisage clair, de la présence humaine. Pas de passage exposé, pas de portion rocheuse, pas de traversée au-dessus de 1500 mètres pour un premier essai. Les parcours « découverte trail » qui fleurissent en périphérie des grandes agglomérations et dans les parcs naturels régionaux cochent généralement ces cases.
 

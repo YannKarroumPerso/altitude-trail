@@ -1,19 +1,27 @@
 ---
-slug: "syndrome-piriforme-traileur-douleur-fessiere"
-title: "Syndrome du piriforme : la douleur fessière qui mime une sciatique"
-excerpt: "Une douleur profonde au milieu de la fesse qui irradie dans la jambe en descente. Rare, mais capable de briser une saison entière si elle est mal prise en charge."
-category: "Blessures & Préventions"
+slug: syndrome-piriforme-traileur-douleur-fessiere
+title: 'Syndrome du piriforme : la douleur fessière qui mime une sciatique'
+excerpt: >-
+  Une douleur profonde au milieu de la fesse qui irradie dans la jambe en
+  descente. Rare, mais capable de briser une saison entière si elle est mal
+  prise en charge.
+category: Blessures & Préventions
 categorySlug: blessures
-author: "Rédaction Altitude"
-date: "12 avril 2026"
-readTime: "9 min"
-image: "/articles/syndrome-piriforme-traileur-douleur-fessiere-hero.jpg"
-tags: ["Syndrome du piriforme", "Fessier", "Sciatique", "Kiné"]
+author: Thomas Rouvier
+date: 12 avril 2026
+readTime: 9 min
+image: /articles/syndrome-piriforme-traileur-douleur-fessiere-hero.jpg
+tags:
+  - Syndrome du piriforme
+  - Fessier
+  - Sciatique
+  - Kiné
+updatedAt: 22 avril 2026
 ---
 
 Une fesse qui chauffe en descente, une jambe qui fourmille sur les dix derniers kilomètres, une position assise devenue insupportable le lendemain. Trois signes qui ne trompent pas : ce n'est probablement pas une sciatique.
 
-Le syndrome du piriforme reste l'un des diagnostics les plus confondus en traumatologie du trail. On estime qu'il représente entre 5 et 8 % des douleurs pseudo-sciatiques vues en consultation de médecine du sport, selon les séries publiées ces vingt dernières années. Chez le traileur, ce chiffre grimpe. Les descentes techniques, le gainage fatigué sur les longues distances et la station assise prolongée en voiture ou au bureau constituent un cocktail parfait. Bien pris en charge, on s'en sort en six à douze semaines. Mal géré, il devient chronique et compromet une saison entière.
+Le [syndrome](https://www.altitude-trail.fr/articles/syndrome-essuie-glace-itbs-genou-trail-descente) du piriforme reste l'un des diagnostics les plus confondus en traumatologie du trail. On estime qu'il représente entre 5 et 8 % des douleurs pseudo-sciatiques vues en consultation de médecine du sport, selon les séries publiées ces vingt dernières années. Chez le traileur, ce chiffre grimpe. Les descentes techniques, le gainage fatigué sur les longues distances et la station assise prolongée en voiture ou au bureau constituent un cocktail parfait. Bien pris en charge, on s'en sort en six à douze semaines. Mal géré, il devient chronique et compromet une saison entière.
 
 ## Un muscle minuscule, un nerf majeur, un rapport anatomique piégeux
 

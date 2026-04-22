@@ -1,14 +1,21 @@
 ---
-slug: "premier-10km-trail-plan-entrainement-12-semaines"
-title: "Préparer son premier 10 km de trail en 12 semaines"
-excerpt: "Un plan clair, quatre séances par semaine et une progression respectueuse : le protocole que n'importe quel coureur motivé peut suivre pour franchir le cap."
-category: "Débuter"
+slug: premier-10km-trail-plan-entrainement-12-semaines
+title: Préparer son premier 10 km de trail en 12 semaines
+excerpt: >-
+  Un plan clair, quatre séances par semaine et une progression respectueuse : le
+  protocole que n'importe quel coureur motivé peut suivre pour franchir le cap.
+category: Débuter
 categorySlug: debuter
-author: "Rédaction Altitude"
-date: "9 avril 2026"
-readTime: "9 min"
-image: "/articles/premier-10km-trail-plan-entrainement-12-semaines-hero.jpg"
-tags: ["Plan d'entraînement", "Débuter", "10 km", "Objectif"]
+author: Yann Karroum
+date: 9 avril 2026
+readTime: 9 min
+image: /articles/premier-10km-trail-plan-entrainement-12-semaines-hero.jpg
+tags:
+  - Plan d'entraînement
+  - Débuter
+  - 10 km
+  - Objectif
+updatedAt: 22 avril 2026
 ---
 
 Douze semaines. Quatre-vingt-quatre jours pour transformer un coureur de route occasionnel, un randonneur curieux ou un débutant motivé en finisher d'un premier 10 km de trail. Ni magie, ni raccourci : une structure.
@@ -39,7 +46,7 @@ La descente mérite une séance dédiée. Beaucoup de débutants redoutent les d
 
 ![Illustration Débuter](/articles/premier-10km-trail-plan-entrainement-12-semaines-2.jpg)
 
-La sortie longue évolue : 1 h 15 à 1 h 45, désormais en montée douce, avec 200 à 400 m de D+. C'est le moment de tester son matériel : chaussures à crampons adaptés, sac d'hydratation léger, vêtements techniques. Rien ne se décide la veille de la course.
+La sortie longue évolue : 1 h 15 à 1 h 45, désormais en montée douce, avec 200 à 400 m de D+. C'est le moment de tester son matériel : [chaussures](https://www.altitude-trail.fr/articles/choisir-premiere-paire-chaussures-trail-guide-complet) à crampons adaptés, sac d'hydratation léger, vêtements techniques. Rien ne se décide la veille de la course.
 
 ## Phase 3 : l'affûtage, l'art de ne pas tout gâcher
 
@@ -59,6 +66,6 @@ Ce plan reste une trame. Tout symptôme persistant — douleur qui dure plus de 
 
 ## Le vrai enjeu d'un premier 10 km
 
-On parle beaucoup de performance dans le trail, d'ultras démesurés, de vainqueurs de l'UTMB. On parle rarement de celles et ceux qui, un dimanche matin, s'alignent pour la première fois sur un petit trail de village. C'est pourtant là que se joue l'avenir de la discipline. Un premier 10 km réussi, c'est un coureur qui reviendra. Un premier 10 km mal préparé, c'est souvent une blessure, une déception, un abandon définitif du running.
+On parle beaucoup de performance dans le trail, d'ultras démesurés, de vainqueurs de l'UTMB. On parle rarement de celles et ceux qui, un dimanche matin, s'alignent pour la première fois sur un petit trail de village. C'est pourtant là que se joue l'avenir de la discipline. Un premier 10 km réussi, c'est un coureur qui reviendra. Un premier 10 km mal préparé, c'est souvent une blessure, une déception, un abandon définitif du [running](https://www.altitude-trail.fr/articles/materiel-minimum-demarrer-trail-budget).
 
 La valeur de ce plan n'est pas dans ses séances, disponibles dans cent manuels. Elle est dans sa progressivité assumée, dans son refus de la surenchère. Douze semaines pour 10 kilomètres, cela peut sembler long à l'époque des programmes miracles en quatre semaines vendus sur Instagram. C'est précisément pour cette raison qu'il faut le défendre.

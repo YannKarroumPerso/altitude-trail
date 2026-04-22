@@ -1,22 +1,40 @@
 ---
-slug: "pekin-2026-quand-un-robot-pulverise-le-record-du-monde-du-semi-marathon"
-title: "Pékin 2026 : quand un robot pulvérise le record du monde du semi-marathon"
-excerpt: "À Pékin, un humanoïde baptisé Lightning a bouclé 21,1 km en 50:26, sept minutes sous le record du monde humain. Un saut technologique qui pose une vraie question au trail."
-category: "Actualités"
+slug: pekin-2026-quand-un-robot-pulverise-le-record-du-monde-du-semi-marathon
+title: 'Pékin 2026 : quand un robot pulvérise le record du monde du semi-marathon'
+excerpt: >-
+  À Pékin, un humanoïde baptisé Lightning a bouclé 21,1 km en 50:26, sept
+  minutes sous le record du monde humain. Un saut technologique qui pose une
+  vraie question au trail.
+category: Actualités
 categorySlug: actualites
-author: "Rédaction Altitude"
-date: "20 avril 2026"
-readTime: "5 min"
-image: "https://s3.amazonaws.com/www.irunfar.com/wp-content/uploads/2026/04/20083923/Lightning-2026-Beijing-E-Town-Half-Marathon-robot-champion-560x373.jpg"
-tags: ["technologie", "robotique", "semi-marathon", "innovation", "course sur route"]
-sourceUrl: "https://www.irunfar.com/2026-beijing-e-town-half-marathon-humanoid-robot-beats-human-world-record"
-imagePrompt1: "A sleek headless humanoid robot with LiDAR sensor instead of a head running on a Beijing avenue during a half marathon, crowd of spectators holding smartphones, morning light on asphalt, Chinese urban architecture in background, technical racing posture"
-imagePrompt2: "A wide shot of Beijing E-Town Half Marathon start line with human runners and humanoid robots lined up on parallel lanes, race banners in Chinese, overcast morning sky, urban industrial park setting, bib numbers visible"
+author: Yann Karroum
+date: 20 avril 2026
+readTime: 5 min
+image: >-
+  https://s3.amazonaws.com/www.irunfar.com/wp-content/uploads/2026/04/20083923/Lightning-2026-Beijing-E-Town-Half-Marathon-robot-champion-560x373.jpg
+tags:
+  - technologie
+  - robotique
+  - semi-marathon
+  - innovation
+  - course sur route
+sourceUrl: >-
+  https://www.irunfar.com/2026-beijing-e-town-half-marathon-humanoid-robot-beats-human-world-record
+imagePrompt1: >-
+  A sleek headless humanoid robot with LiDAR sensor instead of a head running on
+  a Beijing avenue during a half marathon, crowd of spectators holding
+  smartphones, morning light on asphalt, Chinese urban architecture in
+  background, technical racing posture
+imagePrompt2: >-
+  A wide shot of Beijing E-Town Half Marathon start line with human runners and
+  humanoid robots lined up on parallel lanes, race banners in Chinese, overcast
+  morning sky, urban industrial park setting, bib numbers visible
+updatedAt: 22 avril 2026
 ---
 
 Un robot a couru 21,1 km en 50 minutes et 26 secondes. Soit sept minutes sous le record du monde humain de Jacob Kiplimo. La nouvelle sonne comme une farce. Elle n'en est pas une.
 
-Le 19 avril dernier, lors de la deuxième édition du Beijing E-Town Half Marathon, un humanoïde baptisé Lightning, construit par le fabricant chinois d'électronique Honor, a franchi la ligne d'arrivée en 50:26. Il a battu tous ses concurrents, robots comme humains. Le vainqueur masculin chez les coureurs, Zhao Hai-Jie, a terminé en 1:07:47. La Chinoise Wang Qiao-Zia a gagné chez les femmes en 1:18:06. L'événement rassemblait plus de 12 000 coureurs et 300 robots, sur des parcours parallèles mais équivalents, selon iRunFar, qui relaie l'information sous la plume de Gabe Joyes.
+Le 19 avril dernier, lors de la deuxième édition du Beijing E-Town Half Marathon, un humanoïde baptisé Lightning, construit par le fabricant chinois d'électronique Honor, a franchi la ligne d'arrivée en 50:26. Il a battu tous ses concurrents, robots comme humains. Le vainqueur masculin chez les [coureurs](https://www.altitude-trail.fr/articles/deuil-dans-le-monde-du-trail-deux-coureurs-emportes-sur-le-marathon-des-sables-e), Zhao Hai-Jie, a terminé en 1:07:47. La Chinoise Wang Qiao-Zia a gagné chez les femmes en 1:18:06. L'événement rassemblait plus de 12 000 coureurs et 300 robots, sur des parcours parallèles mais équivalents, selon iRunFar, qui relaie l'information sous la plume de Gabe Joyes.
 
 ## Un écart qui ridiculise la référence humaine
 
@@ -46,7 +64,7 @@ Autrement dit, ce que le monde a vu à Pékin n'est pas la limite du genre. C'es
 
 ## Nos records de trail sont-ils vraiment à l'abri ?
 
-iRunFar tempère, à juste titre : les succès robotiques se limitent pour l'instant au bitume. Aucun de ces humanoïdes n'a été testé sur un sentier accidenté, en montagne, sur un terrain technique où la proprioception, la lecture du pied et l'adaptation permanente à la surface constituent la moitié du jeu. Les records de la Diagonale des Fous, de Hardrock, de l'UTMB, du Western States, du Tor des Géants ne risquent rien en 2026.
+iRunFar tempère, à juste titre : les succès robotiques se limitent pour l'instant au bitume. Aucun de ces humanoïdes n'a été testé sur un sentier accidenté, en [montagne](https://www.altitude-trail.fr/articles/coup-d-envoi-au-portugal-la-coupe-du-monde-de-course-en-montagne-2026-s-ouvre-av), sur un terrain technique où la proprioception, la lecture du pied et l'adaptation permanente à la surface constituent la moitié du jeu. Les records de la Diagonale des Fous, de Hardrock, de l'UTMB, du Western States, du Tor des Géants ne risquent rien en 2026.
 
 Mais l'argument "le trail est trop complexe pour les robots" rappelle dangereusement celui qu'on entendait il y a dix ans sur la voiture autonome en ville. Ou celui qu'on entendait sur les algorithmes de jeu de go avant AlphaGo. La rugosité du sol, la boue, les racines, une descente technique sur schiste mouillé : tout cela est un problème de capteurs, de contrôle moteur, de modèle prédictif. Un problème d'ingénierie, pas de principe.
 

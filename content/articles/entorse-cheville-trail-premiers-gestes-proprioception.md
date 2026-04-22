@@ -1,14 +1,22 @@
 ---
-slug: "entorse-cheville-trail-premiers-gestes-proprioception"
-title: "Entorse de cheville : premiers gestes sur le sentier et protocole de reprise"
-excerpt: "Une racine mal vue, un pierrier glissant et la cheville part sur le côté. Savoir gérer l'instant et construire un retour durable est tout l'enjeu d'un traileur."
-category: "Blessures & Préventions"
+slug: entorse-cheville-trail-premiers-gestes-proprioception
+title: 'Entorse de cheville : premiers gestes sur le sentier et protocole de reprise'
+excerpt: >-
+  Une racine mal vue, un pierrier glissant et la cheville part sur le côté.
+  Savoir gérer l'instant et construire un retour durable est tout l'enjeu d'un
+  traileur.
+category: Blessures & Préventions
 categorySlug: blessures
-author: "Rédaction Altitude"
-date: "16 avril 2026"
-readTime: "9 min"
-image: "/articles/entorse-cheville-trail-premiers-gestes-proprioception-hero.jpg"
-tags: ["Entorse", "Cheville", "Premiers secours", "Proprioception"]
+author: Thomas Rouvier
+date: 16 avril 2026
+readTime: 9 min
+image: /articles/entorse-cheville-trail-premiers-gestes-proprioception-hero.jpg
+tags:
+  - Entorse
+  - Cheville
+  - Premiers secours
+  - Proprioception
+updatedAt: 22 avril 2026
 ---
 
 Vingt-deuxième kilomètre d'un trail dans le Mercantour, descente technique sous les pins. Thomas, 38 ans, aperçoit la racine une fraction de seconde trop tard. Le pied droit ripe vers l'extérieur, la cheville bascule en inversion, un craquement sourd, puis la douleur fulgurante sur la malléole externe. Le coureur s'assoit, hagard, encore à plus d'une heure du ravitaillement le plus proche.

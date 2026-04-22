@@ -1,19 +1,28 @@
 ---
-slug: "syndrome-essuie-glace-itbs-genou-trail-descente"
-title: "Syndrome de l'essuie-glace : la douleur au genou qui vous stoppe en descente"
-excerpt: "Ce syndrome frotte, brûle et contraint à l'abandon sur le côté extérieur du genou. Comprendre le mécanisme change radicalement la façon d'aborder les grandes descentes."
-category: "Blessures & Préventions"
+slug: syndrome-essuie-glace-itbs-genou-trail-descente
+title: 'Syndrome de l''essuie-glace : la douleur au genou qui vous stoppe en descente'
+excerpt: >-
+  Ce syndrome frotte, brûle et contraint à l'abandon sur le côté extérieur du
+  genou. Comprendre le mécanisme change radicalement la façon d'aborder les
+  grandes descentes.
+category: Blessures & Préventions
 categorySlug: blessures
-author: "Rédaction Altitude"
-date: "19 avril 2026"
-readTime: "7 min"
-image: "/articles/syndrome-essuie-glace-itbs-genou-trail-descente-hero.jpg"
-tags: ["ITBS", "Essuie-glace", "Genou", "Descente", "Renforcement"]
+author: Thomas Rouvier
+date: 19 avril 2026
+readTime: 7 min
+image: /articles/syndrome-essuie-glace-itbs-genou-trail-descente-hero.jpg
+tags:
+  - ITBS
+  - Essuie-glace
+  - Genou
+  - Descente
+  - Renforcement
+updatedAt: 22 avril 2026
 ---
 
-Kilomètre 42 d'un 70 bornes dans le Beaufortain. Thomas attaque la longue descente vers la vallée, celle qu'il a répétée trois fois à l'entraînement. Après huit cents mètres de pente, une brûlure s'installe sur le côté extérieur du genou droit. Diffuse d'abord, puis lancinante, puis insoutenable à chaque appui. Il tente de raccourcir sa foulée, de freiner en biais, rien n'y fait : au bout de deux kilomètres, il marche. À l'arrivée, il boitille. Il vient de rencontrer le syndrome de la bandelette ilio-tibiale, surnommé « syndrome de l'essuie-glace ».
+Kilomètre 42 d'un 70 bornes dans le Beaufortain. Thomas attaque la longue [descente](https://www.altitude-trail.fr/articles/entrainement-specifique-descente-trail-excentrique) vers la vallée, celle qu'il a répétée trois fois à l'entraînement. Après huit cents mètres de pente, une brûlure s'installe sur le côté extérieur du genou droit. Diffuse d'abord, puis lancinante, puis insoutenable à chaque appui. Il tente de raccourcir sa foulée, de freiner en biais, rien n'y fait : au bout de deux kilomètres, il marche. À l'arrivée, il boitille. Il vient de rencontrer le syndrome de la bandelette ilio-tibiale, surnommé « syndrome de l'essuie-glace ».
 
-C'est l'une des blessures les plus fréquemment rapportées dans le trail long et l'une des plus frustrantes : elle survient souvent sur des coureurs entraînés, en pleine course et elle cloue littéralement en descente alors que le plat et la montée restent supportables. Parce que le trail cumule dénivelés longs, terrains techniques et durées d'effort importantes, il expose davantage que la route à ce conflit mécanique. Comprendre ce qui frotte, où et pourquoi, change radicalement la façon dont on prépare son genou à encaisser les grandes bascules.
+C'est l'une des blessures les plus fréquemment rapportées dans le trail long et l'une des plus frustrantes : elle survient souvent sur des coureurs entraînés, en pleine course et elle cloue littéralement en [descente](https://www.altitude-trail.fr/articles/la-descente-fait-plus-de-degats-que-la-montee-voici-comment-proteger-vos-articulations) alors que le plat et la montée restent supportables. Parce que le trail cumule dénivelés longs, terrains techniques et durées d'effort importantes, il expose davantage que la route à ce conflit mécanique. Comprendre ce qui frotte, où et pourquoi, change radicalement la façon dont on prépare son genou à encaisser les grandes bascules.
 
 ## Anatomie d'un frottement répété
 
