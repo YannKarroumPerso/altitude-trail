@@ -11,7 +11,7 @@ export const SITE_LOCALE = "fr_FR";
 export const SITE_LANG = "fr";
 export const SITE_LANG_REGION = "fr-FR";
 export const DEFAULT_OG_IMAGE =
-  "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80";
+  "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80";
 export const LOGO_URL = `${SITE_URL}/logo.png`;
 export const LOGO_WIDTH = 600;
 export const LOGO_HEIGHT = 60;

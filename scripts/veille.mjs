@@ -27,7 +27,9 @@ const PUBLIC_IMAGES_DIR = path.resolve("public/articles");
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 const MAX_PER_SOURCE = parseInt(process.env.MAX_ARTICLES_PER_SOURCE || "2", 10);
 const MIN_SOURCE_LENGTH = 400;
-const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80";
+// Image de secours (trail running ete). L'ancienne photo (1551698618) etait une scene de ski,
+// on ne la reutilise plus JAMAIS sous peine d'avoir un hero ski sur un article trail.
+const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80";
 
 const BFL_BASE_URL = process.env.BFL_BASE_URL || "https://api.bfl.ai/v1";
 const FLUX_MODEL = process.env.FLUX_MODEL || "flux-pro-1.1";

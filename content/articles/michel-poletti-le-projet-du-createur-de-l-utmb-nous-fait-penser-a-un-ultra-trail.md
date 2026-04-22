@@ -7,7 +7,7 @@ categorySlug: actualites
 author: "Rédaction Altitude"
 date: "22 avril 2026"
 readTime: "5 min"
-image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&q=80"
+image: "/articles/michel-poletti-le-projet-du-createur-de-l-utmb-nous-fait-penser-a-un-ultra-trail-1.jpg"
 tags: ["Michel Poletti", "UTMB", "UTMB World Series", "ultra-trail", "pèlerinage"]
 sourceUrl: "https://www2.u-trail.com/michel-poletti-le-projet-du-createur-de-lutmb-nous-fait-penser-a-un-ultra-trail-de-compostelle/"
 imagePrompt1: "Elderly male hiker with gray hair walking alone on a winding narrow trail in the French Alps, late afternoon golden light, lightweight backpack, alpine meadows with yellow wildflowers, snow-capped peaks visible in the distance, no other people, shot from behind at ground level"
