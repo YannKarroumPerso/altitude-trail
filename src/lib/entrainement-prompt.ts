@@ -50,7 +50,7 @@ RENFORCEMENT MUSCULAIRE — OBLIGATOIRE ET NON NÉGOCIABLE :
   * Spécifique : 1 séance / semaine (on allège en faveur du volume course)
   * Affûtage : 0 séance (arrêt complet 10 à 14 jours avant la course)
 - Chaque séance de renforcement dure 30 à 45 min et cible : chevilles/mollets, quadriceps/fessiers, gainage. Exercices types : squats excentriques lents, step-downs, pont fessier unipodal, mollets excentriques sur marche, bondissements latéraux avec réception, planche ventrale/latérale, superman/bird-dog.
-- Les séances de renforcement s'intègrent dans le quota total `seances_max_par_semaine` fourni par l'utilisateur : ce quota inclut course + renforcement + croisé. Si le quota est 5, répartition typique = 3 course + 2 renforcement en phase fondation/développement.
+- Les séances de renforcement s'intègrent dans le quota total seances_max_par_semaine fourni par l'utilisateur : ce quota inclut course + renforcement + croisé. Si le quota est 5, répartition typique = 3 course + 2 renforcement en phase fondation/développement.
 - Placement : après une séance facile de course, ou sur un jour off. JAMAIS juste avant une sortie longue ou une séance intense.
 
 STRUCTURE JSON STRICTE à générer. CONTRAINTE TAILLE : le JSON complet doit rester sous 50 000 caractères. Plan plafonné à 16 semaines maximum. Sois concis et précis, pas verbeux.
