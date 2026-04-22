@@ -17,6 +17,7 @@ import {
   insertInternalLinks,
 } from "./lib/internal-linking.mjs";
 import { findYouTubeVideoForArticle } from "./lib/youtube-search.mjs";
+import { effectiveCapForRun } from "./lib/daily-cap.mjs";
 
 const SOURCES = [
   "https://www.lepape-info.com/feed/",
@@ -447,7 +448,7 @@ function insertImagesInBody(body, imageRefs) {
   return out.join("\n\n");
 }
 
-async function processFeed(client, url) {
+async function processFeed(client, url, maxForThisSource = MAX_PER_SOURCE) {
   const parser = new Parser({ timeout: 20000, headers: { "User-Agent": "AltitudeTrail-Veille/1.0" } });
   let feed;
   try {
@@ -457,8 +458,10 @@ async function processFeed(client, url) {
     return 0;
   }
   let created = 0;
-  for (const item of (feed.items || []).slice(0, MAX_PER_SOURCE * 3)) {
-    if (created >= MAX_PER_SOURCE) break;
+  const effectiveMax = Math.min(MAX_PER_SOURCE, maxForThisSource);
+  if (effectiveMax <= 0) return 0;
+  for (const item of (feed.items || []).slice(0, effectiveMax * 3)) {
+    if (created >= effectiveMax) break;
     if (!item.title || !item.link) continue;
 
     const baseSlug = slugify(item.title);
@@ -566,11 +569,24 @@ async function main() {
     process.exit(1);
   }
   await fs.mkdir(CONTENT_DIR, { recursive: true });
+
+  // Cap quotidien partagé (défaut 5, ajustable via env DAILY_CAP).
+  // Si la limite globale du jour est déjà atteinte, on court-circuite.
+  const runCap = await effectiveCapForRun("veille-rss", 2);
+  if (runCap <= 0) {
+    console.log(`[veille] cap quotidien atteint, aucun article ne sera publié ce run.`);
+    return;
+  }
+
   const client = new Anthropic();
   let total = 0;
   for (const url of SOURCES) {
+    if (total >= runCap) {
+      console.log(`[veille] cap run (${runCap}) atteint, arrêt de la boucle sources.`);
+      break;
+    }
     try {
-      total += await processFeed(client, url);
+      total += await processFeed(client, url, runCap - total);
     } catch (e) {
       console.error(`[veille] ${url} — unexpected error: ${e.message}`);
     }

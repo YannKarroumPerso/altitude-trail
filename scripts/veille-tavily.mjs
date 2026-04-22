@@ -31,6 +31,7 @@ import {
   isAllowedHost,
   urlIsAlive,
 } from "./lib/authority-domains.mjs";
+import { effectiveCapForRun } from "./lib/daily-cap.mjs";
 
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 const FLUX_MODEL = process.env.FLUX_MODEL || "flux-pro-1.1";
@@ -39,48 +40,193 @@ const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1552674605-db6ffd4facb
 const CONTENT_DIR = path.resolve("content/articles");
 const PUBLIC_IMAGES_DIR = path.resolve("public/articles");
 
-// Requêtes thématiques tournées chaque semaine.
-// IMPORTANT : en anglais, "trail" est ambigu (Trail Blazers = NBA). Les
-// requêtes doivent donc contenir des mots-clés désambiguïsants explicites :
-//   - "ultramarathon", "ultrarunning"
-//   - "UTMB", "Western States", noms d'épreuves précises
-//   - "mountain running", "skyrunning"
-// On évite les mots génériques comme "training injury" qui remontent
-// massivement des contenus NBA/NFL/MLB.
-const THEMATIC_QUERIES = [
+// ─────────────────────────────────────────────────────────────────────────────
+// Banque de 20 requêtes thématiques trail, sans recoupement avec les flux RSS.
+// Chaque run pioche 2 queries distinctes de façon déterministe selon la date
+// et l'heure du run, pour éviter les doublons entre runs rapprochés.
+// ─────────────────────────────────────────────────────────────────────────────
+
+const SCIENCE_DOMAINS = [
+  "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
+  "pubmed.ncbi.nlm.nih.gov", "pmc.ncbi.nlm.nih.gov", "bjsm.bmj.com",
+  "lepape-info.com", "runnersworld.com", "trail-session.fr",
+  "runningmagazine.ca", "marathonhandbook.com",
+];
+
+const RACES_DOMAINS = [
+  "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
+  "utmbmontblanc.com", "utmb.world", "wser.org", "hardrock100.com",
+  "tordesgeants.it", "lepape-info.com", "u-trail.com",
+];
+
+const GEAR_DOMAINS = [
+  "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
+  "runnersworld.com", "runningmagazine.ca", "runrepeat.com",
+  "lepape-info.com", "trail-session.fr", "u-trail.com",
+];
+
+const PORTRAITS_DOMAINS = [
+  "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
+  "lepape-info.com", "u-trail.com", "trail-session.fr",
+  "runnersworld.com", "runningmagazine.ca",
+];
+
+const QUERY_POOL = [
+  // Science & physiologie (5)
   {
-    query: '"ultrarunning" OR "ultramarathon" science research training physiology study',
+    query: '"ultramarathon" OR "ultrarunning" science research training study',
     categorySlug: "entrainement",
-    angle: "Actualité scientifique appliquée à l'ultra-endurance : études récentes sur l'entraînement, la physiologie, la nutrition ou la récupération chez les coureurs d'ultra et trail.",
-    include_domains: [
-      "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
-      "pubmed.ncbi.nlm.nih.gov", "pmc.ncbi.nlm.nih.gov", "bjsm.bmj.com",
-      "lepape-info.com", "runnersworld.com", "trail-session.fr",
-      "runningmagazine.ca", "marathonhandbook.com",
-    ],
+    angle: "Actualité scientifique : études récentes sur l'entraînement et la physiologie de l'ultra-endurance.",
+    include_domains: SCIENCE_DOMAINS,
   },
   {
-    query: '"UTMB" OR "Western States" OR "Hardrock 100" OR "Tor des Geants" ultramarathon results 2026',
+    query: '"trail running" injury prevention research rehabilitation study',
+    categorySlug: "blessures-preventions",
+    angle: "Recherche sur la prévention des blessures en trail running : tendinopathies, fractures de stress, surcharge articulaire.",
+    include_domains: SCIENCE_DOMAINS,
+  },
+  {
+    query: '"ultra" OR "ultramarathon" nutrition gut training carbohydrate intake study',
+    categorySlug: "nutrition",
+    angle: "Science appliquée à la nutrition d'ultra-endurance : training the gut, glucides, récupération.",
+    include_domains: SCIENCE_DOMAINS,
+  },
+  {
+    query: '"mountain running" OR "skyrunning" altitude hypoxia physiology acclimatization',
+    categorySlug: "entrainement",
+    angle: "Adaptation à l'altitude en montagne : hypoxie, acclimatation, physiologie du coureur en haute altitude.",
+    include_domains: SCIENCE_DOMAINS,
+  },
+  {
+    query: '"ultrarunning" sleep deprivation recovery cortisol adaptation',
+    categorySlug: "entrainement",
+    angle: "Sommeil et récupération en ultra-endurance : impact physiologique, stratégies, dette de sommeil.",
+    include_domains: SCIENCE_DOMAINS,
+  },
+
+  // Grandes courses internationales (6)
+  {
+    query: '"UTMB" OR "CCC" OR "TDS" Chamonix ultramarathon results analysis 2026',
     categorySlug: "courses-recits",
-    angle: "Actualité des grandes courses ultra-trail internationales : résultats, podiums, analyses stratégiques, surprises récentes.",
-    include_domains: [
-      "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
-      "utmbmontblanc.com", "utmb.world", "wser.org", "hardrock100.com",
-      "tordesgeants.it", "lepape-info.com", "u-trail.com",
-    ],
+    angle: "Actualité du massif du Mont-Blanc : UTMB, CCC, TDS, OCC, MCC, PTL — résultats, analyses, athlètes.",
+    include_domains: RACES_DOMAINS,
   },
   {
-    query: '"trail running shoes" OR "mountain running shoes" review 2026 Hoka Salomon La Sportiva Altra',
+    query: '"Western States 100" OR "WS100" ultramarathon training results preview strategy',
+    categorySlug: "courses-recits",
+    angle: "Western States 100 : préparation, stratégie, analyses des favoris, résultats.",
+    include_domains: RACES_DOMAINS,
+  },
+  {
+    query: '"Hardrock 100" Silverton Colorado mountain ultramarathon results finishers',
+    categorySlug: "courses-recits",
+    angle: "Hardrock 100 : lottery, finishers, exploits, spécificités du tracé altitude Colorado.",
+    include_domains: RACES_DOMAINS,
+  },
+  {
+    query: '"Tor des Geants" Aosta Italy 330 km ultramarathon results',
+    categorySlug: "courses-recits",
+    angle: "Tor des Géants : 330 km dans le Val d'Aoste, format sans sommeil obligatoire, analyses des performances.",
+    include_domains: RACES_DOMAINS,
+  },
+  {
+    query: '"Zegama Marathon" OR "Skyrunning" World Championships results mountain race',
+    categorySlug: "courses-recits",
+    angle: "Circuit Skyrunning international : World Championships, Zegama, formats courts en montagne verticale.",
+    include_domains: RACES_DOMAINS,
+  },
+  {
+    query: '"Diagonale des Fous" OR "Grand Raid Réunion" ultra trail results',
+    categorySlug: "courses-recits",
+    angle: "Diagonale des Fous à La Réunion : volcan, chaleur, 165 km, analyses des éditions récentes.",
+    include_domains: RACES_DOMAINS,
+  },
+
+  // Équipement & innovation (4)
+  {
+    query: '"trail running shoes" 2026 review test Hoka Salomon La Sportiva',
     categorySlug: "actualites",
-    angle: "Actualité équipement trail : nouveaux modèles de chaussures montagne, innovations des équipementiers spécialisés, tests et comparatifs.",
-    include_domains: [
-      "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
-      "runnersworld.com", "runningmagazine.ca", "runrepeat.com",
-      "lepape-info.com", "trail-session.fr", "u-trail.com",
-      "hoka.com", "salomon.com", "lasportiva.com",
-    ],
+    angle: "Chaussures trail 2026 : nouveaux modèles, tests comparatifs, tendances des équipementiers spécialisés.",
+    include_domains: GEAR_DOMAINS,
+  },
+  {
+    query: '"carbon plate" trail running shoes performance technology',
+    categorySlug: "actualites",
+    angle: "Plaques carbone en trail : performances, limites, réglementation ITRA, modèles emblématiques.",
+    include_domains: GEAR_DOMAINS,
+  },
+  {
+    query: '"trail running vest" OR "hydration pack" ultra race review',
+    categorySlug: "actualites",
+    angle: "Sacs d'hydratation et gilets trail : comparatifs, ergonomie, innovations 2026.",
+    include_domains: GEAR_DOMAINS,
+  },
+  {
+    query: '"GPS watch" trail running Garmin Coros Suunto review 2026',
+    categorySlug: "actualites",
+    angle: "Montres GPS trail : modèles Garmin, Coros, Suunto — autonomie, fonctions avancées, tests.",
+    include_domains: GEAR_DOMAINS,
+  },
+
+  // Portraits & interviews (5)
+  {
+    query: '"Kilian Jornet" training interview record ultramarathon',
+    categorySlug: "courses-recits",
+    angle: "Kilian Jornet : entraînement, records, philosophie de course, actualité récente.",
+    include_domains: PORTRAITS_DOMAINS,
+  },
+  {
+    query: '"Courtney Dauwalter" training strategy ultra running interview',
+    categorySlug: "courses-recits",
+    angle: "Courtney Dauwalter : approche d'entraînement, performances, positions publiques.",
+    include_domains: PORTRAITS_DOMAINS,
+  },
+  {
+    query: '"Jim Walmsley" Western States strategy training interview',
+    categorySlug: "courses-recits",
+    angle: "Jim Walmsley : stratégie, records Western States, vie de coureur pro américain.",
+    include_domains: PORTRAITS_DOMAINS,
+  },
+  {
+    query: '"François D\'Haene" UTMB training interview profile',
+    categorySlug: "courses-recits",
+    angle: "François D'Haene : carrière, entraînement, transition vers les sports de montagne.",
+    include_domains: PORTRAITS_DOMAINS,
+  },
+  {
+    query: '"FKT" fastest known time record trail long distance announcement',
+    categorySlug: "courses-recits",
+    angle: "Records FKT (Fastest Known Time) : nouvelles tentatives, records récents, coureurs engagés.",
+    include_domains: PORTRAITS_DOMAINS,
   },
 ];
+
+/**
+ * Pioche N queries distinctes depuis le pool de façon déterministe selon
+ * l'horodatage du run, pour éviter les doublons entre runs rapprochés.
+ * Le picker utilise un hash de la date+heure arrondie à l'heure, modulo la
+ * taille du pool, avec décalage par position pour garantir la diversité.
+ */
+function pickQueriesForRun(count, seedDate = new Date()) {
+  const hourKey = `${seedDate.getUTCFullYear()}-${seedDate.getUTCMonth()}-${seedDate.getUTCDate()}-${seedDate.getUTCHours()}`;
+  let h = 0;
+  for (let i = 0; i < hourKey.length; i++) h = (h * 31 + hourKey.charCodeAt(i)) & 0xffffffff;
+  const start = Math.abs(h) % QUERY_POOL.length;
+  const stride = 7; // coprime avec 20 → balaye tout le pool en passant toutes les positions
+  const out = [];
+  const seen = new Set();
+  for (let i = 0; out.length < count && i < QUERY_POOL.length; i++) {
+    const idx = (start + i * stride) % QUERY_POOL.length;
+    if (!seen.has(idx)) {
+      seen.add(idx);
+      out.push(QUERY_POOL[idx]);
+    }
+  }
+  return out;
+}
+
+// Ancien nom conservé pour compat (exposition dans d'autres scripts si besoin)
+const THEMATIC_QUERIES = QUERY_POOL;
 
 // Blacklist supplémentaire des domaines qui polluent les résultats "trail"
 // (sports US qui utilisent le mot "trail" ou "blazer" différemment).
@@ -554,13 +700,31 @@ async function main() {
   const client = new Anthropic();
   const allExisting = await loadExistingArticles();
 
+  // Cap quotidien partagé (5 articles/jour par défaut, RSS + Tavily confondus).
+  // Chaque run Tavily peut publier jusqu'à MAX_ARTICLES_PER_RUN, plafonné par
+  // le budget restant de la journée.
+  const runCap = await effectiveCapForRun("veille-tavily", MAX_ARTICLES_PER_RUN);
+  if (runCap <= 0) {
+    console.log(`[tavily] cap quotidien atteint, aucun article ne sera publié ce run.`);
+    return;
+  }
+
+  // Si query custom fournie en argument, on l'utilise telle quelle.
+  // Sinon, on pioche 3 queries rotatives dans la banque pour ce run (ce qui
+  // nous laisse une marge de tolérance si certaines ratent).
   const queries = customQuery
     ? [{ query: customQuery, angle: "Synthèse thématique personnalisée.", categorySlug: "actualites", include_domains: undefined }]
-    : THEMATIC_QUERIES;
+    : pickQueriesForRun(3, new Date());
+
+  console.log(`[tavily] ${queries.length} queries sélectionnées ce run (cap ${runCap}) :`);
+  for (const q of queries) console.log(`           · ${q.query.slice(0, 80)}`);
 
   let created = 0;
   for (const q of queries) {
-    if (created >= MAX_ARTICLES_PER_RUN) break;
+    if (created >= runCap) {
+      console.log(`[tavily] cap du run atteint (${runCap}), arrêt.`);
+      break;
+    }
     try {
       const slug = await processQuery(client, q.query, q.angle, q.categorySlug, allExisting, q.include_domains);
       if (slug) created++;

@@ -1,11 +1,17 @@
-name: Veille Tavily hebdomadaire
+name: Veille Tavily bi-quotidienne
 
-# Tourne chaque mercredi à 10h Paris (CEST+CET gérés).
-# Produit 3 articles thématiques de synthèse multi-sources via Tavily + Claude.
+# Tourne 2x par jour (8h15 et 20h Paris, CEST+CET gérés).
+# Chaque run pioche 3 queries rotatives dans une banque de 20 et peut publier
+# jusqu'à 2 articles, dans la limite du cap quotidien partagé de 5 articles
+# (RSS + Tavily confondus).
 on:
   schedule:
-    - cron: "0 8 * * 3"   # 10:00 Paris CEST
-    - cron: "0 9 * * 3"   # 10:00 Paris CET
+    # 8h15 Paris
+    - cron: "15 6 * * *"  # 8h15 Paris CEST
+    - cron: "15 7 * * *"  # 8h15 Paris CET
+    # 20h Paris
+    - cron: "0 18 * * *"  # 20h Paris CEST
+    - cron: "0 19 * * *"  # 20h Paris CET
   workflow_dispatch:
     inputs:
       custom_query:
