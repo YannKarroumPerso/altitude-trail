@@ -3,7 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { articles, mostRead } from "@/lib/data";
 import ArticleCard from "@/components/ui/ArticleCard";
-import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from "@/lib/seo";
+import JsonLd from "@/components/ui/JsonLd";
+import {
+  SITE_URL,
+  SITE_NAME,
+  SITE_DESCRIPTION,
+  buildItemListJsonLd,
+  buildCollectionPageJsonLd,
+} from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: `${SITE_NAME} — Actualités trail, courses et ultra-trail`,
@@ -14,13 +21,13 @@ export const metadata: Metadata = {
     url: SITE_URL,
     title: `${SITE_NAME} — Actualités trail, courses et ultra-trail`,
     description: SITE_DESCRIPTION,
-    images: [{ url: DEFAULT_OG_IMAGE, width: 1200, height: 630, alt: SITE_NAME }],
+    // Image OG : héritée automatiquement de src/app/opengraph-image.tsx
+    // (ImageResponse générée à la volée sur l'Edge).
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} — Actualités trail, courses et ultra-trail`,
     description: SITE_DESCRIPTION,
-    images: [DEFAULT_OG_IMAGE],
   },
 };
 
@@ -30,9 +37,26 @@ const sidebarArticles = articles.slice(3, 6);
 const coursesRecits = articles.filter(a => a.categorySlug === "courses-recits").slice(0, 4);
 const scienceArticles = articles.filter(a => a.categorySlug === "entrainement" || a.categorySlug === "nutrition").slice(0, 4);
 
+const homeLatestList = [featuredArticle, ...secondaryArticles, ...sidebarArticles].filter(Boolean);
+
 export default function Home() {
   return (
     <div className="bg-surface">
+      <JsonLd
+        data={buildCollectionPageJsonLd({
+          name: `${SITE_NAME} — Accueil`,
+          description: SITE_DESCRIPTION,
+          url: SITE_URL,
+          articles: homeLatestList,
+        })}
+      />
+      <JsonLd
+        data={buildItemListJsonLd({
+          name: "Derniers articles",
+          url: SITE_URL,
+          articles: homeLatestList,
+        })}
+      />
       <div className="max-w-[1440px] mx-auto px-4 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
 
         {/* Left Sidebar — desktop col 1-3 ; hidden sur mobile pour feed pleine largeur */}

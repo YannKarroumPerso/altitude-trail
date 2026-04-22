@@ -10,8 +10,12 @@ export const SITE_DESCRIPTION =
 export const SITE_LOCALE = "fr_FR";
 export const SITE_LANG = "fr";
 export const SITE_LANG_REGION = "fr-FR";
-export const DEFAULT_OG_IMAGE =
-  "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80";
+// OG image par défaut (site-wide) — fallback utilisé quand une page ne
+// définit pas d'image OG. La convention Next.js `src/app/opengraph-image.tsx`
+// génère en plus une image dynamique pour la route racine (ImageResponse Edge).
+// On garde le logo carré comme filet de sécurité si la convention n'est pas
+// picked up (ex. partages de pages internes sans OG explicite).
+export const DEFAULT_OG_IMAGE = `${SITE_URL}/logo-square.png`;
 export const LOGO_URL = `${SITE_URL}/logo.png`;
 export const LOGO_WIDTH = 600;
 export const LOGO_HEIGHT = 60;
@@ -71,6 +75,64 @@ export function estimateWordCount(content?: string): number {
   return content.split(/\s+/).filter(Boolean).length;
 }
 
+// Extrait les premiers mots du corps markdown (sans la syntaxe) pour alimenter
+// la propriété JSON-LD `articleBody`. Google recommande un aperçu significatif
+// (pas le texte intégral) pour le rich result NewsArticle.
+export function extractArticleBodyPreview(content: string | undefined, words = 120): string {
+  if (!content) return "";
+  const clean = content
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/^#{1,6}\s+/gm, "")
+    .replace(/[*_`>]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const tokens = clean.split(" ").filter(Boolean);
+  if (tokens.length <= words) return clean;
+  return tokens.slice(0, words).join(" ") + "…";
+}
+
+// Extrait les paires Q/R d'un article structuré en `### Question` / paragraphe.
+// Utilisé pour émettre un JSON-LD FAQPage quand l'article en contient.
+export function extractFaqFromMarkdown(content: string | undefined): { q: string; a: string }[] {
+  if (!content) return [];
+  const lines = content.split(/\r?\n/);
+  const pairs: { q: string; a: string }[] = [];
+  let currentQ: string | null = null;
+  let currentA: string[] = [];
+  const flush = () => {
+    if (currentQ && currentA.length) {
+      const a = currentA.join(" ").replace(/\s+/g, " ").trim();
+      if (a.length > 30) pairs.push({ q: currentQ, a });
+    }
+    currentQ = null;
+    currentA = [];
+  };
+  for (const line of lines) {
+    const qMatch = line.match(/^###\s+(.+\?)\s*$/);
+    if (qMatch) {
+      flush();
+      currentQ = qMatch[1].trim();
+      continue;
+    }
+    if (line.match(/^##\s+/)) {
+      flush();
+      continue;
+    }
+    if (currentQ) {
+      const clean = line
+        .replace(/[*_`>]/g, " ")
+        .replace(/^\s*[-*]\s+/, "")
+        .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+        .trim();
+      if (clean) currentA.push(clean);
+    }
+  }
+  flush();
+  return pairs.slice(0, 10);
+}
+
 // Build a single og:image URL. For multiple aspect ratios we reuse the same
 // underlying asset; Google crops as needed and the different "width/height"
 // signals let it pick the right render surface (Discover, SERP, AMP).
@@ -87,6 +149,8 @@ export function buildNewsArticleJsonLd(article: Article) {
   const url = articleUrl(article.slug);
   const published = parseFrDate(article.date).toISOString();
   const images = articleImageSet(article).map((i) => i.url);
+  const heroImage = absoluteUrl(article.image);
+  const bodyPreview = extractArticleBodyPreview(article.content, 120);
   return {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
@@ -94,6 +158,7 @@ export function buildNewsArticleJsonLd(article: Article) {
     headline: headlineForGoogle(article.title),
     description: article.excerpt,
     image: images,
+    thumbnailUrl: heroImage,
     datePublished: published,
     dateModified: published,
     author: {
@@ -105,9 +170,126 @@ export function buildNewsArticleJsonLd(article: Article) {
     articleSection: article.category,
     keywords: (article.tags || []).join(", "),
     wordCount: estimateWordCount(article.content),
+    ...(bodyPreview ? { articleBody: bodyPreview } : {}),
     inLanguage: SITE_LANG_REGION,
     url,
     isAccessibleForFree: true,
+    // Speakable : signale à Google Assistant / text-to-speech les parties lisibles.
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "article p"],
+    },
+  };
+}
+
+// FAQPage JSON-LD — utilisé sur les articles qui ont une structure Q/R,
+// ou sur des pages dédiées (générateur, FAQ globale).
+export function buildFaqPageJsonLd(faqs: { q: string; a: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: f.a,
+      },
+    })),
+  };
+}
+
+// HowTo JSON-LD — idéal pour la page générateur de plan d'entraînement.
+// Google affiche les étapes dans un carrousel.
+export function buildHowToJsonLd(args: {
+  name: string;
+  description: string;
+  url: string;
+  totalTime?: string; // ISO 8601 duration, ex. "PT90S"
+  steps: { name: string; text: string }[];
+  image?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: args.name,
+    description: args.description,
+    inLanguage: SITE_LANG_REGION,
+    ...(args.image ? { image: args.image } : {}),
+    ...(args.totalTime ? { totalTime: args.totalTime } : {}),
+    step: args.steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+      url: `${args.url}#step-${i + 1}`,
+    })),
+  };
+}
+
+// ItemList JSON-LD (utilisé pour la home + pages catégories pour déclarer
+// une liste ordonnée d'articles à Google).
+export function buildItemListJsonLd(args: {
+  name: string;
+  url: string;
+  articles: Article[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: args.name,
+    url: args.url,
+    numberOfItems: args.articles.length,
+    itemListElement: args.articles.map((a, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: articleUrl(a.slug),
+      name: a.title,
+      image: absoluteUrl(a.image),
+    })),
+  };
+}
+
+// Person JSON-LD — signale à Google l'identité des auteurs/rédacteurs.
+// Utilisable sur /a-propos et potentiellement sur une future page /redaction.
+export function buildPersonJsonLd(args: {
+  name: string;
+  url: string;
+  jobTitle?: string;
+  description?: string;
+  image?: string;
+  sameAs?: string[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: args.name,
+    url: args.url,
+    ...(args.jobTitle ? { jobTitle: args.jobTitle } : {}),
+    ...(args.description ? { description: args.description } : {}),
+    ...(args.image ? { image: args.image } : {}),
+    worksFor: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+    ...(args.sameAs && args.sameAs.length ? { sameAs: args.sameAs } : {}),
+  };
+}
+
+// WebPage JSON-LD générique — pratique pour les pages non-article qui n'ont
+// pas d'autre type schema (contact, a-propos, mentions).
+export function buildWebPageJsonLd(args: {
+  name: string;
+  description: string;
+  url: string;
+  breadcrumb?: { label: string; url?: string }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: args.name,
+    description: args.description,
+    url: args.url,
+    inLanguage: SITE_LANG_REGION,
+    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: SITE_URL },
+    ...(args.breadcrumb ? { breadcrumb: buildBreadcrumbJsonLd(args.breadcrumb) } : {}),
   };
 }
 

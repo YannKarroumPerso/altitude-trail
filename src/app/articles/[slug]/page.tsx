@@ -13,6 +13,9 @@ import {
   absoluteUrl,
   articleUrl,
   buildNewsArticleJsonLd,
+  buildBreadcrumbJsonLd,
+  buildFaqPageJsonLd,
+  extractFaqFromMarkdown,
   parseFrDate,
   NEWS_KEYWORDS,
 } from "@/lib/seo";
@@ -185,9 +188,19 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     { label: article.title },
   ];
 
+  const faqPairs = extractFaqFromMarkdown(article.content);
+
   return (
     <div className="max-w-4xl mx-auto px-4 lg:px-8 py-12">
       <JsonLd data={buildNewsArticleJsonLd(article)} />
+      <JsonLd
+        data={buildBreadcrumbJsonLd([
+          { label: "Accueil", url: SITE_URL },
+          { label: article.category, url: `${SITE_URL}/categories/${article.categorySlug}` },
+          { label: article.title, url: articleUrl(article.slug) },
+        ])}
+      />
+      {faqPairs.length >= 2 && <JsonLd data={buildFaqPageJsonLd(faqPairs)} />}
       <Breadcrumb items={breadcrumb} />
       <div className="mb-4">
         <Link

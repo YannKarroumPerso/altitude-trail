@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "veille": "node --env-file-if-exists=.env.local scripts/veille.mjs",
-    "publish": "node --env-file-if-exists=.env.local scripts/publish.mjs"
+    "publish": "node --env-file-if-exists=.env.local scripts/publish.mjs",
+    "regen-images": "node --env-file-if-exists=.env.local scripts/regen-article-images.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0",

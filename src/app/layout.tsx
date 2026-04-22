@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import { Space_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Header from "@/components/layout/Header";
@@ -9,11 +10,27 @@ import {
   SITE_NAME,
   SITE_DESCRIPTION,
   SITE_LOCALE,
-  DEFAULT_OG_IMAGE,
   NEWS_KEYWORDS,
   buildOrganizationJsonLd,
   buildWebSiteJsonLd,
 } from "@/lib/seo";
+
+// next/font self-hosts Google Fonts au build (pas de blocage render, FOIT limité,
+// zero layout shift, zero round-trip vers fonts.googleapis.com en prod).
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-headline",
+  display: "swap",
+  preload: true,
+});
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-body",
+  display: "swap",
+  preload: true,
+});
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-THC9PSGZ14";
 const GOOGLE_SITE_VERIFICATION =
@@ -51,13 +68,16 @@ export const metadata: Metadata = {
     url: SITE_URL,
     title: `${SITE_NAME} — Le magazine du trail running`,
     description: SITE_DESCRIPTION,
-    images: [{ url: DEFAULT_OG_IMAGE, width: 1200, height: 630, alt: SITE_NAME }],
+    // Pas d'images explicites ici : Next.js injecte automatiquement l'OG
+    // dynamique via src/app/opengraph-image.tsx (ImageResponse Edge). Les
+    // pages qui veulent override fournissent leurs propres `openGraph.images`.
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} — Le magazine du trail running`,
     description: SITE_DESCRIPTION,
-    images: [DEFAULT_OG_IMAGE],
+    // Idem Twitter : la convention `twitter-image.tsx` (via opengraph-image)
+    // prend le relais automatiquement.
   },
   robots: {
     index: true,
@@ -67,6 +87,8 @@ export const metadata: Metadata = {
   verification: GOOGLE_SITE_VERIFICATION
     ? { google: GOOGLE_SITE_VERIFICATION }
     : undefined,
+  manifest: "/manifest.webmanifest",
+  formatDetection: { email: false, address: false, telephone: false },
   other: {
     "news_keywords": NEWS_KEYWORDS.join(", "),
     "syndication-source": SITE_URL,
@@ -77,22 +99,22 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ff4500" },
+    { media: "(prefers-color-scheme: dark)", color: "#0b1c30" },
+  ],
+  colorScheme: "light",
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="fr">
+    <html lang="fr" className={`${spaceGrotesk.variable} ${inter.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          rel="preload"
-          as="style"
-          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
-        />
         <link rel="alternate" type="application/rss+xml" title={`${SITE_NAME} — RSS`} href="/rss.xml" />
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
       </head>
       <body>
         <JsonLd data={buildOrganizationJsonLd()} />

@@ -7,8 +7,12 @@ import {
   SITE_NAME,
   SITE_DESCRIPTION,
   AUTHOR_NAME,
+  AUTHOR_URL,
+  LOGO_SQUARE_URL,
   buildOrganizationJsonLd,
   buildBreadcrumbJsonLd,
+  buildPersonJsonLd,
+  buildWebPageJsonLd,
 } from "@/lib/seo";
 
 const TITLE = `À propos — ${SITE_NAME}`;
@@ -42,6 +46,27 @@ export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 lg:px-8 py-12">
       <JsonLd data={buildOrganizationJsonLd()} />
+      <JsonLd
+        data={buildWebPageJsonLd({
+          name: TITLE,
+          description: DESCRIPTION,
+          url: AUTHOR_URL,
+          breadcrumb: [
+            { label: "Accueil", url: SITE_URL },
+            { label: "À propos", url: AUTHOR_URL },
+          ],
+        })}
+      />
+      <JsonLd
+        data={buildPersonJsonLd({
+          name: AUTHOR_NAME,
+          url: AUTHOR_URL,
+          jobTitle: "Rédaction éditoriale trail running",
+          description:
+            "Collectif de rédacteurs spécialistes du trail running, de l'ultra-endurance et de la montagne. Signe l'ensemble des analyses et reportages d'Altitude Trail.",
+          image: LOGO_SQUARE_URL,
+        })}
+      />
       <JsonLd
         data={buildBreadcrumbJsonLd([
           { label: "Accueil", url: SITE_URL },
