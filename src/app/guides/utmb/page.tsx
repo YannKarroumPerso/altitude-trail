@@ -239,16 +239,48 @@ export default function GuideUTMBPage() {
         </section>
 
         <section id="qualification" className="scroll-mt-24">
-          <h2 className="font-headline text-3xl font-black mt-10 mb-4">Se qualifier : Running Stones et index ITRA</h2>
+          <h2 className="font-headline text-3xl font-black mt-10 mb-4">Se qualifier : Running Stones et Index UTMB</h2>
           <p className="mb-4">
-            L'accès aux courses UTMB de Chamonix combine deux logiques. D'un côté, une <strong>qualification sportive</strong> basée sur l'index ITRA (International Trail Running Association) : chaque course terminée dans les mois précédents attribue une cotation, qui détermine la catégorie à laquelle tu peux prétendre. De l'autre, une <strong>loterie pondérée par les Running Stones</strong> : plus tu en accumules en finissant des épreuves du circuit UTMB World Series, plus tes chances d'être tiré au sort augmentent.
+            Pour candidater à l'une des courses UTMB de Chamonix, il faut passer par un système de qualification qui se joue sur les deux années précédant l'épreuve. Deux mécanismes coexistent et se complètent.
+          </p>
+
+          <h3 className="font-headline text-xl font-bold mt-6 mb-3">Le circuit des UTMB World Series</h3>
+          <p className="mb-4">
+            L'organisation pilote un circuit international regroupant une vingtaine d'épreuves qualificatives, appelées les <em>UTMB World Series</em>. Chaque événement du circuit propose plusieurs formats de course, autour de quatre distances de référence : <strong>20K, 50K, 100K et 100 Miles</strong>. Courir et finir l'une de ces épreuves fait gagner des <em>Running Stones</em> — les "cailloux" qui constitueront tes chances d'être tiré au sort pour Chamonix.
+          </p>
+
+          <h3 className="font-headline text-xl font-bold mt-6 mb-3">Les Running Stones, la monnaie du circuit</h3>
+          <p className="mb-4">
+            Le nombre de stones récoltés dépend de la distance courue :
+          </p>
+          <ul className="list-disc pl-6 space-y-1 mb-4">
+            <li><strong>1 stone</strong> pour un finish sur 20K</li>
+            <li><strong>2 stones</strong> pour un 50K</li>
+            <li><strong>3 stones</strong> pour un 100K</li>
+            <li><strong>4 stones</strong> pour un 100 Miles</li>
+          </ul>
+          <p className="mb-4">
+            Trois épreuves du circuit ont un statut particulier, celui de <em>UTMB World Series Majors</em>. Finir une Major fait doubler le nombre de Running Stones attribués. Pour un coureur décidé à candidater sur l'UTMB 171 km, aligner plusieurs finishes sur du long (100K ou 100 Miles) — et si possible une Major — est la stratégie la plus efficace pour maximiser son stock de stones.
+          </p>
+
+          <h3 className="font-headline text-xl font-bold mt-6 mb-3">L'Index UTMB, le filtre de performance</h3>
+          <p className="mb-4">
+            Le deuxième mécanisme est l'<em>Index UTMB</em>. Il s'agit d'un score de performance propre au circuit, calculé à partir des résultats du coureur sur les épreuves UTMB World Series terminées. Cet index définit une catégorie qui détermine <strong>sur quelle course de Chamonix tu es autorisé à candidater</strong>.
           </p>
           <p className="mb-4">
-            Les règles exactes évoluent chaque année — seuils d'index, nombre de stones requis, calendrier des inscriptions, tarifs — en fonction de la demande et de l'évolution du programme. <strong>Les chiffres publiés sur des sites tiers sont souvent périmés.</strong> Avant de te lancer dans une stratégie de qualification, vérifie les règles de l'édition en cours directement sur le site officiel :
+            Concrètement : pour postuler sur l'UTMB 171 km, il ne suffit pas d'accumuler des Running Stones sur des 20K — il faut aussi avoir un Index UTMB valide sur la catégorie visée, c'est-à-dire avoir couru des distances comparables à l'épreuve ciblée dans les mois qui précèdent. Le système s'assure ainsi que les coureurs tirés au sort ont une expérience adaptée à la distance.
+          </p>
+
+          <h3 className="font-headline text-xl font-bold mt-6 mb-3">Et ensuite, le tirage au sort</h3>
+          <p className="mb-4">
+            Remplir les deux conditions (Running Stones + Index UTMB valide) ne garantit pas une place : l'inscription finale se fait par <strong>tirage au sort pondéré</strong>. Plus tu as accumulé de stones, plus la pondération joue en ta faveur. Les seuils précis, le nombre exact de stones nécessaires et les mécanismes d'entrée évoluent chaque édition en fonction de la demande.
+          </p>
+          <p className="mb-4">
+            Pour les règles exactes de l'édition en cours (seuils, calendrier d'inscription, tarifs, options Running Stones supplémentaires) :
           </p>
           <p className="mb-4">
             <a href="https://utmbmontblanc.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline underline-offset-4">
-              utmbmontblanc.com — règles d'inscription et de qualification
+              utmbmontblanc.com — règles d'inscription de l'édition en cours
             </a>
           </p>
           <p className="mb-4">
