@@ -176,3 +176,179 @@ Altitude Trail`;
     return false;
   }
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Rapport SEO + PageSpeed hebdomadaire
+// ─────────────────────────────────────────────────────────────────────────────
+
+export interface WeeklyReportEmailArgs {
+  to: string;
+  psiRows: {
+    url: string;
+    strategy: string;
+    performance: number | null;
+    seo: number | null;
+    accessibility: number | null;
+    bestPractices: number | null;
+    lcpMs: number | null;
+    clsScore: number | null;
+    ttfbMs: number | null;
+  }[];
+  auditMarkdown: string;
+  weekLabel: string; // ex. "Semaine du 20 au 26 avril 2026"
+  stats: {
+    totalArticles: number;
+    articlesPublishedThisWeek: number;
+  };
+}
+
+function scoreColor(score: number | null): string {
+  if (score == null) return "#999";
+  if (score >= 90) return "#0a8f2e"; // vert
+  if (score >= 50) return "#f4a000"; // orange
+  return "#d93025"; // rouge
+}
+
+function mdToBasicHtml(md: string): string {
+  // Conversion markdown minimaliste (titres, bold, listes, paragraphes).
+  const lines = md.split(/\r?\n/);
+  const out: string[] = [];
+  let inList = false;
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line) {
+      if (inList) {
+        out.push("</ul>");
+        inList = false;
+      }
+      continue;
+    }
+    if (line.startsWith("## ")) {
+      if (inList) {
+        out.push("</ul>");
+        inList = false;
+      }
+      out.push(`<h3 style="font-family:system-ui,sans-serif;font-size:17px;margin:24px 0 10px;color:#0b1c30;border-bottom:2px solid #ff4500;padding-bottom:4px">${escapeHtml(line.slice(3))}</h3>`);
+      continue;
+    }
+    if (line.startsWith("- ")) {
+      if (!inList) {
+        out.push('<ul style="margin:0 0 12px 20px;padding:0;color:#333">');
+        inList = true;
+      }
+      const body = line.slice(2);
+      out.push(`<li style="margin:4px 0">${inlineFormat(body)}</li>`);
+      continue;
+    }
+    if (inList) {
+      out.push("</ul>");
+      inList = false;
+    }
+    out.push(`<p style="margin:0 0 10px;color:#333;line-height:1.55">${inlineFormat(line)}</p>`);
+  }
+  if (inList) out.push("</ul>");
+  return out.join("\n");
+}
+
+function inlineFormat(s: string): string {
+  const escaped = escapeHtml(s);
+  return escaped
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+    .replace(/`([^`]+)`/g, '<code style="background:#f0f0f0;padding:1px 4px;border-radius:3px;font-size:90%">$1</code>');
+}
+
+function escapeHtml(s: string): string {
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+export async function sendWeeklyReportEmail(args: WeeklyReportEmailArgs): Promise<boolean> {
+  const client = getResend();
+  if (!client) {
+    console.warn("[email] RESEND_API_KEY manquante, rapport hebdo non envoyé");
+    return false;
+  }
+
+  const rowsHtml = args.psiRows
+    .map((r) => {
+      const perf = r.performance;
+      const seoScore = r.seo;
+      const a11y = r.accessibility;
+      const bp = r.bestPractices;
+      return `<tr style="border-bottom:1px solid #eee">
+        <td style="padding:8px 10px;font-size:12px">${escapeHtml(r.url.replace(/^https?:\/\/[^/]+/, "") || "/")}<br/><span style="color:#888;text-transform:uppercase;font-size:10px">${r.strategy}</span></td>
+        <td style="padding:8px 10px;text-align:center;font-weight:700;color:${scoreColor(perf)}">${perf ?? "–"}</td>
+        <td style="padding:8px 10px;text-align:center;font-weight:700;color:${scoreColor(seoScore)}">${seoScore ?? "–"}</td>
+        <td style="padding:8px 10px;text-align:center;font-weight:700;color:${scoreColor(a11y)}">${a11y ?? "–"}</td>
+        <td style="padding:8px 10px;text-align:center;font-weight:700;color:${scoreColor(bp)}">${bp ?? "–"}</td>
+        <td style="padding:8px 10px;text-align:center;font-size:11px;color:#555">${r.lcpMs != null ? Math.round(r.lcpMs) + "ms" : "–"}</td>
+        <td style="padding:8px 10px;text-align:center;font-size:11px;color:#555">${r.clsScore != null ? r.clsScore.toFixed(3) : "–"}</td>
+        <td style="padding:8px 10px;text-align:center;font-size:11px;color:#555">${r.ttfbMs != null ? Math.round(r.ttfbMs) + "ms" : "–"}</td>
+      </tr>`;
+    })
+    .join("\n");
+
+  const auditHtml = mdToBasicHtml(args.auditMarkdown);
+
+  const html = `<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><title>Rapport hebdo Altitude Trail</title></head>
+<body style="margin:0;padding:0;background:#f8f9ff;font-family:system-ui,-apple-system,sans-serif">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f8f9ff;padding:30px 10px">
+    <tr><td align="center">
+      <table width="680" cellpadding="0" cellspacing="0" style="max-width:680px;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.06)">
+        <tr><td style="background:#0b1c30;padding:24px 30px">
+          <div style="color:#ff4500;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">ALTITUDE TRAIL · RAPPORT HEBDO</div>
+          <div style="color:#fff;font-size:22px;font-weight:800">${escapeHtml(args.weekLabel)}</div>
+          <div style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:4px">${args.stats.articlesPublishedThisWeek} nouvel${args.stats.articlesPublishedThisWeek > 1 ? "s" : ""} article${args.stats.articlesPublishedThisWeek > 1 ? "s" : ""} cette semaine · ${args.stats.totalArticles} au total</div>
+        </td></tr>
+
+        <tr><td style="padding:24px 30px">
+          <h2 style="font-size:18px;margin:0 0 12px;color:#0b1c30">PageSpeed Insights</h2>
+          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:12px">
+            <thead><tr style="background:#0b1c30;color:#fff;text-align:center">
+              <th style="padding:8px 10px;text-align:left;font-weight:600">URL</th>
+              <th style="padding:8px 10px;font-weight:600">Perf</th>
+              <th style="padding:8px 10px;font-weight:600">SEO</th>
+              <th style="padding:8px 10px;font-weight:600">A11y</th>
+              <th style="padding:8px 10px;font-weight:600">BP</th>
+              <th style="padding:8px 10px;font-weight:600">LCP</th>
+              <th style="padding:8px 10px;font-weight:600">CLS</th>
+              <th style="padding:8px 10px;font-weight:600">TTFB</th>
+            </tr></thead>
+            <tbody>${rowsHtml}</tbody>
+          </table>
+          <p style="font-size:11px;color:#888;margin:8px 0 0">Score 90+ vert, 50-89 orange, &lt;50 rouge · Cibles web vitals : LCP &lt; 2.5s, CLS &lt; 0.1, TTFB &lt; 800ms</p>
+        </td></tr>
+
+        <tr><td style="padding:4px 30px 24px">
+          <h2 style="font-size:18px;margin:8px 0 12px;color:#0b1c30">Audit SEO de la semaine</h2>
+          ${auditHtml}
+        </td></tr>
+
+        <tr><td style="background:#f8f9ff;padding:20px 30px;text-align:center;border-top:1px solid #e5eeff">
+          <div style="color:#888;font-size:11px">Rapport généré automatiquement chaque lundi · <a href="https://www.altitude-trail.fr" style="color:#ff4500;text-decoration:none">altitude-trail.fr</a></div>
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
+</body></html>`;
+
+  try {
+    const { error } = await client.emails.send({
+      from: "Altitude Trail Rapport <rapport@altitude-trail.fr>",
+      to: args.to,
+      subject: `Rapport SEO hebdo · ${args.weekLabel}`,
+      html,
+    });
+    if (error) {
+      console.error("[email] weekly report error:", error);
+      return false;
+    }
+    console.log("[email] rapport hebdo envoyé à", args.to);
+    return true;
+  } catch (e) {
+    console.error("[email] exception weekly:", e);
+    return false;
+  }
+}
