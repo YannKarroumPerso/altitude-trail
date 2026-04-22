@@ -5,6 +5,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import JsonLd from "@/components/ui/JsonLd";
+import NewsletterPopin from "@/components/ui/NewsletterPopin";
 import {
   SITE_URL,
   SITE_NAME,
@@ -122,6 +123,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main>{children}</main>
         <Footer />
+        <NewsletterPopin />
         {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
       </body>
     </html>
