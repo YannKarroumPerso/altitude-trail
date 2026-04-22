@@ -148,6 +148,11 @@ export function articleImageSet(article: Article): { url: string; width: number;
 export function buildNewsArticleJsonLd(article: Article) {
   const url = articleUrl(article.slug);
   const published = parseFrDate(article.date).toISOString();
+  // Si l'article a été mis à jour (champ updatedAt dans la frontmatter), on
+  // utilise cette date pour dateModified — signal de fraîcheur pour Google.
+  const modified = article.updatedAt
+    ? parseFrDate(article.updatedAt).toISOString()
+    : published;
   const images = articleImageSet(article).map((i) => i.url);
   const heroImage = absoluteUrl(article.image);
   const bodyPreview = extractArticleBodyPreview(article.content, 120);
@@ -160,7 +165,7 @@ export function buildNewsArticleJsonLd(article: Article) {
     image: images,
     thumbnailUrl: heroImage,
     datePublished: published,
-    dateModified: published,
+    dateModified: modified,
     author: {
       "@type": "Person",
       name: article.author || AUTHOR_NAME,

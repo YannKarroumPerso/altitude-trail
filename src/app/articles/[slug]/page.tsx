@@ -7,6 +7,7 @@ import ReactMarkdown from "react-markdown";
 import ArticleCard from "@/components/ui/ArticleCard";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import JsonLd from "@/components/ui/JsonLd";
+import YouTubeEmbed from "@/components/ui/YouTubeEmbed";
 import {
   SITE_URL,
   SITE_NAME,
@@ -19,6 +20,7 @@ import {
   parseFrDate,
   NEWS_KEYWORDS,
 } from "@/lib/seo";
+import { resolveAuthor } from "@/lib/authors";
 
 function slugifyHeading(text: string): string {
   return text
@@ -211,8 +213,27 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         </Link>
       </div>
       <h1 className="font-headline text-4xl lg:text-6xl font-black leading-none tracking-tighter mb-6">{article.title}</h1>
-      <div className="flex items-center gap-4 text-xs text-slate-500 font-semibold uppercase tracking-wide mb-8 border-b border-surface-container pb-6">
-        <span>Par {article.author}</span><span>·</span><span>{article.date}</span><span>·</span><span>{article.readTime} de lecture</span>
+      <div className="flex flex-wrap items-center gap-4 text-xs text-slate-500 font-semibold uppercase tracking-wide mb-8 border-b border-surface-container pb-6">
+        {(() => {
+          const r = resolveAuthor(article.author);
+          return r.author ? (
+            <span>
+              Par{" "}
+              <Link
+                href={`/auteurs/${r.author.slug}`}
+                className="text-navy hover:text-primary underline-offset-4 hover:underline transition-colors"
+              >
+                {r.author.name}
+              </Link>
+            </span>
+          ) : (
+            <span>Par {r.display}</span>
+          );
+        })()}
+        <span>·</span>
+        <span>{article.date}</span>
+        <span>·</span>
+        <span>{article.readTime} de lecture</span>
       </div>
       <div className="mb-8 overflow-hidden">
         <Image
@@ -254,6 +275,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </nav>
         );
       })()}
+      {article.youtubeVideoId && article.youtubeTitle && (
+        <YouTubeEmbed
+          videoId={article.youtubeVideoId}
+          title={article.youtubeTitle}
+          channelName={article.youtubeChannel}
+          durationSeconds={article.youtubeDuration}
+          uploadDate={article.youtubeUploadDate}
+          description={article.excerpt}
+        />
+      )}
       <div className="text-slate-700 leading-relaxed text-lg">
         {article.content ? (
           <ReactMarkdown components={markdownComponents}>
@@ -270,6 +301,35 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
         )}
       </div>
+      {article.externalRefs && article.externalRefs.length > 0 && (
+        <aside className="mt-12 pt-8 border-t border-surface-container">
+          <h2 className="font-headline text-xs font-black uppercase tracking-widest text-slate-500 mb-4">
+            Sources & pour aller plus loin
+          </h2>
+          <ul className="space-y-2">
+            {article.externalRefs.map((ref, i) => (
+              <li key={`${ref.url}-${i}`} className="flex gap-2">
+                <span className="text-primary font-black text-sm shrink-0">→</span>
+                <a
+                  href={ref.url}
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                  className="text-sm text-navy hover:text-primary underline underline-offset-4 break-all"
+                >
+                  {ref.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </aside>
+      )}
+
+      {article.updatedAt && article.updatedAt !== article.date && (
+        <p className="mt-10 text-xs text-slate-500 italic">
+          Article mis à jour le {article.updatedAt}
+        </p>
+      )}
+
       {article.tags && (
         <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-surface-container">
           {article.tags.map((tag) => (

@@ -6,11 +6,25 @@ export interface Article {
   categorySlug: string;
   author: string;
   date: string;
+  // Optional : date de dernière mise à jour éditoriale significative.
+  // Si absente, dateModified tombe sur date.
+  updatedAt?: string;
   readTime: string;
   image: string;
   featured?: boolean;
   tags?: string[];
   content?: string;
+  // Vidéo YouTube optionnelle attachée à l'article, affichée après les
+  // premiers paragraphes. Ajoutée automatiquement par la veille quand un
+  // match YouTube pertinent est trouvé.
+  youtubeVideoId?: string;
+  youtubeTitle?: string;
+  youtubeChannel?: string;
+  youtubeDuration?: number;  // secondes
+  youtubeUploadDate?: string; // ISO 8601
+  // Liens externes de référence (whitelist domaines d'autorité).
+  // Surfacés en bas d'article comme "Sources / Pour aller plus loin".
+  externalRefs?: { url: string; label: string }[];
 }
 
 export type Difficulty = "Facile" | "Modéré" | "Difficile" | "Extrême";

@@ -5,6 +5,18 @@ import path from "node:path";
 import Parser from "rss-parser";
 import Anthropic from "@anthropic-ai/sdk";
 import { EDITORIAL_STYLE } from "./lib/editorial-style.mjs";
+import { pickAuthorForCategory } from "./lib/authors.mjs";
+import {
+  authorityDomainsListForPrompt,
+  isAllowedHost,
+  urlIsAlive,
+} from "./lib/authority-domains.mjs";
+import {
+  loadExistingArticles,
+  findTopRelated,
+  insertInternalLinks,
+} from "./lib/internal-linking.mjs";
+import { findYouTubeVideoForArticle } from "./lib/youtube-search.mjs";
 
 const SOURCES = [
   "https://www.lepape-info.com/feed/",
@@ -130,7 +142,7 @@ Frontmatter obligatoire :
   - Construction recommandée : accroche forte + protagoniste ou chiffre + enjeu.
   - Leviers Discover à privilégier (utilise-les à bon escient, jamais les cinq d'un coup) :
     * Un chiffre concret quand le sujet le permet ("3 erreurs qui ruinent votre UTMB", "60 secondes pour sauver un genou")
-    * Une question rhétorique qui pose le vrai enjeu ("Pourquoi Kilian court-il plus vite que vous ?")
+    * Une question rhétorique qui pose le vrai enjeu ("Pourquoi Kilian court-il plus vite que vous ?") — à utiliser pour environ 1 article sur 5 quand le sujet a une vraie réponse tranchée à apporter
     * Un marqueur d'actualité fort si l'info vient de tomber ("BREAKING", "Ce week-end")
     * Une charge émotionnelle assumée sur les portraits et récits ("L'histoire glaciale de…", "La chute qui a tout changé")
     * Un mot-clé trail/ultra dans le titre (trail, UTMB, ultra, D+, FKT, VMA, seuil) pour l'indexation Actualités
@@ -140,7 +152,17 @@ Frontmatter obligatoire :
 - tags : 3 à 5 tags français, chaînes simples
 - readTime : format "X min", calculé sur 230 mots/minute
 - imagePrompt1 : prompt ANGLAIS pour flux-pro-1.1 illustrant le décor ou le contexte d'ouverture. 40-60 mots, une seule ligne, entre guillemets, ultra-spécifique (sujet, action, lieu nommé, lumière, équipement). N'inclus pas le style photo (un suffixe cinéma est ajouté automatiquement).
-- imagePrompt2 : prompt ANGLAIS pour une scène différente liée à un moment-clé du milieu de l'article. Mêmes exigences que imagePrompt1.`;
+- imagePrompt2 : prompt ANGLAIS pour une scène différente liée à un moment-clé du milieu de l'article. Mêmes exigences que imagePrompt1.
+- externalRefs : liste YAML de 2 à 4 références externes (objets avec url et label), choisies UNIQUEMENT dans la whitelist ci-dessous. Ces références apparaissent en bas d'article comme "Sources / pour aller plus loin". Format :
+    externalRefs:
+      - { url: "https://domaine-autorise.tld/page", label: "Titre explicite de la ressource" }
+      - { url: "...", label: "..." }
+  Règles strictes :
+    * N'invente JAMAIS une URL : utilise uniquement des pages dont tu es absolument sûr qu'elles existent. En cas de doute, préfère la page d'accueil du domaine autorisé plutôt qu'une URL profonde spéculative.
+    * Privilégie 2 références minimum sur les articles santé/science/physiologie (YMYL).
+    * Les labels doivent être descriptifs, pas "cliquez ici".
+    * Les domaines autorisés (uniquement) :
+${authorityDomainsListForPrompt()}`;
 
 const SYSTEM_PROMPT = `${EDITORIAL_STYLE}\n\n${FORMAT_INSTRUCTIONS}`;
 
@@ -190,9 +212,36 @@ function parseFrontmatter(md) {
   const yaml = md.slice(3, end).trim();
   const body = md.slice(end + 4).trim();
   const meta = {};
-  for (const line of yaml.split("\n")) {
+  const lines = yaml.split("\n");
+  let i = 0;
+  while (i < lines.length) {
+    const line = lines[i];
+    // Bloc multi-ligne externalRefs:
+    if (/^externalRefs\s*:\s*$/.test(line)) {
+      const refs = [];
+      let j = i + 1;
+      while (j < lines.length && /^\s{2,}-/.test(lines[j])) {
+        const itemLine = lines[j].replace(/^\s*-\s*/, "");
+        // Format attendu : { url: "...", label: "..." }
+        const urlMatch = itemLine.match(/url\s*:\s*["']([^"']+)["']/);
+        const labelMatch = itemLine.match(/label\s*:\s*["']([^"']+)["']/);
+        if (urlMatch) {
+          refs.push({
+            url: urlMatch[1],
+            label: labelMatch ? labelMatch[1] : urlMatch[1],
+          });
+        }
+        j++;
+      }
+      meta.externalRefs = refs;
+      i = j;
+      continue;
+    }
     const m = line.match(/^([a-zA-Z_][a-zA-Z0-9_]*):\s*(.+)$/);
-    if (!m) continue;
+    if (!m) {
+      i++;
+      continue;
+    }
     const key = m[1];
     let val = m[2].trim();
     if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1);
@@ -200,8 +249,30 @@ function parseFrontmatter(md) {
       val = val.slice(1, -1).split(",").map((s) => s.trim().replace(/^["']|["']$/g, "")).filter(Boolean);
     }
     meta[key] = val;
+    i++;
   }
   return { meta, body };
+}
+
+// Valide les externalRefs de Claude : ne garde que les URLs dont le domaine
+// est whitelisté ET qui répondent HTTP 200. Max 4, min 0.
+async function validateExternalRefs(refs) {
+  if (!Array.isArray(refs)) return [];
+  const out = [];
+  for (const ref of refs.slice(0, 4)) {
+    if (!ref.url || !ref.label) continue;
+    if (!isAllowedHost(ref.url)) {
+      console.log(`[veille]   ref rejetée (domaine non whitelisté) : ${ref.url}`);
+      continue;
+    }
+    const alive = await urlIsAlive(ref.url);
+    if (!alive) {
+      console.log(`[veille]   ref rejetée (HTTP mort) : ${ref.url}`);
+      continue;
+    }
+    out.push(ref);
+  }
+  return out;
 }
 
 function validateRewrite(md, sourceItem) {
@@ -224,6 +295,34 @@ function buildMarkdownFile({ meta, body, sourceItem, pubDate, image }) {
   const tagsYaml = Array.isArray(meta.tags) && meta.tags.length
     ? `[${meta.tags.map((t) => `"${t.replace(/"/g, '\\"')}"`).join(", ")}]`
     : "[]";
+
+  // Auteur attribué automatiquement selon la catégorie (rotation déterministe).
+  const author = meta.author
+    ? meta.author
+    : pickAuthorForCategory(meta.categorySlug, meta.title || sourceItem.link || "").name;
+
+  const dateFr = frDate(pubDate);
+
+  // Sérialisation YAML des externalRefs validés (si présents).
+  const externalRefsYaml = Array.isArray(meta.externalRefs) && meta.externalRefs.length
+    ? [
+        "externalRefs:",
+        ...meta.externalRefs.map(
+          (r) => `  - { url: "${r.url.replace(/"/g, '\\"')}", label: "${String(r.label || "").replace(/"/g, '\\"')}" }`
+        ),
+      ]
+    : [];
+
+  // Fields YouTube si une vidéo pertinente a été trouvée.
+  const ytFields = [];
+  if (meta.youtubeVideoId) {
+    ytFields.push(`youtubeVideoId: "${meta.youtubeVideoId}"`);
+    if (meta.youtubeTitle) ytFields.push(`youtubeTitle: ${JSON.stringify(meta.youtubeTitle)}`);
+    if (meta.youtubeChannel) ytFields.push(`youtubeChannel: ${JSON.stringify(meta.youtubeChannel)}`);
+    if (meta.youtubeDuration) ytFields.push(`youtubeDuration: ${meta.youtubeDuration}`);
+    if (meta.youtubeUploadDate) ytFields.push(`youtubeUploadDate: "${meta.youtubeUploadDate}"`);
+  }
+
   const front = [
     "---",
     `slug: "${slugify(meta.title)}"`,
@@ -231,12 +330,15 @@ function buildMarkdownFile({ meta, body, sourceItem, pubDate, image }) {
     `excerpt: "${meta.excerpt.replace(/"/g, '\\"')}"`,
     `category: "${category}"`,
     `categorySlug: ${meta.categorySlug}`,
-    `author: "Rédaction Altitude"`,
-    `date: "${frDate(pubDate)}"`,
+    `author: "${author}"`,
+    `date: "${dateFr}"`,
+    `updatedAt: "${dateFr}"`,
     `readTime: "${meta.readTime || "7 min"}"`,
     `image: "${image}"`,
     `tags: ${tagsYaml}`,
     `sourceUrl: "${sourceItem.link}"`,
+    ...ytFields,
+    ...externalRefsYaml,
     ...(meta.imagePrompt1 ? [`imagePrompt1: ${JSON.stringify(meta.imagePrompt1)}`] : []),
     ...(meta.imagePrompt2 ? [`imagePrompt2: ${JSON.stringify(meta.imagePrompt2)}`] : []),
     "---",
@@ -392,7 +494,58 @@ async function processFeed(client, url) {
       validated.meta.imagePrompt1,
       validated.meta.imagePrompt2,
     ]);
-    const bodyWithImages = insertImagesInBody(validated.body, imageRefs);
+
+    // === Enrichissement SEO post-génération ===
+
+    // 1. Valider les externalRefs fournis par Claude (whitelist + ping HTTP)
+    if (validated.meta.externalRefs) {
+      const before = validated.meta.externalRefs.length;
+      validated.meta.externalRefs = await validateExternalRefs(validated.meta.externalRefs);
+      console.log(`[veille]   externalRefs: ${before} proposés → ${validated.meta.externalRefs.length} validés`);
+    }
+
+    // 2. Recherche YouTube optionnelle
+    try {
+      const yt = await findYouTubeVideoForArticle({
+        title: validated.meta.title,
+        tags: validated.meta.tags,
+      });
+      if (yt) {
+        validated.meta.youtubeVideoId = yt.videoId;
+        validated.meta.youtubeTitle = yt.title;
+        validated.meta.youtubeChannel = yt.channel;
+        validated.meta.youtubeDuration = yt.duration;
+        validated.meta.youtubeUploadDate = yt.uploadDate;
+        console.log(`[veille]   YouTube: ${yt.title.slice(0, 70)} (${yt.videoId})`);
+      } else {
+        console.log(`[veille]   YouTube: aucune vidéo pertinente`);
+      }
+    } catch (e) {
+      console.warn(`[veille]   YouTube error (non bloquant): ${e.message}`);
+    }
+
+    // 3. Maillage interne : 2 liens max vers des articles existants
+    let bodyWithLinks = validated.body;
+    try {
+      const existing = await loadExistingArticles();
+      const newArticleMeta = {
+        title: validated.meta.title,
+        tags: validated.meta.tags,
+        categorySlug: validated.meta.categorySlug,
+      };
+      const related = findTopRelated(newArticleMeta, existing, 2, slugify(validated.meta.title));
+      if (related.length) {
+        const siteUrl = process.env.SITE_BASE_URL || "https://www.altitude-trail.fr";
+        bodyWithLinks = insertInternalLinks(bodyWithLinks, related, siteUrl.replace(/\/$/, ""));
+        console.log(`[veille]   liens internes: ${related.length} (${related.map((r) => r.slug).join(", ")})`);
+      }
+    } catch (e) {
+      console.warn(`[veille]   internal linking error: ${e.message}`);
+    }
+
+    // 4. Insertion des images FLUX
+    const bodyWithImages = insertImagesInBody(bodyWithLinks, imageRefs);
+
     const md = buildMarkdownFile({
       meta: validated.meta,
       body: bodyWithImages,

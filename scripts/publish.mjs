@@ -37,9 +37,20 @@ async function loadArticles() {
       categorySlug: String(data.categorySlug),
       author: String(data.author || "Rédaction Altitude"),
       date: String(data.date || ""),
+      updatedAt: data.updatedAt ? String(data.updatedAt) : undefined,
       readTime: String(data.readTime || "7 min"),
       image: String(data.image || ""),
       tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
+      youtubeVideoId: data.youtubeVideoId ? String(data.youtubeVideoId) : undefined,
+      youtubeTitle: data.youtubeTitle ? String(data.youtubeTitle) : undefined,
+      youtubeChannel: data.youtubeChannel ? String(data.youtubeChannel) : undefined,
+      youtubeDuration: typeof data.youtubeDuration === "number" ? data.youtubeDuration : undefined,
+      youtubeUploadDate: data.youtubeUploadDate ? String(data.youtubeUploadDate) : undefined,
+      externalRefs: Array.isArray(data.externalRefs)
+        ? data.externalRefs
+            .filter((r) => r && r.url)
+            .map((r) => ({ url: String(r.url), label: String(r.label || r.url) }))
+        : undefined,
       content: content.trim(),
     });
   }
@@ -58,9 +69,18 @@ function renderArticlesTs(articles) {
       `    categorySlug: ${JSON.stringify(a.categorySlug)}`,
       `    author: ${JSON.stringify(a.author)}`,
       `    date: ${JSON.stringify(a.date)}`,
+      ...(a.updatedAt ? [`    updatedAt: ${JSON.stringify(a.updatedAt)}`] : []),
       `    readTime: ${JSON.stringify(a.readTime)}`,
       `    image: ${JSON.stringify(a.image)}`,
       `    tags: ${JSON.stringify(a.tags)}`,
+      ...(a.youtubeVideoId ? [`    youtubeVideoId: ${JSON.stringify(a.youtubeVideoId)}`] : []),
+      ...(a.youtubeTitle ? [`    youtubeTitle: ${JSON.stringify(a.youtubeTitle)}`] : []),
+      ...(a.youtubeChannel ? [`    youtubeChannel: ${JSON.stringify(a.youtubeChannel)}`] : []),
+      ...(a.youtubeDuration ? [`    youtubeDuration: ${a.youtubeDuration}`] : []),
+      ...(a.youtubeUploadDate ? [`    youtubeUploadDate: ${JSON.stringify(a.youtubeUploadDate)}`] : []),
+      ...(a.externalRefs && a.externalRefs.length
+        ? [`    externalRefs: ${JSON.stringify(a.externalRefs)}`]
+        : []),
       `    content: ${JSON.stringify(a.content)}`,
     ].join(",\n");
     return `  {\n${fields},\n  }`;
