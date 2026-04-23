@@ -176,6 +176,30 @@ export const HOT_EVENTS = [
     ],
     tags: ["Trail du Ventoux", "live"],
   },
+  {
+    slug: "canyons-endurance-runs",
+    name: "Canyons Endurance Runs by UTMB - 100M",
+    start: "2026-04-24",
+    location: "Auburn, Californie, USA",
+    queries: [
+      "Canyons Endurance Runs 100M 2026 preview elite field Golden Ticket Western States",
+      "Canyons by UTMB 100 mile Auburn California 2026 favorites startlist",
+      "Canyons 100 miles 2026 results recap winner"
+    ],
+    tags: ["canyons", "golden-ticket", "western-states-qualifier", "utmb-world-series", "100-miles"]
+  },
+  {
+    slug: "grand-raid-ventoux-ugp",
+    name: "Grand Raid Ventoux by UTMB - UGP",
+    start: "2026-04-24",
+    location: "Mont Ventoux, Provence, France",
+    queries: [
+      "Grand Raid Ventoux UGP UTMB 2026 preview favoris plateau 24 avril Mont Ventoux",
+      "Ultra Geant de Provence UGP Ventoux 2026 startlist favoris plateau",
+      "Ventoux UTMB World Series France 2026 elite results recap"
+    ],
+    tags: ["ventoux", "ugp", "provence", "france", "utmb-world-series"]
+  },
 ];
 
 // Fenêtre chaude : 48h avant, jusqu'à 72h après le jour de départ.
