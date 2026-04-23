@@ -59,6 +59,9 @@ function sameDay(a, b) {
 }
 
 // Compte les articles publiés aujourd'hui en parcourant les .md.
+// Les brèves (articleType: "brief") ont leur propre cap séparé dans
+// brief-cap.mjs et sont EXCLUES de ce comptage pour éviter que les deux
+// pipelines se cannibalisent mutuellement.
 export async function countTodayArticles() {
   const today = todayParis();
   const files = await fs.readdir(CONTENT_DIR).catch(() => []);
@@ -68,6 +71,7 @@ export async function countTodayArticles() {
     try {
       const raw = await fs.readFile(path.join(CONTENT_DIR, file), "utf8");
       const { data } = matter(raw);
+      if (data.articleType === "brief") continue; // exclu du cap standard
       const parsed = parseFrDate(data.date);
       if (parsed && sameDay(parsed, today)) count++;
     } catch {

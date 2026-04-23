@@ -32,6 +32,15 @@ export interface Article {
   // Slug de l'événement chaud concerné (pour analytics + future page agrégée
   // "live UTMB 2026", "live Western States 2026", etc.).
   hotEventSlug?: string;
+  // Type d'article. "standard" = article éditorial long (800-1200 mots,
+  // veille RSS ou Tavily classique). "brief" = brève actualité chaude
+  // (400-600 mots, format court structuré avec "L'info en 30 secondes" +
+  // "Contexte" + "Notre lecture"). Les brèves ont leur propre cap quotidien
+  // distinct (3/jour) et un badge visuel dédié.
+  articleType?: "standard" | "brief";
+  // Verticale éditoriale pour les brèves uniquement. Permet un routage
+  // automatique vers la bonne catégorie et l'affichage ciblé côté front.
+  briefVertical?: "equipement" | "marques-industrie" | "athletes";
 }
 
 export type Difficulty = "Facile" | "Modéré" | "Difficile" | "Extrême";

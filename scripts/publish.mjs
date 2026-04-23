@@ -53,6 +53,11 @@ async function loadArticles() {
         : undefined,
       isLive: data.isLive === true ? true : undefined,
       hotEventSlug: data.hotEventSlug ? String(data.hotEventSlug) : undefined,
+      articleType: data.articleType === "brief" ? "brief" : undefined,
+      briefVertical: (() => {
+        const v = data.briefVertical ? String(data.briefVertical) : "";
+        return (v === "equipement" || v === "marques-industrie" || v === "athletes") ? v : undefined;
+      })(),
       content: content.trim(),
     });
   }
@@ -85,6 +90,8 @@ function renderArticlesTs(articles) {
         : []),
       ...(a.isLive ? [`    isLive: true`] : []),
       ...(a.hotEventSlug ? [`    hotEventSlug: ${JSON.stringify(a.hotEventSlug)}`] : []),
+      ...(a.articleType ? [`    articleType: ${JSON.stringify(a.articleType)}`] : []),
+      ...(a.briefVertical ? [`    briefVertical: ${JSON.stringify(a.briefVertical)}`] : []),
       `    content: ${JSON.stringify(a.content)}`,
     ].join(",\n");
     return `  {\n${fields},\n  }`;

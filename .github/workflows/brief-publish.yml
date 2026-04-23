@@ -1,0 +1,155 @@
+name: Brèves actu (2x/jour)
+
+# Pipeline dédié aux BRÈVES actu chaude (équipement / marques / athlètes).
+# Cap quotidien distinct de la veille éditoriale de fond : 3 brèves/jour max
+# en régime normal, 5/jour pendant une fenêtre d'événement chaud.
+# Format 400-600 mots, structure imposée "L'info en 30 secondes / Contexte /
+# Notre lecture / Sources", angle FR obligatoire.
+#
+# Runs à 10h00 et 15h00 Paris (CEST+CET gérés). Horaires volontairement
+# décalés par rapport à la veille Tavily (8h15/12h/16h/20h) et RSS (6h/11h30/
+# 18h) pour éviter la concurrence sur le runner GHA et lisser la charge.
+on:
+  schedule:
+    # 10h00 Paris
+    - cron: "0 8 * * *"   # CEST
+    - cron: "0 9 * * *"   # CET
+    # 15h00 Paris
+    - cron: "0 13 * * *"  # CEST
+    - cron: "0 14 * * *"  # CET
+  workflow_dispatch:
+    inputs:
+      vertical:
+        description: "Verticale à couvrir (equipement | marques-industrie | athletes). Vide = rotation."
+        required: false
+        type: string
+
+concurrency:
+  group: brief-publish
+  cancel-in-progress: false
+
+env:
+  MAIL_TO: yannkarroum@gmail.com
+  MAIL_FROM: "Altitude Trail Bot <yannkarroum@gmail.com>"
+  GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+  RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+  SITE_BASE_URL: "https://www.altitude-trail.fr"
+
+jobs:
+  brief-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git
+        run: |
+          git config user.name "altitude-brief-bot"
+          git config user.email "altitude-brief-bot@users.noreply.github.com"
+
+      - name: Preflight checks
+        run: |
+          echo "=== Preflight brief-publish ==="
+          if [ -z "${{ secrets.TAVILY_API_KEY }}" ]; then
+            echo "FATAL: TAVILY_API_KEY secret missing"; exit 1
+          fi
+          if [ -z "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+            echo "FATAL: ANTHROPIC_API_KEY secret missing"; exit 1
+          fi
+
+      - name: Run brief-publish
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-sonnet-4-6' }}
+          BFL_API_KEY: ${{ secrets.BFL_API_KEY }}
+          FLUX_MODEL: ${{ vars.FLUX_MODEL || 'flux-pro-1.1' }}
+          YOUTUBE_API_DATA: ${{ secrets.YOUTUBE_API_DATA }}
+          SITE_BASE_URL: ${{ env.SITE_BASE_URL }}
+          MAX_BRIEFS_PER_RUN: "2"
+          BRIEF_FRESHNESS_DAYS: "3"
+        run: |
+          set -e
+          if [ -n "${{ github.event.inputs.vertical }}" ]; then
+            node --env-file-if-exists=.env.local scripts/brief-publish.mjs --vertical="${{ github.event.inputs.vertical }}"
+          else
+            npm run brief-publish
+          fi
+
+      - name: Publish and detect new articles
+        id: publish
+        run: |
+          set -e
+          BEFORE=$(git rev-parse HEAD)
+          npm run publish
+          AFTER=$(git rev-parse HEAD)
+          if [ "$BEFORE" = "$AFTER" ]; then
+            echo "Aucune brève produite."
+            echo "new_articles=0" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          git diff --name-only --diff-filter=A "$BEFORE..$AFTER" -- 'content/articles/*.md' > /tmp/new-articles.txt
+          COUNT=$(wc -l < /tmp/new-articles.txt | tr -d ' ')
+          echo "new_articles=$COUNT" >> $GITHUB_OUTPUT
+          sed 's|content/articles/||;s|\.md$||' /tmp/new-articles.txt > /tmp/slugs.txt
+          : > /tmp/urls.txt
+          while read -r slug; do
+            echo "${{ env.SITE_BASE_URL }}/articles/$slug" >> /tmp/urls.txt
+          done < /tmp/slugs.txt
+          {
+            echo "urls_text<<URLS_EOF"
+            cat /tmp/urls.txt
+            echo "URLS_EOF"
+          } >> $GITHUB_OUTPUT
+          echo "Brèves publiées : $COUNT"
+
+      - name: Notify complete (brèves en ligne)
+        if: always() && env.GMAIL_APP_PASSWORD != '' && steps.publish.outputs.new_articles != '0'
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ env.MAIL_TO }}
+          password: ${{ env.GMAIL_APP_PASSWORD }}
+          subject: "Altitude Trail — ${{ steps.publish.outputs.new_articles }} brève(s) publiée(s)"
+          to: ${{ env.MAIL_TO }}
+          from: ${{ env.MAIL_FROM }}
+          body: |
+            Brèves actu chaude déployées sur ${{ env.SITE_BASE_URL }} :
+
+            ${{ steps.publish.outputs.urls_text }}
+
+            Run : ${{ env.RUN_URL }}
+
+      - name: Notify failure
+        if: failure() && env.GMAIL_APP_PASSWORD != ''
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ env.MAIL_TO }}
+          password: ${{ env.GMAIL_APP_PASSWORD }}
+          subject: "Altitude Trail — ECHEC brief-publish"
+          to: ${{ env.MAIL_TO }}
+          from: ${{ env.MAIL_FROM }}
+          body: |
+            Le pipeline brief-publish a échoué.
+            Run : ${{ env.RUN_URL }}

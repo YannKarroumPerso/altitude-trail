@@ -21,6 +21,16 @@ function isCurrentlyLive(article: Article): boolean {
   return ageMs >= 0 && ageMs < 48 * 60 * 60 * 1000;
 }
 
+// Une brève est signalée tant qu'elle a moins de 14 jours. Au-delà, elle
+// devient un article standard dans l'UX (mais reste dans sa catégorie).
+function isFreshBrief(article: Article): boolean {
+  if (article.articleType !== "brief") return false;
+  const pub = parseFrDate(article.date);
+  if (!pub) return false;
+  const ageMs = Date.now() - pub.getTime();
+  return ageMs >= 0 && ageMs < 14 * 24 * 60 * 60 * 1000;
+}
+
 function LiveBadge() {
   return (
     <span
@@ -36,8 +46,20 @@ function LiveBadge() {
   );
 }
 
+function BriefBadge() {
+  return (
+    <span
+      className="inline-flex items-center gap-1.5 bg-amber-500 text-white text-[10px] font-bold uppercase tracking-[0.15em] font-headline px-2 py-0.5"
+      aria-label="Brève actualité chaude"
+    >
+      BRÈVE
+    </span>
+  );
+}
+
 export default function ArticleCard({ article, variant = "default", priority = false, hideExcerpt = false }: ArticleCardProps) {
   const live = isCurrentlyLive(article);
+  const brief = !live && isFreshBrief(article); // LIVE prime sur BRÈVE
 
   if (variant === "large") {
     return (
@@ -46,6 +68,11 @@ export default function ArticleCard({ article, variant = "default", priority = f
           {live && (
             <div className="absolute top-3 left-3 z-10">
               <LiveBadge />
+            </div>
+          )}
+          {brief && (
+            <div className="absolute top-3 left-3 z-10">
+              <BriefBadge />
             </div>
           )}
           <Image src={article.image} alt={article.title} width={900} height={562}
@@ -75,6 +102,9 @@ export default function ArticleCard({ article, variant = "default", priority = f
           {live && (
             <span className="absolute -top-1 -right-1 inline-flex w-2.5 h-2.5 rounded-full bg-red-600 ring-2 ring-white" aria-label="LIVE" />
           )}
+          {brief && (
+            <span className="absolute -top-1 -right-1 inline-flex w-2.5 h-2.5 rounded-full bg-amber-500 ring-2 ring-white" aria-label="BRÈVE" />
+          )}
         </div>
         <div className="space-y-1">
           <h5 className="text-xs font-bold leading-tight group-hover:text-primary transition-colors">{article.title}</h5>
@@ -94,6 +124,11 @@ export default function ArticleCard({ article, variant = "default", priority = f
         {live && (
           <div className="absolute top-3 left-3 z-10">
             <LiveBadge />
+          </div>
+        )}
+        {brief && (
+          <div className="absolute top-3 left-3 z-10">
+            <BriefBadge />
           </div>
         )}
         <Image

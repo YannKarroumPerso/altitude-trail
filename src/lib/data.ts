@@ -1277,6 +1277,9 @@ export const categories: Category[] = [
   { slug: "nutrition", label: "Nutrition", description: "Alimentation et ravitaillement pour le trail" },
   { slug: "entrainement", label: "Entraînement & Performances", description: "Plans d'entraînement et conseils de performance" },
   { slug: "blessures", label: "Blessures & Préventions", description: "Prévention et récupération des blessures" },
+  { slug: "equipement", label: "Équipement", description: "Tests matériel, sorties de chaussures et actualité équipement trail" },
+  { slug: "marques-industrie", label: "Marques & industrie", description: "Actualité des marques, acteurs et organisations du trail mondial" },
+  { slug: "athletes", label: "Athlètes", description: "Portraits, actualités et performances des coureurs de haut niveau" },
 ];
 
 export const articles: Article[] = [

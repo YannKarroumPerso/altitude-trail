@@ -31,18 +31,23 @@ export const AUTHORS: Author[] = [
   {
     slug: "marc-blanc",
     name: "Marc Blanc",
-    bio: "Journaliste trail, couvre le circuit international depuis plus de dix ans. Spécialisé dans l'actualité des courses majeures (UTMB, Western States, Tor des Géants), les portraits de coureurs et l'analyse des enjeux structurants du trail mondial.",
-    jobTitle: "Rédacteur — Actualités & courses",
-    specialties: ["actualites", "courses-recits"],
+    bio: "Journaliste trail, couvre le circuit international depuis plus de dix ans. Spécialisé dans l'actualité des courses majeures (UTMB, Western States, Tor des Géants), les portraits de coureurs, l'actualité des marques et du matériel, et l'analyse des enjeux structurants du trail mondial.",
+    jobTitle: "Rédacteur — Actualités, courses & industrie",
+    // Marc couvre l'éditorial de fond (actualites, courses-recits) et les
+    // brèves actu sur les trois verticales (athletes, marques-industrie,
+    // equipement). Sur equipement, partage avec Yann 80/20 pour l'angle
+    // consumer-oriented (prix en France, dispo, premier achat).
+    specialties: ["actualites", "courses-recits", "athletes", "marques-industrie", "equipement"],
   },
   {
     slug: "yann-karroum",
     name: "Yann Karroum",
-    bio: "Passionné et pratiquant de trail. Fondateur d'Altitude Trail, il signe les articles d'actualité et les contenus destinés aux coureurs qui débutent dans la discipline.",
-    jobTitle: "Rédacteur — Actualités & Débuter",
-    // Yann n'intervient que sur les actualités (partage avec Marc Blanc) et
-    // la catégorie "débuter" (dont il est seul responsable).
-    specialties: ["actualites", "debuter"],
+    bio: "Passionné et pratiquant de trail. Fondateur d'Altitude Trail, il signe les articles d'actualité, les contenus pour les coureurs qui débutent et les brèves équipement avec l'angle marché français (prix, disponibilité, choix pour commencer).",
+    jobTitle: "Rédacteur — Actualités, Débuter & Équipement",
+    // Yann intervient sur les actualités (partage 80/20 avec Marc), sur
+    // "débuter" (seul responsable) et en cosigne 80/20 sur "equipement" avec
+    // Marc pour l'angle consumer-oriented.
+    specialties: ["actualites", "debuter", "equipement"],
   },
 ];
 
