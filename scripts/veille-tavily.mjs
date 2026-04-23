@@ -248,13 +248,19 @@ const MAX_ARTICLES_PER_RUN = parseInt(process.env.MAX_ARTICLES_PER_RUN || "3", 1
 const FRESHNESS_DAYS = parseInt(process.env.TAVILY_FRESHNESS_DAYS || "7", 10);
 
 function slugify(str) {
-  return str
+  const s = str
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .slice(0, 90);
+    .replace(/^-+|-+$/g, "");
+  if (s.length <= 90) return s;
+  // Coupe a la derniere frontiere de mot <= 90 chars pour eviter les slugs mid-mot
+  // (ex: "...quatrieme-m" au lieu de "...quatrieme-marathon"). Si le dernier
+  // tiret est trop proche du debut, on garde la coupe dure a 90.
+  const truncated = s.slice(0, 90);
+  const lastDash = truncated.lastIndexOf("-");
+  return lastDash > 40 ? truncated.slice(0, lastDash) : truncated;
 }
 
 function frDate(d) {
@@ -326,14 +332,24 @@ ${authorityDomainsListForPrompt()}`;
 }
 
 async function runClaude(client, query, angle, categorySlug, sources) {
+  // NB: avec thinking:adaptive, max_tokens est partage entre raisonnement ET
+  // sortie. Sur syntheses complexes (6 sources), le thinking peut consommer
+  // 10-14k -> insuffisant pour 800-1200 mots si on reste a 16k. 32k laisse une
+  // marge confortable (sonnet-4-6 supporte 64k en sortie).
   const stream = client.messages.stream({
     model: MODEL,
-    max_tokens: 16000,
+    max_tokens: 32000,
     thinking: { type: "adaptive" },
     system: SYSTEM_PROMPT,
     messages: [{ role: "user", content: buildUserPrompt(query, angle, categorySlug, sources) }],
   });
   const msg = await stream.finalMessage();
+  if (msg.stop_reason === "max_tokens") {
+    throw new Error(
+      "Claude a atteint max_tokens (stop_reason=max_tokens) - sortie tronquee, article rejete. " +
+      "Augmenter max_tokens ou alleger le prompt."
+    );
+  }
   return msg.content
     .filter((b) => b.type === "text")
     .map((b) => b.text)

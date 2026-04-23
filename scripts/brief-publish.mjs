@@ -55,13 +55,16 @@ const TAVILY_AGGRESSIVE_BLACKLIST = [
 ];
 
 function slugify(str) {
-  return str
+  const s = str
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .slice(0, 90);
+    .replace(/^-+|-+$/g, "");
+  if (s.length <= 90) return s;
+  const truncated = s.slice(0, 90);
+  const lastDash = truncated.lastIndexOf("-");
+  return lastDash > 40 ? truncated.slice(0, lastDash) : truncated;
 }
 
 function frDate(d) {
@@ -73,7 +76,9 @@ function frDate(d) {
 async function runClaude(client, query, angle, categorySlug, vertical, sources) {
   const stream = client.messages.stream({
     model: MODEL,
-    max_tokens: 16000, // aligné sur veille-tavily.mjs (thinking peut consommer du budget)
+    // 32k pour laisser au thinking:adaptive de la marge sans tronquer le corps
+    // (thinking + sortie partagent ce budget).
+    max_tokens: 32000,
     thinking: { type: "adaptive" },
     system: BRIEF_SYSTEM_PROMPT,
     messages: [{
@@ -82,6 +87,11 @@ async function runClaude(client, query, angle, categorySlug, vertical, sources) 
     }],
   });
   const msg = await stream.finalMessage();
+  if (msg.stop_reason === "max_tokens") {
+    throw new Error(
+      "Claude a atteint max_tokens (stop_reason=max_tokens) - breve tronquee, rejetee."
+    );
+  }
   return msg.content
     .filter((b) => b.type === "text")
     .map((b) => b.text)

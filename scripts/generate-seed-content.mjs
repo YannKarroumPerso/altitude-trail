@@ -91,12 +91,17 @@ function extractJson(text) {
 async function generateContentForArticle(client, article) {
   const stream = client.messages.stream({
     model: ANTHROPIC_MODEL,
-    max_tokens: 16000,
+    max_tokens: 32000, // partage avec thinking:adaptive
     thinking: { type: "adaptive" },
     system: SYSTEM_PROMPT,
     messages: [{ role: "user", content: userPrompt(article) }],
   });
   const message = await stream.finalMessage();
+  if (message.stop_reason === "max_tokens") {
+    throw new Error(
+      "Claude a atteint max_tokens (stop_reason=max_tokens) - contenu tronque, rejete."
+    );
+  }
   const text = message.content
     .filter((b) => b.type === "text")
     .map((b) => b.text)

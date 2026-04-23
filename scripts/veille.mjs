@@ -99,12 +99,15 @@ const CATEGORY_LABELS = {
 const FR_MONTHS = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"];
 
 function slugify(str) {
-  return str
+  const s = str
     .toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .slice(0, 80);
+    .replace(/^-+|-+$/g, "");
+  if (s.length <= 80) return s;
+  const truncated = s.slice(0, 80);
+  const lastDash = truncated.lastIndexOf("-");
+  return lastDash > 40 ? truncated.slice(0, lastDash) : truncated;
 }
 
 function frDate(d) {
@@ -199,12 +202,17 @@ Réponds UNIQUEMENT avec le fichier markdown complet (frontmatter + corps de 100
 async function rewriteArticle(client, { title, sourceUrl, text }) {
   const stream = client.messages.stream({
     model: MODEL,
-    max_tokens: 16000,
+    max_tokens: 32000, // partage avec thinking:adaptive, 16k ne suffit pas
     thinking: { type: "adaptive" },
     system: SYSTEM_PROMPT,
     messages: [{ role: "user", content: userPrompt({ title, sourceUrl, text }) }],
   });
   const message = await stream.finalMessage();
+  if (message.stop_reason === "max_tokens") {
+    throw new Error(
+      "Claude a atteint max_tokens (stop_reason=max_tokens) - article tronque, rejete."
+    );
+  }
   const raw = message.content
     .filter((b) => b.type === "text")
     .map((b) => b.text)
