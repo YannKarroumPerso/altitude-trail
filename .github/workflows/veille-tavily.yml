@@ -95,9 +95,9 @@ jobs:
         run: |
           set -e
           if [ -n "${{ github.event.inputs.custom_query }}" ]; then
-            node --env-file-if-exists=.env.local scripts/veille-tavily.mjs --query="${{ github.event.inputs.custom_query }}"
+            node --env-file-if-exists=.env.local scripts/veille-tavily.mjs --query="${{ github.event.inputs.custom_query }}" --title-style="${{ github.event.inputs.title_style }}"
           else
-            npm run veille-tavily --title-style="${{ inputs.title_style }}"
+            npm run veille-tavily
           fi
 
       - name: Publish and detect new articles
