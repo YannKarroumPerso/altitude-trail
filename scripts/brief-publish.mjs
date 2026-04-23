@@ -174,9 +174,10 @@ async function validateRefs(refs) {
   return out;
 }
 
-// Garde-fou qualité : rejette la brève si elle dépasse 650 mots ou s'il
-// manque une des 3 sections obligatoires. Évite les dérives du modèle.
-function validateBriefStructure(body, slug) {
+// Garde-fou qualité : rejette la brève si elle dépasse 650 mots, s'il manque
+// une des 3 sections obligatoires, ou si le titre/excerpt laisse penser à un
+// événement daté d'une année antérieure (classement annuel republié, etc.).
+function validateBriefStructure(body, slug, title, excerpt) {
   const wordCount = body.split(/\s+/).filter(Boolean).length;
   if (wordCount > MAX_BRIEF_WORDS) {
     console.log(`[brief]   rejeté ${slug} — ${wordCount} mots (cap ${MAX_BRIEF_WORDS})`);
@@ -194,6 +195,18 @@ function validateBriefStructure(body, slug) {
   const commercial = /\b(?:achetez|il faut acheter|on recommande d'acheter|à commander|je vous conseille d'acheter)\b/i;
   if (commercial.test(body)) {
     console.log(`[brief]   rejeté ${slug} — prescription commerciale détectée`);
+    return false;
+  }
+  // Anti-retro : si le titre ou l'excerpt mentionne une année révolue
+  // (typiquement 2025 ou antérieure quand on est en 2026), c'est un
+  // classement annuel, une rétro, ou un événement passé. Rejeté.
+  const currentYear = new Date().getFullYear();
+  const haystack = `${title || ""} ${excerpt || ""}`;
+  const yearRegex = /\b(20[12]\d)\b/g;
+  const years = [...haystack.matchAll(yearRegex)].map((m) => parseInt(m[1], 10));
+  const pastYears = years.filter((y) => y < currentYear);
+  if (pastYears.length > 0) {
+    console.log(`[brief]   rejeté ${slug} — titre/excerpt mentionne une année révolue (${pastYears.join(", ")}), probablement rétro/classement annuel`);
     return false;
   }
   return true;
@@ -413,15 +426,17 @@ async function processQuery(client, q, allExisting, hotEventSlug) {
 
   const baseSlug = slugify(meta.title);
 
-  // Validation structure (sections obligatoires + longueur)
-  if (!validateBriefStructure(body, baseSlug)) {
+  // Validation structure (sections obligatoires + longueur + anti-retro)
+  if (!validateBriefStructure(body, baseSlug, meta.title, meta.excerpt)) {
     return null;
   }
 
-  if (hotEventSlug) {
-    meta.isLive = true;
-    meta.hotEventSlug = hotEventSlug;
-  }
+  // Volontairement PAS de isLive auto sur les brèves.
+  // Contrairement à la veille éditoriale (où un article pendant UTMF couvre
+  // UTMF), les brèves sont thématiques et sans lien avec l'événement hot
+  // en cours. Tagguer une brève "Blanchard UROY" comme live UTMF serait faux
+  // et gonflerait artificiellement la visibilité. hotEventSlug ignoré ici.
+  void hotEventSlug;
 
   const outPath = path.join(CONTENT_DIR, `${baseSlug}.md`);
   if (existsSync(outPath)) {

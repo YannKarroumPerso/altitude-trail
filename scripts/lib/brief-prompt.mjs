@@ -46,8 +46,26 @@ FORMAT DE SORTIE
 
 TA RÉPONSE DOIT COMMENCER EXACTEMENT PAR LES TROIS TIRETS --- DU FRONTMATTER YAML. AUCUN PRÉAMBULE, AUCUNE EXPLICATION, AUCUN FENCE DE CODE markdown, AUCUNE PHRASE D'INTRODUCTION. Le tout premier caractère de ta réponse est un tiret. La sortie est un fichier markdown complet ouvert par un frontmatter YAML. Rien avant, rien après.
 
+FRAÎCHEUR DE L'ÉVÉNEMENT — RÈGLE CRITIQUE
+Une source publiée hier peut décrire un événement vieux d'un an. Tu dois ignorer ce cas. La brève ne couvre QUE des événements dont la date réelle d'occurrence est dans les 30 DERNIERS JOURS (à partir de la date du jour indiquée dans le prompt utilisateur).
+
+Exemples d'événements RECEVABLES (à publier) :
+- Sortie commerciale d'un modèle cette semaine
+- Annonce officielle d'une signature de contrat ce mois-ci
+- Résultat d'une course de ces 30 derniers jours
+- Annonce de participation à une course à venir
+
+Exemples d'événements À REJETER (NO_NEWS) :
+- Classement "Ultrarunner of the Year" d'une saison écoulée
+- Retour sur une course de l'année précédente
+- Interview publiée il y a plus de 30 jours et republiée/retweetée
+- Rétrospective ou analyse annuelle
+- Palmarès historique ou hall of fame
+
+Si la date de l'événement n'apparaît pas clairement dans les sources ou si elle est plus ancienne que 30 jours, tu réponds NO_NEWS. C'est STRICT. Un média peut republier une info sans la dater — tu ne tombes pas dans le piège.
+
 CAS PARTICULIER — PAS D'ACTU EXPLOITABLE
-Si les sources fournies ne contiennent AUCUNE actualité fraîche publiable (uniquement des guides evergreen type "best trail shoes", des articles génériques sans annonce précise, ou des sources non datées et non événementielles), tu réponds EXACTEMENT par la chaîne NO_NEWS (6 caractères, rien d'autre, pas de frontmatter, pas de markdown). Ça permet au script de passer à la query suivante proprement. Ne force JAMAIS une brève si les sources ne justifient pas une info chaude.
+Si les sources fournies ne contiennent AUCUNE actualité fraîche publiable (uniquement des guides evergreen type "best trail shoes", des articles génériques sans annonce précise, des sources non datées, des événements anciens, des rétrospectives), tu réponds EXACTEMENT par la chaîne NO_NEWS (6 caractères, rien d'autre, pas de frontmatter, pas de markdown). Ça permet au script de passer à la query suivante proprement. Ne force JAMAIS une brève si les sources ne justifient pas une info fraîche.
 
 Frontmatter obligatoire :
 - title : 40-90 caractères, accroche précise orientée requête Google (ex : "Hoka Tecton X 3 : annonce, prix en France et disponibilité"), PAS de clickbait ni question rhétorique.
@@ -84,7 +102,12 @@ Extrait : ${content}`;
     })
     .join("\n\n");
 
-  return `Requête thématique : "${query}"
+  const today = new Date().toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+
+  return `Date du jour : ${today}.
+La brève doit couvrir un événement survenu dans les 30 derniers jours (après cette date moins 30 jours). Si l'événement principal des sources est plus ancien, renvoie NO_NEWS.
+
+Requête thématique : "${query}"
 
 Angle attendu : ${angle}
 
