@@ -170,6 +170,9 @@ export const HOT_EVENTS = [
     name: "Canyons Endurance Runs by UTMB - 100M",
     start: "2026-04-24",
     location: "Auburn, Californie, USA",
+    distance: "161 km",
+    elevation: "5 550 m+",
+    startTimeLocal: "12:00 PDT (21:00 Paris)",
     queries: [
       "Canyons Endurance Runs 100M 2026 preview elite field Golden Ticket Western States",
       "Canyons by UTMB 100 mile Auburn California 2026 favorites startlist",
@@ -182,6 +185,9 @@ export const HOT_EVENTS = [
     name: "Grand Raid Ventoux by UTMB - UGP",
     start: "2026-04-24",
     location: "Mont Ventoux, Provence, France",
+    distance: "125 km",
+    elevation: "5 700 m+",
+    startTimeLocal: "Depart Malaucene vendredi 24 avril (heure CEST)",
     queries: [
       "Grand Raid Ventoux UGP UTMB 2026 preview favoris plateau 24 avril Mont Ventoux",
       "Ultra Geant de Provence UGP Ventoux 2026 startlist favoris plateau",
@@ -220,30 +226,48 @@ export function isInHotEventWindow(now = new Date()) {
   return matches[rotIdx];
 }
 
-// Queries spécifiques à l'événement pour Tavily (3 queries par événement).
-export function getEventSpecificQueries(event) {
+// Queries spécifiques à l'événement pour Tavily. Renvoie UNE SEULE query par run
+// (rotation déterministe par heure UTC sur les queries disponibles) pour éviter
+// le pattern "3 queries x 3 articles sur le même event" qui produit mécaniquement
+// des doublons SEO.
+export function getEventSpecificQueries(event, now = new Date()) {
   const defaultCategorySlug = "courses-recits";
   const domains = [
-    "irunfar.com",
-    "trailrunnermag.com",
-    "ultrarunning.com",
-    "lepape-info.com",
-    "u-trail.com",
-    "utmbmontblanc.com",
-    "utmb.world",
-    "wser.org",
-    "hardrock100.com",
-    "tordesgeants.it",
-    "runnersworld.com",
-    "runningmagazine.ca",
+    // Presse trail internationale anglophone
+    "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
+    "runnersworld.com", "runningmagazine.ca",
+    // Presse trail francophone
+    "lepape-info.com", "u-trail.com", "trail-session.fr",
+    "wider-mag.com", "esprit-trail.com", "outdoor-running.com",
+    "runningmag.fr", "journaldutrail.com",
+    // Presse généraliste FR avec couverture trail
+    "lequipe.fr", "laprovence.com", "sudouest.fr",
+    // Organisations et sites d'événements
+    "utmbmontblanc.com", "utmb.world", "wser.org", "hardrock100.com",
+    "tordesgeants.it", "skyrunning.com",
   ];
-  return event.queries.map((q) => ({
+  // Données canoniques injectées dans l'angle : Claude reçoit ces valeurs dans
+  // son prompt utilisateur et doit s'y tenir même si une source Tavily les contredit.
+  const canonicalBits = [
+    `Date officielle : ${event.start}`,
+    event.distance ? `Distance officielle : ${event.distance}` : null,
+    event.elevation ? `Dénivelé officiel : ${event.elevation}` : null,
+    event.startTimeLocal ? `Heure de départ : ${event.startTimeLocal}` : null,
+    `Lieu : ${event.location}`,
+  ].filter(Boolean).join(" · ");
+  const baseAngle = `Couverture live de ${event.name}. DONNÉES CANONIQUES (prioritaires sur toute source contradictoire) : ${canonicalBits}. Ne jamais inventer de date, distance, dénivelé, ni nom de coureur absent des sources Tavily.`;
+  const allQueries = event.queries.map((q) => ({
     query: q,
     categorySlug: defaultCategorySlug,
-    angle: `Couverture live de ${event.name} : résultats, analyses, performances clés. Angle éditorial propre au média trail francophone.`,
+    angle: baseAngle,
     include_domains: domains,
     hotEvent: event.slug,
   }));
+  if (allQueries.length === 0) return [];
+  if (allQueries.length === 1) return allQueries;
+  // Rotation par heure UTC : chaque cron de la journée pioche un angle différent
+  const rotIdx = now.getUTCHours() % allQueries.length;
+  return [allQueries[rotIdx]];
 }
 
 // Cap quotidien dynamique : 10 articles pendant un événement chaud, 5 sinon.

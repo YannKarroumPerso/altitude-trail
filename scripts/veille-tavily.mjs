@@ -32,7 +32,7 @@ import {
   urlIsAlive,
 } from "./lib/authority-domains.mjs";
 import { effectiveCapForRun } from "./lib/daily-cap.mjs";
-import { isInHotEventWindow, getEventSpecificQueries } from "./lib/hot-events-calendar.mjs";
+import { HOT_EVENTS, isInHotEventWindow, getEventSpecificQueries } from "./lib/hot-events-calendar.mjs";
 
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 const FLUX_MODEL = process.env.FLUX_MODEL || "flux-pro-1.1";
@@ -277,6 +277,38 @@ function frDate(d) {
   const MONTHS = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"];
   return `${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
 }
+
+const MONTHS_FR = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"];
+
+/**
+ * Compare les métadonnées canoniques d'un event aux valeurs que Claude a
+ * écrites dans le frontmatter (title + excerpt). Log des warnings si l'article
+ * contredit le calendrier officiel. Ne bloque pas la publication.
+ */
+function checkEventFacts(meta, event) {
+  const warnings = [];
+  if (!event) return warnings;
+  const text = [meta.title || "", meta.excerpt || ""].join(" ");
+  if (event.start) {
+    const d = new Date(event.start + "T00:00:00Z");
+    const expectedDay = d.getUTCDate();
+    const expectedMonth = MONTHS_FR[d.getUTCMonth()];
+    const re = new RegExp("(\\d+)\\s+" + expectedMonth, "gi");
+    const found = [...text.matchAll(re)].map((m) => parseInt(m[1], 10));
+    const wrongDays = found.filter((dd) => dd !== expectedDay);
+    if (wrongDays.length > 0) {
+      warnings.push(`date mismatch : mentionne ${wrongDays.join(",")} ${expectedMonth}, event.start=${expectedDay} ${expectedMonth}`);
+    }
+  }
+  if (event.distance) {
+    const num = (event.distance.match(/\d+/) || [])[0];
+    if (num && !new RegExp("\\b" + num + "\\b").test(text)) {
+      warnings.push(`distance canonique ${event.distance} absente du titre et de l'excerpt`);
+    }
+  }
+  return warnings;
+}
+
 
 const SYSTEM_PROMPT = `${EDITORIAL_STYLE}
 
@@ -660,6 +692,19 @@ async function processQuery(client, query, angle, categorySlug, allExisting, inc
   if (hotEventSlug) {
     meta.isLive = true;
     meta.hotEventSlug = hotEventSlug;
+  }
+
+  // Fact-check : si hotEventSlug est présent, comparer title+excerpt aux
+  // données canoniques du calendrier. Warnings seulement, pas de blocage.
+  if (meta.hotEventSlug) {
+    const canonicalEvent = HOT_EVENTS.find((e) => e.slug === meta.hotEventSlug);
+    if (canonicalEvent) {
+      const warnings = checkEventFacts(meta, canonicalEvent);
+      if (warnings.length > 0) {
+        console.warn(`[tavily]   fact-check warnings pour "${meta.title}":`);
+        for (const w of warnings) console.warn(`              - ${w}`);
+      }
+    }
   }
 
   const baseSlug = slugify(meta.title);
