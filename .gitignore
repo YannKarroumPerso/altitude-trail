@@ -42,3 +42,14 @@ next-env.d.ts
 
 # claude code
 .claude/
+
+# Microsoft Office outputs & lockfiles (decks, Word, Excel)
+*.pptx
+*.docx
+*.xlsx
+~$*
+
+# Claude local credentials (jamais commité)
+.claude-git-token
+.claude-secrets
+.claude-*.local
