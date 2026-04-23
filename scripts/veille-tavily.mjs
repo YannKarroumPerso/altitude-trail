@@ -55,9 +55,18 @@ const SCIENCE_DOMAINS = [
 ];
 
 const RACES_DOMAINS = [
+  // Presse trail internationale anglophone
   "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
+  "runnersworld.com", "runningmagazine.ca",
+  // Presse trail francophone
+  "lepape-info.com", "u-trail.com", "trail-session.fr",
+  "wider-mag.com", "esprit-trail.com", "outdoor-running.com",
+  "runningmag.fr", "journaldutrail.com",
+  // Presse generaliste FR avec couverture trail
+  "lequipe.fr", "laprovence.com", "sudouest.fr",
+  // Organisations et sites d evenements
   "utmbmontblanc.com", "utmb.world", "wser.org", "hardrock100.com",
-  "tordesgeants.it", "lepape-info.com", "u-trail.com",
+  "tordesgeants.it", "skyrunning.com",
 ];
 
 const GEAR_DOMAINS = [
