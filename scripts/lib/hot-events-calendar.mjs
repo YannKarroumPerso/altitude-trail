@@ -113,17 +113,6 @@ export const HOT_EVENTS = [
     tags: ["Zegama", "Skyrunning", "live"],
   },
   {
-    slug: "ultra-trail-mount-fuji",
-    name: "Ultra-Trail Mt. Fuji",
-    start: "2026-04-24",
-    location: "Japon",
-    queries: [
-      '"Ultra-Trail Mt Fuji" 2026 results UTMF',
-      '"UTMF" Japan 2026 race report',
-    ],
-    tags: ["Ultra-Trail Mt Fuji", "ultra-trail", "live"],
-  },
-  {
     slug: "madeira-island-ultra-trail",
     name: "Madeira Island Ultra Trail",
     start: "2026-04-25",
@@ -214,14 +203,21 @@ const HOURS_AFTER = 72;
  */
 export function isInHotEventWindow(now = new Date()) {
   const tNow = now.getTime();
+  const matches = [];
   for (const event of HOT_EVENTS) {
     const eventStart = new Date(event.start + "T08:00:00Z").getTime();
     const diffHours = (tNow - eventStart) / (1000 * 60 * 60);
     if (diffHours >= -HOURS_BEFORE && diffHours <= HOURS_AFTER) {
-      return { event, relativeHours: Math.round(diffHours) };
+      matches.push({ event, relativeHours: Math.round(diffHours) });
     }
   }
-  return null;
+  if (matches.length === 0) return null;
+  if (matches.length === 1) return matches[0];
+  // Rotation deterministe par heure UTC : quand plusieurs evenements sont
+  // simultanement en fenetre chaude, chaque cron horaire couvre un evenement
+  // different plutot que de toujours piocher le premier dans la liste.
+  const rotIdx = now.getUTCHours() % matches.length;
+  return matches[rotIdx];
 }
 
 // Queries spécifiques à l'événement pour Tavily (3 queries par événement).

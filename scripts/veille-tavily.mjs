@@ -758,7 +758,7 @@ async function main() {
 
   // Query source : custom > hot event > rotation normale
   const queries = customQuery
-    ? [{ query: customQuery, angle: "Synthèse thématique personnalisée.", categorySlug: "actualites", include_domains: undefined }]
+    ? [{ query: customQuery, angle: "Synthèse thématique personnalisée.", categorySlug: "actualites", include_domains: RACES_DOMAINS }]
     : hotEvent
       ? getEventSpecificQueries(hotEvent.event)
       : pickQueriesForRun(3, new Date());
