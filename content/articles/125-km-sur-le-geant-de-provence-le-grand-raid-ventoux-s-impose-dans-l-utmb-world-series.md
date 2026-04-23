@@ -1,7 +1,7 @@
 ---
 slug: "125-km-sur-le-geant-de-provence-le-grand-raid-ventoux-s-impose-dans-l-utmb-world-series"
-title: "125 km sur le Géant de Provence : le Grand Raid Ventoux s'impose dans l'UTMB World Series"
-excerpt: "Le Grand Raid Ventoux intègre officiellement l'UTMB World Series avec une épreuve reine de 125 km et 5 700 m D+ depuis Malaucène. Rendez-vous du 24 au 26 avril 2026 pour l'ultra le plus ambitieux du Vaucluse."
+title: "Grand Raid Ventoux UGP 2026 : que réserve vraiment le Géant de Provence sur 125 km et 5 700 m ?"
+excerpt: "125 km et 5 700 m de dénivelé autour du Mont Ventoux : du 24 au 26 avril 2026, le Grand Raid UGP aligne les coureurs sur son plus long format depuis Malaucène, face au Géant de Provence."
 category: "Actualités"
 categorySlug: actualites
 author: "Yann Karroum"
@@ -55,7 +55,7 @@ Comme le souligne la plateforme Finishers, l'UGP est "la seule course de la rég
 
 Ce modèle pyramidal est aujourd'hui la norme sur le circuit UTMB World Series. Il maximise l'affluence, rentabilise les infrastructures logistiques et crée un effet communauté autour d'un même territoire. Le village Ultra-Trail de Malaucène, prévu du 24 au 26 avril d'après le site officiel ventoux.utmb.world, est pensé comme l'épicentre de cette expérience collective : restauration, équipements, animations provençales. L'enjeu est sportif, mais aussi économique pour un Vaucluse qui y trouve une vitrine internationale inédite.
 
-## L'UTMB World Series plante son drapeau dans le Vaucluse
+## Que pèse désormais le Grand Raid Ventoux dans le circuit UTMB ?
 
 L'annonce officielle publiée par utmb.world cite directement l'organisateur Pieryves Coudray : "Joining UTMB World Series was an obvious choice for us. We wanted not only to structure and grow our event but also to offer our trail-running community the opportunity to experience something unique in their region, while highlighting Mont Ventoux, an iconic territory we love so much." Dix ans après les premières éditions du Grand Raid Ventoux, ce partenariat officialise une ambition longuement mûrie.
 
