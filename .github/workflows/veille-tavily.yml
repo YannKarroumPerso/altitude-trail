@@ -1,17 +1,25 @@
-name: Veille Tavily bi-quotidienne
+name: Veille Tavily (4x/jour)
 
-# Tourne 2x par jour (8h15 et 20h Paris, CEST+CET gérés).
-# Chaque run pioche 3 queries rotatives dans une banque de 20 et peut publier
-# jusqu'à 2 articles, dans la limite du cap quotidien partagé de 5 articles
-# (RSS + Tavily confondus).
+# Tourne 4x par jour (8h15, 12h, 16h, 20h Paris, CEST+CET gérés).
+# En régime normal, le cap quotidien partagé (5 articles/jour) plafonne la
+# production : les 2e et 3e runs ne publient rien si le budget est déjà
+# atteint. En mode HOT EVENT (UTMB, Western, Hardrock, etc.), le cap monte
+# dynamiquement à 10 et chaque run peut pousser jusqu'à 3 articles spécifiques
+# à l'événement en cours.
 on:
   schedule:
     # 8h15 Paris
-    - cron: "15 6 * * *"  # 8h15 Paris CEST
-    - cron: "15 7 * * *"  # 8h15 Paris CET
+    - cron: "15 6 * * *"  # CEST
+    - cron: "15 7 * * *"  # CET
+    # 12h Paris
+    - cron: "0 10 * * *"  # CEST
+    - cron: "0 11 * * *"  # CET
+    # 16h Paris
+    - cron: "0 14 * * *"  # CEST
+    - cron: "0 15 * * *"  # CET
     # 20h Paris
-    - cron: "0 18 * * *"  # 20h Paris CEST
-    - cron: "0 19 * * *"  # 20h Paris CET
+    - cron: "0 18 * * *"  # CEST
+    - cron: "0 19 * * *"  # CET
   workflow_dispatch:
     inputs:
       custom_query:

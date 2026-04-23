@@ -32,6 +32,7 @@ import {
   urlIsAlive,
 } from "./lib/authority-domains.mjs";
 import { effectiveCapForRun } from "./lib/daily-cap.mjs";
+import { isInHotEventWindow, getEventSpecificQueries } from "./lib/hot-events-calendar.mjs";
 
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 const FLUX_MODEL = process.env.FLUX_MODEL || "flux-pro-1.1";
@@ -547,6 +548,8 @@ function buildMarkdownFile({ meta, body, pubDate, image, sources }) {
     `image: "${image}"`,
     `tags: ${tagsYaml}`,
     `source: "tavily-synthesis"`,
+    ...(meta.isLive ? [`isLive: true`] : []),
+    ...(meta.hotEventSlug ? [`hotEventSlug: "${meta.hotEventSlug}"`] : []),
     sources.length > 0 ? `tavilySources:\n${sourcesList}` : "",
     ...externalRefsYaml,
     ...(meta.imagePrompt1 ? [`imagePrompt1: ${JSON.stringify(meta.imagePrompt1)}`] : []),
@@ -561,7 +564,7 @@ function buildMarkdownFile({ meta, body, pubDate, image, sources }) {
 
 // ─── Orchestration ─────────────────────────────────────────────────────────
 
-async function processQuery(client, query, angle, categorySlug, allExisting, include_domains) {
+async function processQuery(client, query, angle, categorySlug, allExisting, include_domains, hotEventSlug) {
   console.log(`\n[tavily] == ${query}`);
 
   const tavilyResult = await tavilySearch(query, {
@@ -619,6 +622,12 @@ async function processQuery(client, query, angle, categorySlug, allExisting, inc
     return null;
   }
   meta.categorySlug = meta.categorySlug || categorySlug;
+
+  // Tag hot event si ce run est déclenché dans une fenêtre chaude.
+  if (hotEventSlug) {
+    meta.isLive = true;
+    meta.hotEventSlug = hotEventSlug;
+  }
 
   const baseSlug = slugify(meta.title);
   const outPath = path.join(CONTENT_DIR, `${baseSlug}.md`);
@@ -702,22 +711,29 @@ async function main() {
 
   // Cap quotidien partagé (5 articles/jour par défaut, RSS + Tavily confondus).
   // Chaque run Tavily peut publier jusqu'à MAX_ARTICLES_PER_RUN, plafonné par
-  // le budget restant de la journée.
+  // le budget restant de la journée. En mode HOT (UTMB, Western, etc.), le
+  // pipelineDefault est boosté à MAX_ARTICLES_PER_RUN+1 et le cap daily à 10.
   const runCap = await effectiveCapForRun("veille-tavily", MAX_ARTICLES_PER_RUN);
   if (runCap <= 0) {
     console.log(`[tavily] cap quotidien atteint, aucun article ne sera publié ce run.`);
     return;
   }
 
-  // Si query custom fournie en argument, on l'utilise telle quelle.
-  // Sinon, on pioche 3 queries rotatives dans la banque pour ce run (ce qui
-  // nous laisse une marge de tolérance si certaines ratent).
+  // Détecte un événement chaud en cours : bascule sur des queries dédiées.
+  const hotEvent = isInHotEventWindow();
+
+  // Query source : custom > hot event > rotation normale
   const queries = customQuery
     ? [{ query: customQuery, angle: "Synthèse thématique personnalisée.", categorySlug: "actualites", include_domains: undefined }]
-    : pickQueriesForRun(3, new Date());
+    : hotEvent
+      ? getEventSpecificQueries(hotEvent.event)
+      : pickQueriesForRun(3, new Date());
 
-  console.log(`[tavily] ${queries.length} queries sélectionnées ce run (cap ${runCap}) :`);
-  for (const q of queries) console.log(`           · ${q.query.slice(0, 80)}`);
+  const modeLabel = hotEvent
+    ? `HOT ${hotEvent.event.name} (J${hotEvent.relativeHours >= 0 ? "+" : ""}${Math.round(hotEvent.relativeHours / 24)})`
+    : "normal";
+  console.log(`[tavily] mode=${modeLabel} · ${queries.length} queries (cap ${runCap}) :`);
+  for (const q of queries) console.log(`           · ${q.query.slice(0, 90)}`);
 
   let created = 0;
   for (const q of queries) {
@@ -726,7 +742,15 @@ async function main() {
       break;
     }
     try {
-      const slug = await processQuery(client, q.query, q.angle, q.categorySlug, allExisting, q.include_domains);
+      const slug = await processQuery(
+        client,
+        q.query,
+        q.angle,
+        q.categorySlug,
+        allExisting,
+        q.include_domains,
+        q.hotEvent || (hotEvent?.event.slug ?? null)
+      );
       if (slug) created++;
     } catch (e) {
       console.error(`[tavily] ${q.query} — erreur: ${e.message}`);

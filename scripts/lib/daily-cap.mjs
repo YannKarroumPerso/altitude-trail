@@ -11,9 +11,19 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
+import { getDynamicDailyCap, isInHotEventWindow } from "./hot-events-calendar.mjs";
 
 const CONTENT_DIR = path.resolve("content/articles");
-export const DAILY_CAP = parseInt(process.env.DAILY_CAP || "5", 10);
+
+// Cap quotidien : 5 articles/jour en régime normal, 10 pendant une fenêtre
+// chaude (UTMB, Western States, etc.). Le DAILY_CAP ENV écrase tout si
+// positionné à la main pour tests.
+export function getDailyCap() {
+  if (process.env.DAILY_CAP) return parseInt(process.env.DAILY_CAP, 10);
+  return getDynamicDailyCap();
+}
+// Compat : export constant toujours exposé pour les imports historiques.
+export const DAILY_CAP = getDailyCap();
 
 const FR_MONTHS = {
   janvier: 0, "février": 1, fevrier: 1, mars: 2, avril: 3, mai: 4, juin: 5,
@@ -70,17 +80,25 @@ export async function countTodayArticles() {
 // Budget restant pour ce pipeline. Retourne un entier >= 0.
 export async function remainingDailyBudget() {
   const count = await countTodayArticles();
-  return Math.max(0, DAILY_CAP - count);
+  const cap = getDailyCap();
+  return Math.max(0, cap - count);
 }
 
 // Helper pratique : log + retourne le cap effectif pour un pipeline.
+// En mode "hot event", le pipelineDefault par run est aussi boosté (2 -> 3).
 export async function effectiveCapForRun(pipelineName, pipelineDefault = 2) {
-  const remaining = await remainingDailyBudget();
-  const effective = Math.min(pipelineDefault, remaining);
-  const count = DAILY_CAP - remaining;
+  const cap = getDailyCap();
+  const count = await countTodayArticles();
+  const remaining = Math.max(0, cap - count);
+
+  const hotEvent = isInHotEventWindow();
+  const boostedDefault = hotEvent ? Math.max(pipelineDefault, pipelineDefault + 1) : pipelineDefault;
+  const effective = Math.min(boostedDefault, remaining);
+
+  const mode = hotEvent ? `HOT (${hotEvent.event.name})` : "normal";
   console.log(
-    `[${pipelineName}] budget quotidien : ${count}/${DAILY_CAP} déjà publiés, ` +
-    `restant ${remaining}. Ce run peut publier jusqu'à ${effective} article(s).`
+    `[${pipelineName}] mode=${mode} · budget quotidien : ${count}/${cap} déjà publiés, ` +
+      `restant ${remaining}. Ce run peut publier jusqu'à ${effective} article(s).`
   );
   return effective;
 }

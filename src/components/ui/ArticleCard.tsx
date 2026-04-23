@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Article } from "@/types";
+import { parseFrDate } from "@/lib/seo";
 
 interface ArticleCardProps {
   article: Article;
@@ -9,17 +10,50 @@ interface ArticleCardProps {
   hideExcerpt?: boolean;
 }
 
+// Un article est "live" s'il porte le flag isLive ET qu'il a moins de 48h.
+// Au-delà, l'actu est refroidie → le badge disparaît automatiquement sans
+// retoucher le fichier markdown.
+function isCurrentlyLive(article: Article): boolean {
+  if (!article.isLive) return false;
+  const pub = parseFrDate(article.date);
+  if (!pub) return false;
+  const ageMs = Date.now() - pub.getTime();
+  return ageMs >= 0 && ageMs < 48 * 60 * 60 * 1000;
+}
+
+function LiveBadge() {
+  return (
+    <span
+      className="inline-flex items-center gap-1.5 bg-red-600 text-white text-[10px] font-bold uppercase tracking-[0.15em] font-headline px-2 py-0.5"
+      aria-label="Article publié pendant un événement en direct"
+    >
+      <span className="relative flex w-2 h-2" aria-hidden="true">
+        <span className="absolute inline-flex h-full w-full rounded-full bg-white opacity-75 animate-ping" />
+        <span className="relative inline-flex rounded-full h-2 w-2 bg-white" />
+      </span>
+      LIVE
+    </span>
+  );
+}
+
 export default function ArticleCard({ article, variant = "default", priority = false, hideExcerpt = false }: ArticleCardProps) {
+  const live = isCurrentlyLive(article);
+
   if (variant === "large") {
     return (
       <Link href={"/articles/" + article.slug} className="group cursor-pointer block">
-        <div className="overflow-hidden">
+        <div className="overflow-hidden relative">
+          {live && (
+            <div className="absolute top-3 left-3 z-10">
+              <LiveBadge />
+            </div>
+          )}
           <Image src={article.image} alt={article.title} width={900} height={562}
             priority={priority} loading={priority ? "eager" : "lazy"} sizes="(max-width: 1024px) 100vw, 900px"
             className="w-full aspect-[16/10] object-cover transition-transform duration-700 group-hover:scale-105" />
         </div>
         <div className="mt-6 space-y-4">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
             <span className="bg-primary text-white text-[10px] font-bold px-2 py-0.5 tracking-tighter uppercase font-headline">À LA UNE</span>
             <span className="text-xs text-slate-500 font-semibold uppercase tracking-wide">PAR {article.author} — {article.date}</span>
           </div>
@@ -35,8 +69,13 @@ export default function ArticleCard({ article, variant = "default", priority = f
   if (variant === "horizontal") {
     return (
       <Link href={"/articles/" + article.slug} className="flex gap-3 group cursor-pointer">
-        <Image src={article.image} alt={article.title} width={64} height={64}
-          className="w-16 h-16 object-cover rounded-sm shrink-0" />
+        <div className="relative shrink-0">
+          <Image src={article.image} alt={article.title} width={64} height={64}
+            className="w-16 h-16 object-cover rounded-sm" />
+          {live && (
+            <span className="absolute -top-1 -right-1 inline-flex w-2.5 h-2.5 rounded-full bg-red-600 ring-2 ring-white" aria-label="LIVE" />
+          )}
+        </div>
         <div className="space-y-1">
           <h5 className="text-xs font-bold leading-tight group-hover:text-primary transition-colors">{article.title}</h5>
           <span className="text-[10px] text-primary font-bold uppercase">{article.category}</span>
@@ -51,7 +90,12 @@ export default function ArticleCard({ article, variant = "default", priority = f
       href={"/articles/" + article.slug}
       className="group cursor-pointer block space-y-3 pb-6 border-b border-surface-container md:pb-0 md:border-b-0"
     >
-      <div className="overflow-hidden">
+      <div className="overflow-hidden relative">
+        {live && (
+          <div className="absolute top-3 left-3 z-10">
+            <LiveBadge />
+          </div>
+        )}
         <Image
           src={article.image}
           alt={article.title}

@@ -18,21 +18,36 @@ import {
 } from "./lib/internal-linking.mjs";
 import { findYouTubeVideoForArticle } from "./lib/youtube-search.mjs";
 import { effectiveCapForRun } from "./lib/daily-cap.mjs";
+import { isInHotEventWindow } from "./lib/hot-events-calendar.mjs";
 
 const SOURCES = [
+  // Médias francophones
   "https://www.lepape-info.com/feed/",
   "https://www2.u-trail.com/feed/",
   "https://passiontrail.fr/feed/",
   "https://runactu.com/feed/",
+  "https://trail-session.fr/feed/",
+  // Médias US / UK / CA
   "https://www.irunfar.com/feed",
   "https://www.trailrunnermag.com/feed",
   "https://ultrarunning.com/feed/",
+  "https://marathonhandbook.com/feed/",
+  "https://runningmagazine.ca/feed/",
+  "https://www.runnersworld.com/rss/all.xml/",
+  "https://therunningchannel.com/feed/",
+  "https://runnerstribe.com/feed/",
+  // Europe
   "https://trailrunningspain.com/feed/",
   "https://www.corsainmontagna.it/feed/",
   "https://www.discoveryalps.it/feed/",
   "https://ultrarunningworld.co.uk/feed/",
   "https://www.ultrarunnermagazine.co.uk/feed/",
-  "https://marathonhandbook.com/feed/",
+  // Équipement
+  "https://runrepeat.com/blog/feed/",
+  // Océanie
+  "https://trailandultra.com/feed/",
+  // International / records
+  "https://fastestknowntime.com/feed/",
 ];
 
 const CONTENT_DIR = path.resolve("content/articles");
@@ -338,6 +353,8 @@ function buildMarkdownFile({ meta, body, sourceItem, pubDate, image }) {
     `image: "${image}"`,
     `tags: ${tagsYaml}`,
     `sourceUrl: "${sourceItem.link}"`,
+    ...(meta.isLive ? [`isLive: true`] : []),
+    ...(meta.hotEventSlug ? [`hotEventSlug: "${meta.hotEventSlug}"`] : []),
     ...ytFields,
     ...externalRefsYaml,
     ...(meta.imagePrompt1 ? [`imagePrompt1: ${JSON.stringify(meta.imagePrompt1)}`] : []),
@@ -499,6 +516,14 @@ async function processFeed(client, url, maxForThisSource = MAX_PER_SOURCE) {
     ]);
 
     // === Enrichissement SEO post-génération ===
+
+    // 0. Flag LIVE si le run tourne pendant une fenêtre d'événement chaud
+    const hotEvent = isInHotEventWindow();
+    if (hotEvent) {
+      validated.meta.isLive = true;
+      validated.meta.hotEventSlug = hotEvent.event.slug;
+      console.log(`[veille]   HOT EVENT : ${hotEvent.event.name} — article taggé isLive`);
+    }
 
     // 1. Valider les externalRefs fournis par Claude (whitelist + ping HTTP)
     if (validated.meta.externalRefs) {

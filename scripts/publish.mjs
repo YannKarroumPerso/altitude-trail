@@ -51,6 +51,8 @@ async function loadArticles() {
             .filter((r) => r && r.url)
             .map((r) => ({ url: String(r.url), label: String(r.label || r.url) }))
         : undefined,
+      isLive: data.isLive === true ? true : undefined,
+      hotEventSlug: data.hotEventSlug ? String(data.hotEventSlug) : undefined,
       content: content.trim(),
     });
   }
@@ -81,6 +83,8 @@ function renderArticlesTs(articles) {
       ...(a.externalRefs && a.externalRefs.length
         ? [`    externalRefs: ${JSON.stringify(a.externalRefs)}`]
         : []),
+      ...(a.isLive ? [`    isLive: true`] : []),
+      ...(a.hotEventSlug ? [`    hotEventSlug: ${JSON.stringify(a.hotEventSlug)}`] : []),
       `    content: ${JSON.stringify(a.content)}`,
     ].join(",\n");
     return `  {\n${fields},\n  }`;

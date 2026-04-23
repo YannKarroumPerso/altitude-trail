@@ -25,6 +25,13 @@ export interface Article {
   // Liens externes de référence (whitelist domaines d'autorité).
   // Surfacés en bas d'article comme "Sources / Pour aller plus loin".
   externalRefs?: { url: string; label: string }[];
+  // Flag posé quand l'article est produit pendant une fenêtre d'événement
+  // chaud (UTMB, Western States, etc.). Déclenche l'affichage d'un badge
+  // "LIVE" dans les cartes pendant les 48h suivant la publication.
+  isLive?: boolean;
+  // Slug de l'événement chaud concerné (pour analytics + future page agrégée
+  // "live UTMB 2026", "live Western States 2026", etc.).
+  hotEventSlug?: string;
 }
 
 export type Difficulty = "Facile" | "Modéré" | "Difficile" | "Extrême";
