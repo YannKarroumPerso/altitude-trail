@@ -27,6 +27,11 @@ on:
         required: false
         type: string
 
+      title_style:
+        description: "Contrainte optionnelle de format de titre (interrogative|numeric|emotional|vide)"
+        required: false
+        type: string
+        default: ""
 concurrency:
   group: veille-tavily
   cancel-in-progress: false
@@ -92,7 +97,7 @@ jobs:
           if [ -n "${{ github.event.inputs.custom_query }}" ]; then
             node --env-file-if-exists=.env.local scripts/veille-tavily.mjs --query="${{ github.event.inputs.custom_query }}"
           else
-            npm run veille-tavily
+            npm run veille-tavily --title-style="${{ inputs.title_style }}"
           fi
 
       - name: Publish and detect new articles
