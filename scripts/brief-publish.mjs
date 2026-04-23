@@ -73,7 +73,7 @@ function frDate(d) {
 async function runClaude(client, query, angle, categorySlug, vertical, sources) {
   const stream = client.messages.stream({
     model: MODEL,
-    max_tokens: 8000, // bien suffisant pour 400-600 mots + frontmatter
+    max_tokens: 16000, // aligné sur veille-tavily.mjs (thinking peut consommer du budget)
     thinking: { type: "adaptive" },
     system: BRIEF_SYSTEM_PROMPT,
     messages: [{
@@ -95,6 +95,20 @@ function stripFences(s) {
     out = out.replace(/^```[a-zA-Z]*\n/, "").replace(/\n```\s*$/, "");
   }
   return out.trim();
+}
+
+// Retire un éventuel préambule produit par Claude avant le frontmatter YAML
+// (ex : "Voici la brève :", "---", explications, etc.). On cherche la
+// première ligne qui est EXACTEMENT `---` et on considère tout ce qui
+// précède comme à jeter.
+function trimToFrontmatter(s) {
+  const lines = s.split("\n");
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].trim() === "---") {
+      return lines.slice(i).join("\n");
+    }
+  }
+  return s;
 }
 
 function parseFrontmatter(md) {
@@ -362,8 +376,32 @@ async function processQuery(client, q, allExisting, hotEventSlug) {
     return null;
   }
 
-  const parsed = parseFrontmatter(rewritten);
-  if (!parsed) { console.error(`[brief]   frontmatter invalide`); return null; }
+  // Signal "NO_NEWS" : les sources ne justifient pas une brève d'actualité
+  // (guide evergreen, rien de daté, rien d'événementiel). Skip proprement
+  // sans polluer les logs avec un "frontmatter invalide".
+  if (rewritten.trim() === "NO_NEWS" || rewritten.trim().startsWith("NO_NEWS\n") || rewritten.trim().startsWith("NO_NEWS ")) {
+    console.log(`[brief]   NO_NEWS — sources insuffisantes pour une brève, skip`);
+    return null;
+  }
+
+  // 1er essai : parser tel quel
+  let parsed = parseFrontmatter(rewritten);
+  // 2e essai : retirer un éventuel préambule avant le frontmatter
+  if (!parsed) {
+    const trimmed = trimToFrontmatter(rewritten);
+    if (trimmed !== rewritten) {
+      console.log(`[brief]   préambule détecté, retry parse après trim`);
+      parsed = parseFrontmatter(trimmed);
+    }
+  }
+  if (!parsed) {
+    console.error(`[brief]   frontmatter invalide — début de la réponse Claude :`);
+    console.error(`[brief]   ----------------------------------------------`);
+    console.error(rewritten.slice(0, 500));
+    console.error(`[brief]   ----------------------------------------------`);
+    console.error(`[brief]   (total ${rewritten.length} caractères renvoyés)`);
+    return null;
+  }
   const { meta, body } = parsed;
   if (!meta.title || !meta.excerpt) {
     console.error(`[brief]   frontmatter incomplet`);

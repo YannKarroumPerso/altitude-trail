@@ -44,7 +44,10 @@ RÈGLES STRICTES
 
 FORMAT DE SORTIE
 
-Réponds UNIQUEMENT avec un fichier markdown complet ouvert par un frontmatter YAML. Rien avant, rien après. Aucun fence de code.
+TA RÉPONSE DOIT COMMENCER EXACTEMENT PAR LES TROIS TIRETS --- DU FRONTMATTER YAML. AUCUN PRÉAMBULE, AUCUNE EXPLICATION, AUCUN FENCE DE CODE markdown, AUCUNE PHRASE D'INTRODUCTION. Le tout premier caractère de ta réponse est un tiret. La sortie est un fichier markdown complet ouvert par un frontmatter YAML. Rien avant, rien après.
+
+CAS PARTICULIER — PAS D'ACTU EXPLOITABLE
+Si les sources fournies ne contiennent AUCUNE actualité fraîche publiable (uniquement des guides evergreen type "best trail shoes", des articles génériques sans annonce précise, ou des sources non datées et non événementielles), tu réponds EXACTEMENT par la chaîne NO_NEWS (6 caractères, rien d'autre, pas de frontmatter, pas de markdown). Ça permet au script de passer à la query suivante proprement. Ne force JAMAIS une brève si les sources ne justifient pas une info chaude.
 
 Frontmatter obligatoire :
 - title : 40-90 caractères, accroche précise orientée requête Google (ex : "Hoka Tecton X 3 : annonce, prix en France et disponibilité"), PAS de clickbait ni question rhétorique.
