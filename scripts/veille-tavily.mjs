@@ -303,6 +303,14 @@ CONTRAINTES RGAA / SEO :
 - Corps structuré avec 3 à 5 sous-titres H2 (##) thématiques.
 - Conclusion en 2-3 phrases qui donne une perspective plus large.`;
 
+// Directives optionnelles activees via --title-style=XXX (injectees dans le system prompt)
+const TITLE_STYLE_DIRECTIVES = {
+  interrogative: "CONTRAINTE TITRE OBLIGATOIRE : le titre de l\u2019article doit etre redige en forme interrogative, se terminer par un point d\u2019interrogation, poser un vrai enjeu avec une reponse tranchee. Pas de question vague ni de double question. Si tu nommes un coureur dans le titre, son nom doit etre confirme par les sources fournies.",
+  numeric: "CONTRAINTE TITRE OBLIGATOIRE : le titre doit contenir au moins un chiffre concret (km, denivele, temps, pourcentage, place au classement).",
+  emotional: "CONTRAINTE TITRE OBLIGATOIRE : le titre doit porter une charge emotionnelle assumee (drame, exploit, bascule, defaite, renaissance). Pas de clickbait vide."
+};
+let currentTitleStyle = null;
+
 function buildUserPrompt(query, angle, categorySlug, sources) {
   const sourcesFormatted = sources
     .map((s, i) => {
@@ -340,7 +348,7 @@ async function runClaude(client, query, angle, categorySlug, sources) {
     model: MODEL,
     max_tokens: 32000,
     thinking: { type: "adaptive" },
-    system: SYSTEM_PROMPT,
+    system: currentTitleStyle ? SYSTEM_PROMPT + "\n\n" + TITLE_STYLE_DIRECTIVES[currentTitleStyle] : SYSTEM_PROMPT,
     messages: [{ role: "user", content: buildUserPrompt(query, angle, categorySlug, sources) }],
   });
   const msg = await stream.finalMessage();
@@ -721,6 +729,16 @@ async function main() {
   const args = process.argv.slice(2);
   const queryArg = args.find((a) => a.startsWith("--query="));
   const customQuery = queryArg ? queryArg.split("=")[1] : null;
+  const titleStyleArg = args.find((a) => a.startsWith("--title-style="));
+  if (titleStyleArg) {
+    const style = titleStyleArg.split("=")[1];
+    if (TITLE_STYLE_DIRECTIVES[style]) {
+      currentTitleStyle = style;
+      console.log(`[tavily] title-style override: ${style}`);
+    } else if (style) {
+      console.warn(`[tavily] --title-style=${style} inconnu, ignore (valides: ${Object.keys(TITLE_STYLE_DIRECTIVES).join(", ")})`);
+    }
+  }
 
   const client = new Anthropic();
   const allExisting = await loadExistingArticles();

@@ -126,7 +126,7 @@ export const HOT_EVENTS = [
   {
     slug: "madeira-island-ultra-trail",
     name: "Madeira Island Ultra Trail",
-    start: "2026-04-24",
+    start: "2026-04-25",
     location: "Madère, Portugal",
     queries: [
       '"Madeira Island Ultra Trail" 2026 results',
