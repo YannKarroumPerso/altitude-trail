@@ -29,6 +29,14 @@ async function loadArticles() {
       console.warn(`[publish] skipping ${file}: missing required frontmatter`);
       continue;
     }
+    // Sanity check : filename doit correspondre au slug frontmatter, sinon le
+    // site servira l'article sous le slug frontmatter (via data.ts) pendant
+    // que Google/sitemap peut avoir indexe l'URL filename -> 404.
+    // Si detection : warning clair pour ajouter un 301 dans next.config.ts.
+    const filenameSlug = file.replace(/\.md$/, "");
+    if (filenameSlug !== data.slug) {
+      console.warn(`[publish] MISMATCH filename vs frontmatter slug :\n    filename = ${filenameSlug}\n    fm slug  = ${data.slug}\n  -> ajoute un 301 dans next.config.ts pour eviter le 404 sur l'ancienne URL.`);
+    }
     articles.push({
       slug: String(data.slug),
       title: String(data.title),

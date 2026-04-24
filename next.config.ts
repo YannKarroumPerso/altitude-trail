@@ -27,6 +27,13 @@ const nextConfig: NextConfig = {
           "/articles/kilian-jornet-nnormal-et-l-utmb-quand-l-ecologie-devient-un-argument-commercial",
         permanent: true,
       },
+      {
+        source:
+          "/articles/the-200-mile-phenomenon-a-data-based-look-at-their-growth-and-demographics",
+        destination:
+          "/articles/qui-court-vraiment-les-200-miles-de-trail-95-heures-40-ans-et-des-milliers-d",
+        permanent: true,
+      },
     ];
   },
   images: {
