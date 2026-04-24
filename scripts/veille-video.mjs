@@ -244,7 +244,14 @@ Corps structuré avec 3 à 5 sous-titres H2 (##) thématiques. Conclusion en 2-3
 CONTRAINTES RGAA / SEO : pas d'emoji, pas de point-virgule dans le titre, pas de tout majuscules. Au moins un chiffre concret dans le corps. Cadratins interdits (max 1 par article).
 `;
 
-function buildUserPrompt(video, transcript) {
+function buildUserPrompt(video, transcript, sourceKind = "transcription") {
+  const isDescription = sourceKind === "description";
+  const sourceLabel = isDescription
+    ? `DESCRIPTION COMPLÈTE (la transcription n'est pas disponible, tu travailles à partir de la description officielle fournie par le créateur) :`
+    : `TRANSCRIPTION AUTO-GÉNÉRÉE (peut contenir des imprécisions, à citer avec prudence) :`;
+  const extraRule = isDescription
+    ? `\n\nATTENTION : la transcription audio n'est pas disponible. Tu construis l'article à partir du titre, de la description officielle et de la chaîne source UNIQUEMENT. Tu mentionnes clairement que l'article se base sur la description et non sur la transcription intégrale. Tu ne cites pas de propos comme s'ils avaient été prononcés — tu les présentes comme "selon la description de la vidéo" ou "selon la chaîne".`
+    : "";
   return `VIDÉO SOURCE
 Titre : ${video.title}
 Chaîne : ${video.channelTitle}
@@ -252,22 +259,19 @@ Date de publication : ${video.publishedAt.slice(0, 10)}
 URL : https://www.youtube.com/watch?v=${video.videoId}
 Durée : ${video.durationSec ? Math.round(video.durationSec / 60) + " min" : "inconnue"}
 
-DESCRIPTION FOURNIE PAR LE CRÉATEUR :
-${(video.description || "").slice(0, 1500)}
-
-TRANSCRIPTION AUTO-GÉNÉRÉE (peut contenir des imprécisions, à citer avec prudence) :
+${sourceLabel}
 ${transcript.slice(0, 15000)}
 
-Écris l'article selon les règles du system prompt. Angle éditorial de ton choix mais centré sur ce que la vidéo apporte de neuf ou de pertinent pour un public francophone trail. Cite nommément ${video.channelTitle} au moins 3 fois.`;
+Écris l'article selon les règles du system prompt. Angle éditorial de ton choix mais centré sur ce que la vidéo apporte de neuf ou de pertinent pour un public francophone trail. Cite nommément ${video.channelTitle} au moins 3 fois.${extraRule}`;
 }
 
-async function runClaude(client, video, transcript) {
+async function runClaude(client, video, transcript, sourceKind = "transcription") {
   const stream = client.messages.stream({
     model: MODEL,
     max_tokens: 32000,
     thinking: { type: "adaptive" },
     system: SYSTEM_PROMPT,
-    messages: [{ role: "user", content: buildUserPrompt(video, transcript) }],
+    messages: [{ role: "user", content: buildUserPrompt(video, transcript, sourceKind) }],
   });
   const msg = await stream.finalMessage();
   if (msg.stop_reason === "max_tokens") {
@@ -502,15 +506,29 @@ async function processSingleVideo(client, videoId, processedIds) {
     console.error(`[video]   skip : video trop courte (${video.durationSec}s)`);
     return 0;
   }
-  const transcript = await fetchTranscript(videoId);
+  // On tente d'abord la transcription. Les runners GitHub Actions se font souvent
+  // bloquer par YouTube (IPs datacenter detectees comme bots) : les captionTracks
+  // ne sont pas servies. Dans ce cas, on tombe en fallback sur la description
+  // (fournie par l'API YouTube Data v3, non bloquee). Pour une review produit ou
+  // un reportage, la description contient souvent 1-3k chars de matiere dense.
+  let transcript = await fetchTranscript(videoId);
+  let sourceKind = "transcription";
   if (!transcript || transcript.length < 500) {
-    console.error(`[video]   skip : transcription indisponible (${transcript?.length || 0} chars)`);
-    return 0;
+    console.warn(`[video]   transcription indisponible (${transcript?.length || 0} chars), fallback sur description`);
+    if (video.description && video.description.length >= 500) {
+      transcript = video.description;
+      sourceKind = "description";
+      console.log(`[video]   using description as fallback (${video.description.length} chars)`);
+    } else {
+      console.error(`[video]   skip : ni transcript ni description exploitables (desc=${video.description?.length || 0} chars)`);
+      return 0;
+    }
+  } else {
+    console.log(`[video]   transcript OK (${transcript.length} chars)`);
   }
-  console.log(`[video]   transcript OK (${transcript.length} chars)`);
   let rewritten;
   try {
-    rewritten = stripFences(await runClaude(client, video, transcript));
+    rewritten = stripFences(await runClaude(client, video, transcript, sourceKind));
   } catch (e) {
     console.error(`[video]   Claude error: ${e.message}`);
     return 0;
