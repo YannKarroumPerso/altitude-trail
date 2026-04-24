@@ -10,6 +10,23 @@ const nextConfig: NextConfig = {
         destination: "/courses",
         permanent: true,
       },
+      // 301 : corrige les 404 dus a un mismatch filename/frontmatter-slug.
+      // Les articles ont ete publies avec un frontmatter slug qui differe du
+      // nom de fichier, donc le site les sert aux nouvelles URLs pendant que
+      // Google a indexe les anciennes URLs (filename-based).
+      {
+        source: "/articles/biolite-range-500-headlamp-review",
+        destination:
+          "/articles/biolite-range-500-74-grammes-et-8-minutes-de-charge-pour-les-nuits-de-trail",
+        permanent: true,
+      },
+      {
+        source:
+          "/articles/kilian-jornet-quand-son-message-ecolo-sur-l-utmb-vire-au-placement-de-produit",
+        destination:
+          "/articles/kilian-jornet-nnormal-et-l-utmb-quand-l-ecologie-devient-un-argument-commercial",
+        permanent: true,
+      },
     ];
   },
   images: {
