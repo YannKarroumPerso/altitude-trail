@@ -14,6 +14,11 @@ on:
         description: "Nom ou handle d'une chaîne spécifique (optionnel, ex: iRunFar)"
         required: false
         type: string
+      lookback_hours:
+        description: "Fenêtre de recherche en heures (défaut 48, jusqu'à 720 pour forcer un test)"
+        required: false
+        type: string
+        default: ""
 
 concurrency:
   group: veille-video
@@ -64,7 +69,7 @@ jobs:
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-sonnet-4-6' }}
           SITE_BASE_URL: ${{ env.SITE_BASE_URL }}
           MAX_ARTICLES_PER_RUN: "1"
-          VEILLE_VIDEO_LOOKBACK_HOURS: "48"
+          VEILLE_VIDEO_LOOKBACK_HOURS: "${{ github.event.inputs.lookback_hours != '' && github.event.inputs.lookback_hours || '48' }}"
         run: |
           set -e
           if [ -n "${{ github.event.inputs.channel }}" ]; then

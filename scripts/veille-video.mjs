@@ -42,6 +42,7 @@ const WATCHED_CHANNELS = [
   { handle: "@u-trail", name: "U-Trail", prio: 1 },
   { handle: "@trailrunnermagazine", name: "Trail Runner Magazine", prio: 2 },
   { handle: "@kilianjornetofficial", name: "Kilian Jornet", prio: 2 },
+  { handle: "@Kiprunfr", name: "Kiprun", prio: 2 },
 ];
 
 // Mots-clés trail pour filtrer les vidéos non pertinentes sur chaînes généralistes.
