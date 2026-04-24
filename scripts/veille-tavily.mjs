@@ -280,6 +280,27 @@ function frDate(d) {
 
 const MONTHS_FR = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"];
 
+
+/**
+ * Détecte si un article parle d'une édition d'une année passée (typiquement
+ * un recap de l'édition N-1 ramené par Tavily comme s'il était d'actualité).
+ * Règle : si le slug ou le title contient une année différente de l'année en
+ * cours, c'est un signal fort de contenu stale et l'article doit être rejeté
+ * quand on est en contexte hot event.
+ */
+function articleMentionsStaleYear(meta, baseSlug) {
+  const currentYear = new Date().getFullYear();
+  const yearPattern = /\b(20\d{2})\b/g;
+  const fields = [baseSlug || "", meta.title || "", meta.slug || ""];
+  for (const f of fields) {
+    const years = [...String(f).matchAll(yearPattern)].map((m) => parseInt(m[1], 10));
+    for (const y of years) {
+      if (y >= 2020 && y <= currentYear + 1 && y !== currentYear) return y;
+    }
+  }
+  return null;
+}
+
 /**
  * Compare les métadonnées canoniques d'un event aux valeurs que Claude a
  * écrites dans le frontmatter (title + excerpt). Log des warnings si l'article
@@ -337,6 +358,10 @@ Frontmatter obligatoire :
 - imagePrompt1 : prompt ANGLAIS pour flux-pro-1.1 illustrant la scène d'ouverture. 40-60 mots, ultra-spécifique, entre guillemets doubles. Pas de style photo (suffixe ajouté automatiquement).
 - imagePrompt2 : prompt ANGLAIS pour une scène différente du milieu de l'article.
 - externalRefs : liste YAML de 2 à 4 références externes, reprises EXCLUSIVEMENT depuis les sources fournies dans le prompt utilisateur (tu ne dois PAS en inventer). Format : externalRefs:\n  - { url: "https://...", label: "Titre descriptif" }
+
+CONTEXTE TEMPOREL (IMPORTANT)
+
+Nous sommes en 2026. Ne JAMAIS écrire un article qui se présente comme une actualité sur un événement d'une année passée. Si les sources Tavily te remontent des recaps d'éditions 2024 ou 2025, tu les identifies comme contexte historique et NE les utilises PAS pour écrire un article "résultats" ou "actualité". Ton titre et ton excerpt ne doivent contenir que l'année en cours (2026) quand il s'agit de l'édition actuelle d'une course. Un article sur une édition passée est autorisé uniquement si c'est explicitement un angle "il y a un an", "rétrospective", "bilan de X année" — et dans ce cas l'angle doit être clair dans le titre.
 
 CONTRAINTES RGAA / SEO :
 - Pas d'emoji, pas de tout majuscules, pas de point-virgule dans le titre.
@@ -708,6 +733,19 @@ async function processQuery(client, query, angle, categorySlug, allExisting, inc
   }
 
   const baseSlug = slugify(meta.title);
+
+  // Anti-stale year : si on est en contexte hot event et que l'article
+  // parle d'une édition d'une année différente de l'année en cours, on rejette.
+  // Typiquement : Tavily remonte un recap de l'édition N-1, Claude le
+  // resynthétise comme s'il était d'actualité. Bloqué ici pour les hot events.
+  if (meta.hotEventSlug) {
+    const staleYear = articleMentionsStaleYear(meta, baseSlug);
+    if (staleYear !== null) {
+      console.error(`[tavily]   REJET : article mentionne l'année ${staleYear} dans slug/title alors qu'on couvre l'édition ${new Date().getFullYear()} de ${meta.hotEventSlug}. Recap stale, publication annulée.`);
+      return null;
+    }
+  }
+
   const outPath = path.join(CONTENT_DIR, `${baseSlug}.md`);
   if (existsSync(outPath)) {
     console.log(`[tavily]   doublon détecté (${baseSlug}), skip`);
