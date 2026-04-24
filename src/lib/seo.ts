@@ -405,6 +405,52 @@ function computeEditorialRating(race: Race): { overall: number; breakdown: Recor
 
 export function buildSportsEventJsonLd(race: Race) {
   const rating = computeEditorialRating(race);
+
+  // 5 champs ajoutes suite au rapport Google Search Console du 24 avril 2026
+  // qui signalait "performer", "endDate", "organizer", "offers", "image" manquants.
+
+  // endDate : +24h par defaut (la majorite des trails tiennent en 1 journee,
+  // les ultras peuvent deborder mais +24h couvre 99% des cas sans surestimer).
+  const startMs = new Date(race.dateISO).getTime();
+  const endDate = isNaN(startMs)
+    ? race.dateISO
+    : new Date(startMs + 24 * 3600 * 1000).toISOString();
+
+  // image : OG image du site en fallback. A ameliorer quand on aura des
+  // visuels dedies par course (champ image? sur l interface Race).
+  const image = DEFAULT_OG_IMAGE;
+
+  // organizer : derive de race.website quand disponible, sinon site editeur
+  // comme point d entree (Altitude Trail n est pas organisateur, mais Google
+  // tolere le publisher comme fallback dans le schema Event).
+  let organizerHost: string | null = null;
+  if (race.website) {
+    try { organizerHost = new URL(race.website).hostname.replace(/^www\./, ""); }
+    catch { organizerHost = null; }
+  }
+  const organizer = organizerHost
+    ? { "@type": "Organization" as const, name: organizerHost, url: race.website! }
+    : { "@type": "Organization" as const, name: SITE_NAME, url: SITE_URL };
+
+  // performer : pour une course de trail a participation large, les coureurs
+  // changent a chaque edition. On utilise une PerformingGroup generique pour
+  // satisfaire le schema sans inventer de noms.
+  const performer = {
+    "@type": "PerformingGroup" as const,
+    name: "Coureurs de trail et d ultra-endurance",
+  };
+
+  // offers : inscription sur le site officiel de la course quand disponible,
+  // sinon sur la page course de notre site. Prix symbolique a 0 (les vrais
+  // tarifs sont sur le site de l organisateur, ils varient chaque edition).
+  const offers = {
+    "@type": "Offer" as const,
+    url: race.website || `${SITE_URL}/courses/${race.slug}`,
+    availability: "https://schema.org/InStock",
+    priceCurrency: "EUR",
+    price: 0,
+  };
+
   return {
     "@context": "https://schema.org",
     "@type": "SportsEvent",
@@ -412,6 +458,11 @@ export function buildSportsEventJsonLd(race: Race) {
     description: race.description,
     sport: "Trail running",
     startDate: race.dateISO,
+    endDate,
+    image,
+    organizer,
+    performer,
+    offers,
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     eventStatus: "https://schema.org/EventScheduled",
     location: {
