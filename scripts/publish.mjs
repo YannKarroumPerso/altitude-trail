@@ -160,7 +160,11 @@ function commitAndPush(count) {
       }
       console.warn(`[publish] push echec attempt ${attempt}, rebase + retry...`);
       try {
-        execSync("git pull --rebase origin main", { stdio: "inherit" });
+        // --autostash : npm install modifie package-lock.json avant que publish.mjs
+        // ne tourne, ce qui laisse la working tree dirty. Sans --autostash le rebase
+        // echoue avec "You have unstaged changes". Avec, git stash temporairement ces
+        // modifs, fait le rebase, puis les restaure.
+        execSync("git pull --rebase --autostash origin main", { stdio: "inherit" });
       } catch (pullErr) {
         console.error("[publish] rebase echec:", pullErr);
         throw pullErr;
