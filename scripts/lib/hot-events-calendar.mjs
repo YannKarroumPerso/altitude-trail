@@ -242,6 +242,7 @@ export function getEventSpecificQueries(event, now = new Date()) {
     "runningmag.fr", "journaldutrail.com",
     // Presse généraliste FR avec couverture trail
     "lequipe.fr", "laprovence.com", "sudouest.fr",
+    "ledauphine.com", "nicematin.com",
     // Organisations et sites d'événements
     "utmbmontblanc.com", "utmb.world", "wser.org", "hardrock100.com",
     "tordesgeants.it", "skyrunning.com",

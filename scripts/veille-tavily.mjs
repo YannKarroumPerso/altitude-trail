@@ -64,6 +64,7 @@ const RACES_DOMAINS = [
   "runningmag.fr", "journaldutrail.com",
   // Presse generaliste FR avec couverture trail
   "lequipe.fr", "laprovence.com", "sudouest.fr",
+  "ledauphine.com", "nicematin.com",
   // Organisations et sites d evenements
   "utmbmontblanc.com", "utmb.world", "wser.org", "hardrock100.com",
   "tordesgeants.it", "skyrunning.com",
