@@ -19,12 +19,10 @@ import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
-// youtube-transcript est un module CJS pur (pas d'export nomme ni default
-// exposes a l ESM). On utilise createRequire, le pattern canonique Node pour
-// importer du CJS depuis de l ESM.
-import { createRequire } from "node:module";
-const require = createRequire(import.meta.url);
-const { YoutubeTranscript } = require("youtube-transcript");
+// Implementation maison du fetch de transcription YouTube.
+// On evite les packages npm (youtube-transcript et ses cousins ont des
+// problemes d'interop CJS/ESM et de parsing qui varient selon les versions
+// de Node). Direct acces a la page YouTube + extraction de captionTracks.
 
 import { EDITORIAL_STYLE } from "./lib/editorial-style.mjs";
 import { pickAuthorForCategory } from "./lib/authors.mjs";
@@ -140,21 +138,71 @@ function parseIsoDurationToSeconds(iso) {
   return (parseInt(m[1] || "0", 10) * 3600) + (parseInt(m[2] || "0", 10) * 60) + parseInt(m[3] || "0", 10);
 }
 
-/** Fetch transcript via youtube-transcript package. Returns null if unavailable. */
-async function fetchTranscript(videoId) {
+/**
+ * Fetch the transcript of a YouTube video by scraping the public captionTracks
+ * metadata from the video page, then fetching the track URL directly.
+ * Returns null if no transcript is available (video without captions).
+ * Prefers French track, falls back to English, then first available.
+ */
+async function fetchTranscript(videoId, preferredLangs = ["fr", "en"]) {
+  const pageUrl = `https://www.youtube.com/watch?v=${videoId}`;
+  let pageHtml;
   try {
-    const segments = await YoutubeTranscript.fetchTranscript(videoId, { lang: "fr" }).catch(() => null);
-    if (segments && segments.length) return segments.map((s) => s.text).join(" ").trim();
-  } catch {}
+    const pageResp = await fetch(pageUrl, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+      },
+    });
+    if (!pageResp.ok) return null;
+    pageHtml = await pageResp.text();
+  } catch {
+    return null;
+  }
+
+  // Find the captionTracks array in the embedded JSON (ytInitialPlayerResponse)
+  const m = pageHtml.match(/"captionTracks":(\[[^\]]*\])/);
+  if (!m) return null;
+  let tracks;
+  try { tracks = JSON.parse(m[1]); } catch { return null; }
+  if (!Array.isArray(tracks) || tracks.length === 0) return null;
+
+  // Pick a track : exact match preferred langs, fallback any
+  let track = null;
+  for (const lang of preferredLangs) {
+    track = tracks.find((t) => t.languageCode === lang);
+    if (track) break;
+  }
+  if (!track) track = tracks[0];
+  if (!track || !track.baseUrl) return null;
+
+  // Fetch the XML transcript (YouTube returns SRV1 XML by default)
+  let xml;
   try {
-    const segments = await YoutubeTranscript.fetchTranscript(videoId, { lang: "en" });
-    if (segments && segments.length) return segments.map((s) => s.text).join(" ").trim();
-  } catch {}
-  try {
-    const segments = await YoutubeTranscript.fetchTranscript(videoId);
-    if (segments && segments.length) return segments.map((s) => s.text).join(" ").trim();
-  } catch {}
-  return null;
+    const r = await fetch(track.baseUrl);
+    if (!r.ok) return null;
+    xml = await r.text();
+  } catch {
+    return null;
+  }
+
+  // Parse <text> nodes
+  const texts = [];
+  const re = /<text[^>]*>([\s\S]*?)<\/text>/g;
+  let match;
+  while ((match = re.exec(xml))) {
+    const raw = match[1]
+      .replace(/&amp;/g, "&")
+      .replace(/&#39;/g, "'")
+      .replace(/&quot;/g, '"')
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (raw) texts.push(raw);
+  }
+  const transcript = texts.join(" ").trim();
+  return transcript.length >= 200 ? transcript : null;
 }
 
 // ─── System prompt : adaptation "veille vidéo" du style éditorial ──────────
