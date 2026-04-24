@@ -137,7 +137,9 @@ export function extractFaqFromMarkdown(content: string | undefined): { q: string
 // underlying asset; Google crops as needed and the different "width/height"
 // signals let it pick the right render surface (Discover, SERP, AMP).
 export function articleImageSet(article: Article): { url: string; width: number; height: number }[] {
-  const base = absoluteUrl(article.image);
+  // Fallback vers l image OG site-wide si l article n a pas d image propre.
+  // Evite Google alert "invalid image URL" quand article.image est vide.
+  const base = article.image ? absoluteUrl(article.image) : DEFAULT_OG_IMAGE;
   return [
     { url: base, width: 1200, height: 675 },
     { url: base, width: 1200, height: 1200 },
@@ -154,7 +156,8 @@ export function buildNewsArticleJsonLd(article: Article) {
     ? parseFrDate(article.updatedAt).toISOString()
     : published;
   const images = articleImageSet(article).map((i) => i.url);
-  const heroImage = absoluteUrl(article.image);
+  // Fallback identique pour heroImage (thumbnailUrl)
+  const heroImage = article.image ? absoluteUrl(article.image) : DEFAULT_OG_IMAGE;
   const bodyPreview = extractArticleBodyPreview(article.content, 120);
   return {
     "@context": "https://schema.org",
@@ -250,7 +253,7 @@ export function buildItemListJsonLd(args: {
       position: i + 1,
       url: articleUrl(a.slug),
       name: a.title,
-      image: absoluteUrl(a.image),
+      image: a.image ? absoluteUrl(a.image) : DEFAULT_OG_IMAGE,
     })),
   };
 }
