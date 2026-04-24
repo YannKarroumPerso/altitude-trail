@@ -467,6 +467,73 @@ async function processChannel(client, channel, processedIds, budget) {
   return produced;
 }
 
+
+/**
+ * Force le traitement d une video YouTube specifique (par videoId), bypass
+ * la recherche par chaine et le filtre trail-related. Utilise pour tester
+ * end-to-end ou ingerer une video sourcee manuellement.
+ */
+async function processSingleVideo(client, videoId, processedIds) {
+  console.log(\`[video] force-process videoId: \${videoId}\`);
+  if (processedIds.has(videoId)) {
+    console.log("[video]   deja traite, skip");
+    return 0;
+  }
+  const details = await fetchVideoDetails(videoId).catch((e) => { console.error(\`[video]   fetchVideoDetails fail: \${e.message}\`); return null; });
+  if (!details || !details.snippet) {
+    console.error("[video]   video introuvable ou API error");
+    return 0;
+  }
+  const video = {
+    videoId,
+    title: details.snippet.title,
+    description: details.snippet.description || "",
+    channelTitle: details.snippet.channelTitle,
+    publishedAt: details.snippet.publishedAt,
+    thumbnail: details.snippet.thumbnails?.maxres?.url || details.snippet.thumbnails?.high?.url || \`https://i.ytimg.com/vi/\${videoId}/hqdefault.jpg\`,
+    durationSec: parseIsoDurationToSeconds(details.contentDetails?.duration),
+  };
+  console.log(\`[video]   \${video.channelTitle} — \${video.title.slice(0, 100)}\`);
+  if (details.status?.embeddable === false) {
+    console.error("[video]   skip : embed desactive par le createur");
+    return 0;
+  }
+  if (video.durationSec > 0 && video.durationSec < 120) {
+    console.error(\`[video]   skip : video trop courte (\${video.durationSec}s)\`);
+    return 0;
+  }
+  const transcript = await fetchTranscript(videoId);
+  if (!transcript || transcript.length < 500) {
+    console.error(\`[video]   skip : transcription indisponible (\${transcript?.length || 0} chars)\`);
+    return 0;
+  }
+  console.log(\`[video]   transcript OK (\${transcript.length} chars)\`);
+  let rewritten;
+  try {
+    rewritten = stripFences(await runClaude(client, video, transcript));
+  } catch (e) {
+    console.error(\`[video]   Claude error: \${e.message}\`);
+    return 0;
+  }
+  const parsed = parseFrontmatter(rewritten);
+  if (!parsed || !parsed.meta.title || !parsed.meta.excerpt) {
+    console.error("[video]   frontmatter incomplet");
+    return 0;
+  }
+  const { meta, body } = parsed;
+  meta.categorySlug = meta.categorySlug || "actualites";
+  const baseSlug = slugify(meta.title);
+  const outPath = path.join(CONTENT_DIR, \`\${baseSlug}.md\`);
+  if (existsSync(outPath)) {
+    console.error(\`[video]   slug doublon (\${baseSlug})\`);
+    return 0;
+  }
+  const md = buildMarkdownFile({ meta, body, pubDate: new Date(), video });
+  await fs.writeFile(outPath, md, "utf8");
+  console.log(\`[video]   OK saved \${outPath}\`);
+  return 1;
+}
+
 async function main() {
   if (!YOUTUBE_API_KEY) { console.error("YOUTUBE_API_DATA missing"); process.exit(1); }
   if (!process.env.ANTHROPIC_API_KEY) { console.error("ANTHROPIC_API_KEY missing"); process.exit(1); }
@@ -475,6 +542,20 @@ async function main() {
   const args = process.argv.slice(2);
   const channelArg = args.find((a) => a.startsWith("--channel="));
   const wanted = channelArg ? channelArg.split("=")[1].toLowerCase() : null;
+  const videoIdArg = args.find((a) => a.startsWith("--video-id="));
+  const forcedVideoId = videoIdArg ? videoIdArg.split("=")[1].trim() : null;
+
+  // Si --video-id est fourni, on bypass totalement la recherche par chaine :
+  // on force le traitement de cette video specifique. Utilise pour tester
+  // end-to-end ou ingerer manuellement une video dont on connait l URL.
+  if (forcedVideoId) {
+    const processedIds = await loadProcessedVideoIds();
+    console.log(`[video] mode force-video, ${processedIds.size} videoId(s) deja traite(s)`);
+    const client = new Anthropic();
+    const n = await processSingleVideo(client, forcedVideoId, processedIds).catch((e) => { console.error(`[video] force-process error: ${e.message}`); return 0; });
+    console.log(`\n[video] termine — ${n} article(s) produit(s).`);
+    return;
+  }
 
   const channels = wanted
     ? WATCHED_CHANNELS.filter((c) => c.name.toLowerCase().includes(wanted) || c.handle.toLowerCase().includes(wanted))

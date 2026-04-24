@@ -14,6 +14,11 @@ on:
         description: "Nom ou handle d'une chaîne spécifique (optionnel, ex: iRunFar)"
         required: false
         type: string
+      video_id:
+        description: "Force le traitement d'une vidéo YouTube spécifique par son ID (ex: 8wvQnTXCM4s)"
+        required: false
+        type: string
+        default: ""
       lookback_hours:
         description: "Fenêtre de recherche en heures (défaut 48, jusqu'à 720 pour forcer un test)"
         required: false
@@ -72,7 +77,9 @@ jobs:
           VEILLE_VIDEO_LOOKBACK_HOURS: "${{ github.event.inputs.lookback_hours != '' && github.event.inputs.lookback_hours || '48' }}"
         run: |
           set -e
-          if [ -n "${{ github.event.inputs.channel }}" ]; then
+          if [ -n "${{ github.event.inputs.video_id }}" ]; then
+            node --env-file-if-exists=.env.local scripts/veille-video.mjs --video-id="${{ github.event.inputs.video_id }}"
+          elif [ -n "${{ github.event.inputs.channel }}" ]; then
             node --env-file-if-exists=.env.local scripts/veille-video.mjs --channel="${{ github.event.inputs.channel }}"
           else
             npm run veille-video
