@@ -134,6 +134,15 @@ function commitAndPush(count) {
     return;
   }
   execSync("git add content/articles public/articles src/lib/data.ts", { stdio: "inherit" });
+  // Recheck APRES git add : si nos paths surveilles n ont pas de diff (le git
+  // status positif venait d ailleurs, par exemple un package-lock.json modifie
+  // par npm install), on skip le commit proprement plutot que de faire echouer
+  // le workflow avec "nothing to commit".
+  const stagedOut = execSync("git diff --cached --name-only", { encoding: "utf8" });
+  if (!stagedOut.trim()) {
+    console.log("[publish] git add n a rien stage dans content/articles, public/articles ou data.ts ; skip commit.");
+    return;
+  }
   const msg = `chore(veille): publication de ${count} article(s)`;
   execSync(`git commit -m ${JSON.stringify(msg)}`, { stdio: "inherit" });
 
