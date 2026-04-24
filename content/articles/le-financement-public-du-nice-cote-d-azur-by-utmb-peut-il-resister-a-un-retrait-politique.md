@@ -11,8 +11,6 @@ readTime: "5 min"
 image: "/articles/le-financement-public-du-nice-cote-d-azur-by-utmb-peut-il-resister-a-un-retrait-politique-1.jpg"
 tags: ["UTMB", "Nice Côte d'Azur", "financement public", "trail ultra", "politique sportive"]
 source: "tavily-synthesis"
-isLive: true
-hotEventSlug: "madeira-island-ultra-trail"
 tavilySources:
   - "http://nice.utmb.world/fr"
   - "https://nice.utmb.world/fr/"

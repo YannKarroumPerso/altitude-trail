@@ -875,7 +875,7 @@ async function main() {
         q.categorySlug,
         allExisting,
         q.include_domains,
-        q.hotEvent || (hotEvent?.event.slug ?? null)
+        (customQuery ? null : (q.hotEvent || (hotEvent?.event.slug ?? null)))
       );
       if (slug) created++;
     } catch (e) {

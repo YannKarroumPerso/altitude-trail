@@ -11,8 +11,6 @@ readTime: "4 min"
 image: "/articles/avec-15-000-m-de-d-par-semaine-theo-detienne-redefinit-il-les-standards-de-preparation-1.jpg"
 tags: ["Théo Detienne", "entraînement trail", "ultra-trail", "UTMB", "dénivelé positif"]
 source: "tavily-synthesis"
-isLive: true
-hotEventSlug: "madeira-island-ultra-trail"
 tavilySources:
   - "https://www2.u-trail.com/lentrainement-de-theo-detienne-monte-jusqua-15-000-m-de-d-par-semaine/"
   - "https://www2.u-trail.com/plan-gratuit-preparer-son-premier-ultra-trail-de-70km/"
