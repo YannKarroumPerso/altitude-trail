@@ -19,7 +19,10 @@ import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
-import { YoutubeTranscript } from "youtube-transcript";
+// youtube-transcript est publie en CJS ; Node ESM ne peut pas importer son
+// export nomme directement. On passe par default + destructure.
+import ytTranscriptPkg from "youtube-transcript";
+const { YoutubeTranscript } = ytTranscriptPkg;
 
 import { EDITORIAL_STYLE } from "./lib/editorial-style.mjs";
 import { pickAuthorForCategory } from "./lib/authors.mjs";
