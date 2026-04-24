@@ -469,17 +469,17 @@ async function processChannel(client, channel, processedIds, budget) {
 
 
 /**
- * Force le traitement d une video YouTube specifique (par videoId), bypass
+ * Force le traitement d'une video YouTube specifique (par videoId), bypass
  * la recherche par chaine et le filtre trail-related. Utilise pour tester
  * end-to-end ou ingerer une video sourcee manuellement.
  */
 async function processSingleVideo(client, videoId, processedIds) {
-  console.log(\`[video] force-process videoId: \${videoId}\`);
+  console.log(`[video] force-process videoId: ${videoId}`);
   if (processedIds.has(videoId)) {
     console.log("[video]   deja traite, skip");
     return 0;
   }
-  const details = await fetchVideoDetails(videoId).catch((e) => { console.error(\`[video]   fetchVideoDetails fail: \${e.message}\`); return null; });
+  const details = await fetchVideoDetails(videoId).catch((e) => { console.error(`[video]   fetchVideoDetails fail: ${e.message}`); return null; });
   if (!details || !details.snippet) {
     console.error("[video]   video introuvable ou API error");
     return 0;
@@ -490,29 +490,29 @@ async function processSingleVideo(client, videoId, processedIds) {
     description: details.snippet.description || "",
     channelTitle: details.snippet.channelTitle,
     publishedAt: details.snippet.publishedAt,
-    thumbnail: details.snippet.thumbnails?.maxres?.url || details.snippet.thumbnails?.high?.url || \`https://i.ytimg.com/vi/\${videoId}/hqdefault.jpg\`,
+    thumbnail: details.snippet.thumbnails?.maxres?.url || details.snippet.thumbnails?.high?.url || `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`,
     durationSec: parseIsoDurationToSeconds(details.contentDetails?.duration),
   };
-  console.log(\`[video]   \${video.channelTitle} — \${video.title.slice(0, 100)}\`);
+  console.log(`[video]   ${video.channelTitle} — ${video.title.slice(0, 100)}`);
   if (details.status?.embeddable === false) {
     console.error("[video]   skip : embed desactive par le createur");
     return 0;
   }
   if (video.durationSec > 0 && video.durationSec < 120) {
-    console.error(\`[video]   skip : video trop courte (\${video.durationSec}s)\`);
+    console.error(`[video]   skip : video trop courte (${video.durationSec}s)`);
     return 0;
   }
   const transcript = await fetchTranscript(videoId);
   if (!transcript || transcript.length < 500) {
-    console.error(\`[video]   skip : transcription indisponible (\${transcript?.length || 0} chars)\`);
+    console.error(`[video]   skip : transcription indisponible (${transcript?.length || 0} chars)`);
     return 0;
   }
-  console.log(\`[video]   transcript OK (\${transcript.length} chars)\`);
+  console.log(`[video]   transcript OK (${transcript.length} chars)`);
   let rewritten;
   try {
     rewritten = stripFences(await runClaude(client, video, transcript));
   } catch (e) {
-    console.error(\`[video]   Claude error: \${e.message}\`);
+    console.error(`[video]   Claude error: ${e.message}`);
     return 0;
   }
   const parsed = parseFrontmatter(rewritten);
@@ -523,14 +523,14 @@ async function processSingleVideo(client, videoId, processedIds) {
   const { meta, body } = parsed;
   meta.categorySlug = meta.categorySlug || "actualites";
   const baseSlug = slugify(meta.title);
-  const outPath = path.join(CONTENT_DIR, \`\${baseSlug}.md\`);
+  const outPath = path.join(CONTENT_DIR, `${baseSlug}.md`);
   if (existsSync(outPath)) {
-    console.error(\`[video]   slug doublon (\${baseSlug})\`);
+    console.error(`[video]   slug doublon (${baseSlug})`);
     return 0;
   }
   const md = buildMarkdownFile({ meta, body, pubDate: new Date(), video });
   await fs.writeFile(outPath, md, "utf8");
-  console.log(\`[video]   OK saved \${outPath}\`);
+  console.log(`[video]   OK saved ${outPath}`);
   return 1;
 }
 
