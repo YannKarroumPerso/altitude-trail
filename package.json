@@ -13,7 +13,8 @@
     "publish": "node --env-file-if-exists=.env.local scripts/publish.mjs",
     "regen-images": "node --env-file-if-exists=.env.local scripts/regen-article-images.mjs",
     "backfill-seo": "node --env-file-if-exists=.env.local scripts/backfill-seo.mjs",
-    "fix-style": "node --env-file-if-exists=.env.local scripts/fix-editorial-style.mjs"
+    "fix-style": "node --env-file-if-exists=.env.local scripts/fix-editorial-style.mjs",
+    "veille-video": "node --env-file-if-exists=.env.local scripts/veille-video.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0",
@@ -33,7 +34,8 @@
     "react-dom": "19.2.4",
     "react-leaflet": "^5.0.0",
     "react-markdown": "^10.1.0",
-    "rss-parser": "^3.13.0"
+    "rss-parser": "^3.13.0",
+    "youtube-transcript": "^1.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

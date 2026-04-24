@@ -54,6 +54,8 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "trailrunningspain.com" },
       { protocol: "https", hostname: "www.discoveryalps.it" },
       { protocol: "https", hostname: "marathonhandbook.com" },
+      { protocol: "https", hostname: "i.ytimg.com" },
+      { protocol: "https", hostname: "img.youtube.com" },
     ],
   },
 };

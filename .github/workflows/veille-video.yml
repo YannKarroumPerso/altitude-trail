@@ -1,0 +1,79 @@
+name: Veille Vidéo YouTube (2x/jour)
+
+# Tourne 2x/jour (9h et 19h Paris). Cap conservateur à 1 article par run en v1
+# pour observer le comportement avant d'élargir la liste de chaînes et la cadence.
+on:
+  schedule:
+    - cron: "0 7 * * *"   # 9h Paris CEST
+    - cron: "0 8 * * *"   # 9h Paris CET
+    - cron: "0 17 * * *"  # 19h Paris CEST
+    - cron: "0 18 * * *"  # 19h Paris CET
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "Nom ou handle d'une chaîne spécifique (optionnel, ex: iRunFar)"
+        required: false
+        type: string
+
+concurrency:
+  group: veille-video
+  cancel-in-progress: false
+
+env:
+  SITE_BASE_URL: "https://www.altitude-trail.fr"
+
+jobs:
+  veille-video:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git
+        run: |
+          git config user.name "altitude-veille-video-bot"
+          git config user.email "altitude-veille-video-bot@users.noreply.github.com"
+
+      - name: Preflight
+        run: |
+          if [ -z "${{ secrets.YOUTUBE_API_DATA }}" ]; then
+            echo "FATAL: YOUTUBE_API_DATA secret missing"; exit 1
+          fi
+          if [ -z "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+            echo "FATAL: ANTHROPIC_API_KEY secret missing"; exit 1
+          fi
+
+      - name: Run veille vidéo
+        env:
+          YOUTUBE_API_DATA: ${{ secrets.YOUTUBE_API_DATA }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-sonnet-4-6' }}
+          SITE_BASE_URL: ${{ env.SITE_BASE_URL }}
+          MAX_ARTICLES_PER_RUN: "1"
+          VEILLE_VIDEO_LOOKBACK_HOURS: "48"
+        run: |
+          set -e
+          if [ -n "${{ github.event.inputs.channel }}" ]; then
+            node --env-file-if-exists=.env.local scripts/veille-video.mjs --channel="${{ github.event.inputs.channel }}"
+          else
+            npm run veille-video
+          fi
+
+      - name: Publish
+        run: |
+          set -e
+          npm run publish
