@@ -1,13 +1,9 @@
 import { articles } from "@/lib/data";
-import { SITE_URL, SITE_NAME, SITE_LANG, parseFrDate } from "@/lib/seo";
+import { SITE_NAME, SITE_URL, articleUrl, parseFrDate } from "@/lib/seo";
 
-// Google News Sitemap — n'inclut que les articles publiés dans les 2 derniers
-// jours (contrainte officielle du format Google News). Google News ne
-// considère ce sitemap que pour les éditeurs enregistrés dans son programme.
-// Pour un éditeur hors programme, le fichier reste valide et peut être pris
-// en compte comme indice de fraîcheur par Googlebot classique.
-
-const TWO_DAYS_MS = 2 * 24 * 60 * 60 * 1000;
+// Google News sitemap spec : https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap
+// Seuls les articles publiés dans les 48 dernières heures sont inclus (règle Google).
+// Format dédié qui active l'indexation rapide en Google News pour les articles frais.
 
 function escapeXml(s: string): string {
   return s
@@ -19,40 +15,42 @@ function escapeXml(s: string): string {
 }
 
 export async function GET() {
-  const now = Date.now();
+  const now = new Date();
+  const cutoff = now.getTime() - 48 * 60 * 60 * 1000;
+
   const recent = articles.filter((a) => {
-    const d = parseFrDate(a.date).getTime();
-    return d > 0 && now - d <= TWO_DAYS_MS;
+    const d = parseFrDate(a.date);
+    return d.getTime() >= cutoff;
   });
 
-  const items = recent
-    .map((a) => {
-      const pub = parseFrDate(a.date).toISOString();
-      const keywords = (a.tags || []).join(", ");
-      return `  <url>
-    <loc>${SITE_URL}/articles/${a.slug}</loc>
+  const entries = recent.map((a) => {
+    const d = parseFrDate(a.date);
+    return `  <url>
+    <loc>${escapeXml(articleUrl(a.slug))}</loc>
     <news:news>
       <news:publication>
         <news:name>${escapeXml(SITE_NAME)}</news:name>
-        <news:language>${SITE_LANG}</news:language>
+        <news:language>fr</news:language>
       </news:publication>
-      <news:publication_date>${pub}</news:publication_date>
-      <news:title>${escapeXml(a.title)}</news:title>${keywords ? `\n      <news:keywords>${escapeXml(keywords)}</news:keywords>` : ""}
+      <news:publication_date>${d.toISOString()}</news:publication_date>
+      <news:title>${escapeXml(a.title)}</news:title>
     </news:news>
   </url>`;
-    })
-    .join("\n");
+  }).join("\n");
 
-  const body = `<?xml version="1.0" encoding="UTF-8"?>
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-${items}
+${entries}
 </urlset>`;
 
-  return new Response(body, {
+  return new Response(xml, {
     headers: {
       "Content-Type": "application/xml; charset=utf-8",
       "Cache-Control": "public, max-age=600, s-maxage=600",
     },
   });
 }
+
+// Force revalidation every 10 min (article freshness matters here)
+export const revalidate = 600;

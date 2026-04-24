@@ -1,10 +1,9 @@
 import { articles } from "@/lib/data";
-import { SITE_URL, absoluteUrl } from "@/lib/seo";
+import { DEFAULT_OG_IMAGE, absoluteUrl, articleUrl } from "@/lib/seo";
 
-// Sitemap dédié aux images — aide Google Images à crawler les hero images
-// et les illustrations des articles. Le format <image:image> est officiel
-// même si déprécié en annonce : Google continue de l'indexer et il reste
-// recommandé pour les sites éditoriaux riches en visuels.
+// Image sitemap spec : https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
+// Aide Google à découvrir et indexer les images des articles pour Google Images.
+// Une image par article (la hero image, ou fallback OG image si absente).
 
 function escapeXml(s: string): string {
   return s
@@ -16,32 +15,30 @@ function escapeXml(s: string): string {
 }
 
 export async function GET() {
-  const items = articles
-    .filter((a) => a.image)
-    .map((a) => {
-      const url = `${SITE_URL}/articles/${a.slug}`;
-      const imgUrl = absoluteUrl(a.image);
-      return `  <url>
-    <loc>${url}</loc>
+  const entries = articles.map((a) => {
+    const imgUrl = a.image ? absoluteUrl(a.image) : DEFAULT_OG_IMAGE;
+    return `  <url>
+    <loc>${escapeXml(articleUrl(a.slug))}</loc>
     <image:image>
       <image:loc>${escapeXml(imgUrl)}</image:loc>
       <image:title>${escapeXml(a.title)}</image:title>
-      <image:caption>${escapeXml(a.excerpt)}</image:caption>
+      <image:caption>${escapeXml((a.excerpt || "").slice(0, 250))}</image:caption>
     </image:image>
   </url>`;
-    })
-    .join("\n");
+  }).join("\n");
 
-  const body = `<?xml version="1.0" encoding="UTF-8"?>
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-${items}
+${entries}
 </urlset>`;
 
-  return new Response(body, {
+  return new Response(xml, {
     headers: {
       "Content-Type": "application/xml; charset=utf-8",
       "Cache-Control": "public, max-age=3600, s-maxage=3600",
     },
   });
 }
+
+export const revalidate = 3600;
