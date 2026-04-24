@@ -19,10 +19,12 @@ import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
-// youtube-transcript est publie en CJS ; Node ESM ne peut pas importer son
-// export nomme directement. On passe par default + destructure.
-import ytTranscriptPkg from "youtube-transcript";
-const { YoutubeTranscript } = ytTranscriptPkg;
+// youtube-transcript est un module CJS pur (pas d'export nomme ni default
+// exposes a l ESM). On utilise createRequire, le pattern canonique Node pour
+// importer du CJS depuis de l ESM.
+import { createRequire } from "node:module";
+const require = createRequire(import.meta.url);
+const { YoutubeTranscript } = require("youtube-transcript");
 
 import { EDITORIAL_STYLE } from "./lib/editorial-style.mjs";
 import { pickAuthorForCategory } from "./lib/authors.mjs";
