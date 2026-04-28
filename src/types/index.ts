@@ -9,6 +9,13 @@ export interface Article {
   // Optional : date de dernière mise à jour éditoriale significative.
   // Si absente, dateModified tombe sur date.
   updatedAt?: string;
+  // Date de publication ISO 8601 complète (avec heure UTC).
+  // Critique pour la précision Google News + Discover : sans cette précision
+  // intra-jour, tous les articles d'un même jour ont la même seconde et
+  // perdent leur ordering temporel chez Google.
+  // Stamper par les pipelines de génération à new Date().toISOString().
+  // Fallback sur parseFrDate(date) → 00:00:00 UTC si absent (anciens articles).
+  publishedAt?: string;
   readTime: string;
   image: string;
   featured?: boolean;

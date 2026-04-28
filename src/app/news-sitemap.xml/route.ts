@@ -1,5 +1,5 @@
 import { articles } from "@/lib/data";
-import { SITE_NAME, SITE_URL, articleUrl, parseFrDate } from "@/lib/seo";
+import { SITE_NAME, articleUrl, getArticlePublishedAt } from "@/lib/seo";
 
 // Google News sitemap spec : https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap
 // Seuls les articles publiés dans les 48 dernières heures sont inclus (règle Google).
@@ -19,12 +19,12 @@ export async function GET() {
   const cutoff = now.getTime() - 48 * 60 * 60 * 1000;
 
   const recent = articles.filter((a) => {
-    const d = parseFrDate(a.date);
+    const d = getArticlePublishedAt(a);
     return d.getTime() >= cutoff;
   });
 
   const entries = recent.map((a) => {
-    const d = parseFrDate(a.date);
+    const d = getArticlePublishedAt(a);
     return `  <url>
     <loc>${escapeXml(articleUrl(a.slug))}</loc>
     <news:news>

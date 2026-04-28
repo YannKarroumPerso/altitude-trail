@@ -356,6 +356,7 @@ function buildMarkdownFile({ meta, body, sourceItem, pubDate, image }) {
     `categorySlug: ${meta.categorySlug}`,
     `author: "${author}"`,
     `date: "${dateFr}"`,
+    `publishedAt: "${new Date().toISOString()}"`,
     `updatedAt: "${dateFr}"`,
     `readTime: "${meta.readTime || "7 min"}"`,
     `image: "${image}"`,

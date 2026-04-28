@@ -47,6 +47,22 @@ export function parseFrDate(str: string): Date {
   return new Date(Date.UTC(parseInt(m[3], 10), month, parseInt(m[1], 10)));
 }
 
+// Source de vérité pour l'horodatage de publication d'un article.
+// Si l'article a un `publishedAt` ISO 8601 (frontmatter stamper par les
+// pipelines), c'est lui qui prime — précision intra-jour critique pour
+// Google News (fenêtre 48h) et Discover (signal de fraîcheur).
+// Sinon fallback sur parseFrDate(date) qui retourne le jour à 00:00 UTC,
+// pour conserver la rétrocompatibilité avec les articles anciens.
+// Utilisé par : RSS pubDate, news-sitemap publication_date, JSON-LD
+// NewsArticle datePublished, sitemap lastModified.
+export function getArticlePublishedAt(article: { publishedAt?: string; date: string }): Date {
+  if (article.publishedAt) {
+    const d = new Date(article.publishedAt);
+    if (!isNaN(d.getTime())) return d;
+  }
+  return parseFrDate(article.date);
+}
+
 export function absoluteUrl(path: string): string {
   if (!path) return SITE_URL;
   if (/^https?:\/\//i.test(path)) return path;
@@ -149,7 +165,7 @@ export function articleImageSet(article: Article): { url: string; width: number;
 
 export function buildNewsArticleJsonLd(article: Article) {
   const url = articleUrl(article.slug);
-  const published = parseFrDate(article.date).toISOString();
+  const published = getArticlePublishedAt(article).toISOString();
   // Si l'article a été mis à jour (champ updatedAt dans la frontmatter), on
   // utilise cette date pour dateModified — signal de fraîcheur pour Google.
   const modified = article.updatedAt

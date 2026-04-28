@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { articles, categories } from "@/lib/data";
 import { races } from "@/lib/races-database";
-import { SITE_URL, parseFrDate } from "@/lib/seo";
+import { SITE_URL, getArticlePublishedAt } from "@/lib/seo";
 import { ARTICLES_PER_PAGE, totalPagesForCount } from "@/components/ui/Pagination";
 
 // Priorité articles décroissante avec l'âge : les plus récents = 0.8,
@@ -61,7 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   const articleRoutes: MetadataRoute.Sitemap = articles.map((a) => {
-    const d = parseFrDate(a.date);
+    const d = getArticlePublishedAt(a);
     return {
       url: `${SITE_URL}/articles/${a.slug}`,
       lastModified: d,
