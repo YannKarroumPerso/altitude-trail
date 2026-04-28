@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://www.runnersworld.com/gear/a22515179/the-10-best-hoka-one-one-running-shoes/", label: "The 10 Best Hoka Running Shoes of 2026 - Runner" }
 imagePrompt1: "A trail runner's feet in close-up on wet granite rocks at sunrise, technical trail running shoes with aggressive lug pattern, motion blur suggesting fast pace, dramatic alpine backdrop with morning mist, shallow depth of field, ultra-sharp shoe detail"
 imagePrompt2: "Five different trail running shoes arranged side by side on a weathered wooden outdoor table, varied outsole patterns visible from below, morning side light casting long shadows, blurred pine forest trail in background, product comparison aesthetic"
+publishedAt: "2026-04-22T10:00:00.000Z"
 ---
 Trente-quatre millimètres de mousse sous le talon, 266 grammes sur la balance : la La Sportiva Prodigio Pro ne devrait pas exister selon la logique habituelle du marché trail. Elle figure pourtant dans le guide des [chaussures](https://www.altitude-trail.fr/articles/chaussures-carbone-trail-itra-reglementation-limite) légères d'iRunFar pour 2026, aux côtés du Hoka Tecton X 3. La frontière entre légèreté et maximalisme s'est officiellement brouillée.
 

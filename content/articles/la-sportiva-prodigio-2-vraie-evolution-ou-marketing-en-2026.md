@@ -18,6 +18,7 @@ youtubeUploadDate: "2026-03-29"
 youtubeDuration: 340
 externalRefs:
   - { url: "https://www.youtube.com/watch?v=8wvQnTXCM4s", label: "https://www.youtube.com/watch?v=8wvQnTXCM4s" }
+publishedAt: "2026-04-24T13:30:00.000Z"
 ---
 Mettre "marketing" dans le titre d'un test de chaussure, c'est prendre position avant même d'avoir lacé. Sportinlove l'assume avec la Prodigio 2, et cette franchise mérite qu'on s'y attarde.
 

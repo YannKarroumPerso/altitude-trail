@@ -30,6 +30,7 @@ externalRefs:
     label: iRunFar – Actualités et résultats des trails et ultras internationaux
   - url: 'https://www.itra.run'
     label: ITRA – Classements et profils des coureurs de trail mondial
+publishedAt: "2026-04-15T09:00:00.000Z"
 ---
 Treize éditions et la même équation qui se vérifie : quand Alice Gaggi court chez elle, le reste du plateau féminin joue pour la deuxième place. Quand Lorenzo Rota Martir trouve ses marques dès les premiers hectomètres, la CT22 se transforme en contre-la-montre à un coureur. La Colmen Trail 2026 n'a pas dérogé à sa grammaire.
 

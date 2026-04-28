@@ -31,6 +31,7 @@ externalRefs:
       chaleur
   - url: 'https://www.trailrunnermag.com'
     label: Trail Runner Magazine – Dosage sodium et électrolytes en course longue
+publishedAt: "2026-04-09T10:00:00.000Z"
 ---
 
 Un ultra perdu à la ligne d'arrivée ne l'est presque jamais sur les glucides. C'est le sel, discrètement, qui fait basculer les fins de course par forte chaleur.

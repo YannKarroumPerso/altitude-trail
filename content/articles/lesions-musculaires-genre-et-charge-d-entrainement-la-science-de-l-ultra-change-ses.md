@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12996520/", label: "24-Hour Ultra-Marathon: Performance Factors and Physiological Impacts – PMC" }
 imagePrompt1: "Exhausted ultramarathon runner on a rocky alpine trail at dawn, headlamp still lit, wearing compression socks and hydration vest, mud-caked legs, hunched posture conveying extreme fatigue, dramatic mountain peaks emerging through morning mist, low-angle natural lighting casting long shadows, ultra-detailed"
 imagePrompt2: "Sports science researcher in white lab coat examining muscle fiber microscopy slides on a light table, modern laboratory with running performance data charts on large monitors, natural daylight from a tall window, focused analytical expression, clean minimalist environment, sharp depth of field"
+publishedAt: "2026-04-28T10:00:00.000Z"
 ---
 L'ultra-endurance n'est pas un marathon rallongé. Chaque coureur qui a franchi la ligne d'une épreuve de 100 miles le sait dans ses fibres. La science, elle, commence seulement à formaliser ce que le terrain enseigne depuis des décennies — et certaines conclusions sont inconfortables.
 

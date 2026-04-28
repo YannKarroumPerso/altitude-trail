@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/2026-western-states-100-top-entrants", label: "iRunFar – Top entrants Western States 100 2026" }
 imagePrompt1: "Elite trail runner ascending steep limestone mountain terrain in Mallorca Spain, rocky Puig Tomir massif in background, clear blue Mediterranean sky, technical single track path, dynamic uphill movement, athletic posture, warm late March morning light, documentary trail running photography"
 imagePrompt2: "Trail runner in motion on rocky alpine ridge with panoramic view of Chamonix valley and Mont Blanc massif below, dramatic golden hour dawn light, wide alpine landscape, summer mountain conditions, technical terrain, high altitude running atmosphere"
+publishedAt: "2026-04-25T11:30:00.000Z"
 ---
 ## L'info en 30 secondes
 

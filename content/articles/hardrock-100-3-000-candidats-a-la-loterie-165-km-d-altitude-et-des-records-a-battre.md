@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/2025-hardrock-100-lottery-results", label: "Loterie 2025 Hardrock 100 (iRunFar)" }
 imagePrompt1: "Ultra runners starting a mountain ultramarathon before dawn in a small historic Colorado mining town, headlamps illuminating a narrow street, snow-capped San Juan Mountain peaks barely visible in predawn sky, vintage fire truck leading the pack, cold July morning, dramatic low-light atmosphere"
 imagePrompt2: "Elite female trail runner charging up a rocky high alpine ridge at 3500 meters elevation in Colorado Rocky Mountains, vast rugged San Juan Mountains panorama with jagged peaks, summer wildflowers in foreground, dramatic storm clouds building overhead, intense physical effort visible on runner's face"
+publishedAt: "2026-04-28T09:30:00.000Z"
 ---
 À Silverton, Colorado, village de 713 habitants perché à 2 835 mètres d'altitude, se joue chaque juillet l'une des épreuves les plus exigeantes du [trail](https://www.altitude-trail.fr/articles/miut-2026-a-madere-l-ultra-trail-atlantique-de-118-km-qui-forge-des-records) mondial. Pas la plus longue. Pas la plus médiatisée. Mais celle où l'altitude est une condition de course permanente, du départ à l'arrivée.
 

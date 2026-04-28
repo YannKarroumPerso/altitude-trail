@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/2026-western-states-100-top-entrants", label: "iRunFar : top favoris Western States 100 2026" }
 imagePrompt1: "Male elite trail runner in motion ascending a very steep rocky alpine ridge at dawn, snow patches on high altitude terrain, dramatic orange alpenglow sky, French Alps mountain backdrop, wide angle camera perspective, dynamic motion blur on legs, ultra trail running atmosphere with sense of speed and endurance"
 imagePrompt2: "Close-up of worn trail running shoes stepping on granite rocks at high altitude, morning golden light, mud and dirt splatter on shoe surface, shallow depth of field, blurred snowy mountain peaks visible in background, sharp texture detail, dynamic moment"
+publishedAt: "2026-04-26T12:30:00.000Z"
 ---
 ## L'info en 30 secondes
 

@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/this-week-in-running-april-28-2025", label: "This Week in Running, 28 avril 2025 – iRunFar" }
 imagePrompt1: "multiple trail runners on Madeira volcanic rocky ridgeline at night during heavy rainstorm, headlamps creating beams through dense Atlantic fog, steep black volcanic terrain, race bibs visible, runners in rain jackets and gaiters, dramatic dark stormy sky, ocean far below in background, cinematic wide angle"
 imagePrompt2: "lone exhausted trail runner crossing finish line at Madeira Island Ultra-Trail in warm golden morning sunlight after overnight storm, face showing deep emotion and fatigue, lush green laurel forest mountains with mist in background, race number clearly visible, small crowd cheering along the barriers"
+publishedAt: "2026-04-25T13:00:00.000Z"
 ---
 Le 25 avril 2026, les volcans de Madère vont de nouveau trancher. Depuis sa naissance en 2008, le Madeira Island Ultra-Trail n'a jamais rendu la même course deux fois. C'est précisément ce qui en fait l'épreuve la plus difficile à déchiffrer de tout le calendrier mondial.
 

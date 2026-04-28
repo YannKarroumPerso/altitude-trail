@@ -30,6 +30,7 @@ youtubeTitle: 'Entrainement croisé : Le vélo fait-il vraiment progresser en co
 youtubeChannel: Running Addict
 youtubeDuration: 342
 youtubeUploadDate: '2020-06-21T18:45:00Z'
+publishedAt: "2026-04-08T09:30:00.000Z"
 ---
 
 Passer de la route au trail, ce n'est pas changer de [chaussures](https://www.altitude-trail.fr/articles/choisir-premiere-paire-chaussures-trail-guide-complet). C'est changer de logiciel moteur. Et c'est précisément là que beaucoup de coureurs venus du bitume se blessent dans les six premiers mois.

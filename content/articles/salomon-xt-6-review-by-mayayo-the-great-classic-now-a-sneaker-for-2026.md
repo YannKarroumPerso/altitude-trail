@@ -31,6 +31,7 @@ youtubeTitle: The Shoe That Broke the Hiking Footwear Industry
 youtubeChannel: Dusty Hikers
 youtubeDuration: 335
 youtubeUploadDate: '2023-08-06T10:02:37Z'
+publishedAt: "2026-04-01T09:30:00.000Z"
 ---
 Une chaussure de trail qui finit en vitrine de sneaker shop, ce n'est plus une anomalie. C'est un modèle économique. Avec le catalogue 2026, [Salomon](https://www.altitude-trail.fr/articles/courtney-dauwalter-et-salomon-un-mariage-prolonge-jusqu-en-2029) officialise ce que tout le monde avait compris : la XT-6 est désormais une sneaker unisexe et la marque d'Annecy en fait un pilier assumé de sa stratégie.
 

@@ -19,6 +19,7 @@ externalRefs:
   - { url: "https://www.trailrunnermag.com", label: "Trail Runner Mag – analyses et actualités du trail mondial" }
 imagePrompt1: "solo trail runner ascending an extremely steep snow couloir in Italian Alps at golden sunrise, rocky summit visible above, Valtellina valley far in background, athletic figure using trekking poles, dramatic long shadows on white snow, high altitude summer conditions"
 imagePrompt2: "group of three skyrunners racing side by side on steep rocky mountain trail in Lombardy Alps, summer light with patches of late snow on slope, panoramic view of Italian valley far below, technical lightweight gear, intense effort visible on faces"
+publishedAt: "2026-04-24T12:30:00.000Z"
 ---
 
 Deux mille mètres de dénivelé positif en neuf kilomètres. Sur ce type de tracé, le moteur aérobie seul ne suffit pas : il faut une force dans les jambes et une résistance à la douleur que l'entraînement de fond ne garantit pas. La K2 Valtellina Extreme Vertical Race, dont les inscriptions sont ouvertes depuis le 18 avril 2026, ne court pas après le grand public.

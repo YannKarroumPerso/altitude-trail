@@ -35,6 +35,7 @@ externalRefs:
     label: >-
       ITRA – Fédération internationale de trail running et référencement des
       courses
+publishedAt: "2026-04-18T09:00:00.000Z"
 ---
 Un circuit de moto-cross, des relais qui s'enchaînent, zéro crête et zéro cairn. Les [Heures](https://www.altitude-trail.fr/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures) barbares, dont U-Trail a raconté la première édition, ne ressemblent à rien de ce que le trail français produit habituellement. Provocation marketing ou signal faible d'une mutation plus profonde ? Les deux, probablement.
 

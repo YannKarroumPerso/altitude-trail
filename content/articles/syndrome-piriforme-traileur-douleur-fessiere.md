@@ -35,6 +35,7 @@ youtubeTitle: 'Sciatique : 3 exercices pour se soulager rapidement'
 youtubeChannel: Alexandre Auffret - Tout pour ma Santé
 youtubeDuration: 367
 youtubeUploadDate: '2020-12-06T09:26:36Z'
+publishedAt: "2026-04-12T10:00:00.000Z"
 ---
 
 Une fesse qui chauffe en descente, une jambe qui fourmille sur les dix derniers kilomètres, une position assise devenue insupportable le lendemain. Trois signes qui ne trompent pas : ce n'est probablement pas une sciatique.

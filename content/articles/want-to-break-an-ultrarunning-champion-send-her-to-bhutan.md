@@ -46,6 +46,7 @@ externalRefs:
       et de l'hypoxie
   - url: 'https://www.irunfar.com'
     label: iRunFar – Couverture éditoriale des courses ultra-trail en haute montagne
+publishedAt: "2024-12-13T09:00:00.000Z"
 ---
 
 Une championne de Leadville, 177 kilomètres d'Himalaya, cinq jours de course, un roi commanditaire et une pancarte climat. Sur le papier, l'histoire parfaite. Sur le terrain, Clare Gallagher s'est fissurée dès la troisième étape.

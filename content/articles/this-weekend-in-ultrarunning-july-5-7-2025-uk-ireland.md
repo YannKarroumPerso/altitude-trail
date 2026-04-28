@@ -19,6 +19,7 @@ externalRefs:
   - { url: "https://www.trailrunnermag.com", label: "Trail Runner Mag – Analyses et portraits de l" }
 imagePrompt1: "trail runner in bright yellow hydration vest running on narrow chalk-white path through rolling South Downs hills at golden hour sunrise near Haslemere England, long shadows across lush green summer grass, distant villages visible through morning mist in valley below"
 imagePrompt2: "exhausted ultra runner with trekking poles and activated headlamp crossing remote Scottish Highland moorland in the deep of night near Milngavie Great Glen Way, vast purple heather field underfoot, dark jagged mountains silhouetted against pale luminous blue summer sky, total wilderness solitude"
+publishedAt: "2025-07-02T09:00:00.000Z"
 ---
 
 Un seul week-end de juillet. Onze courses d'ultra-endurance simultanées. Trois pays sur une même île. Ce n'est pas un programme exceptionnel dans les îles britanniques : c'est le rythme ordinaire d'une scène qui a cessé, depuis longtemps, d'avoir besoin d'un événement centralisateur pour exister.

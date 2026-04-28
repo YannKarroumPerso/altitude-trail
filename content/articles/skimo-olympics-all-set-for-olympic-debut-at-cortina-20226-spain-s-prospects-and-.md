@@ -35,6 +35,7 @@ externalRefs:
     label: >-
       World Athletics – Fédération internationale et calendrier des disciplines
       athlétiques
+publishedAt: "2026-04-02T09:00:00.000Z"
 ---
 Le ski-alpinisme entre aux Jeux par la grande porte et il y entre par l'Italie. À Cortina d'Ampezzo, en février 2026, une discipline née de la nécessité montagnarde va devoir prouver qu'elle tient debout sous les projecteurs du CIO. Ce n'est pas qu'un symbole. C'est un test.
 

@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://www.runnersworld.com/gear/a20827055/advanced-gps-watches-for-runners/", label: "Les meilleures montres GPS avancées selon Runner" }
 imagePrompt1: "Trail runner pausing on a rocky mountain ridge at golden hour, checking GPS watch on wrist, dramatic alpine landscape with snow-capped peaks in background, focused expression, athletic trail running outfit, close-up on watch face showing navigation data"
 imagePrompt2: "Three GPS sport watches with round faces laid out on a granite boulder in mountain setting, next to trail shoes and trekking poles, soft natural light, top-down flat lay composition, detailed watch displays visible"
+publishedAt: "2026-04-28T11:00:00.000Z"
 ---
 Trente et une heures en mode GPS complet, un écran AMOLED lisible sous n'importe quel soleil, moins de 230 euros. Avec le Pace 4, Coros oblige les autres marques à se justifier autrement que par les caractéristiques techniques. En 2026, la parité matérielle est presque acquise. Le reste est une question de plateforme logicielle et de philosophie de marque.
 

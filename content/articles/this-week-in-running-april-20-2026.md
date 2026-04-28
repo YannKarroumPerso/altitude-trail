@@ -27,6 +27,7 @@ externalRefs:
     label: UTMB World Series – Calendrier et résultats des étapes mondiales
   - url: 'https://www.itra.run'
     label: ITRA – Fédération internationale de trail running
+publishedAt: "2026-04-20T10:30:00.000Z"
 ---
 Un record mondial sur tapis de course à Boston, 42 secondes d'écart après dix heures d'effort dans la sierra espagnole et une Kényane qui débranche une descente portugaise pour détrôner la championne en titre. Le 20 avril 2026 ne restera pas dans les annales comme un week-end charnière. Mais il dit beaucoup de l'état de forme actuel du trail mondial.
 

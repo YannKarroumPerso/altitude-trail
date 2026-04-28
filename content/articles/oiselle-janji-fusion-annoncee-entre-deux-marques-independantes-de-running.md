@@ -24,6 +24,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/oiselle-janji-merger", label: "iRunFar – Fusion des marques indépendantes Oiselle et Janji" }
 imagePrompt1: "Two trail runners wearing contrasting colorful technical running apparel jogging side by side on a rocky alpine mountain path at sunrise, one in bright patterned multi-color shirt, one in minimal athletic kit, French Alps environment, candid action moment, warm golden back-lighting, photorealistic"
 imagePrompt2: "Folded technical trail running shirts in vivid eclectic tropical color-block prints neatly arranged side by side on a flat natural granite rock surface in the mountains, early morning diffuse natural light, minimalist product close-up photography, shallow depth of field, clean neutral composition"
+publishedAt: "2026-04-24T15:00:00.000Z"
 ---
 ## L'info en 30 secondes
 

@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://utmb.world/news/canyons-endurance-runs-utmb", label: "Canyons Endurance Runs by UTMB – présentation officielle UTMB World Series" }
 imagePrompt1: "Large group of trail runners at a sunny race start in Auburn California foothills, Sierra Nevada mountains in the background, midday bright light, dirt trail, crowd of runners with race bibs, rugged canyon terrain, clear blue sky, ultra marathon atmosphere"
 imagePrompt2: "Solo trail runner wading through a shallow rocky river in a deep California canyon, dramatic red and brown canyon walls lined with oak trees, warm afternoon golden light, athletic focus, ultra marathon race, wilderness isolation, Sierra Nevada foothills"
+publishedAt: "2026-04-24T11:00:00.000Z"
 ---
 Midi pile à Auburn, le vendredi 24 avril [2026](https://www.altitude-trail.fr/articles/125-km-sur-le-geant-de-provence-le-grand-raid-ventoux-s-impose-dans-l-utmb-world-series). Le départ de la Canyons Endurance Runs by UTMB 100M envoie ses coureurs dans les canyons de la Sierra Nevada pour 161 km et 5 550 m de dénivelé positif. Soit près de quatre marathons enchaînés sur le territoire qui a littéralement inventé l'ultra-trail américain.
 

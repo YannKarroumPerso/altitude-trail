@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://itra.run/Races/RaceDetails/Corfu.Mountain.Trail.RAIN.TRAIL/2026/105832", label: "ITRA – Corfu Mountain Trail 2026" }
 imagePrompt1: "Trail runners racing along dramatic limestone mountain ridgeline in Wuyishan Fujian China, misty morning atmosphere, lush green subtropical forest below, wide cinematic aerial perspective, golden hour light filtering through mountain fog"
 imagePrompt2: "Close-up detail of ITRA race bib pinned to trail running vest at outdoor mountain race registration table, natural daylight, selective focus on race number and ITRA logo, blurred mountain backdrop"
+publishedAt: "2026-04-27T09:30:00.000Z"
 ---
 ## L'info en 30 secondes
 

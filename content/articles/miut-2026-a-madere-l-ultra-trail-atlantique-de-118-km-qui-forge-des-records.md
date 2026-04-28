@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/race-director-chronicles-sidonio-freitas-and-the-madeira-island-ultra-trail", label: "Portrait de Sidónio Freitas, directeur historique du MIUT (iRunFar)" }
 imagePrompt1: "Ultra trail runners crossing a rugged volcanic ridgeline on Madeira island at early morning, laurel forest below, dramatic Atlantic ocean horizon, low mist, steep technical rocky path, runners in headlamps and race bibs, moody dawn light"
 imagePrompt2: "Female trail runner pushing through heavy rain and gusting wind on exposed Madeira mountain ridge, muddy single track, dark storm clouds over laurisilva forest, race bib visible, focused expression, wet gear"
+publishedAt: "2026-04-25T12:30:00.000Z"
 ---
 Madère ne négocie pas. Le 25 avril 2026, le Madeira Island Ultra-Trail repart depuis ses crêtes volcaniques et ses forêts de laurisylve, sur un parcours que les incendies d'août 2024 ont contraint de remodeler. Le terrain a changé de visage. La logique de la [course](https://www.altitude-trail.fr/articles/miut-2026-115-km-a-travers-madere-la-course-qui-ne-cede-rien), elle, reste intacte : 118 kilomètres, 6 700 mètres de dénivelé positif, une météo atlantique qui décide seule, et des vainqueurs qui gagnent toujours trop vite pour que ça ressemble à une bataille.
 

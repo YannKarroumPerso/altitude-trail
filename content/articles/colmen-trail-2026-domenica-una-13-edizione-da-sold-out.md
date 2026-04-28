@@ -42,6 +42,7 @@ externalRefs:
     label: >-
       ITRA – Index international de classement et de gestion des courses de
       trail
+publishedAt: "2026-04-16T09:30:00.000Z"
 ---
 
 Cinq cents dossards. Pas un de plus. À 24 heures de la clôture officielle, le Colmen [Trail](https://www.altitude-trail.fr/articles/ffa-certification-epreuves-trail-nouveau-cadre-2026) 2026 a fermé ses inscriptions, et personne ne s'en excuse. Dans un écosystème où la croissance est devenue un réflexe, la décision du Team Valtellina ressemble presque à un acte politique.

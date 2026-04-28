@@ -19,6 +19,7 @@ externalRefs:
   - { url: "https://www.irunfar.com", label: "iRunFar : couverture et analyses des ultras mondiaux" }
 imagePrompt1: "pre-dawn UTMB mountain aid station near Chamonix, volunteers in orange high-visibility vests preparing supplies under powerful floodlights, dense fog rolling over alpine ridge, headlamps and warm light contrasting with cold blue mountains, 2000 meters altitude, wide establishing shot"
 imagePrompt2: "solo trail runner approaching Chamonix finish line at UTMB race, large corporate sponsor banners and branded barriers lining the course, contrast between lone exhausted athlete and heavy commercial infrastructure, wide angle, golden hour mountain backdrop"
+publishedAt: "2026-04-26T13:00:00.000Z"
 ---
 
 On ne quitte pas le poste de responsable des bénévoles de l'UTMB comme on rend un badge de vestiaire. Benoit Roux a démissionné. Sa raison, rapportée par u-[Trail](https://www.altitude-trail.fr/articles/a-44-ans-andy-symonds-domine-le-grand-raid-ventoux-by-utmb-et-redefinit-l-age), tient en une formule laconique mais lourde : il n'est plus en phase avec ce que devient l'UTMB.

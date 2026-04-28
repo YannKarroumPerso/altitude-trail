@@ -26,6 +26,7 @@ externalRefs:
     label: Ultrarunning Magazine – Media de référence sur l'ultra-trail
   - url: 'https://www.irunfar.com'
     label: iRunFar – Tests et actualités matériel trail running
+publishedAt: "2026-03-29T09:00:00.000Z"
 ---
 Une marque chinoise qu'on ne voit pratiquement jamais sur les départs de l'UTMB. Un modèle, la Lynx, qui traverse la presse anglo-saxonne à petits pas feutrés. Et pourtant, à lire le test mené par Ultra Runner Magazine, l'outsider 361° coche suffisamment de cases pour qu'on s'interroge sur ce que la discrétion recouvre vraiment.
 

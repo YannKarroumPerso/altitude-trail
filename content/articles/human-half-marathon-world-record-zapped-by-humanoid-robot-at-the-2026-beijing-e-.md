@@ -39,6 +39,7 @@ externalRefs:
     label: >-
       World Athletics – Records du monde officiels du semi-marathon (Kiplimo,
       Gidey)
+publishedAt: "2026-04-20T09:30:00.000Z"
 ---
 
 Un robot a couru 21,1 km en 50 minutes et 26 secondes. Soit sept minutes sous le record du monde humain de Jacob Kiplimo. La nouvelle sonne comme une farce. Elle n'en est pas une.

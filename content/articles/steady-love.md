@@ -27,6 +27,7 @@ externalRefs:
     label: iRunFar – Média de référence sur l'ultra-trail et chroniques d'athlètes
   - url: 'https://www.transgrancanaria.net'
     label: Transgrancanaria – Site officiel de la course mentionnée dans l'article
+publishedAt: "2026-04-14T10:00:00.000Z"
 ---
 Zach Miller, un des coureurs les plus intenses de sa génération, publie un texte qui ressemble à un aveu. Pas un palmarès, pas un bilan de saison. Une confession sur ce qu'il retiendra vraiment et ce n'est pas ce que l'on croit.
 

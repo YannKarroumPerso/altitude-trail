@@ -21,6 +21,7 @@ externalRefs:
     label: UTMB World Series – Calendrier officiel des courses labellisées
   - url: 'https://www.irunfar.com'
     label: iRunFar – Actualités et résultats des grandes courses de trail mondial
+publishedAt: "2026-04-05T09:30:00.000Z"
 ---
 
 En trois éditions, une course pyrénéenne a fait ce que d'autres mettent dix ans à construire : exister sur la carte mondiale du trail. L'Occitane by UTMB n'a pas grimpé les marches une par une. Elle a pris l'ascenseur.

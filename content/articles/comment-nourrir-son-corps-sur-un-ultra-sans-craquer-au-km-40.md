@@ -32,6 +32,7 @@ externalRefs:
     label: iRunFar – Ressources et analyses nutrition pour l'ultra-trail
   - url: 'https://www.trailrunnermag.com'
     label: Trail Runner Magazine – Guides pratiques nutrition sur ultra-distance
+publishedAt: "2026-04-22T10:30:00.000Z"
 ---
 
 Le mur du kilomètre 40 n'est presque jamais musculaire. C'est presque toujours métabolique. Le coureur qui explose sur un 80 km n'a pas "les jambes qui lâchent", son cerveau n'a plus de carburant, son estomac refuse tout, et son système nerveux central baisse le rideau. La nutrition sur ultra, c'est 60 % de la performance. Pas un détail à régler la veille.

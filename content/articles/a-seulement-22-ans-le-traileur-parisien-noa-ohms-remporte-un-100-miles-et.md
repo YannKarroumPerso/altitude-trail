@@ -20,6 +20,7 @@ externalRefs:
   - { url: "https://www.wser.org", label: "Western States 100 — La course qui a tracé le chemin des canyons californiens" }
 imagePrompt1: "Young male trail runner in his early twenties racing on a red dirt single track through rugged Sierra Nevada foothills canyon terrain in California, golden afternoon sunlight, pine trees and canyon walls in background, race bib pinned to shirt, trail running shoes kicking up dust"
 imagePrompt2: "Male ultra-trail runner crossing a finish line timing arch at dawn in California, exhausted but still running upright, small crowd cheering along finish chute, soft warm morning light, dusty trail running clothes, race bib visible, mist in the canyon below"
+publishedAt: "2026-04-27T09:00:00.000Z"
 ---
 
 Cent miles. Cent soixante et un kilomètres de canyons californiens, de dénivelé et de gestion de l'effort dans le noir. C'est le format que vient de remporter Noa Ohms, 22 ans, coureur parisien, en décrochant dans la foulée sa qualification pour l'UTMB.

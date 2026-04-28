@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/nike-trail-team-becomes-all-conditions-racing-department-nike-to-launch-radical-airflow-apparel-and-acg-ultrafly-in-2026", label: "iRunFar – Nike rebaptise son équipe trail en All Conditions Racing Department" }
 imagePrompt1: "Female trail runner in powerful motion descending rocky mountain singletrack at golden hour, dramatic backlighting, vast alpine landscape in background, wearing minimalist technical running apparel in muted earth tones, wide cinematic composition emphasizing scale and rugged terrain, dust particles in the air"
 imagePrompt2: "Close-up of high-performance trail running apparel and shorts laid flat on aged granite rock surface in outdoor setting, soft diffused natural sidelight, muted earth and slate grey tones, fine fabric texture and technical details clearly visible, brand-neutral styling, clean minimal composition, no people"
+publishedAt: "2026-04-28T10:30:00.000Z"
 ---
 ## L'info en 30 secondes
 

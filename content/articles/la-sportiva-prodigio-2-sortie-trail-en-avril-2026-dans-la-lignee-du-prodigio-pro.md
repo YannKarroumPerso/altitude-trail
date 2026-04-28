@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/best-trail-running-shoes", label: "iRunFar – Meilleures chaussures trail 2026" }
 imagePrompt1: "La Sportiva trail running shoe with thick rockered midsole resting on an alpine rocky singletrack, scattered stones and pine needles, late afternoon golden light casting shadows on foam midsole and sticky rubber outsole, distant snow-capped mountain peaks in background"
 imagePrompt2: "Extreme close-up detail of a La Sportiva trail running shoe sticky rubber outsole pressed firmly against a wet gray granite boulder, water droplets visible on angular rubber lugs, soft overcast natural light, detailed rocker geometry midsole visible at heel"
+publishedAt: "2026-04-24T13:00:00.000Z"
 ---
 ## L'info en 30 secondes
 

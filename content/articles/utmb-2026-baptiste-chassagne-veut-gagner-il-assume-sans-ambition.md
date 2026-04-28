@@ -18,6 +18,7 @@ externalRefs:
   - { url: "https://www.itra.run", label: "Classements mondiaux et profils athlètes — ITRA" }
 imagePrompt1: "French ultra-trail runner ascending steep volcanic rocky trail at night during Grand Raid de La Réunion Reunion Island, headlamp beam cutting through tropical mist, distant ocean faintly visible, dense green forest below, dramatic dark sky with stars, race bib visible on runner"
 imagePrompt2: "Dense field of ultra-trail runners on a narrow single track through alpine meadow below snow-capped Mont Blanc glacier at dawn during UTMB Chamonix, golden morning light, wooden chalets and pine forest in valley below, athletes in colorful trail gear"
+publishedAt: "2026-04-24T10:00:00.000Z"
 ---
 
 Annoncer publiquement qu'on veut gagner l'[UTMB](https://www.altitude-trail.fr/articles/avec-15-000-m-de-d-par-semaine-theo-detienne-redefinit-il-les-standards-de-preparation), c'est prendre une position. Pas de la prétention : une déclaration de statut. Baptiste Chassagne, vainqueur de la Diagonale des Fous, vient de franchir ce pas. Dans l'ultra-trail de haut niveau, le discours public est souvent aussi surveillé que la performance elle-même.

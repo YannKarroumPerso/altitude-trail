@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/", label: "iRunFar – Trail Running & Ultramarathon Resource" }
 imagePrompt1: "Male trail runner with race bib crossing finish line at Madeira Island Ultra-Trail event, volcanic mountain scenery with lush green laurel forest and Atlantic ocean cliffs in background, late afternoon golden light, exhausted but triumphant expression, spectators cheering along finish chute"
 imagePrompt2: "Two trail runners in fierce competition on a narrow single track path through Madeira laurisilva laurel forest, ancient moss-covered trees, wet volcanic rocks and roots underfoot, morning mist filling the valley below, intense athletic effort visible on faces"
+publishedAt: "2026-04-27T11:00:00.000Z"
 ---
 Douze heures, quarante-neuf minutes, trois secondes. C'est le temps qu'il a fallu à Vincent Esmiol pour traverser les 110 kilomètres de la Madeira Island Ultra-Trail Legend 110k, ce samedi 25 avril 2026. Derrière lui, Gautier Airiau a poussé jusqu'au bout. Une course tenue à l'os, du départ jusqu'à la ligne.
 

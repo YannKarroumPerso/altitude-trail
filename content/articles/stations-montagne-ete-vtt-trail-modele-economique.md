@@ -24,6 +24,7 @@ externalRefs:
     label: >-
       ITRA – Index international de classement et référencement des courses
       trail
+publishedAt: "2026-04-13T10:00:00.000Z"
 ---
 
 La saison blanche ne suffit plus. Les stations de montagne françaises ont fait leurs comptes : sans un été rentable, le modèle ne tient plus. Reste à choisir son camp, ou à refuser de choisir.

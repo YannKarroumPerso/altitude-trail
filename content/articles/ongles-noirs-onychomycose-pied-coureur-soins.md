@@ -37,6 +37,7 @@ youtubeTitle: >-
 youtubeChannel: Allopodo
 youtubeDuration: 504
 youtubeUploadDate: '2025-06-26T12:59:48Z'
+publishedAt: "2026-04-20T09:00:00.000Z"
 ---
 
 Le trail laisse des traces. Les médailles, les Strava, les photos au sommet, et les ongles noirs, cette signature discrète qu'on cache en tongs au bureau.

@@ -35,6 +35,7 @@ externalRefs:
     label: >-
       UTMB World Series – données officielles sur la CCC et les profils de
       course
+publishedAt: "2026-04-17T09:00:00.000Z"
 ---
 
 Kilomètre 150 de la CCC, [descente](https://www.altitude-trail.fr/articles/la-descente-fait-plus-de-degats-que-la-montee-voici-comment-proteger-vos-articulations) finale sur Chamonix. Le cardio tient, la tête aussi. Ce sont les quadriceps qui refusent d'amortir le prochain pas. Cette scène n'est pas une fatalité : c'est un déficit d'entraînement spécifique.

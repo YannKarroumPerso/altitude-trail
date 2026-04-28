@@ -29,6 +29,7 @@ externalRefs:
     label: >-
       Trail Runner Magazine – Articles de prévention et gestion des blessures
       aux pieds en ultra
+publishedAt: "2026-04-09T09:00:00.000Z"
 ---
 
 Un ongle qui accroche, une couture qui frotte, une chaussette humide depuis quatre heures. Et soudain, à 80 kilomètres de l'arrivée, la course bascule. Pas sur un mollet explosé ou une hypoglycémie : sur une ampoule de trois centimètres sous le talon.

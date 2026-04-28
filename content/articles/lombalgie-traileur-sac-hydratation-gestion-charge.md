@@ -29,6 +29,7 @@ externalRefs:
     label: >-
       Trail Runner Magazine - Articles sur les blessures courantes et
       l'équipement en trail
+publishedAt: "2026-04-15T09:30:00.000Z"
 ---
 
 Une douleur sourde qui grignote les derniers kilomètres, s'estompe au bivouac, ressurgit dès la reprise. Le traileur blâme son dos. Très souvent, c'est son sac qui parle.

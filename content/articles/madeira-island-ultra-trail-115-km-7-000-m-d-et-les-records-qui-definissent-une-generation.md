@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/2025-transvulcania-ultramarathon-mens-preview", label: "Transvulcania 2025 : le profil et la forme de Lambert Santelli — iRunFar" }
 imagePrompt1: "Elite trail runner ascending a narrow volcanic ridge in Madeira island, vast Atlantic Ocean visible far below, early morning golden light, steep lush green slopes covered with ancient laurel trees, dramatic cloud layer rolling over mountains, wide cinematic landscape shot"
 imagePrompt2: "Trail runners moving through a misty exposed ridgeline in Madeira island, dense subtropical laurel forest on both sides, overcast sky, technical volcanic rock terrain underfoot, athletes captured mid-stride, dynamic action photography"
+publishedAt: "2026-04-23T11:00:00.000Z"
 ---
 Porto Moniz, côte nord-ouest de Madère, face à l'Atlantique. Au bout d'une île volcanique qui n'a rien d'un terrain de confort. Chaque printemps, le [Madeira](https://www.altitude-trail.fr/articles/madeira-island-ultra-trail-18-ans-sur-une-ile-qui-ne-pardonne-rien) Island Ultra-Trail relie ce point à Machico, 115 kilomètres plus à l'est, au terme d'un trajet qui ne ment jamais sur l'état de forme de ceux qui s'y engagent.
 

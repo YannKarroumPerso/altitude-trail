@@ -35,6 +35,7 @@ externalRefs:
       ultra-endurance
   - url: 'https://www.utmb.world'
     label: UTMB World – Contexte des courses d'ultra-trail en autonomie
+publishedAt: "2026-04-13T09:00:00.000Z"
 ---
 Deux décès, deux continents, la même semaine. Dans le Sahara marocain et dans les Highlands écossais, le trail d'endurance a perdu deux des siens à quelques jours d'intervalle. Les circonstances diffèrent, la leçon est identique : l'expérience ne protège de rien.
 

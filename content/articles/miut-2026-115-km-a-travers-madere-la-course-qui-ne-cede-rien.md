@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/race-director-chronicles-sidonio-freitas-and-the-madeira-island-ultra-trail", label: "Portrait de Sidónio Freitas, directeur de course de la MIUT — iRunFar" }
 imagePrompt1: "Trail runners with headlamps starting at midnight in the dark coastal village of Porto Moniz, Madeira island, volcanic rocky cliffs above Atlantic ocean, dense laurisilva forest, competitive ultra trail race start, hundreds of runners, dramatic midnight atmosphere, long exposure lighting"
 imagePrompt2: "Elite trail runner on exposed volcanic ridge at dawn in Madeira Portugal, lush green laurel forest peaks above a sea of clouds, steep technical mountain trail, Atlantic ocean visible far below, golden early morning light, ultra marathon race in progress, dramatic volcanic scenery"
+publishedAt: "2026-04-24T14:30:00.000Z"
 ---
 Minuit, Porto Moniz. Le village de la côte nord-ouest de Madère s'éteint dans le fracas des frontales et le grondement de l'Atlantique. Ce 25 avril 2026, les coureurs engagés sur la Madeira Island Ultra-Trail s'élancent vers Machico, 115 kilomètres au sud-est, avec une seule certitude : l'île ne leur facilitera rien.
 

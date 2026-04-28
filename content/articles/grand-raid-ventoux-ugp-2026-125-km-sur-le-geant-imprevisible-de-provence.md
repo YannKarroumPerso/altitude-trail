@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://utmb.world/finals", label: "UTMB World Series Finals 2026 — calendrier complet" }
 imagePrompt1: "Dozens of elite trail runners in race bibs departing from a small Provençal village at dawn, medieval stone church and vineyard slopes in background, bare rocky mountain summit glowing orange under early morning light, April start line atmosphere, packed crowd, wide angle"
 imagePrompt2: "Solo trail runner crossing the exposed rocky summit plateau of Mont Ventoux, white limestone terrain, no vegetation, strong wind visible on clothing, dramatic storm clouds building overhead, Provence valley far below, dynamic side angle shot, race number bib visible"
+publishedAt: "2026-04-26T12:00:00.000Z"
 ---
 Le Ventoux ne fait pas dans la demi-mesure. Ce vendredi 24 avril 2026, le peloton de l'Ultra Géant de [Provence](https://www.altitude-trail.fr/articles/125-km-5-700-m-et-le-geant-de-provence-le-grand-raid-ventoux-2026-entre-en-scene) s'est élancé de Malaucène pour 125 kilomètres et 5 700 mètres de dénivelé positif. Sur le Mont Ventoux, le printemps provençal n'est pas une promesse de clémence.
 

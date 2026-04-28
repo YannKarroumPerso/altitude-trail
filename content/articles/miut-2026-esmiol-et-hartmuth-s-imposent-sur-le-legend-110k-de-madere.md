@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/2022-madeira-island-ultra-trail-results", label: "MIUT 2022 : les records de Walmsley et Dauwalter – iRunFar" }
 imagePrompt1: "Lone trail runner with headlamp crossing a narrow volcanic ridge on Madeira island in complete pre-dawn darkness, rugged black basalt rocks, ancient misty laurisilva forest silhouette in background, atmospheric fog, race number visible on vest"
 imagePrompt2: "Pack of trail runners descending steep singletrack through dense Madeira laurisilva forest, lush endemic green vegetation, golden morning light filtering through tree canopy, volcanic rocky muddy path, race bibs visible, dynamic motion blur"
+publishedAt: "2026-04-26T14:00:00.000Z"
 ---
 Cent dix kilomètres. Un archipel volcanique. Deux vainqueurs. Le 25 avril 2026, le Madeira Island Ultra-Trail a rendu son verdict avec les victoires de Vincent Esmiol chez les hommes et de [Katharina](https://www.altitude-trail.fr/articles/vincent-esmiol-et-katharina-hartmuth-remportent-le-miut-2026-un-110k-inedit-a-madere) Hartmuth chez les femmes. Derrière ces noms, une course en perpétuelle recomposition sur un terrain qui n'en finit pas de surprendre.
 

@@ -30,6 +30,7 @@ externalRefs:
       blessures de sur-usage
   - url: 'https://www.itra.run'
     label: ITRA – Référentiel international du trail running et suivi des coureurs
+publishedAt: "2026-04-22T12:00:00.000Z"
 ---
 
 Un coureur sur deux se blesse au moins une fois par an. C'est le chiffre universel, peu importe le pays ou le niveau. Mais dans le groupe qui ne se blesse pas, une pratique revient systématiquement : **2 à 3 séances de [renforcement](https://www.altitude-trail.fr/articles/renforcement-musculaire-trail-exercices-cles) musculaire par semaine**. Pas de la muscu lourde façon bodybuilder. Des exercices spécifiques, brefs, qui protègent exactement les zones à risque du coureur.

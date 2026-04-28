@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://www.trailrunnermag.com/training/trail-tips-training/how-to-run-the-western-states-100/", label: "Comment courir le WS100 – Trail Runner Mag" }
 imagePrompt1: "Kilian Jornet running alone on a high alpine rocky trail in the Sierra Nevada at dawn, granite peaks and snow patches in background, dramatic golden morning light, dust rising from trail, ultra marathon action, wide cinematic shot"
 imagePrompt2: "Exhausted ultra marathon runner power hiking up steep canyon switchbacks at dusk in California foothills, red earth trail, sharp series of turns carved into canyon wall, heat shimmer visible, raw determination on face, documentary wide shot"
+publishedAt: "2026-04-28T12:00:00.000Z"
 ---
 Cent miles. Soit 161 kilomètres depuis les neiges des Sierra Nevada jusqu'aux [canyons](https://www.altitude-trail.fr/articles/canyons-100m-by-utmb-2026-161-km-sur-le-western-states-trail-le-depart-est-donne) de l'American River. Le Western States 100 ne se gagne pas le jour J : il se décide dans les mois de préparation et les choix tactiques des 80 premiers miles.
 

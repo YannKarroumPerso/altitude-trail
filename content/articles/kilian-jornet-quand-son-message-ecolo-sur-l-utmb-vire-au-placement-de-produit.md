@@ -19,6 +19,7 @@ externalRefs:
   - { url: "https://www.irunfar.com", label: "iRunFar : couverture internationale des courses d" }
 imagePrompt1: "Trail runner moving through a protected alpine nature reserve at night, red headlamp casting warm red glow on rocky trail, Contamines-Montjoie forest backdrop, dense dark conifer trees, misty mountain atmosphere, Mont-Blanc massif silhouette in background, lone runner on narrow single track path, dramatic darkness punctuated by red light"
 imagePrompt2: "Trail runner examining lightweight headlamp and minimal running gear on mountain boulder, French Alps at golden hour, Mont-Blanc massif in background, sustainable outdoor equipment spread on rough granite stone, athletic figure studying technical running accessories, warm evening light on high altitude landscape"
+publishedAt: "2026-04-23T10:30:00.000Z"
 ---
 
 Une mesure de protection de la faune nocturne, un message enthousiaste sur les réseaux sociaux, et une marque d'équipement dont les intérêts coïncident précisément avec la décision saluée. Ce n'est pas une accusation. C'est un problème de transparence — et le trail de haut niveau en est de moins en moins exempt.

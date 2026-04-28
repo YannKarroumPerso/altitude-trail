@@ -39,6 +39,7 @@ externalRefs:
     label: Trail Runner Magazine – Industrie et équipement trail
   - url: 'https://www.itra.run'
     label: ITRA – Fédération internationale de trail running
+publishedAt: "2026-04-16T11:00:00.000Z"
 ---
 
 Vingt ans dans le [running](https://www.altitude-trail.fr/articles/scott-running-team-2026-la-releve-frappe-a-la-porte), c'est l'âge auquel une marque cesse d'être un nouvel entrant pour devenir un acteur installé. SCOTT a choisi la Val di Sole pour marquer le coup. Derrière les jus de pomme et les sessions d'essai, une question : que vend-on vraiment quand on vend une chaussure de trail en 2026 ?

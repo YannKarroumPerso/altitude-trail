@@ -32,6 +32,7 @@ externalRefs:
     label: >-
       Inserm – données scientifiques sur le sommeil et la récupération
       physiologique
+publishedAt: "2026-04-22T13:00:00.000Z"
 ---
 
 Tu peux avoir le meilleur [plan](https://www.altitude-trail.fr/articles/plan-entrainement-ultra-quatre-blocs-essentiels) d'entraînement du monde, la meilleure nutrition, les meilleures chaussures. Si tu dors 6 heures par nuit en enchaînant les grosses semaines, tu te blesseras. La science est désormais sans ambiguïté : **le sommeil est le levier de récupération n°1 du coureur d'endurance**, loin devant la nutrition post-effort, les bains froids, ou le massage. Et c'est gratuit.

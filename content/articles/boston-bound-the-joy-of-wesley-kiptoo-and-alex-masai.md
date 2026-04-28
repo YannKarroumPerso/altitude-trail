@@ -31,6 +31,7 @@ externalRefs:
     label: >-
       PubMed – Études scientifiques sur l'entraînement en altitude et la
       performance marathon
+publishedAt: "2026-04-14T10:30:00.000Z"
 ---
 Deux Kényans, une équipe américaine, une ligne de départ à Hopkinton. L'histoire paraît balisée. Elle ne l'est pas.
 

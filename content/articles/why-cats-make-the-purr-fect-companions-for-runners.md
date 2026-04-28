@@ -25,6 +25,7 @@ externalRefs:
     label: Trail Runner Mag – média de référence trail et ultra-trail
   - url: 'https://www.irunfar.com'
     label: iRunFar – actualités et culture de l'ultra-trail
+publishedAt: "2026-03-28T09:00:00.000Z"
 ---
 Oubliez le labrador qui court à vos côtés sur les single tracks. La vraie révélation du trail outdoor 2024 pourrait bien tenir sur quatre pattes, miauler à l'aube et peser trois kilos. Le chat s'invite sur les sentiers, et la culture running commence à en prendre acte.
 

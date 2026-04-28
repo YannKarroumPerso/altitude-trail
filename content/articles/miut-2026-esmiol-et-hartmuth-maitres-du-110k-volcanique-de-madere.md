@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/2025-madeira-island-ultra-trail-results-paul-cornut-chauvinc-and-katie-schide-win", label: "Résultats MIUT 115k 2025 – iRunFar" }
 imagePrompt1: "trail runners with headlamps moving single file through ancient dense laurissilva laurel forest at night on Madeira island, twisted gnarled laurel branches overhead, thick Atlantic mist, volcanic rocky path, dramatic beams of headlamp light cutting through fog"
 imagePrompt2: "trail runner reaching the rocky volcanic summit of Pico Ruivo at 1862 meters at dawn, Atlantic ocean visible far below through breaking clouds, golden morning light, Madeira island dramatic panorama, ultra marathon race bib visible on athlete"
+publishedAt: "2026-04-26T13:30:00.000Z"
 ---
 Vincent Esmiol avait huit minutes d'avance au dernier ravitaillement. Katharina [Hartmuth](https://www.altitude-trail.fr/articles/miut-2026-esmiol-et-hartmuth-s-imposent-sur-le-legend-110k-de-madere) n'a laissé aucune fenêtre à ses concurrentes. Le 25 avril 2026, Madère a rendu un verdict net, sur une île qui ne ment pas.
 

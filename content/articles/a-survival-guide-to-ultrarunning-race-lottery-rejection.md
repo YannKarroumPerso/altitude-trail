@@ -31,6 +31,7 @@ externalRefs:
     label: Trail Runner Magazine – actualités et statistiques des loteries d'ultra
   - url: 'https://www.utmb.world'
     label: Site officiel de l'UTMB World Series
+publishedAt: "2026-03-28T09:30:00.000Z"
 ---
 9 993 candidatures pour 260 dossards. 0,4 % de chances pour un postulant débutant. La Western States 100 n'est plus une course, c'est un concours d'entrée dont personne ne sort admis.
 

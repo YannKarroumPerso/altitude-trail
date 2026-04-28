@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://www.trailrunnermag.com/people/culture-people/trail-running-in-2022/", label: "Le trail asiatique prend feu : bilan 2022 — Trail Runner Mag" }
 imagePrompt1: "Trail runners with headlamps racing at night on narrow mountain trails below the iconic silhouette of Mount Fuji, dense Japanese cedar forest, heavy mist, dramatic darkness, hundreds of runners forming a winding chain of lights in the distance"
 imagePrompt2: "Japanese female trail runner ascending a steep volcanic ridge, snow-capped cone of Mount Fuji rising in background under soft golden dawn light, rugged trail with loose volcanic rock, alpine vegetation, wide open landscape, motion blur on legs"
+publishedAt: "2026-04-23T13:00:00.000Z"
 ---
 Cent soixante kilomètres autour du Fuji, un départ en pleine nuit, plus de 850 coureurs sur la ligne dès la première édition. L'Ultra-Trail Mt. Fuji n'a jamais eu à réclamer sa légitimité. La [montagne](https://www.altitude-trail.fr/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno) la lui a prêtée d'emblée.
 

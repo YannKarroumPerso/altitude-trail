@@ -36,6 +36,7 @@ youtubeTitle: 'Les CLÉS d''un BON Plan d''entraînement [Tuto pour construire v
 youtubeChannel: Running Addict
 youtubeDuration: 473
 youtubeUploadDate: '2018-11-08T12:00:01Z'
+publishedAt: "2026-04-12T09:00:00.000Z"
 ---
 
 Six mois. C'est le délai qu'un coureur sérieux devrait s'accorder pour préparer un premier ultra sans bricoler. Pas six semaines de panique et trois sorties longues empilées en espérant que le corps suive.

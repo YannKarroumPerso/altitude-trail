@@ -40,6 +40,7 @@ externalRefs:
     label: >-
       PubMed – Littérature scientifique sur la pollution lumineuse et la faune
       nocturne
+publishedAt: "2026-04-21T10:00:00.000Z"
 ---
 
 Une consigne de matériel qui tient en deux mots, « mode rouge », et qui déclenche un débat bien plus vaste sur ce qu'est devenue l'écologie dans le trail de masse. L'[UTMB](https://www.altitude-trail.fr/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb) impose, u-Trail interroge. Le vrai sujet n'est pas la lampe.

@@ -31,6 +31,7 @@ externalRefs:
     label: >-
       iRunFar – Ressources et analyses sur l'entraînement en trail et
       ultra-trail
+publishedAt: "2026-04-16T10:30:00.000Z"
 ---
 
 Le surentraînement ne prévient pas. Il s'installe, discret, derrière des semaines bien remplies, des sensations qui s'émoussent, un sommeil qui s'effiloche. Quand le diagnostic tombe, il est souvent trop tard pour l'objectif.

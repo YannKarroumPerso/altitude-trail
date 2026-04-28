@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://www.runnersworld.com/uk/events/a44898789/utmb", label: "Runner" }
 imagePrompt1: "Nighttime start of UTMB ultra trail race at Chamonix town center, elite runners at the front of a massive crowd with headlamps, Mont Blanc massif silhouetted under moonlight, dramatic floodlit start arch, intense atmosphere of anticipation and competitive energy"
 imagePrompt2: "Elite trail runner alone on a high exposed alpine ridge with Mont Blanc glaciers visible in background, golden late afternoon light, technical rocky terrain, racing bib visible, focused and determined expression, dramatic mountain landscape"
+publishedAt: "2026-04-24T16:00:00.000Z"
 ---
 Trois hommes qui ont soit gagné, soit co-détenu le record de victoires sur la course. Un quatrième nom encore au conditionnel qui concentre autant d'attention que n'importe quel favori confirmé. Et une génération française aussi dense qu'elle ne l'a jamais été sur cette ligne de départ. L'édition [2026](https://www.altitude-trail.fr/articles/125-km-sur-le-geant-de-provence-le-grand-raid-ventoux-s-impose-dans-l-utmb-world-series) de l'UTMB Mont-Blanc ne ressemble à aucune autre.
 

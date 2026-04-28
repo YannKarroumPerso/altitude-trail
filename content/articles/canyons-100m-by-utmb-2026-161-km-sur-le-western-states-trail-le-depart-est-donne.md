@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://canyons.utmb.world/runners/registration", label: "Inscriptions Canyons Endurance Runs by UTMB" }
 imagePrompt1: "Dozens of trail runners at a start line in California Sierra Nevada foothills, midday bright sun, pine forest, dusty dirt trail, race bibs, backpacks, trekking poles, nervous energy before ultra marathon start, China Wall Trailhead, wide landscape shot, golden California light"
 imagePrompt2: "Solo trail runner splashing through rocky river ford at Rucky Chucky crossing, deep American River canyon California, dramatic late afternoon golden light, towering canyon walls, red ochre soil, ultra marathon race bib visible, determined exhausted expression, motion blur on water, cinematic composition"
+publishedAt: "2026-04-25T09:00:00.000Z"
 ---
 Midi, heure du Pacifique. Le coup de départ résonne depuis China Wall Trailhead, aux portes de la Sierra Nevada. Cent soixante et un kilomètres, 5 550 mètres de dénivelé positif, 35 heures pour s'en sortir : les [Canyons](https://www.altitude-trail.fr/articles/canyons-100m-2026-161-km-a-auburn-enjeux-et-favoris-d-une-major-utmb) Endurance Runs by UTMB 2026 sont officiellement lancés.
 

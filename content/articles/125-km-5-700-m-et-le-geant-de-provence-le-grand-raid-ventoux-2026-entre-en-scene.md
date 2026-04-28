@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://utmb.world/finals", label: "UTMB World Series Finals – Calendrier et architecture du circuit 2026" }
 imagePrompt1: "Trail runners at dawn departing from Malaucène village at the foot of Mont Ventoux Provence France, spring morning golden light, limestone mountain silhouette in background, crowd of athletes with hydration vests and headlamps, race start atmosphere, wide angle"
 imagePrompt2: "Lone trail runner on the barren white rocky summit of Mont Ventoux, dramatic storm clouds, exposed ridge, vast Provence valley visible far below, physical effort and solitude, late afternoon light"
+publishedAt: "2026-04-24T09:00:00.000Z"
 ---
 Vendredi 24 avril, Malaucène, avant l'aube. Le peloton de l'Ultra Géant de [Provence](https://www.altitude-trail.fr/articles/125-km-sur-le-geant-de-provence-le-grand-raid-ventoux-s-impose-dans-l-utmb-world-series) s'élance pour 125 km et 5 700 mètres de dénivelé positif dans le massif provençal. Au bout du chemin: le mont Ventoux, ce calvaire de calcaire blanc que les cyclistes ont rendu mythique, et que le trail revendique désormais pleinement comme son propre terrain de jeu.
 

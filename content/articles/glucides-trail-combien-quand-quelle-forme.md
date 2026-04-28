@@ -35,6 +35,7 @@ youtubeTitle: Alimentation pour le trail et l'ultra trail
 youtubeChannel: Alexandre Auffret - Tout pour ma Santé
 youtubeDuration: 654
 youtubeUploadDate: '2021-06-13T06:55:16Z'
+publishedAt: "2026-04-08T09:00:00.000Z"
 ---
 
 La barre symbolique des 60 g de glucides par heure, dogme pendant vingt ans, est tombée. Les meilleurs trailers mondiaux absorbent aujourd'hui 90 à 120 g/h en course, parfois davantage. Une révolution silencieuse qui change la manière de préparer une épreuve longue.

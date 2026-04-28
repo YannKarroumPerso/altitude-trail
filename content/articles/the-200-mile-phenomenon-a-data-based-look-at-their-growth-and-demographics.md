@@ -20,6 +20,7 @@ externalRefs:
   - { url: "https://ultrarunning.com", label: "Ultrarunning Magazine – référence sur l" }
 imagePrompt1: "Ultra-trail runner navigating a rocky Arizona desert canyon at night, wearing a headlamp and lightweight running pack, dusty singletrack trail visible under beam of light, vast starry sky overhead, extreme exhaustion on runner's face, dramatic low-angle perspective, warm orange sandstone walls"
 imagePrompt2: "Group of weary ultramarathon runners in their forties resting at a remote mountain aid station, volunteers handing nutrition and drinks, tents and sleeping bags visible, early morning desert light over arid peaks, race bibs and trekking poles scattered, emotional atmosphere of extreme endurance"
+publishedAt: "2026-04-22T12:30:00.000Z"
 ---
 
 Quatre-vingt-quinze heures. Presque quatre jours de course continue, sous n'importe quelle météo, dans des terrains qui ne pardonnent pas. Les courses de 200 miles et plus ne sont plus une curiosité marginale de l'ultra-endurance : elles forment un segment structuré, avec ses acteurs, ses codes et une démographie qui surprend.

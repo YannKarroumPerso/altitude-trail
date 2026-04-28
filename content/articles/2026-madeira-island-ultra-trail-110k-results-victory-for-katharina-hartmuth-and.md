@@ -18,6 +18,7 @@ externalRefs:
   - { url: "https://www.itra.run", label: "ITRA — Classements et profils des ultra-trails mondiaux" }
 imagePrompt1: "Dozens of trail runners with glowing headlamps departing at midnight from Porto Moniz village on Madeira island, ancient Laurisilva UNESCO laurel forest looming in background, volcanic stone walls, cool misty night, April start line atmosphere, long-exposure motion blur"
 imagePrompt2: "Solo trail runner descending exposed rocky staircase between Pico Ruivo and Pico do Areeiro volcanic peaks in Madeira, grey morning fog at 1800 meters altitude, basalt rock faces, Atlantic Ocean visible far below, steep technical terrain, racing bib"
+publishedAt: "2026-04-25T12:00:00.000Z"
 ---
 
 Trois tentatives avortées en trois ans. Une voiture qui percute une cycliste en plein entraînement. Une contusion osseuse au fémur découverte après l'atterrissage sur l'île même. [Katharina](https://www.altitude-trail.fr/articles/vincent-esmiol-et-katharina-hartmuth-remportent-le-miut-2026-un-110k-inedit-a-madere) Hartmuth avait toutes les raisons de ne jamais revenir à Madère. Elle était pourtant bien là, à minuit, samedi 25 avril, au départ de Porto Moniz. Et elle a gagné, avec près d'une heure d'avance sur la deuxième.

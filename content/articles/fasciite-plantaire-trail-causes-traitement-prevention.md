@@ -30,6 +30,7 @@ externalRefs:
     label: >-
       British Journal of Sports Medicine – recherches cliniques sur les
       pathologies du pied chez les coureurs de fond
+publishedAt: "2026-04-17T09:30:00.000Z"
 ---
 
 Il est six heures du matin dans un gîte du Mercantour. Thomas, finisher de plusieurs cent bornes, pose le pied au sol et se fige. Une douleur aiguë, presque électrique, irradie sous son talon droit. Trois pas plus tard, elle s'estompe, pour mieux revenir le lendemain, puis chaque matin pendant des mois. Ce scénario, la majorité des traileurs le connaissent ou finiront par le croiser. La fasciite plantaire, ou aponévrosite plantaire, reste l'une des blessures les plus fréquentes du coureur de longue distance et sans doute la plus sournoise : elle s'installe discrètement, résiste au repos total et peut compromettre toute une saison si elle n'est pas prise au sérieux.

@@ -19,6 +19,7 @@ externalRefs:
   - { url: "https://www.lepape-info.com", label: "Le Pape Info : guide d" }
 imagePrompt1: "solo trail runner at pre-dawn on a rocky Colorado mountain singletrack, lightweight headlamp illuminating narrow dirt trail ahead, dense pine forest silhouettes, cold misty morning air, athletic gear including hydration vest, beam of light cutting through darkness, low angle perspective"
 imagePrompt2: "close-up of a compact lightweight trail running headlamp tilted at 60 degrees showing USB-C charging port, cable being plugged in, resting on weathered wooden trailhead bench, soft outdoor ambient light, blurred mountain trail background, visible moisture-wicking fabric headband texture"
+publishedAt: "2026-04-23T09:30:00.000Z"
 ---
 
 Le marché des frontales de [trail](https://www.altitude-trail.fr/articles/choisir-premiere-paire-chaussures-trail-guide-complet) se compte en centaines de références. La course aux lumens y est aussi irrationnelle que la course aux watts en vélo de route : les chiffres montent, les interfaces se complexifient, et la frontale idéale pour une sortie matinale d'une heure disparaît sous les menus déroulants. La BioLite Range 500 joue une partition différente. Pas la plus puissante, pas la moins chère, mais peut-être la plus honnête sur ce qu'elle vaut réellement.

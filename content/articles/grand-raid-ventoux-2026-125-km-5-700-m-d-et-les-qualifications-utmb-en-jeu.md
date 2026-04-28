@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://utmb.world/utmb-world-series-events", label: "Calendrier UTMB World Series 2026" }
 imagePrompt1: "Trail runners at the start line in Malaucène village at dawn on April 24, Mont Ventoux bare white limestone summit visible in the background, race timing arch and sponsor banners, volunteers in yellow vests, warm golden morning light, wide angle perspective, crowd energy and anticipation"
 imagePrompt2: "Solitary trail runner on the rocky moonscape upper slopes of Mont Ventoux at 1800 meters altitude, April spring conditions, low fast-moving gray clouds, strong gusting wind, barren white limestone stones, wooden race marker poles with flags, vast Provençal valley visible far below"
+publishedAt: "2026-04-25T10:00:00.000Z"
 ---
 Ce vendredi matin, Malaucène s'est réveillée avec des centaines de coureurs aux jambes. 125 km. 5 700 mètres de dénivelé positif. Et le Ventoux, colosse calcaire qui domine la [Provence](https://www.altitude-trail.fr/articles/grand-raid-ventoux-2026-125-km-sur-le-geant-de-provence-pour-lancer-la-saison-utmb) depuis ses 1 910 mètres, attendu au bout comme un verdict.
 

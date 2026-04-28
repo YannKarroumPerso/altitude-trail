@@ -43,6 +43,7 @@ externalRefs:
     label: >-
       ITRA – Fédération internationale trail et mountain running, règlements et
       sécurité
+publishedAt: "2024-12-13T09:30:00.000Z"
 ---
 
 Une passe tentée dans un virage exposé. Quelques secondes d'emballement. Puis le vide, et 60 mètres de chute dans un couloir rocheux du Wasatch. Stuart Terrill aurait dû mourir le 13 juillet à Snowbird. Il vit, et son histoire replace une question gênante au centre du plateau : jusqu'où le mountain [running](https://www.altitude-trail.fr/articles/scott-running-fete-ses-20-ans-ce-que-revele-une-operation-de-presse-en-val-di-so) peut-il aller sans admettre qu'il est devenu un sport à risque majeur ?

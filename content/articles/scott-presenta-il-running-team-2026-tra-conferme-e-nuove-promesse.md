@@ -25,6 +25,7 @@ externalRefs:
     label: iRunFar – Actualités et résultats trail et skyrunning international
   - url: 'https://www.itra.run'
     label: ITRA – Fédération internationale de trail running et classements athlètes
+publishedAt: "2026-04-19T09:00:00.000Z"
 ---
 Six noms, une philosophie. SCOTT [Running](https://www.altitude-trail.fr/articles/scott-running-fete-ses-20-ans-ce-que-revele-une-operation-de-presse-en-val-di-so) a dévoilé sa roster 2026 et le message est limpide : on ne recrute pas pour briller sur un communiqué, on construit sur la durée. Dans un marché trail saturé de transferts spectaculaires, la marque helvétique assume une ligne à contre-courant.
 

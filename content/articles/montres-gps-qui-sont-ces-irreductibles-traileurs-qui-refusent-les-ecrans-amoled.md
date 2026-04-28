@@ -19,6 +19,7 @@ externalRefs:
   - { url: "https://www.trailrunnermag.com", label: "Trail Runner Mag — actualités matériel et technologie GPS" }
 imagePrompt1: "trail runner at high altitude checking wrist-worn GPS watch with matte MIP screen display, rocky alpine ridgeline, bright midday sun, French Alps summer, dusty single track trail, ultra race number bib, technical running vest, dry dusty hands gripping trekking pole"
 imagePrompt2: "two GPS sport watches resting side by side on rough granite rock in direct afternoon sunlight, left watch AMOLED screen with washed-out barely readable display, right watch MIP transflective screen with sharp visible running metrics, blurred mountain peaks in background"
+publishedAt: "2026-04-24T15:30:00.000Z"
 ---
 
 Le marché a déjà tranché. Les fabricants de montres GPS poussent vers l'AMOLED en bloc, comme si la question était réglée. Mais sur les ultras de plusieurs jours, l'écran qui brille le plus est souvent celui qui tient le moins.

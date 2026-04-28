@@ -24,6 +24,7 @@ externalRefs:
   - { url: "https://www2.u-trail.com/4-seances-cles-pour-augmenter-votre-denivele26/", label: "Les 4 séances clés pour augmenter votre dénivelé – u-Trail" }
 imagePrompt1: "Elite male trail runner ascending extremely steep mountain slope at first light, rocky alpine terrain, Mont Blanc massif backdrop, figure small against towering peaks, dynamic movement uphill, sweat and effort visible, golden morning light on snow-capped summits, dramatic high altitude scene"
 imagePrompt2: "Trail runner on technical mountain ridge during early morning training session, steep elevation gain, ultralight running vest and technical poles, rocky single-track path disappearing into low clouds, intense physical effort captured mid-stride, dramatic alpine landscape"
+publishedAt: "2026-04-24T09:30:00.000Z"
 ---
 Quinze mille mètres de dénivelé positif par semaine. Pas comme exploit ponctuel, pas comme pic de charge avant une grande course : comme norme haute d'un entraînement régulier. Le chiffre suffit à situer Théo Detienne dans une catégorie très restreinte du trail mondial.
 

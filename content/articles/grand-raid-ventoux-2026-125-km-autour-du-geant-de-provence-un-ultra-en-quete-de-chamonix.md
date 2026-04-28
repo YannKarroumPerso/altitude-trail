@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://montblanc.utmb.world/races/UTMB", label: "UTMB Mont-Blanc 2026 : 174 km et 9 900 m+ pour la finale suprême" }
 imagePrompt1: "Elite trail runners at dawn leaving Malaucène village at race start, Mont Ventoux white limestone summit visible in background under pale morning sky, Provence spring landscape, numbered race bibs on leading runners, dirt path winding into cedar forest"
 imagePrompt2: "Lone trail runner crossing barren rocky summit of Mont Ventoux, chalky white limestone terrain under dramatic Provençal sky, posture suggesting strong wind resistance, race number visible on front bib, vast open landscape below"
+publishedAt: "2026-04-26T11:00:00.000Z"
 ---
 Vendredi 24 avril, départ de Malaucène. L'Ultra Géant de [Provence](https://www.altitude-trail.fr/articles/125-km-sur-le-geant-de-provence-le-grand-raid-ventoux-s-impose-dans-l-utmb-world-series) envoie ses concurrents sur 125 kilomètres et 5 700 mètres de dénivelé positif autour du Mont Ventoux, la montagne la plus redoutée de Provence. Depuis que le Grand Raid Ventoux a intégré le circuit UTMB World Series, courir ici, c'est aussi courir pour Chamonix.
 

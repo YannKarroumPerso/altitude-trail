@@ -35,6 +35,7 @@ youtubeTitle: >-
 youtubeChannel: Jackson Meyer
 youtubeDuration: 663
 youtubeUploadDate: '2024-02-20T16:00:09Z'
+publishedAt: "2026-04-11T09:30:00.000Z"
 ---
 ## Sept sentiers, un diagnostic : le trail est devenu une industrie du voyage
 

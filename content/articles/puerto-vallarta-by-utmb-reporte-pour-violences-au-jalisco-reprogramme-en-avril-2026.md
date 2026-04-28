@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/race-cancellations-the-new-permanent-reality", label: "Les annulations de courses, nouvelle réalité permanente – iRunFar" }
 imagePrompt1: "Trail runners crossing a jungle-covered mountain ridge above Puerto Vallarta Mexico at sunrise, Pacific Ocean visible in the distance, dense tropical vegetation and volcanic rock terrain, small group of athletes in technical gear running single file, dramatic golden morning light casting long shadows"
 imagePrompt2: "Race organization staff gathered around a large printed course map on an outdoor wooden table in tropical mountain setting, serious expressions, UTMB-branded event marquee visible in background, afternoon mountain light, several people discussing and pointing at the map, two wearing orange safety vests"
+publishedAt: "2026-04-28T11:30:00.000Z"
 ---
 ## L'info en 30 secondes
 

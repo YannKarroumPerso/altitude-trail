@@ -28,6 +28,7 @@ youtubeTitle: 'Quoi manger (et ne pas manger) avant un marathon :'
 youtubeChannel: Running Addict
 youtubeDuration: 727
 youtubeUploadDate: '2022-10-19T15:54:00Z'
+publishedAt: "2026-04-10T10:00:00.000Z"
 ---
 
 La semaine qui précède un ultra ne se gagne pas à table, mais elle peut largement s'y perdre. Trop de coureurs sabotent des mois de préparation en misant sur des recettes héritées des années 90, ou en cédant à la panique [alimentaire](https://www.altitude-trail.fr/articles/nutrition-ultra-plan-alimentaire-dix-heures-effort) des derniers jours.

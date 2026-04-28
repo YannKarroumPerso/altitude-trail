@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://runningmagazine.ca/trail-running/6-canadian-women-ready-to-crush-canyons-endurance-runs-100k/", label: "Six Canadiennes au départ du 100K 2025 – Canadian Running Magazine" }
 imagePrompt1: "Elite trail runners at the start line of a 100-mile ultramarathon at China Wall Auburn California Sierra Nevada foothills, midday bright sun, rugged rocky terrain and dense pine forest, athletes wearing lightweight trail running gear, wide dramatic landscape shot"
 imagePrompt2: "Lone ultra runner on the Western States Trail crossing a narrow suspension bridge over a deep river gorge in Sierra Nevada California, golden afternoon light filtering through tall pine trees, exhausted and determined posture, dramatic canyon depth below"
+publishedAt: "2026-04-23T10:00:00.000Z"
 ---
 Le 24 avril 2026, à midi, China Wall propulse ses coureurs sur 161 km de Sierra Nevada californienne. Le [Canyons](https://www.altitude-trail.fr/articles/canyons-100m-2026-161-km-pour-meriter-sa-place-a-la-loterie-du-western-states) 100M by UTMB est l'une des rares épreuves capables de servir simultanément d'antichambre à Western States et de Major mondiale sur le circuit UTMB World Series. Ce que l'édition 2026 a à dire mérite qu'on l'ausculte bien avant la ligne de départ.
 

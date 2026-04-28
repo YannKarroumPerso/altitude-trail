@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/2022-madeira-island-ultra-trail-results", label: "Résultats MIUT 2022 : records pour Walmsley et Dauwalter – iRunFar" }
 imagePrompt1: "Ultra trail runner pushing through a misty volcanic ridge in Madeira island, Atlantic Ocean and dramatic basalt cliffs visible far below, dense laurisilva forest lining the trail, early morning overcast light, hydration vest and race bib, raw volcanic terrain, intense physical effort"
 imagePrompt2: "Female ultra trail runner crossing the finish line of a mountain race in a small Portuguese coastal town, crowd of spectators behind barriers, race finish arch with timing clock, warm late afternoon light, visible exhaustion mixed with joy, finisher medal moment"
+publishedAt: "2026-04-27T11:30:00.000Z"
 ---
 Trois tentatives. Zéro départ. C'était le bilan de Katharina [Hartmuth](https://www.altitude-trail.fr/articles/miut-2026-esmiol-et-hartmuth-s-imposent-sur-le-legend-110k-de-madere) au MIUT avant ce samedi 25 avril 2026. La ligne d'arrivée de Machico, elle l'a franchie cette fois. Et ça change tout.
 

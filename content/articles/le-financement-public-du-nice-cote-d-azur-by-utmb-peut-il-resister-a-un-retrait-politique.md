@@ -24,6 +24,7 @@ externalRefs:
   - { url: "http://nice.utmb.world/news", label: "Actualités officielles Nice Côte d" }
 imagePrompt1: "Ultra-trail runners gathered at the start line on the Promenade des Anglais in Nice at dawn, azure Mediterranean Sea reflecting city lights in the background, hundreds of race bibs and headlamps visible, competitive pre-race energy, dramatic wide-angle coastal scene with palm trees lining the boulevard"
 imagePrompt2: "Lone trail runner pushing through technical rocky terrain on a high Alpes-Maritimes ridgeline, panoramic view of the French Riviera coastline and azure sea far below, golden hour light, authentic race effort visible on athlete's face, dramatic alpine landscape above Nice"
+publishedAt: "2026-04-24T14:00:00.000Z"
 ---
 Une course sur la Promenade des Anglais, quatre distances entre mer et montagne, le label le plus puissant du trail mondial vissé sur les dossards. Le mariage entre la Côte d'Azur et la franchise [UTMB](https://www.altitude-trail.fr/articles/lampe-rouge-obligatoire-a-l-utmb-symbole-ecologique-ou-poudre-aux-yeux) semblait taillé pour durer. Les alliances entre franchises privées et territoires publics ont pourtant une durée de vie. Dans l'économie du trail contemporain, le financement institutionnel se négocie, se renouvelle — ou s'arrête.
 

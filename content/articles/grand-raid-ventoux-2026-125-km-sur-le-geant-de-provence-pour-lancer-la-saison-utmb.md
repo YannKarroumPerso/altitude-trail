@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://montblanc.utmb.world/races/UTMB", label: "UTMB Mont-Blanc 2026 - Fiche course officielle" }
 imagePrompt1: "Trail runner at dawn crossing the barren white limestone summit of Mont Ventoux in Provence, dramatic golden early morning light, lone silhouette against vast open sky, windswept exposed terrain with no vegetation, cinematic wide angle composition"
 imagePrompt2: "Group of trail runners on steep exposed rocky slopes of Mont Ventoux, white limestone scree underfoot, deep blue Provençal sky, dense pine forest visible far below in the valley, high altitude harsh mountain light"
+publishedAt: "2026-04-25T11:00:00.000Z"
 ---
 Le Ventoux n'est pas une montagne, c'est un verdict. Dès ce vendredi 24 avril, ses pentes calcaires blanches rendent leur jugement sur les premiers prétendants de la saison UTMB World Series 2026. Malaucène donne le départ. La [Provence](https://www.altitude-trail.fr/articles/125-km-5-700-m-et-le-geant-de-provence-le-grand-raid-ventoux-2026-entre-en-scene) se transforme, le temps d'un week-end, en arène mondiale du trail.
 

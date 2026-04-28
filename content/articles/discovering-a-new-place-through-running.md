@@ -18,6 +18,7 @@ externalRefs:
   - { url: "https://www.trailrunnermag.com", label: "Trail Runner Magazine — référence internationale de la pratique trail" }
 imagePrompt1: "Trail runner jogging along a wide gravel path beside the Willamette River at sunrise in Corvallis Oregon, lush Pacific Northwest vegetation with tall green trees lining the path, soft morning mist over calm water, wearing lightweight long-sleeve running gear, reflective light on the water surface"
 imagePrompt2: "Lone trail runner on smooth singletrack through dense Douglas fir and hemlock forest in McDonald Research Forest near Corvallis Oregon, late afternoon dappled sunlight filtering through tall conifers, mossy ground and lush fern undergrowth, vibrant green atmosphere, light mist between the trees in the background"
+publishedAt: "2026-04-24T11:30:00.000Z"
 ---
 
 Changer de ville, c'est recommencer à zéro. Administrativement, socialement, géographiquement. Pour Andy Jones-Wilkins, chroniqueur de longue date chez iRunFar, la réponse à cette rupture tient en une paire de chaussures et quelques [heures](https://www.altitude-trail.fr/articles/les-heures-barbares-quand-le-trail-s-invite-sur-un-circuit-de-moto-cross) de sortie. En trente ans et cinq villes, il a affiné une méthode intuitive que des millions de coureurs pratiquent sans jamais la nommer.

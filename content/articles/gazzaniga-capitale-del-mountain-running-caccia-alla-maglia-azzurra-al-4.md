@@ -19,6 +19,7 @@ externalRefs:
   - { url: "https://www.itra.run", label: "ITRA – International Trail Running Association" }
 imagePrompt1: "Elite mountain runners at the start line in Gazzaniga village square at dawn, Bergamo province northern Italy, cool April morning light, dense crowd of athletes in technical lightweight racing singlets, stone buildings and bell tower in background, misty valley stretching below"
 imagePrompt2: "Two elite mountain runners ascending an extremely steep rocky trail at 20-percent gradient near the Monte Poieto summit, Italian Alps, strained posture, arms pumping, harsh morning sidelight casting long shadows across alpine grass and scree"
+publishedAt: "2026-04-24T12:00:00.000Z"
 ---
 
 Neuf kilomètres. Mille mètres de dénivelé positif. Une seule direction : vers le haut. Le 4e Memorial Pietro Lanfranchi "Pekèt", prévu ce samedi 25 avril à Gazzaniga, n'est pas une course régionale de plus sur le calendrier transalpin. C'est un tribunal. Les meilleurs spécialistes italiens de mountain running s'y présentent avec une obsession unique : décrocher leur ticket pour les Championnats d'Europe 2026 à Kamnik, en Slovénie.

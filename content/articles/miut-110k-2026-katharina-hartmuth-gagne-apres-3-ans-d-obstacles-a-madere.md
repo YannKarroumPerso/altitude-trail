@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/2025-trail-world-championships-long-trail-womens-preview", label: "Aperçu Championnats du monde de trail 2025, épreuve longue femmes – iRunFar" }
 imagePrompt1: "Elite female trail runner in racing kit celebrating at finish line of Madeira Island Ultra-Trail 2026, lush volcanic green mountain landscape, Atlantic ocean visible in background, laurel forest surroundings, golden late afternoon light, small race crowd, Portuguese island terrain, emotion and exhaustion on face"
 imagePrompt2: "Group of elite trail runners ascending steep rocky mountain ridge in Madeira island during ultramarathon, dense laurisilva forest below, misty Atlantic volcanic peaks, overcast morning conditions, colorful race bibs, technical single track with exposed roots and stones, rugged dramatic landscape"
+publishedAt: "2026-04-27T10:30:00.000Z"
 ---
 Trois éditions manquées en autant d'années, pour des raisons aussi diverses qu'absurdes : priorité sportive, accident de vélo, blessure découverte une fois sur l'île. Le 25 avril 2026, [Katharina](https://www.altitude-trail.fr/articles/vincent-esmiol-et-katharina-hartmuth-remportent-le-miut-2026-un-110k-inedit-a-madere) Hartmuth a enfin pris le départ du MIUT Legend 110k à Madère. Et elle l'a gagné.
 

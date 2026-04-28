@@ -27,6 +27,7 @@ externalRefs:
     label: iRunFar – Analyses tactiques et portraits de coureurs ultra-trail
   - url: 'https://www.itra.run'
     label: ITRA – Index international de classement des courses de trail
+publishedAt: "2026-04-04T09:00:00.000Z"
 ---
 
 Dix mille mètres de dénivelé positif. Cent soixante kilomètres. Une traversée pyrénéenne qui ne pardonne ni l'excès de confiance ni la timidité tactique. Le GRP n'a jamais été une course de spécialistes d'un seul profil, c'est précisément ce qui en fait un laboratoire fascinant de l'[ultra](https://www.altitude-trail.fr/articles/ampoules-frottements-ultra-prevention-gestion) moderne.

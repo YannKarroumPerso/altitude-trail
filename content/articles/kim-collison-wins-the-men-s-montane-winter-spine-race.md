@@ -31,6 +31,7 @@ externalRefs:
     label: >-
       UTMB World Series – Contexte sur les grandes courses mondiales
       d'ultra-trail
+publishedAt: "2026-03-30T09:00:00.000Z"
 ---
 Quatre hivers de défaites, une victoire. Kim Collison a franchi la ligne de Kirk Yetholm en 82 heures et 46 minutes et cette performance dit quelque chose de plus profond qu'un simple chrono : elle raconte comment on domestique une course qui, pendant des années, vous a refusé l'entrée.
 

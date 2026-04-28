@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://runningmagazine.ca/sections/runs-races/spartan-race-looks-to-acquire-tough-mudder-in-2020/", label: "Canadian Running Magazine : Spartan Race acquiert Tough Mudder" }
 imagePrompt1: "Trail runners traversing a dramatic exposed mountain ridgeline in Wales at dawn, low mist covering distant valleys, rocky terrain with sparse heather, silhouetted figures picking their way along a narrow mountain path, vast panoramic highland landscape, overcast British sky with hints of morning light"
 imagePrompt2: "Race checkpoint tent set up in remote moorland British highlands, volunteers in waterproof jackets assisting exhausted trail runners, drop bags scattered on wet grass, moody overcast sky, wide angle view capturing the vast empty surrounding landscape"
+publishedAt: "2026-04-23T12:30:00.000Z"
 ---
 ## L'info en 30 secondes
 

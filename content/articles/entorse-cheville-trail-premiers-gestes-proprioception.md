@@ -37,6 +37,7 @@ youtubeTitle: Exercices de rééducation pour soigner une entorse de cheville (K
 youtubeChannel: Alexandre Auffret - Tout pour ma Santé
 youtubeDuration: 870
 youtubeUploadDate: '2019-10-20T08:00:02Z'
+publishedAt: "2026-04-16T10:00:00.000Z"
 ---
 
 Vingt-deuxième kilomètre d'un trail dans le Mercantour, descente technique sous les pins. Thomas, 38 ans, aperçoit la racine une fraction de seconde trop tard. Le pied droit ripe vers l'extérieur, la cheville bascule en inversion, un craquement sourd, puis la douleur fulgurante sur la malléole externe. Le coureur s'assoit, hagard, encore à plus d'une heure du ravitaillement le plus proche.

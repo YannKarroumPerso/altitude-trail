@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/camille-bruyas-post-2025-utmb-interview", label: "Camille Bruyas post-UTMB 2025 : le MIUT dans le viseur — iRunFar" }
 imagePrompt1: "Hundreds of elite trail runners with bright glowing headlamps at midnight race start in Porto Moniz Madeira Portugal, steep volcanic sea cliffs lit by moonlight, dark Atlantic ocean in background, dense crowd of athletes, tiny village lights, dramatic pre-dawn atmosphere, northern Madeira rocky coastline"
 imagePrompt2: "Lone elite trail runner on exposed steep volcanic ridge in Madeira laurisilva laurel forest, ancient subtropical trees draped in moss, lush green vegetation, dark basalt rocks underfoot, distant Atlantic ocean visible on horizon, harsh bright midday sunlight, ultra marathon race bib clearly visible"
+publishedAt: "2026-04-23T12:00:00.000Z"
 ---
 Minuit, Porto Moniz. Des centaines de frontales trouent l'obscurité atlantique. Pas d'élan, pas de fioriture : la montée commence dès le premier mètre, vers une île qui n'a jamais appris à s'excuser.
 

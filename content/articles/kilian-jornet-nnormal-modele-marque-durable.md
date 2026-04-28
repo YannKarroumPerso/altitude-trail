@@ -33,6 +33,7 @@ youtubeTitle: 'Kilian Jornet quitte Salomon : décryptage'
 youtubeChannel: Simon Dugué
 youtubeDuration: 922
 youtubeUploadDate: '2021-12-01T16:00:30Z'
+publishedAt: "2026-04-06T09:30:00.000Z"
 ---
 
 Trois ans après le lancement, NNormal n'est plus une curiosité catalane. C'est un cas d'école que l'industrie observe de près, entre fascination et scepticisme.

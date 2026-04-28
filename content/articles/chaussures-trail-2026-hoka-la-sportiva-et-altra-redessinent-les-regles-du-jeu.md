@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/best-road-to-trail-running-shoes", label: "Meilleures chaussures road-to-trail 2026 — iRunFar" }
 imagePrompt1: "A trail runner kneeling on a rocky mountain ridge at high altitude comparing two pairs of trail running shoes placed side by side on the ground, Colorado Rockies peaks in the background, warm golden hour light, technical terrain with loose stones and alpine scrub, wide angle shot"
 imagePrompt2: "Extreme close-up of a trail running shoe midsole and outsole cross-section revealing thick foam cushioning stack with embedded carbon fiber plate, the shoe balanced on wet granite alpine rock surrounded by morning mist, deep rubber lug pattern and layered foam construction clearly visible from below"
+publishedAt: "2026-04-22T09:30:00.000Z"
 ---
 La frontière entre légèreté et amorti vient de s'effacer. En 2026, les grands équipementiers [trail](https://www.altitude-trail.fr/articles/ffa-certification-epreuves-trail-nouveau-cadre-2026) ont cessé de vous forcer à choisir entre protection et rapidité, et cette recomposition change tout, du conseil en boutique spécialisée aux stratégies d'équipement pour les ultra-distances.
 

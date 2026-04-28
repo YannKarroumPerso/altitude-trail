@@ -28,6 +28,7 @@ externalRefs:
       performance sportive
   - url: 'https://www.irunfar.com'
     label: iRunFar – Analyses et stratégies nutritionnelles en ultra-trail
+publishedAt: "2026-04-16T09:00:00.000Z"
 ---
 
 La caféine est devenue l'arme chimique la plus banalisée de l'[ultra](https://www.altitude-trail.fr/articles/preparation-mentale-ultra-gerer-nuit-douleur-bas). Tout le monde en prend, presque personne ne sait vraiment comment. Sur la Diagonale des Fous comme à l'UTMB, elle fait la différence entre ceux qui voient le jour se lever en courant et ceux qui s'effondrent au premier banc venu.

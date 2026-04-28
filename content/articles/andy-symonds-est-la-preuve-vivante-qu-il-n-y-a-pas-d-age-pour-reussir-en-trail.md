@@ -19,6 +19,7 @@ externalRefs:
   - { url: "https://pubmed.ncbi.nlm.nih.gov", label: "PubMed – littérature scientifique sur l" }
 imagePrompt1: "Andy Symonds trail runner racing on Mont Ventoux rocky barren summit, white limestone terrain, sparse low vegetation, intense morning golden light, race bib, technical trail shoes, focused expression, wide dramatic sky"
 imagePrompt2: "Experienced male trail runner in his forties alone on a steep rocky Provence mountain trail, dust rising from limestone path, warm late afternoon light, garrigue scrubland, solitary determination"
+publishedAt: "2026-04-26T09:00:00.000Z"
 ---
 
 Quarante-quatre ans. Pas pour valider une qualification, pas pour décrocher une belle photo de finisher. Pour gagner. Sur le Grand Raid Ventoux by [UTMB](https://www.altitude-trail.fr/articles/avec-15-000-m-de-d-par-semaine-theo-detienne-redefinit-il-les-standards-de-preparation) 2026, Andy Symonds a remporté l'Ultra Géant, le format long de la course, avec l'assurance de celui qui n'a rien à justifier sauf son classement général.

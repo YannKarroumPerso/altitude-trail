@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://runningmagazine.ca/tag/mathieu-blanchard", label: "Mathieu Blanchard - Canadian Running Magazine" }
 imagePrompt1: "Trail runner in dense fog at dawn in a Tennessee forest, running on a rocky single track path, wet fallen leaves and muddy terrain, headlamp beam cutting through thick morning mist, dramatic atmospheric lighting, dark pine trees fading into white fog, solitary figure in motion"
 imagePrompt2: "Close-up of a trail runner's mud-splattered legs and trail running shoes on wet rocky forest terrain, Tennessee state park, foggy atmosphere, fallen leaves and twigs covering the ground, small rocky stream nearby, moody overcast light filtering through bare deciduous trees, earthy tones"
+publishedAt: "2026-04-24T10:30:00.000Z"
 ---
 ## L'info en 30 secondes
 

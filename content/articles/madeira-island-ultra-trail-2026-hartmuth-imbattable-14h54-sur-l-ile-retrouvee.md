@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/tag/madeira-island-ultra-trail", label: "Archives Madeira Island Ultra Trail – iRunFar" }
 imagePrompt1: "Group of trail runners departing at midnight from Porto Moniz Madeira island, headlamps creating light streaks through dense UNESCO Laurisilva laurel forest, ancient gnarled moss-covered trees, misty subtropical atmosphere, dark volcanic rock underfoot, runners in motion blur"
 imagePrompt2: "Female trail runner in race bib descending a rocky volcanic ridge on Madeira island, dramatic Atlantic Ocean panorama behind her, worn trail carved through endemic heather, other runners visible far in the distance suggesting a commanding lead, intense focused expression"
+publishedAt: "2026-04-27T10:00:00.000Z"
 ---
 Quatorze heures, cinquante-quatre minutes. Presque une heure d'avance sur la deuxième. Katharina [Hartmuth](https://www.altitude-trail.fr/articles/miut-2026-esmiol-et-hartmuth-s-imposent-sur-le-legend-110k-de-madere) n'a pas couru le MIUT Legend 2026, elle l'a traversé comme si le reste du plateau courait une autre course.
 

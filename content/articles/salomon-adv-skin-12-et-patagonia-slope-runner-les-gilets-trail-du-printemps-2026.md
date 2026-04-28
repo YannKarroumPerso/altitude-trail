@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://www.runnersworld.com/gear/a20788395/hydration-pack-reviews/", label: "Runner" }
 imagePrompt1: "Trail runner wearing a minimalist hydration vest running uphill on a rocky alpine trail in spring, snow-capped peaks in background, bright sunlight, front pockets with soft flasks visible, breathable mesh straps, cinematic sports photography"
 imagePrompt2: "Close-up of a trail running hydration vest showing large-hole breathable mesh back panel, adjustable chest straps with buckles, rear zippered pass-through pocket, and soft flask holders, laid on a granite mountain rock, clear natural daylight, sharp product detail"
+publishedAt: "2026-04-26T14:30:00.000Z"
 ---
 ## L'info en 30 secondes
 

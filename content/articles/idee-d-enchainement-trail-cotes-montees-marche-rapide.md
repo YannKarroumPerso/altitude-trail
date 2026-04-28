@@ -43,6 +43,7 @@ externalRefs:
       dénivelé/distance
   - url: 'https://www.itra.run'
     label: ITRA – classification officielle des trails par difficulté et dénivelé
+publishedAt: "2026-04-21T09:00:00.000Z"
 ---
 
 Préparer un 30 km avec 1500 m de dénivelé, ce n'est pas courir plus. C'est apprendre à marcher vite sans se saboter. La distinction semble anodine, elle décide pourtant de l'issue du jour J.

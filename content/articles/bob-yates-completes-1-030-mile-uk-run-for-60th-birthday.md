@@ -31,6 +31,7 @@ externalRefs:
     label: >-
       PubMed – Études scientifiques sur la physiologie de l'endurance chez les
       masters athletes
+publishedAt: "2026-03-31T09:00:00.000Z"
 ---
 Traverser la Grande-Bretagne d'une pointe à l'autre, à la course, sans temps de repos, à soixante ans. L'exploit de Bob Yates tient moins du record que du manifeste. Celui d'une génération d'ultra-runners tardifs qui réécrit, à bas bruit, ce qu'on pensait savoir du vieillissement sportif.
 

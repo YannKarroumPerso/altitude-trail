@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://www.runnersworld.com/gear/a20788395/hydration-pack-reviews/", label: "Les 8 meilleurs packs d" }
 imagePrompt1: "Trail runner in motion wearing a streamlined orange hydration vest ascending a steep rocky alpine ridge at golden hour, sweat-glistening face with determined expression, soft flasks visible in front chest pockets, dramatic mountain backdrop with cumulus clouds, motion blur on trail surface, low angle dynamic perspective"
 imagePrompt2: "Four different trail running hydration vests laid flat on a weathered wooden mountain hut table for comparison, varying sizes and colors, two soft flasks placed beside them, trekking poles and energy gels arranged in background, soft diffused natural daylight from left"
+publishedAt: "2026-04-28T09:00:00.000Z"
 ---
 Un gilet qui rebondit à chaque foulée ne pardonne rien passé le kilomètre 40. La question centrale des comparatifs de cette saison n'est pas de savoir combien de litres emporter, mais à quel coût en stabilité, en poids et en polyvalence.
 

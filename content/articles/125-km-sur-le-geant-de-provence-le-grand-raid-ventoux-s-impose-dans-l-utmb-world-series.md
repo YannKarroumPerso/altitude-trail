@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://ventoux.utmb.world/fr/ultra-trail-village", label: "Ultra-Trail Village de Malaucène : programme et informations" }
 imagePrompt1: "Trail runners at dawn approaching the rocky limestone scree fields near the summit of Mont Ventoux, north face, dramatic spring sky, runners in silhouette, wide Provençal landscape below, cold morning light"
 imagePrompt2: "Trail runner crossing exposed Dentelles de Montmirail rocky ridge at sunrise in Provence, sharp limestone pinnacles, green valley below with spring vegetation, single figure on narrow path, golden morning light, ultra-wide angle"
+publishedAt: "2026-04-23T09:00:00.000Z"
 ---
 Le Tour de France a rendu le Ventoux immortel. Mais une icône du souffrir volontaire ne se limite pas à ceux qui pédalent. Le Grand Raid Ventoux vient de franchir une étape décisive en rejoignant l'[UTMB](https://www.altitude-trail.fr/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb) World Series, et la montagne calcaire du Vaucluse s'invite désormais sur la carte mondiale du trail.
 

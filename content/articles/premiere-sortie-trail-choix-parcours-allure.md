@@ -34,6 +34,7 @@ youtubeTitle: "5 ERREURS qu’on aurait aimé connaître avant de commencer à C
 youtubeChannel: Running Addict
 youtubeDuration: 556
 youtubeUploadDate: '2024-10-10T14:30:24Z'
+publishedAt: "2026-04-06T10:00:00.000Z"
 ---
 
 Le trail n'est pas une version pentue de la course sur [route](https://www.altitude-trail.fr/articles/route-vers-trail-adapter-entrainement-sans-blessure). C'est un autre sport, avec ses propres règles et la première sortie le fait comprendre en quelques centaines de mètres.

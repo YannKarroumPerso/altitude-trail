@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/2026-madeira-island-ultra-trail-110k-results/helen-mino-faukner-2026-madeira-island-ultra-trail-legend-110k-second-place/", label: "Helen Mino Faukner – 2e place MIUT Legend 2026 – iRunFar" }
 imagePrompt1: "Female trail runner moving through volcanic mountain landscape in pre-dawn darkness on Madeira island Portugal, headlamp illuminating steep rocky trail, dramatic Atlantic sea cliffs in background, dense laurel forest, high ridgeline silhouette, race bib visible, focused determined expression"
 imagePrompt2: "Male ultra trail runner crossing finish line of mountain race on Madeira island Portugal at early dawn, Atlantic ocean visible in distance, volcanic green peaks, emotional celebratory gesture, race timing arch overhead, small crowd cheering, warm golden light"
+publishedAt: "2026-04-27T12:30:00.000Z"
 ---
 Près d'une heure. C'est l'écart que Katharina [Hartmuth](https://www.altitude-trail.fr/articles/miut-2026-esmiol-vainqueur-en-12h49-hartmuth-s-impose-sur-le-110k-de-madere) a creusé entre elle et ses poursuivantes sur les sentiers volcaniques de Madère. Dans le trail élite, une telle domination ne s'explique pas par la chance ni par la faiblesse du plateau.
 

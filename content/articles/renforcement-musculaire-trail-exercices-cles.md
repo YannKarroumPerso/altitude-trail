@@ -36,6 +36,7 @@ youtubeTitle: >-
 youtubeChannel: Running Addict
 youtubeDuration: 355
 youtubeUploadDate: '2020-03-25T20:34:12Z'
+publishedAt: "2026-04-12T09:30:00.000Z"
 ---
 
 Deux séances de 40 minutes par semaine. Pas dix. C'est la dose minimale qui sépare le coureur qui tient ses descentes du coureur qui s'écroule au kilomètre 60.

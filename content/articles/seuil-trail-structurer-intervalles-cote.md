@@ -36,6 +36,7 @@ youtubeTitle: "Comment BIEN faire la séance FRACTIONNÉ ? \U0001F60F"
 youtubeChannel: Running Addict
 youtubeDuration: 786
 youtubeUploadDate: '2021-12-01T14:30:02Z'
+publishedAt: "2026-04-14T09:30:00.000Z"
 ---
 
 Le seuil, en [trail](https://www.altitude-trail.fr/articles/cotes-montees-marche-rapide-l-equation-oubliee-du-trail-de-30-km), n'est pas une allure. C'est une zone physiologique qu'il faut retraduire à chaque fois que le terrain bascule. Et dès que la pente dépasse 5 %, les repères du plat volent en éclat.

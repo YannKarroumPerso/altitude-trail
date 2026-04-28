@@ -27,6 +27,7 @@ externalRefs:
     label: >-
       British Journal of Sports Medicine – Études cliniques sur les blessures de
       surmenage chez le coureur
+publishedAt: "2026-04-18T09:30:00.000Z"
 ---
 
 Léa, trente-deux ans, entre dans le cabinet en claudiquant légèrement. Elle prépare son premier 42 kilomètres en montagne, s'entraîne depuis six mois et a décidé, trois semaines plus tôt, de passer de quatre à six sorties hebdomadaires pour « caler du volume ». Depuis dix jours, une ligne de feu brûle le long de la face interne de son tibia droit. Le matin, c'est une simple raideur. En fin de séance, c'est une cuisson permanente qui l'oblige à marcher les derniers kilomètres. Le scénario est d'une banalité clinique presque désespérante : c'est une périostite tibiale, l'une des blessures les plus fréquentes chez le coureur en phase de progression et particulièrement chez celui qui bascule sur le trail.

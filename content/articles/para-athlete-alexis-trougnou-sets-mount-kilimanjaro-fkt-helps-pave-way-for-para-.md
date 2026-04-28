@@ -46,6 +46,7 @@ externalRefs:
       performance en trail
   - url: 'https://worldathletics.org'
     label: World Athletics – Réglementation et para-athlétisme international
+publishedAt: "2026-04-21T09:30:00.000Z"
 ---
 
 Un FKT sur le Kilimandjaro en 26h41, bouclé par un coureur qui voit "comme à travers une paille" et devient aveugle la nuit. Ce n'est pas une anecdote inspirante. C'est une recalibration.

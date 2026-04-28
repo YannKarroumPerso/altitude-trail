@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://canyons.utmb.world/runners/registration", label: "Canyons by UTMB : inscriptions et tarifs 2026" }
 imagePrompt1: "Ultra-trail runners at the starting line at China Wall Trailhead near Auburn California, bright midday sunlight, Sierra Nevada pine forest backdrop, large field of athletes wearing hydration vests and trail running shoes, race bibs visible, golden California foothills in background, wide angle shot, dramatic sky"
 imagePrompt2: "Solo ultra-trail runner crossing Rucky Chucky river ford on the Western States Trail, knee-deep in clear American River water, steep granite canyon walls on both sides, warm golden afternoon light filtering through pine trees, hydration vest and trail shoes, California wilderness"
+publishedAt: "2026-04-25T09:30:00.000Z"
 ---
 Ce vendredi 24 avril 2026 à 12h00 PDT, soit 21h00 à Paris, le peloton s'élance du China Wall Trailhead. Devant chaque coureur : 161 km, 5 550 m de dénivelé positif, 35 heures maximum pour rejoindre downtown Auburn. Les [Canyons](https://www.altitude-trail.fr/articles/canyons-100m-2026-161-km-a-auburn-enjeux-et-favoris-d-une-major-utmb) Endurance Runs by UTMB ne préviennent pas.
 

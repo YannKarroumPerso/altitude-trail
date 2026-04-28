@@ -18,6 +18,7 @@ externalRefs:
   - { url: "https://ultrarunning.com", label: "Ultrarunning Magazine – Référence américaine de l" }
 imagePrompt1: "Runners at dawn start of the West Highland Way Race in Milngavie town center, Scotland, headlamps glowing in blue misty morning light, crowd lining the street, competitors in trail vests with hydration packs and trekking poles, overcast dramatic sky"
 imagePrompt2: "Solo trail runner on narrow rocky coastal path on St Mary's island, Isles of Scilly, bright turquoise Atlantic water visible on both sides of the headland, rugged granite outcrops, warm golden afternoon light, runner in lightweight trail kit"
+publishedAt: "2025-06-19T09:00:00.000Z"
 ---
 
 Vingt courses d'ultra-endurance en soixante-douze heures, trois nations, des [Highlands](https://www.altitude-trail.fr/articles/week-end-d-ultra-au-royaume-uni-les-pennines-exmoor-et-les-highlands-dictent-leu) écossais aux îles Scilly. Ce week-end du 20 juin 2025 n'est pas une exception britannique. C'est la règle.

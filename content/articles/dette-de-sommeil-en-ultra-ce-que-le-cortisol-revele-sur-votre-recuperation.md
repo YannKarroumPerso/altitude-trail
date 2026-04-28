@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9791263/", label: "Cortisol, adiponectine et réponses hormonales en ultramarathon – PMC" }
 imagePrompt1: "Exhausted ultramarathon runner on a dark mountain trail at 3am, headlamp beam cutting through thick fog, steep rocky alpine terrain, dramatic starry sky overhead, visible fatigue in body language, deep shadows and dramatic depth, cinematic trail race atmosphere at night"
 imagePrompt2: "Trail runner sleeping on a folding cot inside a race aid station tent, emergency foil blanket draped over body, race bib number visible on shirt, other runners resting in background, dim warm lantern light, dusty worn trail shoes placed on the ground beside the cot"
+publishedAt: "2026-04-22T11:00:00.000Z"
 ---
 Couper une heure de [sommeil](https://www.altitude-trail.fr/articles/votre-meilleur-allie-contre-les-blessures-ne-coute-rien-le-sommeil) pour caser un entraînement matinal : des millions de coureurs le font sans culpabilité particulière. C'est pourtant une erreur physiologique documentée, avec des conséquences hormonales mesurables sur la performance et la récupération.
 

@@ -38,6 +38,7 @@ youtubeTitle: Alimentation pour le trail et l'ultra trail
 youtubeChannel: Alexandre Auffret - Tout pour ma Santé
 youtubeDuration: 654
 youtubeUploadDate: '2021-06-13T06:55:16Z'
+publishedAt: "2026-04-07T09:30:00.000Z"
 ---
 
 L'ultra ne se gagne pas à la VO2max. Il se perd à l'estomac. Demandez à n'importe quel finisher de la Diagonale, de la TDS ou de la Hardrock ce qui a failli le stopper : dans trois cas sur quatre, la réponse n'est ni les jambes ni la tête. C'est le ventre.

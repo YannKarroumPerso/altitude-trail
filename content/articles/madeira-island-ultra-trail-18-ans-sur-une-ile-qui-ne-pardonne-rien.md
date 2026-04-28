@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/2025-trail-world-championships-long-trail-mens-preview", label: "Championnats du monde de trail long 2025 : analyse hommes – iRunFar" }
 imagePrompt1: "A lone trail runner at sunrise crossing a dramatic volcanic ridge on Madeira Island, Atlantic Ocean glittering far below, lush green misty mountains on all sides, rugged rocky terrain, athlete in motion wearing race bib, warm golden light breaking over the horizon, ultra trail race atmosphere, wide landscape composition"
 imagePrompt2: "Exhausted trail runner descending steep mountain path toward the coastal town of Machico on Madeira Island, late afternoon golden hour light, deep blue Atlantic Ocean visible in distance, runner's face showing determination and fatigue, race number visible, dramatic Portuguese volcanic landscape, ultra endurance race final kilometers"
+publishedAt: "2026-04-23T11:30:00.000Z"
 ---
 Porto Moniz à l'aube, Machico au crépuscule : 115 kilomètres pour traverser une île entière, de côte à côte. En dix-huit ans d'existence, le Madeira Island Ultra-[Trail](https://www.altitude-trail.fr/articles/colmen-trail-2026-gaggi-et-rota-martir-dominent-la-montagne-magique-de-morbegno) a vu passer les plus grands noms du sport. Ce que la course révèle de chacun d'eux, elle le révèle aussi de l'état du trail mondial.
 

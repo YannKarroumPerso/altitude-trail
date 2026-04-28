@@ -33,6 +33,7 @@ externalRefs:
       Courtney Dauwalter
   - url: 'https://www.hardrock100.com'
     label: Hardrock 100 – site officiel de l'une des courses du Triple Crown 2023
+publishedAt: "2026-03-29T09:30:00.000Z"
 ---
 Prolonger un contrat d'ambassadrice jusqu'en 2029, puis intégrer l'athlète au capital humain de la marque : [Salomon](https://www.altitude-trail.fr/articles/salomon-xt-6-2026-quand-la-legende-du-trail-devient-sneaker-unisexe) ne renouvelle pas Courtney Dauwalter, la marque la transforme en actif long terme. Un signal pour toute l'industrie.
 

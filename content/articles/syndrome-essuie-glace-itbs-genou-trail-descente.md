@@ -38,6 +38,7 @@ youtubeTitle: Soulager le syndrome de l'essuie glace . Douleur Genou . Kiné
 youtubeChannel: Major Mouvement
 youtubeDuration: 155
 youtubeUploadDate: '2018-10-10T09:19:46Z'
+publishedAt: "2026-04-19T09:30:00.000Z"
 ---
 
 Kilomètre 42 d'un 70 bornes dans le Beaufortain. Thomas attaque la longue [descente](https://www.altitude-trail.fr/articles/entrainement-specifique-descente-trail-excentrique) vers la vallée, celle qu'il a répétée trois fois à l'entraînement. Après huit cents mètres de pente, une brûlure s'installe sur le côté extérieur du genou droit. Diffuse d'abord, puis lancinante, puis insoutenable à chaque appui. Il tente de raccourcir sa foulée, de freiner en biais, rien n'y fait : au bout de deux kilomètres, il marche. À l'arrivée, il boitille. Il vient de rencontrer le syndrome de la bandelette ilio-tibiale, surnommé « syndrome de l'essuie-glace ».

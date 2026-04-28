@@ -30,6 +30,7 @@ externalRefs:
     label: >-
       UTMB World Series – Référence mondiale des courses d'ultra-trail en
       montagne
+publishedAt: "2026-04-11T10:00:00.000Z"
 ---
 
 Le GR 20 n'est pas un sentier de course. C'est une épreuve d'alpinisme allongée. Faire 110 kilomètres dessus d'une traite, avec 7 500 mètres de dénivelé positif, relève d'une catégorie à part.

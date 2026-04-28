@@ -26,6 +26,7 @@ externalRefs:
   - { url: "https://montblanc.utmb.world/races/UTMB", label: "UTMB Mont-Blanc 2026 – présentation officielle de la course finale" }
 imagePrompt1: "Hundreds of trail runners with headlamps departing at dawn from a small Provençal village at the foot of Mont Ventoux, purple spring sky with golden light breaking on the horizon, race bibs, cheering spectators lining the street, dramatic starting atmosphere"
 imagePrompt2: "Lone trail runner ascending steep white limestone scree path toward Mont Ventoux summit, bright blue cloudless spring sky, barren rocky landscape with sparse low vegetation, athletic figure in trail running gear and race bib, southern France Provence"
+publishedAt: "2026-04-26T11:30:00.000Z"
 ---
 Ce vendredi matin, Malaucène a envoyé ses coureurs dans le noir. Le départ de l'Ultra Géant de [Provence](https://www.altitude-trail.fr/articles/grand-raid-ventoux-2026-125-km-sur-le-geant-de-provence-pour-lancer-la-saison-utmb) 2026 (première épreuve française du circuit UTMB World Series cette saison) a retenti sur fond de calcaire provençal, avec 125 km et 5 700 m de dénivelé positif devant soi. Le Géant de Provence n'a jamais prétendu être commode.
 

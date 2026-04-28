@@ -26,6 +26,7 @@ externalRefs:
     label: ITRA – Système de classement et points de qualification trail
   - url: 'https://www.irunfar.com'
     label: iRunFar – Couverture éditoriale de l'UTMB et du circuit élite trail
+publishedAt: "2026-04-08T10:00:00.000Z"
 ---
 
 La finale mondiale officieuse du trail se joue fin août à Chamonix. Mais pour y accéder, il faut décrypter un système que les meilleurs coureurs de la planète jugent désormais opaque, contradictoire, parfois arbitraire. Le malaise n'est plus feutré. Il est public.

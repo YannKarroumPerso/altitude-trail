@@ -30,6 +30,7 @@ externalRefs:
     label: Ultra Running Magazine – source des résultats officiels de la course
   - url: 'https://www.irunfar.com'
     label: iRunFar – couverture des ultras hivernaux britanniques
+publishedAt: "2026-03-29T10:00:00.000Z"
 ---
 174 kilomètres, 57 [heures](https://www.altitude-trail.fr/articles/kim-collison-roi-de-la-spine-race-la-redemption-au-bout-de-82-heures) de barrière horaire, un départ le 11 janvier à l'aube britannique. Le Montane Winter Spine Challenger South n'est pas un ultra, c'est un audit de caractère. Et l'édition 2025 a sévèrement trié.
 

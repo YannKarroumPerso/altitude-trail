@@ -37,6 +37,7 @@ externalRefs:
     label: Site officiel UTMB World Series
   - url: 'https://www2.u-trail.com'
     label: U-Trail – média trail running (source citée dans l'article)
+publishedAt: "2026-04-22T09:00:00.000Z"
 ---
 
 À 71 ans, Michel Poletti marche. Pas en guise de récupération, en guise de projet. Le cofondateur de l'[UTMB](https://www.altitude-trail.fr/articles/julien-chorier-ouvrir-les-pacers-a-tous-denaturerait-l-utmb) traverse la France à pied, reliant les courses d'un circuit mondial qu'il a lui-même contribué à bâtir. Il y a dans ce geste une tension fertile entre l'homme et la machine qu'il a créée.

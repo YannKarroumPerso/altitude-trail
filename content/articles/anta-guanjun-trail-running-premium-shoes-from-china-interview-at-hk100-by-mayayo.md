@@ -32,6 +32,7 @@ externalRefs:
     label: >-
       ITRA – Instance internationale de classement et réglementation du trail
       running
+publishedAt: "2026-04-01T09:00:00.000Z"
 ---
 Hong Kong, janvier. Sur la ligne du HK100, Anta ne vient pas vendre des [chaussures](https://www.altitude-trail.fr/articles/chaussures-carbone-trail-itra-reglementation-limite). La marque chinoise vient poser un acte politique : celui d'un équipementier qui refuse désormais son rôle historique de sous-traitant du sport mondial.
 

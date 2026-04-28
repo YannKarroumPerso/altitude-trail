@@ -25,6 +25,7 @@ externalRefs:
   - { url: "https://pubmed.ncbi.nlm.nih.gov/33691287/", label: "PubMed : déterminants physiologiques de la performance en trail ultra" }
 imagePrompt1: "A world-class male ultrarunner in race bib crossing a rocky Sierra Nevada ridgeline at dawn, visible exhaustion on his face, sweat-soaked jersey, dramatic pine forest and granite boulders in background, warm golden morning light raking across the trail, photorealistic"
 imagePrompt2: "Sports scientist attaching ingestible telemetry capsule and physiological sensors to a trail runner on a laboratory treadmill, multiple digital monitors displaying heart rate curves and VO2 data, white clinical research lab, focused researcher in foreground"
+publishedAt: "2026-04-22T13:30:00.000Z"
 ---
 Un athlète de classe mondiale au Western States 2025, 100 miles dans les jambes, dépense 18,8 kilocalories par minute pendant toute la course. Ce chiffre, jamais documenté dans une épreuve d'ultra réelle, ne dit pas seulement quelque chose sur un individu hors norme, il redéfinit ce que la physiologie peut mesurer, et révèle ce qu'elle peine encore à expliquer.
 

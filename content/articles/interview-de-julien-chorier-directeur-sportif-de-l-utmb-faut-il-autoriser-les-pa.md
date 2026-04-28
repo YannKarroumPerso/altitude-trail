@@ -35,6 +35,7 @@ externalRefs:
     label: Site officiel de la Hardrock 100
   - url: 'https://www2.u-trail.com'
     label: U-Trail – Média trail running
+publishedAt: "2026-04-17T10:00:00.000Z"
 ---
 Pas de pacers sur l'UTMB. La ligne est tracée, assumée et elle ne bougera pas. Julien Chorier, directeur sportif de l'organisation et ancien vainqueur de la Hardrock, vient de le confirmer dans un entretien publié par U-Trail, au moment même où la question revenait cogner aux portes de Chamonix via un malentendu italien.
 

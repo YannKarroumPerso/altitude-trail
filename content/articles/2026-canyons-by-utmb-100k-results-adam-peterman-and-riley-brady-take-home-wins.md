@@ -19,6 +19,7 @@ externalRefs:
   - { url: "https://www.trailrunnermag.com", label: "Trail Runner Magazine" }
 imagePrompt1: "Nearly 700 trail runners with headlamps starting the Canyons by UTMB 100k race at 5am at China Wall trailhead, Sierra Nevada foothills California, dark pre-dawn sky with faint orange horizon, cold morning mist rising from pine forest, dirt trail, race bibs"
 imagePrompt2: "Two male ultra-trail runners competing side by side on a dusty Sierra Nevada mountain single track, California afternoon golden light, ponderosa pines, rocky terrain, intense athletic effort, sweat-soaked race kits, visible determination"
+publishedAt: "2026-04-26T10:30:00.000Z"
 ---
 
 Six minutes trente d'écart entre le vainqueur et le quatrième homme. Trois Golden Tickets à distribuer, quatre coureurs en course pour les arracher dans les quinze derniers kilomètres. Les [Canyons](https://www.altitude-trail.fr/articles/canyons-by-utmb-100m-2026-161-km-sur-les-terres-de-western-states-depart-auburn-vendredi) by UTMB 100k ne font pas dans la nuance.

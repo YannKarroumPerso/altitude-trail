@@ -19,6 +19,7 @@ externalRefs:
   - { url: "https://www.irunfar.com", label: "iRunFar – actualités ultra-trail internationales" }
 imagePrompt1: "trail runner climbing a steep technical singletrack through dense Vosges forest at sunrise, autumn golden light filtering through beech trees, visible race bib, muddy trail, low angle dynamic shot"
 imagePrompt2: "large group of trail runners in colorful gear at a race start near Nice with Mediterranean coastline and limestone coastal cliffs visible in background, early morning golden hour light, wide angle aerial perspective"
+publishedAt: "2026-04-26T15:00:00.000Z"
 ---
 
 Quand un élu annonce qu'il coupe l'argent public d'un grand événement sportif, la réaction est prévisible : indignation, scénarios catastrophistes, tribunes alarmées. Avec l'UTMB Nice, le script s'est joué à l'identique. Mais selon u-[Trail](https://www.altitude-trail.fr/articles/22-ans-100-miles-ticket-utmb-noa-ohms-la-revelation-parisienne-du-trail), la vraie histoire est ailleurs. Elle s'est déjà écrite, discrètement, en Alsace.

@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://montblanc.utmb.world/news/summary-UTMB", label: "UTMB Mont-Blanc, palmarès des champions" }
 imagePrompt1: "Ultra trail runners gathered at the start line in Malaucene village at dawn, French Provence, Mont Ventoux pale white summit visible in the far background, orange sunrise light, race bib numbers, nervous pre-race energy, early spring morning cold mist, cheering spectators lining cobblestone streets"
 imagePrompt2: "Lone trail runner ascending the rocky exposed white limestone summit cone of Mont Ventoux, powerful gusty wind, barren stone plateau, orange race vest and poles, late afternoon golden light, vast Provençal valleys and hills spreading far below, sense of isolation and effort"
+publishedAt: "2026-04-25T10:30:00.000Z"
 ---
 Le Mont Ventoux n'a pas de voisin. Cette solitude géologique, unique parmi les grands terrains de trail français, en fait une arène sans filet : chaque perturbation météorologique arrive sans préavis, le mistral coupe sans négociation, les pierriers sommitaux brûlent sous le soleil d'avril ou gèlent sous un front tardif. Le 24 avril 2026, depuis Malaucène, le Grand Raid Ventoux by UTMB repose sur les épaules des concurrents 125 kilomètres et 5 700 mètres de dénivelé positif. Ce n'est pas un défi rhétorique. C'est une mise à l'épreuve réelle.
 

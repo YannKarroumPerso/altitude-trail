@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://www.irunfar.com/2025-madeira-island-ultra-trail-results-paul-cornut-chauvinc-and-katie-schide-win", label: "Résultats MIUT 2025 – iRunFar" }
 imagePrompt1: "Ultra trail runner climbing a steep volcanic ridge at dawn on Madeira island, dense laurisilva laurel forest below, dramatic Atlantic ocean horizon in distance, race number bib visible on chest, rugged rocky terrain, golden morning light, second runner visible far behind on single track"
 imagePrompt2: "American female trail runner celebrating at the finish line arch of an ultra trail race on Madeira island, coastal town of Machico in background, race banners and crowd cheering along barriers, warm afternoon light, hands raised in triumph, Portuguese Atlantic coastal setting"
+publishedAt: "2026-04-27T12:00:00.000Z"
 ---
 110 km de volcans, de forêts de lauriers et de crêtes battues par l'Atlantique. Ce format-là ne ment pas. Le 25 avril 2026, il a rendu son verdict : Vincent Esmiol (France) et [Katharina](https://www.altitude-trail.fr/articles/vincent-esmiol-et-katharina-hartmuth-remportent-le-miut-2026-un-110k-inedit-a-madere) Hartmuth.
 

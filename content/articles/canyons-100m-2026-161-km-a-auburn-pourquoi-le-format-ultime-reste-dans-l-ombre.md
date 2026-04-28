@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://utmb.world/news/canyons-endurance-runs-utmb", label: "UTMB World : présentation des Canyons Endurance Runs" }
 imagePrompt1: "Hundreds of ultramarathon runners at the starting line at China Wall trailhead in Sierra Nevada foothills California, bright midday sunlight, rugged canyon landscape in background, colorful race bibs, wide landscape shot, April spring light, anticipation before a 100-mile race"
 imagePrompt2: "Solo trail runner crossing a wooden suspension bridge over a rocky river gorge deep in a California Sierra Nevada canyon, warm golden afternoon light, dramatic ochre cliff walls, dense pine and chaparral vegetation, hydration pack, vast wilderness solitude"
+publishedAt: "2026-04-26T09:30:00.000Z"
 ---
 À midi pile, heure du Pacifique, le 24 avril 2026, le canon résonne à China Wall. 161 kilomètres de Sierra Nevada attendent les partants du [Canyons](https://www.altitude-trail.fr/articles/canyons-by-utmb-100m-2026-161-km-sur-les-terres-de-western-states-depart-auburn-vendredi) 100M by UTMB. Douzième édition, même décor mythique, même question sous-jacente : pourquoi le format le plus long reste-t-il le grand absent des conversations élite ?
 

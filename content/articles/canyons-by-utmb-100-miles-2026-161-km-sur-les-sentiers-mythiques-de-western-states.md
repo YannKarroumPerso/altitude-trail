@@ -27,6 +27,7 @@ externalRefs:
   - { url: "https://ultrarunning.com/calendar/event/the-canyons", label: "UltraRunning Magazine – Fiche Canyons Endurance Runs" }
 imagePrompt1: "Ultra trail runners gathered at China Wall trailhead race start, Sierra Nevada foothills California, spring midday sunshine, tall pine forest, runners wearing numbered bibs and hydration vests, dusty trail winding into canyon landscape, clear blue April sky, wide establishing shot"
 imagePrompt2: "Lone ultra runner crossing wooden suspension bridge over deep American River gorge, Northern California canyon wilderness, late afternoon golden light, dramatic red and ochre canyon walls, green chaparral vegetation, runner with poles, river rushing far below, wide angle cinematic composition"
+publishedAt: "2026-04-26T10:00:00.000Z"
 ---
 [Vendredi](https://www.altitude-trail.fr/articles/canyons-by-utmb-100m-2026-161-km-sur-les-terres-de-western-states-depart-auburn-vendredi) 24 avril, à midi heure du Pacifique, les premiers coureurs ont quitté China Wall pour 161 km de sentiers californiens. Le Canyons by UTMB 100 Miles 2026 est lancé, et avec lui l'une des épreuves les plus convoitées du printemps américain.
 

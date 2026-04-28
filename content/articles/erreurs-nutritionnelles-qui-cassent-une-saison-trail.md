@@ -29,6 +29,7 @@ externalRefs:
     label: ANSES – recommandations nutritionnelles officielles pour les sportifs
   - url: 'https://www.itra.run'
     label: ITRA – ressources et données sur les coureurs de trail et ultra-trail
+publishedAt: "2026-04-11T09:00:00.000Z"
 ---
 
 Une saison ne se brise pas en une sortie. Elle s'effrite par en dessous, semaine après semaine, pendant qu'on s'entraîne de mieux en mieux et qu'on court de plus en plus mal.
