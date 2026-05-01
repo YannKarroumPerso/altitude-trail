@@ -39,6 +39,11 @@ const GOOGLE_SITE_VERIFICATION =
   "yxW25KZGmXLzlnfxImJlUXpjFwgvoyBLBfVhbwMd2yk";
 const GOOGLE_PUBLISHER_VERIFICATION =
   process.env.NEXT_PUBLIC_GOOGLE_PUBLISHER_VERIFICATION || "";
+// Google AdSense client ID. Le script est injecte dans le <head> du layout pour
+// validation de propriete + diffusion d'annonces. Override possible via env var,
+// fallback sur l'ID de production qui n'est pas un secret (visible dans le HTML public).
+const ADSENSE_CLIENT_ID =
+  process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || "ca-pub-8923156541111621";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -123,6 +128,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="alternate" type="application/rss+xml" title={`${SITE_NAME} — RSS`} href="/rss.xml" />
         <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+        {/* Google AdSense : script charge sur toutes les pages pour validation
+           propriete + diffusion d'annonces. async + crossorigin requis par Google. */}
+        {ADSENSE_CLIENT_ID && (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
+            crossOrigin="anonymous"
+          />
+        )}
       </head>
       <body>
         <JsonLd data={buildOrganizationJsonLd()} />
