@@ -34,6 +34,15 @@ const nextConfig: NextConfig = {
           "/articles/qui-court-vraiment-les-200-miles-de-trail-95-heures-40-ans-et-des-milliers-d",
         permanent: true,
       },
+      // 301 : article satirique supprime (UTMB ravitos / crise subventions)
+      // -> redirige vers le vrai article sur les subventions publiques UTMB Nice.
+      {
+        source:
+          "/articles/utmb-supprime-tous-ses-ravitos-la-crise-des-subventions-frappe-le-trail-mondial",
+        destination:
+          "/articles/utmb-nice-perd-ses-subventions-publiques-trail-alsace-a-deja-trace-la-voie",
+        permanent: true,
+      },
     ];
   },
   images: {
