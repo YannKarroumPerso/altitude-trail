@@ -3,7 +3,7 @@
 // (nutrition, renforcement, sommeil, descente) et met à jour leur frontmatter.
 //
 // Usage : node scripts/regen-article-images.mjs
-// Prérequis : BFL_API_KEY dans l'environnement (présente dans .env.local)
+// Prérequis : GEMINI_API_KEY dans l'environnement (présente dans .env.local)
 //
 // Après succès :
 //   npm run publish
@@ -11,6 +11,7 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
+import { generateImage, saveImage } from "./lib/image-generation.mjs";
 
 // Charge .env.local manuellement (pas de dotenv en runtime)
 try {
@@ -31,13 +32,17 @@ try {
 const PUBLIC_DIR = path.resolve("public/articles");
 const CONTENT_DIR = path.resolve("content/articles");
 
-const FLUX_STYLE_SUFFIX = ", cinematic trail running photography, summer mountain trail, dirt and rocky singletrack, dramatic natural lighting, shallow depth of field, 35mm film, ultra realistic, editorial magazine style, no skiing, no snow, no winter gear";
 
 const FLUX_WIDTH = 1344;
 const FLUX_HEIGHT = 768;
 
 // Timestamp pour rendre les noms de fichier uniques (force le rafraîchissement CDN Vercel)
 const ts = Date.now().toString(36);
+
+if (!process.env.GEMINI_API_KEY) {
+  console.error("[regen] GEMINI_API_KEY manquante dans .env.local ou l'environnement — abandon.");
+  process.exit(1);
+}
 
 const JOBS = [
   {
@@ -66,46 +71,7 @@ const JOBS = [
   },
 ];
 
-const apiKey = process.env.BFL_API_KEY;
-if (!apiKey) {
-  console.error("[regen] BFL_API_KEY manquante dans .env.local ou l'environnement — abandon.");
-  process.exit(1);
-}
 
-async function generateFluxImage(prompt) {
-  const fullPrompt = `${prompt.trim()}${FLUX_STYLE_SUFFIX}`;
-  const res = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
-    method: "POST",
-    headers: {
-      Authorization: `Key ${apiKey}`,
-      "Content-Type": "application/json",
-      accept: "application/json",
-    },
-    body: JSON.stringify({
-      prompt: fullPrompt,
-      image_size: { width: FLUX_WIDTH, height: FLUX_HEIGHT },
-      num_images: 1,
-      safety_tolerance: "2",
-      output_format: "jpeg",
-      enable_safety_checker: true,
-    }),
-  });
-  if (!res.ok) {
-    const text = await res.text().catch(() => "");
-    throw new Error(`fal ${res.status}: ${text.slice(0, 250)}`);
-  }
-  const data = await res.json();
-  const url = data.images?.[0]?.url;
-  if (!url) throw new Error(`fal: pas d'URL dans la réponse`);
-  return url;
-}
-
-async function downloadImage(url, destPath) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`download ${res.status}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  await fs.writeFile(destPath, buf);
-}
 
 async function updateFrontmatter(mdPath, imagePath) {
   const src = await fs.readFile(mdPath, "utf8");
@@ -125,9 +91,9 @@ async function updateFrontmatter(mdPath, imagePath) {
     const destPath = path.join(PUBLIC_DIR, job.imageName);
     try {
       console.log(`  prompt : ${job.prompt.slice(0, 110)}…`);
-      const url = await generateFluxImage(job.prompt);
-      console.log(`  flux URL : ${url.slice(0, 80)}…`);
-      await downloadImage(url, destPath);
+      const buf = await generateImage(job.prompt);
+      console.log(`  generated buffer ${(buf.length/1024).toFixed(1)} KB`);
+      await saveImage(buf, destPath);
       const stat = await fs.stat(destPath);
       console.log(`  ✓ saved ${destPath.replace(path.resolve("."), ".")} (${(stat.size / 1024).toFixed(1)} KB)`);
       const mdPath = path.join(CONTENT_DIR, `${job.slug}.md`);

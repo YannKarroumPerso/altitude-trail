@@ -19,6 +19,7 @@ import {
 import { findYouTubeVideoForArticle } from "./lib/youtube-search.mjs";
 import { effectiveCapForRun } from "./lib/daily-cap.mjs";
 import { isInHotEventWindow } from "./lib/hot-events-calendar.mjs";
+import { generateImage, saveImage } from "./lib/image-generation.mjs";
 
 const SOURCES = [
   // Médias francophones
@@ -59,13 +60,6 @@ const MIN_SOURCE_LENGTH = 400;
 // on ne la reutilise plus JAMAIS sous peine d'avoir un hero ski sur un article trail.
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80";
 
-const BFL_BASE_URL = process.env.BFL_BASE_URL || "https://api.bfl.ai/v1";
-const FLUX_MODEL = process.env.FLUX_MODEL || "flux-pro-1.1";
-const FLUX_STYLE_SUFFIX = ", cinematic trail running photography, summer mountain trail, dirt and rocky singletrack, dramatic natural lighting, shallow depth of field, 35mm film, ultra realistic, editorial magazine style, no skiing, no snow, no winter gear";
-const FLUX_WIDTH = 1344;
-const FLUX_HEIGHT = 768;
-const FLUX_POLL_INTERVAL_MS = 2000;
-const FLUX_MAX_POLLS = 90;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -376,46 +370,9 @@ function buildMarkdownFile({ meta, body, sourceItem, pubDate, image }) {
   return front;
 }
 
-async function generateFluxImage(prompt) {
-  const apiKey = process.env.BFL_API_KEY;
-  if (!apiKey) throw new Error("BFL_API_KEY manquante");
-  const fullPrompt = `${prompt.trim()}${FLUX_STYLE_SUFFIX}`;
-  const res = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
-    method: "POST",
-    headers: {
-      "Authorization": `Key ${apiKey}`,
-      "Content-Type": "application/json",
-      "accept": "application/json",
-    },
-    body: JSON.stringify({
-      prompt: fullPrompt,
-      image_size: { width: FLUX_WIDTH, height: FLUX_HEIGHT },
-      num_images: 1,
-      safety_tolerance: "2",
-      output_format: "jpeg",
-      enable_safety_checker: true,
-    }),
-  });
-  if (!res.ok) {
-    const text = await res.text().catch(() => "");
-    throw new Error(`fal submit ${res.status}: ${text.slice(0, 200)}`);
-  }
-  const data = await res.json();
-  const url = data.images?.[0]?.url;
-  if (!url) throw new Error(`fal: pas d'URL dans la réponse`);
-  return url;
-}
-
-async function downloadImage(url, destPath) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`image download ${res.status}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  await fs.writeFile(destPath, buf);
-}
-
 async function generateAndDownloadImages(slug, prompts) {
-  if (!process.env.BFL_API_KEY) {
-    console.warn("[veille]   skipping FLUX images: BFL_API_KEY manquante");
+  if (!process.env.GEMINI_API_KEY) {
+    console.warn("[veille]   skipping images: GEMINI_API_KEY manquante");
     return [];
   }
   await fs.mkdir(PUBLIC_IMAGES_DIR, { recursive: true });
@@ -430,14 +387,13 @@ async function generateAndDownloadImages(slug, prompts) {
     const filename = `${slug}-${i + 1}.jpg`;
     const destPath = path.join(PUBLIC_IMAGES_DIR, filename);
     try {
-      console.log(`[veille]   flux#${i + 1}: ${prompt.slice(0, 80)}${prompt.length > 80 ? "…" : ""}`);
-      const imageUrl = await generateFluxImage(prompt);
-      if (!imageUrl) throw new Error("pas d'URL d'image dans la réponse");
-      await downloadImage(imageUrl, destPath);
+      console.log(`[veille]   image#${i + 1}: ${prompt.slice(0, 80)}${prompt.length > 80 ? "…" : ""}`);
+      const buf = await generateImage(prompt);
+      await saveImage(buf, destPath);
       refs.push({ url: `/articles/${filename}`, alt: prompt.slice(0, 120) });
       console.log(`[veille]     saved ${destPath}`);
     } catch (e) {
-      console.error(`[veille]     flux error: ${e.message}`);
+      console.error(`[veille]     image error: ${e.message}`);
       refs.push(null);
     }
   }
@@ -580,7 +536,7 @@ async function processFeed(client, url, maxForThisSource = MAX_PER_SOURCE) {
       console.warn(`[veille]   internal linking error: ${e.message}`);
     }
 
-    // 4. Insertion des images FLUX
+    // 4. Insertion des images
     const bodyWithImages = insertImagesInBody(bodyWithLinks, imageRefs);
 
     const md = buildMarkdownFile({

@@ -108,6 +108,7 @@ jobs:
           ANTHROPIC_MODEL: ${{ steps.preflight.outputs.model }}
           MAX_ARTICLES_PER_SOURCE: ${{ vars.MAX_ARTICLES_PER_SOURCE || '2' }}
           BFL_API_KEY: ${{ secrets.BFL_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FLUX_MODEL: ${{ vars.FLUX_MODEL || 'flux-pro-1.1' }}
           YOUTUBE_API_DATA: ${{ secrets.YOUTUBE_API_DATA }}
           SITE_BASE_URL: ${{ env.SITE_BASE_URL }}

@@ -10,7 +10,7 @@
 //   npm run veille-tavily           # toutes les queries thématiques
 //   npm run veille-tavily -- --query="hardrock 100 results 2026"
 //
-// Env requis : TAVILY_API_KEY, ANTHROPIC_API_KEY, BFL_API_KEY (FLUX images).
+// Env requis : TAVILY_API_KEY, ANTHROPIC_API_KEY, GEMINI_API_KEY (images).
 
 import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
@@ -34,9 +34,9 @@ import {
 import { effectiveCapForRun } from "./lib/daily-cap.mjs";
 import { HOT_EVENTS, isInHotEventWindow, getEventSpecificQueries } from "./lib/hot-events-calendar.mjs";
 import { pickFrenchSubjectQueries } from "./lib/french-trail-names.mjs";
+import { generateImage, saveImage } from "./lib/image-generation.mjs";
 
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
-const FLUX_MODEL = process.env.FLUX_MODEL || "flux-pro-1.1";
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80";
 
 const CONTENT_DIR = path.resolve("content/articles");
@@ -510,44 +510,10 @@ async function validateRefs(refs) {
   return out;
 }
 
-// ─── FLUX image generation (mêmes fonctions que dans veille.mjs) ───────────
-
-const FLUX_STYLE_SUFFIX = ", cinematic trail running photography, summer mountain trail, dirt and rocky singletrack, dramatic natural lighting, shallow depth of field, 35mm film, ultra realistic, editorial magazine style, no skiing, no snow, no winter gear";
-
-async function generateFluxImage(prompt) {
-  const apiKey = process.env.BFL_API_KEY;
-  if (!apiKey) throw new Error("BFL_API_KEY manquante");
-  const fullPrompt = `${prompt.trim()}${FLUX_STYLE_SUFFIX}`;
-  const res = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
-    method: "POST",
-    headers: {
-      Authorization: `Key ${apiKey}`,
-      "Content-Type": "application/json",
-      accept: "application/json",
-    },
-    body: JSON.stringify({
-      prompt: fullPrompt,
-      image_size: { width: 1344, height: 768 },
-      num_images: 1,
-      safety_tolerance: "2",
-      output_format: "jpeg",
-      enable_safety_checker: true,
-    }),
-  });
-  if (!res.ok) throw new Error(`fal ${res.status}`);
-  const data = await res.json();
-  return data.images?.[0]?.url;
-}
-
-async function downloadImage(url, destPath) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`image download ${res.status}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  await fs.writeFile(destPath, buf);
-}
+// ─── Image generation (Nano Banana 2 Flash via scripts/lib/image-generation.mjs) ──
 
 async function generateAndDownloadImages(slug, prompts) {
-  if (!process.env.BFL_API_KEY) return [];
+  if (!process.env.GEMINI_API_KEY) return [];
   await fs.mkdir(PUBLIC_IMAGES_DIR, { recursive: true });
   const refs = [];
   for (let i = 0; i < prompts.length; i++) {
@@ -556,13 +522,12 @@ async function generateAndDownloadImages(slug, prompts) {
     const filename = `${slug}-${i + 1}.jpg`;
     const destPath = path.join(PUBLIC_IMAGES_DIR, filename);
     try {
-      console.log(`[tavily]   flux#${i + 1}: ${prompt.slice(0, 80)}…`);
-      const url = await generateFluxImage(prompt);
-      if (!url) throw new Error("pas d'URL d'image");
-      await downloadImage(url, destPath);
+      console.log(`[tavily]   image#${i + 1}: ${prompt.slice(0, 80)}…`);
+      const buf = await generateImage(prompt);
+      await saveImage(buf, destPath);
       refs.push({ url: `/articles/${filename}`, alt: prompt.slice(0, 120) });
     } catch (e) {
-      console.error(`[tavily]     flux error: ${e.message}`);
+      console.error(`[tavily]     image error: ${e.message}`);
       refs.push(null);
     }
   }
@@ -793,7 +758,7 @@ async function processQuery(client, query, angle, categorySlug, allExisting, inc
     console.warn(`[tavily]   internal linking error: ${e.message}`);
   }
 
-  // Images FLUX
+  // Images (Nano Banana 2 Flash)
   const imageRefs = await generateAndDownloadImages(baseSlug, [meta.imagePrompt1, meta.imagePrompt2]);
   const bodyWithImages = insertImagesInBody(bodyWithLinks, imageRefs);
   const heroImage = imageRefs.find(Boolean)?.url || FALLBACK_IMAGE;

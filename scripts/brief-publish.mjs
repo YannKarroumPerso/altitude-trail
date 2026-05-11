@@ -16,7 +16,7 @@
 //   npm run brief-publish
 //   node scripts/brief-publish.mjs --vertical=equipement
 //
-// Env requis : TAVILY_API_KEY, ANTHROPIC_API_KEY, BFL_API_KEY.
+// Env requis : TAVILY_API_KEY, ANTHROPIC_API_KEY, GEMINI_API_KEY.
 
 import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
@@ -31,6 +31,7 @@ import {
   insertInternalLinks,
 } from "./lib/internal-linking.mjs";
 import { findYouTubeVideoForArticle } from "./lib/youtube-search.mjs";
+import { generateImage, saveImage } from "./lib/image-generation.mjs";
 import { urlIsAlive } from "./lib/authority-domains.mjs";
 import { effectiveBriefCapForRun } from "./lib/brief-cap.mjs";
 import { BRIEF_VERTICALS, pickBriefQueriesForRun } from "./lib/brief-queries.mjs";
@@ -222,44 +223,10 @@ function validateBriefStructure(body, slug, title, excerpt) {
   return true;
 }
 
-// ─── FLUX image generation (identique à veille-tavily.mjs) ────────────────
-
-const FLUX_STYLE_SUFFIX = ", cinematic trail running photography, summer mountain trail, dirt and rocky singletrack, dramatic natural lighting, shallow depth of field, 35mm film, ultra realistic, editorial magazine style, no skiing, no snow, no winter gear";
-
-async function generateFluxImage(prompt) {
-  const apiKey = process.env.BFL_API_KEY;
-  if (!apiKey) throw new Error("BFL_API_KEY manquante");
-  const fullPrompt = `${prompt.trim()}${FLUX_STYLE_SUFFIX}`;
-  const res = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
-    method: "POST",
-    headers: {
-      Authorization: `Key ${apiKey}`,
-      "Content-Type": "application/json",
-      accept: "application/json",
-    },
-    body: JSON.stringify({
-      prompt: fullPrompt,
-      image_size: { width: 1344, height: 768 },
-      num_images: 1,
-      safety_tolerance: "2",
-      output_format: "jpeg",
-      enable_safety_checker: true,
-    }),
-  });
-  if (!res.ok) throw new Error(`fal ${res.status}`);
-  const data = await res.json();
-  return data.images?.[0]?.url;
-}
-
-async function downloadImage(url, destPath) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`image download ${res.status}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  await fs.writeFile(destPath, buf);
-}
+// ─── Image generation (Nano Banana 2 Flash via scripts/lib/image-generation.mjs) ──
 
 async function generateAndDownloadImages(slug, prompts) {
-  if (!process.env.BFL_API_KEY) return [];
+  if (!process.env.GEMINI_API_KEY) return [];
   await fs.mkdir(PUBLIC_IMAGES_DIR, { recursive: true });
   const refs = [];
   for (let i = 0; i < prompts.length; i++) {
@@ -268,13 +235,12 @@ async function generateAndDownloadImages(slug, prompts) {
     const filename = `${slug}-${i + 1}.jpg`;
     const destPath = path.join(PUBLIC_IMAGES_DIR, filename);
     try {
-      console.log(`[brief]   flux#${i + 1}: ${prompt.slice(0, 80)}…`);
-      const url = await generateFluxImage(prompt);
-      if (!url) throw new Error("pas d'URL d'image");
-      await downloadImage(url, destPath);
+      console.log(`[brief]   image#${i + 1}: ${prompt.slice(0, 80)}…`);
+      const buf = await generateImage(prompt);
+      await saveImage(buf, destPath);
       refs.push({ url: `/articles/${filename}`, alt: prompt.slice(0, 120) });
     } catch (e) {
-      console.error(`[brief]     flux error: ${e.message}`);
+      console.error(`[brief]     image error: ${e.message}`);
       refs.push(null);
     }
   }
@@ -490,7 +456,7 @@ async function processQuery(client, q, allExisting, hotEventSlug) {
     console.warn(`[brief]   internal linking error: ${e.message}`);
   }
 
-  // Images FLUX (1 image insérée dans le corps + hero)
+  // Images (Nano Banana 2 Flash, 1 insérée dans le corps + hero)
   const imageRefs = await generateAndDownloadImages(baseSlug, [meta.imagePrompt1, meta.imagePrompt2]);
   const bodyWithImages = insertImagesInBody(bodyWithLinks, imageRefs);
   const heroImage = imageRefs.find(Boolean)?.url || FALLBACK_IMAGE;

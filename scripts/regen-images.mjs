@@ -9,50 +9,12 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
+import { generateImage, saveImage } from "./lib/image-generation.mjs";
 
 const CONTENT_DIR = path.resolve("content/articles");
 const IMAGES_DIR = path.resolve("public/articles");
 const FLUX_WIDTH = 1344;
 const FLUX_HEIGHT = 768;
-const FLUX_STYLE_SUFFIX =
-  ", cinematic trail running photography, summer mountain trail, dirt and rocky singletrack, dramatic natural lighting, shallow depth of field, 35mm film, ultra realistic, editorial magazine style, no skiing, no snow, no winter gear";
-
-async function generateFluxImage(prompt) {
-  const apiKey = process.env.BFL_API_KEY;
-  if (!apiKey) throw new Error("BFL_API_KEY manquante");
-  const fullPrompt = `${prompt.trim()}${FLUX_STYLE_SUFFIX}`;
-  const res = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
-    method: "POST",
-    headers: {
-      Authorization: `Key ${apiKey}`,
-      "Content-Type": "application/json",
-      accept: "application/json",
-    },
-    body: JSON.stringify({
-      prompt: fullPrompt,
-      image_size: { width: FLUX_WIDTH, height: FLUX_HEIGHT },
-      num_images: 1,
-      safety_tolerance: "2",
-      output_format: "jpeg",
-      enable_safety_checker: true,
-    }),
-  });
-  if (!res.ok) {
-    const text = await res.text().catch(() => "");
-    throw new Error(`fal submit ${res.status}: ${text.slice(0, 200)}`);
-  }
-  const data = await res.json();
-  const url = data.images?.[0]?.url;
-  if (!url) throw new Error("fal: pas d'URL dans la réponse");
-  return url;
-}
-
-async function downloadImage(url, destPath) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`download ${res.status}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  await fs.writeFile(destPath, buf);
-}
 
 async function main() {
   const slugs = process.argv.slice(2);
@@ -71,8 +33,8 @@ async function main() {
       const prompt = prompts[i];
       const dest = path.join(IMAGES_DIR, `${slug}-${i + 1}.jpg`);
       console.log(`  flux#${i + 1}: ${prompt.slice(0, 90)}...`);
-      const url = await generateFluxImage(prompt);
-      await downloadImage(url, dest);
+      const buf = await generateImage(prompt);
+      await saveImage(buf, dest);
       console.log(`  saved ${dest}`);
     }
   }
