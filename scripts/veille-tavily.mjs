@@ -33,6 +33,7 @@ import {
 } from "./lib/authority-domains.mjs";
 import { effectiveCapForRun } from "./lib/daily-cap.mjs";
 import { HOT_EVENTS, isInHotEventWindow, getEventSpecificQueries } from "./lib/hot-events-calendar.mjs";
+import { pickFrenchSubjectQueries } from "./lib/french-trail-names.mjs";
 
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 const FLUX_MODEL = process.env.FLUX_MODEL || "flux-pro-1.1";
@@ -850,12 +851,22 @@ async function main() {
   // Détecte un événement chaud en cours : bascule sur des queries dédiées.
   const hotEvent = isInHotEventWindow();
 
-  // Query source : custom > hot event > rotation normale
-  const queries = customQuery
-    ? [{ query: customQuery, angle: "Synthèse thématique personnalisée.", categorySlug: "actualites", include_domains: RACES_DOMAINS }]
-    : hotEvent
-      ? getEventSpecificQueries(hotEvent.event)
-      : pickQueriesForRun(3, new Date());
+  // Query source : custom > hot event > rotation normale boostée FR.
+  // P0 : en mode normal, on garantit qu'au moins 30% des queries portent sur
+  // un nom propre FR (athlète, marque, influenceur) pour rattraper u-trail.com
+  // sur l'actu chaude française.
+  let queries;
+  if (customQuery) {
+    queries = [{ query: customQuery, angle: "Synthèse thématique personnalisée.", categorySlug: "actualites", include_domains: RACES_DOMAINS }];
+  } else if (hotEvent) {
+    queries = getEventSpecificQueries(hotEvent.event);
+  } else {
+    const TOTAL = 3;
+    const frCount = Math.max(1, Math.ceil(TOTAL * 0.34)); // au moins 1/3, >= 30%
+    const frQueries = pickFrenchSubjectQueries(frCount, undefined, new Date());
+    const generic = pickQueriesForRun(TOTAL - frCount, new Date());
+    queries = [...frQueries, ...generic];
+  }
 
   const modeLabel = hotEvent
     ? `HOT ${hotEvent.event.name} (J${hotEvent.relativeHours >= 0 ? "+" : ""}${Math.round(hotEvent.relativeHours / 24)})`

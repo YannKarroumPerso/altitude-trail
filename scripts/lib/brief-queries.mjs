@@ -1,3 +1,5 @@
+import { pickFrenchSubjectQueries } from "./french-trail-names.mjs";
+
 // Banques de requêtes Tavily pour les brèves actu chaude.
 // Trois verticales distinctes, chacune avec ses domaines d'autorité.
 //
@@ -332,7 +334,21 @@ export function pickBriefQueriesForRun(count, seedDate = new Date()) {
   const out = [];
   const seen = new Set();
   let pickIdx = 0;
-  // Tour 1 : 1 query par verticale (round-robin)
+
+  // P0 boost actu FR : on garantit qu'au moins 30% des queries de chaque run
+  // sont des sujets FR (athlète, marque, influenceur) via pickFrenchSubjectQueries.
+  // Inspiration : u-trail.com mise sur les noms propres FR pour dominer Discover.
+  const frCount = Math.max(1, Math.ceil(count * 0.34));
+  const frQueries = pickFrenchSubjectQueries(frCount, undefined, seedDate);
+  for (const fq of frQueries) {
+    if (out.length >= count) break;
+    if (!seen.has(fq.query)) {
+      seen.add(fq.query);
+      out.push(fq);
+    }
+  }
+
+  // Tour 1 : 1 query par verticale (round-robin) — complète jusqu'au count.
   while (out.length < count && pickIdx < rotated.length * 5) {
     const [, queries] = rotated[pickIdx % rotated.length];
     const qIdx = (absHash + Math.floor(pickIdx / rotated.length) * 7) % queries.length;

@@ -23,11 +23,13 @@ Paragraphe unique de 60-100 mots qui dit QUI, QUOI, QUAND, OÙ, avec les chiffre
 1 à 2 paragraphes (150-250 mots) qui éclairent l'info. Pour équipement : positionnement gamme, modèle précédent, concurrence. Pour marques-industrie : stratégie, mouvements précédents, enjeu business. Pour athlètes : trajectoire carrière, performances antérieures, signaux faibles. Sources citées nommément (selon iRunFar, d'après Trail Runner Mag).
 
 ## Notre lecture
-1 paragraphe (100-150 mots) avec un angle FR assumé :
-- Équipement : "qu'est-ce que ça change pour le coureur français" (prix €, dispo FR, alternative locale moins chère, terrain européen)
-- Marques-industrie : "ce que ça signifie pour le trail francophone ou européen"
-- Athlètes : "comment ça s'inscrit dans la carrière / le circuit international"
-Point de vue autorisé et encouragé, MAIS jamais prescriptif ("achetez cette chaussure" INTERDIT).
+1 paragraphe (100-150 mots) avec un angle FR ASSUMÉ et tranché. Fini le "ni pour ni contre" :
+- Équipement : "qu'est-ce que ça change pour le coureur français" (prix €, dispo FR, alternative locale moins chère, terrain européen). Verdict éditorial chiffré bienvenu (ex : "3/5 sur l'innovation, 4/5 sur le rapport qualité-prix"). Tu peux écrire "notre lecture : cette chaussure est plutôt positive parce que A et B" ou "cette stratégie pose question parce que C et D" tant que les arguments s'appuient sur les sources.
+- Marques-industrie : "ce que ça signifie pour le trail francophone ou européen". Critique constructive autorisée si étayée par les chiffres ou les déclarations officielles.
+- Athlètes : "comment ça s'inscrit dans la carrière / le circuit international". Lecture argumentée (signal faible repéré, choix stratégique discuté), pas de jugement personnel gratuit.
+
+Encouragements explicites : prise de position argumentée, verdict chiffré, critique factuelle.
+INTERDITS : prescriptions d'achat ("achetez cette chaussure"), attaque personnelle, diffamation, "X a tort" sans arguments, spéculation non sourcée.
 
 RÈGLES STRICTES
 

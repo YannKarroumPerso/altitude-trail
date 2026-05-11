@@ -85,16 +85,14 @@ export async function tavilySearch(query, opts = {}) {
 }
 
 // Domaines à exclure (trop généralistes, trop bruyants, ou risques légaux).
-// On préfère les laisser hors whitelist que d'avoir Tavily qui nous renvoie
-// des contenus que Claude citerait faute de mieux.
+// NOTE : on a retiré instagram/twitter/x/facebook depuis le boost actu FR :
+// ils sont désormais des SOURCES utiles pour les annonces d'athlètes francophones
+// (calqué sur la stratégie u-trail.com). Pinterest, Reddit, TikTok, YouTube et
+// Quora restent bannis car trop bruyants ou inadaptés au texte structuré.
 export const TAVILY_EXCLUDE_DOMAINS = [
   "pinterest.com",
   "pinterest.fr",
   "reddit.com",
-  "facebook.com",
-  "twitter.com",
-  "x.com",
-  "instagram.com",
   "tiktok.com",
   "youtube.com",
   "quora.com",
@@ -102,20 +100,45 @@ export const TAVILY_EXCLUDE_DOMAINS = [
 
 // Domaines prioritaires : si on les trouve dans les résultats, on les met en
 // tête de pile pour enrichir Claude avec les meilleures sources.
+// On AJOUTE des sources FR + réseaux sociaux sans supprimer l'existant.
 export const TAVILY_PRIORITY_DOMAINS = [
+  // Médias trail internationaux (existant)
   "irunfar.com",
   "trailrunnermag.com",
   "ultrarunning.com",
   "utmbmontblanc.com",
   "itra.run",
-  "lepape-info.com",
-  "u-trail.com",
   "runnersworld.com",
-  "trail-session.fr",
   "runningmagazine.ca",
+  // Science / santé (existant)
   "bjsm.bmj.com",
   "pubmed.ncbi.nlm.nih.gov",
   "insep.fr",
+  // Médias FR (existant + ajouts P1)
+  "lepape-info.com",
+  "u-trail.com",
+  "trail-session.fr",
+  "runactu.com",
+  "passiontrail.fr",
+  "wider-mag.com",
+  "esprit-trail.com",
+  "journaldutrail.com",
+  "runningmag.fr",
+  // Réseaux sociaux (ajouts P1) — annonces directes d'athlètes/marques FR.
+  // Inspiré de u-trail.com qui pioche dans Insta/X/FB pour l'actu chaude FR.
+  "instagram.com",
+  "twitter.com",
+  "x.com",
+  "facebook.com",
+  "strava.com",
+  // Sites marques FR (ajouts P1)
+  "decathlon.fr",
+  "salomon.com",
+  "hoka.com",
+  "raidlight.com",
+  "compressport.com",
+  "lafuma.com",
+  "millet.com",
 ];
 
 export function rerankByPriority(results) {
