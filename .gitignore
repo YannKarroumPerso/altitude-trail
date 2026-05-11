@@ -54,3 +54,8 @@ next-env.d.ts
 .claude-secrets
 .claude-*.local
 .claude-bootstrap.md
+
+# Pattern .secrets/ : source de verite unique pour tous les secrets locaux
+# (.txt par secret), synchronisee vers Vercel + GitHub Actions via
+# npm run sync-secrets. Jamais commit.
+.secrets/

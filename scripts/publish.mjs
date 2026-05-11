@@ -4,6 +4,23 @@ import path from "node:path";
 import { execSync } from "node:child_process";
 import matter from "gray-matter";
 
+import { readFileSync as _readSync, existsSync as _existsSync } from "node:fs";
+
+// Resolution du PAT GitHub. Priorite .secrets/github_token.txt (nouveau pattern),
+// fallback .claude-git-token (legacy, a supprimer dans 2-3 sessions).
+// Utilise par les scripts qui doivent forger une URL git avec credentials.
+export function resolveGithubToken() {
+  const repoRoot = path.resolve(".");
+  const newPath = path.join(repoRoot, ".secrets", "github_token.txt");
+  const legacyPath = path.join(repoRoot, ".claude-git-token");
+  if (_existsSync(newPath)) return _readSync(newPath, "utf8").trim();
+  if (_existsSync(legacyPath)) {
+    console.warn("[publish] WARN .claude-git-token deprecated, migrate to .secrets/github_token.txt");
+    return _readSync(legacyPath, "utf8").trim();
+  }
+  return null;
+}
+
 const CONTENT_DIR = path.resolve("content/articles");
 const DATA_PATH = path.resolve("src/lib/data.ts");
 const START_MARKER = "// AUTO-ARTICLES:START";

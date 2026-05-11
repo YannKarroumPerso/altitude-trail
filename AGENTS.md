@@ -60,4 +60,53 @@ Défini dans `src/lib/authors.ts` et miroir dans `scripts/lib/authors.mjs` :
 - `935a545` (2026-04-23) : bot Tavily, 2 articles UTMF 2026 (hot event du 24-26 avril)
 
 Dernière mise à jour de ce fichier : 2026-04-23.
+
+## Pattern .secrets/
+
+Source de verite unique pour tous les secrets locaux : dossier `.secrets/` a la racine du repo, gitignore. Un fichier .txt par secret, nom du fichier = identifiant lowercase, contenu trimmed = valeur.
+
+### Synchroniser vers Vercel + GitHub Actions
+
+```bash
+npm run sync-secrets              # push reel
+npm run sync-secrets -- --dry-run # liste les actions sans pousser
+```
+
+Le script `scripts/sync-secrets.mjs` :
+- Lit chaque `.txt` de `.secrets/`
+- Pour Vercel : POST/PATCH `/v10/projects/prj_ptixycm8pZfWnpBCDrTAq1aMO4rZ/env` (sensitive, production + preview)
+- Pour GitHub Actions : chiffre avec libsodium sealed_box puis PUT `/repos/YannKarroumPerso/altitude-trail/actions/secrets/{name}`
+- Idempotent (force update systematique cote Vercel/GH car les valeurs sont write-only)
+
+### Ajouter un nouveau secret
+
+1. Cree `.secrets/mon_secret.txt` avec la valeur
+2. Ajoute une entree dans `NAMING` en haut de `scripts/sync-secrets.mjs` (mets `null` cote destination si tu ne veux pas le pousser la-bas)
+3. `npm run sync-secrets`
+
+### Secrets mappes actuellement
+
+| Local (.secrets/*.txt)        | Vercel                     | GitHub Actions          |
+|-------------------------------|----------------------------|-------------------------|
+| github_token                  | -                          | -                       |
+| github_username               | -                          | -                       |
+| vercel_token                  | -                          | -                       |
+| gemini_api_key                | GEMINI_API_KEY             | GEMINI_API_KEY          |
+| anthropic_api_key             | ANTHROPIC_API_KEY          | ANTHROPIC_API_KEY       |
+| bfl_api_key                   | -                          | BFL_API_KEY             |
+| youtube_api_data              | YOUTUBE_API_DATA           | YOUTUBE_API_DATA        |
+| tavily_api_key                | TAVILY_API_KEY             | TAVILY_API_KEY          |
+| resend_api_key                | RESEND_API_KEY             | -                       |
+| supabase_url                  | SUPABASE_URL               | -                       |
+| supabase_service_role_key     | SUPABASE_SERVICE_ROLE_KEY  | -                       |
+| pagespeed_api_key             | PAGESPEED_API_KEY          | -                       |
+| cron_secret                   | CRON_SECRET                | -                       |
+| github_trigger_pat            | GITHUB_TRIGGER_PAT         | -                       |
+| gmail_app_password            | -                          | GMAIL_APP_PASSWORD      |
+
+`github_token` et `vercel_token` restent locaux (ils servent au sync lui-meme).
+
+### Migration depuis .claude-git-token
+
+Le pattern remplace `.claude-git-token`. `scripts/publish.mjs` expose `resolveGithubToken()` qui lit `.secrets/github_token.txt` en priorite, fallback `.claude-git-token` (deprecation log). Le fallback sera supprime dans 2-3 sessions.
 <!-- END:altitude-trail-context -->
