@@ -59,3 +59,6 @@ next-env.d.ts
 # (.txt par secret), synchronisee vers Vercel + GitHub Actions via
 # npm run sync-secrets. Jamais commit.
 .secrets/
+
+# Cowork daemon queue (generated)
+.claude-queue/
