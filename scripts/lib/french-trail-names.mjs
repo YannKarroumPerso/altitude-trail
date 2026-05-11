@@ -1,6 +1,9 @@
 // Tracker noms propres FR pour booster l'actu chaude française dans les
-// pipelines Tavily/brief. Inspiré de u-trail.com qui domine le créneau en
-// piochant directement les Insta/X/FB d'athlètes francophones.
+// pipelines Tavily/brief. Stratégie : taper directement aux sources PRIMAIRES
+// (Insta/X/Strava/sites officiels marques/ITRA/utmb.world) AVANT que les médias
+// FR (y compris u-trail.com qu'on volontairement exclut de nos sources pour
+// éviter d'être un sub-canonical de leur contenu) ne couvrent. But : être en
+// avance, pas un agrégateur secondaire.
 //
 // Utilisation principale : pickFrenchSubjectQueries() injecte 30%+ des queries
 // Tavily de chaque run sur des noms propres FR, le reste reste générique.
@@ -69,33 +72,44 @@ const MONTHS_FR = [
 ];
 
 const ATHLETE_DOMAINS_FR = [
-  // Réseaux sociaux (annonces directes)
-  "instagram.com", "twitter.com", "x.com", "facebook.com", "strava.com",
-  // Médias FR
-  "u-trail.com", "lepape-info.com", "trail-session.fr", "passiontrail.fr",
+  // ── Sources PRIMAIRES (annonces directes, avant que les médias FR ne couvrent) ──
+  // Réseaux sociaux des athlètes
+  "instagram.com", "twitter.com", "x.com", "facebook.com",
+  // Strava (activités + posts athlètes)
+  "strava.com",
+  // YouTube channels (vlogs course, annonces preview)
+  "youtube.com",
+  // Résultats canoniques + plateformes officielles courses
+  "itra.run", "utmb.world",
+  // ── Médias FR alternatifs (PAS u-trail.com pour éviter un sub-canonical) ──
+  "lepape-info.com", "trail-session.fr", "passiontrail.fr",
   "runactu.com", "esprit-trail.com", "journaldutrail.com",
   "wider-mag.com", "outdoor-running.com", "runningmag.fr",
-  // Médias internationaux (couverture élite FR)
+  // ── Médias internationaux (couverture élite FR à l'étranger) ──
   "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
-  // ITRA pour résultats canoniques
-  "itra.run",
 ];
 
 const BRAND_DOMAINS_FR = [
-  // Sites marques FR
+  // ── Sources PRIMAIRES (sites marques officiels = annonces produit/contrats avant relais média) ──
   "decathlon.fr", "salomon.com", "hoka.com", "raidlight.com",
   "compressport.com", "lafuma.com", "millet.com",
-  // Médias FR pour relais commercial
-  "u-trail.com", "lepape-info.com", "trail-session.fr", "runactu.com",
-  "passiontrail.fr", "runningmag.fr",
-  // International pour reviews croisées
-  "irunfar.com", "trailrunnermag.com",
+  "naak.com", "veloce-running.com", "buff.com",
+  // Communiqués + posts marques sur réseaux
+  "instagram.com", "linkedin.com", "x.com",
+  // ── Médias FR alternatifs (PAS u-trail.com) ──
+  "lepape-info.com", "trail-session.fr", "runactu.com",
+  "passiontrail.fr", "runningmag.fr", "esprit-trail.com",
+  // ── International (reviews équipement) ──
+  "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
 ];
 
 const INFLUENCER_DOMAINS_FR = [
+  // ── Sources PRIMAIRES (les influenceurs publient eux-mêmes sur leurs réseaux) ──
   "instagram.com", "twitter.com", "x.com", "facebook.com",
-  "youtube.com", "strava.com",
-  "u-trail.com", "lepape-info.com", "passiontrail.fr",
+  "youtube.com", "strava.com", "tiktok.com",
+  // ── Médias FR alternatifs (PAS u-trail.com) ──
+  "lepape-info.com", "passiontrail.fr", "trail-session.fr",
+  "runactu.com", "esprit-trail.com",
 ];
 
 /**
@@ -128,7 +142,7 @@ export function pickFrenchSubjectQueries(count, hour, seedDate = new Date()) {
       vertical: "athletes",
       buildQuery: (name) => `"${name}" actualité ${monthLabel} ${year} course annonce`,
       buildAngle: (name) =>
-        `Actualité ${name} : annonce de course, performance, déclaration publique récente. Vérifier les déclarations officielles (Insta, communiqués) et croiser avec médias FR (u-trail, lepape-info, trail-session).`,
+        `Actualité ${name} : annonce de course, performance, déclaration publique récente. Privilégier les sources primaires (Insta, X, Strava, communiqués officiels, ITRA, utmb.world) et croiser avec médias FR alternatifs (lepape-info, passiontrail, trail-session, runactu).`,
     },
     {
       kind: "brand",
