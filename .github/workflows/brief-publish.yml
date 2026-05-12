@@ -106,11 +106,9 @@ jobs:
           git diff --name-only --diff-filter=A "$BEFORE..$AFTER" -- 'content/articles/*.md' > /tmp/new-articles.txt
           COUNT=$(wc -l < /tmp/new-articles.txt | tr -d ' ')
           echo "new_articles=$COUNT" >> $GITHUB_OUTPUT
-          sed 's|content/articles/||;s|\.md$||' /tmp/new-articles.txt > /tmp/slugs.txt
-          : > /tmp/urls.txt
-          while read -r slug; do
-            echo "${{ env.SITE_BASE_URL }}/articles/$slug" >> /tmp/urls.txt
-          done < /tmp/slugs.txt
+          # FIX bug filename != frontmatter slug : extraire le vrai slug du frontmatter
+          # (avant : sed sur filename → URLs en 404 si Claude a réécrit le titre).
+          cat /tmp/new-articles.txt | node scripts/lib/extract-article-urls.mjs --base="${{ env.SITE_BASE_URL }}" > /tmp/urls.txt
           {
             echo "urls_text<<URLS_EOF"
             cat /tmp/urls.txt

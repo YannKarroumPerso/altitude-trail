@@ -446,10 +446,16 @@ async function processFeed(client, url, maxForThisSource = MAX_PER_SOURCE) {
     if (created >= effectiveMax) break;
     if (!item.title || !item.link) continue;
 
-    const baseSlug = slugify(item.title);
-    if (!baseSlug) continue;
-    const outPath = path.join(CONTENT_DIR, `${baseSlug}.md`);
-    if (existsSync(outPath)) continue;
+    // Slug provisoire calcule depuis le titre RSS source (anti-doublon precoce :
+    // economise les appels API si l article existe deja sous le meme slug source).
+    // Le filename FINAL sera recalcule apres la reecriture Claude pour eviter
+    // le mismatch filename != frontmatter.slug (Claude reecrit souvent le titre,
+    // donc slugify(item.title) != slugify(validated.meta.title)).
+    const sourceSlug = slugify(item.title);
+    if (!sourceSlug) continue;
+    const sourceCheckPath = path.join(CONTENT_DIR, `${sourceSlug}.md`);
+    if (existsSync(sourceCheckPath)) continue;
+    let baseSlug = sourceSlug; // sera reaffecte apres Claude pour le filename final
 
     const rawBody = stripHtml(item["content:encoded"] || item.content || item.contentSnippet || "");
     if (rawBody.length < MIN_SOURCE_LENGTH) continue;
@@ -473,6 +479,23 @@ async function processFeed(client, url, maxForThisSource = MAX_PER_SOURCE) {
       validated = validateRewrite(rewritten, item);
     } catch (e) {
       console.error(`[veille]   validation failed: ${e.message}`);
+      continue;
+    }
+
+    // Recalcule le slug FINAL depuis le titre Claude reecrit, pour garantir
+    // filename == frontmatter.slug. Sinon : email de notif avec URL filename
+    // tombe en 404 alors que le site sert l article sous le slug frontmatter.
+    const finalSlug = slugify(validated.meta.title);
+    if (!finalSlug) {
+      console.error(`[veille]   slug final vide (titre Claude vide ?), skip`);
+      continue;
+    }
+    baseSlug = finalSlug;
+    const outPath = path.join(CONTENT_DIR, `${baseSlug}.md`);
+    // Re-verif doublon avec le vrai slug : Claude peut produire un titre dont
+    // le slug existe deja (cas rare mais possible).
+    if (existsSync(outPath)) {
+      console.log(`[veille]   doublon final-slug (${baseSlug}) detecte apres reecriture, skip`);
       continue;
     }
     const imageRefs = await generateAndDownloadImages(baseSlug, [
