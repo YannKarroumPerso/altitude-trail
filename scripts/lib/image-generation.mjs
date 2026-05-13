@@ -16,7 +16,7 @@ const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models
 export const STYLE_SUFFIX =
   ", cinematic trail running photography, summer mountain trail, dirt and rocky singletrack, dramatic natural lighting, shallow depth of field, 35mm film, ultra realistic, editorial magazine style, no skiing, no snow, no winter gear";
 
-const MAX_RETRIES = 3;
+const MAX_RETRIES = 8;
 const DEFAULT_RETRY_DELAY_MS = 5000;
 
 function sleep(ms) {
@@ -71,11 +71,21 @@ export async function generateImage(prompt, options = {}) {
       body: JSON.stringify(body),
     });
 
-    if (res.status === 429) {
+    // Retry agressif sur 429 (rate limit), 503 (service unavailable),
+    // 500 (internal server error transitoire). Backoff exponentiel avec
+    // jitter pour ne pas spammer en cas de saturation Gemini.
+    if (res.status === 429 || res.status === 503 || res.status === 500) {
       const errText = await res.text().catch(() => "");
-      const delay = extractRetryDelayMs(errText);
-      lastErr = new Error(`gemini 429: ${errText.slice(0, 200)}`);
+      // Pour 429 : utilise le retryDelay renvoye par Gemini si fourni.
+      // Pour 503/500 : backoff exponentiel 5s, 15s, 45s, 90s, 180s, 300s...
+      const expBackoff = Math.min(300, 5 * Math.pow(3, attempt)) * 1000;
+      const jitter = Math.random() * 2000;
+      const delay = res.status === 429
+        ? extractRetryDelayMs(errText)
+        : expBackoff + jitter;
+      lastErr = new Error(`gemini ${res.status}: ${errText.slice(0, 200)}`);
       if (attempt < MAX_RETRIES - 1) {
+        console.warn(`  gemini ${res.status} retry in ${Math.round(delay/1000)}s (attempt ${attempt+1}/${MAX_RETRIES})`);
         await sleep(delay);
         continue;
       }

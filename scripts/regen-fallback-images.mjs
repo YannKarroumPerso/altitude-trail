@@ -21,7 +21,7 @@ const PUBLIC_DIR = path.resolve("public/articles");
 const FALLBACK = "/logo-square.png";
 
 const limitArg = process.argv.find((a) => a.startsWith("--limit="));
-const LIMIT = limitArg ? parseInt(limitArg.slice("--limit=".length), 10) : 100;
+const LIMIT = limitArg ? parseInt(limitArg.slice("--limit=".length), 10) : 3;
 
 function buildPrompt(meta) {
   const title = meta.title || "";
@@ -88,6 +88,9 @@ async function main() {
       console.error(`  ✗ ${e.message}`);
       failed++;
     }
+    // Sleep 15s entre articles pour ne pas surcharger Gemini (qui rate-limit
+    // facilement en cas de demande forte sur Nano Banana 2 Flash).
+    await new Promise((r) => setTimeout(r, 15000));
   }
 
   console.log(`\n[regen-fallback] ${done} régénéré(s), ${failed} échec(s) sur ${articles.length} candidats.`);
