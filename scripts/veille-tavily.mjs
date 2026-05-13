@@ -60,7 +60,7 @@ const RACES_DOMAINS = [
   "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
   "runnersworld.com", "runningmagazine.ca",
   // Presse trail francophone
-  "lepape-info.com", "u-trail.com", "trail-session.fr",
+  "lepape-info.com", "trail-session.fr",
   "wider-mag.com", "esprit-trail.com", "outdoor-running.com",
   "runningmag.fr", "journaldutrail.com",
   // Presse generaliste FR avec couverture trail
@@ -74,12 +74,11 @@ const RACES_DOMAINS = [
 const GEAR_DOMAINS = [
   "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
   "runnersworld.com", "runningmagazine.ca", "runrepeat.com",
-  "lepape-info.com", "trail-session.fr", "u-trail.com",
-];
+  "lepape-info.com", "trail-session.fr", ];
 
 const PORTRAITS_DOMAINS = [
   "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
-  "lepape-info.com", "u-trail.com", "trail-session.fr",
+  "lepape-info.com", "trail-session.fr",
   "runnersworld.com", "runningmagazine.ca",
 ];
 

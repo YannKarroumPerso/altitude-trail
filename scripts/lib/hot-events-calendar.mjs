@@ -102,15 +102,24 @@ export const HOT_EVENTS = [
     tags: ["MDS", "Marathon des Sables", "live"],
   },
   {
-    slug: "zegama-marathon",
-    name: "Zegama Marathon",
-    start: "2026-05-24",
+    slug: "zegama-aizkorri-2026",
+    name: "Zegama-Aizkorri 2026",
+    start: "2026-05-17",
     location: "Pays Basque, Espagne",
     queries: [
-      '"Zegama Marathon" 2026 Skyrunning results',
-      '"Zegama Aizkorri" 2026 race finishers',
+      // Anglais : iRunFar, Freetrail, World Series sont les sources primaires.
+      '"Zegama-Aizkorri" 2026 Kilian Jornet 25th edition preview iRunFar',
+      '"Zegama Marathon" 2026 entry list elite Stian Angermund Daniel Pattis',
+      '"Zegama Aizkorri" 2026 results winner finishers Elazzaoui Alonso',
+      '"Zegama 2026" Vertical Kilometer May 15 results',
+      // Espagnol : presse locale, organisation officielle.
+      'Zegama-Aizkorri 2026 marathon edicion 25 aniversario Kilian Jornet',
+      'Zegama Aizkorri 2026 resultados ganador clasificacion',
+      // Francais : medias trail FR specialises hors u-trail.
+      'Zegama 2026 marathon resultat Kilian Jornet 25e edition',
+      'Zegama-Aizkorri Mendi Maratoia 2026 podium classement',
     ],
-    tags: ["Zegama", "Skyrunning", "live"],
+    tags: ["Zegama", "Skyrunning", "Golden Trail World Series", "Kilian Jornet", "live"],
   },
   {
     slug: "madeira-island-ultra-trail",
@@ -198,7 +207,7 @@ export const HOT_EVENTS = [
 ];
 
 // Fenêtre chaude : 48h avant, jusqu'à 72h après le jour de départ.
-const HOURS_BEFORE = 48;
+const HOURS_BEFORE = 120; // J-5 : on capte la phase d'anticipation/preview qui draine du SEO sur les gros events (Zegama, UTMB, Hardrock).
 const HOURS_AFTER = 72;
 
 /**
@@ -237,7 +246,7 @@ export function getEventSpecificQueries(event, now = new Date()) {
     "irunfar.com", "trailrunnermag.com", "ultrarunning.com",
     "runnersworld.com", "runningmagazine.ca",
     // Presse trail francophone
-    "lepape-info.com", "u-trail.com", "trail-session.fr",
+    "lepape-info.com", "trail-session.fr",
     "wider-mag.com", "esprit-trail.com", "outdoor-running.com",
     "runningmag.fr", "journaldutrail.com",
     // Presse généraliste FR avec couverture trail
