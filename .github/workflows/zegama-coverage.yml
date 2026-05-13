@@ -21,6 +21,12 @@ on:
     - cron: "0 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 17 5 *"
     # Lundi 18 mai : recap, analyses, interviews post-course
     - cron: "0 6,8,10,12,14,16,18,20 18 5 *"
+    # === CRONS LIVE BLOG ===
+    # Samedi 16 mai 22h UTC (= dimanche 00h Paris CEST) : creation article live
+    - cron: "0 22 16 5 *"
+    # Dimanche 17 mai 5h-15h UTC (= 7h-17h Paris CEST) : update live blog
+    # toutes les heures pendant la fenetre de course
+    - cron: "10 5,6,7,8,9,10,11,12,13,14,15 17 5 *"
   workflow_dispatch:
     inputs:
       max_articles:
@@ -45,6 +51,13 @@ permissions:
 
 jobs:
   zegama:
+    # Exclut les crons live-blog (samedi 22h UTC, dimanche horaire de 5h a 15h)
+    # qui ont leurs propres jobs dedies plus bas.
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'schedule' &&
+       github.event.schedule != '0 22 16 5 *' &&
+       github.event.schedule != '10 5,6,7,8,9,10,11,12,13,14,15 17 5 *')
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
@@ -98,3 +111,81 @@ jobs:
           body: |
             Run : ${{ env.RUN_URL }}
             Site : ${{ env.SITE_BASE_URL }}
+
+  # Job dedie : creation initiale de l'article live (samedi soir 22h UTC).
+  # Conditionne au cron samedi soir uniquement, evite que les autres crons
+  # de zegama-coverage relancent le create.
+  live-blog-create:
+    if: github.event.schedule == '0 22 16 5 *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - run: |
+          git config user.name "altitude-trail-claude-bot"
+          git config user.email "claude-bot@altitude-trail.fr"
+      - name: Creer l article live blog Zegama
+        run: node scripts/zegama-live-blog.mjs --create
+      - name: Commit + push + publish data.ts
+        run: |
+          set -e
+          git add content/articles/zegama-aizkorri-2026-en-direct-suivez-la-25e-edition-minute-par-minute.md
+          if git diff --cached --quiet; then
+            echo "Article live deja en place, skip."
+            exit 0
+          fi
+          git commit -m "feat(zegama): article live blog isLive cree pour dimanche 17 mai"
+          for attempt in 1 2 3; do
+            if git push; then break; fi
+            echo "push echec attempt $attempt, rebase + retry..."
+            git pull --rebase --autostash origin main
+          done
+          npm run publish
+
+  # Job dedie : update live pendant la course (dimanche 17 mai).
+  live-blog-update:
+    if: github.event.schedule != null && contains('0 5,6,7,8,9,10,11,12,13,14,15 17 5 *', github.event.schedule)
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - run: |
+          git config user.name "altitude-trail-claude-bot"
+          git config user.email "claude-bot@altitude-trail.fr"
+      - name: Update article live blog
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: node scripts/zegama-live-blog.mjs --update
+      - name: Commit + push + publish data.ts
+        run: |
+          set -e
+          git add content/articles/zegama-aizkorri-2026-en-direct-suivez-la-25e-edition-minute-par-minute.md || true
+          if git diff --cached --quiet; then
+            echo "Aucun update genere, skip."
+            exit 0
+          fi
+          ts=$(date -u +%Y%m%dT%H%M)
+          git commit -m "chore(zegama-live): update $ts"
+          for attempt in 1 2 3; do
+            if git push; then break; fi
+            echo "push echec attempt $attempt, rebase + retry..."
+            git pull --rebase --autostash origin main
+          done
+          npm run publish || true
