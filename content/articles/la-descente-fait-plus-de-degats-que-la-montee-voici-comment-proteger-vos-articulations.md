@@ -13,7 +13,7 @@ categorySlug: blessures-preventions
 author: Thomas Rouvier
 date: 22 avril 2026
 readTime: 8 min
-image: /articles/descente-trail-articulations-mo9t6xjv-hero.jpg
+image: "/logo-square.png"
 tags:
   - descente
   - technique

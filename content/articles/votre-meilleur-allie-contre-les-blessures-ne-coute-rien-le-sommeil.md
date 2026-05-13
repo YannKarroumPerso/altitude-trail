@@ -10,7 +10,7 @@ categorySlug: entrainement
 author: Yann Karroum
 date: 22 avril 2026
 readTime: 7 min
-image: /articles/sommeil-recuperation-coureur-mo9t6xjv-hero.jpg
+image: "/logo-square.png"
 tags:
   - sommeil
   - récupération

@@ -511,6 +511,12 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "marathonhandbook.com" },
       { protocol: "https", hostname: "i.ytimg.com" },
       { protocol: "https", hostname: "img.youtube.com" },
+      // Ajout 2026-05-12 : domaines découverts dans le corpus, sinon Next.js
+      // Image bloque l'image et affiche une vignette vide sur la home/sidebar.
+      { protocol: "https", hostname: "summarymp3.136.112.225.207.sslip.io" },
+      { protocol: "https", hostname: "storage.googleapis.com" },
+      { protocol: "https", hostname: "zof.endurance-store.fr" },
+      { protocol: "https", hostname: "track.effiliation.com" },
     ],
   },
 };

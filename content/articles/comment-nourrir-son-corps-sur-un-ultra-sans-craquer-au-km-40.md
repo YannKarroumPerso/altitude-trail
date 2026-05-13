@@ -10,7 +10,7 @@ categorySlug: nutrition
 author: Yann Karroum
 date: 22 avril 2026
 readTime: 8 min
-image: /articles/nutrition-ultra-km40-mo9t6xjv-hero.jpg
+image: "/logo-square.png"
 tags:
   - nutrition
   - ultra-trail

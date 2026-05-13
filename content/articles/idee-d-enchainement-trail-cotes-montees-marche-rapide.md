@@ -10,7 +10,7 @@ categorySlug: entrainement
 author: Yann Karroum
 date: 21 avril 2026
 readTime: 5 min
-image: /articles/cotes-montees-marche-rapide-v3-hero.jpg
+image: "/logo-square.png"
 tags:
   - entraînement
   - dénivelé

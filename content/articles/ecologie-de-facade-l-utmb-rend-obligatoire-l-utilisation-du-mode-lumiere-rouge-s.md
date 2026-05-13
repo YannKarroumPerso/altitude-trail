@@ -10,7 +10,7 @@ categorySlug: actualites
 author: Marc Blanc
 date: 21 avril 2026
 readTime: 5 min
-image: /articles/ecologie-de-facade-lampe-rouge-utmb-v3-hero.jpg
+image: "/logo-square.png"
 tags:
   - UTMB
   - écologie

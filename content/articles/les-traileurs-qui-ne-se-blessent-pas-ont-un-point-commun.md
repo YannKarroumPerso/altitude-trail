@@ -10,7 +10,7 @@ categorySlug: entrainement
 author: Thomas Rouvier
 date: 22 avril 2026
 readTime: 7 min
-image: /articles/renforcement-musculaire-traileur-mo9t6xjv-hero.jpg
+image: "/logo-square.png"
 tags:
   - renforcement
   - prévention blessures
