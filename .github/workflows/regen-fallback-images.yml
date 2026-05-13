@@ -13,6 +13,11 @@ concurrency:
   group: regen-fallback-images
   cancel-in-progress: false
 
+# IMPORTANT : sans ces permissions, GITHUB_TOKEN par défaut est read-only
+# et publish.mjs échoue avec 403 au push. Ajout 2026-05-13 après run #25802965926.
+permissions:
+  contents: write
+
 jobs:
   regen:
     runs-on: ubuntu-latest
