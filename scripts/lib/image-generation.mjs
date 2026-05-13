@@ -16,7 +16,12 @@ const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models
 export const STYLE_SUFFIX =
   ", cinematic trail running photography, summer mountain trail, dirt and rocky singletrack, dramatic natural lighting, shallow depth of field, 35mm film, ultra realistic, editorial magazine style, no skiing, no snow, no winter gear";
 
-const MAX_RETRIES = 8;
+// Max retries baisse de 8 a 5 : avec backoff exponentiel 5s+15s+45s+90s+180s,
+// on plafonne le temps d'attente par image a ~5.5 min, ce qui laisse de la marge
+// pour traiter plusieurs articles dans un timeout GH Actions de 30 min.
+// Au-dela, on skip l'article : on preferera retenter dans un run ulterieur
+// plutot que de griller l'entiere fenetre sur un seul article.
+const MAX_RETRIES = 5;
 const DEFAULT_RETRY_DELAY_MS = 5000;
 
 function sleep(ms) {

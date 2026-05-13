@@ -4,17 +4,17 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: "Nombre max d'articles à régénérer (défaut 50)"
+        description: "Nombre max d'articles à régénérer (défaut 3, max conseille 5)"
         required: false
         type: string
-        default: "50"
+        default: "3"
 
 concurrency:
   group: regen-fallback-images
   cancel-in-progress: false
 
-# IMPORTANT : sans ces permissions, GITHUB_TOKEN par défaut est read-only
-# et publish.mjs échoue avec 403 au push. Ajout 2026-05-13 après run #25802965926.
+# IMPORTANT : sans ces permissions, GITHUB_TOKEN par defaut est read-only
+# et le push echoue avec 403. Ajout 2026-05-13.
 permissions:
   contents: write
 
@@ -40,18 +40,25 @@ jobs:
           if [ -z "${{ secrets.GEMINI_API_KEY }}" ]; then
             echo "GEMINI_API_KEY manquante" && exit 1
           fi
-      - name: Regen fallback images
+      - name: Regen fallback images (commit each)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node scripts/regen-fallback-images.mjs --limit=${{ inputs.limit }}
-      - name: Publish & push
+        # --commit-each : chaque image generee est commit + push immediatement.
+        # Si le timeout 30 min est atteint au milieu, on garde tout ce qui a deja
+        # ete genere (anti-perte critique vu la saturation Gemini observee).
+        run: node scripts/regen-fallback-images.mjs --limit=${{ inputs.limit }} --commit-each
+      - name: Propage data.ts (publish.mjs)
+        # Une fois les images commitees, on relance publish.mjs pour propager
+        # les nouveaux frontmatter images vers data.ts (utilise par les pages
+        # qui ne lisent pas le markdown au runtime).
+        if: always()
         run: |
           set -e
           BEFORE=$(git rev-parse HEAD)
           npm run publish || true
           AFTER=$(git rev-parse HEAD)
           if [ "$BEFORE" = "$AFTER" ]; then
-            echo "Aucun changement publié."
+            echo "Aucun changement data.ts a publier."
           else
-            echo "OK push"
+            echo "OK push data.ts"
           fi
