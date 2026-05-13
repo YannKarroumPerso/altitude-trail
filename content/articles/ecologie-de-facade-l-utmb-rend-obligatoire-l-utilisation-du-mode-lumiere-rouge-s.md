@@ -10,7 +10,7 @@ categorySlug: actualites
 author: Marc Blanc
 date: 21 avril 2026
 readTime: 5 min
-image: "/logo-square.png"
+image: "/articles/lampe-rouge-obligatoire-a-l-utmb-symbole-ecologique-ou-poudre-aux-yeux-hero.jpg"
 tags:
   - UTMB
   - écologie
