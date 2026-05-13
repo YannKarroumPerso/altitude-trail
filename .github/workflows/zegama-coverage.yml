@@ -1,0 +1,100 @@
+# Coverage intensive du Zegama-Aizkorri 2026 (J-4 a J+1).
+# Cron horaire de vendredi 15 mai 06h00 UTC au lundi 18 mai 22h00 UTC.
+# Hot event window deja activee dans hot-events-calendar.mjs (HOURS_BEFORE=120,
+# date 2026-05-17) donc chaque run de veille-tavily passe en mode hot Zegama
+# automatiquement et tire les queries dediees + cap 10 articles/jour.
+#
+# Specificite vs veille-tavily.yml : cron horaire au lieu de 4x/jour. Permet
+# de capter en near-realtime les start lists officielles, news Kilian/Alonso,
+# meteo, et le live du dimanche.
+
+name: Zegama coverage (horaire, J-4 a J+1)
+
+on:
+  schedule:
+    # Vendredi 15 mai : couverture KV + preview marathon
+    # Toutes les 2h de 6h a 22h UTC (= 8h a 24h Paris CEST)
+    - cron: "0 6,8,10,12,14,16,18,20,22 15 5 *"
+    # Samedi 16 mai : veille J-1, start lists, meteo, derniere ligne droite
+    - cron: "0 6,8,10,12,14,16,18,20,22 16 5 *"
+    # Dimanche 17 mai : JOUR J - couverture maximale (toutes les heures pendant la course)
+    - cron: "0 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 17 5 *"
+    # Lundi 18 mai : recap, analyses, interviews post-course
+    - cron: "0 6,8,10,12,14,16,18,20 18 5 *"
+  workflow_dispatch:
+    inputs:
+      max_articles:
+        description: "Override max articles par run (defaut 2)"
+        required: false
+        type: string
+        default: "2"
+
+concurrency:
+  group: zegama-coverage
+  cancel-in-progress: false
+
+env:
+  MAIL_TO: yannkarroum@gmail.com
+  MAIL_FROM: "Altitude Trail Bot <yannkarroum@gmail.com>"
+  GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+  RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+  SITE_BASE_URL: "https://www.altitude-trail.fr"
+
+permissions:
+  contents: write
+
+jobs:
+  zegama:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - run: |
+          git config user.name "altitude-trail-claude-bot"
+          git config user.email "claude-bot@altitude-trail.fr"
+      - name: Veille Tavily hot mode Zegama
+        id: veille
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MAX_ARTICLES_PER_RUN: ${{ inputs.max_articles != '' && inputs.max_articles || '2' }}
+          DAILY_CAP: "15"
+        run: node scripts/veille-tavily.mjs
+      - name: Publish & push
+        id: publish
+        run: |
+          set -e
+          BEFORE=$(git rev-parse HEAD)
+          npm run publish || true
+          AFTER=$(git rev-parse HEAD)
+          if [ "$BEFORE" = "$AFTER" ]; then
+            echo "new_articles=0" >> $GITHUB_OUTPUT
+          else
+            COUNT=$(git log --format=%s -1 | grep -oP "[0-9]+ article" | grep -oP "[0-9]+" || echo "1")
+            echo "new_articles=$COUNT" >> $GITHUB_OUTPUT
+          fi
+      - name: Notification email
+        if: always() && env.GMAIL_APP_PASSWORD != '' && steps.publish.outputs.new_articles != '0'
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ env.MAIL_TO }}
+          password: ${{ env.GMAIL_APP_PASSWORD }}
+          subject: "Altitude Trail - Zegama coverage : ${{ steps.publish.outputs.new_articles }} article(s) publie(s)"
+          to: ${{ env.MAIL_TO }}
+          from: ${{ env.MAIL_FROM }}
+          body: |
+            Run : ${{ env.RUN_URL }}
+            Site : ${{ env.SITE_BASE_URL }}
