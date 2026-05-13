@@ -9,7 +9,7 @@ date: "13 mai 2026"
 publishedAt: "2026-05-13T07:53:53.699Z"
 updatedAt: "13 mai 2026"
 readTime: "5 min"
-image: "https://summarymp3.136.112.225.207.sslip.io/summarymp3/api/audio-files/article-1778638332823.mp3"
+image: "/logo-square.png"
 tags: []
 sourceUrl: "https://www2.u-trail.com/tiques-un-vaccin-contre-la-maladie-de-lyme-arrive-enfin/"
 externalRefs:

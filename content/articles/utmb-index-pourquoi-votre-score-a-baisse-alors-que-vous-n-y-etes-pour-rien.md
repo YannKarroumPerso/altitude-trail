@@ -9,7 +9,7 @@ date: "29 avril 2026"
 publishedAt: "2026-04-29T06:32:09.761Z"
 updatedAt: "29 avril 2026"
 readTime: "5 min"
-image: "https://storage.googleapis.com/utrailbucket/2026/04/voicebooking-speech.wav"
+image: "/logo-square.png"
 tags: ["UTMB Index", "qualification UTMB", "UTMB World Series", "algorithme trail", "classement trail"]
 sourceUrl: "https://www2.u-trail.com/utmb-index-pourquoi-votre-score-a-baisse-alors-que-vous-ny-etes-pour-rien/"
 externalRefs:

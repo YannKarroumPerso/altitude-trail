@@ -8,7 +8,7 @@ author: "Yann Karroum"
 date: "26 avril 2026"
 updatedAt: "26 avril 2026"
 readTime: "5 min"
-image: "https://storage.googleapis.com/utrailbucket/2026/04/ttsreader_44-ans-and.mp3"
+image: "/logo-square.png"
 tags: ["Andy Symonds", "Grand Raid Ventoux", "UTMB", "masters trail", "ultra-trail"]
 sourceUrl: "https://www2.u-trail.com/andy-symonds-est-la-preuve-vivante-quil-ny-a-pas-dage-pour-reussir-en-trail/"
 isLive: true

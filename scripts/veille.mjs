@@ -137,10 +137,37 @@ function isTrailArticle(title, text) {
   return false;
 }
 
+// Helper : valide qu'une URL pointe bien vers une image (pas un audio/video/autre).
+// Bug 2026-05-13 : certains feeds RSS exposent un enclosure MP3 (service
+// summarymp3.136.112.225.207.sslip.io qui genere des audio-summary d'article),
+// l'ancien code prenait aveuglement l'URL et la stockait dans frontmatter image:,
+// resultat : Next.js Image tente de charger un MP3, vignette vide en sidebar.
+function isImageUrl(url, mimeType) {
+  if (mimeType && typeof mimeType === "string") {
+    if (mimeType.startsWith("image/")) return true;
+    if (mimeType.startsWith("audio/") || mimeType.startsWith("video/")) return false;
+  }
+  const clean = (url || "").toLowerCase().split("?")[0].split("#")[0];
+  if (/\.(mp3|wav|ogg|m4a|aac|flac|mp4|webm|mov|avi|pdf)$/i.test(clean)) return false;
+  if (/\.(jpe?g|png|webp|gif|avif|svg|bmp|ico)$/i.test(clean)) return true;
+  // Pas d'extension claire : on accepte par defaut (Unsplash et CDN modernes
+  // n'ont souvent pas d'extension explicite dans l'URL).
+  return true;
+}
+
 function extractImage(item) {
-  if (item.enclosure?.url) return item.enclosure.url;
-  if (item["media:content"]?.$?.url) return item["media:content"].$.url;
-  if (item["media:thumbnail"]?.$?.url) return item["media:thumbnail"].$.url;
+  // Enclosure : valider le type/extension avant d'utiliser comme image.
+  if (item.enclosure?.url && isImageUrl(item.enclosure.url, item.enclosure.type)) {
+    return item.enclosure.url;
+  }
+  if (item["media:content"]?.$?.url) {
+    const mc = item["media:content"].$;
+    // media:content peut etre image/video/audio. Filtrer.
+    if (mc.medium === "image" || isImageUrl(mc.url, mc.type)) return mc.url;
+  }
+  if (item["media:thumbnail"]?.$?.url && isImageUrl(item["media:thumbnail"].$.url)) {
+    return item["media:thumbnail"].$.url;
+  }
   const html = item["content:encoded"] || item.content || "";
   const match = html.match(/<img[^>]+src=["']([^"']+)["']/i);
   return match?.[1] || FALLBACK_IMAGE;
