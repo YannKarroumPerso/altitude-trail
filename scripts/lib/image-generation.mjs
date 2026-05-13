@@ -9,7 +9,10 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-const GEMINI_MODEL = "gemini-3.1-flash-image-preview"; // Nano Banana 2 Flash
+// Nano Banana 2 Pro : meilleure qualite, moins sature que Flash (qui a tape
+// 100% de 503 lors du run #25812789183 du 2026-05-13). Cout : 0.06$/image
+// contre 0.01$ pour Flash. Acceptable car parc total petit (~150 articles).
+const GEMINI_MODEL = "gemini-3-pro-image-preview"; // Nano Banana 2 Pro
 const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
 // Style suffix repris a l'identique de l'ancien pipeline Flux.
