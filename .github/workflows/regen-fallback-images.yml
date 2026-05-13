@@ -1,0 +1,52 @@
+name: Regen fallback images (Nano Banana)
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Nombre max d'articles à régénérer (défaut 50)"
+        required: false
+        type: string
+        default: "50"
+
+concurrency:
+  group: regen-fallback-images
+  cancel-in-progress: false
+
+jobs:
+  regen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - run: |
+          git config user.name "altitude-trail-claude-bot"
+          git config user.email "claude-bot@altitude-trail.fr"
+      - name: Preflight
+        run: |
+          if [ -z "${{ secrets.GEMINI_API_KEY }}" ]; then
+            echo "GEMINI_API_KEY manquante" && exit 1
+          fi
+      - name: Regen fallback images
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/regen-fallback-images.mjs --limit=${{ inputs.limit }}
+      - name: Publish & push
+        run: |
+          set -e
+          BEFORE=$(git rev-parse HEAD)
+          npm run publish || true
+          AFTER=$(git rev-parse HEAD)
+          if [ "$BEFORE" = "$AFTER" ]; then
+            echo "Aucun changement publié."
+          else
+            echo "OK push"
+          fi
