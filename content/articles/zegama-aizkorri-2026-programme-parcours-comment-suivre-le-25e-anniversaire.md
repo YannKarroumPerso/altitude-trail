@@ -56,7 +56,7 @@ Les positions intermédiaires aux sommets seront diffusées via la timing offici
 - **Sommets traversés** : Aratz, Aizkorri, Aitxuri, Andraitz
 - **Manche du calendrier** : ouverture de la Golden Trail World Series 2026
 - **Record de l'épreuve** : 3 h 36 min 40 s (Kilian Jornet, 2022)
-- **Records féminin** : 4 h 14 min 56 s (Maite Maiora, 2018)
+- **Record féminin** : 4 h 16 min 43 s (Nienke Brinkman, 2022)
 
 ## Les 25 ans d'une course pas comme les autres
 
