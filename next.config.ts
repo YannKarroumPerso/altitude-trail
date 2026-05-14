@@ -43,6 +43,37 @@ const nextConfig: NextConfig = {
           "/articles/utmb-nice-perd-ses-subventions-publiques-trail-alsace-a-deja-trace-la-voie",
         permanent: true,
       },
+      // 301 : 4 articles Zegama supprimes le 2026-05-14 car citaient u-trail.com
+      // en source primaire (politique editoriale : pas de citation de ce
+      // concurrent). Redirige vers l article hero de la couverture Zegama 2026.
+      {
+        source:
+          "/articles/zegama-2026-le-42-km-basque-qui-concentre-plus-d-elite-mondiale-que-l-utmb",
+        destination:
+          "/articles/zegama-2026-kilian-jornet-revient-pour-la-25e-edition-une-12e-victoire-en-vue",
+        permanent: true,
+      },
+      {
+        source:
+          "/articles/zegama-2026-pourquoi-le-niveau-elite-y-sera-plus-eleve-qu-a-l-utmb",
+        destination:
+          "/articles/zegama-2026-kilian-jornet-revient-pour-la-25e-edition-une-12e-victoire-en-vue",
+        permanent: true,
+      },
+      {
+        source:
+          "/articles/zegama-21-favoris-au-dessus-de-900-a-l-utmb-index-une-densite-de-talent-inedite",
+        destination:
+          "/articles/zegama-2026-kilian-jornet-revient-pour-la-25e-edition-une-12e-victoire-en-vue",
+        permanent: true,
+      },
+      {
+        source:
+          "/articles/zegama-21-favoris-au-dessus-de-900-d-utmb-index-un-plateau-jamais-vu-en-trail",
+        destination:
+          "/articles/zegama-2026-kilian-jornet-revient-pour-la-25e-edition-une-12e-victoire-en-vue",
+        permanent: true,
+      },
       // ── Redirects automatiques : 88 articles avec mismatch filename ↔ frontmatter slug ──
       // Cause root : bug dans veille.mjs qui calculait baseSlug depuis le titre RSS source
       // alors que Claude réécrivait le titre dans la synthèse. Fixé dans le commit du même
