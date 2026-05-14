@@ -24,7 +24,7 @@ import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
 
 import { pickAuthorForCategory } from "./lib/authors.mjs";
-import { tavilySearch, TAVILY_EXCLUDE_DOMAINS, rerankByPriority } from "./lib/tavily-search.mjs";
+import { tavilySearch, TAVILY_EXCLUDE_DOMAINS, rerankByPriority, isBlacklistedSource } from "./lib/tavily-search.mjs";
 import {
   loadExistingArticles,
   findTopRelated,
@@ -346,7 +346,15 @@ async function processQuery(client, q, allExisting, hotEventSlug) {
     return TRAIL_TOKENS.some((tok) => hay.includes(tok));
   };
 
-  const filtered = tavilyResult.results.filter(isTrailRelated);
+  // FILTRAGE BLACKLIST HARD (sous-domaines inclus).
+  const trailRelated = tavilyResult.results.filter(isTrailRelated);
+  const filtered = trailRelated.filter((r) => {
+    if (isBlacklistedSource(r.url)) {
+      console.warn(`[brief]   BLACKLISTE rejete : ${r.url}`);
+      return false;
+    }
+    return true;
+  });
   const reranked = rerankByPriority(filtered);
   const top = reranked.slice(0, 6);
   if (top.length < 2) {
@@ -400,6 +408,24 @@ async function processQuery(client, q, allExisting, hotEventSlug) {
   meta.categorySlug = meta.categorySlug || q.categorySlug;
   meta.briefVertical = meta.briefVertical || q.vertical;
   meta.articleType = "brief";
+
+  // REJET HARD : si Claude a malgre tout cite un domaine blackliste dans
+  // les metas ou dans le body markdown.
+  const allMetaUrls = [
+    meta.sourceUrl,
+    ...(Array.isArray(meta.tavilySources) ? meta.tavilySources : []),
+    ...(Array.isArray(meta.externalRefs) ? meta.externalRefs.map((r) => r?.url).filter(Boolean) : []),
+  ].filter(Boolean);
+  const blacklistedHit = allMetaUrls.find((u) => isBlacklistedSource(u));
+  if (blacklistedHit) {
+    console.error(`[brief]   REJET BLACKLIST : article cite ${blacklistedHit}. Publication annulee.`);
+    return null;
+  }
+  const bodyLower = body.toLowerCase();
+  if (bodyLower.includes("u-trail.com") || bodyLower.includes("utrail.com")) {
+    console.error(`[brief]   REJET BLACKLIST : mention textuelle u-trail dans le body. Publication annulee.`);
+    return null;
+  }
 
   const baseSlug = slugify(meta.title);
 

@@ -96,7 +96,29 @@ export const TAVILY_EXCLUDE_DOMAINS = [
   "tiktok.com",
   "youtube.com",
   "quora.com",
+  // u-trail.com BLACKLISTE (decision editoriale Yann 2026-05-14) :
+  // on refuse de citer ce concurrent comme source primaire. Toutes les
+  // variantes sont bloquees (www2, www3, sous-domaines, .fr).
+  "u-trail.com",
+  "u-trail.fr",
+  "utrail.com",
+  "utrail.fr",
 ];
+
+// Helper : verifie si une URL appartient a un domaine blackliste.
+// Test sur le hostname complet ET sur le domaine racine (= match aussi
+// www2.u-trail.com, blog.u-trail.com, etc.).
+export function isBlacklistedSource(url) {
+  if (!url) return false;
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    return TAVILY_EXCLUDE_DOMAINS.some((d) => host === d || host.endsWith("." + d));
+  } catch {
+    // Fallback : recherche string si l URL n est pas parsable.
+    const lo = String(url).toLowerCase();
+    return TAVILY_EXCLUDE_DOMAINS.some((d) => lo.includes(d));
+  }
+}
 
 // Domaines prioritaires : si on les trouve dans les résultats, on les met en
 // tête de pile pour enrichir Claude avec les meilleures sources.
@@ -116,7 +138,7 @@ export const TAVILY_PRIORITY_DOMAINS = [
   "insep.fr",
   // Médias FR (existant + ajouts P1)
   "lepape-info.com",
-  "u-trail.com",
+  // u-trail.com BLACKLISTE -- voir TAVILY_EXCLUDE_DOMAINS ci-dessous.
   "trail-session.fr",
   "runactu.com",
   "passiontrail.fr",

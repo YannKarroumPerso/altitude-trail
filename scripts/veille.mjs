@@ -19,12 +19,14 @@ import {
 import { findYouTubeVideoForArticle } from "./lib/youtube-search.mjs";
 import { effectiveCapForRun } from "./lib/daily-cap.mjs";
 import { isInHotEventWindow } from "./lib/hot-events-calendar.mjs";
+import { isBlacklistedSource } from "./lib/tavily-search.mjs";
 import { generateImage, saveImage } from "./lib/image-generation.mjs";
 
 const SOURCES = [
   // Médias francophones
   "https://www.lepape-info.com/feed/",
-  "https://www2.u-trail.com/feed/",
+  // u-trail.com retire (decision editoriale Yann 2026-05-14)
+  // "https://www2.u-trail.com/feed/",
   "https://passiontrail.fr/feed/",
   "https://runactu.com/feed/",
   "https://trail-session.fr/feed/",
@@ -212,7 +214,7 @@ function userPrompt({ title, sourceUrl, text }) {
 Titre original de la source : ${title}
 URL source : ${sourceUrl}
 
-Identifie dans l'URL ou la structure du titre le média d'origine (lepape-info, u-trail, iRunFar, Trail Runner Mag, Ultrarunning, etc.) et cite-le nommément dans ton article à chaque reprise d'une information spécifique.
+Identifie dans l'URL ou la structure du titre le média d'origine (lepape-info, iRunFar, Trail Runner Mag, Ultrarunning, etc.) et cite-le nommément dans ton article à chaque reprise d'une information spécifique.
 
 Contenu intégral de la source :
 ${text}
@@ -478,6 +480,12 @@ async function processFeed(client, url, maxForThisSource = MAX_PER_SOURCE) {
     // Le filename FINAL sera recalcule apres la reecriture Claude pour eviter
     // le mismatch filename != frontmatter.slug (Claude reecrit souvent le titre,
     // donc slugify(item.title) != slugify(validated.meta.title)).
+    // BLACKLIST HARD : rejet defensif au cas ou un feed blackliste reviendrait
+    // dans la liste SOURCES par megarde (u-trail.com, etc.).
+    if (isBlacklistedSource(item.link)) {
+      console.warn(`[veille] BLACKLISTE rejete: ${item.link}`);
+      continue;
+    }
     const sourceSlug = slugify(item.title);
     if (!sourceSlug) continue;
     const sourceCheckPath = path.join(CONTENT_DIR, `${sourceSlug}.md`);

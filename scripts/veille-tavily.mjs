@@ -19,7 +19,7 @@ import Anthropic from "@anthropic-ai/sdk";
 
 import { EDITORIAL_STYLE } from "./lib/editorial-style.mjs";
 import { pickAuthorForCategory } from "./lib/authors.mjs";
-import { tavilySearch, TAVILY_EXCLUDE_DOMAINS, rerankByPriority } from "./lib/tavily-search.mjs";
+import { tavilySearch, TAVILY_EXCLUDE_DOMAINS, rerankByPriority, isBlacklistedSource } from "./lib/tavily-search.mjs";
 import {
   loadExistingArticles,
   findTopRelated,
@@ -647,7 +647,18 @@ async function processQuery(client, query, angle, categorySlug, allExisting, inc
     return TRAIL_TOKENS.some((tok) => hay.includes(tok));
   };
 
-  const filtered = tavilyResult.results.filter(isTrailRelated);
+  // FILTRAGE BLACKLIST HARD : tavily exclude_domains ne capture pas les
+  // sous-domaines (www2.u-trail.com passe quand on exclut u-trail.com).
+  // On post-filtre cote code pour rejeter toute source d'un domaine
+  // blackliste, sous-domaines inclus.
+  const trailRelated = tavilyResult.results.filter(isTrailRelated);
+  const filtered = trailRelated.filter((r) => {
+    if (isBlacklistedSource(r.url)) {
+      console.warn(`[tavily]   BLACKLISTE rejete : ${r.url}`);
+      return false;
+    }
+    return true;
+  });
   const reranked = rerankByPriority(filtered);
   const top = reranked.slice(0, 6);
   if (top.length < 2) {
@@ -697,6 +708,28 @@ async function processQuery(client, query, angle, categorySlug, allExisting, inc
         for (const w of warnings) console.warn(`              - ${w}`);
       }
     }
+  }
+
+  // REJET HARD : si Claude a malgre tout cite un domaine blackliste dans
+  // meta.tavilySources ou sourceUrl (cas rarissime mais observe : 4 articles
+  // Zegama du 2026-05-14 ont passe avec www2.u-trail.com en sourceUrl), on
+  // rejette l'article completement.
+  const allMetaUrls = [
+    meta.sourceUrl,
+    ...(Array.isArray(meta.tavilySources) ? meta.tavilySources : []),
+    ...(Array.isArray(meta.externalRefs) ? meta.externalRefs.map((r) => r?.url).filter(Boolean) : []),
+  ].filter(Boolean);
+  const blacklistedHit = allMetaUrls.find((u) => isBlacklistedSource(u));
+  if (blacklistedHit) {
+    console.error(`[tavily]   REJET BLACKLIST : article cite ${blacklistedHit} (domaine interdit). Publication annulee.`);
+    return null;
+  }
+  // Et dans le body markdown : on cherche les mentions textuelles "u-trail.com"
+  // ou "utrail.com" pour rejeter aussi les citations inline.
+  const bodyLower = body.toLowerCase();
+  if (bodyLower.includes("u-trail.com") || bodyLower.includes("utrail.com")) {
+    console.error(`[tavily]   REJET BLACKLIST : article contient une mention textuelle de u-trail. Publication annulee.`);
+    return null;
   }
 
   const baseSlug = slugify(meta.title);
