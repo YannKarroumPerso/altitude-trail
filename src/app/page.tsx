@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { articles, mostRead } from "@/lib/data";
+import { articles } from "@/lib/data";
 import ArticleCard from "@/components/ui/ArticleCard";
+import HeroEvent from "@/components/ui/HeroEvent";
+import CalendarPreview from "@/components/ui/CalendarPreview";
 import JsonLd from "@/components/ui/JsonLd";
 import {
   SITE_URL,
@@ -10,7 +12,9 @@ import {
   SITE_DESCRIPTION,
   buildItemListJsonLd,
   buildCollectionPageJsonLd,
+  parseFrDate,
 } from "@/lib/seo";
+import { getActiveOrNextHotEvent, getUpcomingHotEvents } from "@/lib/hot-events";
 
 export const metadata: Metadata = {
   title: `${SITE_NAME} — Actualités trail, courses et ultra-trail`,
@@ -21,8 +25,6 @@ export const metadata: Metadata = {
     url: SITE_URL,
     title: `${SITE_NAME} — Actualités trail, courses et ultra-trail`,
     description: SITE_DESCRIPTION,
-    // Image OG : héritée automatiquement de src/app/opengraph-image.tsx
-    // (ImageResponse générée à la volée sur l'Edge).
   },
   twitter: {
     card: "summary_large_image",
@@ -31,15 +33,59 @@ export const metadata: Metadata = {
   },
 };
 
-const featuredArticle = articles[0];
-const secondaryArticles = articles.slice(1, 3);
-const sidebarArticles = articles.slice(3, 6);
-const coursesRecits = articles.filter(a => a.categorySlug === "courses-recits").slice(0, 4);
-const scienceArticles = articles.filter(a => a.categorySlug === "entrainement" || a.categorySlug === "nutrition").slice(0, 4);
+// Revalidation : on regenere la home toutes les 10 min pour que les nouveaux
+// articles event remontent vite dans le hero et que la fenetre hot s ouvre/
+// se ferme correctement (cycle J-5..J+3 sans deploiement requis).
+export const revalidate = 600;
 
-const homeLatestList = [featuredArticle, ...secondaryArticles, ...sidebarArticles].filter(Boolean);
+// Tri authoritative par publishedAt ISO (precision intra-jour), fallback sur
+// parseFrDate(date) pour les vieux articles sans publishedAt. CRITIQUE pour
+// Discover : un article publie a 14h doit passer devant un article 09h le
+// meme jour, ce que le sort actuel par date FR (resolution jour) ne fait pas.
+function articleTimestamp(a: { publishedAt?: string; date: string }): number {
+  if (a.publishedAt) {
+    const t = new Date(a.publishedAt).getTime();
+    if (!isNaN(t)) return t;
+  }
+  const d = parseFrDate(a.date);
+  return d ? d.getTime() : 0;
+}
+
+const sortedArticles = [...articles].sort((a, b) => articleTimestamp(b) - articleTimestamp(a));
 
 export default function Home() {
+  const now = new Date();
+  const hotStatus = getActiveOrNextHotEvent(now);
+
+  // Articles du dossier event (s'il y a un event actif/upcoming/just-finished).
+  // Pour "next" (futur lointain), on ne fait pas de filtre : pas de dossier specifique.
+  const dossierArticles = (hotStatus && hotStatus.kind !== "next")
+    ? sortedArticles.filter((a) => a.hotEventSlug === hotStatus.event.slug)
+    : (hotStatus ? sortedArticles.filter((a) => a.hotEventSlug === hotStatus.event.slug).slice(0, 3) : []);
+
+  // Si pas d'articles dossier mais event "next" connu, on synthese visuel avec
+  // les 3 premiers articles generiques pour ne pas laisser le hero vide.
+  const heroArticles = dossierArticles.length > 0
+    ? dossierArticles
+    : sortedArticles.slice(0, 3);
+
+  // Bloc "Dans l'actu" : 6 articles recents qui ne sont PAS dans le hero
+  const heroSlugs = new Set(heroArticles.slice(0, 4).map((a) => a.slug));
+  const actuArticles = sortedArticles
+    .filter((a) => !heroSlugs.has(a.slug))
+    .slice(0, 6);
+
+  const upcomingEvents = getUpcomingHotEvents(now, 6, hotStatus?.event.slug);
+
+  const coursesRecits = sortedArticles
+    .filter((a) => a.categorySlug === "courses-recits" && !heroSlugs.has(a.slug))
+    .slice(0, 4);
+  const scienceArticles = sortedArticles
+    .filter((a) => (a.categorySlug === "entrainement" || a.categorySlug === "nutrition") && !heroSlugs.has(a.slug))
+    .slice(0, 4);
+
+  const homeJsonLdList = [...heroArticles.slice(0, 4), ...actuArticles].filter(Boolean);
+
   return (
     <div className="bg-surface">
       <JsonLd
@@ -47,90 +93,60 @@ export default function Home() {
           name: `${SITE_NAME} — Accueil`,
           description: SITE_DESCRIPTION,
           url: SITE_URL,
-          articles: homeLatestList,
+          articles: homeJsonLdList,
         })}
       />
       <JsonLd
         data={buildItemListJsonLd({
           name: "Derniers articles",
           url: SITE_URL,
-          articles: homeLatestList,
+          articles: homeJsonLdList,
         })}
       />
-      <div className="max-w-[1440px] mx-auto px-4 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
 
-        {/* Left Sidebar — desktop col 1-3 ; hidden sur mobile pour feed pleine largeur */}
-        <aside className="lg:col-span-3 space-y-6 order-3 lg:order-none hidden lg:block">
-          <div className="bg-navy text-white py-2 px-4 font-headline font-bold uppercase text-sm inline-block">
-            LES PLUS CONSULTÉS
-          </div>
-          <div className="space-y-6">
-            {mostRead.map((article, i) => (
-              <Link key={article.slug} href={"/articles/" + article.slug} className="flex gap-4 group cursor-pointer">
-                <div className="text-4xl font-headline font-black text-slate-300 group-hover:text-primary transition-colors leading-none shrink-0">
-                  {i + 1}
-                </div>
+      {/* Section 1 : HERO EVENT (toujours visible) */}
+      <HeroEvent status={hotStatus} articles={heroArticles} />
+
+      {/* Section 2 : DANS L'ACTU TRAIL */}
+      <section className="max-w-[1440px] mx-auto px-4 lg:px-8 py-12">
+        <div className="newspaper-divider mb-10"><span>DANS L&apos;ACTU TRAIL</span></div>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          {actuArticles[0] && (
+            <div className="lg:col-span-8">
+              <ArticleCard article={actuArticles[0]} variant="large" />
+            </div>
+          )}
+          <div className="lg:col-span-4 space-y-6">
+            {actuArticles.slice(1, 4).map((a) => (
+              <Link key={a.slug} href={`/articles/${a.slug}`} className="group flex gap-3 border-b border-surface-container pb-4 last:border-b-0">
+                <Image
+                  src={a.image}
+                  alt={a.title}
+                  width={96}
+                  height={96}
+                  className="w-24 h-24 object-cover shrink-0 grayscale group-hover:grayscale-0 transition-all"
+                />
                 <div className="space-y-1">
-                  {i % 2 === 0 && (
-                    <Image src={article.image} alt={article.title} width={96} height={64}
-                      className="w-24 h-16 object-cover rounded shadow-sm lg:grayscale lg:group-hover:grayscale-0 transition-all mb-1" />
-                  )}
-                  <h3 className="font-headline font-bold text-sm leading-snug group-hover:underline">{article.title}</h3>
-                  <p className="text-[10px] text-slate-500 uppercase font-bold tracking-wider">{article.category} — {article.readTime}</p>
+                  <h3 className="font-headline font-bold text-sm leading-snug group-hover:text-primary transition-colors line-clamp-3">{a.title}</h3>
+                  <span className="text-[10px] text-slate-500 uppercase font-bold tracking-wider">{a.category}</span>
                 </div>
               </Link>
             ))}
           </div>
-        </aside>
-
-        {/* Central Column — desktop middle ; on mobile rendered first */}
-        <section className="lg:col-span-6 space-y-8 order-1 lg:order-none">
-          <ArticleCard article={featuredArticle} variant="large" priority />
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 border-t-2 border-surface-container pt-8">
-            {secondaryArticles.map((article, i) => (
-              <ArticleCard
-                key={article.slug}
-                article={article}
-                variant="default"
-                hideExcerpt={i % 3 === 2}
-              />
+        </div>
+        {actuArticles.length > 4 && (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-10">
+            {actuArticles.slice(4, 6).map((a) => (
+              <ArticleCard key={a.slug} article={a} variant="default" />
             ))}
           </div>
-        </section>
+        )}
+      </section>
 
-        {/* Right Rail (AGENDA + À LA UNE) — desktop col 10-12 ; hidden sur mobile */}
-        <aside className="lg:col-span-3 space-y-8 order-2 lg:order-none hidden lg:block">
-          <div className="bg-navy text-white p-6 flex flex-col items-center justify-center text-center space-y-4">
-            <span className="text-[10px] text-slate-400 font-bold tracking-widest uppercase">AGENDA</span>
-            <div className="space-y-2">
-              <p className="font-headline font-black text-2xl uppercase tracking-tight">Prochaines courses</p>
-              <p className="text-xs text-slate-300">Toutes les courses trail en France</p>
-            </div>
-            <Link href="/courses" className="bg-primary text-white px-6 py-2 text-xs font-headline font-bold hover:opacity-80 transition-opacity uppercase tracking-widest">
-              VOIR LE CALENDRIER
-            </Link>
-          </div>
-          <div className="space-y-6">
-            <div className="bg-navy text-white py-2 px-4 font-headline font-bold uppercase text-sm inline-block">À LA UNE</div>
-            <div className="space-y-4">
-              {sidebarArticles.map((article, i) => (
-                <div key={article.slug} className={i < sidebarArticles.length - 1 ? "border-b border-surface-container pb-4" : ""}>
-                  <Link href={"/articles/" + article.slug} className="flex gap-3 group cursor-pointer">
-                    <Image src={article.image} alt={article.title} width={64} height={64}
-                      className="w-16 h-16 object-cover rounded-sm shrink-0" />
-                    <div className="space-y-1">
-                      <h5 className="text-xs font-bold leading-tight group-hover:text-primary transition-colors">{article.title}</h5>
-                      <span className="text-[10px] text-primary font-bold uppercase">{article.category}</span>
-                    </div>
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </div>
-        </aside>
-      </div>
+      {/* Section 3 : LES PROCHAINES COURSES */}
+      <CalendarPreview events={upcomingEvents} />
 
-      {/* CTA Moteur d'entraînement personnalisé */}
+      {/* CTA Moteur d'entrainement personnalise (conserve) */}
       <section className="bg-navy text-white">
         <div className="max-w-[1440px] mx-auto px-4 lg:px-8 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-7 space-y-5">
@@ -140,96 +156,77 @@ export default function Home() {
               <span className="text-primary">100 % personnalisé</span>
             </h2>
             <p className="text-base md:text-lg text-slate-300 leading-relaxed max-w-2xl">
-              Indique ta course cible, ton niveau et ton volume actuel. On te construit en moins de 2 minutes un plan complet semaine par semaine, avec périodisation, séances détaillées, conseils nutrition et récupération, inspiré des méthodes Kilian Jornet, François D&apos;Haene et des coaches UTMB.
+              Indique ta course cible, ton niveau et ton volume actuel. On te construit en moins de 2 minutes un plan complet semaine par semaine, avec périodisation, séances détaillées, conseils nutrition et récupération.
             </p>
-            <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-300 pt-2">
-              <span className="flex items-center gap-2"><span className="text-primary font-black text-lg">&#10003;</span> Jusqu&apos;à 16 semaines de prépa</span>
-              <span className="flex items-center gap-2"><span className="text-primary font-black text-lg">&#10003;</span> Séances datées</span>
-              <span className="flex items-center gap-2"><span className="text-primary font-black text-lg">&#10003;</span> Export PDF</span>
-              <span className="flex items-center gap-2"><span className="text-primary font-black text-lg">&#10003;</span> 100 % gratuit</span>
-            </div>
             <div className="pt-4">
               <Link href="/entrainement/generateur" className="inline-block bg-primary hover:bg-primary-dark transition-colors text-white font-headline font-black text-sm uppercase tracking-widest py-4 px-8">
                 Construire mon plan gratuit &rarr;
               </Link>
             </div>
           </div>
-          <div className="lg:col-span-5 hidden lg:block">
-            <div className="bg-navy-light/40 border border-white/10 p-6 space-y-3">
-              <div className="text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">
-                Exemple de semaine · Phase spécifique
-              </div>
-              <div className="space-y-1 text-sm">
-                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">LUN</span><span className="bg-slate-500 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">REPOS</span><span className="text-slate-200">Récupération active</span></div>
-                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">MAR</span><span className="bg-red-600 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">VMA</span><span className="text-slate-200">10 &times; 400 m sur piste</span></div>
-                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">MER</span><span className="bg-emerald-500 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">EF</span><span className="text-slate-200">1 h endurance fondamentale</span></div>
-                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">JEU</span><span className="bg-yellow-500 text-navy text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">RENFO</span><span className="text-slate-200">45 min gainage &amp; proprio</span></div>
-                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">VEN</span><span className="bg-slate-500 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">REPOS</span><span className="text-slate-200">Repos complet</span></div>
-                <div className="flex items-center gap-3 py-1.5 border-b border-white/5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">SAM</span><span className="bg-violet-500 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">TRAIL</span><span className="text-slate-200">3 h / 1200 D+ technique</span></div>
-                <div className="flex items-center gap-3 py-1.5"><span className="w-10 text-[10px] font-headline font-black uppercase tracking-widest text-slate-400">DIM</span><span className="bg-blue-500 text-white text-[10px] font-headline font-black uppercase tracking-widest px-2 py-0.5 w-16 text-center">SL</span><span className="text-slate-200">2 h sortie longue</span></div>
-              </div>
-              <p className="text-[11px] text-slate-400 italic pt-2">Aperçu indicatif. Ton plan sera adapté à ton profil et ta course.</p>
+        </div>
+      </section>
+
+      {/* Section 4 : COURSES & RECITS */}
+      {coursesRecits.length > 0 && (
+        <section className="max-w-[1440px] mx-auto px-4 lg:px-8 pb-12 pt-8">
+          <div className="newspaper-divider"><span>COURSES &amp; RÉCITS</span></div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-0 md:gap-y-8 mt-12">
+            {coursesRecits.map((article, i) => (
+              <ArticleCard
+                key={article.slug}
+                article={article}
+                variant="default"
+                hideExcerpt={i % 3 === 2}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Section 5 : SCIENCE & ENTRAINEMENT */}
+      {scienceArticles.length > 0 && (
+        <section className="max-w-[1440px] mx-auto px-4 lg:px-8 pb-20">
+          <div className="newspaper-divider"><span>SCIENCE &amp; ENTRAÎNEMENT</span></div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-12">
+            <div className="col-span-1 lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
+              {scienceArticles.map((article, i) => {
+                const hideExcerpt = i % 3 === 2;
+                return (
+                  <Link
+                    key={article.slug}
+                    href={"/articles/" + article.slug}
+                    className="group flex flex-col md:flex-row gap-3 md:gap-4 pb-6 border-b border-surface-container md:pb-0 md:border-b-0"
+                  >
+                    <Image
+                      src={article.image}
+                      alt={article.title}
+                      width={800}
+                      height={450}
+                      sizes="(max-width: 768px) 100vw, 96px"
+                      className="w-full aspect-video md:w-24 md:h-24 md:aspect-auto md:shrink-0 object-cover lg:grayscale lg:group-hover:grayscale-0 transition-all duration-300"
+                    />
+                    <div className="space-y-2">
+                      <h4 className="font-headline font-black md:font-bold text-2xl md:text-xl leading-tight group-hover:text-primary transition-colors">{article.title}</h4>
+                      {!hideExcerpt && (
+                        <p className="text-base md:text-sm text-slate-600 leading-relaxed line-clamp-3 md:line-clamp-2">{article.excerpt}</p>
+                      )}
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+            <div className="bg-white p-6 border-l-2 border-primary shadow-sm space-y-6">
+              <h3 className="font-headline font-black text-2xl tracking-tighter italic uppercase">Altitude Trail</h3>
+              <p className="text-sm leading-relaxed text-slate-600">Recevez chaque vendredi le &quot;Briefing des Cimes&quot; : l&apos;essentiel de l&apos;actu trail dans votre boîte mail.</p>
+              <input className="w-full border border-slate-200 text-xs px-4 py-3 focus:outline-none focus:ring-1 focus:ring-primary" placeholder="votre@email.com" type="email" />
+              <button className="w-full bg-primary text-white py-3 font-headline font-bold text-xs uppercase tracking-widest hover:bg-primary-dark transition-colors">
+                S&apos;ABONNER À LA NEWSLETTER
+              </button>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Courses & Récits */}
-      <section className="max-w-[1440px] mx-auto px-4 lg:px-8 pb-12">
-        <div className="newspaper-divider"><span>COURSES &amp; RÉCITS</span></div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-0 md:gap-y-8 mt-12">
-          {coursesRecits.map((article, i) => (
-            <ArticleCard
-              key={article.slug}
-              article={article}
-              variant="default"
-              hideExcerpt={i % 3 === 2}
-            />
-          ))}
-        </div>
-      </section>
-
-      {/* Science & Entraînement */}
-      <section className="max-w-[1440px] mx-auto px-4 lg:px-8 pb-20">
-        <div className="newspaper-divider"><span>SCIENCE &amp; ENTRAÎNEMENT</span></div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-12">
-          <div className="col-span-1 lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
-            {scienceArticles.map((article, i) => {
-              const hideExcerpt = i % 3 === 2;
-              return (
-                <Link
-                  key={article.slug}
-                  href={"/articles/" + article.slug}
-                  className="group flex flex-col md:flex-row gap-3 md:gap-4 pb-6 border-b border-surface-container md:pb-0 md:border-b-0"
-                >
-                  <Image
-                    src={article.image}
-                    alt={article.title}
-                    width={800}
-                    height={450}
-                    sizes="(max-width: 768px) 100vw, 96px"
-                    className="w-full aspect-video md:w-24 md:h-24 md:aspect-auto md:shrink-0 object-cover lg:grayscale lg:group-hover:grayscale-0 transition-all duration-300"
-                  />
-                  <div className="space-y-2">
-                    <h4 className="font-headline font-black md:font-bold text-2xl md:text-xl leading-tight group-hover:text-primary transition-colors">{article.title}</h4>
-                    {!hideExcerpt && (
-                      <p className="text-base md:text-sm text-slate-600 leading-relaxed line-clamp-3 md:line-clamp-2">{article.excerpt}</p>
-                    )}
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-          <div className="bg-white p-6 border-l-2 border-primary shadow-sm space-y-6">
-            <h3 className="font-headline font-black text-2xl tracking-tighter italic uppercase">Altitude Trail</h3>
-            <p className="text-sm leading-relaxed text-slate-600">Recevez chaque vendredi le "Briefing des Cimes" : l'essentiel de l'actu trail dans votre boîte mail.</p>
-            <input className="w-full border border-slate-200 text-xs px-4 py-3 focus:outline-none focus:ring-1 focus:ring-primary" placeholder="votre@email.com" type="email" />
-            <button className="w-full bg-primary text-white py-3 font-headline font-bold text-xs uppercase tracking-widest hover:bg-primary-dark transition-colors">
-              S'ABONNER À LA NEWSLETTER
-            </button>
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
     </div>
   );
 }

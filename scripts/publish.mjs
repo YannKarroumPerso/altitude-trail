@@ -87,7 +87,17 @@ async function loadArticles() {
       content: content.trim(),
     });
   }
-  articles.sort((a, b) => parseFrenchDate(b.date) - parseFrenchDate(a.date));
+  // Tri par publishedAt ISO si disponible (precision intra-jour), fallback
+  // sur parseFrenchDate(date) qui resolve au jour. Critique pour Discover :
+  // avant ce fix, 5 articles publies le meme jour sortaient en ordre quasi
+  // aleatoire car parseFrenchDate retournait la meme valeur jour pour tous.
+  articles.sort((a, b) => {
+    const ta = a.publishedAt ? new Date(a.publishedAt).getTime() : NaN;
+    const tb = b.publishedAt ? new Date(b.publishedAt).getTime() : NaN;
+    const va = isNaN(ta) ? parseFrenchDate(a.date).getTime() : ta;
+    const vb = isNaN(tb) ? parseFrenchDate(b.date).getTime() : tb;
+    return vb - va;
+  });
   return articles;
 }
 
