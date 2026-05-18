@@ -1,7 +1,7 @@
 # Altitude Trail — État de la machine
 
 > **Re-lecture obligatoire au début de chaque session Cowork.**
-> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-03**
+> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-04**
 
 Ce fichier est la mémoire long terme du projet entre sessions Claude/Cowork.
 À mettre à jour à chaque session significative (nouveaux features, décisions
@@ -86,19 +86,19 @@ structurantes, bugs résolus, conventions changées).
 ### P0 — En cours / à finir immédiatement
 - [ ] **Audit Discover (P0)** : 67 images articles à 0 octets dans `public/articles/` — bloque tout Discover. Lancer régen massive Nano Banana 2 Pro via `regen-fallback-images.yml` quand Gemini sera décongestionné.
 - [ ] **JSON-LD image en `ImageObject`** (pas array de strings) avec `width`/`height` — cf `src/lib/seo.ts` `buildNewsArticleJsonLd`.
-- [ ] **`max-image-preview:large`** sur robots générique (pas seulement googleBot).
-- [ ] **News-sitemap tri DESC** par `publication_date`.
-- [ ] **Mentions légales** `/mentions-legales` + **Confidentialité** `/confidentialite` (obligation légale FR + Trust Discover).
+- [x] ~~**`max-image-preview:large`** sur robots générique~~ - 2026-05-18 commit 88629a5
+- [x] ~~**News-sitemap tri DESC** par `publishedAt`~~ - 2026-05-18 commit 88629a5
+- [x] ~~**Mentions légales** + **Confidentialité**~~ - 2026-05-18 commit 88629a5. Pages live + footer links + sitemap.
 - [ ] **Popin newsletter** : déclenchement actuel = pleine page à 60s mobile = pénalité Discover. Refactor en scrollDepth + délai 90s + dismissable.
 
 ### P1 — Ce mois (après P0)
-- [x] ~~**Auteurs E-E-A-T** : Thomas Rouvier enrichi (bioLong + credentials + avatar SVG + sameAs mail officiel)~~ - 2026-05-18. **Reste à faire** : enrichir Marc Blanc, Claire Mercier, Yann Karroum avec le même niveau. JSON-LD author.url → `/auteurs/<slug>` à corriger dans `src/lib/seo.ts` `buildNewsArticleJsonLd`.
+- [x] ~~**Auteurs E-E-A-T**~~ - 2026-05-18 (Phase 1.3 Thomas + Phase 2 Marc/Claire/Yann). bioLong + credentials + avatarColor + sameAs mail officiel sur les 4 personae. JSON-LD `author.url` corrigé via resolveAuthor + authorUrl dans buildNewsArticleJsonLd.
 - [ ] **Titres > 75 chars rejetés** par linter dans `publish.mjs` (60% des derniers dépassent).
 - [ ] **`updatedAt` au format ISO** partout (actuel : string FR).
 - [ ] **`<time datetime>`** sur les dates affichées dans `articles/[slug]/page.tsx` (et non `<span>{string}</span>`).
 - [ ] **4 articles signés "Rédaction Altitude"** à réattribuer à un humain.
 - [ ] **Internal linking auto dans `publish.mjs`** : 5 "Lire aussi" en fin d'article + 3 inline ciblés par tags/hotEventSlug.
-- [ ] **`images.formats: ['avif','webp']`** dans `next.config.ts`.
+- [x] ~~**`images.formats: ['avif','webp']`**~~ - 2026-05-18 commit 88629a5
 - [ ] **Suspense** sur composants client lourds.
 
 ### P2 — Ce trimestre (stratégique anti-u-trail)
@@ -197,6 +197,17 @@ Yann doit envoyer un calendrier custom avec niveau d'investissement éditorial s
 ---
 
 ## Changelog versionné
+
+### v2026.05.18-04 — Phase 2 Discover SEO + E-E-A-T + pages légales
+- JSON-LD NewsArticle.image en ImageObject avec width/height (au lieu d'array strings)
+- JSON-LD NewsArticle.author → /auteurs/<slug> via resolveAuthor + authorUrl
+- robots max-image-preview:large sur générique (pas seulement googleBot)
+- next.config images.formats: ['avif','webp']
+- News-sitemap tri DESC publishedAt obligatoire
+- Pages /mentions-legales (LCEN art 6) + /confidentialite (RGPD) + footer links + sitemap
+- Marc Blanc, Claire Mercier, Yann Karroum : enrichis bioLong + credentials + avatarColor + sameAs mail
+- u-trail.com retiré de remotePatterns next.config (cohérence blacklist)
+- Trigger workflow regen-fallback-images limit=10 (en cours)
 
 ### v2026.05.18-03 — Phase 1 anti-u-trail
 - Refonte prompts : ligne éditoriale 2026 'factuel + questions qui dérangent' (`scripts/lib/editorial-style.mjs`)
