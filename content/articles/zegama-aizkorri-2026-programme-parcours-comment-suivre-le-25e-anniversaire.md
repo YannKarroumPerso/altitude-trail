@@ -8,7 +8,7 @@ author: "Marc Blanc"
 date: "13 mai 2026"
 publishedAt: "2026-05-13T17:30:00.000Z"
 readTime: "5 min"
-image: "/logo-square.png"
+image: "/articles/zegama-aizkorri-2026-programme-parcours-comment-suivre-le-25e-anniversaire-hero.jpg"
 tags:
   - Zegama
   - Golden Trail World Series
