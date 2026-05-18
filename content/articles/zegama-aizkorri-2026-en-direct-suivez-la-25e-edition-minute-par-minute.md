@@ -4,7 +4,7 @@ title: "Zegama-Aizkorri 2026 en direct : suivez la 25e edition minute par minute
 excerpt: "Suivez en direct sur Altitude Trail la marathon mythique du Pays basque, qui celebre ses 25 ans ce dimanche 17 mai. Kilian Jornet vise une 12e victoire, Sara Alonso defend son titre cote femmes. Mises a jour en continu de l'echauffement au franchissement de la ligne d'arrivee."
 category: "Courses & Récits"
 categorySlug: courses-recits
-author: "Rédaction Altitude"
+author: "Marc Blanc"
 date: "17 mai 2026"
 publishedAt: "2026-05-16T22:53:55.624Z"
 updatedAt: "17 mai 2026"

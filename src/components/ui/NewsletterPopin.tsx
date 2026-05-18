@@ -15,7 +15,13 @@ import { useEffect, useRef, useState } from "react";
 
 const LOCALSTORAGE_KEY = "at-newsletter-popin-closed-at";
 const DISMISS_DURATION_MS = 30 * 24 * 60 * 60 * 1000;
-const DELAY_MS = 60_000;
+// Trigger combine (decision 2026-05-18 anti-Discover-penalty) :
+// le popin n'apparait QUE si l'utilisateur a a la fois passe MIN_DELAY_MS
+// sur la page ET scrolle plus de SCROLL_THRESHOLD_PCT. Google penalise les
+// interstitiels mobiles apparus trop tot. Avec ce double trigger, on cible
+// les utilisateurs engages, pas les bounces.
+const MIN_DELAY_MS = 90_000;
+const SCROLL_THRESHOLD_PCT = 0.5;
 
 type Status = "idle" | "submitting" | "success" | "error";
 
@@ -36,11 +42,48 @@ export default function NewsletterPopin() {
         if (!isNaN(ts) && Date.now() - ts < DISMISS_DURATION_MS) return;
       }
     } catch {}
-    const t = setTimeout(() => {
-      setVisible(true);
-      requestAnimationFrame(() => setMounted(true));
-    }, DELAY_MS);
-    return () => clearTimeout(t);
+
+    const start = Date.now();
+    let scrolledEnough = false;
+    let delayReached = false;
+    let triggered = false;
+
+    const tryTrigger = () => {
+      if (triggered) return;
+      if (scrolledEnough && delayReached) {
+        triggered = true;
+        setVisible(true);
+        requestAnimationFrame(() => setMounted(true));
+      }
+    };
+
+    const onScroll = () => {
+      const docEl = document.documentElement;
+      const scrolled = window.scrollY + window.innerHeight;
+      const total = docEl.scrollHeight;
+      if (total <= window.innerHeight) {
+        // Page plus courte que le viewport : on considere que scroll = OK
+        scrolledEnough = true;
+      } else {
+        const pct = (scrolled - window.innerHeight) / (total - window.innerHeight);
+        if (pct >= SCROLL_THRESHOLD_PCT) scrolledEnough = true;
+      }
+      tryTrigger();
+    };
+
+    const delayTimer = setTimeout(() => {
+      delayReached = true;
+      tryTrigger();
+    }, MIN_DELAY_MS);
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    // Check initial scroll au cas ou
+    onScroll();
+
+    return () => {
+      clearTimeout(delayTimer);
+      window.removeEventListener("scroll", onScroll);
+    };
   }, []);
 
   useEffect(() => {

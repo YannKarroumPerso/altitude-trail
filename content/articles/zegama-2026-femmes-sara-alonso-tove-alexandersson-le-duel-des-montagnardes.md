@@ -4,7 +4,7 @@ title: "Zegama 2026 femmes : Sara Alonso défend son titre face à Tove Alexande
 excerpt: "La Basque Sara Alonso, vainqueure 2025 en 4 h 27 min 25 s, retrouve dimanche un plateau de classe mondiale emmené par la Suédoise Tove Alexandersson, championne d'orientation reconvertie au trail. Décryptage du duel attendu et des outsiders qui peuvent tout changer."
 category: "Courses & Récits"
 categorySlug: courses-recits
-author: "Rédaction Altitude"
+author: "Marc Blanc"
 date: "13 mai 2026"
 publishedAt: "2026-05-13T18:00:00.000Z"
 readTime: "6 min"

@@ -54,6 +54,11 @@ async function loadArticles() {
     if (filenameSlug !== data.slug) {
       console.warn(`[publish] MISMATCH filename vs frontmatter slug :\n    filename = ${filenameSlug}\n    fm slug  = ${data.slug}\n  -> ajoute un 301 dans next.config.ts pour eviter le 404 sur l'ancienne URL.`);
     }
+    // Linter titres > 75 chars (decision 2026-05-18, Google Discover tronque a ~70)
+    const titleLen = String(data.title || "").length;
+    if (titleLen > 75) {
+      console.warn(`[publish] WARN title length ${titleLen} > 75 chars : "${data.title}" (file ${file}) — Discover tronquera. Considere a raccourcir.`);
+    }
     articles.push({
       slug: String(data.slug),
       title: String(data.title),

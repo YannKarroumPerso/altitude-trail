@@ -4,7 +4,7 @@ title: "Zegama 2026 : Kilian Jornet revient pour la 25e édition, une 12e victoi
 excerpt: "À quatre jours du départ de la 25e édition du Zegama-Aizkorri Mendi Maratoia, le Catalan Kilian Jornet a confirmé sa présence sur la ligne de départ ce dimanche 17 mai. Le recordman officieux du sommet basque vise une douzième victoire, dans une course qu'il a déjà fait sienne onze fois depuis 2007."
 category: "Courses & Récits"
 categorySlug: courses-recits
-author: "Rédaction Altitude"
+author: "Marc Blanc"
 date: "13 mai 2026"
 publishedAt: "2026-05-13T17:15:00.000Z"
 readTime: "6 min"

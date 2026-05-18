@@ -4,7 +4,7 @@ title: "Zegama-Aizkorri 2026 : programme complet, parcours et comment suivre la 
 excerpt: "Vendredi 15 mai pour le Kilomètre Vertical, dimanche 17 mai pour la marathon de 42 km : le week-end basque s'annonce explosif. Voici tout ce qu'il faut savoir sur le tracé, les horaires et la retransmission de l'édition anniversaire."
 category: "Courses & Récits"
 categorySlug: courses-recits
-author: "Rédaction Altitude"
+author: "Marc Blanc"
 date: "13 mai 2026"
 publishedAt: "2026-05-13T17:30:00.000Z"
 readTime: "5 min"

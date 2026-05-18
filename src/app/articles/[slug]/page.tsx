@@ -21,6 +21,7 @@ import {
   buildFaqPageJsonLd,
   extractFaqFromMarkdown,
   parseFrDate,
+  getArticlePublishedAt,
   NEWS_KEYWORDS,
 } from "@/lib/seo";
 import { resolveAuthor } from "@/lib/authors";
@@ -234,7 +235,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           );
         })()}
         <span>·</span>
-        <span>{article.date}</span>
+        <time dateTime={getArticlePublishedAt(article).toISOString()} className="text-slate-600">
+          {article.date}
+        </time>
+        {article.updatedAt && article.updatedAt !== article.date && (
+          <>
+            <span>·</span>
+            <span className="text-slate-500">Mis à jour le {article.updatedAt}</span>
+          </>
+        )}
         <span>·</span>
         <span>{article.readTime} de lecture</span>
       </div>

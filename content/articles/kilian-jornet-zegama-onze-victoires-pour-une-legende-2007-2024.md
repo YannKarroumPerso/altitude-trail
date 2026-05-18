@@ -4,7 +4,7 @@ title: "Kilian Jornet à Zegama : onze victoires en dix-sept ans, anatomie d'une
 excerpt: "De son premier titre à 19 ans en 2007 jusqu'au record de 3h36'40\" en 2022, le Catalan a écrit la moitié de l'histoire du Zegama-Aizkorri. À quatre jours de sa réapparition sur la 25e édition, retour année par année sur un palmarès unique dans le sky-running mondial."
 category: "Courses & Récits"
 categorySlug: courses-recits
-author: "Rédaction Altitude"
+author: "Marc Blanc"
 date: "13 mai 2026"
 publishedAt: "2026-05-13T17:45:00.000Z"
 readTime: "8 min"
