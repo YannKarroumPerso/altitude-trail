@@ -10,7 +10,7 @@ categorySlug: entrainement
 author: Yann Karroum
 date: 21 avril 2026
 readTime: 5 min
-image: "/logo-square.png"
+image: "/articles/cotes-montees-marche-rapide-l-equation-oubliee-du-trail-de-30-km-hero.jpg"
 tags:
   - entraînement
   - dénivelé
