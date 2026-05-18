@@ -1,7 +1,7 @@
 # Altitude Trail — État de la machine
 
 > **Re-lecture obligatoire au début de chaque session Cowork.**
-> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-02**
+> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-03**
 
 Ce fichier est la mémoire long terme du projet entre sessions Claude/Cowork.
 À mettre à jour à chaque session significative (nouveaux features, décisions
@@ -64,6 +64,7 @@ structurantes, bugs résolus, conventions changées).
 5. **Filename = `${slug}.md`** (fix du 2026-05-13 commit f5e27e0 — bug historique 88 articles avec mismatch).
 6. **Pas de clickbait**. Titres factuels. Pas de superlatifs ("incroyable", "fou", "mythique").
 7. **Faits vérifiés via sources avant publication** (palmarès, dates, terminologie). Cf leçon 2026-05-18 (hallucinations sur les 5 dossiers pillar).
+8. **Ligne éditoriale 2026** (décidée 2026-05-18, codée dans `scripts/lib/editorial-style.mjs`) : *factuel + questions qui dérangent*. On pose des questions sourcées peer-reviewed, on ne crie pas des vérités. Titres en forme interrogative quand pertinent ("L'entraînement polarisé est-il vraiment optimal pour l'ultra ?"). Style Mediapart-light pour le trail. INTERDITS : clickbait u-trail style ("Cette vérité folle", "Ces 5 signes"), superlatifs ("incroyable", "fou", "mythique" en titre).
 
 ---
 
@@ -75,6 +76,8 @@ structurantes, bugs résolus, conventions changées).
 - **Home event-first** : section hero `<HeroEvent>` (toujours visible : event en cours ou prochain avec compte à rebours adaptatif). `src/app/page.tsx` + `src/components/ui/HeroEvent.tsx` + `src/lib/hot-events.ts`.
 - **Calendar UI** : `src/lib/hot-events.ts` est la source UI des 16 events HOT_EVENTS, doit rester en sync avec `scripts/lib/hot-events-calendar.mjs` (dual maintenance, slugs identiques).
 - **Pillar pages** : `/dossiers/[eventSlug]` pour 5 grandes courses (UTMB, Western States, Hardrock, Diagonale, Zegama). Source de vérité : `src/data/pillars/<slug>.ts`. Header en commentaire mentionne les sources de vérification obligatoires.
+- **Modèle économique** (décision Yann 2026-05-18) : **AdSense + Affiliation outdoor** (i-Run + Decathlon). PAS de Premium pour l'instant. Bloc `<AffiliationFooter>` discret en fin d'article, un seul par article max, avec disclaimer transparent.
+- **Verticale Science & Performance** (catégorie `science-performance`, décision Yann 2026-05-18) : signature différenciante. Articles avec citation peer-reviewed obligatoire (BJSM, JOSPT, Sports Medicine, ACSM). Auteur attitré : **Thomas Rouvier** (persona AI renforcé avec bioLong + credentials + avatar SVG initiales, pas de photo IA fake). 8 queries Tavily dédiées dans `veille-tavily.mjs`.
 
 ---
 
@@ -89,7 +92,7 @@ structurantes, bugs résolus, conventions changées).
 - [ ] **Popin newsletter** : déclenchement actuel = pleine page à 60s mobile = pénalité Discover. Refactor en scrollDepth + délai 90s + dismissable.
 
 ### P1 — Ce mois (après P0)
-- [ ] **Auteurs E-E-A-T** : ajouter `bio_long` (80-150 mots), `image` (avatar 400×400), `sameAs` (LinkedIn, Strava, Insta) sur les 4 personae. Cf `src/lib/authors.ts`. JSON-LD `author.url` = `/auteurs/<slug>` au lieu de `/a-propos`.
+- [x] ~~**Auteurs E-E-A-T** : Thomas Rouvier enrichi (bioLong + credentials + avatar SVG + sameAs mail officiel)~~ - 2026-05-18. **Reste à faire** : enrichir Marc Blanc, Claire Mercier, Yann Karroum avec le même niveau. JSON-LD author.url → `/auteurs/<slug>` à corriger dans `src/lib/seo.ts` `buildNewsArticleJsonLd`.
 - [ ] **Titres > 75 chars rejetés** par linter dans `publish.mjs` (60% des derniers dépassent).
 - [ ] **`updatedAt` au format ISO** partout (actuel : string FR).
 - [ ] **`<time datetime>`** sur les dates affichées dans `articles/[slug]/page.tsx` (et non `<span>{string}</span>`).
@@ -194,6 +197,15 @@ Yann doit envoyer un calendrier custom avec niveau d'investissement éditorial s
 ---
 
 ## Changelog versionné
+
+### v2026.05.18-03 — Phase 1 anti-u-trail
+- Refonte prompts : ligne éditoriale 2026 'factuel + questions qui dérangent' (`scripts/lib/editorial-style.mjs`)
+- Nouvelle catégorie `science-performance` (verticale Science & Performance, signature différenciante)
+- Re-routing 5 queries science -> 8 queries dédiées avec angles 'questions sourcées' (`scripts/veille-tavily.mjs`)
+- Thomas Rouvier enrichi (bioLong, credentials, avatar SVG via nouveau composant `AvatarInitials`, mail officiel sameAs uniquement, pas de photo IA fake)
+- Page auteur enrichie (avatar 96px, bioLong, encadré 'Parcours' avec credentials)
+- Système d'affiliation outdoor (`src/lib/affiliation.ts` + `<AffiliationFooter>`) : bloc discret fin d'article, disclaimer transparent, i-Run pour catalogue large + Decathlon pour marques maison
+- Modèle économique acté : AdSense + Affiliation outdoor (pas de Premium)
 
 ### v2026.05.18-02 — Fix bug conflits data.ts concurrent push
 - `scripts/publish.mjs` : recovery automatique sur conflit data.ts seul. Plus de fail "Process completed with exit code 1" quand 2 crons publient en parallèle. Task #34 close.
