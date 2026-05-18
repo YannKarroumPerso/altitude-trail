@@ -10,7 +10,7 @@ categorySlug: entrainement
 author: Yann Karroum
 date: 22 avril 2026
 readTime: 7 min
-image: "/logo-square.png"
+image: "/articles/votre-meilleur-allie-contre-les-blessures-ne-coute-rien-le-sommeil-hero.jpg"
 tags:
   - sommeil
   - récupération
