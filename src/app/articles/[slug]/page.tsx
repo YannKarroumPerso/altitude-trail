@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import ArticleCard from "@/components/ui/ArticleCard";
+import AffiliationFooter from "@/components/ui/AffiliationFooter";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import JsonLd from "@/components/ui/JsonLd";
 import YouTubeEmbed from "@/components/ui/YouTubeEmbed";
@@ -291,6 +292,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
         )}
       </div>
+
+      <AffiliationFooter article={article} />
+
       {article.youtubeVideoId && article.youtubeTitle && (
         <section className="mt-12 pt-8 border-t border-surface-container">
           <h2 className="font-headline text-xs font-black uppercase tracking-widest text-slate-500 mb-4">
