@@ -9,7 +9,7 @@ date: "17 mai 2026"
 publishedAt: "2026-05-16T22:53:55.624Z"
 updatedAt: "17 mai 2026"
 readTime: "12 min"
-image: "/logo-square.png"
+image: "/articles/zegama-aizkorri-2026-en-direct-suivez-la-25e-edition-minute-par-minute-hero.jpg"
 tags:
   - Zegama
   - Kilian Jornet
