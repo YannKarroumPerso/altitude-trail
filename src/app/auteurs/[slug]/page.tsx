@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import ArticleCard from "@/components/ui/ArticleCard";
+import AvatarInitials from "@/components/ui/AvatarInitials";
 import JsonLd from "@/components/ui/JsonLd";
 import { AUTHORS, getAuthorBySlug, authorUrl } from "@/lib/authors";
 import { articles } from "@/lib/data";
@@ -74,7 +75,8 @@ export default async function AuthorPage({
           name: author.name,
           url: authorUrl(author.slug),
           jobTitle: author.jobTitle,
-          description: author.bio,
+          description: author.bioLong || author.bio,
+          image: author.image,
           sameAs: author.sameAs,
         })}
       />
@@ -98,15 +100,43 @@ export default async function AuthorPage({
       <Breadcrumb items={breadcrumb} />
 
       <div className="border-b-2 border-surface-container pb-8 mb-10">
-        <div className="text-[10px] font-headline font-black uppercase tracking-widest text-primary mb-2">
-          {author.jobTitle}
+        <div className="flex items-start gap-6 mb-6">
+          <div className="shrink-0">
+            <AvatarInitials name={author.name} color={author.avatarColor || "#1e3a8a"} size={96} />
+          </div>
+          <div className="flex-1 min-w-0">
+            <div className="text-[10px] font-headline font-black uppercase tracking-widest text-primary mb-2">
+              {author.jobTitle}
+            </div>
+            <h1 className="font-headline text-4xl lg:text-6xl font-black leading-none tracking-tighter mb-4">
+              {author.name}
+            </h1>
+          </div>
         </div>
-        <h1 className="font-headline text-4xl lg:text-6xl font-black leading-none tracking-tighter mb-4">
-          {author.name}
-        </h1>
-        <p className="text-lg text-slate-600 leading-relaxed max-w-2xl">
-          {author.bio}
-        </p>
+        {author.bioLong ? (
+          <p className="text-base text-slate-700 leading-relaxed max-w-3xl mb-4">
+            {author.bioLong}
+          </p>
+        ) : (
+          <p className="text-lg text-slate-600 leading-relaxed max-w-2xl">
+            {author.bio}
+          </p>
+        )}
+        {author.credentials && author.credentials.length > 0 && (
+          <div className="bg-surface-container p-4 mt-4 max-w-3xl">
+            <p className="text-[10px] font-headline font-black uppercase tracking-widest text-navy mb-2">
+              Parcours
+            </p>
+            <ul className="space-y-1 text-sm text-slate-700">
+              {author.credentials.map((cred) => (
+                <li key={cred} className="flex gap-2">
+                  <span className="text-primary font-bold">→</span>
+                  <span>{cred}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
 
       <h2 className="font-headline text-2xl font-black uppercase tracking-tighter mb-6">

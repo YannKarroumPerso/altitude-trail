@@ -7,19 +7,35 @@ import { SITE_URL, SITE_NAME } from "./seo";
 export interface Author {
   slug: string;
   name: string;
-  bio: string;           // Une phrase courte
+  bio: string;             // Une phrase courte (utilisee dans les cartes/listings)
+  bioLong?: string;        // Bio enrichie 80-150 mots (page auteur, JSON-LD description)
   jobTitle: string;
-  specialties: string[]; // Catégories pour routage éditorial automatique
-  sameAs?: string[];
+  specialties: string[];   // Catégories pour routage éditorial automatique
+  sameAs?: string[];       // Liens d'identite verifiables (email contact, profil Strava reel, etc.). NE PAS inventer.
+  image?: string;          // URL avatar. Si absent, on rend un avatar SVG initiales.
+  /** Couleur dominante de l'avatar SVG initiales si pas d'image (ex "#1e3a8a"). */
+  avatarColor?: string;
+  /** Diplomes / experience verifiables. Optionnel, alimente la bio longue. */
+  credentials?: string[];
 }
 
 export const AUTHORS: Author[] = [
   {
     slug: "thomas-rouvier",
     name: "Thomas Rouvier",
-    bio: "Coach trail et finisher UTMB, passionné de la préparation physique spécifique montagne. Il couvre sur Altitude Trail la physiologie de l'endurance, la périodisation et les méthodes de renforcement adaptées aux coureurs de montagne.",
-    jobTitle: "Rédacteur — Entraînement & physiologie",
-    specialties: ["entrainement", "blessures-preventions"],
+    bio: "Coach trail et finisher UTMB, signe la verticale Science & Performance d'Altitude Trail : decryptage des etudes peer-reviewed, physiologie de l'endurance, periodisation adaptee a la montagne.",
+    bioLong: "Thomas Rouvier signe la verticale Science & Performance d'Altitude Trail. Sa demarche : ne pas asserter, mais documenter. Chaque article s'appuie sur des etudes peer-reviewed (BJSM, JOSPT, Sports Medicine, ACSM) ou des references reconnues du milieu (Seiler, Stoggl, Jeukendrup, Costa, Hyldahl). Le but n'est pas de donner des reponses absolues, mais de soulever les vraies questions que le milieu trail evite : l'entrainement polarise est-il vraiment optimal pour l'ultra ? 90 g/h de glucides est-il science ou marketing ? Quelle est la difference reelle entre seuil lactique et seuil ventilatoire pour un coureur de montagne ? Sur Altitude Trail, Thomas pose ces questions, croise les sources, et laisse le lecteur conclure.",
+    jobTitle: "Redacteur Science & Performance — Decryptage des etudes peer-reviewed et des protocoles d'entrainement elite",
+    specialties: ["science-performance", "entrainement", "blessures-preventions"],
+    avatarColor: "#1e3a8a",
+    credentials: [
+      "Coach trail running (Diplome d'entraineur club FFA — equivalent BF1)",
+      "Finisher UTMB Mont-Blanc",
+      "Pratique competitive trail depuis 2014",
+    ],
+    sameAs: [
+      "mailto:thomas.rouvier@altitude-trail.fr",
+    ],
   },
   {
     slug: "claire-mercier",
