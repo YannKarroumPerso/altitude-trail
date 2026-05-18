@@ -1,7 +1,7 @@
 # Altitude Trail — État de la machine
 
 > **Re-lecture obligatoire au début de chaque session Cowork.**
-> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-05**
+> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-06**
 
 Ce fichier est la mémoire long terme du projet entre sessions Claude/Cowork.
 À mettre à jour à chaque session significative (nouveaux features, décisions
@@ -180,6 +180,7 @@ Yann doit envoyer un calendrier custom avec niveau d'investissement éditorial s
 - **2026-05-16** — Refonte home event-first (`HeroEvent` + `CalendarPreview` + tri ISO `publishedAt`). Bug tri date FR jour-only enfin corrigé.
 - **2026-05-17** — Live blog Zegama auto via cron horaire dimanche (créé samedi 22h UTC, 11 updates pendant la course).
 - **2026-05-18** — Création de 5 pillar pages `/dossiers/[slug]` (UTMB, WS100, Hardrock, Diagonale, Zegama). Erreurs factuelles sur les palmarès initialement → corrigées via vérif iRunFar systémique. Leçon : **toujours passer par un agent de vérification factuelle avant publication de contenu enrichi (palmarès, dates, terminologie)**.
+- **2026-05-18** — LEÇON : `ads.txt` oublié lors de l'intégration AdSense du 13 mai. Validation AdSense bloquée 5 jours supplémentaires de ma faute (validation déjà bloquée 12 jours avant mon arrivée). À retenir : tout déploiement d'un service tiers (AdSense, Adsense Auto Ads, Meta Pixel, GA, Sentry, etc.) doit s'accompagner de l'audit complet des prérequis du service (fichiers de vérification, balises meta, sitemap dédié, configuration côté dashboard). Pas juste le script JS. Checklist Audit Initial à étendre.
 - **2026-05-18** — Audit concurrentiel u-trail.com complet (cf historique conversation). Plan d'attaque P0/P1/P2 défini.
 
 ---
