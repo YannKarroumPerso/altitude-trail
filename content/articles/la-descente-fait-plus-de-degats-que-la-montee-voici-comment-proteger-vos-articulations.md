@@ -13,7 +13,7 @@ categorySlug: blessures-preventions
 author: Thomas Rouvier
 date: 22 avril 2026
 readTime: 8 min
-image: "/logo-square.png"
+image: "/articles/la-descente-fait-plus-de-degats-que-la-montee-voici-comment-proteger-vos-articulations-hero.jpg"
 tags:
   - descente
   - technique
