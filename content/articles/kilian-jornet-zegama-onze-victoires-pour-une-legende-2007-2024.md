@@ -8,7 +8,7 @@ author: "Rédaction Altitude"
 date: "13 mai 2026"
 publishedAt: "2026-05-13T17:45:00.000Z"
 readTime: "8 min"
-image: "/logo-square.png"
+image: "/articles/kilian-jornet-zegama-onze-victoires-pour-une-legende-2007-2024-hero.jpg"
 tags:
   - Kilian Jornet
   - Zegama
