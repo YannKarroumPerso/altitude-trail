@@ -9,7 +9,7 @@ date: "13 mai 2026"
 publishedAt: "2026-05-13T06:58:43.078Z"
 updatedAt: "13 mai 2026"
 readTime: "5 min"
-image: "/logo-square.png"
+image: "/articles/maladie-de-lyme-pfizer-et-valneva-franchissent-70-d-efficacite-apres-20-ans-de-hero.jpg"
 tags: []
 sourceUrl: "https://www2.u-trail.com/tiques-un-vaccin-contre-la-maladie-de-lyme-arrive-enfin/"
 externalRefs:
