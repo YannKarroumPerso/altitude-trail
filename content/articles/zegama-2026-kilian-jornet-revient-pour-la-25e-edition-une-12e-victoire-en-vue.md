@@ -8,7 +8,7 @@ author: "Marc Blanc"
 date: "13 mai 2026"
 publishedAt: "2026-05-13T17:15:00.000Z"
 readTime: "6 min"
-image: "/logo-square.png"
+image: "/articles/zegama-2026-kilian-jornet-revient-pour-la-25e-edition-une-12e-victoire-en-vue-hero.jpg"
 tags:
   - Zegama
   - Kilian Jornet
