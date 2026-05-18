@@ -4,6 +4,7 @@ import { useState } from "react";
 import { categories } from "@/lib/data";
 
 const GUIDES_TOOLS = [
+  { href: "/dossiers", label: "Dossiers courses", desc: "UTMB, Western States, Hardrock, Zegama : tout savoir sur les grandes courses" },
   { href: "/guides/utmb", label: "Guide UTMB", desc: "La référence pour courir l'UTMB" },
   { href: "/courses", label: "Calendrier des courses", desc: "Carte et filtres de toutes les courses France" },
   { href: "/entrainement/generateur", label: "Moteur d'entraînement", desc: "Plan personnalisé gratuit, construit pour ton profil" },

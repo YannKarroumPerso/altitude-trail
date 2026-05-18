@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { articles, categories } from "@/lib/data";
 import { races } from "@/lib/races-database";
+import { PILLARS } from "@/lib/pillars";
 import { SITE_URL, getArticlePublishedAt } from "@/lib/seo";
 import { ARTICLES_PER_PAGE, totalPagesForCount } from "@/components/ui/Pagination";
 
@@ -32,6 +33,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/parcours`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/lexique`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/guides/utmb`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE_URL}/dossiers`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    ...PILLARS.map((p) => ({
+      url: `${SITE_URL}/dossiers/${p.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
+    })),
     { url: `${SITE_URL}/auteurs`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/a-propos`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/charte-editoriale`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
