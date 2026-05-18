@@ -523,6 +523,10 @@ const nextConfig: NextConfig = {
     ];
   },
   images: {
+    // AVIF d'abord (compression -30% vs WebP, supporte Chrome 85+/Firefox 93+/Safari 16+)
+    // puis WebP en fallback. Next.js negocie automatiquement via Accept header.
+    // Discover prefere les formats modernes (signal de qualite tech).
+    formats: ["image/avif", "image/webp"],
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "lh3.googleusercontent.com" },
@@ -534,7 +538,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "www.irunfar.com" },
       { protocol: "https", hostname: "passiontrail.fr" },
       { protocol: "https", hostname: "www.lepape-info.com" },
-      { protocol: "https", hostname: "www2.u-trail.com" },
+      // u-trail.com retire (blackliste editoriale)
       { protocol: "https", hostname: "runactu.com" },
       { protocol: "https", hostname: "ultrarunning.com" },
       { protocol: "https", hostname: "trailrunningspain.com" },

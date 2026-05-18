@@ -1,4 +1,5 @@
 import { Article, Race } from "@/types";
+import { resolveAuthor, authorUrl } from "./authors";
 
 export const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL || "https://www.altitude-trail.fr"
@@ -171,25 +172,35 @@ export function buildNewsArticleJsonLd(article: Article) {
   const modified = article.updatedAt
     ? parseFrDate(article.updatedAt).toISOString()
     : published;
-  const images = articleImageSet(article).map((i) => i.url);
+  const imageSet = articleImageSet(article);
   // Fallback identique pour heroImage (thumbnailUrl)
   const heroImage = article.image ? absoluteUrl(article.image) : DEFAULT_OG_IMAGE;
   const bodyPreview = extractArticleBodyPreview(article.content, 120);
+  // Resolve auteur : si reconnu, JSON-LD pointe sur /auteurs/<slug>
+  // (Person riche, signal E-E-A-T). Sinon, fallback constant.
+  const resolved = resolveAuthor(article.author);
+  const authorJsonLd = resolved.author
+    ? { "@type": "Person", name: resolved.author.name, url: authorUrl(resolved.author.slug) }
+    : { "@type": "Person", name: article.author || AUTHOR_NAME, url: AUTHOR_URL };
   return {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     headline: headlineForGoogle(article.title),
     description: article.excerpt,
-    image: images,
+    // ImageObject riche avec dimensions explicites (au lieu d'array de strings).
+    // Discover prefere les images >= 1200px de large et la presence des dimensions
+    // explicites est un signal de qualite editoriale.
+    image: imageSet.map((i) => ({
+      "@type": "ImageObject",
+      url: i.url,
+      width: i.width,
+      height: i.height,
+    })),
     thumbnailUrl: heroImage,
     datePublished: published,
     dateModified: modified,
-    author: {
-      "@type": "Person",
-      name: article.author || AUTHOR_NAME,
-      url: AUTHOR_URL,
-    },
+    author: authorJsonLd,
     publisher: buildPublisherJsonLd(),
     articleSection: article.category,
     keywords: (article.tags || []).join(", "),

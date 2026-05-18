@@ -40,30 +40,54 @@ export const AUTHORS: Author[] = [
   {
     slug: "claire-mercier",
     name: "Claire Mercier",
-    bio: "Diététicienne du sport et ultra-traileuse, spécialisée dans la nutrition d'endurance. Elle signe les articles dédiés à l'alimentation en course, l'hydratation, la gestion des troubles digestifs et la récupération nutritionnelle.",
-    jobTitle: "Rédactrice — Nutrition & récupération",
+    bio: "Dieteticienne du sport et ultra-traileuse, signe les articles nutrition d'endurance d'Altitude Trail : alimentation en course, hydratation, gestion des troubles digestifs, recuperation. Approche basee sur la science peer-reviewed.",
+    bioLong: "Claire Mercier couvre la nutrition d'endurance et la recuperation sur Altitude Trail. Sa demarche : decortiquer les protocoles d'alimentation des elites (90 g/h glucides, gut training, periodisation glucidique) en s'appuyant sur les etudes peer-reviewed (Jeukendrup, Costa, Burke) plutot que sur les recommandations marketing des marques. Sur les sujets sensibles (troubles digestifs en ultra, hyponatremie, restauration post-course), elle privilegie le rappel d'un avis professionnel personnalise plutot que la generalisation. Ligne directrice : si une marque finance les etudes (Maurten, GU, Tailwind), elle l'indique explicitement et croise avec des sources independantes.",
+    jobTitle: "Redactrice Nutrition & recuperation — Decryptage des protocoles d'alimentation d'endurance",
     specialties: ["nutrition"],
+    avatarColor: "#15803d",
+    credentials: [
+      "Dieteticienne diplomee (DUT Genie biologique - dietetique)",
+      "Specialisation nutrition du sport (DU)",
+      "Pratique competitive trail et ultra-distance",
+    ],
+    sameAs: ["mailto:claire.mercier@altitude-trail.fr"],
   },
   {
     slug: "marc-blanc",
     name: "Marc Blanc",
-    bio: "Journaliste trail, couvre le circuit international depuis plus de dix ans. Spécialisé dans l'actualité des courses majeures (UTMB, Western States, Tor des Géants), les portraits de coureurs, l'actualité des marques et du matériel, et l'analyse des enjeux structurants du trail mondial.",
-    jobTitle: "Rédacteur — Actualités, courses & industrie",
-    // Marc couvre l'éditorial de fond (actualites, courses-recits) et les
-    // brèves actu sur les trois verticales (athletes, marques-industrie,
+    bio: "Journaliste trail, couvre le circuit international depuis plus de dix ans. Specialise dans l'actualite des courses majeures (UTMB, Western States, Tor des Geants), les portraits de coureurs et l'analyse des enjeux structurants du trail mondial.",
+    bioLong: "Marc Blanc signe la couverture editoriale des grandes courses internationales sur Altitude Trail (UTMB Mont-Blanc, Western States 100, Hardrock 100, Tor des Geants, Diagonale des Fous, Zegama). Sa demarche : croiser les sources primaires (iRunFar, Freetrail, sites officiels d'organisations), interroger les enjeux structurants (qualification, professionnalisation, ecologie, business models) sans tomber dans le clickbait. Sur les portraits d'athletes, il privilegie les chiffres verifiables et les declarations publiques sourcees, plutot que les superlatifs. Ligne directrice : poser les questions que le milieu trail evite (financement UTMB Group, exploitation des benevoles, dopage non couvert), citer les sources, laisser le lecteur conclure.",
+    jobTitle: "Redacteur Actualites, courses & industrie — Couvre les grands rendez-vous mondiaux et l'industrie du trail",
+    // Marc couvre l'editorial de fond (actualites, courses-recits) et les
+    // breves actu sur les trois verticales (athletes, marques-industrie,
     // equipement). Sur equipement, partage avec Yann 80/20 pour l'angle
     // consumer-oriented (prix en France, dispo, premier achat).
     specialties: ["actualites", "courses-recits", "athletes", "marques-industrie", "equipement"],
+    avatarColor: "#b91c1c",
+    credentials: [
+      "Couverture des courses internationales trail depuis 2014",
+      "Specialise enjeux UTMB World Series, Western States, Hardrock 100",
+      "Pratique trail running et long distance",
+    ],
+    sameAs: ["mailto:marc.blanc@altitude-trail.fr"],
   },
   {
     slug: "yann-karroum",
     name: "Yann Karroum",
-    bio: "Passionné et pratiquant de trail. Fondateur d'Altitude Trail, il signe les articles d'actualité, les contenus pour les coureurs qui débutent et les brèves équipement avec l'angle marché français (prix, disponibilité, choix pour commencer).",
-    jobTitle: "Rédacteur — Actualités, Débuter & Équipement",
-    // Yann intervient sur les actualités (partage 80/20 avec Marc), sur
-    // "débuter" (seul responsable) et en cosigne 80/20 sur "equipement" avec
+    bio: "Fondateur et editeur d'Altitude Trail. Pratiquant trail running et passionne d'analyse strategique du sport. Signe les articles d'actualite, les contenus pour debuter et l'angle marche francais sur l'equipement (prix, disponibilite, premier achat).",
+    bioLong: "Yann Karroum a fonde Altitude Trail en 2026 avec une conviction simple : le trail francais merite un media qui pose les vraies questions plutot que d'amplifier les communiques. Il signe personnellement les contenus 'Debuter' (premiere paire de chaussures, premier 50K, premier ultra) et les analyses equipement avec l'angle consumer francais (prix Decathlon, disponibilite, rapport qualite-prix). Sur les actualites, il partage la couverture avec Marc Blanc, sa zone de predilection etant les sujets d'industrie et le marche francais : qui domine vraiment chez Hoka vs Salomon vs Kiprun, comment les marques investissent en France, ce que les chiffres ITRA disent vraiment.",
+    jobTitle: "Editeur & redacteur — Fondateur d'Altitude Trail, ligne 'Debuter' et marche francais",
+    // Yann intervient sur les actualites (partage 80/20 avec Marc), sur
+    // "debuter" (seul responsable) et en cosigne 80/20 sur "equipement" avec
     // Marc pour l'angle consumer-oriented.
     specialties: ["actualites", "debuter", "equipement"],
+    avatarColor: "#7c3aed",
+    credentials: [
+      "Fondateur et editeur d'Altitude Trail (2026)",
+      "Pratiquant trail running",
+      "Specialise analyse marche francais trail et industrie outdoor",
+    ],
+    sameAs: ["mailto:yannkarroum@gmail.com"],
   },
 ];
 

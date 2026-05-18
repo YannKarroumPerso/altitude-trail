@@ -88,6 +88,11 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    // Directives images/snippets sur le robots generique (pas seulement googleBot).
+    // Discover, Bing, DuckDuckGo et autres crawlers profitent aussi de ces hints.
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
     googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
   },
   verification: GOOGLE_SITE_VERIFICATION

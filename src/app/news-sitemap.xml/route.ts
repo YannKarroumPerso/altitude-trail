@@ -18,10 +18,14 @@ export async function GET() {
   const now = new Date();
   const cutoff = now.getTime() - 48 * 60 * 60 * 1000;
 
-  const recent = articles.filter((a) => {
-    const d = getArticlePublishedAt(a);
-    return d.getTime() >= cutoff;
-  });
+  // Filtre 48h fraicheur + TRI DESC publishedAt obligatoire pour Google News
+  // (les premiers items du sitemap = signal de fraicheur prioritaire).
+  const recent = articles
+    .filter((a) => {
+      const d = getArticlePublishedAt(a);
+      return d.getTime() >= cutoff;
+    })
+    .sort((a, b) => getArticlePublishedAt(b).getTime() - getArticlePublishedAt(a).getTime());
 
   const entries = recent.map((a) => {
     const d = getArticlePublishedAt(a);

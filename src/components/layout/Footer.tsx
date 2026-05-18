@@ -81,6 +81,18 @@ export default function Footer() {
           >
             Contact
           </Link>
+          <Link
+            href="/mentions-legales"
+            className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
+          >
+            Mentions légales
+          </Link>
+          <Link
+            href="/confidentialite"
+            className="text-xs text-slate-500 hover:text-white transition-colors hover:underline underline-offset-4"
+          >
+            Confidentialité
+          </Link>
         </div>
 
         <div className="space-y-4">
