@@ -7,6 +7,18 @@ This version has breaking changes — APIs, conventions, and file structure may 
 <!-- BEGIN:altitude-trail-context -->
 # Altitude Trail — contexte projet pour Claude
 
+## ⚠️ AVANT TOUTE ACTION : LIRE `STATE.md` à la racine du repo
+
+Ce fichier (`STATE.md`) est la mémoire long terme entre sessions. Il contient :
+- État actuel du projet (pipelines, workflows, conventions)
+- Backlog priorisé (P0/P1/P2)
+- Décisions structurantes à respecter (u-trail blacklist, publishedAt ISO, etc.)
+- Leçons apprises (verification factuelle obligatoire avant publication enrichie)
+- Couverture event en cours
+- Changelog versionné
+
+À mettre à jour à la fin de chaque session significative (nouvelle version dans le changelog).
+
 **Ce que c'est** : site éditorial trail running + ultra-endurance, Next.js 16 (App Router) + Tailwind 4, hébergé sur Vercel, repo GitHub `YannKarroumPerso/altitude-trail`. Propriétaire / dev : Yann Karroum.
 
 ## Comment tu déploies (autonome)
