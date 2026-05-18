@@ -10,7 +10,7 @@ categorySlug: nutrition
 author: Yann Karroum
 date: 22 avril 2026
 readTime: 8 min
-image: "/logo-square.png"
+image: "/articles/comment-nourrir-son-corps-sur-un-ultra-sans-craquer-au-km-40-hero.jpg"
 tags:
   - nutrition
   - ultra-trail
