@@ -83,35 +83,55 @@ const PORTRAITS_DOMAINS = [
 ];
 
 const QUERY_POOL = [
-  // Science & physiologie (5)
+  // === VERTICALE SCIENCE & PERFORMANCE (8) - notre signature differenciante ===
+  // Ligne editoriale : poser des questions sourcees peer-reviewed, pas des verites.
+  // Tous les articles de cette categorie DOIVENT citer au moins une etude/meta-analyse.
   {
-    query: '"ultramarathon" OR "ultrarunning" science research training study',
-    categorySlug: "entrainement",
-    angle: "Actualité scientifique : études récentes sur l'entraînement et la physiologie de l'ultra-endurance.",
+    query: '"ultramarathon" OR "ultrarunning" polarized training meta-analysis Seiler study',
+    categorySlug: "science-performance",
+    angle: "Decryptage scientifique : l'entrainement polarise est-il vraiment optimal pour l'ultra ? Croiser meta-analyses recentes, citer Seiler/Stoggl, nuancer le consensus. Poser la question dans le titre, ne pas y repondre fermement.",
     include_domains: SCIENCE_DOMAINS,
   },
   {
     query: '"trail running" injury prevention research rehabilitation study',
-    categorySlug: "blessures-preventions",
-    angle: "Recherche sur la prévention des blessures en trail running : tendinopathies, fractures de stress, surcharge articulaire.",
+    categorySlug: "science-performance",
+    angle: "Recherche sourcee sur la prevention des blessures en trail : tendinopathies, fractures de stress, surcharge. Citer au moins une etude peer-reviewed (BJSM, JOSPT, AJSM). Poser une question concrete au lecteur, ne pas asserter.",
     include_domains: SCIENCE_DOMAINS,
   },
   {
-    query: '"ultra" OR "ultramarathon" nutrition gut training carbohydrate intake study',
-    categorySlug: "nutrition",
-    angle: "Science appliquée à la nutrition d'ultra-endurance : training the gut, glucides, récupération.",
+    query: '"ultra" carbohydrate intake 90g per hour gut training Maurten study performance',
+    categorySlug: "science-performance",
+    angle: "Question : 90 g/h de glucides est-il vraiment optimal, ou consensus de marketing Maurten ? Citer les etudes peer-reviewed (Jeukendrup, Costa), nuancer, laisser le lecteur conclure. Sujet hyper viral cible.",
     include_domains: SCIENCE_DOMAINS,
   },
   {
-    query: '"mountain running" OR "skyrunning" altitude hypoxia physiology acclimatization',
-    categorySlug: "entrainement",
-    angle: "Adaptation à l'altitude en montagne : hypoxie, acclimatation, physiologie du coureur en haute altitude.",
+    query: '"mountain running" OR "skyrunning" altitude hypoxia physiology acclimatization research',
+    categorySlug: "science-performance",
+    angle: "Science de l'altitude pour coureur de montagne : hypoxie, acclimatation, oedeme. Citer au moins une etude peer-reviewed ou recommandation ACSM. Format question : 'Quel protocole d'acclimatation pour le X ?'",
     include_domains: SCIENCE_DOMAINS,
   },
   {
-    query: '"ultrarunning" sleep deprivation recovery cortisol adaptation',
-    categorySlug: "entrainement",
-    angle: "Sommeil et récupération en ultra-endurance : impact physiologique, stratégies, dette de sommeil.",
+    query: '"ultrarunning" sleep deprivation recovery cortisol adaptation study',
+    categorySlug: "science-performance",
+    angle: "Question : peut-on vraiment 'rattraper' une nuit blanche sur un 100 miles ? Citer les etudes sur la dette de sommeil et la performance ultra. Provoc legere : confronter les mythes du milieu.",
+    include_domains: SCIENCE_DOMAINS,
+  },
+  {
+    query: '"trail running" lactate threshold ventilatory threshold VO2 max research',
+    categorySlug: "science-performance",
+    angle: "Decryptage : seuil lactique vs seuil ventilatoire, lequel est vraiment utile pour le coureur de trail ? Citer les etudes peer-reviewed sur les correlations performance/seuils en off-road.",
+    include_domains: SCIENCE_DOMAINS,
+  },
+  {
+    query: '"ultramarathon" women female specific physiology training research',
+    categorySlug: "science-performance",
+    angle: "Question : la physiologie feminine en ultra change-t-elle vraiment les protocoles d'entrainement ? Croiser les etudes recentes (Stacy Sims, Kelly McNulty), poser les implications pratiques sans donner de reponse absolue.",
+    include_domains: SCIENCE_DOMAINS,
+  },
+  {
+    query: '"mountain running" downhill eccentric muscle damage research recovery',
+    categorySlug: "science-performance",
+    angle: "Science de la descente en montagne : pourquoi les muscles excentriques cassent, et comment vraiment les preparer ? Citer les etudes peer-reviewed (Eston, Hyldahl).",
     include_domains: SCIENCE_DOMAINS,
   },
 

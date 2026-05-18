@@ -5597,6 +5597,7 @@ export const categories: Category[] = [
   { slug: "equipement", label: "Équipement", description: "Tests matériel, sorties de chaussures et actualité équipement trail" },
   { slug: "marques-industrie", label: "Marques & industrie", description: "Actualité des marques, acteurs et organisations du trail mondial" },
   { slug: "athletes", label: "Athlètes", description: "Portraits, actualités et performances des coureurs de haut niveau" },
+  { slug: "science-performance", label: "Science & Performance", description: "Études peer-reviewed, physiologie de l'effort, décryptage des protocoles d'entraînement élite. Le seul média trail FR qui soulève les vraies questions, sources à l'appui." },
 ];
 
 export const articles: Article[] = [
