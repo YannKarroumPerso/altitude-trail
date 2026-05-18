@@ -10,7 +10,7 @@ categorySlug: entrainement
 author: Thomas Rouvier
 date: 22 avril 2026
 readTime: 7 min
-image: "/logo-square.png"
+image: "/articles/les-traileurs-qui-ne-se-blessent-pas-ont-un-point-commun-hero.jpg"
 tags:
   - renforcement
   - prévention blessures
