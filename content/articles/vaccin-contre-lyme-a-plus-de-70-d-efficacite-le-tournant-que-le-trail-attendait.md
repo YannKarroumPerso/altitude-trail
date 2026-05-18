@@ -9,7 +9,7 @@ date: "13 mai 2026"
 publishedAt: "2026-05-13T04:08:54.954Z"
 updatedAt: "13 mai 2026"
 readTime: "5 min"
-image: "/logo-square.png"
+image: "/articles/vaccin-contre-lyme-a-plus-de-70-d-efficacite-le-tournant-que-le-trail-attendait-hero.jpg"
 tags: ["tiques", "maladie de Lyme", "vaccin", "santé trail", "prévention"]
 sourceUrl: "https://www2.u-trail.com/tiques-un-vaccin-contre-la-maladie-de-lyme-arrive-enfin/"
 externalRefs:
