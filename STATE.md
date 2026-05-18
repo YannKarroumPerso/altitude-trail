@@ -1,7 +1,7 @@
 # Altitude Trail — État de la machine
 
 > **Re-lecture obligatoire au début de chaque session Cowork.**
-> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-04**
+> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-05**
 
 Ce fichier est la mémoire long terme du projet entre sessions Claude/Cowork.
 À mettre à jour à chaque session significative (nouveaux features, décisions
@@ -193,6 +193,32 @@ Yann doit envoyer un calendrier custom avec niveau d'investissement éditorial s
 5. **Si on touche aux pillars** : croiser TOUJOURS avec les sources listées en commentaire en tête des fichiers `src/data/pillars/*.ts`.
 6. **Si on relance un cron** : `GH_TOKEN=$(cat .secrets/github_token.txt) && curl -X POST -H "Authorization: Bearer $GH_TOKEN" ... /actions/workflows/<workflow>.yml/dispatches`.
 7. **Avant publication d'un contenu enrichi** (palmarès, FAQ, glossaire) : lancer un agent de vérification factuelle. **Plus jamais d'hallucination**.
+
+---
+
+## 11. Sujets à discuter en prochaine session (mémo Yann)
+
+Demandes explicites de Yann à reprendre avant de coder, **ne pas commencer sans avoir d'abord aligné la stratégie**.
+
+### A. Qualité du contenu
+Réflexion stratégique de fond à porter avant de continuer à scaler la production. Angles à creuser :
+- Quel niveau de validation factuelle imposer avant publication ? (cf. leçon des palmarès pillar hallucinés du 2026-05-18 — un agent vérifie systématiquement avant push ?)
+- Faut-il un reviewer humain (Yann) sur certaines catégories sensibles (Science, Investigations) ?
+- Comment outiller la chaîne éditoriale pour qu'elle ait des garde-fous (linter de citations, alerte sur dates/chronos/noms propres) ?
+- Quels critères qualité on accepte / refuse en pré-publication ?
+- Faut-il distinguer 2 niveaux : articles factuels rapides (brief) vs articles d'investigation profonde (long format payant ?) ?
+- Mesure de la qualité a posteriori : engagement, partages, temps de lecture, taux de rebond, citations externes.
+
+### B. Stratégie social media
+Pas encore touché. Le vrai gap vs u-trail.com (qui a 125k FB). Angles à creuser :
+- Plateformes prioritaires : TikTok ? Instagram ? LinkedIn ? YouTube long format ? Newsletter (Klaviyo / Substack) ?
+- Cadence par plateforme.
+- Format production : reels auto-générés depuis articles (Veo3 / ChatGPT), carousels Canva, threads ?
+- Qui porte la voix publique (compte avec quel auteur identifiable) ?
+- Ton : reprend la ligne édito "questions qui dérangent" ?
+- Stratégie collaboration avec athlètes / marques / influenceurs.
+- KPIs réalistes à 3 / 6 / 12 mois.
+- Budget social (dans l'enveloppe 50-200€/mois acceptée 2026-05-18).
 
 ---
 
