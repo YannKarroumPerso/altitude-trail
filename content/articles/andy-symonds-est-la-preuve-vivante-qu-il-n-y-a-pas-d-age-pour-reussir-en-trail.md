@@ -8,7 +8,7 @@ author: "Yann Karroum"
 date: "26 avril 2026"
 updatedAt: "26 avril 2026"
 readTime: "5 min"
-image: "/logo-square.png"
+image: "/articles/a-44-ans-andy-symonds-domine-le-grand-raid-ventoux-by-utmb-et-redefinit-l-age-hero.jpg"
 tags: ["Andy Symonds", "Grand Raid Ventoux", "UTMB", "masters trail", "ultra-trail"]
 sourceUrl: "https://www2.u-trail.com/andy-symonds-est-la-preuve-vivante-quil-ny-a-pas-dage-pour-reussir-en-trail/"
 isLive: true
