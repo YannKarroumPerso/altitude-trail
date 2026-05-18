@@ -157,7 +157,7 @@ function hasGitChanges() {
   return out.trim().length > 0;
 }
 
-function commitAndPush(count) {
+async function commitAndPush(count) {
   if (!hasGitChanges()) {
     console.log("[publish] aucun changement à committer.");
     return;
@@ -195,7 +195,57 @@ function commitAndPush(count) {
         // modifs, fait le rebase, puis les restaure.
         execSync("git pull --rebase --autostash origin main", { stdio: "inherit" });
       } catch (pullErr) {
-        console.error("[publish] rebase echec:", pullErr);
+        // RECOVERY DATA.TS CONFLICT (2026-05-18 task #34) :
+        // Le rebase rate quand 2 crons publient en parallele et modifient tous deux
+        // src/lib/data.ts. Le merge auto echoue parce que les diffs ressemblent.
+        // Strategie de recuperation : abort, reset hard sur origin/main (qui contient
+        // deja TOUS les .md du remote), regenere data.ts a partir de content/articles/
+        // (qui contient TOUS les .md, locaux + remote car ils ont des slugs uniques
+        // donc pas de collision possible), recommit et retry push.
+        try {
+          const conflictedRaw = execSync("git diff --name-only --diff-filter=U", { encoding: "utf8" }).trim();
+          const conflictedFiles = conflictedRaw.split("\n").filter(Boolean);
+          const onlyDataConflict = conflictedFiles.length === 1 && conflictedFiles[0] === "src/lib/data.ts";
+          if (onlyDataConflict) {
+            console.warn("[publish] conflit data.ts seul detecte, recovery automatique...");
+            // 1) Sortir du rebase
+            try { execSync("git rebase --abort", { stdio: "inherit" }); } catch {}
+            // 2) Stash nos changements (notamment les nouveaux .md ajoutes)
+            //    --include-untracked pour capturer aussi les nouveaux fichiers
+            execSync("git stash push --include-untracked -m publish-conflict-recovery", { stdio: "inherit" });
+            // 3) Synchro sur origin/main propre
+            execSync("git fetch origin main", { stdio: "inherit" });
+            execSync("git reset --hard origin/main", { stdio: "inherit" });
+            // 4) Restaurer nos .md
+            try {
+              execSync("git stash pop", { stdio: "inherit" });
+            } catch (popErr) {
+              // Si stash pop conflict (cas rare : meme .md ajoute en parallele),
+              // on accepte les modifs distantes (les notres restent dans stash a
+              // recuperer manuellement, mais le run survit).
+              console.warn("[publish] stash pop conflict, on garde origin/main propre:", popErr.message);
+              execSync("git checkout --theirs .", { stdio: "inherit" });
+              execSync("git stash drop", { stdio: "inherit" });
+            }
+            // 5) Regenerer data.ts a partir de TOUS les .md actuels (locaux + remote)
+            const reloaded = await loadArticles();
+            await updateDataFile(reloaded);
+            // 6) Re-stage et recommit
+            execSync("git add content/articles public/articles src/lib/data.ts", { stdio: "inherit" });
+            const reStaged = execSync("git diff --cached --name-only", { encoding: "utf8" });
+            if (reStaged.trim()) {
+              const recoveryMsg = `chore(veille): publication de ${reloaded.length} article(s) [recovery merge]`;
+              execSync(`git commit -m ${JSON.stringify(recoveryMsg)}`, { stdio: "inherit" });
+              console.log("[publish] recovery commit cree, retry push au prochain tour");
+            } else {
+              console.log("[publish] rien a recommit apres recovery (deja inclus dans origin/main)");
+            }
+            continue; // retry push
+          }
+        } catch (recoveryErr) {
+          console.error("[publish] recovery echec:", recoveryErr);
+        }
+        console.error("[publish] rebase echec (non recoverable):", pullErr);
         throw pullErr;
       }
     }
@@ -208,7 +258,7 @@ async function main() {
   console.log(`[publish] ${articles.length} article(s) dans content/articles/`);
   const updated = await updateDataFile(articles);
   console.log(updated ? "[publish] src/lib/data.ts mis à jour." : "[publish] src/lib/data.ts inchangé.");
-  commitAndPush(articles.length);
+  await commitAndPush(articles.length);
 }
 
 main().catch((e) => {
