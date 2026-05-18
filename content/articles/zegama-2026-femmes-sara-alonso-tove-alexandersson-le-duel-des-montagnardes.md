@@ -8,7 +8,7 @@ author: "Marc Blanc"
 date: "13 mai 2026"
 publishedAt: "2026-05-13T18:00:00.000Z"
 readTime: "6 min"
-image: "/logo-square.png"
+image: "/articles/zegama-2026-femmes-sara-alonso-tove-alexandersson-le-duel-des-montagnardes-hero.jpg"
 tags:
   - Zegama
   - Sara Alonso
