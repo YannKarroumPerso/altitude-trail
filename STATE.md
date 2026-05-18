@@ -1,7 +1,7 @@
 # Altitude Trail — État de la machine
 
 > **Re-lecture obligatoire au début de chaque session Cowork.**
-> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-01**
+> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-02**
 
 Ce fichier est la mémoire long terme du projet entre sessions Claude/Cowork.
 À mettre à jour à chaque session significative (nouveaux features, décisions
@@ -109,7 +109,6 @@ structurantes, bugs résolus, conventions changées).
 - [ ] **Partenariats sources primaires** : accréditations ITRA, FFA, UTMB Group, GTWS.
 
 ### Bugs/dette technique non clos
-- [ ] **Fix publish.mjs : résoudre conflits `data.ts` auto après rebase** quand 2 crons push concurrement (task #34).
 - [ ] **88 articles legacy à renommer** pour filename = slug (actuellement gérés par 301 redirects, task #38).
 - [ ] **Notification email cassée** : `gmail_app_password` absent de `.secrets/`. À créer (App Password Gmail) si on veut récupérer les notifs workflow.
 
@@ -195,6 +194,10 @@ Yann doit envoyer un calendrier custom avec niveau d'investissement éditorial s
 ---
 
 ## Changelog versionné
+
+### v2026.05.18-02 — Fix bug conflits data.ts concurrent push
+- `scripts/publish.mjs` : recovery automatique sur conflit data.ts seul. Plus de fail "Process completed with exit code 1" quand 2 crons publient en parallèle. Task #34 close.
+- 2 runs avaient fail dans la journée (Veille Tavily #26035093926, Veille quotidienne #26022781695). Pattern résolu.
 
 ### v2026.05.18-01 — Première version de STATE.md
 - Création du fichier
