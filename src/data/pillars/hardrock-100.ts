@@ -8,7 +8,7 @@ import type { PillarDossier } from "./types";
 export const hardrock100: PillarDossier = {
   slug: "hardrock-100",
   name: "Hardrock 100",
-  tagline: "L'ultra le plus brutal d'Amérique du Nord. 160 km, 10 000 m+, à plus de 3 500 m d'altitude dans les San Juan du Colorado.",
+  tagline: "Hardrock 100 : l'ultra le plus brutal des USA peut-il survivre au réchauffement climatique des San Juan ? Programme 2026, palmarès, acclimatation altitude.",
   heroImage: "/logo-square.png",
   intro: `Le Hardrock Hundred Mile Endurance Run, créé en 1992 à Silverton (Colorado), est l'ultra de montagne le plus exigeant des États-Unis. 160 km en boucle dans les San Juan Mountains, 10 000 mètres de dénivelé positif, et une altitude moyenne de 3 360 m culminant à 4 282 m au Handies Peak. La course se court mi-juillet sous des conditions extrêmes : neige résiduelle aux passages les plus hauts, orages électriques quotidiens, hypothermie possible la nuit, mal aigu des montagnes garanti pour qui n'est pas acclimaté.
 

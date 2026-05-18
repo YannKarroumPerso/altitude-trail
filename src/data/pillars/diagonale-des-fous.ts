@@ -9,7 +9,7 @@ import type { PillarDossier } from "./types";
 export const diagonaleDesFous: PillarDossier = {
   slug: "diagonale-des-fous",
   name: "Diagonale des Fous",
-  tagline: "L'ultra mythique de La Réunion. 180 km, 10 200 m+, du sud au nord de l'île volcanique.",
+  tagline: "Diagonale des Fous 2026 : le nouveau tracé via Salazie est-il vraiment plus dur ? Programme, palmarès, comment se qualifier depuis l'Europe.",
   heroImage: "/logo-square.png",
   intro: `Le Grand Raid de La Réunion, plus connu sous le nom de Diagonale des Fous, est la course de référence du trail français hors métropole. Créée en 1989, elle traverse l'île volcanique du sud (Saint-Pierre) au nord (Saint-Denis). Le tracé évolue régulièrement : pour 2026, l'organisation annonce 180 kilomètres et 10 200 mètres de dénivelé positif, avec un passage par Salazie inédit, et un cut-off de 65 heures pour les derniers finishers.
 

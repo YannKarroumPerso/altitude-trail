@@ -9,7 +9,7 @@ import type { PillarDossier } from "./types";
 export const utmb: PillarDossier = {
   slug: "utmb",
   name: "UTMB Mont-Blanc",
-  tagline: "Le rendez-vous mondial du trail. Une course, une légende, sept jours d'épreuves à Chamonix.",
+  tagline: "UTMB Mont-Blanc 2026 : le mythe résiste-t-il à sa propre industrialisation ? Programme, palmarès, système de qualification Running Stones, retour annoncé de Kilian Jornet.",
   heroImage: "/logo-square.png",
   intro: `L'Ultra-Trail du Mont-Blanc, organisé chaque dernière semaine d'août à Chamonix, est devenu en vingt-deux éditions la course de référence du trail mondial. 171 kilomètres et 10 000 mètres de dénivelé positif autour du massif du Mont-Blanc, traversant la France, l'Italie et la Suisse, à boucler en moins de 46 heures 30.
 

@@ -8,7 +8,7 @@ import type { PillarDossier } from "./types";
 export const zegamaAizkorri2026: PillarDossier = {
   slug: "zegama-aizkorri-2026",
   name: "Zegama-Aizkorri 2026",
-  tagline: "Le marathon mythique du Pays basque. 42 km, 2 736 m+, le rendez-vous incontournable du skyrunning mondial.",
+  tagline: "Zegama-Aizkorri 2026 : Tove Alexandersson écrase Brinkman de 8 minutes. Que dit ce chrono sur l'évolution du sky-running féminin ? Recap, palmarès, prochains rendez-vous.",
   heroImage: "/logo-square.png",
   intro: `Le Zegama-Aizkorri Mendi Maratoia, créé en 2002 dans la sierra d'Aizkorri en Pays basque espagnol, est la course de skyrunning la plus suivie au monde. 42 kilomètres et 2 736 mètres de dénivelé positif, traversant les quatre sommets emblématiques du Guipuscoa : Aratz, Aizkorri, Aitxuri (1 551 m, point culminant) et Andraitz.
 

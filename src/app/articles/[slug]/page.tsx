@@ -6,6 +6,8 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import ArticleCard from "@/components/ui/ArticleCard";
 import AffiliationFooter from "@/components/ui/AffiliationFooter";
+import DossierBanner from "@/components/ui/DossierBanner";
+import RelatedArticles from "@/components/ui/RelatedArticles";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import JsonLd from "@/components/ui/JsonLd";
 import YouTubeEmbed from "@/components/ui/YouTubeEmbed";
@@ -276,6 +278,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </nav>
         );
       })()}
+      <DossierBanner hotEventSlug={article.hotEventSlug} />
+
       <div className="text-slate-700 leading-relaxed text-lg">
         {article.content ? (
           <ReactMarkdown components={markdownComponents}>
@@ -294,6 +298,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       </div>
 
       <AffiliationFooter article={article} />
+
+      <RelatedArticles article={article} />
 
       {article.youtubeVideoId && article.youtubeTitle && (
         <section className="mt-12 pt-8 border-t border-surface-container">

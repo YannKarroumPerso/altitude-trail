@@ -8,7 +8,7 @@ import type { PillarDossier } from "./types";
 export const westernStates100: PillarDossier = {
   slug: "western-states-100",
   name: "Western States 100",
-  tagline: "L'ultra le plus prestigieux du monde, fondateur de la discipline. 100 miles à travers la Sierra Nevada californienne.",
+  tagline: "Western States 100 : la mère de l'ultramarathon moderne est-elle encore le meilleur juge du trail mondial ? Programme 2026, palmarès, Golden Tickets, course.",
   heroImage: "/logo-square.png",
   intro: `Créée en 1974 par Gordy Ainsleigh, le Western States 100 Endurance Run est la mère de tous les ultras modernes. 161 kilomètres entre Olympic Valley (ex-Squaw Valley) et Auburn, en Californie, à boucler en moins de 30 heures pour décrocher la légendaire boucle d'argent (sub-24h).
 
