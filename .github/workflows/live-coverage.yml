@@ -1,0 +1,95 @@
+name: Live coverage (generique tous events)
+
+# Couverture LIVE generique applicable a TOUS les events HOT_EVENTS
+# (Mozart 100, Lavaredo, Western States, Hardrock, UTMB, Diagonale, etc.).
+# Le script scripts/live-blog.mjs detecte tout seul l'event actif et agit
+# en consequence (--create J-30h, --update toutes les heures J+/-24h, --close J+48h+).
+#
+# Conception 2026-05-20 (refactor apres bug Zegama : ancien workflow hard-code
+# avec contains() qui ne matchait jamais).
+
+on:
+  schedule:
+    # CREATE quotidien a 22h UTC (00h Paris) : verifie si un event arrive
+    # dans les 30 prochaines heures, si oui cree l'article isLive.
+    - cron: "0 22 * * *"
+    # UPDATE toutes les heures de 5h a 22h UTC (7h a 24h Paris CEST) :
+    # met a jour les articles isLive des events dans la fenetre [J-4h, J+24h].
+    - cron: "15 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 * * *"
+    # CLOSE quotidien a 23h UTC : ferme (isLive=false) les articles dont
+    # l'event est passe depuis 48h+.
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Mode (create | update | close)"
+        required: true
+        default: "update"
+        type: choice
+        options:
+          - create
+          - update
+          - close
+
+concurrency:
+  group: live-coverage
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  live-blog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - run: |
+          git config user.name "altitude-trail-claude-bot"
+          git config user.email "claude-bot@altitude-trail.fr"
+
+      # Determiner le mode selon le cron qui a declenche le workflow
+      - name: Determine mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "0 22 * * *" ]; then
+            echo "mode=create" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "30 23 * * *" ]; then
+            echo "mode=close" >> $GITHUB_OUTPUT
+          else
+            echo "mode=update" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run live-blog script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: node scripts/live-blog.mjs --${{ steps.mode.outputs.mode }}
+
+      - name: Commit + push + publish data.ts
+        if: always()
+        run: |
+          set -e
+          git add content/articles/*.md || true
+          if git diff --cached --quiet; then
+            echo "Aucun changement, skip commit."
+            exit 0
+          fi
+          ts=$(date -u +%Y%m%dT%H%M)
+          git commit -m "chore(live-blog): ${{ steps.mode.outputs.mode }} $ts"
+          for attempt in 1 2 3; do
+            if git push; then break; fi
+            echo "push echec attempt $attempt, rebase + retry..."
+            git pull --rebase --autostash origin main
+          done
+          npm run publish || true
