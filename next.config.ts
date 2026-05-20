@@ -520,7 +520,211 @@ const nextConfig: NextConfig = {
         destination: "/articles/le-chat-compagnon-insoupconne-du-traileur",
         permanent: true,
       },
-    ];
+    
+      // 40 redirects 301 : articles supprimes le 2026-05-20 car paraphrases d'u-trail.com
+      // (politique editoriale : aucune citation de ce concurrent). Suppression validee
+      // par Yann sur recommandation audit qualite (audit deblocage AdSense).
+      {
+        source: "/articles/a-seulement-22-ans-le-traileur-parisien-noa-ohms-remporte-un-100-miles-et",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/articles/andy-symonds-est-la-preuve-vivante-qu-il-n-y-a-pas-d-age-pour-reussir-en-trail",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/articles/avec-15-000-m-de-d-par-semaine-theo-detienne-redefinit-il-les-standards-de-preparation",
+        destination: "/categories/entrainement",
+        permanent: true,
+      },
+      {
+        source: "/articles/barkley-marathons-2026-deuxieme-edition-sans-finisher-raichon-complete-le-fun-run",
+        destination: "/categories/courses-recits",
+        permanent: true,
+      },
+      {
+        source: "/articles/benat-marmissolle-sur-l-utmb-2026-le-retour-d-un-champion-qui-a-tout-traverse",
+        destination: "/dossiers/utmb",
+        permanent: true,
+      },
+      {
+        source: "/articles/benoit-roux-le-responsable-des-benevoles-de-l-utmb-demissionne",
+        destination: "/dossiers/utmb",
+        permanent: true,
+      },
+      {
+        source: "/articles/clemquicourt-au-depart-du-baekdudaegan-ridge-trail-700-km-et-60-000-m-d-en-coree-du-sud",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/articles/clemquicourt-le-faux-depart-de-clement-deffrenne-et-ce-qu-il-revele-sur-le-trail-content",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/articles/comment-le-trail-alsace-by-utmb-va-montrer-l-exemple-a-nice",
+        destination: "/dossiers/utmb",
+        permanent: true,
+      },
+      {
+        source: "/articles/comment-recuperer-des-pieds-gonfles-apres-un-ultra-trail",
+        destination: "/categories/blessures",
+        permanent: true,
+      },
+      {
+        source: "/articles/controle-d-acces-aux-sentiers-une-carte-de-trail-obligatoire-des-le-1er-juin",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/articles/diagonale-des-fous-175-km-de-lave-et-1-500-euros-pour-le-vainqueur-le-paradoxe-du-trail",
+        destination: "/dossiers/diagonale-des-fous",
+        permanent: true,
+      },
+      {
+        source: "/articles/ecologie-de-facade-l-utmb-rend-obligatoire-l-utilisation-du-mode-lumiere-rouge-s",
+        destination: "/dossiers/utmb",
+        permanent: true,
+      },
+      {
+        source: "/articles/enceinte-de-quatre-mois-camille-bruyas-termine-huitieme-d-un-trail-de-56-km",
+        destination: "/categories/athletes",
+        permanent: true,
+      },
+      {
+        source: "/articles/francois-d-haene-record-du-gr20-en-juillet-2026-et-participation-a-l-ultra-terrestre",
+        destination: "/categories/athletes",
+        permanent: true,
+      },
+      {
+        source: "/articles/grossesse-enceinte-de-4-mois-camille-bruyas-termine-huitieme-d-un-trail-de-56-km",
+        destination: "/categories/athletes",
+        permanent: true,
+      },
+      {
+        source: "/articles/idee-d-enchainement-trail-cotes-montees-marche-rapide",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/articles/interview-de-julien-chorier-directeur-sportif-de-l-utmb-faut-il-autoriser-les-pa",
+        destination: "/dossiers/utmb",
+        permanent: true,
+      },
+      {
+        source: "/articles/jim-walmsley-notre-coureur-prefere-sera-bien-au-depart-de-la-western-states",
+        destination: "/dossiers/western-states-100",
+        permanent: true,
+      },
+      {
+        source: "/articles/kilian-jornet-quand-son-message-ecolo-sur-l-utmb-vire-au-placement-de-produit",
+        destination: "/dossiers/utmb",
+        permanent: true,
+      },
+      {
+        source: "/articles/l-effet-fomo-explique-pourquoi-les-courses-sur-route-et-les-trails-sont-pris-d",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/articles/la-reunion-l-ultra-terrestre-menace-la-diagonale-des-fous",
+        destination: "/dossiers/diagonale-des-fous",
+        permanent: true,
+      },
+      {
+        source: "/articles/le-principe-de-cette-course-etait-original",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/articles/les-4-seances-cles-pour-preparer-un-trail-a-fort-denivele",
+        destination: "/categories/entrainement",
+        permanent: true,
+      },
+      {
+        source: "/articles/live-transvulcania-comment-suivre-le-trail-en-direct-depuis-la-france",
+        destination: "/categories/courses-recits",
+        permanent: true,
+      },
+      {
+        source: "/articles/maladie-de-lyme-pfizer-et-valneva-franchissent-70-d-efficacite-apres-20-ans-de",
+        destination: "/categories/blessures",
+        permanent: true,
+      },
+      {
+        source: "/articles/mathieu-blanchard-quitte-salomon-et-signe-chez-kiprun-le-transfert-de-l-annee-trail",
+        destination: "/categories/equipement",
+        permanent: true,
+      },
+      {
+        source: "/articles/mathieu-blanchard-sous-les-couleurs-kiprun-une-saison-2026-a-construire",
+        destination: "/categories/equipement",
+        permanent: true,
+      },
+      {
+        source: "/articles/michel-poletti-le-projet-du-createur-de-l-utmb-nous-fait-penser-a-un-ultra-trail",
+        destination: "/dossiers/utmb",
+        permanent: true,
+      },
+      {
+        source: "/articles/miut-2026-madere-et-ses-118-km-de-volcans-la-course-qui-brise-les-certitudes-depuis-18-ans",
+        destination: "/categories/courses-recits",
+        permanent: true,
+      },
+      {
+        source: "/articles/montres-gps-qui-sont-ces-irreductibles-traileurs-qui-refusent-les-ecrans-amoled",
+        destination: "/categories/equipement",
+        permanent: true,
+      },
+      {
+        source: "/articles/pourquoi-le-fkt-de-clemquicourt-en-coree-ne-sera-pas-homologue",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/articles/pourquoi-quand-l-utmb-dit-que-le-ventoux-n-est-pas-loin-de-nice-c-est",
+        destination: "/dossiers/utmb",
+        permanent: true,
+      },
+      {
+        source: "/articles/quel-renforcement-musculaire-faut-il-faire-pour-preparer-un-trail-long",
+        destination: "/categories/entrainement",
+        permanent: true,
+      },
+      {
+        source: "/articles/skyrace-des-matheysins-l-un-des-trails-les-plus-spectaculaires-de-france",
+        destination: "/dossiers/zegama-aizkorri-2026",
+        permanent: true,
+      },
+      {
+        source: "/articles/trail-connaissez-vous-la-phase-dite-de-fraicheur-dans-un-plan-d-entrainement",
+        destination: "/categories/entrainement",
+        permanent: true,
+      },
+      {
+        source: "/articles/utmb-2026-baptiste-chassagne-veut-gagner-il-assume-sans-ambition",
+        destination: "/dossiers/utmb",
+        permanent: true,
+      },
+      {
+        source: "/articles/utmb-index-pourquoi-votre-score-a-baisse-alors-que-vous-n-y-etes-pour-rien",
+        destination: "/dossiers/utmb",
+        permanent: true,
+      },
+      {
+        source: "/articles/vaccin-anti-lyme-a-70-la-protection-qui-manquait-aux-traileurs-depuis-vingt-ans",
+        destination: "/categories/blessures",
+        permanent: true,
+      },
+      {
+        source: "/articles/vaccin-contre-lyme-a-plus-de-70-d-efficacite-le-tournant-que-le-trail-attendait",
+        destination: "/categories/blessures",
+        permanent: true,
+      },
+];
   },
   images: {
     // AVIF d'abord (compression -30% vs WebP, supporte Chrome 85+/Firefox 93+/Safari 16+)
