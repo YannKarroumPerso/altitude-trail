@@ -1,7 +1,7 @@
 # Altitude Trail — État de la machine
 
 > **Re-lecture obligatoire au début de chaque session Cowork.**
-> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-06**
+> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-07**
 
 Ce fichier est la mémoire long terme du projet entre sessions Claude/Cowork.
 À mettre à jour à chaque session significative (nouveaux features, décisions
@@ -220,6 +220,61 @@ Pas encore touché. Le vrai gap vs u-trail.com (qui a 125k FB). Angles à creuse
 - Stratégie collaboration avec athlètes / marques / influenceurs.
 - KPIs réalistes à 3 / 6 / 12 mois.
 - Budget social (dans l'enveloppe 50-200€/mois acceptée 2026-05-18).
+
+---
+
+## 12. Vision éditoriale 2026 (validée par Yann le 2026-05-18)
+
+**Cette section prime sur toutes les autres. À chaque décision éditoriale, partir de là.**
+
+### 3 piliers de contenu
+
+**Pilier 1 — Actualité chaude event** : couverture intensive de TOUTES les grandes courses du circuit mondial. UTMB World Series + Golden Trail World Series + Western States 100 + Hardrock 100 + Tor des Géants + Diagonale des Fous + courses FR hors UTMB.
+
+**Profondeur de couverture par event : 8 articles** sur le cycle complet (preview J-7 plateau + preview J-5 parcours + preview J-3 courses femmes + preview J-1 météo+comment regarder + live J + recap J+0 hommes/femmes + analyse J+2 tactique + bilan J+5 leçons). Live le jour J avec article isLive mis à jour toutes les heures.
+
+**Pilier 2 — Actualité chaude athlètes/marques** : devancer la concurrence. Mix **brève + analyse** :
+- Brève (300 mots) en J+0 : factuel sec, ton pressé
+- Analyse (600-800 mots) en J+1 : décryptage, perspective, angle éditorial assumé
+
+Sources surveillées en temps réel : 30 athlètes FR + 25 athlètes internationaux + 20 marques + 5 organisations. Listes maintenues dans `src/data/sources-athletes-marques.json`.
+
+**Pilier 3 — Articles de fond** : 7 articles/semaine selon planning thématique journalier :
+
+| Jour | Thème | Auteur |
+|---|---|---|
+| Lundi | Entraînement | Thomas Rouvier |
+| Mardi | Nutrition | Claire Mercier |
+| Mercredi | Équipement | Marc Blanc |
+| Jeudi | Blessures & prévention | Thomas Rouvier |
+| Vendredi | Science & Performance (peer-reviewed) | Thomas Rouvier |
+| Samedi | Guide pratique | Marc Blanc / Yann |
+| Dimanche | Portrait / récit | Marc Blanc |
+
+### 4 règles non-négociables
+
+1. **Tout doit être vrai** — fact-check IA 100% pré-publish. Si score < 70, l'agent ping Yann par email avec sujet "Altitude Trail FACT-CHECK DOUTE : [titre]". Yann décide go/no-go.
+2. **Poser des questions pour susciter**, pas asserter — ligne édito 2026 dans `scripts/lib/editorial-style.mjs`.
+3. **Bonnes pratiques Discover** — titres interrogatifs et impactants, JSON-LD complet, ImageObject riche, news-sitemap DESC.
+4. **Cible lecteur** : débutants + coureurs réguliers + intermédiaires. **PAS l'élite**. Ton "ce que TU peux faire à ton niveau".
+
+### 4 personae auteurs (conservés)
+- **Marc Blanc** — Actualités, courses & industrie
+- **Thomas Rouvier** — Science & Performance + Entraînement
+- **Claire Mercier** — Nutrition & récupération
+- **Yann Karroum** — Actualités, Débuter & Équipement (incarnation humaine)
+
+### Fact-check workflow
+Vérifications : palmarès, dates (course passée vs future), noms propres, citations peer-reviewed, données chiffrées. Score 0-100. Seuil 70. Ping email yannkarroum@gmail.com si doute. Nécessite `gmail_app_password` dans `.secrets/`.
+
+### Volume cible
+- ~4-6 articles event/jour pendant fenêtre hot (J-5 à J+3)
+- ~1-2 articles actu athlètes/marques par jour
+- 1 article de fond par jour
+- **Total : ~5-10 articles/jour** selon densité actu
+
+### Backlog à nettoyer (action Q10 validée 2026-05-18)
+~50-100 articles "faible valeur" à identifier via audit IA et supprimer/noindex pour débloquer AdSense.
 
 ---
 
