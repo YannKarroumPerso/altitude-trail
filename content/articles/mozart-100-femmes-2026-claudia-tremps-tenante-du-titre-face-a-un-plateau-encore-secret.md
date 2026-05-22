@@ -8,7 +8,7 @@ author: "Marc Blanc"
 date: "22 mai 2026"
 publishedAt: "2026-05-22T19:00:00.000Z"
 readTime: "5 min"
-image: "/logo-square.png"
+image: "/articles/mozart-100-femmes-2026-claudia-tremps-tenante-du-titre-face-a-un-plateau-encore-secret-hero.jpg"
 tags:
   - Mozart 100 by UTMB
   - Femmes
