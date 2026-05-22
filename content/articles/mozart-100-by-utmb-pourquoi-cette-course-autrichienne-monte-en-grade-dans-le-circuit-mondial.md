@@ -8,7 +8,7 @@ author: "Marc Blanc"
 date: "22 mai 2026"
 publishedAt: "2026-05-22T18:00:00.000Z"
 readTime: "6 min"
-image: "/logo-square.png"
+image: "/articles/mozart-100-by-utmb-pourquoi-cette-course-autrichienne-monte-en-grade-dans-le-circuit-mondial-hero.jpg"
 tags:
   - Mozart 100 by UTMB
   - UTMB World Series
