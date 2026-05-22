@@ -1,25 +1,19 @@
-name: Veille Tavily (4x/jour)
+name: Veille Tavily (2x/jour)
 
-# Tourne 4x par jour (8h15, 12h, 16h, 20h Paris, CEST+CET gérés).
-# En régime normal, le cap quotidien partagé (5 articles/jour) plafonne la
-# production : les 2e et 3e runs ne publient rien si le budget est déjà
-# atteint. En mode HOT EVENT (UTMB, Western, Hardrock, etc.), le cap monte
-# dynamiquement à 10 et chaque run peut pousser jusqu'à 3 articles spécifiques
-# à l'événement en cours.
+# Tourne 2x par jour (9h, 17h Paris, CEST+CET gérés).
+# Optimisation cout Anthropic 2026-05-22 : passage 4x/jour -> 2x/jour.
+# Le cap quotidien partagé (5 articles/jour) plafonne la production : avec
+# 2 runs/jour on couvre la demande. En mode HOT EVENT, le cap monte a 10
+# et chaque run peut pousser jusqu'a 3 articles. Les events sont aussi
+# couverts par live-coverage.yml (cron horaire dedie).
 on:
   schedule:
-    # 8h15 Paris
-    - cron: "15 6 * * *"  # CEST
-    - cron: "15 7 * * *"  # CET
-    # 12h Paris
-    - cron: "0 10 * * *"  # CEST
-    - cron: "0 11 * * *"  # CET
-    # 16h Paris
-    - cron: "0 14 * * *"  # CEST
-    - cron: "0 15 * * *"  # CET
-    # 20h Paris
-    - cron: "0 18 * * *"  # CEST
-    - cron: "0 19 * * *"  # CET
+    # 9h Paris
+    - cron: "0 7 * * *"  # CEST
+    - cron: "0 8 * * *"  # CET
+    # 17h Paris
+    - cron: "0 15 * * *"  # CEST
+    - cron: "0 16 * * *"  # CET
   workflow_dispatch:
     inputs:
       custom_query:

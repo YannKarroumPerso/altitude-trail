@@ -28,7 +28,9 @@ import { EDITORIAL_STYLE } from "./lib/editorial-style.mjs";
 import { pickAuthorForCategory } from "./lib/authors.mjs";
 
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_DATA;
-const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
+// Optimisation cout 2026-05-22 : Sonnet -> Haiku 4.5 (~4x moins cher).
+// Synthese videos = format court, Haiku suffit.
+const MODEL = process.env.ANTHROPIC_MODEL || "claude-haiku-4-5-20251001";
 const CONTENT_DIR = path.resolve("content/articles");
 const MAX_ARTICLES_PER_RUN = parseInt(process.env.MAX_ARTICLES_PER_RUN || "1", 10);
 const LOOKBACK_HOURS = parseInt(process.env.VEILLE_VIDEO_LOOKBACK_HOURS || "48", 10);
@@ -268,7 +270,7 @@ ${transcript.slice(0, 15000)}
 async function runClaude(client, video, transcript, sourceKind = "transcription") {
   const stream = client.messages.stream({
     model: MODEL,
-    max_tokens: 32000,
+    max_tokens: 6144, // optimisation cout 2026-05-22
     thinking: { type: "adaptive" },
     system: SYSTEM_PROMPT,
     messages: [{ role: "user", content: buildUserPrompt(video, transcript, sourceKind) }],

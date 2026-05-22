@@ -55,7 +55,10 @@ const SOURCES = [
 
 const CONTENT_DIR = path.resolve("content/articles");
 const PUBLIC_IMAGES_DIR = path.resolve("public/articles");
-const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
+// Optimisation cout 2026-05-22 : Sonnet -> Haiku 4.5 (~4x moins cher).
+// Reecriture article RSS source = Haiku gere si on accepte stylistique moins finee.
+// Sonnet peut etre force via env ANTHROPIC_MODEL=claude-sonnet-4-6 pour articles critiques.
+const MODEL = process.env.ANTHROPIC_MODEL || "claude-haiku-4-5-20251001";
 const MAX_PER_SOURCE = parseInt(process.env.MAX_ARTICLES_PER_SOURCE || "2", 10);
 const MIN_SOURCE_LENGTH = 400;
 // Image de secours (trail running ete). L'ancienne photo (1551698618) etait une scene de ski,
@@ -225,7 +228,7 @@ Réponds UNIQUEMENT avec le fichier markdown complet (frontmatter + corps de 100
 async function rewriteArticle(client, { title, sourceUrl, text }) {
   const stream = client.messages.stream({
     model: MODEL,
-    max_tokens: 32000, // partage avec thinking:adaptive, 16k ne suffit pas
+    max_tokens: 8192, // optimisation cout 2026-05-22 : Haiku 4.5, 8K suffit pour 1000-1200 mots sortie
     thinking: { type: "adaptive" },
     system: SYSTEM_PROMPT,
     messages: [{ role: "user", content: userPrompt({ title, sourceUrl, text }) }],

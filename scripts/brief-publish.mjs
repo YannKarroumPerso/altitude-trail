@@ -38,7 +38,9 @@ import { BRIEF_VERTICALS, pickBriefQueriesForRun } from "./lib/brief-queries.mjs
 import { BRIEF_SYSTEM_PROMPT, buildBriefUserPrompt } from "./lib/brief-prompt.mjs";
 import { isInHotEventWindow } from "./lib/hot-events-calendar.mjs";
 
-const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
+// Optimisation cout 2026-05-22 : passage Sonnet -> Haiku 4.5 (~4x moins cher).
+// Pour breves 300-500 mots, Haiku est largement suffisant.
+const MODEL = process.env.ANTHROPIC_MODEL || "claude-haiku-4-5-20251001";
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80";
 
 const CONTENT_DIR = path.resolve("content/articles");
@@ -77,10 +79,10 @@ function frDate(d) {
 async function runClaude(client, query, angle, categorySlug, vertical, sources) {
   const stream = client.messages.stream({
     model: MODEL,
-    // 32k pour laisser au thinking:adaptive de la marge sans tronquer le corps
-    // (thinking + sortie partagent ce budget).
-    max_tokens: 32000,
-    thinking: { type: "adaptive" },
+    // Optimisation cout 2026-05-22 : Haiku 4.5 + max_tokens 4K + sans thinking.
+    // Une breve de 300-500 mots tient largement dans 4K tokens. Le thinking
+    // adaptive consommait des tokens internes factures inutilement pour ce format.
+    max_tokens: 4096,
     system: BRIEF_SYSTEM_PROMPT,
     messages: [{
       role: "user",

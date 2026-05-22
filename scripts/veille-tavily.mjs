@@ -435,7 +435,17 @@ async function runClaude(client, query, angle, categorySlug, sources) {
     model: MODEL,
     max_tokens: 32000,
     thinking: { type: "adaptive" },
-    system: currentTitleStyle ? SYSTEM_PROMPT + "\n\n" + TITLE_STYLE_DIRECTIVES[currentTitleStyle] : SYSTEM_PROMPT,
+    // Prompt caching Anthropic (optimisation cout 2026-05-22) :
+    // le SYSTEM_PROMPT est statique entre appels (3-4K chars). Anthropic
+    // facture les hits cache 10% du tarif input normal. Sur 4 runs/jour ×
+    // 3 articles × ~3500 tokens system, on passe de 42k tokens/jour a 4.2k.
+    system: [
+      {
+        type: "text",
+        text: currentTitleStyle ? SYSTEM_PROMPT + "\n\n" + TITLE_STYLE_DIRECTIVES[currentTitleStyle] : SYSTEM_PROMPT,
+        cache_control: { type: "ephemeral" },
+      },
+    ],
     messages: [{ role: "user", content: buildUserPrompt(query, angle, categorySlug, sources) }],
   });
   const msg = await stream.finalMessage();
