@@ -1,7 +1,7 @@
 # Altitude Trail — État de la machine
 
 > **Re-lecture obligatoire au début de chaque session Cowork.**
-> Dernière mise à jour : **2026-05-18** · Version : **v2026.05.18-07**
+> Dernière mise à jour : **2026-05-22** · Version : **v2026.05.22-08**
 
 Ce fichier est la mémoire long terme du projet entre sessions Claude/Cowork.
 À mettre à jour à chaque session significative (nouveaux features, décisions
@@ -275,6 +275,43 @@ Vérifications : palmarès, dates (course passée vs future), noms propres, cita
 
 ### Backlog à nettoyer (action Q10 validée 2026-05-18)
 ~50-100 articles "faible valeur" à identifier via audit IA et supprimer/noindex pour débloquer AdSense.
+
+---
+
+## 13. Systèmes opérationnels (mis en place 2026-05-22)
+
+### Fact-check automatique
+- `scripts/lib/fact-checker.mjs` : agent Claude Haiku 4.5 qui analyse chaque article
+- Décisions : **GO** (score ≥ 70) / **REVIEW** (40-69, ping email) / **REJECT** (< 40)
+- Vérifie : claims à risque (palmarès, dates, chronos, citations), signaux qualité (sources, titres, angle éditorial), incohérences factuelles
+- `scripts/lib/email-notifier.mjs` : envoie email à `yannkarroum@gmail.com` via Gmail SMTP si REVIEW ou REJECT
+- `scripts/test-fact-check.mjs` : test manuel `node scripts/test-fact-check.mjs <article.md>`
+- **Validé en réel le 2026-05-22 sur l'article Mozart 100** : score 52, REVIEW, email envoyé OK
+
+### Live blog générique
+- `scripts/live-blog.mjs` : remplace zegama-live-blog (hard-codé) par système générique
+- 3 modes : `--create` (J-30h à J+0h), `--update` (J-4h à J+24h), `--close` (J+48h+)
+- Détection auto event actif via HOT_EVENTS
+- `.github/workflows/live-coverage.yml` : crons quotidiens generiques
+  - 22h UTC : create (verifie events J-30h)
+  - 5h-22h UTC chaque heure : update
+  - 23h UTC : close
+- Applicable a TOUS events HOT_EVENTS sans config manuelle
+
+### Listes 80 sources veille pilier 2
+- `src/data/sources-athletes-marques.json` : 30 athletes FR + 25 intl + 20 marques + 5 organisations
+- Chaque source : nom, categorie, URLs (Instagram, X, Facebook, site, ITRA, Strava, newsroom)
+- Consume par futur `scripts/veille-social.mjs` (a coder prochaine session)
+
+### Dashboard rédactionnel
+- `/admin/redaction` (Next.js page, robots noindex)
+- KPIs semaine + couverture event en cours (8 stages) + planning thématique hebdo + repartition auteurs/categories + articles publies + format comite editorial
+- Revalidation 5 min
+
+### Backlog AdSense nettoyé
+- 40 articles "u-trail paraphrases" supprimés + 40 redirects 301
+- ads.txt en ligne + JSON-LD ImageObject + auteurs E-E-A-T enrichis
+- Vision : ré-examen AdSense dans 5-7 jours après que Google a re-crawlé
 
 ---
 
