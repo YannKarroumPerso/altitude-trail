@@ -9,7 +9,7 @@ date: "22 mai 2026"
 publishedAt: "2026-05-22T15:19:53.024Z"
 updatedAt: "22 mai 2026"
 readTime: "12 min"
-image: "/logo-square.png"
+image: "/articles/mozart-100-en-direct-suivez-l-edition-minute-par-minute-hero.jpg"
 tags:
   - Mozart 100 by UTMB
   - UTMB World Series
