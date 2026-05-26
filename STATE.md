@@ -1,7 +1,7 @@
 # Altitude Trail — État de la machine
 
 > **Re-lecture obligatoire au début de chaque session Cowork.**
-> Dernière mise à jour : **2026-05-26** · Version : **v2026.05.26-09**
+> Dernière mise à jour : **2026-05-26** · Version : **v2026.05.26-10**
 
 Ce fichier est la mémoire long terme du projet entre sessions Claude/Cowork.
 À mettre à jour à chaque session significative (nouveaux features, décisions
@@ -313,7 +313,7 @@ Vérifications : palmarès, dates (course passée vs future), noms propres, cita
 - Conso estimee post-optimisation (Sonnet -> Haiku + fréquence /2) : ~800-1 200 credits/mois.
 - **Si Tavily tombe ou quota epuise** : TOUS les pipelines (veille-tavily, brief-publish, veille RSS, live-coverage update) produisent 0 article. SEULE alerte : HTTP 432 dans les logs GitHub Actions.
 - **Lecon 2026-05-26** : 3 jours de blackout (23-26 mai) car plan Free 1 000 credits depasse fin mai. Diagnostic initial pifometre (j'ai cru c'etait mes patches Haiku, en realite c'etait Tavily 432). Toujours verifier les dependances externes en premier.
-- **Monitoring a mettre en place** (TODO prochaine session) : alerte email automatique si Tavily renvoie 432 sur 2 requetes consecutives.
+- **Monitoring en place (2026-05-26 commit 6025e2d)** : alerte email automatique a yannkarroum@gmail.com des qu'une requete Tavily renvoie HTTP 432. Cooldown 1h dans le meme run pour eviter spam. Plus de blackout silencieux possible.
 
 ### Backlog AdSense nettoyé
 - 40 articles "u-trail paraphrases" supprimés + 40 redirects 301
