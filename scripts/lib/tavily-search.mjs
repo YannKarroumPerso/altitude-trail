@@ -8,6 +8,54 @@
 // Clé API : variable d'environnement TAVILY_API_KEY.
 // Plan gratuit : 1000 recherches / mois (largement suffisant pour notre usage).
 
+// Helper alerte email Yann si Tavily renvoie HTTP 432 (quota epuise).
+// Lazy import via dynamic import() pour eviter dependance forte et permettre
+// au notifier de fallback en dry-run automatique si pas de gmail_app_password.
+let _lastAlertSent432 = 0;
+const ALERT_COOLDOWN_MS = 60 * 60 * 1000; // 1h
+
+async function alertTavily432IfNeeded(errBody) {
+  const now = Date.now();
+  if (now - _lastAlertSent432 < ALERT_COOLDOWN_MS) {
+    console.log("[tavily-alert] cooldown actif (-1h), alerte 432 deja envoyee dans ce run, skip");
+    return;
+  }
+  _lastAlertSent432 = now;
+  try {
+    const { notifyYann } = await import("./email-notifier.mjs");
+    const runUrl = process.env.GITHUB_SERVER_URL
+      ? `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`
+      : "local";
+    await notifyYann({
+      subject: "[URGENT] Altitude Trail : Tavily quota epuise (HTTP 432)",
+      body: `Tavily renvoie HTTP 432 = quota mensuel epuise.
+
+PIPELINES IMPACTES (tous a l'arret tant que non resolu) :
+- veille-tavily (synthese articles)
+- brief-publish (breves)
+- veille RSS (si requete Tavily fallback)
+- live-coverage update (mise a jour articles isLive)
+
+ACTION REQUISE :
+1. Verifier conso sur https://app.tavily.com/account
+2. Upgrade plan si quota atteint trop tot (Project = $30/mo, 4 000 credits, cancel anytime)
+3. Ou attendre reset mensuel
+
+Sans action, AUCUN article ne sera produit.
+
+Detail erreur Tavily :
+${(errBody || "").slice(0, 500)}
+
+Cron source : ${process.env.GITHUB_WORKFLOW || "manuel"}
+Run : ${runUrl}
+`,
+    });
+    console.log("[tavily-alert] Email d'alerte 432 envoye a yannkarroum@gmail.com");
+  } catch (notifErr) {
+    console.error("[tavily-alert] Echec envoi alerte 432 :", notifErr.message);
+  }
+}
+
 const ENDPOINT = "https://api.tavily.com/search";
 
 /**
@@ -74,6 +122,11 @@ export async function tavilySearch(query, opts = {}) {
 
   if (!res.ok) {
     const text = await res.text().catch(() => "");
+    // HTTP 432 = Tavily quota epuise. Envoyer une alerte email immediate
+    // a Yann pour eviter le blackout silencieux (lecon 2026-05-26).
+    if (res.status === 432) {
+      await alertTavily432IfNeeded(text);
+    }
     throw new Error(`Tavily ${res.status}: ${text.slice(0, 300)}`);
   }
 
