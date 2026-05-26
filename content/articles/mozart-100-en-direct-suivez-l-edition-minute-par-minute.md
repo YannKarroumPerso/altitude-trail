@@ -16,7 +16,7 @@ tags:
   - Live
   - Trail
   - Autriche
-isLive: true
+isLive: false
 hotEventSlug: "mozart-100"
 externalRefs:
   - { url: "https://mozart.utmb.world/", label: "Mozart 100 by UTMB — Site officiel" }
