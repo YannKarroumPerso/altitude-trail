@@ -3,6 +3,23 @@ import { Article, Category } from "@/types";
 // AUTO-ARTICLES:START
 const generatedArticles: Article[] = [
   {
+    slug: "maxi-race-annecy-2026-en-direct-suivez-l-edition-minute-par-minute",
+    title: "MaXi-Race Annecy 2026 en direct : suivez l'edition minute par minute",
+    excerpt: "Suivez en direct sur Altitude Trail la course mythique MaXi-Race Annecy 2026. Mises a jour automatiques en continu pendant la course.",
+    category: "Courses & Récits",
+    categorySlug: "courses-recits",
+    author: "Marc Blanc",
+    date: "28 mai 2026",
+    updatedAt: "28 mai 2026",
+    publishedAt: "2026-05-28T05:12:15.986Z",
+    readTime: "12 min",
+    image: "/logo-square.png",
+    tags: ["MaXi-Race Annecy 2026","Live","Trail"],
+    isLive: true,
+    hotEventSlug: "maxi-race-annecy-2026",
+    content: "> **En direct.** Cette page est mise a jour automatiquement toutes les heures pendant la course. Derniere mise a jour : *28 mai 2026 - 07h12*.\n\n## Le contexte de la course\n\nMaXi-Race Annecy 2026 se court a Annecy, Haute-Savoie. Date officielle : 30 mai 2026.\n\n## Mises a jour live\n\n*Les mises a jour apparaissent ci-dessous au fur et a mesure de la course. Section actualisee automatiquement.*\n\n<!-- LIVE_UPDATES_START -->\n*En attente du depart...*\n<!-- LIVE_UPDATES_END -->\n\n## Comment regarder la course en direct\n\nRetransmission via les diffuseurs officiels de l'epreuve. Couverture francophone par Altitude Trail tout au long de la course.",
+  },
+  {
     slug: "mut-by-utmb-george-en-direct-suivez-l-edition-minute-par-minute",
     title: "Mountain Ultra Trail by UTMB en direct : suivez l'edition minute par minute",
     excerpt: "Suivez en direct sur Altitude Trail la course mythique Mountain Ultra Trail by UTMB. Mises a jour automatiques en continu pendant la course.",
