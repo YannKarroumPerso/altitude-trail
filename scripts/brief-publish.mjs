@@ -82,7 +82,7 @@ async function runClaude(client, query, angle, categorySlug, vertical, sources) 
     // Optimisation cout 2026-05-22 : Haiku 4.5 + max_tokens 4K + sans thinking.
     // Une breve de 300-500 mots tient largement dans 4K tokens. Le thinking
     // adaptive consommait des tokens internes factures inutilement pour ce format.
-    max_tokens: 4096,
+    max_tokens: 8192,
     system: BRIEF_SYSTEM_PROMPT,
     messages: [{
       role: "user",

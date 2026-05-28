@@ -228,7 +228,7 @@ Réponds UNIQUEMENT avec le fichier markdown complet (frontmatter + corps de 100
 async function rewriteArticle(client, { title, sourceUrl, text }) {
   const stream = client.messages.stream({
     model: MODEL,
-    max_tokens: 8192, // optimisation cout 2026-05-22 : Haiku 4.5, 8K suffit pour 1000-1200 mots sortie
+    max_tokens: 16384, // optimisation cout 2026-05-22 : Haiku 4.5, 8K suffit pour 1000-1200 mots sortie
     thinking: { type: "adaptive" },
     system: SYSTEM_PROMPT,
     messages: [{ role: "user", content: userPrompt({ title, sourceUrl, text }) }],

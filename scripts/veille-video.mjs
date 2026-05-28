@@ -270,7 +270,7 @@ ${transcript.slice(0, 15000)}
 async function runClaude(client, video, transcript, sourceKind = "transcription") {
   const stream = client.messages.stream({
     model: MODEL,
-    max_tokens: 6144, // optimisation cout 2026-05-22
+    max_tokens: 12288, // optimisation cout 2026-05-22
     thinking: { type: "adaptive" },
     system: SYSTEM_PROMPT,
     messages: [{ role: "user", content: buildUserPrompt(video, transcript, sourceKind) }],
