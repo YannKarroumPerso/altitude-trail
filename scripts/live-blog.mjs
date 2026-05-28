@@ -37,19 +37,43 @@ function nowParisLabel(d = new Date()) {
 }
 
 /**
- * Detecte l'event actif dans une fenetre [J-before, J+after] en heures.
- * Retourne le 1er event qui matche (ordre HOT_EVENTS).
+ * Calcule l'heure UTC effective de depart d'un event.
+ * Utilise event.startTimeUtc si fourni (format "HH:MM:SS"), sinon 08:00:00Z par defaut.
+ * Permet par exemple MaxiRace 5h Paris (3h UTC), MUT 7h SAST (5h UTC), UTMB 17h45.
  */
-function detectActiveEvent(window, now = new Date()) {
+function eventStartMs(event) {
+  const time = event.startTimeUtc || "08:00:00";
+  return new Date(event.start + "T" + time + "Z").getTime();
+}
+
+/**
+ * Detecte TOUS les events actifs dans une fenetre [J-before, J+after] en heures.
+ * Refactor 2026-05-28 : avant retournait 1 seul event (1er dans HOT_EVENTS),
+ * ce qui causait des oublis en cas de collision (ex MUT + MaxiRace meme weekend).
+ * Maintenant retourne array. Vide si aucun match.
+ */
+function detectAllActiveEvents(window, now = new Date()) {
   const nowMs = now.getTime();
+  const matches = [];
   for (const event of HOT_EVENTS) {
-    const startMs = new Date(event.start + "T08:00:00Z").getTime();
+    const startMs = eventStartMs(event);
     const diffHours = (nowMs - startMs) / (1000 * 60 * 60);
     if (diffHours >= -window.before && diffHours <= window.after) {
-      return { event, diffHours };
+      matches.push({ event, diffHours });
     }
   }
-  return null;
+  return matches;
+}
+
+/**
+ * Compat backward : retourne le 1er event actif (proche de J-0 en priorite).
+ */
+function detectActiveEvent(window, now = new Date()) {
+  const matches = detectAllActiveEvents(window, now);
+  if (matches.length === 0) return null;
+  // Trier par proximite a J-0 (diffHours absolu croissant)
+  matches.sort((a, b) => Math.abs(a.diffHours) - Math.abs(b.diffHours));
+  return matches[0];
 }
 
 function liveSlugFor(event) {
@@ -174,53 +198,62 @@ Format de sortie : juste le paragraphe, sans prefixe ni emoji.`;
 }
 
 async function updateMode() {
-  const detected = detectActiveEvent(UPDATE_WINDOW);
-  if (!detected) {
+  // Multi-events : on update TOUS les events actifs dans la fenetre.
+  // Refactor 2026-05-28 : avant ne traitait que le 1er, on a perdu des
+  // updates sur MUT vendredi quand MaxiRace est aussi devenue active.
+  const matches = detectAllActiveEvents(UPDATE_WINDOW);
+  if (matches.length === 0) {
     console.log("[live-blog] Aucun event dans la fenetre d'update (J-4h a J+24h)");
     return 0;
   }
-  const { event } = detected;
-  const slug = liveSlugFor(event);
-  const articlePath = path.join(CONTENT_DIR, `${slug}.md`);
-  if (!await fileExists(articlePath)) {
-    console.log(`[live-blog] Article live ${slug} introuvable, fallback create`);
-    return await createMode();
+  console.log(`[live-blog] ${matches.length} event(s) actif(s) en update : ${matches.map((m) => m.event.slug).join(", ")}`);
+  let totalUpdates = 0;
+  for (const { event } of matches) {
+    const slug = liveSlugFor(event);
+    const articlePath = path.join(CONTENT_DIR, `${slug}.md`);
+    if (!await fileExists(articlePath)) {
+      console.log(`[live-blog] [${event.slug}] Article live introuvable, skip (creation J-30h aurait du le faire)`);
+      continue;
+    }
+    try {
+      const query = `${event.name} ${new Date().getFullYear()} live results positions race report`;
+      const sources = await tavilySearch(query);
+      if (sources.length === 0) {
+        console.log(`[live-blog] [${event.slug}] Aucune source Tavily, skip update`);
+        continue;
+      }
+      const update = await generateLiveUpdate(event, sources);
+      if (!update || update.length < 40) {
+        console.log(`[live-blog] [${event.slug}] Update genere trop court, skip`);
+        continue;
+      }
+      const label = nowParisLabel();
+      const block = `\n**${label}** \u2014 ${update}\n`;
+      let content = await fs.readFile(articlePath, "utf8");
+      const startMarker = "<!-- LIVE_UPDATES_START -->";
+      const endMarker = "<!-- LIVE_UPDATES_END -->";
+      const endIdx = content.indexOf(endMarker);
+      if (endIdx === -1) {
+        console.error(`[live-blog] [${event.slug}] Marker LIVE_UPDATES_END introuvable, skip`);
+        continue;
+      }
+      const cleanedContent = content.replace(/\*En attente du depart\.\.\.\*\s*\n/, "");
+      const before = cleanedContent.slice(0, cleanedContent.indexOf(endMarker));
+      const after = cleanedContent.slice(cleanedContent.indexOf(endMarker));
+      content = before + block + "\n" + after;
+      const dateStr = new Date().toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
+      content = content.replace(/^updatedAt:\s*".*"$/m, `updatedAt: "${dateStr}"`);
+      content = content.replace(/Derniere mise a jour\s*:\s*\*[^*]+\*/, `Derniere mise a jour : *${label}*`);
+      await fs.writeFile(articlePath, content, "utf8");
+      console.log(`[live-blog] [${event.slug}] Update ajoute @ ${label}`);
+      totalUpdates++;
+    } catch (err) {
+      console.error(`[live-blog] [${event.slug}] Erreur update : ${err.message}`);
+    }
   }
-  // Recherche Tavily contextualisee par l'event
-  const query = `${event.name} ${new Date().getFullYear()} live results positions race report`;
-  const sources = await tavilySearch(query);
-  if (sources.length === 0) {
-    console.log("[live-blog] Aucune source Tavily, skip update");
-    return 0;
-  }
-  const update = await generateLiveUpdate(event, sources);
-  if (!update || update.length < 40) {
-    console.log("[live-blog] Update generated trop court, skip");
-    return 0;
-  }
-  const label = nowParisLabel();
-  const block = `\n**${label}** — ${update}\n`;
-  let content = await fs.readFile(articlePath, "utf8");
-  const startMarker = "<!-- LIVE_UPDATES_START -->";
-  const endMarker = "<!-- LIVE_UPDATES_END -->";
-  const endIdx = content.indexOf(endMarker);
-  if (endIdx === -1) {
-    console.error("[live-blog] Marker LIVE_UPDATES_END introuvable, abandon");
-    return 0;
-  }
-  // Cleaner "En attente du depart"
-  const cleanedContent = content.replace(/\*En attente du depart\.\.\.\*\s*\n/, "");
-  const before = cleanedContent.slice(0, cleanedContent.indexOf(endMarker));
-  const after = cleanedContent.slice(cleanedContent.indexOf(endMarker));
-  content = before + block + "\n" + after;
-  // Bump updatedAt + label
-  const dateStr = new Date().toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
-  content = content.replace(/^updatedAt:\s*".*"$/m, `updatedAt: "${dateStr}"`);
-  content = content.replace(/Derniere mise a jour\s*:\s*\*[^*]+\*/, `Derniere mise a jour : *${label}*`);
-  await fs.writeFile(articlePath, content, "utf8");
-  console.log(`[live-blog] Update ajoute @ ${label} pour ${slug}`);
-  return 1;
+  return totalUpdates;
 }
+
 
 async function closeMode() {
   // Pour chaque event J+2 ou plus, on cherche un article isLive et on retire le flag

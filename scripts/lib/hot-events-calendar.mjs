@@ -136,6 +136,7 @@ export const HOT_EVENTS = [
     slug: "maxi-race-annecy-2026",
     name: "MaXi-Race Annecy 2026",
     start: "2026-05-30",
+    startTimeUtc: "03:00:00",  // 5h Paris CEST
     location: "Annecy, Haute-Savoie",
     queries: [
       '"MaXi-Race" Annecy 2026 resultats tOur du Lac 100 km',
@@ -161,6 +162,7 @@ export const HOT_EVENTS = [
     slug: "mut-by-utmb-george",
     name: "Mountain Ultra Trail by UTMB",
     start: "2026-05-29",
+    startTimeUtc: "05:00:00",  // 7h SAST (Cape Town UTC+2)
     location: "George, Afrique du Sud",
     queries: [
       '"Mountain Ultra Trail" "by UTMB" 2026 George South Africa results',

@@ -15,7 +15,7 @@ on:
     - cron: "0 22 * * *"
     # UPDATE toutes les heures de 5h a 22h UTC (7h a 24h Paris CEST) :
     # met a jour les articles isLive des events dans la fenetre [J-4h, J+24h].
-    - cron: "15 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 * * *"
+    - cron: "15 2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 * * *"  # 2h-22h UTC (couvre MaxiRace 3h, MUT 5h, et events europeens)
     # CLOSE quotidien a 23h UTC : ferme (isLive=false) les articles dont
     # l'event est passe depuis 48h+.
     - cron: "30 23 * * *"
