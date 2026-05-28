@@ -29,7 +29,7 @@ const generatedArticles: Article[] = [
     date: "28 mai 2026",
     publishedAt: "2026-05-28T05:00:00.000Z",
     readTime: "6 min",
-    image: "/logo-square.png",
+    image: "/articles/maxi-race-annecy-2026-tour-du-lac-en-sens-horaire-favoris-formats-comment-suivre-hero.jpg",
     tags: ["MaxiRace","Annecy","Trail France","adidas TERREX"],
     externalRefs: [{"url":"https://www.maxi-race.org/","label":"MaXi-Race du lac d'Annecy — Site officiel"},{"url":"https://www.maxi-race.org/en/programme/","label":"MaXi-Race 2026 — Programme officiel"},{"url":"https://www.tourisme-haute-savoie.com/actualites-de-haute-savoie/animations-evenements/maxi-race-du-lac-dannecy-2026/","label":"Tourisme Haute-Savoie — MaXi-Race 2026 dates et parcours"},{"url":"https://www.summitsriders.com/maxi-race-2026/","label":"Summit Riders — Guide complet MaXi-Race 2026"}],
     hotEventSlug: "maxi-race-annecy-2026",
