@@ -25,7 +25,7 @@ const TAVILY_API = "https://api.tavily.com/search";
 const CONTENT_DIR = path.resolve("content/articles");
 
 // Fenetres en heures par rapport au depart de l'event
-const CREATE_WINDOW = { before: 30, after: 0 };  // article live cree de J-30h a J+0h
+const CREATE_WINDOW = { before: 60, after: 0 };  // J-2.5j a J+0h : couvre les events courts (samedi) declares jeudi  // article live cree de J-30h a J+0h
 const UPDATE_WINDOW = { before: 4, after: 24 };  // updates de J-4h a J+24h
 const CLOSE_WINDOW = { before: -48, after: 9999 }; // close apres J+48h
 
