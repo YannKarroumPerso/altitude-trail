@@ -8,7 +8,7 @@ author: "Marc Blanc"
 date: "28 mai 2026"
 publishedAt: "2026-05-28T05:00:00.000Z"
 readTime: "6 min"
-image: "/logo-square.png"
+image: "/articles/maxi-race-annecy-2026-tour-du-lac-en-sens-horaire-favoris-formats-comment-suivre-hero.jpg"
 tags:
   - MaxiRace
   - Annecy
