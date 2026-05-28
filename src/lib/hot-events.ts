@@ -31,6 +31,7 @@ export const HOT_EVENTS: HotEvent[] = [
   { slug: "grand-raid-ventoux-ugp", name: "Grand Raid Ventoux by UTMB", start: "2026-04-24", location: "Mont Ventoux, France", distance: "125 km", elevation: "5 700 m+" },
   { slug: "madeira-island-ultra-trail", name: "Madeira Island Ultra Trail", start: "2026-04-25", location: "Madere, Portugal", distance: "118 km" },
   { slug: "zegama-aizkorri-2026", name: "Zegama-Aizkorri 2026", start: "2026-05-17", location: "Pays Basque, Espagne", distance: "42 km", elevation: "2 736 m+" },
+  { slug: "maxi-race-annecy-2026", name: "MaXi-Race Annecy 2026", start: "2026-05-30", location: "Annecy, Haute-Savoie", distance: "100 km", elevation: "6 000 m+" },
   { slug: "mozart-100", name: "Mozart 100 by UTMB", start: "2026-05-23", location: "Salzbourg, Autriche", distance: "111 km", elevation: "6 100 m+" },
   { slug: "mut-by-utmb-george", name: "Mountain Ultra Trail by UTMB", start: "2026-05-29", location: "George, Afrique du Sud", distance: "108 km", elevation: "5 000 m+" },
   { slug: "trail-100-andorra-by-utmb", name: "Trail 100 Andorra by UTMB", start: "2026-06-13", location: "Andorre", distance: "104 km", elevation: "6 000 m+" },

@@ -133,6 +133,19 @@ export const HOT_EVENTS = [
     tags: ["MIUT", "ultra-trail", "live"],
   },
   {
+    slug: "maxi-race-annecy-2026",
+    name: "MaXi-Race Annecy 2026",
+    start: "2026-05-30",
+    location: "Annecy, Haute-Savoie",
+    queries: [
+      '"MaXi-Race" Annecy 2026 resultats tOur du Lac 100 km',
+      '"MaXi-Race 2026" Annecy parcours favoris plateau elite',
+      '"Maxi Race" Annecy 2026 vainqueur classement live',
+      '"adidas TERREX MaXi-Race" 2026 results finishers',
+    ],
+    tags: ["MaxiRace", "Annecy", "Haute-Savoie", "ultra-trail", "France", "live"],
+  },
+  {
     slug: "mozart-100",
     name: "Mozart 100 by UTMB",
     start: "2026-05-23",
