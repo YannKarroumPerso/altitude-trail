@@ -10,10 +10,8 @@ on:
   schedule:
     # 9h Paris
     - cron: "0 7 * * *"  # CEST
-    - cron: "0 8 * * *"  # CET
     # 17h Paris
     - cron: "0 15 * * *"  # CEST
-    - cron: "0 16 * * *"  # CET
   workflow_dispatch:
     inputs:
       custom_query:

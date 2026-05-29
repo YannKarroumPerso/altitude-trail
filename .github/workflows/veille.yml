@@ -7,11 +7,8 @@ on:
     # creneau sont queues et un seul tourne.
     # Cibles : 06:00, 11:30, 18:00 Paris.
     - cron: "0 4 * * *"   # 06:00 Paris CEST
-    - cron: "0 5 * * *"   # 06:00 Paris CET
     - cron: "30 9 * * *"  # 11:30 Paris CEST
-    - cron: "30 10 * * *" # 11:30 Paris CET
     - cron: "0 16 * * *"  # 18:00 Paris CEST
-    - cron: "0 17 * * *"  # 18:00 Paris CET
   workflow_dispatch:
   push:
     paths:

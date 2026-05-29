@@ -13,10 +13,8 @@ on:
   schedule:
     # 10h00 Paris
     - cron: "0 8 * * *"   # CEST
-    - cron: "0 9 * * *"   # CET
     # 15h00 Paris
     - cron: "0 13 * * *"  # CEST
-    - cron: "0 14 * * *"  # CET
   workflow_dispatch:
     inputs:
       vertical:

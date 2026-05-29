@@ -36,7 +36,11 @@ import { HOT_EVENTS, isInHotEventWindow, getEventSpecificQueries } from "./lib/h
 import { pickFrenchSubjectQueries } from "./lib/french-trail-names.mjs";
 import { generateImage, saveImage } from "./lib/image-generation.mjs";
 
-const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
+// Optimisation cout 2026-05-29 : Sonnet -> Haiku 4.5 apres detection conso $25/24h.
+// La duplication CEST/CET avait double la frequence, et Sonnet thinking adaptive
+// consommait 25K+ tokens par article. Haiku 4.5 produit articles 1000-1200 mots
+// de qualite acceptable. ANTHROPIC_MODEL env permet de forcer Sonnet ponctuellement.
+const MODEL = process.env.ANTHROPIC_MODEL || "claude-haiku-4-5-20251001";
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80";
 
 const CONTENT_DIR = path.resolve("content/articles");
@@ -433,8 +437,11 @@ async function runClaude(client, query, angle, categorySlug, sources) {
   // marge confortable (sonnet-4-6 supporte 64k en sortie).
   const stream = client.messages.stream({
     model: MODEL,
-    max_tokens: 32000,
-    thinking: { type: "adaptive" },
+    // Optimisation cout 2026-05-29 : max_tokens 32000 -> 16000 (Haiku produit
+    // 1200 mots en ~6K tokens, 16K laisse marge confortable). Thinking adaptive
+    // desactive (consommait 10-20K tokens internes factures inutilement avec
+    // Haiku qui n'en tire pas profit comme Sonnet).
+    max_tokens: 16000,
     // Prompt caching Anthropic (optimisation cout 2026-05-22) :
     // le SYSTEM_PROMPT est statique entre appels (3-4K chars). Anthropic
     // facture les hits cache 10% du tarif input normal. Sur 4 runs/jour ×
