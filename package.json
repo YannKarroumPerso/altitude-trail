@@ -15,7 +15,8 @@
     "backfill-seo": "node --env-file-if-exists=.env.local scripts/backfill-seo.mjs",
     "fix-style": "node --env-file-if-exists=.env.local scripts/fix-editorial-style.mjs",
     "veille-video": "node --env-file-if-exists=.env.local scripts/veille-video.mjs",
-    "sync-secrets": "node scripts/sync-secrets.mjs"
+    "sync-secrets": "node scripts/sync-secrets.mjs",
+    "cost-estimate": "node --env-file-if-exists=.env.local scripts/dev/cost-estimate.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0",

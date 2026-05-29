@@ -16,6 +16,7 @@
 // refusé si la vidéo a embed désactivé), refus des vidéos sans transcription.
 
 import fs from "node:fs/promises";
+import { trackCost, summarize } from "./lib/anthropic-cost-tracker.mjs";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
@@ -276,6 +277,7 @@ async function runClaude(client, video, transcript, sourceKind = "transcription"
     messages: [{ role: "user", content: buildUserPrompt(video, transcript, sourceKind) }],
   });
   const msg = await stream.finalMessage();
+  trackCost(MODEL, msg.usage || {});
   if (msg.stop_reason === "max_tokens") {
     throw new Error("Claude a atteint max_tokens (stop_reason=max_tokens), article rejeté.");
   }

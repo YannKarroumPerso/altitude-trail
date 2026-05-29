@@ -19,6 +19,7 @@
 // Env requis : TAVILY_API_KEY, ANTHROPIC_API_KEY, GEMINI_API_KEY.
 
 import fs from "node:fs/promises";
+import { trackCost, summarize } from "./lib/anthropic-cost-tracker.mjs";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
@@ -90,6 +91,7 @@ async function runClaude(client, query, angle, categorySlug, vertical, sources) 
     }],
   });
   const msg = await stream.finalMessage();
+  trackCost(MODEL, msg.usage || {});
   if (msg.stop_reason === "max_tokens") {
     throw new Error(
       "Claude a atteint max_tokens (stop_reason=max_tokens) - breve tronquee, rejetee."

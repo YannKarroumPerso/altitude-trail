@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import fs from "node:fs/promises";
+import { trackCost, summarize } from "./lib/anthropic-cost-tracker.mjs";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import Parser from "rss-parser";
@@ -234,6 +235,7 @@ async function rewriteArticle(client, { title, sourceUrl, text }) {
     messages: [{ role: "user", content: userPrompt({ title, sourceUrl, text }) }],
   });
   const message = await stream.finalMessage();
+  trackCost(MODEL, message.usage || {});
   if (message.stop_reason === "max_tokens") {
     throw new Error(
       "Claude a atteint max_tokens (stop_reason=max_tokens) - article tronque, rejete."

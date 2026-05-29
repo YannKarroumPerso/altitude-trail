@@ -17,6 +17,7 @@
  *  - getActiveOrUpcomingEvent(window) : retourne l'event dans la fenetre [J-X, J+Y]
  */
 import fs from "node:fs/promises";
+import { trackCost, summarize } from "./lib/anthropic-cost-tracker.mjs";
 import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
 import { HOT_EVENTS } from "./lib/hot-events-calendar.mjs";
@@ -194,6 +195,7 @@ Format de sortie : juste le paragraphe, sans prefixe ni emoji.`;
     max_tokens: 500,
     messages: [{ role: "user", content: prompt }],
   });
+  trackCost(MODEL, resp.usage || {});
   return resp.content[0].text.trim();
 }
 
