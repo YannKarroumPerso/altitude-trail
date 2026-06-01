@@ -14,7 +14,7 @@ tags:
   - Mountain Ultra Trail by UTMB
   - Live
   - Trail
-isLive: true
+isLive: false
 hotEventSlug: "mut-by-utmb-george"
 externalRefs:
 ---
