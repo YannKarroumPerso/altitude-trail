@@ -14,7 +14,7 @@ tags:
   - MaXi-Race Annecy 2026
   - Live
   - Trail
-isLive: true
+isLive: false
 hotEventSlug: "maxi-race-annecy-2026"
 externalRefs:
 ---
