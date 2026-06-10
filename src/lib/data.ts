@@ -3,6 +3,23 @@ import { Article, Category } from "@/types";
 // AUTO-ARTICLES:START
 const generatedArticles: Article[] = [
   {
+    slug: "trail-100-andorra-by-utmb-en-direct-suivez-l-edition-minute-par-minute",
+    title: "Trail 100 Andorra by UTMB en direct : suivez l'edition minute par minute",
+    excerpt: "Suivez en direct sur Altitude Trail la course mythique Trail 100 Andorra by UTMB. Mises a jour automatiques en continu pendant la course.",
+    category: "Courses & Récits",
+    categorySlug: "courses-recits",
+    author: "Marc Blanc",
+    date: "10 juin 2026",
+    updatedAt: "10 juin 2026",
+    publishedAt: "2026-06-10T23:40:21.824Z",
+    readTime: "12 min",
+    image: "/logo-square.png",
+    tags: ["Trail 100 Andorra by UTMB","Live","Trail"],
+    isLive: true,
+    hotEventSlug: "trail-100-andorra-by-utmb",
+    content: "> **En direct.** Cette page est mise a jour automatiquement toutes les heures pendant la course. Derniere mise a jour : *11 juin 2026 - 01h40*.\n\n## Le contexte de la course\n\nTrail 100 Andorra by UTMB se court a Andorre. Date officielle : 13 juin 2026.\n\n## Mises a jour live\n\n*Les mises a jour apparaissent ci-dessous au fur et a mesure de la course. Section actualisee automatiquement.*\n\n<!-- LIVE_UPDATES_START -->\n*En attente du depart...*\n<!-- LIVE_UPDATES_END -->\n\n## Comment regarder la course en direct\n\nRetransmission via les diffuseurs officiels de l'epreuve. Couverture francophone par Altitude Trail tout au long de la course.",
+  },
+  {
     slug: "courses-trail-indie-aux-etats-unis-la-fracture-qui-se-creuse-face-aux-grands",
     title: "Courses trail 'indie' aux États-Unis : la fracture qui se creuse face aux grands circuits",
     excerpt: "Trail Runner Mag vient de nommer et célébrer 13 courses 'indy' américaines. Ce qualificatif révèle un clivage profond dans le trail mondial : entre circuits institutionnels en expansion et culture grassroots qui refuse de disparaître.",
