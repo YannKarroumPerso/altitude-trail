@@ -14,7 +14,7 @@ tags:
   - Trail 100 Andorra by UTMB
   - Live
   - Trail
-isLive: true
+isLive: false
 hotEventSlug: "trail-100-andorra-by-utmb"
 externalRefs:
 ---
