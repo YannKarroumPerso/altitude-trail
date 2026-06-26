@@ -3,6 +3,23 @@ import { Article, Category } from "@/types";
 // AUTO-ARTICLES:START
 const generatedArticles: Article[] = [
   {
+    slug: "western-states-100-en-direct-suivez-l-edition-minute-par-minute",
+    title: "Western States 100 en direct : suivez l'edition minute par minute",
+    excerpt: "Suivez en direct sur Altitude Trail la course mythique Western States 100. Mises a jour automatiques en continu pendant la course.",
+    category: "Courses & Récits",
+    categorySlug: "courses-recits",
+    author: "Marc Blanc",
+    date: "26 juin 2026",
+    updatedAt: "26 juin 2026",
+    publishedAt: "2026-06-26T23:14:05.628Z",
+    readTime: "12 min",
+    image: "/logo-square.png",
+    tags: ["Western States 100","Live","Trail"],
+    isLive: true,
+    hotEventSlug: "western-states-100",
+    content: "> **En direct.** Cette page est mise a jour automatiquement toutes les heures pendant la course. Derniere mise a jour : *27 juin 2026 - 01h14*.\n\n## Le contexte de la course\n\nWestern States 100 se court a California, USA. Date officielle : 27 juin 2026.\n\n## Mises a jour live\n\n*Les mises a jour apparaissent ci-dessous au fur et a mesure de la course. Section actualisee automatiquement.*\n\n<!-- LIVE_UPDATES_START -->\n*En attente du depart...*\n<!-- LIVE_UPDATES_END -->\n\n## Comment regarder la course en direct\n\nRetransmission via les diffuseurs officiels de l'epreuve. Couverture francophone par Altitude Trail tout au long de la course.",
+  },
+  {
     slug: "lavaredo-ultra-trail-en-direct-suivez-l-edition-minute-par-minute",
     title: "Lavaredo Ultra Trail en direct : suivez l'edition minute par minute",
     excerpt: "Suivez en direct sur Altitude Trail la course mythique Lavaredo Ultra Trail. Mises a jour automatiques en continu pendant la course.",
