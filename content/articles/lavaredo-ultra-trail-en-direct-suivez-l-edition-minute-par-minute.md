@@ -14,7 +14,7 @@ tags:
   - Lavaredo Ultra Trail
   - Live
   - Trail
-isLive: true
+isLive: false
 hotEventSlug: "lavaredo-ultra-trail"
 externalRefs:
 ---
