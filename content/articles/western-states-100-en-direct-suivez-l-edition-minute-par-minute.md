@@ -14,7 +14,7 @@ tags:
   - Western States 100
   - Live
   - Trail
-isLive: true
+isLive: false
 hotEventSlug: "western-states-100"
 externalRefs:
 ---
