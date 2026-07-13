@@ -14,7 +14,7 @@ tags:
   - Hardrock 100
   - Live
   - Trail
-isLive: true
+isLive: false
 hotEventSlug: "hardrock-100"
 externalRefs:
 ---
