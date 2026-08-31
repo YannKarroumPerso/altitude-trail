@@ -14,7 +14,7 @@ tags:
   - UTMB Mont-Blanc
   - Live
   - Trail
-isLive: true
+isLive: false
 hotEventSlug: "utmb"
 externalRefs:
 ---
