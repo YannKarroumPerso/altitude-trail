@@ -15,7 +15,6 @@ const generatedArticles: Article[] = [
     readTime: "12 min",
     image: "/logo-square.png",
     tags: ["UTMB Mont-Blanc","Live","Trail"],
-    isLive: true,
     hotEventSlug: "utmb",
     content: "> **En direct.** Cette page est mise a jour automatiquement toutes les heures pendant la course. Derniere mise a jour : *26 août 2026 - 00h33*.\n\n## Le contexte de la course\n\nUTMB Mont-Blanc se court a Chamonix, France. Date officielle : 28 août 2026.\n\n## Mises a jour live\n\n*Les mises a jour apparaissent ci-dessous au fur et a mesure de la course. Section actualisee automatiquement.*\n\n<!-- LIVE_UPDATES_START -->\n*En attente du depart...*\n<!-- LIVE_UPDATES_END -->\n\n## Comment regarder la course en direct\n\nRetransmission via les diffuseurs officiels de l'epreuve. Couverture francophone par Altitude Trail tout au long de la course.",
   },
