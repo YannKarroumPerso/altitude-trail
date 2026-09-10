@@ -3,6 +3,23 @@ import { Article, Category } from "@/types";
 // AUTO-ARTICLES:START
 const generatedArticles: Article[] = [
   {
+    slug: "tor-des-geants-en-direct-suivez-l-edition-minute-par-minute",
+    title: "Tor des Géants en direct : suivez l'edition minute par minute",
+    excerpt: "Suivez en direct sur Altitude Trail la course mythique Tor des Géants. Mises a jour automatiques en continu pendant la course.",
+    category: "Courses & Récits",
+    categorySlug: "courses-recits",
+    author: "Marc Blanc",
+    date: "10 septembre 2026",
+    updatedAt: "10 septembre 2026",
+    publishedAt: "2026-09-10T23:55:04.794Z",
+    readTime: "12 min",
+    image: "/logo-square.png",
+    tags: ["Tor des Géants","Live","Trail"],
+    isLive: true,
+    hotEventSlug: "tor-des-geants",
+    content: "> **En direct.** Cette page est mise a jour automatiquement toutes les heures pendant la course. Derniere mise a jour : *11 septembre 2026 - 01h55*.\n\n## Le contexte de la course\n\nTor des Géants se court a Val d'Aoste, Italie. Date officielle : 13 septembre 2026.\n\n## Mises a jour live\n\n*Les mises a jour apparaissent ci-dessous au fur et a mesure de la course. Section actualisee automatiquement.*\n\n<!-- LIVE_UPDATES_START -->\n*En attente du depart...*\n<!-- LIVE_UPDATES_END -->\n\n## Comment regarder la course en direct\n\nRetransmission via les diffuseurs officiels de l'epreuve. Couverture francophone par Altitude Trail tout au long de la course.",
+  },
+  {
     slug: "utmb-en-direct-suivez-l-edition-minute-par-minute",
     title: "UTMB Mont-Blanc en direct : suivez l'edition minute par minute",
     excerpt: "Suivez en direct sur Altitude Trail la course mythique UTMB Mont-Blanc. Mises a jour automatiques en continu pendant la course.",
