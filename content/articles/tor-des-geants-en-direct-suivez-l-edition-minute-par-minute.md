@@ -14,7 +14,7 @@ tags:
   - Tor des Géants
   - Live
   - Trail
-isLive: true
+isLive: false
 hotEventSlug: "tor-des-geants"
 externalRefs:
 ---
