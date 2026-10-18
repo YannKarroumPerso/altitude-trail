@@ -14,7 +14,7 @@ tags:
   - Diagonale des Fous
   - Live
   - Trail
-isLive: true
+isLive: false
 hotEventSlug: "diagonale-des-fous"
 externalRefs:
 ---
